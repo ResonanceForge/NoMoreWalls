@@ -2059,6 +2059,42 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  name: tg频道:@ripaojiedian
+  password: awsps0501
+  port: 443
+  server: 57.180.12.240
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港|@ripaojiedian
+  password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff
+  port: 16007
+  server: hk007.dogsvip.site
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港2|@ripaojiedian
+  password: 9bfdde71b4c0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: newroot2v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /cauejypbltqt
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 103.103.245.158
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港3|@ripaojiedian
+  password: 7HJO64Y69YP2L0KM
+  port: 15013
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - name: 香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -2075,16 +2111,43 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 香港v2|@ripaojiedian
-  network: kcp
-  port: '34833'
-  server: 47.76.28.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 97f5bf6:94874
+    mode: tls
+  port: 2377
+  server: 3ce8ee8.b5.gladns.com
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: 🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507031938065-UXanxWSRH3.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇯🇵 日本2|@ripaojiedian
+  password: 823e135ed103
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp7v1.lingjfjkm002.com
+    mode: websocket
+    mux: true
+    path: /dchlbvrbbotc
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 137.220.191.40
+  tfo: false
+  type: ss
 - name: 日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -2101,6 +2164,13 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: aes-256-gcm
+  name: 🇯🇵 日本5|@ripaojiedian
+  password: CFH2Q2LTQ1LC9CRD
+  port: 18011
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 日本6|@ripaojiedian
@@ -2108,6 +2178,8 @@ proxies:
   port: '443'
   server: nmtow.hjdfghfc.asia
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 16f000d7-7805-459d-9130-200d00180b7c
@@ -2115,6 +2187,20 @@ proxies:
     headers:
       Host: file.dingtalk.com
     path: /market?ed=512
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷 韩国2|@ripaojiedian
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19852
+  server: h.cm2.xiaomi-api.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 韩国|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: 美国|@ripaojiedian
@@ -2122,6 +2208,8 @@ proxies:
   port: '30828'
   server: 111.26.109.79
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -2161,6 +2249,17 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
+- cipher: rc4-md5
+  name: 🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507031938065-UXanxWSRH3.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - name: 美国3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -2177,6 +2276,23 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇻🇳 越南|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.163.218.2
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 香港v2|@ripaojiedian
+  network: kcp
+  port: '34833'
+  server: 47.76.28.43
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
 - name: AE_speednode_0001
   network: ws
   port: 8880
