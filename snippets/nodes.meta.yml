@@ -1667,29 +1667,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 'Channel id: @ShadowProxy66'
-  password: dongtaiwang.com
-  port: 50850
-  server: 45.129.2.108
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 'Channel id: @ShadowProxy66 #1'
-  password: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9
-  port: 8443
-  server: 416910ec-syf5s0-szvfpn-laev.hy2.gotochinatown.net
-  sni: 416910ec-syf5s0-szvfpn-laev.hy2.gotochinatown.net
-  tls: false
-  type: hysteria2
-- name: 'Channel id: @ShadowProxy66 #2'
-  password: nfsn666
-  port: 8888
-  server: hk.nfsn666.gq
-  skip-cert-verify: true
-  sni: hk.nfsn666.gq
-  tls: false
-  type: hysteria2
 - name: '@vpnv2rayNGv'
   obfs: salamander
   obfs-password: SNLJD19ZejtSdxW4
@@ -1710,12 +1687,30 @@ proxies:
   sni: h2.gzcloud.shop
   tls: false
   type: hysteria2
-- name: https://t.me/V2ry_Proxy
-  password: 37d19f09-5fa4-4ad0-8484-55050b582a29
-  port: 2056
-  server: fr3.eyucdn.xyz
+- name: '@V2rayNG3'
+  password: '123456'
+  port: 443
+  server: 192.3.85.237
   skip-cert-verify: true
-  sni: fr3.eyucdn.xyz
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #1'
+  password: 15cca331-9e92-449d-93b0-25f82203595f
+  port: 20309
+  server: gb.gomeow.online
+  skip-cert-verify: false
+  sni: gb.gomeow.online
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #2'
+  obfs: salamander
+  obfs-password: de8287cd33b05fa3
+  password: 22f2c759db51b3d0
+  port: 12122
+  server: 109.120.135.123
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '@vpnv2rayNGv #1'
@@ -1733,6 +1728,51 @@ proxies:
   password: 3r6PBKy5DX
   port: 501
   server: p1.3dfigures.ir
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #3'
+  password: 75577117-ABCD-DCBA-AAAA-CC777775577B
+  port: 7777
+  server: s15.serv00.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #4'
+  obfs: salamander
+  obfs-password: '@azadi_az_inja_migzare'
+  password: '@azadi_az_inja_migzare'
+  port: 443
+  server: all-v4.dgi000.store
+  skip-cert-verify: false
+  sni: all-v4.dgi000.store
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #5'
+  obfs: salamander
+  obfs-password: bipbip
+  password: AtTK3tiEA0
+  port: 19037
+  server: p1.punchline.ir
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #6'
+  obfs: salamander
+  obfs-password: bleepbloop
+  password: AtTK3tiEA0
+  port: 2087
+  server: p1.punchline.ir
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #7'
+  obfs: salamander
+  obfs-password: bluhbluh
+  password: AtTK3tiEA0
+  port: 44929
+  server: p1.punchline.ir
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -1833,6 +1873,14 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
+- name: '@V2rayNG3 #8'
+  password: dongtaiwang.com
+  port: 50717
+  server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '@Filter_breaker |  NA #5'
   password: e8f9a0b1-c2d3-4567-f012-6789012345wx
   port: 9446
@@ -1845,6 +1893,16 @@ proxies:
   port: 444
   server: azadnet.t.me
   sni: www.speedtest.net
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #9'
+  obfs: salamander
+  obfs-password: dbc688df29e582d3
+  password: f8e40931bbb827df
+  port: 12123
+  server: 62.60.231.189
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '@Filter_breaker |  NA #7'
@@ -2001,39 +2059,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: tg频道:@ripaojiedian
-  password: awsps0501
-  port: 443
-  server: 52.195.220.57
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港2|@ripaojiedian
-  password: fd86b4005afd
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hkxwv1-5.dsjsapi.com
-    mode: websocket
-    mux: true
-    path: /bxpuuxbqsxeb
-    skip-cert-verify: false
-    tls: true
-  port: 10349
-  server: 134.122.155.213
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港3|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c47ab06:133288
-    mode: tls
-  port: 2377
-  server: 3ce8ee8.hb.gladns.com
-  tfo: false
-  type: ss
 - name: 香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -2050,32 +2075,16 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: rc4-md5
-  name: 🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202507031938065-GRRLQrsxj2.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 日本2|@ripaojiedian
-  password: 823e135ed103
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp7v1.lingjfjkm002.com
-    mode: websocket
-    mux: true
-    path: /dchlbvrbbotc
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 137.220.191.40
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 香港v2|@ripaojiedian
+  network: kcp
+  port: '34833'
+  server: 47.76.28.43
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
 - name: 日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -2087,25 +2096,25 @@ proxies:
 - name: 日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 53067
-  server: 36.151.251.29
+  port: 19577
+  server: 36.151.251.33
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷 韩国2|@ripaojiedian
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19852
-  server: h.cm2.xiaomi-api.xyz
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 日本6|@ripaojiedian
+  network: ws
+  port: '443'
+  server: nmtow.hjdfghfc.asia
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      Host: file.dingtalk.com
+    path: /market?ed=512
 - alterId: 2
   cipher: auto
   name: 美国|@ripaojiedian
@@ -2113,8 +2122,6 @@ proxies:
   port: '30828'
   server: 111.26.109.79
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -2146,13 +2153,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡3|@ripaojiedian
-  password: YjFmZ
-  port: 8388
-  server: sg.opensocks.site
-  tfo: false
-  type: ss
 - name: 新加坡4|@ripaojiedian
   network: tcp
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
@@ -2161,17 +2161,6 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- cipher: rc4-md5
-  name: 🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202507031938065-GRRLQrsxj2.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - name: 美国3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -2188,33 +2177,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇻🇳 越南|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 香港v2|@ripaojiedian
-  network: kcp
-  port: '34833'
-  server: 47.76.28.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
-- alterId: 0
-  cipher: auto
-  name: 台湾v2|@ripaojiedian
-  network: kcp
-  port: '17023'
-  server: 45.43.37.253
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fe797d32-6607-4b46-8e39-c4fb1e3c0872
 - name: AE_speednode_0001
   network: ws
   port: 8880
