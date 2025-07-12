@@ -1096,13 +1096,11 @@ proxies:
   udp: true
 - auth: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
   client-fingerprint: chrome
-  name: '@V2aryng_vpn #6'
+  name: 🇺🇸105 |  2.9MB/s
   password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
   port: 8443
   server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
-  skip-cert-verify: true
   sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
-  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
@@ -1316,6 +1314,38 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
+- name: USA-Hysteria2-@Filter_breaker
+  password: 627712cf-d0e1-4545-81fb-241e7fda0284
+  port: 443
+  server: 108.181.23.241
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'USA-Hysteria2-@Filter_breaker #1'
+  password: 627712cf-d0e1-4545-81fb-241e7fda0284
+  port: 443
+  server: 108.181.23.249
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'USA-Hysteria2-@Filter_breaker #2'
+  password: 627712cf-d0e1-4545-81fb-241e7fda0284
+  port: 443
+  server: 108.181.23.255
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 'USA-Hysteria2-@Filter_breaker #3'
+  password: 627712cf-d0e1-4545-81fb-241e7fda0284
+  port: 443
+  server: 204.10.194.86
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '@Filter_breaker | United State...'
   password: c7d8e9f0-1234-5bcd-6abc-7890abcdef12
   port: 443
@@ -1373,7 +1403,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
+    host: 202507031938065-xSDyIYO2PY.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
