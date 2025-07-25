@@ -2063,24 +2063,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 'Telegram:@config_proxy '
-  obfs: salamander
-  obfs-password: Skksksjsns
-  password: D9LQsYxAUo
-  port: 27557
-  server: 91.108.240.122
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 'Telegram:@config_proxy  #1'
-  obfs: salamander
-  obfs-password: Lzakmdjsia
-  password: D9LQsYxAUo
-  port: 58430
-  server: 91.108.240.122
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: Telegram@vmessorg
   password: JSC7GnvDM4mIitnCZXQo8IKSPs
   port: 29713
@@ -2152,6 +2134,36 @@ proxies:
   port: 33331
   server: 206.71.158.40
   sni: jnir-1.pichondan.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy '
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c311c807-7494-4e52-9a8a-5d3e7c0c3f30
+  port: 20557
+  server: nexiadg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiadg.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy  #1'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c311c807-7494-4e52-9a8a-5d3e7c0c3f30
+  port: 20457
+  server: nexiahl.688997.xyz
+  skip-cert-verify: true
+  sni: nexiahl.688997.xyz
+  tls: false
+  type: hysteria2
+- name: 'Telegram:@config_proxy  #2'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c311c807-7494-4e52-9a8a-5d3e7c0c3f30
+  port: 20957
+  server: nexiateq.688997.xyz
+  skip-cert-verify: true
+  sni: nexiateq.688997.xyz
   tls: false
   type: hysteria2
 - name: '@Filter_breaker | United State...'
