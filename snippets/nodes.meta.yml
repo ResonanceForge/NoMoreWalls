@@ -1637,6 +1637,30 @@ proxies:
   tls: false
   type: hysteria2
 - name: 未命名
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 153.121.42.218
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '2'
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 45.11.1.62
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '未命名 #1'
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 87.254.23.104
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '未命名 #2'
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -1644,7 +1668,7 @@ proxies:
   sni: www.apple.com.cn
   tls: false
   type: hysteria2
-- name: '未命名 #1'
+- name: '未命名 #3'
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy2.liangxin1.xyz
@@ -1652,7 +1676,7 @@ proxies:
   sni: www.tesla.cn
   tls: false
   type: hysteria2
-- name: '未命名 #2'
+- name: '未命名 #4'
   password: 37d19f09-5fa4-4ad0-8484-55050b582a29
   port: 2056
   server: zp1.eyucdn.xyz
@@ -1660,7 +1684,7 @@ proxies:
   sni: zp1.eyujichang.xyz
   tls: false
   type: hysteria2
-- name: '未命名 #3'
+- name: '未命名 #5'
   password: 37d19f09-5fa4-4ad0-8484-55050b582a29
   port: 2056
   server: zp2.eyucdn.xyz
@@ -1668,7 +1692,7 @@ proxies:
   sni: zp2.eyujichang.xyz
   tls: false
   type: hysteria2
-- name: '2'
+- name: '2 #1'
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
   server: 154.85.18.233
@@ -1676,7 +1700,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '2 #1'
+- name: '2 #2'
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
   server: 89.185.27.133
@@ -1691,7 +1715,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '未命名 #4'
+- name: '未命名 #6'
   password: RKrGw4dSUwK3YAvqdQI8tcqNl0
   port: 34060
   server: 35.94.124.236
@@ -1699,14 +1723,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '未命名 #5'
+- name: '未命名 #7'
   password: Wo9rLCYw6gzcfTgIu11mhBVciVs
   port: 29282
   server: 47.74.34.102
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '未命名 #6'
+- name: '未命名 #8'
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -1714,14 +1738,14 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '未命名 #7'
+- name: '未命名 #9'
   password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c
   port: 63518
   server: ovo.5188666.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '未命名 #8'
+- name: '未命名 #10'
   password: b866d83a-d301-4270-b699-40f322bf52fb
   port: 443
   server: 154.85.19.63
@@ -1729,7 +1753,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '2 #2'
+- name: '2 #3'
   password: b866d83a-d301-4270-b699-40f322bf52fb
   port: 443
   server: 89.185.27.133
@@ -1761,7 +1785,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '未命名 #9'
+- name: '未命名 #11'
   password: e10ea0d5-4244-4aec-9ba0-cafe77cc6d90
   port: 443
   server: aws-linkhy10.liangxin1.xyz
@@ -1769,10 +1793,80 @@ proxies:
   sni: www.teslaautomation.de
   tls: false
   type: hysteria2
-- name: '未命名 #10'
+- name: '未命名 #12'
   password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
   port: 10086
   server: asg.pagate.top
+  tls: false
+  type: hysteria2
+- name: CA@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ecb6728b-70e5-4b01-8cc1-19d6ffc84858
+  port: 33756
+  server: caca.yinheyz.cfd
+  skip-cert-verify: true
+  sni: caca.yinheyz.cfd
+  tls: false
+  type: hysteria2
+- name: FR@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ecb6728b-70e5-4b01-8cc1-19d6ffc84858
+  port: 33426
+  server: frfr.yinheyz.cfd
+  skip-cert-verify: true
+  sni: frfr.yinheyz.cfd
+  tls: false
+  type: hysteria2
+- name: GB@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ecb6728b-70e5-4b01-8cc1-19d6ffc84858
+  port: 33996
+  server: gbgb.yinheyz.cfd
+  skip-cert-verify: true
+  sni: gbgb.yinheyz.cfd
+  tls: false
+  type: hysteria2
+- name: IN@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ecb6728b-70e5-4b01-8cc1-19d6ffc84858
+  port: 33756
+  server: inin.yinheyz.cfd
+  skip-cert-verify: true
+  sni: inin.yinheyz.cfd
+  tls: false
+  type: hysteria2
+- name: NL@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ecb6728b-70e5-4b01-8cc1-19d6ffc84858
+  port: 33856
+  server: nlnl.yinheyz.cfd
+  skip-cert-verify: true
+  sni: nlnl.yinheyz.cfd
+  tls: false
+  type: hysteria2
+- name: SG@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ecb6728b-70e5-4b01-8cc1-19d6ffc84858
+  port: 33686
+  server: sgsg.yinheyz.cfd
+  skip-cert-verify: true
+  sni: sgsg.yinheyz.cfd
+  tls: false
+  type: hysteria2
+- name: US@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ecb6728b-70e5-4b01-8cc1-19d6ffc84858
+  port: 33856
+  server: usus.yinheyz.cfd
+  skip-cert-verify: true
+  sni: usus.yinheyz.cfd
   tls: false
   type: hysteria2
 - name: '   DIGITALOCEAN-ASN'
@@ -1790,7 +1884,7 @@ proxies:
   sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
-- name: '未命名 #11'
+- name: '未命名 #13'
   password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI
   port: 10264
   server: 13.212.75.22

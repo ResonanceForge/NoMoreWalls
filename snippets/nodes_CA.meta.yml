@@ -1,4 +1,14 @@
 proxies:
+- name: CA@Filter_breaker
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ecb6728b-70e5-4b01-8cc1-19d6ffc84858
+  port: 33756
+  server: caca.yinheyz.cfd
+  skip-cert-verify: true
+  sni: caca.yinheyz.cfd
+  tls: false
+  type: hysteria2
 - name: ' @Filter_breaker | CA-'
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
