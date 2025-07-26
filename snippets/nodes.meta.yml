@@ -1892,14 +1892,6 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '@ata_connect       '
-  password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
-  port: 30000
-  server: 79.72.81.183
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: 'TEL > @SaghiVpnXBOT- '
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
@@ -1996,6 +1988,14 @@ proxies:
   server: 107.174.41.101
   skip-cert-verify: true
   sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: '@SaghiVpnX[]'
+  password: 568b2070-e528-444e-9cc9-3ec3debe17bf
+  port: 443
+  server: jp03.poke-mon.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '10 https://dafei.de #2'
@@ -2126,7 +2126,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@SaghiVpnX[]'
+- name: '@SaghiVpnX[] #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2182,28 +2182,74 @@ proxies:
   sni: jnir-1.pichondan.com
   tls: false
   type: hysteria2
-- name: ' @Filter_breaker'
-  password: bd3e3f61-242a-42ae-8598-fc0821f29104
-  port: 50000
-  server: 153.121.42.218
+- name: '@Filter_breaker'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c290695a-35cf-4491-8d71-60a6ca559d17
+  port: 25784
+  server: dehub.xg-hub.icu
   skip-cert-verify: true
-  sni: www.microsoft.com
+  sni: dehub.xg-hub.icu
   tls: false
   type: hysteria2
-- name: ' @Filter_breaker #1'
-  password: bd3e3f61-242a-42ae-8598-fc0821f29104
-  port: 50000
-  server: 45.11.1.62
+- name: '@Filter_breaker #1'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c290695a-35cf-4491-8d71-60a6ca559d17
+  port: 25782
+  server: hkhub.xg-hub.icu
   skip-cert-verify: true
-  sni: www.microsoft.com
+  sni: hkhub.xg-hub.icu
   tls: false
   type: hysteria2
-- name: ' @Filter_breaker #2'
-  password: bd3e3f61-242a-42ae-8598-fc0821f29104
-  port: 50000
-  server: 87.254.23.104
+- name: '@Filter_breaker #2'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c290695a-35cf-4491-8d71-60a6ca559d17
+  port: 25781
+  server: jphub.xg-hub.icu
   skip-cert-verify: true
-  sni: www.microsoft.com
+  sni: jphub.xg-hub.icu
+  tls: false
+  type: hysteria2
+- name: '@Filter_breaker #3'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c290695a-35cf-4491-8d71-60a6ca559d17
+  port: 25783
+  server: krhub.xg-hub.icu
+  skip-cert-verify: true
+  sni: krhub.xg-hub.icu
+  tls: false
+  type: hysteria2
+- name: '@Filter_breaker #4'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c290695a-35cf-4491-8d71-60a6ca559d17
+  port: 25786
+  server: twhub.xg-hub.icu
+  skip-cert-verify: true
+  sni: twhub.xg-hub.icu
+  tls: false
+  type: hysteria2
+- name: '@Filter_breaker #5'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c290695a-35cf-4491-8d71-60a6ca559d17
+  port: 25785
+  server: ukhub.xg-hub.icu
+  skip-cert-verify: true
+  sni: ukhub.xg-hub.icu
+  tls: false
+  type: hysteria2
+- name: '@Filter_breaker #6'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: c290695a-35cf-4491-8d71-60a6ca559d17
+  port: 25780
+  server: ushub.xg-hub.icu
+  skip-cert-verify: true
+  sni: ushub.xg-hub.icu
   tls: false
   type: hysteria2
 - name: 'Telegram@vmessorg #1'
