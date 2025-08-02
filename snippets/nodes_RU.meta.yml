@@ -68,3 +68,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: RU_speednode_0040
+  network: ws
+  port: 8880
+  server: 176.124.223.251
+  servername: cf.d3z.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /
