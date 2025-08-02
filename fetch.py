@@ -569,7 +569,10 @@ class Node:
             ret += f"alpn={quote(','.join(data['alpn']))}&"
         if 'network' in data:
             if data['network'] == 'grpc':
-                ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+                ret += f"type=grpc&"
+                try:
+                    ret += f"serviceName={data['grpc-opts']['grpc-service-name']}&"
+                except KeyError: pass
             elif data['network'] == 'ws':
                 ret += f"type=ws&"
                 if 'ws-opts' in data:
