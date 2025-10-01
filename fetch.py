@@ -124,7 +124,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEUxNlx1NzU0Q1x1NTND
 """
 
 d = datetime.datetime.now()
-if STOP or False and not (LOCAL or PROXY)):
+if STOP or (False and not (LOCAL or PROXY)):
     DEBUG_NO_NODES = DEBUG_NO_DYNAMIC = STOP = True
 
 session = requests.Session()
