@@ -1,17 +1,19 @@
 proxies:
-- name: 日本 006
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 160.16.130.66
+  port: 6752
+  server: 160.16.124.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 007
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4729
-  server: 160.16.130.66
+  port: 3296
+  server: 36.156.102.88
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -3009,21 +3011,3 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: e7b88e16-7480-4ec1-e1f2-523b45462467
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 6752
-  server: 160.16.124.55
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 36.156.102.88
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
