@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: RU_speednode_0024
+  name: 'RU_speednode_0024 #1'
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -12,8 +12,21 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: RU_speednode_0025
+  network: ws
+  port: 2096
+  server: 5.182.85.54
+  servername: sni.aizrf.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: sni.aizrf.com
+    path: /snippetsfp=chrome
 - client-fingerprint: chrome
-  name: RU_speednode_0026
+  name: 'RU_speednode_0026 #1'
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -673,7 +686,7 @@ proxies:
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
-  name: RU_speednode_0025
+  name: 'RU_speednode_0025 #1'
   network: ws
   port: 2096
   server: 5.182.85.54

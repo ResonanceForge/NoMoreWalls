@@ -17,6 +17,19 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 'US_speednode_0032 #1'
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs?ed=2560
 - name: 美国 001
   network: tcp
   password: 90f45c05-917f-3b1b-a582-899cfe4cf7b3
@@ -3011,16 +3024,3 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: e7b88e16-7480-4ec1-e1f2-523b45462467
-- name: US_speednode_0032
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: 2053
-  server: nop-55q.pages.dev
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs?ed=2560
