@@ -1,1 +1,62 @@
-proxies: []
+proxies:
+- name: 俄罗斯 001
+  network: ws
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  skip-cert-verify: true
+  sni: hsdgbuys.pages.dev
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hsdgbuys.pages.dev
+    path: /
+- name: 俄罗斯 002
+  network: ws
+  password: vpn
+  port: 2025
+  server: 109.120.132.80
+  skip-cert-verify: true
+  sni: vkvd127.mycdn.me
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vkvd127.mycdn.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 006
+  network: ws
+  port: 8080
+  server: 194.87.106.131
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 054
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 055
+  network: tcp
+  port: 11052
+  server: 45.67.230.79
+  skip-cert-verify: true
+  type: vmess
+  uuid: 314185f7-931d-4656-922d-0857e7afd224
