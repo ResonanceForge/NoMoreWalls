@@ -685,6 +685,60 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 俄罗斯 059
+  network: ws
+  port: 2096
+  server: 185.59.218.54
+  servername: sni.aizrf.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: sni.aizrf.com
+    path: /snippets
+- name: 俄罗斯 060
+  network: ws
+  port: 2096
+  server: 193.9.49.54
+  servername: sni.aizrf.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: sni.aizrf.com
+    path: /snippets
+- name: 俄罗斯 061
+  network: ws
+  port: 2096
+  server: 213.241.198.54
+  servername: sni.aizrf.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: sni.aizrf.com
+    path: /snippets
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 062
+  network: tcp
+  port: 2098
+  server: 147.45.51.16
+  skip-cert-verify: true
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
 - client-fingerprint: chrome
   name: 'RU_speednode_0025 #1'
   network: ws

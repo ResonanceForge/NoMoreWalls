@@ -232,3 +232,33 @@ proxies:
     headers:
       Host: 9x.ru
     path: /Telegram-Xv2ry2-7?ed=1080
+- name: 英国 019
+  network: ws
+  port: 2096
+  server: 25.129.196.54
+  servername: sni.aizrf.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: sni.aizrf.com
+    path: /snippets
+- name: 英国 020
+  network: ws
+  port: 2096
+  server: 25.129.199.54
+  servername: sni.aizrf.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: sni.aizrf.com
+    path: /snippets

@@ -827,3 +827,67 @@ proxies:
     headers:
       Host: fapeng.org
     path: linkvws
+- name: 德国 065
+  network: ws
+  port: 2096
+  server: 5.10.214.54
+  servername: sni.aizrf.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: sni.aizrf.com
+    path: /snippets
+- client-fingerprint: chrome
+  name: 德国 066
+  network: xhttp
+  port: 4455
+  reality-opts:
+    public-key: l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA
+    short-id: 077dc29a23d311f2
+  server: V2ngFast.byte-server.ir
+  servername: stackoverflow.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 34a89207-93fd-4df8-9cdf-355a0c3426e4
+- name: 德国 067
+  network: grpc
+  port: 8880
+  server: 638949279865777517.brussels-prx-dnraacr.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 德国 068
+  network: ws
+  port: 80
+  server: 159.69.21.66
+  servername: www.movieee.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9cf7de8-33a6-42da-badd-c40ec172b5a0
+  ws-opts:
+    headers:
+      Host: www.movieee.ir
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 德国 069
+  network: tcp
+  port: 8080
+  server: hetz-vm3.danims.sbs
+  skip-cert-verify: true
+  type: vmess
+  uuid: 68bfcb00-d329-48c9-9143-52896a05e24f
