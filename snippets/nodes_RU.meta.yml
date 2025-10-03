@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: RU_speednode_0021
+  name: 'RU_speednode_0021 #1'
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -12,21 +12,8 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: RU_speednode_0025
-  network: ws
-  port: 2096
-  server: 5.182.85.54
-  servername: sni.aizrf.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    headers:
-      Host: sni.aizrf.com
-    path: /snippetsfp=chrome
 - client-fingerprint: chrome
-  name: RU_speednode_0022
+  name: 'RU_speednode_0022 #1'
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -38,6 +25,20 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'RU_speednode_0023 #1'
+  port: 443
+  reality-opts:
+    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
+    short-id: 16895459a2c7768d
+  server: wa.sfasti.ru
+  servername: wa.sfasti.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
 - name: 俄罗斯 001
   network: ws
   password: wb6368
@@ -739,17 +740,3 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
-    short-id: 16895459a2c7768d
-  server: wa.sfasti.ru
-  servername: wa.sfasti.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
