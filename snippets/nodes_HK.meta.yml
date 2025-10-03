@@ -36,9 +36,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '香港v2|@ripaojiedian #1'
+  name: 日本 008
   network: kcp
-  port: '54483'
+  port: 54483
   server: 13.231.211.146
   servername: ''
   tls: false
@@ -60,3 +60,24 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港3|@ripaojiedian
+  port: 12114
+  server: 103.224.80.49
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aa92855a-9932-4e87-b5c2-4aed159c7c78
+- alterId: 0
+  cipher: auto
+  name: 香港3|@ripaojiedian
+  network: tcp
+  port: '12114'
+  server: 103.224.80.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa92855a-9932-4e87-b5c2-4aed159c7c78
