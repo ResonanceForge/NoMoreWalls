@@ -7,12 +7,13 @@ proxies:
   sni: aliyun.com
   type: trojan
   udp: true
-- name: 中国 007
+- client-fingerprint: chrome
+  name: '香港4|@ripaojiedian #1'
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
   server: 221.128.195.217
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 中国 008
@@ -34,10 +35,12 @@ proxies:
   uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
 - alterId: 2
   cipher: auto
-  name: 中国 010
+  client-fingerprint: chrome
+  name: 香港5|@ripaojiedian
   network: ws
-  port: 80
+  port: '80'
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false

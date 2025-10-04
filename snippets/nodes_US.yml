@@ -1,6 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
+- name: 中国 006
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -3067,3 +3066,21 @@ proxies:
     headers:
       Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- client-fingerprint: chrome
+  name: 美国|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1572
+  server: 160.16.124.55
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 472
+  server: 36.156.102.88
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
