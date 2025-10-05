@@ -15,7 +15,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 'DE_speednode_0003 #1'
+  name: DE_speednode_0009
   port: 49330
   reality-opts:
     public-key: Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8
@@ -923,3 +923,130 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cdc95a8e-3acb-436f-8fc3-336ebd544003
+- name: 德国 071
+  network: grpc
+  port: 23279
+  server: 141.94.210.231
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30198cba-c828-4b34-8165-25942bad201e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: FR_speednode_0014
+  port: 443
+  reality-opts:
+    public-key: WNcXg-3WpjyiJ0bZiQ9xeQz954-l8DHWUa2tikS2WWg
+    short-id: 7e66
+  server: rack4.biseda2.eu
+  servername: rack4.biseda2.eu
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fc4876d-9b5a-4c78-9504-33d054c49e3f
+- name: 德国 073
+  network: ws
+  port: 80
+  server: khabar.motionbetter.ir
+  servername: mimi-god.com.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b9fb1fe-f919-426b-763c-55a5d9139e0e
+  ws-opts:
+    headers:
+      Host: mimi-god.com.
+    path: /
+- name: 德国 074
+  port: 443
+  server: de1.vlspeed.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5b25508-9550-482d-bb62-a36916fff829
+- name: 德国 075
+  port: 80
+  server: de1.vlspeed.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5b25508-9550-482d-bb62-a36916fff829
+- name: 德国 076
+  port: 8443
+  reality-opts: {}
+  server: de1.vlspeed.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5b25508-9550-482d-bb62-a36916fff829
+- name: 德国 077
+  network: grpc
+  port: 8880
+  server: 638950330462892661.neyshabur-prx-dnraacr.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- alterId: 0
+  cipher: auto
+  name: 德国 078
+  network: tcp
+  port: 8081
+  server: 91.107.172.48
+  skip-cert-verify: true
+  type: vmess
+  uuid: 617bda44-08b7-4106-927b-e47c242b4942
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: DE_speednode_0010
+  port: 443
+  reality-opts:
+    public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
+    short-id: 2d46a79deebf50fd
+  server: ge.connect-iskra.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
+- client-fingerprint: chrome
+  name: DE_speednode_0011
+  port: 6666
+  reality-opts:
+    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
+    short-id: b525ecd2fc
+  server: 188.68.53.100
+  servername: Tgju.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: DE_speednode_0012
+  port: 9696
+  reality-opts:
+    public-key: Y_GsfLRoTP6SXIyYQjrn8TM_nce7Y9RIoEfWTJ35sGI
+  server: 164.92.188.15
+  servername: icloud.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcc560e0-173b-4c49-a4ce-742c3fae0028
