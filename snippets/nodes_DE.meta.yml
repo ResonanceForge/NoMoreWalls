@@ -15,25 +15,6 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: DE_speednode_0009
-  port: 49330
-  server: vfast7.hvitrin.ir
-  servername: miro.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ac7b6757-05c0-4a28-8b08-14ab496a5fe4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: DE_speednode_0010
-  port: 443
-  server: ge.connect-iskra.ru
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
-- client-fingerprint: chrome
   name: 'DE_speednode_0009 #1'
   port: 6666
   reality-opts:
@@ -965,6 +946,17 @@ proxies:
   type: vless
   udp: true
   uuid: 30198cba-c828-4b34-8165-25942bad201e
+- name: 德国 072
+  port: 443
+  reality-opts:
+    public-key: WNcXg-3WpjyiJ0bZiQ9xeQz954-l8DHWUa2tikS2WWg
+  server: rack4.biseda2.eu
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fc4876d-9b5a-4c78-9504-33d054c49e3f
 - name: 德国 073
   network: ws
   port: 80
