@@ -18,6 +18,19 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
+  name: 'JP_speednode_0022 #1'
+  port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    short-id: 27cfa05000c23cc4
+  server: 147.45.49.17
+  servername: yandex.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- client-fingerprint: chrome
   grpc-opts: {}
   name: 日本 005
   network: grpc
@@ -813,22 +826,9 @@ proxies:
   uuid: 22acc467-7440-386a-927a-d84be554b37e
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 🇯🇵 日本|@ripaojiedian
+  name: '🇯🇵 日本|@ripaojiedian #1'
   password: be0a39a72e
   port: 28303
   server: 670ead.gkzltp.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: JP_speednode_0022
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    short-id: 27cfa05000c23cc4
-  server: 147.45.49.17
-  servername: yandex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
