@@ -15,8 +15,7 @@ proxies:
   sni: mg1.mangshe.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
+- name: 日本 004
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1572
@@ -11739,3 +11738,21 @@ proxies:
     headers:
       Host: n1w3napp4.clockdeny.eu
     path: /13111/Nextlife
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4234
+  server: 153.121.39.240
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 美国2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1177
+  server: 182.237.0.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
