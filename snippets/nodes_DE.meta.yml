@@ -1019,3 +1019,41 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 617bda44-08b7-4106-927b-e47c242b4942
+- name: 德国 079
+  network: ws
+  port: 2096
+  server: 185.135.9.50
+  servername: saas.sosocn.abrdns.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: saas.sosocn.abrdns.com
+    path: /snippets
+- name: 德国 080
+  network: ws
+  port: 2096
+  server: 185.135.9.52
+  servername: saas.git.cloudns.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: saas.git.cloudns.org
+    path: /snippets&freecodes+
+- name: 德国 081
+  network: grpc
+  port: 15349
+  server: 84.201.4.247
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b797d2a9-37b7-47e2-a7d2-d5f4c41c28e9

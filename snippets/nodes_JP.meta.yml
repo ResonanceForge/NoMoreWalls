@@ -822,6 +822,16 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 22acc467-7440-386a-927a-d84be554b37e
+- name: 日本 078
+  network: grpc
+  port: 8880
+  server: 638950280434435328.neyshabur-drc-tusacaf.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   name: '日本2|@ripaojiedian #1'
   network: tcp
