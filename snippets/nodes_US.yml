@@ -17,6 +17,20 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 'US_speednode_0037 #1'
+  network: ws
+  password: YwuvGJk36B
+  port: 2053
+  server: creativecommons.org
+  skip-cert-verify: false
+  sni: kotlet.arshiacomplus.dpdns.org
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kotlet.arshiacomplus.dpdns.org
+    path: /yamtekodasayahhh
 - alterId: 0
   cipher: auto
   name: 美国 001
@@ -204,20 +218,6 @@ proxies:
     headers:
       Host: lammaland.org
     path: linkvws
-- name: US_speednode_0037
-  network: ws
-  password: YwuvGJk36B
-  port: 2053
-  server: creativecommons.org
-  skip-cert-verify: false
-  sni: kotlet.arshiacomplus.dpdns.org
-  tfo: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kotlet.arshiacomplus.dpdns.org
-    path: /yamtekodasayahhh
 - alterId: 0
   cipher: auto
   name: 美国 071
