@@ -301,14 +301,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🇺🇲@FreakConfig #2'
-  password: dongtaiwang.com
-  port: 22222
-  server: 208.87.243.187
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 'WI-FI--@IRAN_V2RAY1 #2 #1'
   password: dongtaiwang.com
   port: 5355
@@ -334,15 +326,6 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '🇺🇲@FreakConfig #1 #1'
-  obfs: salamander
-  obfs-password: uvahwuicbhwabhvlhv
-  password: lHoYmNZmLe
-  port: 53713
-  server: pouria.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '@Daily_Configs #14 #1'
   password: miaoge110
   port: 40112
@@ -357,6 +340,23 @@ proxies:
   server: 103.249.133.79
   skip-cert-verify: true
   sni: ubuntu.com
+  tls: false
+  type: hysteria2
+- name: 🇺🇲@FreakConfig
+  password: dongtaiwang.com
+  port: 22222
+  server: 208.87.243.187
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '🇺🇲@FreakConfig #1'
+  obfs: salamander
+  obfs-password: uvahwuicbhwabhvlhv
+  password: lHoYmNZmLe
+  port: 53713
+  server: pouria.3dfigures.ir
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - alterId: 2
@@ -22316,6 +22316,29 @@ proxies:
   tls: false
   type: vmess
   uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
+- name: 🇭🇰 香港5|@ripaojiedian
+  password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
+  port: 30002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: lazy.rsqpq.cn
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 日本|@ripaojiedian
+  network: ws
+  port: '30806'
+  server: v6.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: '🇸🇬 新加坡3|@ripaojiedian #1'
@@ -22330,9 +22353,16 @@ proxies:
   name: '🇻🇳 越南|@ripaojiedian #1'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.51
+  server: 103.186.155.233
   tfo: false
   type: ss
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
+  port: 30002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  type: trojan
 - name: KR_speednode_0019
   password: test.+
   port: 30446
