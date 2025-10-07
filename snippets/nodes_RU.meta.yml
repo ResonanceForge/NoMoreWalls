@@ -1,21 +1,17 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'RU_speednode_0025 #1'
+  name: RU_speednode_0025
   port: 443
-  reality-opts:
-    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
-    short-id: 16895459a2c7768d
   server: 188.225.81.91
   servername: wa.sfasti.ru
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'RU_speednode_0026 #1'
+  name: RU_speednode_0021
   port: 443
   reality-opts:
     public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
@@ -29,7 +25,7 @@ proxies:
   uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'RU_speednode_0027 #1'
+  name: RU_speednode_0017
   port: 443
   reality-opts:
     public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
@@ -42,7 +38,7 @@ proxies:
   udp: true
   uuid: ed97e008-2b8d-4415-94c7-3da4919d361a
 - client-fingerprint: chrome
-  name: 'RU_speednode_0028 #1'
+  name: RU_speednode_0018
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -56,7 +52,7 @@ proxies:
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'RU_speednode_0029 #1'
+  name: RU_speednode_0020
   port: 443
   reality-opts:
     public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
@@ -393,12 +389,12 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 俄罗斯 027
+- name: SG_speednode_0023
   network: ws
   password: wb6368
   port: 2087
   server: 92.243.75.49
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hsdgbuys.pages.dev
   tfo: true
   type: trojan
@@ -956,3 +952,17 @@ proxies:
   type: vless
   udp: true
   uuid: 5cbd735a-b9f4-44a9-9e7a-818853b05ab2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0019
+  port: 443
+  reality-opts:
+    public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
+    short-id: 2d46a79deebf50fd
+  server: bridge.iskra-connect.xyz
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed97e008-2b8d-4415-94c7-3da4919d361a

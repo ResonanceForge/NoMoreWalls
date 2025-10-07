@@ -129,14 +129,13 @@ proxies:
   server: lazy.rsqpq.cn
   skip-cert-verify: true
   type: trojan
-- name: 'CN_speednode_0007 #1'
+- name: CN_speednode_0007
   password: 253bc477d4e43c209f2d427272968280
   port: 472
   server: 36.156.102.88
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 中国 009
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -1065,12 +1064,12 @@ proxies:
     headers:
       Host: google.com
     path: /vmess/
-- name: 美国 063
+- name: US_speednode_0037
   network: ws
   password: YwuvGJk36B
   port: 2053
   server: creativecommons.org
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: kotlet.arshiacomplus.dpdns.org
   tfo: true
   type: trojan
@@ -2006,12 +2005,12 @@ proxies:
     headers:
       Host: heihu880.pages.dev
     path: /?ed=2560
-- name: 俄罗斯 027
+- name: SG_speednode_0023
   network: ws
   password: wb6368
   port: 2087
   server: 92.243.75.49
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hsdgbuys.pages.dev
   tfo: true
   type: trojan
