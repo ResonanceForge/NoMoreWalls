@@ -1150,3 +1150,102 @@ proxies:
   type: vless
   udp: true
   uuid: b75854a3-f56d-4242-ae6b-d47bfc504b63
+- name: 法国 102
+  network: grpc
+  port: 22289
+  server: 141.227.180.39
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2db1052b-653e-46ba-8260-7f28758793c5
+- name: 法国 103
+  network: grpc
+  port: 8080
+  server: 141.227.162.108
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a2cf9db-902b-4271-8cf2-69334b31660b
+- name: 法国 104
+  network: grpc
+  port: 33289
+  server: 141.227.168.52
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f8d77cf-d78f-49f2-b68d-7f953f161729
+- name: 法国 105
+  network: ws
+  port: 80
+  server: 45.80.111.177
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: 'Telegram:'
+- name: 法国 106
+  network: grpc
+  port: 8080
+  server: 141.227.132.245
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5856ba11-25aa-4445-afe3-2aad99e3102b
+- name: 法国 107
+  network: grpc
+  port: 44570
+  server: 141.227.176.66
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a08f13d6-79b5-41b1-9ca4-ad952ff48420
+- name: 法国 108
+  network: grpc
+  port: 30624
+  server: 141.227.138.176
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a266d993-d44d-4893-b4a0-b51c3ebfb45f
+- name: 法国 109
+  network: grpc
+  port: 8880
+  server: 194.4.49.226
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- alterId: 0
+  cipher: auto
+  name: 法国 110
+  network: ws
+  port: 443
+  server: 51.77.20.137
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /linkvws

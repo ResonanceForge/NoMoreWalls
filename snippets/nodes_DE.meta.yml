@@ -1057,3 +1057,63 @@ proxies:
   type: vless
   udp: true
   uuid: b797d2a9-37b7-47e2-a7d2-d5f4c41c28e9
+- name: 德国 082
+  network: ws
+  port: 2096
+  server: 185.158.133.50
+  servername: saas.sosocn.abrdns.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: saas.sosocn.abrdns.com
+    path: /snippets
+- client-fingerprint: chrome
+  name: 德国 083
+  network: xhttp
+  port: 82
+  reality-opts:
+    public-key: -MfDOThNltWis5VDTGFNCP9DCsybTODpPoyC_i1n_GM
+    short-id: fd
+  server: in2.zizimax.ir
+  servername: check-host.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 436e1ab3-b37a-409d-bafb-57c6e2bf7eaa
+- name: 德国 084
+  port: 1331
+  reality-opts: {}
+  server: masterserver1.huqpmfood.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50428500-2ab8-4d5e-a469-bb819824c9fa
+- name: 德国 085
+  network: grpc
+  port: 8880
+  server: 638950330462896164.neyshabur-prx-dnraacr.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 德国 086
+  network: grpc
+  port: 8880
+  server: 638950330462896620.neyshabur-prx-dnraacr.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
