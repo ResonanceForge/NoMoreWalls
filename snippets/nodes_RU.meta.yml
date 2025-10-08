@@ -1,20 +1,16 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'RU_speednode_0017 #1'
+  name: RU_speednode_0017
   port: 443
-  reality-opts:
-    public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
-    short-id: 2d46a79deebf50fd
   server: 94.198.218.41
   servername: deepl.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: ed97e008-2b8d-4415-94c7-3da4919d361a
 - client-fingerprint: chrome
-  name: 'RU_speednode_0018 #1'
+  name: RU_speednode_0049
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -28,49 +24,73 @@ proxies:
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'RU_speednode_0019 #1'
+  name: RU_speednode_0019
   port: 443
-  reality-opts:
-    public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
-    short-id: 2d46a79deebf50fd
   server: bridge.iskra-connect.xyz
   servername: deepl.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: ed97e008-2b8d-4415-94c7-3da4919d361a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'RU_speednode_0020 #1'
+  name: RU_speednode_0020
   port: 443
-  reality-opts:
-    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
-    short-id: 16895459a2c7768d
   server: 66.90.90.10
   servername: wa.sfasti.ru
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'RU_speednode_0021 #1'
+  name: RU_speednode_0021
   port: 443
-  reality-opts:
-    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
-    short-id: 16895459a2c7768d
   server: wa.sfasti.ru
   servername: wa.sfasti.ru
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 001
+  name: 俄罗斯 002
+  network: grpc
+  port: 8880
+  server: 638930316257411243.neyshabur-drc-tusabt.info
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- client-fingerprint: chrome
+  grpc-opts: {}
+  name: 俄罗斯 003
+  network: grpc
+  port: 8880
+  server: 638928668169310838.rasht-drc-tusabp.info
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- client-fingerprint: chrome
+  grpc-opts: {}
+  name: 俄罗斯 004
+  network: grpc
+  port: 8880
+  server: 80.92.206.253
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- client-fingerprint: chrome
+  grpc-opts: {}
+  name: 俄罗斯 005
   network: grpc
   port: 8880
   server: 185.236.232.199
@@ -82,7 +102,7 @@ proxies:
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 002
+  name: 俄罗斯 006
   network: grpc
   port: 443
   server: 185.59.218.168
@@ -94,26 +114,8 @@ proxies:
   udp: true
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
 - client-fingerprint: chrome
-  name: 俄罗斯 003
-  network: ws
-  port: 2053
-  server: 89.169.160.84
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/120.0.0.0 Safari/537.36
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 004
+  name: 俄罗斯 007
   network: grpc
   port: 8880
   server: 185.236.232.108
@@ -125,7 +127,7 @@ proxies:
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 005
+  name: 俄罗斯 008
   network: grpc
   port: 8880
   server: 185.236.232.139
@@ -137,7 +139,7 @@ proxies:
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 006
+  name: 俄罗斯 009
   network: grpc
   port: 8880
   server: 185.236.232.141
@@ -149,7 +151,7 @@ proxies:
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 007
+  name: 俄罗斯 010
   network: grpc
   port: 8880
   server: 185.231.205.239
@@ -161,7 +163,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 008
+  name: 俄罗斯 011
   network: grpc
   port: 8880
   server: 80.92.206.19
@@ -173,7 +175,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 009
+  name: 俄罗斯 012
   network: grpc
   port: 8880
   server: pqh30v8.waipdirect.shop
@@ -185,7 +187,7 @@ proxies:
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 010
+  name: 俄罗斯 013
   network: grpc
   port: 8880
   server: pqh24v1.vetrkot.com
@@ -197,7 +199,7 @@ proxies:
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 011
+  name: 俄罗斯 014
   network: grpc
   port: 8880
   server: 185.236.232.243
@@ -209,7 +211,7 @@ proxies:
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 012
+  name: 俄罗斯 015
   network: grpc
   port: 8880
   server: 185.236.232.116
@@ -221,52 +223,10 @@ proxies:
   uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 俄罗斯 013
-  network: grpc
-  port: 8880
-  server: 185.236.232.148
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- client-fingerprint: chrome
-  name: 俄罗斯 014
-  network: ws
-  port: 443
-  server: 91.201.113.193
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/120.0.0.0 Safari/537.36
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- client-fingerprint: chrome
-  grpc-opts: {}
-  name: 俄罗斯 015
-  network: grpc
-  port: 8880
-  server: 185.236.232.189
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
-- client-fingerprint: chrome
-  grpc-opts: {}
   name: 俄罗斯 016
   network: grpc
   port: 8880
-  server: 185.236.232.91
+  server: 185.236.232.148
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -278,7 +238,7 @@ proxies:
   name: 俄罗斯 017
   network: grpc
   port: 8880
-  server: 185.236.232.120
+  server: 185.236.232.189
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -290,7 +250,7 @@ proxies:
   name: 俄罗斯 018
   network: grpc
   port: 8880
-  server: 185.236.232.240
+  server: 185.236.232.91
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -302,7 +262,7 @@ proxies:
   name: 俄罗斯 019
   network: grpc
   port: 8880
-  server: 185.236.232.221
+  server: 185.236.232.120
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -314,7 +274,7 @@ proxies:
   name: 俄罗斯 020
   network: grpc
   port: 8880
-  server: 185.236.232.72
+  server: 185.236.232.240
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -326,7 +286,7 @@ proxies:
   name: 俄罗斯 021
   network: grpc
   port: 8880
-  server: pqh29v2.waipdirect.shop
+  server: 185.236.232.221
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -338,7 +298,7 @@ proxies:
   name: 俄罗斯 022
   network: grpc
   port: 8880
-  server: 185.236.232.109
+  server: 185.236.232.72
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -350,7 +310,7 @@ proxies:
   name: 俄罗斯 023
   network: grpc
   port: 8880
-  server: 185.236.232.129
+  server: pqh29v2.waipdirect.shop
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -362,7 +322,7 @@ proxies:
   name: 俄罗斯 024
   network: grpc
   port: 8880
-  server: 185.236.232.123
+  server: 185.236.232.109
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -374,7 +334,7 @@ proxies:
   name: 俄罗斯 025
   network: grpc
   port: 8880
-  server: pqh23v4.vetmainconf.shop
+  server: 185.236.232.129
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -386,13 +346,25 @@ proxies:
   name: 俄罗斯 026
   network: grpc
   port: 8880
-  server: 80.92.206.253
+  server: 185.236.232.123
   skip-cert-verify: true
   tfo: true
   tls: true
   type: vless
   udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- client-fingerprint: chrome
+  grpc-opts: {}
+  name: 俄罗斯 027
+  network: grpc
+  port: 8880
+  server: pqh23v4.vetmainconf.shop
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - name: 俄罗斯 028
   network: ws
   password: vpn
@@ -621,26 +593,6 @@ proxies:
   network: grpc
   port: 8880
   server: 185.231.205.99
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 俄罗斯 048
-  network: grpc
-  port: 8880
-  server: 638928668169310838.rasht-drc-tusabp.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 俄罗斯 049
-  network: grpc
-  port: 8880
-  server: 638930316257411243.neyshabur-drc-tusabt.info
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -942,3 +894,18 @@ proxies:
   type: vless
   udp: true
   uuid: 5cbd735a-b9f4-44a9-9e7a-818853b05ab2
+- client-fingerprint: firefox
+  name: 俄罗斯 048
+  network: grpc
+  port: 7033
+  reality-opts:
+    public-key: iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE
+    short-id: 16b6cda7ab793526
+  server: russiasefid.vtuix.space
+  servername: telewebion.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f391c9f6-87af-47c9-b838-39c50c0992ca
