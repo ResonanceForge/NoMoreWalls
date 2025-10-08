@@ -1,14 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: FR_speednode_0010
-  port: 443
-  server: 38.54.122.118
-  servername: dash.cloudflare.com
+- name: FR_speednode_0021
+  network: ws
+  port: 2096
+  server: 185.7.240.32
+  servername: kejiland.freewarp.eu.org
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 9f4b9824-df02-49c3-a976-d4f9a31f81fe
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippetssecurity=tls
 - alterId: 0
   cipher: auto
   name: 法国 001
@@ -55,7 +58,7 @@ proxies:
       Host: kampong.org
     path: linkvws
 - client-fingerprint: chrome
-  name: FR_speednode_0021
+  name: 'FR_speednode_0021 #1'
   network: ws
   port: 2096
   server: 185.7.240.32

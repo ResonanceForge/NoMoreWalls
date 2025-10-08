@@ -1,4 +1,72 @@
 proxies:
+- client-fingerprint: chrome
+  name: 'CN_speednode_0018 #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 6752
+  server: 36.156.102.88
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 'CN_speednode_0017 #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1572
+  server: 36.156.102.88
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 中国 002
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 58.152.25.23
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 003
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4431
+  server: 221.128.195.218
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 005
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3271
+  server: 36.156.102.88
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 006
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 26295
+  server: 36.156.102.86
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 007
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2200
+  server: 182.237.0.26
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 008
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1177
+  server: 182.237.0.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 中国 011
