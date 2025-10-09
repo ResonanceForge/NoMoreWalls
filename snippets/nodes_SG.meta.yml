@@ -7,10 +7,21 @@ proxies:
   sni: xjp2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 新加坡2|@ripaojiedian
+- client-fingerprint: chrome
+  name: '新加坡|@ripaojiedian #1'
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 1085
-  server: 153.121.39.240
+  port: 5041
+  server: 153.121.70.134
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '新加坡2|@ripaojiedian #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1536
+  server: 160.16.81.84
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -68,9 +79,51 @@ proxies:
     headers:
       Host: test.sachix.online
     path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: tj
+  name: 新加坡 001
+  network: grpc
+  port: 20230
+  reality-opts:
+    public-key: hBXQa1tSoP0jjIezHxeyKhf1YKxe8CoBHoxvIxEJuAc
+    short-id: 2c5ecaae
+  server: sg003.421421.xyz
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+- name: 新加坡 002
+  network: ws
+  password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a
+  port: 20230
+  server: sg006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: /
+- encryption: none
+  name: 新加坡 003
+  network: ws
+  port: 81
+  server: 188.166.227.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 4aab091f-70c6-41d2-a9cf-a002be414821
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /FREE By Tharuwa (0767597317)
 - alterId: 0
   cipher: auto
-  name: 新加坡 001
+  name: 新加坡 004
   network: ws
   port: 8848
   server: 23.101.27.60
@@ -85,7 +138,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 新加坡 002
+  name: 新加坡 005
   network: ws
   port: 8080
   server: 18.139.108.70
@@ -100,7 +153,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 新加坡 003
+  name: 新加坡 006
   network: ws
   port: 8080
   server: 52.221.29.32
@@ -115,7 +168,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 新加坡 004
+  name: 新加坡 007
   network: ws
   port: 8080
   server: 18.141.185.144
@@ -130,7 +183,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 新加坡 005
+  name: 新加坡 008
   network: ws
   port: 8080
   server: 124.156.207.12
@@ -143,45 +196,3 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- client-fingerprint: chrome
-  name: 新加坡 006
-  network: grpc
-  port: 20230
-  reality-opts:
-    public-key: hBXQa1tSoP0jjIezHxeyKhf1YKxe8CoBHoxvIxEJuAc
-    short-id: 2c5ecaae
-  server: sg003.421421.xyz
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 910eff70-917c-49d8-81d1-6c0bc0e27e3c
-- name: 新加坡 007
-  port: 81
-  server: 188.166.227.1
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4aab091f-70c6-41d2-a9cf-a002be414821
-- client-fingerprint: chrome
-  name: 新加坡|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5041
-  server: 153.121.70.134
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '新加坡2|@ripaojiedian #1'
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1536
-  server: 160.16.81.84
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
