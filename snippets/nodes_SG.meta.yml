@@ -7,9 +7,7 @@ proxies:
   sni: xjp2.mangshe.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '新加坡2|@ripaojiedian #1'
-  network: tcp
+- name: 新加坡2|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 1085
   server: 153.121.39.240
@@ -169,3 +167,21 @@ proxies:
   type: vless
   udp: true
   uuid: 4aab091f-70c6-41d2-a9cf-a002be414821
+- client-fingerprint: chrome
+  name: 新加坡|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 5041
+  server: 153.121.70.134
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '新加坡2|@ripaojiedian #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1536
+  server: 160.16.81.84
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
