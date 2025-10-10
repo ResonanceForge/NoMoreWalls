@@ -1,17 +1,7 @@
 proxies:
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: GB_speednode_0022
-  port: 443
-  server: 132.145.62.88
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 52ed75e2-70a2-41a0-b258-58ca4b200be9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: GB_speednode_0039
+  name: 'GB_speednode_0039 #1'
   port: 443
   reality-opts:
     public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
@@ -22,6 +12,32 @@ proxies:
   type: vless
   udp: true
   uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+- name: GB_speednode_0040
+  network: ws
+  port: 2096
+  server: 185.193.31.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippetssecurity=tls
+- name: GB_speednode_0041
+  network: ws
+  port: 8080
+  server: 159.65.94.176
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
 - encryption: none
   name: 英国 001
   network: ws
@@ -418,36 +434,6 @@ proxies:
       Host: late-tooth.granzinhannah.workers.dev
     path: /
 - client-fingerprint: chrome
-  name: 英国 030
-  network: grpc
-  port: 1500
-  reality-opts:
-    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
-    short-id: 775eb6408888248e
-  server: 81.208.170.142
-  servername: www.ebay.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 英国 031
-  network: xhttp
-  port: 2020
-  reality-opts:
-    public-key: l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA
-    short-id: 077dc29a23d311f2
-  server: 51.38.74.31
-  servername: stackoverflow.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63df8c89-7a2c-4da2-a60b-4baf2c8acd1a
-- client-fingerprint: chrome
   name: 英国 032
   network: ws
   port: 2096
@@ -477,21 +463,6 @@ proxies:
     headers:
       Host: vless.hubp.de
     path: /snippets
-- client-fingerprint: chrome
-  name: 英国 034
-  network: xhttp
-  port: 1146
-  reality-opts:
-    public-key: l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA
-    short-id: 077dc29a23d311f2
-  server: 51.38.74.31
-  servername: stackoverflow.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63df8c89-7a2c-4da2-a60b-4baf2c8acd1a
 - alterId: 1
   cipher: auto
   name: 英国 035
@@ -506,7 +477,7 @@ proxies:
     headers:
       Host: 185.221.219.229
     path: linkvws
-- name: GB_speednode_0040
+- name: 'GB_speednode_0040 #1'
   network: ws
   port: 2096
   server: 185.193.31.32
@@ -520,7 +491,7 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets
-- name: GB_speednode_0041
+- name: 'GB_speednode_0041 #1'
   network: ws
   port: 8080
   server: 159.65.94.176

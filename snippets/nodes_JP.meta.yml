@@ -34,14 +34,27 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: JP_speednode_0032
+- client-fingerprint: chrome
+  name: 'JP_speednode_0052 #1'
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 60.83.190.248
+  port: 5041
+  server: 153.121.51.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: JP_speednode_0033
+  udp: true
+- client-fingerprint: chrome
+  name: 'JP_speednode_0051 #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 5328
+  server: 160.16.117.182
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: JP_speednode_0050
   network: ws
   port: 1443
   server: 140.238.62.82
@@ -54,13 +67,6 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
-- name: JP_speednode_0034
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4451
-  server: 160.16.136.130
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 日本 001
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -949,36 +955,6 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /Telegram
-- client-fingerprint: ios
-  name: 日本 091
-  network: xhttp
-  port: 20230
-  reality-opts:
-    public-key: opaO8sUF9JU5hP2wRoUgS6aWxFLfen83in6ZWJMonG4
-    short-id: b92b2a09
-  server: jp001.421421.xyz
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 910eff70-917c-49d8-81d1-6c0bc0e27e3c
-- client-fingerprint: chrome
-  name: 日本 092
-  network: grpc
-  port: 20230
-  reality-opts:
-    public-key: yNOemxnmT-HQ2HiR9fdHSN2B8HpHsRyMIsir_iAlaHE
-    short-id: 5c3c9f11
-  server: jp002.421421.xyz
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 910eff70-917c-49d8-81d1-6c0bc0e27e3c
 - alterId: 1
   cipher: auto
   name: 日本 093
@@ -1050,7 +1026,7 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
-- name: JP_speednode_0050
+- name: 'JP_speednode_0050 #1'
   network: ws
   port: 1443
   server: 140.238.62.82

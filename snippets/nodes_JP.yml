@@ -34,20 +34,26 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: JP_speednode_0032
+- client-fingerprint: chrome
+  name: 'JP_speednode_0052 #1'
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 60.83.190.248
+  port: 5041
+  server: 153.121.51.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: JP_speednode_0034
+  udp: true
+- client-fingerprint: chrome
+  name: 'JP_speednode_0051 #1'
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4451
-  server: 160.16.136.130
-  skip-cert-verify: false
+  port: 5328
+  server: 160.16.117.182
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 日本 001
   network: tcp
   password: 253bc477d4e43c209f2d427272968280

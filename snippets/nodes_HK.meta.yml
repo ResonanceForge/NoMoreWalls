@@ -61,15 +61,19 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: HK_speednode_0025
-  port: 443
-  server: 213.176.94.129
-  servername: www.amazon.com
+- name: HK_speednode_0044
+  network: ws
+  port: 2096
+  server: 45.192.223.44
+  servername: kejiland.freewarp.eu.org
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 81e9e522-2efd-4709-996d-74e46f4edaf8
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippetssecurity=tls
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -97,7 +101,7 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: HK_speednode_0044
+- name: 'HK_speednode_0044 #1'
   network: ws
   port: 2096
   server: 45.192.223.44

@@ -1,18 +1,14 @@
 proxies:
-- name: CN_speednode_0017
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1572
-  server: 36.156.102.88
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: CN_speednode_0018
+- client-fingerprint: chrome
+  name: 'CN_speednode_0024 #1'
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 6752
-  server: 36.156.102.88
+  server: 36.156.102.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 中国 002
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -446,21 +442,6 @@ proxies:
     headers:
       Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     path: /snippets?ip=proxyip:port(443)
-- client-fingerprint: chrome
-  name: 中国 045
-  network: xhttp
-  port: 8880
-  reality-opts:
-    public-key: gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc
-    short-id: 50d72d59cbec63
-  server: 62.60.231.215
-  servername: zhaket.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54527318-eef2-45b1-905a-23986c7d342a
 - client-fingerprint: random
   name: 中国 046
   network: ws
