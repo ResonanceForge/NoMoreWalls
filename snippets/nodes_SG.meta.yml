@@ -7,23 +7,27 @@ proxies:
   sni: xjp2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 日本 013
+- client-fingerprint: chrome
+  name: JP_speednode_0052
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 5041
-  server: 153.121.70.134
+  server: 153.121.51.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 014
+  udp: true
+- client-fingerprint: chrome
+  name: JP_speednode_0051
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 1536
-  server: 160.16.81.84
+  port: 5328
+  server: 160.16.117.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 'SG_speednode_0050 #1'
+  udp: true
+- name: SG_speednode_0068
   network: ws
   password: wb6368
   port: 2087
@@ -38,18 +42,15 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'SG_speednode_0051 #1'
+  name: SG_speednode_0051
   port: 25801
-  reality-opts:
-    public-key: gmha_iOyNgQ8D3BgHnz9bn51qvuvaNLyfUZphycu_HQ
   server: 178.128.223.26
   servername: updates.cdn-apple.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: e1d5bfa9-cf32-454a-b746-b1b6b796ccfb
-- name: 'SG_speednode_0052 #1'
+- name: SG_speednode_0052
   network: ws
   port: 80
   server: test.sachix.online
@@ -57,13 +58,12 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: 522d0d20-40a3-49d8-af63-37c347b184ed
   ws-opts:
     headers:
       Host: speedtest.net
     path: /
-- name: 'SG_speednode_0053 #1'
+- name: SG_speednode_0053
   network: ws
   port: 80
   server: test.sachix.online
@@ -71,7 +71,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: 522d0d20-40a3-49d8-af63-37c347b184ed
   ws-opts:
     headers:
@@ -194,21 +193,3 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- client-fingerprint: chrome
-  name: '新加坡|@ripaojiedian #1'
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5041
-  server: 153.121.51.29
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '新加坡2|@ripaojiedian #1'
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5328
-  server: 160.16.117.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan

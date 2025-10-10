@@ -1,25 +1,53 @@
 proxies:
-- name: 'CN_speednode_0017 #1'
-  network: tcp
+- name: CN_speednode_0017
   password: 253bc477d4e43c209f2d427272968280
   port: 1572
   server: 36.156.102.88
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: 'CN_speednode_0018 #1'
-  network: tcp
+- name: CN_speednode_0018
   password: 253bc477d4e43c209f2d427272968280
   port: 6752
   server: 36.156.102.88
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
+- name: 中国 002
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 58.152.53.94
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 003
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4431
+  server: 221.128.195.219
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 006
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3271
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 007
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1572
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: 中国 001
+  name: 中国 010
   network: ws
   port: 30839
   server: v39.heduian.link
@@ -34,7 +62,7 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 中国 002
+  name: 中国 011
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -47,7 +75,7 @@ proxies:
     headers:
       Host: v29.heduian.link
     path: /oooo
-- name: 中国 005
+- name: 中国 013
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -55,7 +83,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 007
+- name: 中国 014
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1801
@@ -939,3 +967,12 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 中国 116
+  network: tcp
+  port: 11455
+  server: 47.243.245.143
+  skip-cert-verify: true
+  type: vmess
+  uuid: 06e10e0b-57ae-48db-a37a-f2fd207e3b11
