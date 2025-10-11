@@ -15,8 +15,7 @@ proxies:
   sni: mg1.mangshe.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 'US_speednode_0080 #1'
+- name: 'US_speednode_0080 #1'
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -14596,6 +14595,24 @@ proxies:
     headers:
       Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
     path: /ri9mOOVJuAimB74kgXZ
+- client-fingerprint: chrome
+  name: 美国|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2381
+  server: 160.16.68.250
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 美国2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1572
+  server: 160.16.196.59
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alpn:
   - h3
   client-fingerprint: random
