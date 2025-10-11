@@ -1,4 +1,25 @@
 proxies:
+- client-fingerprint: chrome
+  name: 加拿大 001
+  network: ws
+  packet-addr: false
+  packet-encoding: xudp
+  port: 10001
+  server: 142.171.192.140
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/120.0.0.0 Safari/537.36
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+  xudp: true
 - encryption: none
   http-opts:
     headers:
@@ -6,7 +27,7 @@ proxies:
       - varzesh3.ir
     path:
     - /
-  name: 加拿大 001
+  name: 加拿大 002
   network: http
   port: 33801
   server: 51.79.29.172
@@ -16,7 +37,7 @@ proxies:
   uuid: 13c10b21-6211-4d43-856f-2e54ef2ac2e2
 - alterId: 0
   cipher: auto
-  name: 加拿大 002
+  name: 加拿大 003
   network: ws
   port: 80
   server: 51.79.102.253
