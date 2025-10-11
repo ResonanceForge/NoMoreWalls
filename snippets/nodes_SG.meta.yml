@@ -42,7 +42,7 @@ proxies:
     headers:
       Host: node4.rtxconfigz.com
     path: /@Malinda6104
-- name: SG_speednode_0018
+- name: 'SG_speednode_0018 #1'
   network: ws
   password: wb6368
   port: 2087
@@ -55,6 +55,13 @@ proxies:
     headers:
       Host: hsdgbuys.pages.dev
     path: /
+- name: 'SG_speednode_0020 #1'
+  password: installshield
+  port: 8443
+  server: 38.180.106.124
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 新加坡 002
   network: ws
   password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a
@@ -156,10 +163,3 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- name: SG_speednode_0020
-  password: installshield
-  port: 8443
-  server: 38.180.106.124
-  skip-cert-verify: true
-  type: trojan
-  udp: true

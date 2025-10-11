@@ -1,27 +1,5 @@
 proxies:
-- name: RU_speednode_0060
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
-- client-fingerprint: chrome
-  name: RU_speednode_0061
-  port: 8080
-  server: 84.22.150.195
-  servername: yandex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: RU_speednode_0062
+- name: RU_speednode_0016
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -34,26 +12,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560security=tls
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0063
-  port: 443
-  server: ruunion.ru
-  servername: yahoo.com
+- name: RU_speednode_0017
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 7f74ad83-4aaf-419b-8caf-ff66c354bcbc
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0064
-  port: 443
-  server: univovh.iskra-connect.xyz
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
 - client-fingerprint: chrome
   grpc-opts: {}
   name: 俄罗斯 002
@@ -956,7 +927,7 @@ proxies:
   type: vless
   udp: true
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: RU_speednode_0016
+- name: 'RU_speednode_0016 #1'
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -971,7 +942,7 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: RU_speednode_0017
+  name: 'RU_speednode_0017 #1'
   network: ws
   port: 2096
   server: 188.42.145.253

@@ -1,4 +1,12 @@
 proxies:
+- name: 中国 003
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4400
+  server: 221.128.195.219
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 中国 005
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -8,14 +16,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 中国 003
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4400
-  server: 221.128.195.219
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 中国 006
