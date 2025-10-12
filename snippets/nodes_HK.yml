@@ -32,14 +32,16 @@ proxies:
     headers:
       Host: www.baidu.com
     path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
-- name: 香港4|@ripaojiedian
+- name: 中国 003
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
   server: 203.198.123.190
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 香港6|@ripaojiedian
+- name: 中国 004
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4400
   server: 221.128.195.220

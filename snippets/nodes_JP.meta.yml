@@ -16,65 +16,25 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 日本2|@ripaojiedian
+- name: 日本 001
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4451
   server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本3|@ripaojiedian
+- name: 日本 002
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
   server: 160.16.116.227
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 001
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 60.84.23.102
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本 002
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3271
-  server: 160.16.63.16
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本 003
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3160
-  server: 160.16.63.16
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本 004
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5041
-  server: 153.121.51.29
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 日本 005
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5328
-  server: 160.16.117.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 日本 006
+  name: 日本 007
   network: ws
   port: 443
   server: 146.56.138.175
@@ -89,7 +49,7 @@ proxies:
     path: /c399917/
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 日本 007
+  name: 日本 008
   network: grpc
   port: 8880
   server: 103.231.75.74
@@ -101,7 +61,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 日本 008
+  name: 日本 009
   network: grpc
   port: 8880
   server: 85.208.110.217
@@ -113,7 +73,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 日本 009
+  name: 日本 010
   network: grpc
   port: 8880
   server: 85.208.110.205
@@ -123,7 +83,7 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 日本 010
+- name: 日本 011
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4451
@@ -131,7 +91,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 011
+- name: 日本 012
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 5041
@@ -139,7 +99,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 012
+- name: 日本 013
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1536
@@ -149,7 +109,7 @@ proxies:
   type: trojan
 - encryption: none
   grpc-opts: {}
-  name: 日本 013
+  name: 日本 014
   network: grpc
   port: 8880
   server: 45.120.178.93
@@ -159,7 +119,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - encryption: none
   grpc-opts: {}
-  name: 日本 014
+  name: 日本 015
   network: grpc
   port: 8880
   server: 45.120.178.9
@@ -169,7 +129,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - encryption: none
   grpc-opts: {}
-  name: 日本 015
+  name: 日本 016
   network: grpc
   port: 8880
   server: 85.208.110.183
@@ -179,7 +139,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - encryption: none
   grpc-opts: {}
-  name: 日本 016
+  name: 日本 017
   network: grpc
   port: 8880
   server: 103.35.189.137
@@ -189,7 +149,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - encryption: none
   grpc-opts: {}
-  name: 日本 017
+  name: 日本 018
   network: grpc
   port: 8880
   server: 103.35.189.146
@@ -199,7 +159,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - encryption: none
   grpc-opts: {}
-  name: 日本 018
+  name: 日本 019
   network: grpc
   port: 8880
   server: 103.35.190.4
@@ -209,7 +169,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - encryption: none
   grpc-opts: {}
-  name: 日本 019
+  name: 日本 020
   network: grpc
   port: 8880
   server: 103.35.190.193
@@ -217,7 +177,7 @@ proxies:
   tls: true
   type: vless
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 日本 020
+- name: 日本 021
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1085
@@ -227,7 +187,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 日本 021
+  name: 日本 022
   network: grpc
   port: 8880
   server: 638930382260455538.ahvaz-drc-tusabt.info
@@ -239,7 +199,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 日本 022
+  name: 日本 023
   network: grpc
   port: 8880
   server: 638938332607497744.madrid-drc-tusacaf.info
@@ -251,7 +211,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   grpc-opts: {}
-  name: 日本 023
+  name: 日本 024
   network: grpc
   port: 8880
   server: 638935255461296821.paris-drc-tusabz.info
@@ -261,7 +221,7 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 日本 024
+- name: 日本 025
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -269,7 +229,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 025
+- name: 日本 026
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4234
@@ -277,7 +237,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 026
+- name: 日本 027
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -285,7 +245,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 027
+- name: 日本 028
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -293,7 +253,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 028
+- name: 日本 029
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2283
@@ -301,7 +261,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 029
+- name: 日本 030
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1572
@@ -311,7 +271,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本 030
+  name: 日本 031
   network: tcp
   port: 49795
   server: 103.236.227.7
@@ -320,7 +280,7 @@ proxies:
   type: vmess
   udp: true
   uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
-- name: 日本 031
+- name: 日本 032
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -328,7 +288,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 032
+- name: 日本 033
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2173
@@ -336,7 +296,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 033
+- name: 日本 034
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 6752
@@ -346,14 +306,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本 034
+  name: 日本 035
   network: kcp
   port: 54483
   server: 13.231.211.146
   tls: false
   type: vmess
   uuid: dc2fd6a5-36fe-4b06-8b31-a5c5d26add98
-- name: 日本 035
+- name: 日本 036
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -361,7 +321,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 036
+- name: 日本 037
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -369,7 +329,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 037
+- name: 日本 038
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 409
@@ -377,7 +337,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 038
+- name: 日本 039
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -385,7 +345,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 039
+- name: 日本 040
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 449
@@ -393,18 +353,10 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 040
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 160.16.130.66
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 日本 041
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4729
+  port: 3296
   server: 160.16.130.66
   skip-cert-verify: false
   sni: www.nintendogames.net
@@ -412,12 +364,20 @@ proxies:
 - name: 日本 042
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
+  port: 4729
+  server: 160.16.130.66
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 日本 043
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
   port: 3160
   server: 160.16.231.103
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 043
+- name: 日本 044
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1802
@@ -425,7 +385,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 044
+- name: 日本 045
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2045
@@ -433,7 +393,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 045
+- name: 日本 046
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3957
@@ -441,7 +401,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 046
+- name: 日本 047
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4317
@@ -449,7 +409,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 047
+- name: 日本 048
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -459,14 +419,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本 048
+  name: 日本 049
   network: kcp
   port: 30391
   server: 54.168.151.169
   tls: false
   type: vmess
   uuid: c977388d-4550-4135-bbc6-0199daa76352
-- name: 日本 049
+- name: 日本 050
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 449
@@ -474,7 +434,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 050
+- name: 日本 051
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1700
@@ -484,14 +444,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本 051
+  name: 日本 052
   network: kcp
   port: 5106
   server: 47.74.14.30
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
-- name: 日本 052
+- name: 日本 053
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -499,7 +459,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 053
+- name: 日本 054
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4397
@@ -507,7 +467,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 054
+- name: 日本 055
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -515,7 +475,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 055
+- name: 日本 056
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -523,7 +483,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 056
+- name: 日本 057
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -531,7 +491,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 057
+- name: 日本 058
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1700
@@ -539,7 +499,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 058
+- name: 日本 059
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1802
@@ -547,7 +507,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 059
+- name: 日本 060
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1924
@@ -555,7 +515,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 060
+- name: 日本 061
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
@@ -563,7 +523,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 061
+- name: 日本 062
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 447
@@ -571,7 +531,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 062
+- name: 日本 063
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
@@ -579,7 +539,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 063
+- name: 日本 064
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -589,7 +549,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本 064
+  name: 日本 065
   network: ws
   port: 54516
   server: 158.101.146.3
@@ -602,7 +562,7 @@ proxies:
     path: /vmess
 - alterId: 1
   cipher: auto
-  name: 日本 065
+  name: 日本 066
   network: ws
   port: 33333
   server: 146.56.45.242
@@ -617,7 +577,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 066
+  name: 日本 067
   network: ws
   port: 14954
   server: 91.200.242.187
@@ -632,7 +592,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 067
+  name: 日本 068
   network: ws
   port: 10241
   server: 52.197.107.193
@@ -647,7 +607,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 日本 068
+  name: 日本 069
   network: ws
   port: 8080
   server: 146.56.157.76
@@ -662,7 +622,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 069
+  name: 日本 070
   network: ws
   port: 8080
   server: 146.56.179.139
@@ -677,7 +637,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 070
+  name: 日本 071
   network: ws
   port: 8080
   server: bnm.skyin.net
@@ -692,7 +652,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 071
+  name: 日本 072
   network: ws
   port: 8080
   server: bst.n48.net
@@ -707,7 +667,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 日本 072
+  name: 日本 073
   network: ws
   port: 80
   server: 99.84.128.45
@@ -722,7 +682,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 073
+  name: 日本 074
   network: ws
   port: 8080
   server: 193.32.151.103
@@ -737,7 +697,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 074
+  name: 日本 075
   network: ws
   port: 8080
   server: 193.32.148.12
@@ -750,7 +710,7 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- name: 日本 075
+- name: 日本 076
   network: grpc
   port: 443
   server: 103.116.7.158
@@ -761,7 +721,7 @@ proxies:
   type: vless
   udp: true
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 日本 076
+- name: 日本 077
   network: grpc
   port: 443
   server: 156.238.19.232
@@ -772,7 +732,7 @@ proxies:
   type: vless
   udp: true
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 日本 077
+- name: 日本 078
   network: grpc
   port: 443
   server: 156.238.19.95
@@ -783,7 +743,7 @@ proxies:
   type: vless
   udp: true
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- name: 日本 078
+- name: 日本 079
   network: ws
   port: 2083
   server: 103.116.7.103
@@ -799,7 +759,7 @@ proxies:
       Host: saas.cfliu.filegear-sg.me
     path: /snippets?ip=tw.tp81.netlib.re:81
 - client-fingerprint: chrome
-  name: 日本 079
+  name: 日本 080
   network: ws
   port: 18788
   server: 146.56.157.15
@@ -814,7 +774,7 @@ proxies:
     headers:
       Host: oracle1.mianfeicf.lol
     path: /?ed=2560
-- name: 日本 080
+- name: 日本 081
   network: grpc
   port: 8880
   server: 638940560407106987.copenhagen-drc-tusacaf.info
@@ -824,7 +784,7 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 日本 081
+- name: 日本 082
   network: grpc
   port: 8880
   server: 638941610438943596.copenhagen-prx-dnraacm.info
@@ -834,7 +794,7 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 日本 082
+- name: 日本 083
   network: grpc
   port: 8880
   server: 638945203009151794.gorgan-drc-tusacaf.info
@@ -844,7 +804,7 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 日本 083
+- name: 日本 084
   network: ws
   port: 8880
   server: 156.238.18.179
@@ -859,7 +819,7 @@ proxies:
     headers:
       Host: sg.laoyoutiao.link
     path: /Telegram
-- name: 日本 084
+- name: 日本 085
   network: ws
   port: 8880
   server: 156.238.18.214
@@ -874,7 +834,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /Telegram
-- name: 日本 085
+- name: 日本 086
   network: ws
   port: 8880
   server: 156.238.18.40
@@ -889,7 +849,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: Telegram
-- name: 日本 086
+- name: 日本 087
   network: ws
   port: 8880
   server: 156.238.18.71
@@ -904,7 +864,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: Telegram
-- name: 日本 087
+- name: 日本 088
   network: ws
   port: 8880
   server: 156.238.18.75
@@ -919,7 +879,7 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /telegram
-- name: 日本 088
+- name: 日本 089
   network: ws
   port: 8880
   server: 91.193.58.107
@@ -934,7 +894,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: Telegram
-- name: 日本 089
+- name: 日本 090
   network: ws
   port: 8880
   server: 91.193.58.112
@@ -949,7 +909,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: Telegram
-- name: 日本 090
+- name: 日本 091
   network: ws
   port: 8880
   server: 91.193.58.114
@@ -964,7 +924,7 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: Telegram
-- name: 日本 091
+- name: 日本 092
   port: 8880
   server: 91.193.58.167
   servername: Telegram-channel-
@@ -974,7 +934,7 @@ proxies:
   type: vless
   udp: true
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-- name: 日本 092
+- name: 日本 093
   network: ws
   port: 8880
   server: 91.193.58.171
@@ -991,14 +951,14 @@ proxies:
     path: /Telegram
 - alterId: 1
   cipher: auto
-  name: 日本 093
+  name: 日本 094
   network: tcp
   port: 46484
   server: 52.195.13.90
   skip-cert-verify: true
   type: vmess
   uuid: 22acc467-7440-386a-927a-d84be554b37e
-- name: 日本 094
+- name: 日本 095
   network: grpc
   port: 8880
   server: 638950280434435328.neyshabur-drc-tusacaf.info
@@ -1010,7 +970,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - alterId: 0
   cipher: auto
-  name: 日本 095
+  name: 日本 096
   network: tcp
   port: 50005
   server: bgroup.node1.v.nodelist-airport.com
@@ -1019,7 +979,7 @@ proxies:
   uuid: a2e7d484-6e45-4ef6-81b7-e5bffce1e850
 - alterId: 0
   cipher: auto
-  name: 日本 096
+  name: 日本 097
   network: tcp
   port: 55218
   server: 103.85.25.134
@@ -1027,7 +987,7 @@ proxies:
   type: vmess
   uuid: 3827a5c8-c031-46cf-848d-e890d0ead803
 - client-fingerprint: chrome
-  name: 日本 097
+  name: 日本 098
   network: ws
   port: 2096
   server: 103.245.228.61
@@ -1050,6 +1010,16 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
+- name: 日本 100
+  network: grpc
+  port: 8880
+  server: 638957009637251670.london-blkaft-aaag.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   name: '日本2|@ripaojiedian #1'
   network: tcp
