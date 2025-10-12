@@ -18,10 +18,9 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '香港5|@ripaojiedian #1'
+  name: 中国 002
   network: ws
-  port: '21791'
+  port: 21791
   server: kf5uhgscrdl73kmihv8c.appsworld.shop
   servername: ''
   skip-cert-verify: false
@@ -33,18 +32,14 @@ proxies:
     headers:
       Host: www.baidu.com
     path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
-- client-fingerprint: chrome
-  name: '香港4|@ripaojiedian #1'
-  network: tcp
+- name: 香港4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 443
   server: 203.198.123.190
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '香港6|@ripaojiedian #1'
-  network: tcp
+- name: 香港6|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 4400
   server: 221.128.195.220
@@ -67,3 +62,42 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港3|@ripaojiedian
+  port: 30485
+  server: 103.224.80.67
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
+- client-fingerprint: chrome
+  name: '香港4|@ripaojiedian #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4419
+  server: 221.128.195.221
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '香港6|@ripaojiedian #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 126.47.92.160
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 香港3|@ripaojiedian
+  network: tcp
+  port: '30485'
+  server: 103.224.80.67
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
