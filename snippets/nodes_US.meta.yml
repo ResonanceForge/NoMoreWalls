@@ -15,22 +15,35 @@ proxies:
   sni: mg1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 日本 005
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 24673
+  server: 36.156.102.84
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2381
-  server: 160.16.68.250
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  server: 36.156.102.84
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
   type: trojan
-- name: 日本 006
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1572
-  server: 160.16.196.59
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+- name: '美国3|@ripaojiedian #1'
+  network: ws
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  sni: hsdgbuys.pages.dev
   type: trojan
+  ws-opts:
+    headers:
+      Host: hsdgbuys.pages.dev
+    path: '%2F'
 - alpn:
   - h3
   name: US_speednode_0024
@@ -14980,35 +14993,6 @@ proxies:
     headers:
       Host: ip3.6929198.xyz
     path: github.com/Alvin9999
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 24673
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 2381
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 美国3|@ripaojiedian
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: '%2F'
 - alpn:
   - h3
   client-fingerprint: random
