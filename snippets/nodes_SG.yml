@@ -141,6 +141,52 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- alterId: 0
+  cipher: auto
+  name: 新加坡 009
+  network: ws
+  port: 443
+  server: waifu.kurumi.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9
+  ws-opts:
+    headers:
+      Host: discord.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 新加坡 010
+  network: ws
+  port: 80
+  server: waifu.kurumi.biz.id
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9
+  ws-opts:
+    headers:
+      Host: discord.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 新加坡 013
+  network: xhttp
+  port: 443
+  server: 68.183.236.145
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9
+- alterId: 0
+  cipher: auto
+  name: 新加坡 014
+  network: xhttp
+  port: 80
+  server: 68.183.236.145
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: '🇸🇬 新加坡3|@ripaojiedian #1'
