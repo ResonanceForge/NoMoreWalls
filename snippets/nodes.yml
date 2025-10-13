@@ -8565,13 +8565,41 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港3|@ripaojiedian #1'
-  port: 30485
-  server: 103.224.80.67
+  port: 41522
+  server: 43.247.135.17
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
+  uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 126.66.52.118
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港6|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 58.152.53.162
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- name: 🇯🇵 日本2|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1920
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷 韩国|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: '🇸🇬 新加坡3|@ripaojiedian #1'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -8587,6 +8615,6 @@ proxies:
   name: '🇻🇳 越南|@ripaojiedian #1'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.136
+  server: 103.186.154.27
   tfo: false
   type: ss

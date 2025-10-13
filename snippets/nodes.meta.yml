@@ -24,7 +24,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #19'
+- name: '@Daily_Configs #20'
   password: 2b67ONZROv+fRVMxB94BSw==
   port: 443
   server: 5.231.70.79
@@ -72,6 +72,16 @@ proxies:
   server: banmabanmabanmabanmabanmabanma2.wanlidag.top
   skip-cert-verify: true
   sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: rt
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
+  port: 35000
+  server: 206.71.158.40
+  skip-cert-verify: true
+  sni: jnir.pichondan.com
   tls: false
   type: hysteria2
 - name: '🇳🇱@FreakConfig #9'
@@ -293,6 +303,16 @@ proxies:
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35000
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '@Daily_Configs #7'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
@@ -26777,13 +26797,41 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港3|@ripaojiedian #1'
-  port: 30485
-  server: 103.224.80.67
+  port: 41522
+  server: 43.247.135.17
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
+  uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
+- name: 🇭🇰 香港4|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 126.66.52.118
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港6|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 58.152.53.162
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- name: 🇯🇵 日本2|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1920
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷 韩国|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: '🇸🇬 新加坡3|@ripaojiedian #1'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -26799,7 +26847,7 @@ proxies:
   name: '🇻🇳 越南|@ripaojiedian #1'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.136
+  server: 103.186.154.27
   tfo: false
   type: ss
 - name: CN_speednode_0003
