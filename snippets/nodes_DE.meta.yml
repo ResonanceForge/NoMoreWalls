@@ -1213,3 +1213,33 @@ proxies:
   tls: true
   type: vmess
   uuid: b5e4a13b-4f58-4bad-a2d0-279fa7534188
+- name: 德国 087
+  network: ws
+  port: 8443
+  server: 141.94.221.241
+  servername: fei.634676.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      Host: fei.634676.xyz
+    path: /?ed=2560
+- name: 德国 091
+  network: ws
+  port: 2053
+  server: 141.94.223.93
+  servername: fei.634676.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      Host: fei.634676.xyz
+    path: /?ed=2560

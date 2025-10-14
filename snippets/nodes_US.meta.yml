@@ -31,33 +31,24 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 中国 008
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
   network: tcp
-  password: 253bc477d4e43c209f2d427272968280
+  password: e9368912c4ed6046dca6949229cbff02
   port: 24673
   server: 36.156.102.84
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- name: 中国 009
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
   network: tcp
-  password: 253bc477d4e43c209f2d427272968280
+  password: e9368912c4ed6046dca6949229cbff02
   port: 2381
   server: 36.156.102.84
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- name: 美国3|@ripaojiedian
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: '%2F'
 - alpn:
   - h3
   name: US_speednode_0024
@@ -15666,24 +15657,313 @@ proxies:
     headers:
       Host: pelang.org
     path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 美国 1110
+  network: ws
+  port: 443
+  server: bestcdn3.the-best-airport.top
+  tls: true
+  type: vmess
+  uuid: 27c291e8-0391-42d1-a79b-4e491e0d7502
+  ws-opts:
+    headers:
+      Host: vv-a3-cdn.the-best-airport.top
+    path: /aejynik
+- client-fingerprint: firefox
+  name: 美国 1111
+  network: ws
+  port: 443
+  server: cc.lightnright.com
+  servername: jnir-cdn.pichondan.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88e35bbb-8cd2-c309-a1e9-551fb1c17a7f
+  ws-opts:
+    headers:
+      Host: jnir-cdn.pichondan.com
+    path: /
+- name: 美国 1112
+  network: httpupgrade
+  port: 2086
+  server: 104.17.147.22
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 010b0833-50f6-4ebc-ec13-ab0450e0af79
 - client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 24673
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
+  name: 美国 1113
+  network: ws
+  port: 443
+  server: 172.67.175.106
+  servername: ed19-dc7.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16d7a04d-e6f4-479f-8914-80d3817317f9
+  ws-opts:
+    headers:
+      Host: ed19-dc7.pages.dev
+    path: /
 - client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 2381
-  server: 36.156.102.84
+  name: 美国 1114
+  network: grpc
+  port: 2096
+  server: 104.17.148.22
+  servername: 5ksdjfghshehusd-345893456438-dsfjshdgfjk-34543543gfg.jsfui232.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f4b761b-7768-4040-bf3d-b8a0bab2ab3a
+- name: 美国 1115
+  network: grpc
+  port: 2087
+  server: 104.25.177.129
+  servername: smart.titimoji-f6.fun
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6babb657-1524-43bb-b421-11bda27bc9de
+- name: 美国 1116
+  network: grpc
+  port: 2087
+  server: 162.159.15.204
+  servername: smart.titimoji-f6.fun
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6babb657-1524-43bb-b421-11bda27bc9de
+- name: 美国 1117
+  network: grpc
+  port: 2087
+  server: 173.245.49.109
+  servername: smart.titimoji-f6.fun
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6babb657-1524-43bb-b421-11bda27bc9de
+- name: 美国 1118
+  network: grpc
+  port: 2087
+  server: 173.245.49.20
+  servername: smart.titimoji-f6.fun
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6babb657-1524-43bb-b421-11bda27bc9de
+- name: 美国 1119
+  network: grpc
+  port: 2087
+  server: 66.235.200.94
+  servername: smart.titimoji-f6.fun
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6babb657-1524-43bb-b421-11bda27bc9de
+- name: 美国 1120
+  port: 46942
+  server: ooooooof.ir.fizikade.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c635537-ab39-f22c-b470-f908efc54ce0
+- client-fingerprint: chrome
+  flow: ''
+  name: 美国 1121
+  network: grpc
+  port: 2087
+  server: 65.109.216.38
+  servername: tito.floorshoping22.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7310ccbb-3940-4264-88cc-b3da92877395
+- name: 美国 1122
+  network: ws
+  port: 2095
+  server: test2.amin8263.ir
+  servername: test3.amin8263.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 829103c0-2b80-4bde-9a0c-36e2c750d8c1
+  ws-opts:
+    headers:
+      Host: test3.amin8263.ir
+    path: /
+- name: 美国 1123
+  network: ws
+  port: 8443
+  server: medrd.vtpmng.top
+  servername: medrd.vtpmng.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8339a5e8-6141-41f1-9abc-bbf1a06ac5ae
+  ws-opts:
+    headers:
+      Host: medrd.vtpmng.top
+    path: /
+- name: 美国 1124
+  network: ws
+  port: 443
+  server: 104.20.5.134
+  servername: Bpb-v.PaGES.DEV
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Bpb-v.PaGES.DEV
+    path: /LtZFqGz6qD8jBoHW/MTI5LjE1OS4yNDEuMTcy
+- client-fingerprint: randomized
+  name: 美国 1125
+  network: ws
+  port: 443
+  server: 104.21.89.180
+  servername: pPAL03.BRoLin-sepHirOTh.workErs.DeV
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pPAL03.BRoLin-sepHirOTh.workErs.DeV
+    path: /qn78oYBl1tBV1nXf?ed=2560
+- name: 美国 1126
+  network: ws
+  port: 443
+  server: 172.66.47.115
+  servername: V2ngfAST.PaGEs.dEV
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: V2ngfAST.PaGEs.dEV
+    path: /Md0h8BtdvxWJ8JOi?ed=2560
+- name: 美国 1127
+  network: ws
+  port: 2095
+  server: 172.67.146.171
+  servername: test3.amin8263.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8b95f00a-1ec9-4b1b-b67b-1702704a6737
+  ws-opts:
+    headers:
+      Host: test3.amin8263.ir
+    path: /
+- name: 美国 1128
+  network: grpc
+  port: 15298
+  server: 54.36.115.88
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c42231c-c24e-4cbd-8491-29a29e171ff0
+- name: 美国 1129
+  network: grpc
+  port: 15299
+  server: 54.36.115.88
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7ddb083-1195-4d6c-bb01-a453a8a29447
+- name: 美国 1130
+  network: ws
+  port: 443
+  server: 172.66.44.93
+  servername: pardazeshvpn-tg103.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: db0437ba-d0fd-488f-814d-051d1cb8b5da
+  ws-opts:
+    headers:
+      Host: pardazeshvpn-tg103.pages.dev
+    path: '/Telegram:'
+- name: 美国 1131
+  network: grpc
+  port: 8880
+  server: 638948510378516508.mashhad-drc-tusacaf.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- alterId: 0
+  cipher: auto
+  name: 美国 1132
+  network: ws
+  port: 80
+  server: 104.16.61.8
   skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
+  type: vmess
+  uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9
+  ws-opts:
+    headers:
+      Host: hdfy6d3.freelines.net
+    path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
+- alterId: 0
+  cipher: auto
+  name: 美国 1133
+  network: ws
+  port: 443
+  server: putihb.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: putihb.org
+    path: linkvws
 - alpn:
   - h3
   client-fingerprint: random

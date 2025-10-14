@@ -1601,3 +1601,23 @@ proxies:
     headers:
       Host: pelang.org
     path: linkvws
+- name: 法国 142
+  network: grpc
+  port: 22295
+  server: 141.227.180.39
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e0d5989-f5aa-451c-af59-1845bb005d1a
+- name: 法国 143
+  network: grpc
+  port: 22294
+  server: 141.227.180.39
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 296b5322-3f50-4ad3-b504-6e1e370dc544

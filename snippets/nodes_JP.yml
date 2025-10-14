@@ -1,6 +1,8 @@
 proxies:
-- name: 🇯🇵 日本2|@ripaojiedian
-  password: 253bc477d4e43c209f2d427272968280
+- client-fingerprint: chrome
+  name: '日本2|@ripaojiedian #1'
+  network: tcp
+  password: e9368912c4ed6046dca6949229cbff02
   port: 1920
   server: 36.156.102.84
   skip-cert-verify: false
@@ -23,21 +25,22 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 中国 005
+- client-fingerprint: chrome
+  name: '日本3|@ripaojiedian #1'
   network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3160
+  password: e9368912c4ed6046dca6949229cbff02
+  port: 3271
   server: 36.156.102.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 004
+- name: 日本 001
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 1806
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  port: 443
+  server: 126.47.92.160
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
   type: trojan
 - name: 日本 002
   network: tcp
@@ -659,27 +662,22 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
-- client-fingerprint: chrome
-  name: '日本2|@ripaojiedian #1'
-  network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 1920
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '日本3|@ripaojiedian #1'
-  network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 3271
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 日本 102
+  network: ws
+  port: 22211
+  server: tls.07.node-for-bigairport.win
+  tls: false
+  type: vmess
+  uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53
+  ws-opts:
+    headers:
+      Host: tls.07.node-for-bigairport.win
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 🇯🇵 日本4|@ripaojiedian
+  name: '🇯🇵 日本4|@ripaojiedian #1'
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 194.68.27.76
