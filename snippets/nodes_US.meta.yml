@@ -31,15 +31,27 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 美国|@ripaojiedian
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 24673
+- name: '🔐 @AblNet7 🇺🇸 机场推荐 #2 #1'
+  password: c232f411-96b5-4b07-b2f7-66a434725ffb
+  port: 23891
+  server: 108.165.213.197
+  skip-cert-verify: true
+  sni: fus01.mistea.top
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 6752
   server: 36.156.102.84
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- name: 美国2|@ripaojiedian
-  password: e9368912c4ed6046dca6949229cbff02
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
   server: 36.156.102.84
   skip-cert-verify: true
@@ -2589,18 +2601,6 @@ proxies:
   type: vless
   udp: true
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
-- client-fingerprint: chrome
-  grpc-opts: {}
-  name: 美国 185
-  network: grpc
-  port: 8880
-  server: pqh25v7.vetrkot.com
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4824193-4f54-453b-d037-88368e85ef0e
 - client-fingerprint: chrome
   name: 美国 186
   network: ws
@@ -15961,23 +15961,20 @@ proxies:
       Host: putihb.org
     path: linkvws
 - client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 6752
-  server: 36.156.102.84
+  name: 美国 185
+  network: ws
+  port: 8443
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
   skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    headers:
+      Host: bycf.lzjnb.shop
+    path: /?ed=2560
 - alpn:
   - h3
   client-fingerprint: random
