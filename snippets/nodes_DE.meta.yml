@@ -14,46 +14,19 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '🇩🇪@FreakConfig #1'
-  password: 571ec94e-613c-430a-93de-397d3d237475
-  port: 22155
-  server: hsdg.huasuan666.top
-  skip-cert-verify: true
-  sni: hsdg.huasuan666.top
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
-  name: DE_speednode_0006
-  port: 48769
-  server: fast7.hvitrin.ir
-  servername: miro.com
+  name: 'DE_speednode_0004 #1'
+  port: 6666
+  reality-opts:
+    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
+    short-id: b525ecd2fc
+  server: 188.68.53.100
+  servername: Tgju.org
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: f8806934-15d7-4194-9c35-ec7a140bb6f6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: DE_speednode_0007
-  port: 8443
-  server: de.monkeyisland.life
-  servername: www.stackoverflow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fd71044e-127b-429c-9f4a-bd2432e473be
-- name: DE_speednode_0008
-  network: ws
-  port: 443
-  server: net2026.zanddynastyofpersia.org
-  servername: net2026.zanddynastyofpersia.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-  ws-opts:
-    headers:
-      Host: net2026.zanddynastyofpersia.org
-    path: /eJsVXFVZ6iavNx1EFxOyH861WHfp=chrome
+  udp: true
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
 - alterId: 0
   cipher: auto
   name: 德国 001
@@ -1217,16 +1190,3 @@ proxies:
     headers:
       Host: fei.634676.xyz
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: DE_speednode_0004
-  port: 6666
-  reality-opts:
-    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-    short-id: b525ecd2fc
-  server: 188.68.53.100
-  servername: Tgju.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
