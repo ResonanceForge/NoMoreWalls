@@ -38,14 +38,6 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '🇩🇪@FreakConfig #2'
-  password: 571ec94e-613c-430a-93de-397d3d237475
-  port: 22155
-  server: hsdg.huasuan666.top
-  skip-cert-verify: true
-  sni: hsdg.huasuan666.top
-  tls: false
-  type: hysteria2
 - name: '@Daily_Configs #1 #1'
   password: 5f4ba37a-bb3c-4f8e-962e-850f624ad131
   port: 54265
@@ -437,6 +429,14 @@ proxies:
   sni: ubuntu.com
   tls: false
   type: hysteria2
+- name: '🇩🇪@FreakConfig #1'
+  password: 571ec94e-613c-430a-93de-397d3d237475
+  port: 22155
+  server: hsdg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsdg.huasuan666.top
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: '香港|@ripaojiedian #1'
@@ -554,55 +554,39 @@ proxies:
   sni: fe2.update.microsoft.com
   type: trojan
 - flow: xtls-rprx-vision
-  name: 'AE_speednode_0001 #1'
+  name: AE_speednode_0001
   port: 443
-  reality-opts:
-    public-key: RDAZYkEO3l0_jrv5O5edQ6zsMYrxKLp1GPV339ZTDSk
-    short-id: ec7212a8
   server: 38.180.26.205
   servername: nspk.ru
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - flow: xtls-rprx-vision
-  name: 'CA_speednode_0002 #1'
+  name: CA_speednode_0002
   port: 42557
-  reality-opts:
-    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
-    short-id: f430927d
   server: 132.145.108.97
   servername: www.yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
-- name: 'DE_speednode_0006 #1'
+- name: DE_speednode_0006
   port: 48769
-  reality-opts:
-    public-key: 7nXyxyyn6fSlJzPO1DFmIEUV8LAmoP58-_1zP_MKo2E
-    short-id: 177f438f
   server: fast7.hvitrin.ir
   servername: miro.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: f8806934-15d7-4194-9c35-ec7a140bb6f6
 - flow: xtls-rprx-vision
-  name: 'DE_speednode_0007 #1'
+  name: DE_speednode_0007
   port: 8443
-  reality-opts:
-    public-key: NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE
-    short-id: 3be8ba17d00eb522
   server: de.monkeyisland.life
   servername: www.stackoverflow.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: fd71044e-127b-429c-9f4a-bd2432e473be
 - name: DE_speednode_0008
   network: ws
@@ -617,71 +601,46 @@ proxies:
     headers:
       Host: net2026.zanddynastyofpersia.org
     path: /eJsVXFVZ6iavNx1EFxOyH861WHfp=chrome
-- http-opts:
-    headers:
-      Host:
-      - Telewebion.com
-    method: GET
-    path:
-    - /
-  name: 'IR_speednode_0010 #1'
-  network: http
+- name: IR_speednode_0010
   port: 20532
   server: 94.182.137.12
   servername: Telewebion.com
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
-- name: 'KZ_speednode_0012 #1'
+- name: KZ_speednode_0012
   port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    short-id: 27cfa05000c23cc4
   server: 38.107.234.93
   servername: yandex.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - flow: xtls-rprx-vision
-  name: 'MD_speednode_0013 #1'
+  name: MD_speednode_0013
   port: 443
-  reality-opts:
-    public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
-    short-id: 8453e5fd9af927
   server: rus-0001-xr.packet-drop-society.net
   servername: hls-svod.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: a71f0ddd-8ae5-437b-8d59-582779757296
-- name: 'NL_speednode_0014 #1'
+- name: NL_speednode_0014
   port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    short-id: 27cfa05000c23cc4
   server: 77.246.100.169
   servername: yandex.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 'PL_speednode_0015 #1'
+- name: PL_speednode_0015
   port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    short-id: 27cfa05000c23cc4
   server: 77.83.245.220
   servername: yandex.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - name: RU_speednode_0016
   network: ws
@@ -709,7 +668,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
-- name: 'SG_speednode_0018 #1'
+- name: 俄罗斯 001
   network: ws
   password: wb6368
   port: 2087
@@ -722,13 +681,12 @@ proxies:
     headers:
       Host: hsdgbuys.pages.dev
     path: /
-- name: 'SG_speednode_0020 #1'
+- name: SG_speednode_0020
   password: installshield
   port: 8443
   server: 38.180.106.124
   skip-cert-verify: true
   type: trojan
-  udp: true
 - alpn:
   - h3
   name: US_speednode_0024
@@ -757,7 +715,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegramsecurity=tls
-- name: 'US_speednode_0027 #1'
+- name: US_speednode_0027
   network: ws
   port: 2082
   server: www.speedtest.net
@@ -765,13 +723,12 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: e6ac850f-c81a-482d-ab54-c3fa3b327e4e
   ws-opts:
     headers:
       Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: 'US_speednode_0028 #1'
+- name: US_speednode_0028
   network: ws
   port: 80
   server: www.speedtest.net
@@ -779,7 +736,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: 375e6eaa-d849-40e4-b4f7-102e6ee0fe87
   ws-opts:
     headers:
@@ -6770,7 +6726,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/120.0.0.0 Safari/537.36
     path: /Iyq035lnud9R8ruNNrqGxZZ2
-- name: 'DE_speednode_0008 #1'
+- name: 德国 032
   network: ws
   port: 443
   server: net2026.zanddynastyofpersia.org
@@ -6784,6 +6740,8 @@ proxies:
   ws-opts:
     headers:
       Host: net2026.zanddynastyofpersia.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/120.0.0.0 Safari/537.36
     path: /eJsVXFVZ6iavNx1EFxOyH861WH
 - alterId: 0
   cipher: auto
@@ -16532,7 +16490,7 @@ proxies:
   type: vless
   udp: true
   uuid: f618e2f9-9295-4f95-9589-307a50b93d31
-- name: 'US_speednode_0026 #1'
+- name: 美国 602
   network: ws
   port: 2096
   server: 72.167.25.253
@@ -28467,6 +28425,26 @@ proxies:
   server: 103.186.154.237
   tfo: false
   type: ss
+- flow: xtls-rprx-vision
+  name: AT_speednode_0001
+  port: 25801
+  reality-opts:
+    public-key: iC7qQK0Yu8sQsiIj5JPTGDVTrFkZDoesDUn24pDwgQk
+  server: mengying.eu.org
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c7f66da-af49-4e6d-b60c-f6a0eaa00919
+- name: CN_speednode_0002
+  password: e531d1bc-a56f-4e1a-a295-1442369a19c1
+  port: 26004
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
 - name: CN_speednode_0003
   password: 80c9752a41
   port: 20443
@@ -28476,7 +28454,19 @@ proxies:
   type: http
   udp: true
   username: dd247fc262
-- name: KR_speednode_0011
+- name: DE_speednode_0004
+  port: 6666
+  reality-opts:
+    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
+    short-id: b525ecd2fc
+  server: 188.68.53.100
+  servername: Tgju.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+- name: KR_speednode_0005
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -28485,7 +28475,19 @@ proxies:
   type: http
   udp: true
   username: test
-- name: 'RU_speednode_0016 #1'
+- name: NL_speednode_0006
+  port: 32155
+  reality-opts:
+    public-key: 6-b7u_t7wG_jbda_lucHW4Au9biBl1E0tA2Zkqm8mSw
+    short-id: 737af772
+  server: 31.207.44.210
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e23b585-a486-4541-83d8-5832a1409c6e
+- name: RU_speednode_0007
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -28499,34 +28501,11 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 'RU_speednode_0017 #1'
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
+- name: TW_speednode_0009
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 'US_speednode_0024 #1'
-  network: ws
-  port: 2083
-  server: 162.159.142.252
-  servername: fei.634676.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  ws-opts:
-    headers:
-      Host: fei.634676.xyz
-    path: /?ed=2560
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
