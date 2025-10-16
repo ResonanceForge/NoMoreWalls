@@ -31,20 +31,23 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 中国 015
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 6752
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 美国2|@ripaojiedian
-  password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
-  server: 36.156.102.84
+  server: 160.16.144.208
   skip-cert-verify: true
-  sni: fe2.update.microsoft.com
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 24673
+  server: 160.16.124.55
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
 - alterId: 1
   cipher: auto
@@ -15908,21 +15911,3 @@ proxies:
     headers:
       Host: bycf.lzjnb.shop
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 160.16.144.208
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 24673
-  server: 160.16.124.55
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan

@@ -15,79 +15,72 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 香港3|@ripaojiedian
+- name: '香港3|@ripaojiedian #1'
   network: tcp
-  port: '41522'
-  server: 43.247.135.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
-- name: 日本 001
+  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- name: '香港4|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
-  server: 60.82.70.104
+  server: 58.152.53.214
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: www.baidu.com
   type: trojan
-- name: 香港6|@ripaojiedian
+- name: '香港6|@ripaojiedian #1'
+  network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
-  server: 58.152.53.162
+  server: 203.198.123.249
   skip-cert-verify: true
-  sni: fe2.update.microsoft.com
+  sni: www.baidu.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 中国 005
-  network: ws
-  port: 30806
-  server: v6.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- name: 中国 011
+- name: '日本2|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 3272
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  port: 316
+  server: 160.16.144.208
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
-- name: 中国 012
+- name: '日本3|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 1806
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  port: 1331
+  server: 160.16.144.208
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
-- name: 中国 013
+- name: '新加坡|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2283
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  server: 160.16.144.208
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
-- name: 中国 014
+- name: '新加坡2|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 1085
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  port: 5041
+  server: 160.16.138.24
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '新加坡3|@ripaojiedian #1'
+  network: tcp
+  port: '22286'
+  server: 47.245.106.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8646218f-a600-4b73-8721-aa5d4567819e
 - alterId: 0
   cipher: auto
   name: '新加坡4|@ripaojiedian #1'
@@ -98,20 +91,21 @@ proxies:
   tls: false
   type: vmess
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- name: 中国 015
+- name: '美国|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 6752
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 美国2|@ripaojiedian
-  password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
-  server: 36.156.102.84
+  server: 160.16.144.208
   skip-cert-verify: true
-  sni: fe2.update.microsoft.com
+  sni: www.baidu.com
+  type: trojan
+- name: '美国2|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 24673
+  server: 160.16.124.55
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
 - name: 'CN_speednode_0002 #1'
   password: e531d1bc-a56f-4e1a-a295-1442369a19c1
@@ -121,7 +115,86 @@ proxies:
   sni: www.bilibili.com
   type: trojan
   udp: true
+- name: 日本 001
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 443
+  server: 60.82.70.104
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - name: 中国 002
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 443
+  server: 58.152.53.162
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 中国 003
+  network: ws
+  port: 30806
+  server: v6.heduian.link
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- name: 中国 004
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 3272
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 005
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 1806
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 006
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 2283
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 007
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 1085
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 中国 008
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 6752
+  server: 36.156.102.84
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- name: 中国 009
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 2381
+  server: 36.156.102.84
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- name: 中国 012
   network: tcp
   password: e9368912c4ed6046dca6949229cbff02
   port: 4400
@@ -129,15 +202,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 003
-  network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 443
-  server: 58.152.53.162
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 中国 004
+- name: 中国 013
   network: tcp
   password: e9368912c4ed6046dca6949229cbff02
   port: 1920
@@ -145,7 +210,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 006
+- name: 中国 014
   network: tcp
   password: e9368912c4ed6046dca6949229cbff02
   port: 3271
@@ -153,7 +218,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 007
+- name: 中国 015
   network: tcp
   password: e9368912c4ed6046dca6949229cbff02
   port: 2173
@@ -161,7 +226,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 008
+- name: 中国 016
   network: tcp
   password: e9368912c4ed6046dca6949229cbff02
   port: 5321
@@ -169,18 +234,10 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 009
+- name: 中国 017
   network: tcp
   password: e9368912c4ed6046dca6949229cbff02
   port: 24673
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 中国 010
-  network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 2381
   server: 36.156.102.84
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
@@ -198,7 +255,7 @@ proxies:
     headers:
       Host: hsdgbuys.pages.dev
     path: /
-- name: 中国 016
+- name: 中国 018
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -208,14 +265,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 中国 017
+  name: 中国 019
   network: tcp
   port: 30485
   server: 103.224.80.67
   tls: false
   type: vmess
   uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
-- name: 中国 018
+- name: 中国 020
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4419
@@ -223,7 +280,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 002
+- name: 日本 008
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -233,7 +290,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 中国 019
+  name: 中国 021
   network: ws
   port: 21791
   server: kf5uhgscrdl73kmihv8c.appsworld.shop
@@ -246,7 +303,7 @@ proxies:
     headers:
       Host: www.baidu.com
     path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
-- name: 中国 020
+- name: 中国 022
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -254,7 +311,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 021
+- name: 中国 023
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4400
@@ -262,7 +319,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 003
+- name: 日本 009
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4451
@@ -270,7 +327,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 004
+- name: 日本 010
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -278,7 +335,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 005
+- name: 日本 011
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2283
@@ -286,7 +343,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 006
+- name: 日本 012
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 5041
@@ -310,7 +367,7 @@ proxies:
     headers:
       Host: node4.rtxconfigz.com
     path: /
-- name: 日本 007
+- name: 日本 013
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2381
@@ -318,7 +375,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 008
+- name: 日本 014
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1572
@@ -488,7 +545,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 日本 009
+  name: 日本 015
   network: ws
   port: 443
   server: 146.56.138.175
@@ -630,7 +687,7 @@ proxies:
   uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649
 - alterId: 0
   cipher: auto
-  name: 中国 022
+  name: 中国 024
   network: tcp
   port: 50002
   server: 120.210.205.59
@@ -1056,7 +1113,7 @@ proxies:
   uuid: 96db7e57-5314-4560-b708-2446670dfa29
 - alterId: 0
   cipher: auto
-  name: 中国 023
+  name: 中国 025
   network: tcp
   port: 11455
   server: 47.243.245.143
@@ -1142,7 +1199,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 中国 024
+  name: 中国 026
   network: tcp
   port: 31212
   server: 47.242.90.210
@@ -1469,7 +1526,7 @@ proxies:
   type: vmess
   udp: true
   uuid: b592cf1a-d92f-4dbd-9c1d-b76936a1609e
-- name: 中国 025
+- name: 中国 027
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -1477,7 +1534,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 026
+- name: 中国 028
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4431
@@ -1485,7 +1542,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 013
+- name: 日本 019
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4451
@@ -1493,7 +1550,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 014
+- name: 日本 020
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 5041
@@ -1501,7 +1558,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 015
+- name: 日本 021
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1536
@@ -1517,7 +1574,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 027
+- name: 中国 029
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1572
@@ -1553,7 +1610,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 中国 028
+  name: 中国 030
   network: ws
   port: 30839
   server: v39.heduian.link
@@ -1597,7 +1654,7 @@ proxies:
     path: /ODznTT5fgkUw3VH0GJ
 - alterId: 2
   cipher: auto
-  name: 中国 029
+  name: 中国 031
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -1643,7 +1700,7 @@ proxies:
     headers:
       Host: gamang.gpj2.dpdns.org
     path: /Free-VPN-Geo-Project/80.66.85.115-2053
-- name: 中国 030
+- name: 中国 032
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -1651,7 +1708,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 031
+- name: 中国 033
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1801
@@ -1659,7 +1716,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 023
+- name: 日本 029
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1085
@@ -1908,7 +1965,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 中国 033
+  name: 中国 035
   network: tcp
   port: 30302
   server: 39.107.155.11
@@ -1958,7 +2015,7 @@ proxies:
     headers:
       Host: foxpol.fovi.tk
     path: /eisasqa
-- name: 中国 034
+- name: 中国 036
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3271
@@ -1966,15 +2023,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 027
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1331
-  server: 160.16.144.208
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 中国 035
+- name: 中国 037
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 26295
@@ -1982,7 +2031,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 036
+- name: 中国 038
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2200
@@ -1990,7 +2039,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 028
+- name: 日本 033
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4234
@@ -1998,7 +2047,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 037
+- name: 中国 039
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1177
@@ -2006,7 +2055,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 038
+- name: 中国 040
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -2014,7 +2063,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 029
+- name: 日本 034
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -2024,7 +2073,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 中国 039
+  name: 中国 041
   network: ws
   port: 80
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -2037,7 +2086,7 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 日本 030
+- name: 日本 035
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -2045,7 +2094,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 040
+- name: 中国 042
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1924
@@ -2053,7 +2102,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 031
+- name: 日本 036
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2283
@@ -2061,7 +2110,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 041
+- name: 中国 043
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 22000
@@ -2069,7 +2118,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 032
+- name: 日本 037
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1572
@@ -2079,7 +2128,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 中国 042
+  name: 中国 044
   network: tcp
   port: 50002
   server: 139.129.20.6
@@ -2116,7 +2165,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 日本 033
+  name: 日本 038
   network: tcp
   port: 49795
   server: 103.236.227.7
@@ -2162,7 +2211,7 @@ proxies:
   type: vmess
   udp: true
   uuid: f21c11fc-0762-4b56-ab98-79d0b8460e7b
-- name: 中国 043
+- name: 中国 045
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 444
@@ -2170,7 +2219,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 044
+- name: 中国 046
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -2178,7 +2227,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 045
+- name: 中国 047
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1806
@@ -2186,7 +2235,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 034
+- name: 日本 039
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -2194,7 +2243,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 046
+- name: 中国 048
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1085
@@ -2202,7 +2251,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 035
+- name: 日本 040
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2173
@@ -2210,7 +2259,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 中国 047
+- name: 中国 049
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -2218,7 +2267,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 036
+- name: 日本 041
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 6752
@@ -2228,7 +2277,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本 037
+  name: 日本 042
   network: kcp
   port: 54483
   server: 13.231.211.146
@@ -2257,7 +2306,7 @@ proxies:
     headers:
       Host: NOp-55q.pAgEs.dEv
     path: /trGPZDfetEwuO25SAs?ed=2560
-- name: 日本 038
+- name: 日本 043
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -2265,7 +2314,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 039
+- name: 日本 044
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -2273,7 +2322,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 040
+- name: 日本 045
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 409
@@ -2281,7 +2330,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 041
+- name: 日本 046
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -2289,7 +2338,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 042
+- name: 日本 047
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 449
@@ -2297,7 +2346,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 043
+- name: 日本 048
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -2305,7 +2354,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 044
+- name: 日本 049
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4729
@@ -2323,7 +2372,7 @@ proxies:
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 中国 048
+- name: 中国 050
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -2331,7 +2380,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 045
+- name: 日本 050
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -2339,7 +2388,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 046
+- name: 日本 051
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1802
@@ -2347,7 +2396,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 047
+- name: 日本 052
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2045
@@ -2355,7 +2404,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 048
+- name: 日本 053
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3957
@@ -2363,7 +2412,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 049
+- name: 日本 054
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4317
@@ -2371,7 +2420,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 050
+- name: 日本 055
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -2381,7 +2430,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 中国 049
+  name: 中国 051
   network: kcp
   port: 5043
   server: 47.242.186.1
@@ -2390,14 +2439,14 @@ proxies:
   uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
 - alterId: 0
   cipher: auto
-  name: 日本 051
+  name: 日本 056
   network: kcp
   port: 30391
   server: 54.168.151.169
   tls: false
   type: vmess
   uuid: c977388d-4550-4135-bbc6-0199daa76352
-- name: 中国 050
+- name: 中国 052
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -2405,7 +2454,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 052
+- name: 日本 057
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 449
@@ -2413,7 +2462,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 053
+- name: 日本 058
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1700
@@ -2423,14 +2472,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本 054
+  name: 日本 059
   network: kcp
   port: 5106
   server: 47.74.14.30
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
-- name: 日本 055
+- name: 日本 060
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1331
@@ -2438,7 +2487,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 056
+- name: 日本 061
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4397
@@ -2446,7 +2495,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 057
+- name: 日本 062
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -2454,7 +2503,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 058
+- name: 日本 063
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -2462,7 +2511,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 059
+- name: 日本 064
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -2478,7 +2527,7 @@ proxies:
   skip-cert-verify: false
   sni: eplcgame.com
   type: trojan
-- name: 日本 060
+- name: 日本 065
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1700
@@ -2486,7 +2535,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 061
+- name: 日本 066
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1802
@@ -2494,7 +2543,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 062
+- name: 日本 067
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1924
@@ -2502,7 +2551,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 063
+- name: 日本 068
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
@@ -2510,7 +2559,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 064
+- name: 日本 069
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 447
@@ -2518,7 +2567,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 065
+- name: 日本 070
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
@@ -2526,7 +2575,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本 066
+- name: 日本 071
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -3313,7 +3362,7 @@ proxies:
     path: /f6taOMcOSZb9TPR
 - alterId: 0
   cipher: auto
-  name: 日本 067
+  name: 日本 072
   network: ws
   port: 54516
   server: 158.101.146.3
@@ -3365,7 +3414,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 日本 068
+  name: 日本 073
   network: ws
   port: 33333
   server: 146.56.45.242
@@ -3425,7 +3474,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 中国 051
+  name: 中国 053
   network: ws
   port: 36101
   server: 120.82.70.149
@@ -3485,7 +3534,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 中国 052
+  name: 中国 054
   network: ws
   port: 8080
   server: 103.117.101.16
@@ -3545,7 +3594,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 069
+  name: 日本 074
   network: ws
   port: 14954
   server: 91.200.242.187
@@ -3680,7 +3729,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 中国 053
+  name: 中国 055
   network: ws
   port: 8080
   server: 104.208.85.56
@@ -3710,7 +3759,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 中国 054
+  name: 中国 056
   network: ws
   port: 8080
   server: 156.251.176.167
@@ -3725,7 +3774,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 070
+  name: 日本 075
   network: ws
   port: 10241
   server: 52.197.107.193
@@ -3845,7 +3894,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 中国 055
+  name: 中国 057
   network: ws
   port: 8080
   server: 176.119.149.46
@@ -3890,7 +3939,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 中国 056
+  name: 中国 058
   network: ws
   port: 1552
   server: nas.ruyo.in
@@ -3935,7 +3984,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 日本 071
+  name: 日本 076
   network: ws
   port: 8080
   server: 146.56.157.76
@@ -3950,7 +3999,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 072
+  name: 日本 077
   network: ws
   port: 8080
   server: 146.56.179.139
@@ -4040,7 +4089,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 中国 057
+  name: 中国 059
   network: ws
   port: 28080
   server: tw-pqshi.vm.331331.xyz
@@ -4070,7 +4119,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 073
+  name: 日本 078
   network: ws
   port: 8080
   server: bnm.skyin.net
@@ -4145,7 +4194,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 074
+  name: 日本 079
   network: ws
   port: 8080
   server: bst.n48.net
@@ -4205,7 +4254,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 中国 058
+  name: 中国 060
   network: ws
   port: 8080
   server: 101.33.120.19
@@ -4220,7 +4269,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 日本 075
+  name: 日本 080
   network: ws
   port: 80
   server: 99.84.128.45
@@ -4280,7 +4329,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 076
+  name: 日本 081
   network: ws
   port: 8080
   server: 193.32.151.103
@@ -4385,7 +4434,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 中国 059
+  name: 中国 061
   network: ws
   port: 443
   server: 8.219.53.156
@@ -4445,7 +4494,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 077
+  name: 日本 082
   network: ws
   port: 8080
   server: 193.32.148.12
@@ -4460,7 +4509,7 @@ proxies:
     path: /download
 - alterId: 2
   cipher: auto
-  name: 中国 060
+  name: 中国 062
   network: ws
   port: 80
   server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
@@ -4707,7 +4756,7 @@ proxies:
     path: /index.html?ed=2048
 - alterId: 64
   cipher: auto
-  name: 中国 065
+  name: 中国 067
   network: tcp
   port: 52112
   server: 183.236.51.23
@@ -4753,7 +4802,7 @@ proxies:
   uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
 - alterId: 0
   cipher: auto
-  name: 中国 066
+  name: 中国 068
   network: tcp
   port: 46051
   server: us1.tiljkc.top
@@ -4762,7 +4811,7 @@ proxies:
   uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
 - alterId: 64
   cipher: auto
-  name: 中国 067
+  name: 中国 069
   network: tcp
   port: 58831
   server: 183.236.48.163
@@ -4771,7 +4820,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 068
+  name: 中国 070
   network: tcp
   port: 46602
   server: 183.236.51.23
@@ -4780,7 +4829,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 069
+  name: 中国 071
   network: tcp
   port: 48109
   server: 183.236.51.23
@@ -4789,7 +4838,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 070
+  name: 中国 072
   network: tcp
   port: 53002
   server: 183.236.51.23
@@ -4798,7 +4847,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 071
+  name: 中国 073
   network: tcp
   port: 49302
   server: 183.236.51.38
@@ -4807,7 +4856,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 072
+  name: 中国 074
   network: tcp
   port: 45402
   server: 120.232.153.123
@@ -4816,7 +4865,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 073
+  name: 中国 075
   network: tcp
   port: 58831
   server: 120.232.153.27
@@ -4825,7 +4874,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 074
+  name: 中国 076
   network: tcp
   port: 40972
   server: 120.232.153.63
@@ -4834,7 +4883,7 @@ proxies:
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alterId: 64
   cipher: auto
-  name: 中国 075
+  name: 中国 077
   network: tcp
   port: 52908
   server: 120.234.102.229
@@ -4861,7 +4910,7 @@ proxies:
   uuid: c06797d5-fa41-4b48-b132-d268d2acb302
 - alterId: 0
   cipher: auto
-  name: 中国 076
+  name: 中国 078
   network: tcp
   port: 39041
   server: hk1.tiljkc.top
@@ -4870,7 +4919,7 @@ proxies:
   uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
 - alterId: 2
   cipher: auto
-  name: 中国 077
+  name: 中国 079
   network: ws
   port: 30832
   server: v32.heduian.link
@@ -4883,7 +4932,7 @@ proxies:
     path: /oooo
 - alterId: 64
   cipher: auto
-  name: 中国 078
+  name: 中国 080
   network: tcp
   port: 51704
   server: 183.236.51.23
@@ -4892,7 +4941,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 079
+  name: 中国 081
   network: tcp
   port: 54104
   server: 183.236.51.23
@@ -4901,7 +4950,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 中国 080
+  name: 中国 082
   network: tcp
   port: 39949
   server: 185.207.155.123
@@ -4910,7 +4959,7 @@ proxies:
   uuid: 0899b23d-fbd2-42b8-8e48-b057cf45e24e
 - alterId: 0
   cipher: auto
-  name: 中国 081
+  name: 中国 083
   network: tcp
   port: 16785
   server: 103.30.76.250
@@ -4919,7 +4968,7 @@ proxies:
   uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
 - alterId: 64
   cipher: auto
-  name: 中国 082
+  name: 中国 084
   network: tcp
   port: 34493
   server: 120.198.71.214
@@ -4928,7 +4977,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 中国 083
+  name: 中国 085
   network: tcp
   port: 44014
   server: 120.198.71.219
@@ -4937,7 +4986,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 084
+  name: 中国 086
   network: tcp
   port: 31209
   server: 120.232.153.40
@@ -4946,7 +4995,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 085
+  name: 中国 087
   network: tcp
   port: 44614
   server: 120.198.71.219
@@ -4955,7 +5004,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 086
+  name: 中国 088
   network: tcp
   port: 58002
   server: 120.232.153.27
@@ -4973,7 +5022,7 @@ proxies:
   uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
 - alterId: 0
   cipher: auto
-  name: 中国 087
+  name: 中国 089
   network: tcp
   port: 38951
   server: jp1.tiljkc.top
@@ -4982,7 +5031,7 @@ proxies:
   uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
 - alterId: 2
   cipher: auto
-  name: 中国 088
+  name: 中国 090
   network: ws
   port: 30824
   server: v24.heduian.link
@@ -5004,7 +5053,7 @@ proxies:
   uuid: 96e128c5-a64f-4067-81f1-782907169b82
 - alterId: 64
   cipher: auto
-  name: 中国 089
+  name: 中国 091
   network: tcp
   port: 50052
   server: 183.236.48.158
@@ -5013,7 +5062,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 090
+  name: 中国 092
   network: tcp
   port: 59952
   server: 183.236.48.158
@@ -5022,7 +5071,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 中国 091
+  name: 中国 093
   network: tcp
   port: 34843
   server: sgp1.tiljkc.top
@@ -5031,7 +5080,7 @@ proxies:
   uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
 - alterId: 0
   cipher: auto
-  name: 中国 092
+  name: 中国 094
   network: tcp
   port: 12672
   server: xctransfer1st.cokecloud.top
@@ -5081,7 +5130,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: 中国 093
+  name: 中国 095
   network: tcp
   port: 48009
   server: 183.236.51.23
@@ -5246,7 +5295,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: 中国 094
+  name: 中国 096
   network: tcp
   port: 31778
   server: 183.236.48.161
@@ -5401,7 +5450,7 @@ proxies:
     path: /profile/telegram
 - alterId: 2
   cipher: auto
-  name: 中国 095
+  name: 中国 097
   network: ws
   port: 30808
   server: v8.heduian.link
@@ -5724,7 +5773,7 @@ proxies:
     path: /linkvkwss
 - alterId: 0
   cipher: auto
-  name: 中国 096
+  name: 中国 098
   network: ws
   port: 80
   server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
@@ -6010,7 +6059,7 @@ proxies:
     path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
-  name: 中国 097
+  name: 中国 099
   network: tcp
   port: 45058
   server: haa.dashuai.cyou
@@ -6019,7 +6068,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 098
+  name: 中国 100
   network: tcp
   port: 45059
   server: xdd.dashuai.cyou
@@ -6028,7 +6077,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 099
+  name: 中国 101
   network: tcp
   port: 45060
   server: haa.dashuai.cyou
@@ -6037,7 +6086,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 100
+  name: 中国 102
   network: tcp
   port: 45061
   server: xdd.dashuai.cyou
@@ -6046,7 +6095,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 101
+  name: 中国 103
   network: tcp
   port: 19901
   server: xg.dashuai.cyou
@@ -6321,7 +6370,7 @@ proxies:
   uuid: 314185f7-931d-4656-922d-0857e7afd224
 - alterId: 0
   cipher: auto
-  name: 中国 102
+  name: 中国 104
   network: tcp
   port: 50007
   server: 112.132.215.34
@@ -6653,7 +6702,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: 中国 103
+  name: 中国 105
   network: tcp
   port: 34565
   server: 120.232.153.71
@@ -6703,7 +6752,7 @@ proxies:
   uuid: e6fa3e4c-1c4e-41ea-27be-9c8e44b43671
 - alterId: 0
   cipher: auto
-  name: 中国 104
+  name: 中国 106
   network: tcp
   port: 45066
   server: haa.dashuai.cyou
@@ -6712,7 +6761,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 105
+  name: 中国 107
   network: tcp
   port: 45067
   server: xdd.dashuai.cyou
@@ -6721,7 +6770,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 106
+  name: 中国 108
   network: tcp
   port: 45055
   server: xdd.dashuai.cyou
@@ -6886,7 +6935,7 @@ proxies:
     path: /www
 - alterId: 0
   cipher: auto
-  name: 中国 107
+  name: 中国 109
   network: tcp
   port: 52076
   server: 101.32.244.46
@@ -6922,7 +6971,7 @@ proxies:
   uuid: e7b88e16-7480-4ec1-e1f2-523b45462467
 - alterId: 64
   cipher: auto
-  name: 中国 108
+  name: 中国 110
   network: tcp
   port: 40002
   server: 183.236.48.163
@@ -6992,7 +7041,7 @@ proxies:
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 1
   cipher: auto
-  name: 日本 096
+  name: 日本 101
   network: tcp
   port: 46484
   server: 52.195.13.90
@@ -7019,7 +7068,7 @@ proxies:
   uuid: 6b3a7034-39ec-f057-377d-cf6af57b4db4
 - alterId: 0
   cipher: auto
-  name: 中国 110
+  name: 中国 112
   network: tcp
   port: 22250
   server: hn3x.newbee8.me
@@ -7028,7 +7077,7 @@ proxies:
   uuid: 16de85ac-3b92-4282-a549-532241485fe1
 - alterId: 0
   cipher: auto
-  name: 中国 111
+  name: 中国 113
   network: tcp
   port: 35660
   server: gzdx.newbee8.me
@@ -7419,7 +7468,7 @@ proxies:
     path: /13111/Nextlife
 - alterId: 0
   cipher: auto
-  name: 中国 115
+  name: 中国 117
   network: tcp
   port: 45051
   server: xdd.dashuai.cyou
@@ -7633,7 +7682,7 @@ proxies:
     path: /linkws/afrhms16v.bestxray.buzz
 - alterId: 0
   cipher: auto
-  name: 中国 116
+  name: 中国 118
   network: tcp
   port: 45050
   server: haa.dashuai.cyou
@@ -7642,7 +7691,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 117
+  name: 中国 119
   network: tcp
   port: 45077
   server: xdd.dashuai.cyou
@@ -7651,7 +7700,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 118
+  name: 中国 120
   network: tcp
   port: 45052
   server: haa.dashuai.cyou
@@ -7660,7 +7709,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 119
+  name: 中国 121
   network: tcp
   port: 45053
   server: xdd.dashuai.cyou
@@ -7669,7 +7718,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 120
+  name: 中国 122
   network: tcp
   port: 45056
   server: haa.dashuai.cyou
@@ -7678,7 +7727,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 121
+  name: 中国 123
   network: tcp
   port: 45057
   server: xdd.dashuai.cyou
@@ -7687,7 +7736,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 122
+  name: 中国 124
   network: tcp
   port: 45075
   server: xdd.dashuai.cyou
@@ -7696,7 +7745,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 123
+  name: 中国 125
   network: tcp
   port: 45062
   server: haa.dashuai.cyou
@@ -7705,7 +7754,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 124
+  name: 中国 126
   network: tcp
   port: 45063
   server: xdd.dashuai.cyou
@@ -7714,7 +7763,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 125
+  name: 中国 127
   network: tcp
   port: 45064
   server: haa.dashuai.cyou
@@ -7723,7 +7772,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 126
+  name: 中国 128
   network: tcp
   port: 45065
   server: xdd.dashuai.cyou
@@ -7732,7 +7781,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 日本 098
+  name: 日本 103
   network: tcp
   port: 50005
   server: bgroup.node1.v.nodelist-airport.com
@@ -7759,7 +7808,7 @@ proxies:
   uuid: a2e7d484-6e45-4ef6-81b7-e5bffce1e850
 - alterId: 2
   cipher: auto
-  name: 中国 129
+  name: 中国 131
   network: ws
   port: 30807
   server: v10.heduian.link
@@ -7876,7 +7925,7 @@ proxies:
     path: /azumase.ren
 - alterId: 0
   cipher: auto
-  name: 日本 099
+  name: 日本 104
   network: tcp
   port: 55218
   server: 103.85.25.134
@@ -7912,7 +7961,7 @@ proxies:
     path: /afrhms07.xfixedfloat.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 中国 130
+  name: 中国 132
   network: tcp
   port: 50002
   server: 106.14.75.114
@@ -8360,7 +8409,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 日本 101
+  name: 日本 106
   network: tcp
   port: 43720
   server: 61.120.9.18
@@ -8507,7 +8556,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 131
+  name: 中国 133
   network: tcp
   port: 42055
   server: 120.232.153.37
@@ -8539,7 +8588,7 @@ proxies:
     path: /multipath
 - alterId: 64
   cipher: auto
-  name: 中国 132
+  name: 中国 134
   network: tcp
   port: 33288
   server: 183.236.48.166
@@ -8611,7 +8660,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 中国 133
+  name: 中国 135
   network: tcp
   port: 45054
   server: haa.dashuai.cyou
@@ -8914,7 +8963,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 日本 103
+  name: 日本 108
   network: ws
   port: 22211
   server: tls.07.node-for-bigairport.win
@@ -8953,7 +9002,7 @@ proxies:
     path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
 - alterId: 0
   cipher: auto
-  name: 中国 134
+  name: 中国 136
   network: tcp
   port: 14247
   server: 103.75.117.78
@@ -9007,7 +9056,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 中国 135
+  name: 中国 137
   network: tcp
   port: 45078
   server: haa.dashuai.cyou
@@ -9016,7 +9065,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 136
+  name: 中国 138
   network: tcp
   port: 45074
   server: haa.dashuai.cyou
@@ -9025,7 +9074,7 @@ proxies:
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
 - alterId: 0
   cipher: auto
-  name: 中国 137
+  name: 中国 139
   network: tcp
   port: 45073
   server: xdd.dashuai.cyou
@@ -9054,62 +9103,6 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: '香港3|@ripaojiedian #1'
-  network: tcp
-  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
-  port: 13007
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- name: '香港4|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 443
-  server: 58.152.53.214
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: '香港6|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 443
-  server: 203.198.123.249
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: '日本2|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 316
-  server: 160.16.144.208
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: '日本3|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 1331
-  server: 160.16.144.208
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: '新加坡|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2283
-  server: 160.16.144.208
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: '新加坡2|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 5041
-  server: 160.16.138.24
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '🇸🇬 新加坡3|@ripaojiedian #1'
@@ -9130,24 +9123,8 @@ proxies:
   tls: false
   type: vmess
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 160.16.144.208
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 24673
-  server: 160.16.124.55
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - cipher: aes-256-gcm
-  name: 🇦🇺 澳大利亚|@ripaojiedian
+  name: '🇦🇺 澳大利亚|@ripaojiedian #1'
   password: dada0801
   port: 80
   server: 3.107.184.53
@@ -9161,19 +9138,9 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 英国|@ripaojiedian
+  name: '🇬🇧 英国|@ripaojiedian #1'
   password: k1v5g9FefdoO
   port: 8388
   server: 57.129.140.88
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 新加坡3|@ripaojiedian
-  network: tcp
-  port: '22286'
-  server: 47.245.106.193
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8646218f-a600-4b73-8721-aa5d4567819e
