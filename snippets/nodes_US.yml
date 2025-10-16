@@ -1,6 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
+- name: 中国 015
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 6752
@@ -8,9 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
+- name: 美国2|@ripaojiedian
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
   server: 36.156.102.84
@@ -4677,3 +4674,21 @@ proxies:
     headers:
       Host: putihb.org
     path: linkvws
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 2381
+  server: 160.16.144.208
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 24673
+  server: 160.16.124.55
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan

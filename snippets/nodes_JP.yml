@@ -1,10 +1,9 @@
 proxies:
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: '日本|@ripaojiedian #1'
+  name: 中国 005
   network: ws
-  port: '30806'
+  port: 30806
   server: v6.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -16,8 +15,7 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- client-fingerprint: chrome
-  name: '日本2|@ripaojiedian #1'
+- name: 中国 011
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 3272
@@ -25,8 +23,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '日本3|@ripaojiedian #1'
+- name: 中国 012
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 1806
@@ -675,3 +672,21 @@ proxies:
     headers:
       Host: tls.07.node-for-bigairport.win
     path: /
+- client-fingerprint: chrome
+  name: '日本2|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 316
+  server: 160.16.144.208
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: '日本3|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 1331
+  server: 160.16.144.208
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
