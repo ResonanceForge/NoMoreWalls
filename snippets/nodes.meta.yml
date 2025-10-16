@@ -15,7 +15,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 🇩🇪@FreakConfig
+- name: '🇩🇪@FreakConfig #3'
   password: 30c075af-9555-4671-b70e-43e3cfb2e707
   port: 7009
   server: 31.57.241.25
@@ -23,7 +23,7 @@ proxies:
   sni: d.eans.top
   tls: false
   type: hysteria2
-- name: '🇩🇪@FreakConfig #1'
+- name: '🇩🇪@FreakConfig #1 #1'
   password: 30c075af-9555-4671-b70e-43e3cfb2e707
   port: 7009
   server: d.eans.top
@@ -75,7 +75,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@FreakConfig #3'
+- name: '🇩🇪@FreakConfig #2 #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
@@ -239,7 +239,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #7 #1'
+- name: '🇳🇱@FreakConfig #6 #1'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -249,7 +249,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #6 #1'
+- name: '🇳🇱@FreakConfig #7 #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -386,7 +386,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #14 #1'
+- name: '@Daily_Configs #13 #1'
   password: miaoge110
   port: 40112
   server: 45.58.38.153
@@ -414,37 +414,12 @@ proxies:
   sni: stackoverflow.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #15 #1'
+- name: '@Daily_Configs #14 #1'
   password: zanzendegiazadi
   port: 443
   server: 103.249.133.79
   skip-cert-verify: true
   sni: ubuntu.com
-  tls: false
-  type: hysteria2
-- name: 🇹🇷@FreakConfig
-  password: 09fceaf1-5813-4745-b8ad-725fc5a8c426
-  port: 50443
-  server: 46.203.248.72
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '@Daily_Configs #11 #1'
-  obfs: salamander
-  obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
-  password: bsnnajjbjsjnjjjbbbsbjajhjnnwjnbudn
-  port: 443
-  server: 103.249.133.79
-  skip-cert-verify: true
-  sni: microsoft.com
-  tls: false
-  type: hysteria2
-- name: '🇺🇲@FreakConfig #1'
-  password: dongtaiwang.com
-  port: 22222
-  server: 208.87.243.187
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - alterId: 2
@@ -555,23 +530,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- flow: xtls-rprx-vision
-  name: AT_speednode_0001
-  port: 25801
-  server: mengying.eu.org
-  servername: updates.cdn-apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4c7f66da-af49-4e6d-b60c-f6a0eaa00919
-- name: CN_speednode_0002
-  password: e531d1bc-a56f-4e1a-a295-1442369a19c1
-  port: 26004
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-- name: DE_speednode_0002
+- name: 'DE_speednode_0002 #1'
   port: 6666
   reality-opts:
     public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
@@ -583,15 +542,20 @@ proxies:
   type: vless
   udp: true
   uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-- name: NL_speednode_0006
-  port: 32155
-  server: 31.207.44.210
-  servername: yahoo.com
+- flow: xtls-rprx-vision
+  name: 'GR_speednode_0003 #1'
+  port: 443
+  reality-opts:
+    public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
+    short-id: 0fa84b90
+  server: 185.39.207.121
+  servername: vk.cc
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 2e23b585-a486-4541-83d8-5832a1409c6e
-- name: RU_speednode_0007
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- name: RU_speednode_0009
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -604,6 +568,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560security=tls
+- flow: xtls-rprx-vision
+  name: 'US_speednode_0012 #1'
+  port: 443
+  reality-opts:
+    public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
+    short-id: f8c64c7a
+  server: 212.18.104.19
+  servername: nspk.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - name: 日本 001
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -28337,19 +28314,6 @@ proxies:
   type: http
   udp: true
   username: dd247fc262
-- flow: xtls-rprx-vision
-  name: GR_speednode_0003
-  port: 443
-  reality-opts:
-    public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
-    short-id: 0fa84b90
-  server: 185.39.207.121
-  servername: vk.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - name: KR_speednode_0008
   password: test.+
   port: 30446
@@ -28359,7 +28323,7 @@ proxies:
   type: http
   udp: true
   username: test
-- name: RU_speednode_0009
+- name: 'RU_speednode_0009 #1'
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -28381,16 +28345,3 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- flow: xtls-rprx-vision
-  name: US_speednode_0012
-  port: 443
-  reality-opts:
-    public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
-    short-id: f8c64c7a
-  server: 212.18.104.19
-  servername: nspk.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
