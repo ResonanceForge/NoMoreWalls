@@ -31,19 +31,21 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 日本 006
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
-  server: 160.16.144.208
+  server: 160.16.106.144
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 日本 007
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 24673
-  server: 160.16.124.55
+  port: 2467
+  server: 160.16.106.144
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -15923,21 +15925,31 @@ proxies:
     headers:
       Host: bycf.lzjnb.shop
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 160.16.106.144
+- client-fingerprint: randomized
+  name: 美国 1134
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
   skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2467
-  server: 160.16.106.144
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: freedom.pusytroller.cf
+    path: /
+- client-fingerprint: randomized
+  name: 美国 1135
+  network: ws
+  port: 2095
+  server: openai.com
   skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: freedom.pusytroller.cf
+    path: /
