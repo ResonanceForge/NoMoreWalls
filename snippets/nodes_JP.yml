@@ -1,25 +1,9 @@
 proxies:
-- name: 日本 007
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 316
-  server: 160.16.106.144
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: 日本 008
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 1331
-  server: 160.16.106.144
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - name: 日本 001
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 316
-  server: 160.16.144.208
+  server: 160.16.106.144
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -27,11 +11,27 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 1331
+  server: 160.16.106.144
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 日本 007
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 316
   server: 160.16.144.208
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 日本 003
+- name: 日本 008
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 1331
+  server: 160.16.144.208
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 日本 009
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2283
@@ -39,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 日本 004
+- name: 日本 010
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 5041
@@ -47,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 日本 005
+- name: 日本 011
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
@@ -55,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 日本 006
+- name: 日本 012
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 24673
