@@ -1,17 +1,13 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'CN_speednode_0002 #1'
+  name: CN_speednode_0002
   port: 35248
-  reality-opts:
-    public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc
-    short-id: c8c0f951
   server: 59.36.143.125
   servername: www.lamer.com.hk
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 823e8b29-7d63-4af6-92f0-f94623b7030c
 - name: 中国 002
   network: tcp
@@ -1409,7 +1405,7 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
-- name: CN_speednode_0001
+- name: CN_speednode_0005
   password: 80c9752a41
   port: 20443
   server: nat-hk-37465.strongpipe.cloud
