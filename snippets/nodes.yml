@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: '香港5|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 4556
@@ -78,25 +78,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: TW_speednode_0091
-  password: 890c928b-9ceb-4048-aff2-944461463ee8
-  port: 25502
-  server: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-- name: US_speednode_0100
-  network: ws
-  password: trojan
-  port: 8443
-  server: www.visa.com.sg
-  skip-cert-verify: false
-  sni: azadnet-f03.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-f03.pages.dev
-    path: /?ed=2560
 - name: 中国 002
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0

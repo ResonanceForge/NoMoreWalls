@@ -14,7 +14,23 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: DE_speednode_0006
+- name: '🇩🇪@FreakConfig #3'
+  password: ada5516d-f772-414f-b11c-2faec29b5424
+  port: 30000
+  server: de2.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '🇩🇪@FreakConfig #4'
+  password: ada5516d-f772-414f-b11c-2faec29b5424
+  port: 30000
+  server: de3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: DE_speednode_0003
   network: ws
   port: 2096
   server: 5.10.214.253
@@ -27,19 +43,6 @@ proxies:
     headers:
       Host: vless.muzheng.top
     path: /Telegram @freecodes /?ed=2560security=tls
-- name: DE_speednode_0007
-  network: ws
-  port: 443
-  server: 49.13.29.218
-  servername: 49.13.29.218
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: c332c262-b173-4bb2-aba0-cca85eebc5f6
-  ws-opts:
-    headers:
-      Host: 49.13.29.218
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: 德国 001
@@ -1203,7 +1206,7 @@ proxies:
     headers:
       Host: fei.634676.xyz
     path: /?ed=2560
-- name: DE_speednode_0003
+- name: 'DE_speednode_0003 #1'
   network: ws
   port: 2096
   server: 5.10.214.253
