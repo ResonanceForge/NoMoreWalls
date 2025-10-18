@@ -6,8 +6,20 @@ proxies:
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
   type: trojan
-  udp: true
 - name: TW_speednode_0092
+  network: ws
+  port: 443
+  server: 167.179.27.92
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
+- name: TW_speednode_0035
   network: ws
   port: 443
   server: 167.179.27.92
