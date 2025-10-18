@@ -18,14 +18,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: none
-  client-fingerprint: chrome
-  name: '香港3|@ripaojiedian #1'
+  name: 香港3|@ripaojiedian
   network: ws
   port: '41199'
   server: 38.55.106.62
   servername: hk-vmiss-n4.nebulacloud.win
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: e18650e9-264b-4bf7-bbce-d846642dcf26
@@ -33,8 +30,7 @@ proxies:
     headers:
       Host: hk-vmiss-n4.nebulacloud.win
     path: /hk-vmiss-n4/getData
-- client-fingerprint: chrome
-  name: '香港4|@ripaojiedian #1'
+- name: 中国 004
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
@@ -44,7 +40,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '香港5|@ripaojiedian #1'
+  name: 香港5|@ripaojiedian
   network: tcp
   port: '38901'
   server: 103.224.80.42
@@ -52,8 +48,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 230938d9-ae9d-49e7-b3cb-9f44168f89e8
-- client-fingerprint: chrome
-  name: '香港6|@ripaojiedian #1'
+- name: 中国 003
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
@@ -77,22 +72,20 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '🇭🇰 香港5|@ripaojiedian #1'
-  port: 38901
-  server: 103.224.80.42
+- client-fingerprint: chrome
+  name: '香港4|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 443
+  server: 58.152.30.92
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 230938d9-ae9d-49e7-b3cb-9f44168f89e8
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: '🇭🇰 香港7|@ripaojiedian #1'
-  password: asd123456
-  port: 8388
-  server: 103.149.183.154
-  tfo: false
-  type: ss
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '香港5|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 4556
+  server: 36.151.195.112
+  skip-cert-verify: true
+  type: trojan
