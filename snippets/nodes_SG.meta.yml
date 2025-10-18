@@ -7,19 +7,21 @@ proxies:
   sni: xjp2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 日本 003
+- client-fingerprint: chrome
+  name: '新加坡|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 5041
-  server: 153.121.56.122
+  server: 153.121.41.97
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 日本 004
+- client-fingerprint: chrome
+  name: '新加坡2|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 5321
-  server: 153.121.56.122
+  server: 160.16.131.243
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -239,24 +241,6 @@ proxies:
   type: vless
   udp: true
   uuid: a2088892-07c5-4c54-8a10-4a4b6ebefab6
-- client-fingerprint: chrome
-  name: '新加坡|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 5041
-  server: 153.121.41.97
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '新加坡2|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 5321
-  server: 160.16.131.243
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: '🇸🇬 新加坡3|@ripaojiedian #1'
