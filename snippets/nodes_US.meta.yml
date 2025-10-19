@@ -31,18 +31,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
+- name: 美国|@ripaojiedian
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
   server: 153.121.41.97
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
+- name: 美国2|@ripaojiedian
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2467
   server: 153.121.41.97
@@ -15992,6 +15988,24 @@ proxies:
     headers:
       Host: freedom.pusytroller.cf
     path: /
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 2381
+  server: 160.16.132.158
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 2467
+  server: 160.16.132.158
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - name: 'US_speednode_0036 #1'
   network: ws
   port: 2096
