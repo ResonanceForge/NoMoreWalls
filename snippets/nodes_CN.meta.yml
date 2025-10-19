@@ -1,4 +1,12 @@
 proxies:
+- name: 中国 002
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 443
+  server: 58.152.30.92
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 中国 004
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -1395,7 +1403,7 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
-- name: CN_speednode_0002
+- name: CN_speednode_0003
   password: 80c9752a41
   port: 20443
   server: nat-hk-37465.strongpipe.cloud

@@ -31,19 +31,21 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 日本 005
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
-  server: 153.121.41.97
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 日本 006
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2467
-  server: 153.121.41.97
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -75,7 +77,7 @@ proxies:
     path: /?ed=2560fp=chrome
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'US_speednode_0038 #1'
+  name: US_speednode_0034
   port: 443
   reality-opts:
     public-key: O53KcL6eOfBmpyfB5rM9qPDI-ZCe8hhHgYzdsZZ0b2Q
@@ -15947,7 +15949,7 @@ proxies:
       Host: putihb.org
     path: linkvws
 - client-fingerprint: chrome
-  name: 'US_speednode_0037 #1'
+  name: US_speednode_0035
   network: ws
   port: 8443
   server: 104.20.2.221
@@ -15990,30 +15992,12 @@ proxies:
     headers:
       Host: freedom.pusytroller.cf
     path: /
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 160.16.132.158
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2467
-  server: 160.16.132.158
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: 'US_speednode_0036 #1'
+- name: 'US_speednode_0037 #1'
   network: ws
   port: 2096
-  server: 104.19.50.238
+  server: 195.13.45.253
   servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -16021,4 +16005,4 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /telegram🇨🇳@wangcai2/?ed=2560
+    path: /x @节点狂魔
