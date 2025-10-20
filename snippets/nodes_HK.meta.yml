@@ -18,7 +18,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '香港3|@ripaojiedian #1'
+  name: 香港3|@ripaojiedian
   network: tcp
   port: '45939'
   server: 103.224.80.118
@@ -26,8 +26,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 0ab56c46-8bee-42fe-9ec1-a2da8b264bb8
-- client-fingerprint: chrome
-  name: '香港4|@ripaojiedian #1'
+- name: 中国 002
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
@@ -102,13 +101,32 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: '🇭🇰 香港3|@ripaojiedian #1'
-  port: 45939
-  server: 103.224.80.118
+  port: 58509
+  server: 43.247.134.213
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 0ab56c46-8bee-42fe-9ec1-a2da8b264bb8
+  uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 2381
+  server: 202.181.103.235
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '香港3|@ripaojiedian #1'
+  network: tcp
+  port: '58509'
+  server: 43.247.134.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969
 - name: 'HK_speednode_0007 #1'
   network: ws
   port: 443

@@ -1,6 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
+- name: 日本 005
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
@@ -8,8 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
+- name: 日本 006
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2467
@@ -4690,3 +4688,34 @@ proxies:
     headers:
       Host: putihb.org
     path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 美国 1137
+  network: ws
+  port: 443
+  server: jannah.homes
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: jannah.homes
+    path: linkvws
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 2467
+  server: 202.181.103.235
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 26876
+  server: 36.156.102.115
+  skip-cert-verify: true
+  type: trojan
