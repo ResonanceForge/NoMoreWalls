@@ -1,4 +1,12 @@
 proxies:
+- name: 中国 002
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 443
+  server: 203.198.122.28
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
 - name: 中国 004
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0

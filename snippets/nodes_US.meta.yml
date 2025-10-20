@@ -31,21 +31,31 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 日本 005
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
-  server: 160.16.132.158
-  skip-cert-verify: true
-  sni: www.baidu.com
+  server: 202.181.103.235
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
-- name: 日本 006
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2467
-  server: 160.16.132.158
+  server: 202.181.103.235
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '美国3|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 26876
+  server: 36.156.102.115
   skip-cert-verify: true
-  sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -16004,23 +16014,6 @@ proxies:
     headers:
       Host: jannah.homes
     path: linkvws
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2467
-  server: 202.181.103.235
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 26876
-  server: 36.156.102.115
-  skip-cert-verify: true
-  type: trojan
 - name: 'US_speednode_0037 #1'
   network: ws
   port: 2096
