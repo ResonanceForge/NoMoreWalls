@@ -1,4 +1,17 @@
 proxies:
+- name: CH_speednode_0001
+  network: ws
+  port: 2096
+  server: ip.mirzabox.info
+  servername: IBIS.zuLAir.site.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 0eaef00e-ffc4-46bd-8f32-07baefd73f70
+  ws-opts:
+    headers:
+      Host: IBIS.zuLAir.site.
+    path: /security=tls
 - client-fingerprint: chrome
   name: 瑞士 001
   network: ws
@@ -35,7 +48,7 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- name: CH_speednode_0001
+- name: 'CH_speednode_0001 #1'
   network: ws
   port: 2096
   server: IP.mirzabox.info

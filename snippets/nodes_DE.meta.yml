@@ -22,6 +22,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 'DE_speednode_0004 #1'
+  port: 11366
+  server: 141.11.164.233
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: dce1e7b5-60ab-4446-bb95-97e1234df5d6
 - alterId: 0
   cipher: auto
   name: 德国 001
@@ -1185,11 +1193,3 @@ proxies:
     headers:
       Host: fei.634676.xyz
     path: /?ed=2560
-- name: DE_speednode_0004
-  port: 11366
-  server: 141.11.164.233
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: dce1e7b5-60ab-4446-bb95-97e1234df5d6
