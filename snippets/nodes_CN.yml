@@ -1,17 +1,17 @@
 proxies:
-- name: 'CN_speednode_0009 #1'
-  password: BxceQaOe
-  port: 811
-  server: 36.151.251.18
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: 'CN_speednode_0008 #1'
   network: tcp
   password: BxceQaOe
   port: 26876
   server: 36.156.102.115
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 'CN_speednode_0009 #1'
+  password: BxceQaOe
+  port: 811
+  server: 36.151.251.18
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -287,24 +287,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '新加坡4|@ripaojiedian #1'
-  network: ws
-  port: '30839'
-  server: v39.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - alterId: 2
   cipher: auto
   name: 中国 035
