@@ -59,7 +59,7 @@ proxies:
   tls: false
   type: vmess
   uuid: fd49381f-9fd8-4403-8698-48331a4d775d
-- name: 'US_speednode_0030 #1'
+- name: US_speednode_0035
   network: ws
   port: 2096
   server: 195.13.45.253
@@ -86,7 +86,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔security=tlssecurity=tls
-- name: 'US_speednode_0031 #1'
+- name: US_speednode_0031
   network: ws
   port: 80
   server: 172.66.156.81
@@ -94,7 +94,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: 1b6364ef-0345-4920-8454-b70792537465
   ws-opts:
     headers:
@@ -16028,17 +16027,3 @@ proxies:
   tls: false
   type: vmess
   uuid: fd49381f-9fd8-4403-8698-48331a4d775d
-- name: 'US_speednode_0029 #1'
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔
