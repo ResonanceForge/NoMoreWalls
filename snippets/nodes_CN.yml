@@ -289,6 +289,21 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
+  name: 中国 034
+  network: ws
+  port: 30839
+  server: v39.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
   name: 中国 035
   network: ws
   port: 30829

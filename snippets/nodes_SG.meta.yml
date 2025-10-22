@@ -1,15 +1,19 @@
 proxies:
-- name: 新加坡|@ripaojiedian
+- client-fingerprint: chrome
+  name: '新加坡|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 5321
-  server: 160.16.68.250
+  server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡2|@ripaojiedian
+- client-fingerprint: chrome
+  name: '新加坡2|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2283
-  server: 202.181.103.246
+  server: 160.16.81.84
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -21,22 +25,6 @@ proxies:
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 中国 034
-  network: ws
-  port: 30839
-  server: v39.heduian.link
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - name: SG_speednode_0025
   network: ws
   port: 443
@@ -279,24 +267,6 @@ proxies:
   type: vless
   udp: true
   uuid: a2088892-07c5-4c54-8a10-4a4b6ebefab6
-- client-fingerprint: chrome
-  name: '新加坡|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 5321
-  server: 160.16.81.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '新加坡2|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2283
-  server: 160.16.81.84
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - name: 'SG_speednode_0025 #1'
   network: ws
   port: 443
