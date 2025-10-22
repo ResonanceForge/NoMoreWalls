@@ -7,18 +7,14 @@ proxies:
   server: 36.151.251.18
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  name: '日本2|@ripaojiedian #1'
-  network: tcp
+- name: 日本2|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 4452
   server: 160.16.136.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '日本3|@ripaojiedian #1'
-  network: tcp
+- name: 日本3|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 1331
   server: 160.16.136.130
@@ -858,3 +854,21 @@ proxies:
     headers:
       Host: tls.07.node-for-bigairport.win
     path: /
+- client-fingerprint: chrome
+  name: '日本2|@ripaojiedian #1'
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 4452
+  server: 160.16.81.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '日本3|@ripaojiedian #1'
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 1331
+  server: 160.16.81.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
