@@ -65,20 +65,6 @@ proxies:
   server: 195.13.45.253
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔security=tls
-- name: US_speednode_0030
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
   tls: false
   type: vless
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -86,19 +72,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔security=tlssecurity=tls
-- name: US_speednode_0031
-  network: ws
-  port: 80
-  server: 172.66.156.81
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1b6364ef-0345-4920-8454-b70792537465
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
 - name: 美国 001
   network: ws
   password: d0728e94-82c2-456b-b5d4-eeab540599df
@@ -15960,7 +15933,7 @@ proxies:
       Host: putihb.org
     path: linkvws
 - client-fingerprint: chrome
-  name: 美国 1134
+  name: US_speednode_0029
   network: ws
   port: 8443
   server: 104.20.2.221
@@ -15969,6 +15942,7 @@ proxies:
   tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
   ws-opts:
     headers:
@@ -16027,3 +16001,31 @@ proxies:
   tls: false
   type: vmess
   uuid: fd49381f-9fd8-4403-8698-48331a4d775d
+- name: US_speednode_0031
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔security=tls
+- name: US_speednode_0032
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔
