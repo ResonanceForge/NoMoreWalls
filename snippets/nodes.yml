@@ -149,6 +149,14 @@ proxies:
   server: lazy.rsqpq.cn
   skip-cert-verify: true
   type: trojan
+- name: 'CN_speednode_0004 #1'
+  password: BxceQaOe
+  port: 4451
+  server: 36.150.215.138
+  skip-cert-verify: true
+  sni: 36.150.215.138
+  type: trojan
+  udp: true
 - name: 中国 002
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -9431,11 +9439,3 @@ proxies:
   server: 36.150.27.76
   tfo: false
   type: ss
-- name: CN_speednode_0004
-  password: BxceQaOe
-  port: 4451
-  server: 36.150.215.138
-  skip-cert-verify: true
-  sni: 36.150.215.138
-  type: trojan
-  udp: true
