@@ -15,14 +15,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🔐 @AblNet7 🇺🇸 机场推荐 #2 #1'
-  password: c232f411-96b5-4b07-b2f7-66a434725ffb
-  port: 23891
-  server: 108.165.213.197
-  skip-cert-verify: true
-  sni: fus01.mistea.top
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: '美国|@ripaojiedian #1'
   network: tcp
@@ -41,22 +33,14 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- client-fingerprint: chrome
+  name: '美国3|@ripaojiedian #1'
+  network: tcp
   password: BxceQaOe
-  port: 26876
+  port: 22443
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '47084'
-  server: 124.236.46.114
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fd49381f-9fd8-4403-8698-48331a4d775d
 - name: US_speednode_0029
   network: ws
   port: 8443
@@ -16015,14 +15999,6 @@ proxies:
     headers:
       Host: jannah.homes
     path: linkvws
-- client-fingerprint: chrome
-  name: '美国3|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 22443
-  server: 36.156.102.115
-  skip-cert-verify: true
-  type: trojan
 - name: 'US_speednode_0032 #1'
   network: ws
   port: 2096
