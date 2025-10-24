@@ -7,32 +7,23 @@ proxies:
   server: 36.156.102.82
   skip-cert-verify: true
   type: trojan
-- name: 日本2|@ripaojiedian
+- client-fingerprint: chrome
+  name: '日本2|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 4452
-  server: 160.16.81.84
+  server: 160.16.196.59
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 日本3|@ripaojiedian
+- client-fingerprint: chrome
+  name: '日本3|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 3161
-  server: 160.16.81.84
+  server: 182.237.0.26
   skip-cert-verify: true
   sni: www.baidu.com
-  type: trojan
-- name: 🇯🇵 日本4|@ripaojiedian
-  password: 82e0ff78-c281-4806-99ee-24c1d9912b4c
-  port: 32002
-  server: lazy.rsqpq.cn
-  skip-cert-verify: true
-  sni: lazy.rsqpq.cn
-  type: trojan
-- name: 日本4|@ripaojiedian
-  password: 82e0ff78-c281-4806-99ee-24c1d9912b4c
-  port: 32002
-  server: lazy.rsqpq.cn
-  skip-cert-verify: true
   type: trojan
 - name: 日本 001
   network: tcp
@@ -1303,21 +1294,3 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- client-fingerprint: chrome
-  name: '日本2|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 4452
-  server: 160.16.196.59
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '日本3|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 3161
-  server: 182.237.0.26
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
