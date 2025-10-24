@@ -54,7 +54,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegramU0001F1E8U0001F1F3@wangcai2/?ed=2560security=tls
-- name: 'US_speednode_0031 #1'
+- name: US_speednode_0028
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
@@ -67,15 +67,14 @@ proxies:
     headers:
       Host: NOp-55q.pAgEs.dEv
     path: /trGPZDfetEwuO25SAs
-- name: 'US_speednode_0033 #1'
+- name: US_speednode_0032
   network: ws
   port: 2096
   server: 195.13.45.253
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  udp: true
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
@@ -94,7 +93,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔security=tlssecurity=tls
-- name: 'US_speednode_0034 #1'
+- name: US_speednode_0034
   network: ws
   port: 2082
   server: www.speedtest.net
@@ -102,7 +101,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: 03fc8922-b80e-4aff-91e9-2023a17ed647
   ws-opts:
     headers:
@@ -110,44 +108,33 @@ proxies:
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'US_speednode_0035 #1'
+  name: US_speednode_0035
   port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: e499f276e7bd6420
   server: us01-xr03.vpnvezdehod.net
   servername: hls-svod.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: eb64d6b8-b3ed-48a2-9662-af2c65352215
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'US_speednode_0036 #1'
+  name: US_speednode_0036
   port: 443
-  reality-opts:
-    public-key: rx-WlBtZDaTXoXBgdmw1zopgdNOtaHPkaR7TAi7naBQ
   server: 3.236.251.7
   servername: www.paypal.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 359bb8b1-d8b3-4ab1-905c-c7829935ace0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'US_speednode_0037 #1'
+  name: US_speednode_0037
   port: 443
-  reality-opts:
-    public-key: aHaFXlvmkeCV60wfe60DD9w00WE1euQfH6jtDq5iYkI
-    short-id: 7e44612b079459
   server: us.nitroo-tech.ru
   servername: mirror.yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: f31f5fe0-0a42-436a-be94-437330801388
 - name: 美国 001
   network: ws
@@ -16066,7 +16053,22 @@ proxies:
     headers:
       Host: jannah.homes
     path: linkvws
-- name: 'US_speednode_0030 #1'
+- client-fingerprint: chrome
+  name: US_speednode_0024
+  network: ws
+  port: 443
+  server: 172.66.44.179
+  servername: xzxcxzs.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ebab6efe-5627-48f6-8b11-22d0a113c1d3
+  ws-opts:
+    headers:
+      Host: xzxcxzs.pages.dev
+    path: /?ed=2048
+- name: US_speednode_0025
   network: ws
   port: 2096
   server: 104.19.50.238
@@ -16080,7 +16082,22 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegramU0001F1E8U0001F1F3@wangcai2/?ed=2560
-- name: 'US_speednode_0032 #1'
+- client-fingerprint: random
+  name: US_speednode_0026
+  network: ws
+  port: 443
+  server: npmjs.com
+  servername: xzxcxzs.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ebab6efe-5627-48f6-8b11-22d0a113c1d3
+  ws-opts:
+    headers:
+      Host: xzxcxzs.pages.dev
+    path: /
+- name: US_speednode_0027
   network: ws
   port: 2096
   server: 195.13.45.253
@@ -16094,3 +16111,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔
+- client-fingerprint: chrome
+  name: US_speednode_0029
+  network: ws
+  port: 2096
+  server: 104.18.15.201
+  servername: iamdt.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 67c662fa-cd6a-474a-b55f-d50dc0a7e210
+  ws-opts:
+    headers:
+      Host: iamdt.pages.dev
+    path: /
