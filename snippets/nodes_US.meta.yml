@@ -1,10 +1,10 @@
 proxies:
-- name: '🔐 @AblNet7 🇺🇸 机场推荐 #3'
-  password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
-  port: 3000
-  server: 836902-20.9966661.xyz
-  skip-cert-verify: false
-  sni: 836902-20.9966661.xyz
+- name: '@v2ray_configs_pool #8'
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: lsj3.mangshe.xyz
+  skip-cert-verify: true
+  sni: lsj3.mangshe.xyz
   tls: false
   type: hysteria2
 - name: '🔐 @AblNet7 🇺🇸 机场推荐 #1 #1'
@@ -15,24 +15,47 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 美国|@ripaojiedian
+- name: '@v2ray_configs_pool #18'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: a060b3f7-551e-4a7f-8138-fef404c5b012
+  port: 33079
+  server: 212.192.15.176
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '🔐 @AblNet7 🇺🇸 机场推荐 #3'
+  password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+  port: 3000
+  server: 836902-20.9966661.xyz
+  skip-cert-verify: false
+  sni: 836902-20.9966661.xyz
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
-  server: 160.16.81.84
+  server: 160.16.116.227
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 美国2|@ripaojiedian
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
-  server: 160.16.81.84
+  server: 160.16.89.176
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- client-fingerprint: chrome
+  name: '美国3|@ripaojiedian #1'
+  network: tcp
   password: BxceQaOe
-  port: 22443
-  server: 36.156.102.115
+  port: 26876
+  server: 36.151.251.23
   skip-cert-verify: true
   type: trojan
 - name: US_speednode_0024
@@ -16030,32 +16053,6 @@ proxies:
     headers:
       Host: jannah.homes
     path: linkvws
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2467
-  server: 160.16.116.227
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2381
-  server: 160.16.89.176
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国3|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 26876
-  server: 36.151.251.23
-  skip-cert-verify: true
-  type: trojan
 - client-fingerprint: chrome
   name: 'US_speednode_0024 #1'
   network: ws
