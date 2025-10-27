@@ -33,6 +33,20 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'JP_speednode_0013 #1'
+  port: 443
+  reality-opts:
+    public-key: 1mIcPpYlL0muJIo6tbFLK-LKXJ-B2npLsCleruoh2hU
+    short-id: e0f8e4e513037a
+  server: 178.130.47.106
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b7437f7a-783f-4e6f-a555-a2a589f42b5a
 - name: 日本 001
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -1302,17 +1316,3 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: JP_speednode_0013
-  port: 443
-  reality-opts:
-    public-key: 1mIcPpYlL0muJIo6tbFLK-LKXJ-B2npLsCleruoh2hU
-    short-id: e0f8e4e513037a
-  server: 178.130.47.106
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7437f7a-783f-4e6f-a555-a2a589f42b5a
