@@ -34,13 +34,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
-- name: 香港4|@ripaojiedian
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 443
-  server: 58.152.53.136
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - client-fingerprint: chrome
   name: '香港5|@ripaojiedian #1'
   network: tcp
@@ -49,19 +42,25 @@ proxies:
   server: 58.152.46.98
   skip-cert-verify: true
   type: trojan
-- name: 🇭🇰 香港6|@ripaojiedian
-  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
-  port: 21862
-  server: 36.103.168.7
-  skip-cert-verify: true
-  sni: www.baidu.com
+- client-fingerprint: chrome
+  name: '香港6|@ripaojiedian #1'
+  network: tcp
+  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+  port: 20021
+  server: oss-cn-shanghai.letssepub.com
+  skip-cert-verify: false
+  sni: dingding-doc.com
   type: trojan
-- name: 香港6|@ripaojiedian
-  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
-  port: 21862
-  server: 36.103.168.7
-  skip-cert-verify: true
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '香港7|@ripaojiedian #1'
+  network: tcp
+  port: '10055'
+  server: node2.mangging.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc
 - name: HK_speednode_0007
   network: ws
   port: 443
@@ -114,14 +113,13 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560security=tls
-- name: 'HK_speednode_0012 #1'
+- name: HK_speednode_0012
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
   server: 58.152.110.83
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: HK_speednode_0013
   network: ws
   port: 443
@@ -135,7 +133,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
-- name: 'HK_speednode_0015 #1'
+- name: HK_speednode_0010
   network: ws
   port: 443
   server: 202.85.53.74
@@ -189,27 +187,10 @@ proxies:
   tls: false
   type: vmess
   uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
-- client-fingerprint: chrome
-  name: '日本|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 1821
-  server: 36.150.215.237
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  name: '香港6|@ripaojiedian #1'
-  network: tcp
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  server: oss-cn-shanghai.letssepub.com
-  skip-cert-verify: false
-  sni: dingding-doc.com
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇭🇰 香港7|@ripaojiedian
+  name: '🇭🇰 香港7|@ripaojiedian #1'
   port: 10055
   server: node2.mangging.com
   skip-cert-verify: false
@@ -217,73 +198,7 @@ proxies:
   tls: true
   type: vmess
   uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc
-- alterId: 0
-  cipher: auto
-  name: 香港7|@ripaojiedian
-  network: tcp
-  port: '10055'
-  server: node2.mangging.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc
-- name: 'HK_speednode_0007 #1'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 'HK_speednode_0008 #1'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
-- name: 'HK_speednode_0009 #1'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@freecodes/?ed=2560
-- name: 'HK_speednode_0011 #1'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: 'HK_speednode_0013 #1'
+- name: HK_speednode_0006
   network: ws
   port: 443
   server: 202.85.53.74
@@ -297,7 +212,49 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 'HK_speednode_0014 #1'
+- name: 'HK_speednode_0007 #1'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@freecodes/?ed=2560
+- name: 'HK_speednode_0008 #1'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
+- name: 'HK_speednode_0009 #1'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
+- name: 'HK_speednode_0011 #1'
   network: ws
   port: 443
   server: 202.85.53.74
@@ -311,3 +268,17 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔
+- name: 'HK_speednode_0012 #1'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560

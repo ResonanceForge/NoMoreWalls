@@ -1,15 +1,19 @@
 proxies:
-- name: 新加坡|@ripaojiedian
+- client-fingerprint: chrome
+  name: '新加坡|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 5321
-  server: 160.16.106.144
+  server: 160.16.131.243
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡2|@ripaojiedian
+- client-fingerprint: chrome
+  name: '新加坡2|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 5041
-  server: 160.16.106.144
+  server: 160.16.131.243
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -255,25 +259,7 @@ proxies:
   type: vless
   udp: true
   uuid: a2088892-07c5-4c54-8a10-4a4b6ebefab6
-- client-fingerprint: chrome
-  name: '新加坡|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 5321
-  server: 160.16.131.243
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '新加坡2|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 5041
-  server: 160.16.131.243
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 'SG_speednode_0035 #1'
+- name: SG_speednode_0030
   network: ws
   port: 443
   server: 185.114.78.230
@@ -287,7 +273,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 'SG_speednode_0036 #1'
+- name: SG_speednode_0031
   network: ws
   port: 443
   server: 185.114.78.230
