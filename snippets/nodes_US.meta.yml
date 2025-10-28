@@ -1,12 +1,4 @@
 proxies:
-- name: 'https://t.me/Selinc #1'
-  password: 30c075af-9555-4671-b70e-43e3cfb2e707
-  port: 7009
-  server: 31.57.241.25
-  skip-cert-verify: true
-  sni: d.eans.top
-  tls: false
-  type: hysteria2
 - name: 'Channel id: @ShadowProxy66🇺🇸 #...'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -40,18 +32,14 @@ proxies:
   sni: 836902-20.9966661.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
+- name: 美国|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
   server: 160.16.131.243
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
+- name: 美国2|@ripaojiedian
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
   server: 160.16.131.243
@@ -16023,6 +16011,24 @@ proxies:
     headers:
       Host: jannah.homes
     path: linkvws
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2467
+  server: 160.16.236.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2381
+  server: 160.16.236.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 'US_speednode_0035 #1'
   network: ws
   port: 2096
