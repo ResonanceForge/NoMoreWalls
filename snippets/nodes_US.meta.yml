@@ -1,20 +1,4 @@
 proxies:
-- name: 🔐 @AblNet7 🇺🇸 机场推荐
-  password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
-  port: 3000
-  server: 836902-20.9966661.xyz
-  skip-cert-verify: false
-  sni: 836902-20.9966661.xyz
-  tls: false
-  type: hysteria2
-- name: '🔐 @AblNet7 🇺🇸 机场推荐 #1'
-  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-  port: 63979
-  server: 113.192.61.19
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: '美国|@ripaojiedian #1'
   network: tcp
@@ -41,45 +25,19 @@ proxies:
   server: 36.150.215.236
   skip-cert-verify: true
   type: trojan
-- name: US_speednode_0035
-  network: ws
-  port: 2096
-  server: 104.19.50.238
-  servername: gaosir.unfeeling.sbs
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0006
+  port: 25599
+  reality-opts:
+    public-key: SsbeZ_JdMe3r2IqTESBWRSUMrcm3PdpFzlab5xrKUlU
+  server: 172.238.22.96
+  servername: www.cloudflare.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegramU0001F1E8U0001F1F3@wangcai2/?ed=2560security=tls
-- name: US_speednode_0036
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔security=tls
-- name: US_speednode_0037
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔security=tlssecurity=tls
+  udp: true
+  uuid: ff06f97b-09f6-4b8b-8a12-7d2f51b28a75
 - name: 美国 001
   network: ws
   password: d0728e94-82c2-456b-b5d4-eeab540599df
@@ -15999,14 +15957,27 @@ proxies:
     path: linkvws
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0008
-  port: 25599
+  name: 'US_speednode_0008 #1'
+  port: 443
   reality-opts:
-    public-key: SsbeZ_JdMe3r2IqTESBWRSUMrcm3PdpFzlab5xrKUlU
-  server: 172.238.22.96
-  servername: www.cloudflare.com
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: usa84.freednet.org
+  servername: www.utexas.edu
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ff06f97b-09f6-4b8b-8a12-7d2f51b28a75
+  uuid: f2f5905b-e814-4a9f-beae-8b1353f25a06
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0009
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: usa102.unlockspace.org
+  servername: www.utexas.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9f0284-a8da-40f0-9bca-da9a98049fb0
