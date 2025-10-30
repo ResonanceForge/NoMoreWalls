@@ -17,9 +17,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '美国3|@ripaojiedian #1'
-  network: tcp
+- name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 27409
   server: 36.150.215.236
@@ -4712,3 +4710,11 @@ proxies:
     headers:
       Host: jannah.homes
     path: linkvws
+- client-fingerprint: chrome
+  name: '美国3|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 13198
+  server: 36.150.215.236
+  skip-cert-verify: true
+  type: trojan
