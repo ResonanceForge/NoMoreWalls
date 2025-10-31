@@ -1,10 +1,18 @@
 # NoMoreWalls
 
-[![Fetch Status](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml/badge.svg)](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml) [![Stars](https://img.shields.io/github/stars/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/stargazers) [![Watchers](https://img.shields.io/github/watchers/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/watchers) [![Forks](https://img.shields.io/github/forks/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/forks) [![Repo size](https://img.shields.io/github/repo-size/peasoft/NoMoreWalls)](https://github.com/peasoft/NoMoreWalls/commits) [![jsDelivr stats](https://data.jsdelivr.com/v1/package/gh/peasoft/NoMoreWalls/badge?style=rounded)](https://www.jsdelivr.com/package/gh/peasoft/NoMoreWalls) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=peasoft.NoMoreWalls) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/peasoft/NoMoreWalls/blob/master/LICENSE.md) [![暮光计划](https://img.shields.io/badge/link-暮光计划--向戒网瘾学校宣战-red.svg)](https://proj3ctaurora.tilda.ws/)
+[![Fetch Status](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml/badge.svg)](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml) [![Stars](https://img.shields.io/github/stars/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/stargazers) [![Watchers](https://img.shields.io/github/watchers/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/watchers) [![Forks](https://img.shields.io/github/forks/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/forks) [![Repo size](https://img.shields.io/github/repo-size/peasoft/NoMoreWalls)](https://github.com/peasoft/NoMoreWalls/commits) [![jsDelivr stats](https://data.jsdelivr.com/v1/package/gh/peasoft/NoMoreWalls/badge?style=rounded)](https://www.jsdelivr.com/package/gh/peasoft/NoMoreWalls) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=peasoft.NoMoreWalls) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/peasoft/NoMoreWalls/blob/master/LICENSE.md)
 
 自动抓取合并互联网上的公开节点。
 
+## 一些题外话：国家危难的时刻已经到来
+
+- **[什么才是真正的性别平等？](https://www.bilibili.com/video/BV16Mtnz1Exo/)我们要真正的平权而不是所谓的“女权”！“公平”不应成为特权的借口！**
+- **[NGO 的影子借“公益”之名渗透名校！](https://www.bilibili.com/video/BV15JtnzMExo/)防范身边的境外势力渗透！**
+- **[油罐车事件是最好的照妖镜，上赶着带节奏都是谁请大家记下来。](https://www.bilibili.com/video/BV1p1421b7Ki)私有化愈发严重影响的是所有中国人的切身利益，必须用公有平衡私有我们才有发展的前途。**
+
 ## 公告
+
+**我们拒绝为任何“女权组织”提供任何服务！我们拒绝为任何企图分裂国家的 NGO 组织提供任何服务！**
 
 本项目拒绝为**流氓资本家**提供任何服务！特别的，项目的许可证**严格禁止**实行 996 工作制的公司使用本项目！
 
@@ -36,7 +44,7 @@
 
 添加 Base64 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [GhProxy.cfd](https://ghproxy.cfd/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
+- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 - 此处不公开部分私有镜像站
 
 以下链接可能不是最新，但绝对不会被封：
@@ -47,7 +55,7 @@
 
 或添加 Clash Meta 订阅：（如果使用的是原版 Clash，请将链接最后的 `.meta.yml` 替换成 `.yml`。我们始终建议您使用 Clash Meta 而不是已被废弃的 Clash。**提醒：Clash Meta (mihomo) 是有手机版的！还在用 Clash For Android 的用户请尽快迁移至 [Clash Meta For Android](https://github.com/MetaCubeX/ClashMetaForAndroid)！**）
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
-- [GhProxy.cfd](https://ghproxy.cfd/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
+- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
 - 此处不公开部分私有镜像站
 
 以下链接可能不是最新，但绝对不会被封：
@@ -96,23 +104,18 @@
 
 ## 一些题外话
 
-各位看一看：
+<!-- **上方事件的严重性已经远超下面的事情了！！！** -->
 
-- **[油罐车事件是最好的照妖镜，上赶着带节奏都是谁请大家记下来。](https://www.bilibili.com/video/BV1p1421b7Ki)私有化愈发严重影响的是所有中国人的切身利益，必须用公有平衡私有我们才有发展的前途。**
-
-上方事件的严重性已经远超下面的事情了。
-
-- **[【独家恢复】我们的教育弄虚作假，到底是为了什么](https://peasoft.github.io/2023/08/26/cnedu.html)：如此视频，为何惨遭删除？我们恢复了这段视频，只为让更多人可以看清现实。**
-- **[最流氓的软件可以流氓到什么程度？](https://www.zhihu.com/question/29129310)我翻开其他网页一查，歪歪斜斜的每页上都写着“危险网页”几个字。我横竖睡不着，仔细看了半夜，才从字缝里看出字来，满本都写着两个字是“霸权”！**
 - **[百度？百毒！](https://user.guancha.cn/main/content?id=100552)魏则西去世3周年：害死他的百度广告和莆田系医院**
-- **[《满江红》的行为艺术](https://www.bilibili.com/video/BV11v4y1t7Gw/)：秦桧竟是我自己？**
-- **[「 深蓝洞察 」2022 年度最“不可赦”漏洞](https://mp.weixin.qq.com/s/P_EYQxOEupqdU0BJMRqWsw)：知名互联网厂商(TMD并夕夕)持续挖掘新的安卓 OEM 相关漏洞，在其公开发布的 App 中实现对目前市场主流手机系统的漏洞攻击**（[具体分析](https://mp.weixin.qq.com/s/kiLvnJSDZpYRHI_XiUx9gg)）~~现已被工信部提名~~
-- **[暑假学校敢补课？举报！](https://www.bilibili.com/video/BV1Vk4y1K79B)**
-- **[逃离戒网瘾学校？我们找到办法了](https://www.bilibili.com/video/BV1Mg4y1A7bE)：希望你永远用不到。**
-- **[一学校扔掉学生百余份外卖](https://www.bilibili.com/video/BV1a14y1S7n6)：涉嫌违法！**
 - **[没收违法所得的合法性与合理性基础欠缺——简评承德程序员事件](https://www.dehenglaw.com/CN/tansuocontent/0008/029562/7.aspx?MID=0902)**
 - **[【BootCDN/Staticfile投毒分析】供应链投毒后，我们的选择还剩下哪些？](https://www.52pojie.cn/thread-1944970-1-1.html)**
 - 未完待续……
+<!-- - **[【独家恢复】我们的教育弄虚作假，到底是为了什么](https://peasoft.github.io/2023/08/26/cnedu.html)：如此视频，为何惨遭删除？我们恢复了这段视频，只为让更多人可以看清现实。** -->
+<!-- - **[最流氓的软件可以流氓到什么程度？](https://www.zhihu.com/question/29129310)我翻开其他网页一查，歪歪斜斜的每页上都写着“危险网页”几个字。我横竖睡不着，仔细看了半夜，才从字缝里看出字来，满本都写着两个字是“霸权”！** -->
+<!-- - **[《满江红》的行为艺术](https://www.bilibili.com/video/BV11v4y1t7Gw/)：秦桧竟是我自己？** -->
+<!-- - **[「 深蓝洞察 」2022 年度最“不可赦”漏洞](https://mp.weixin.qq.com/s/P_EYQxOEupqdU0BJMRqWsw)：知名互联网厂商(TMD并夕夕)持续挖掘新的安卓 OEM 相关漏洞，在其公开发布的 App 中实现对目前市场主流手机系统的漏洞攻击**（[具体分析](https://mp.weixin.qq.com/s/kiLvnJSDZpYRHI_XiUx9gg)）~~现已被工信部提名~~ -->
+<!-- - **[暑假学校敢补课？举报！](https://www.bilibili.com/video/BV1Vk4y1K79B)** -->
+<!-- - **[一学校扔掉学生百余份外卖](https://www.bilibili.com/video/BV1a14y1S7n6)：涉嫌违法！** -->
 
 ## Star History
 
