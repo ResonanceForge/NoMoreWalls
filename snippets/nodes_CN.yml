@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 'CN_speednode_0002 #1'
+  network: tcp
+  password: b00abf05-5768-4ac9-8d20-6b1bd605bcf6
+  port: 42765
+  server: hxfz940e90d9.nfwzdm.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 'CN_speednode_0003 #1'
+  network: tcp
+  password: BxceQaOe
+  port: 43567
+  server: 36.156.102.74
+  skip-cert-verify: true
+  type: trojan
+  udp: true
