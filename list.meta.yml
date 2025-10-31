@@ -28857,7 +28857,7 @@ proxy-groups:
   - 🔰 延迟最低
   - ✅ 手动选择
   - 🗺️ 选择地区
-  type: url-test
+  type: select
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
@@ -31170,34 +31170,34 @@ proxy-groups:
   url: https://www.google.com/
 - name: ✅ 手动选择
   proxies: *id001
-  type: url-test
+  type: select
 - name: 🌐 突破锁区
   proxies:
   - DIRECT
   - 🚀 选择代理
-  type: url-test
+  type: select
 - name: ❓ 疑似国内
   proxies:
   - DIRECT
   - 🚀 选择代理
   - REJECT
-  type: url-test
+  type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - 🚀 选择代理
-  type: url-test
+  type: select
 - name: 🚨 病毒网站
   proxies:
   - REJECT
   - DIRECT
-  type: url-test
+  type: select
 - name: ⛔ 广告拦截
   proxies:
   - REJECT
   - DIRECT
   - 🚀 选择代理
-  type: url-test
+  type: select
 - name: 🗺️ 选择地区
   proxies:
   - 🇯🇵 日本
@@ -31212,7 +31212,7 @@ proxy-groups:
   - 🇰🇷 韩国
   - 🇷🇺 俄罗斯
   - 🇩🇪 德国
-  type: url-test
+  type: select
 - name: 🇯🇵 日本
   proxies:
   - '日本|@ripaojiedian #1'
@@ -31347,7 +31347,7 @@ proxy-groups:
   - 日本 127
   - 日本 128
   - JP_speednode_0005
-  type: url-test
+  type: select
 - name: 🇺🇸 美国
   proxies:
   - '美国|@ripaojiedian #1'
@@ -32496,11 +32496,11 @@ proxy-groups:
   - 美国 1135
   - 美国 1136
   - 美国 1137
-  type: url-test
+  type: select
 - name: 🇨🇳 台湾
   proxies:
   - CN_speednode_0002
-  type: url-test
+  type: select
 - name: 🇨🇳 中国
   proxies:
   - CN_speednode_0001
@@ -32646,7 +32646,7 @@ proxy-groups:
   - 中国 141
   - 中国 142
   - 中国 143
-  type: url-test
+  type: select
 - name: 🇭🇰 香港
   proxies:
   - '香港|@ripaojiedian #1'
@@ -32654,7 +32654,7 @@ proxy-groups:
   - '香港4|@ripaojiedian #1'
   - '香港5|@ripaojiedian #1'
   - '🇭🇰 香港2|@ripaojiedian #1'
-  type: url-test
+  type: select
 - name: 🇨🇦 加拿大
   proxies:
   - 加拿大 001
@@ -32669,7 +32669,7 @@ proxy-groups:
   - 加拿大 010
   - 加拿大 004
   - 加拿大 011
-  type: url-test
+  type: select
 - name: 🇫🇷 法国
   proxies:
   - 法国 001
@@ -32815,7 +32815,7 @@ proxy-groups:
   - 法国 141
   - 法国 142
   - 法国 143
-  type: url-test
+  type: select
 - name: 🇸🇬 新加坡
   proxies:
   - '新加坡|@ripaojiedian #1'
@@ -32837,7 +32837,7 @@ proxy-groups:
   - 新加坡 014
   - 新加坡 015
   - 新加坡 016
-  type: url-test
+  type: select
 - name: 🇬🇧 英国
   proxies:
   - 英国 001
@@ -32873,7 +32873,7 @@ proxy-groups:
   - 英国 032
   - 英国 033
   - 英国 035
-  type: url-test
+  type: select
 - name: 🇰🇷 韩国
   proxies:
   - KR_speednode_0002
@@ -32885,7 +32885,7 @@ proxy-groups:
   - 韩国 006
   - 韩国 007
   - KR_speednode_0006
-  type: url-test
+  type: select
 - name: 🇷🇺 俄罗斯
   proxies:
   - RU_speednode_0004
@@ -32982,7 +32982,7 @@ proxy-groups:
   - 俄罗斯 091
   - 俄罗斯 092
   - 俄罗斯 093
-  type: url-test
+  type: select
 - name: 🇩🇪 德国
   proxies:
   - 'DE-telegram-@ISVvpn  🌐 لوکیشن:... #1'
