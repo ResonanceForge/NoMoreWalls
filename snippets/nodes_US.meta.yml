@@ -1,15 +1,19 @@
 proxies:
-- name: 美国|@ripaojiedian
+- client-fingerprint: chrome
+  name: '美国|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
-  server: 160.16.107.37
+  server: 117.172.176.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 美国2|@ripaojiedian
+- client-fingerprint: chrome
+  name: '美国2|@ripaojiedian #1'
+  network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
-  server: 160.16.107.37
+  server: 117.172.176.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -15931,20 +15935,33 @@ proxies:
       Host: jannah.homes
     path: linkvws
 - client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2467
-  server: 117.172.176.24
+  flow: xtls-rprx-vision
+  name: US_speednode_0025
+  port: 443
+  reality-opts:
+    public-key: WWg8Ccc6a3aGGgSRe4tOYrIotlussqEKlhAk3A1PsW4
+    short-id: '!!str 913f32684b4776f9'
+  server: cent1de.maga171717.sbs
+  servername: snicent1de.maga171717.sbs
   skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2381
-  server: 117.172.176.24
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706fae5e-3fc6-41a4-8eb7-3b3df7bad72b
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  name: US_speednode_0026
+  network: ws
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: /containers/de
