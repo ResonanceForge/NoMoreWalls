@@ -1,19 +1,57 @@
 proxies:
 - client-fingerprint: chrome
-  name: 美国3|@ripaojiedian
+  name: 'CN_speednode_0002 #1'
   network: tcp
   password: BxceQaOe
-  port: 43567
+  port: 4861
   server: 36.156.102.74
   skip-cert-verify: true
   type: trojan
-- name: CN_speednode_0002
-  password: b00abf05-5768-4ac9-8d20-6b1bd605bcf6
-  port: 42765
-  server: hxfz940e90d9.nfwzdm.com
-  skip-cert-verify: true
-  sni: v1-dy.ixigua.com
+  udp: true
+- client-fingerprint: chrome
+  name: 'CN_speednode_0005 #1'
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 5041
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 'CN_speednode_0007 #1'
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 5321
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 'CN_speednode_0003 #1'
+  password: 7197668c-0332-466e-9553-41639c4bc95f
+  port: 23100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: uk01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 'CN_speednode_0004 #1'
+  password: 2c1f575d-08ad-4ad8-b2b2-f147379dd36d
+  port: 28100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: db01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 'CN_speednode_0006 #1'
+  password: f128c8a8-d184-4f9d-8aa2-503266130126
+  port: 23100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: uk01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
 - name: 中国 002
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -1269,27 +1307,3 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
-- name: 'CN_speednode_0003 #1'
-  password: 7197668c-0332-466e-9553-41639c4bc95f
-  port: 23100
-  server: n002.xunxunmimisbs.sbs
-  skip-cert-verify: false
-  sni: uk01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- name: CN_speednode_0004
-  password: 2c1f575d-08ad-4ad8-b2b2-f147379dd36d
-  port: 28100
-  server: n002.xunxunmimisbs.sbs
-  skip-cert-verify: false
-  sni: db01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- name: CN_speednode_0006
-  password: f128c8a8-d184-4f9d-8aa2-503266130126
-  port: 23100
-  server: n001.xunxunmimisbs.sbs
-  skip-cert-verify: false
-  sni: uk01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true

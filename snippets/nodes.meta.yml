@@ -115,6 +115,15 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 1000
+- name: '@NoForcedheaven'
+  obfs: salamander
+  obfs-password: 9242a8bf
+  password: a2678c97b8d79059
+  port: 443
+  server: 46.62.152.236
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '@Mr_Config_Group✌️ #1'
   obfs: salamander
   obfs-password: xFGh9dsyreJV9sMs1RUnFbwRdon
@@ -125,6 +134,22 @@ proxies:
   sni: chervhill.hajalii.com
   tls: false
   type: hysteria2
+- name: '@V2rayNG3'
+  password: '123456'
+  port: 443
+  server: 192.3.85.237
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #1'
+  password: 15cca331-9e92-449d-93b0-25f82203595f
+  port: 20309
+  server: gb.gomeow.online
+  skip-cert-verify: false
+  sni: gb.gomeow.online
+  tls: false
+  type: hysteria2
 - name: 'All-@V2rayAlpha--16 #1'
   password: 20050105zhu
   port: 51541
@@ -133,7 +158,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #4'
+- name: '@V2rayNG3 #2'
+  obfs: salamander
+  obfs-password: de8287cd33b05fa3
+  password: 22f2c759db51b3d0
+  port: 12122
+  server: 109.120.135.123
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '@Daily_Configs #5'
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 129.153.59.26
@@ -352,6 +387,14 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: '@V2rayNG3 #11'
+  password: 75577117-ABCD-DCBA-AAAA-CC777775577B
+  port: 7777
+  server: s15.serv00.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '@meli_proxyy #3 #1'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -470,6 +513,43 @@ proxies:
   server: els1.dimoyun.top
   skip-cert-verify: true
   sni: els1.dimoyun.top
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #12'
+  obfs: salamander
+  obfs-password: '@azadi_az_inja_migzare'
+  password: '@azadi_az_inja_migzare'
+  port: 443
+  server: all-v4.dgi000.store
+  skip-cert-verify: false
+  sni: all-v4.dgi000.store
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #13'
+  obfs: salamander
+  obfs-password: bipbip
+  password: AtTK3tiEA0
+  port: 19037
+  server: p1.punchline.ir
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #14'
+  obfs: salamander
+  obfs-password: bleepbloop
+  password: AtTK3tiEA0
+  port: 2087
+  server: p1.punchline.ir
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #15'
+  obfs: salamander
+  obfs-password: bluhbluh
+  password: AtTK3tiEA0
+  port: 44929
+  server: p1.punchline.ir
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 'All-@V2rayAlpha--2 #1 #1'
@@ -639,6 +719,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '@V2rayNG3 #17'
+  password: dongtaiwang.com
+  port: 50717
+  server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 'All--@V2rayAlpha--1 #1'
   password: dongtaiwang.com
   port: 5355
@@ -652,6 +740,16 @@ proxies:
   port: 25684
   server: us-nb-01.linlujs.pw
   skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #19'
+  obfs: salamander
+  obfs-password: dbc688df29e582d3
+  password: f8e40931bbb827df
+  port: 12123
+  server: 62.60.231.189
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 'All--@V2rayAlpha--2 #1'
@@ -768,7 +866,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: CN_speednode_0005
+- name: 'CN_speednode_0005 #1'
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 5041
@@ -777,7 +875,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: CN_speednode_0007
+- name: 'CN_speednode_0007 #1'
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 5321
@@ -809,21 +907,51 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- name: '美国3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 43567
   server: 36.156.102.74
   skip-cert-verify: true
   type: trojan
-- name: CN_speednode_0002
-  password: b00abf05-5768-4ac9-8d20-6b1bd605bcf6
-  port: 42765
-  server: hxfz940e90d9.nfwzdm.com
-  skip-cert-verify: true
-  sni: v1-dy.ixigua.com
+- name: 'CN_speednode_0003 #1'
+  password: 7197668c-0332-466e-9553-41639c4bc95f
+  port: 23100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: uk01.xxxxyyyysbs.sbs
   type: trojan
-- name: DE_speednode_0011
+  udp: true
+- name: 'CN_speednode_0004 #1'
+  password: 2c1f575d-08ad-4ad8-b2b2-f147379dd36d
+  port: 28100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: db01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 'CN_speednode_0006 #1'
+  password: f128c8a8-d184-4f9d-8aa2-503266130126
+  port: 23100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: uk01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 'CZ_speednode_0010 #1'
+  port: 443
+  reality-opts:
+    public-key: Sou40t4nVSakWV73bMSiB8FqUIMCNfsHkuoOp05lD0s
+    short-id: 'a83c34a4'
+  server: 194.87.245.123
+  servername: vk.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- name: 'DE_speednode_0011 #1'
   port: 6666
   reality-opts:
     public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
@@ -835,37 +963,190 @@ proxies:
   type: vless
   udp: true
   uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+- name: 'DE_speednode_0012 #1'
+  port: 34704
+  reality-opts:
+    public-key: Yl_Un-j1bd9icfC153HCUY_uRKWdj4D_PxHTQ59q5m4
+    short-id: '11c996b441cf6c'
+  server: 5.189.190.60
+  servername: ava.game.naver.com.lsvly.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69394f3f-e84c-44b3-96ae-46000130cf2b
 - flow: xtls-rprx-vision
-  name: JP_speednode_0005
-  port: 51623
-  server: softbank88.xzcloudnode.sbs
+  name: 'FR_speednode_0013 #1'
+  port: 443
+  reality-opts:
+    public-key: MThDM457eKp5ak4_L_l38GvDoS80fXDqTxqOZb81uEc
+    short-id: '34e2ce36'
+  server: 94.131.9.77
+  servername: vk.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'GB_speednode_0014 #1'
+  port: 40061
+  reality-opts:
+    public-key: WB_B1SPamVRkLeEJkKhq9YEukZpqQPgoNnwetlNBdF8
+    short-id: 'c5bc3357'
+  server: cdn.413918.xyz
   servername: itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7
+  udp: true
+  uuid: 11db0644-edeb-442c-bd42-e5ea58ea7395
 - flow: xtls-rprx-vision
-  name: LB_speednode_0007
+  name: 'GR_speednode_0015 #1'
   port: 443
-  server: 77.110.127.105
-  servername: st.ozone.ru
+  reality-opts:
+    public-key: eYFJombyzUhLsqA8NfdHUBJdStTt7NN-Z63fuyAJUTc
+    short-id: '1127691d'
+  server: 185.242.84.181
+  servername: vk.cc
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 72239cbc-5a25-411c-b4f5-b9167a10f5e1
-- name: UA_speednode_0008
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 'IR_speednode_0016 #1'
+  port: 443
+  reality-opts:
+    public-key: NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE
+    short-id: '08aa0813199a4c38'
+  server: fin.monkeyisland.life
+  servername: fin.monkeyisland.life
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 74c0af7c-8482-4b4e-b067-ea456a80cdb7
+- flow: xtls-rprx-vision
+  name: 'LB_speednode_0018 #1'
+  port: 443
+  reality-opts:
+    public-key: 3Th99jFJ-lq7U2RwTAIwuuQhw26ytMZiyPivpYScg3w
+    short-id: 'de285cb4'
+  server: 77.110.102.49
+  servername: vk.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 'LB_speednode_0019 #1'
+  port: 443
+  reality-opts:
+    public-key: kOWOoO9dm7FfrdG_MzuCrKbw3FGHFE2-quprLGpryE0
+    short-id: '339f17fb'
+  server: 77.110.105.19
+  servername: vk.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 'MD_speednode_0020 #1'
+  port: 443
+  reality-opts:
+    public-key: 8_J_8yfLVU1f6cHdGR35rnf_Zc4k9C_XMPCdH1qAtmU
+    short-id: 'a29977bd'
+  server: 45.84.0.57
+  servername: vk.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 'RO_speednode_0021 #1'
+  port: 443
+  reality-opts:
+    public-key: yN8F-g6K4RbNLwcG4Y5j5VGAHvj5COL490fmKKVohG8
+    short-id: 'cd3f20ea'
+  server: 5.182.37.94
+  servername: vk.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 'RU_speednode_0022 #1'
+  port: 443
+  reality-opts:
+    public-key: s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY
+    short-id: 'bce24697c04e'
+  server: usa.savanet.pro
+  servername: yandex.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87eff1bd-d55f-4df2-a5ad-863368a16cb7
+- name: UA_speednode_0023
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
-  servername: do-syd1.008883.xyz
+  servername: oracle-kr-chuncheon.862400.xyz
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: a7a89fed-0fa5-48ea-9cc9-ccf67d0b6cb2
+  uuid: 1955487c-1f99-45df-867f-04bfbbf28f8d
   ws-opts:
     headers:
-      Host: do-syd1.008883.xyz
+      Host: oracle-kr-chuncheon.862400.xyz
     path: /announcement?ed=2048fp=random
+- name: UA_speednode_0024
+  network: ws
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: oracle-kr-chuncheon.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1955487c-1f99-45df-867f-04bfbbf28f8d
+  ws-opts:
+    headers:
+      Host: oracle-kr-chuncheon.862400.xyz
+    path: /announcementfp=random
+- flow: xtls-rprx-vision
+  name: 'US_speednode_0025 #1'
+  port: 443
+  reality-opts:
+    public-key: WWg8Ccc6a3aGGgSRe4tOYrIotlussqEKlhAk3A1PsW4
+    short-id: '913f32684b4776f9'
+  server: cent1de.maga171717.sbs
+  servername: snicent1de.maga171717.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 706fae5e-3fc6-41a4-8eb7-3b3df7bad72b
+- alpn:
+  - ''
+  name: US_speednode_0026
+  network: ws
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: /containers/defp=chrome
 - name: 中国 002
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -28905,175 +29186,8 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
-- name: 'CN_speednode_0003 #1'
-  password: 7197668c-0332-466e-9553-41639c4bc95f
-  port: 23100
-  server: n002.xunxunmimisbs.sbs
-  skip-cert-verify: false
-  sni: uk01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- name: CN_speednode_0004
-  password: 2c1f575d-08ad-4ad8-b2b2-f147379dd36d
-  port: 28100
-  server: n002.xunxunmimisbs.sbs
-  skip-cert-verify: false
-  sni: db01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- name: CN_speednode_0006
-  password: f128c8a8-d184-4f9d-8aa2-503266130126
-  port: 23100
-  server: n001.xunxunmimisbs.sbs
-  skip-cert-verify: false
-  sni: uk01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: CZ_speednode_0010
-  port: 443
-  reality-opts:
-    public-key: Sou40t4nVSakWV73bMSiB8FqUIMCNfsHkuoOp05lD0s
-    short-id: 'a83c34a4'
-  server: 194.87.245.123
-  servername: vk.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- name: DE_speednode_0012
-  port: 34704
-  reality-opts:
-    public-key: Yl_Un-j1bd9icfC153HCUY_uRKWdj4D_PxHTQ59q5m4
-    short-id: '11c996b441cf6c'
-  server: 5.189.190.60
-  servername: ava.game.naver.com.lsvly.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69394f3f-e84c-44b3-96ae-46000130cf2b
-- flow: xtls-rprx-vision
-  name: FR_speednode_0013
-  port: 443
-  reality-opts:
-    public-key: MThDM457eKp5ak4_L_l38GvDoS80fXDqTxqOZb81uEc
-    short-id: '34e2ce36'
-  server: 94.131.9.77
-  servername: vk.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: GB_speednode_0014
-  port: 40061
-  reality-opts:
-    public-key: WB_B1SPamVRkLeEJkKhq9YEukZpqQPgoNnwetlNBdF8
-    short-id: 'c5bc3357'
-  server: cdn.413918.xyz
-  servername: itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 11db0644-edeb-442c-bd42-e5ea58ea7395
-- flow: xtls-rprx-vision
-  name: GR_speednode_0015
-  port: 443
-  reality-opts:
-    public-key: eYFJombyzUhLsqA8NfdHUBJdStTt7NN-Z63fuyAJUTc
-    short-id: '1127691d'
-  server: 185.242.84.181
-  servername: vk.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- flow: xtls-rprx-vision
-  name: IR_speednode_0016
-  port: 443
-  reality-opts:
-    public-key: NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE
-    short-id: '08aa0813199a4c38'
-  server: fin.monkeyisland.life
-  servername: fin.monkeyisland.life
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 74c0af7c-8482-4b4e-b067-ea456a80cdb7
-- flow: xtls-rprx-vision
-  name: LB_speednode_0018
-  port: 443
-  reality-opts:
-    public-key: 3Th99jFJ-lq7U2RwTAIwuuQhw26ytMZiyPivpYScg3w
-    short-id: 'de285cb4'
-  server: 77.110.102.49
-  servername: vk.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- flow: xtls-rprx-vision
-  name: LB_speednode_0019
-  port: 443
-  reality-opts:
-    public-key: kOWOoO9dm7FfrdG_MzuCrKbw3FGHFE2-quprLGpryE0
-    short-id: '339f17fb'
-  server: 77.110.105.19
-  servername: vk.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- flow: xtls-rprx-vision
-  name: MD_speednode_0020
-  port: 443
-  reality-opts:
-    public-key: 8_J_8yfLVU1f6cHdGR35rnf_Zc4k9C_XMPCdH1qAtmU
-    short-id: 'a29977bd'
-  server: 45.84.0.57
-  servername: vk.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- flow: xtls-rprx-vision
-  name: RO_speednode_0021
-  port: 443
-  reality-opts:
-    public-key: yN8F-g6K4RbNLwcG4Y5j5VGAHvj5COL490fmKKVohG8
-    short-id: 'cd3f20ea'
-  server: 5.182.37.94
-  servername: vk.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- flow: xtls-rprx-vision
-  name: RU_speednode_0022
-  port: 443
-  reality-opts:
-    public-key: s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY
-    short-id: 'bce24697c04e'
-  server: usa.savanet.pro
-  servername: yandex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87eff1bd-d55f-4df2-a5ad-863368a16cb7
 - client-fingerprint: random
-  name: UA_speednode_0023
+  name: 'UA_speednode_0023 #1'
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
@@ -29088,7 +29202,7 @@ proxies:
       Host: oracle-kr-chuncheon.862400.xyz
     path: /announcement?ed=2048
 - client-fingerprint: random
-  name: UA_speednode_0024
+  name: 'UA_speednode_0024 #1'
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
@@ -29102,22 +29216,9 @@ proxies:
     headers:
       Host: oracle-kr-chuncheon.862400.xyz
     path: /announcement
-- flow: xtls-rprx-vision
-  name: US_speednode_0025
-  port: 443
-  reality-opts:
-    public-key: WWg8Ccc6a3aGGgSRe4tOYrIotlussqEKlhAk3A1PsW4
-    short-id: '913f32684b4776f9'
-  server: cent1de.maga171717.sbs
-  servername: snicent1de.maga171717.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 706fae5e-3fc6-41a4-8eb7-3b3df7bad72b
 - alpn:
   - ''
-  name: US_speednode_0026
+  name: 'US_speednode_0026 #1'
   network: ws
   port: 2053
   server: 199.34.230.114
