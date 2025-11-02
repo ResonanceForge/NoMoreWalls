@@ -105,8 +105,7 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- name: '香港3|@ripaojiedian #1'
-  network: tcp
+- name: 香港3|@ripaojiedian
   password: bca467b8c15211d189008a93c7519d3b
   port: 22581
   server: 221.128.195.9
@@ -114,22 +113,19 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: 'CN_speednode_0002 #1'
-  network: tcp
   password: BxceQaOe
   port: 4861
   server: 36.156.102.74
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: '香港5|@ripaojiedian #1'
-  network: tcp
+- name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 194
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- name: '日本|@ripaojiedian #1'
-  network: tcp
+- name: 日本|@ripaojiedian
   password: BxceQaOe
   port: 487
   server: 36.150.215.236
@@ -145,16 +141,14 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
-- name: '日本2|@ripaojiedian #1'
-  network: tcp
+- name: 日本2|@ripaojiedian
   password: bca467b8c15211d189008a93c7519d3b
   port: 4452
   server: 160.16.236.32
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: '日本3|@ripaojiedian #1'
-  network: tcp
+- name: 日本3|@ripaojiedian
   password: bca467b8c15211d189008a93c7519d3b
   port: 3161
   server: 160.16.236.32
@@ -162,7 +156,6 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - name: 'CN_speednode_0005 #1'
-  network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 5041
   server: 117.172.176.24
@@ -171,7 +164,6 @@ proxies:
   type: trojan
   udp: true
 - name: 'CN_speednode_0007 #1'
-  network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 5321
   server: 117.172.176.24
@@ -179,8 +171,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: '新加坡3|@ripaojiedian #1'
-  network: tcp
+- name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 9713
   server: 36.150.215.197
@@ -202,8 +193,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '美国3|@ripaojiedian #1'
-  network: tcp
+- name: 美国3|@ripaojiedian
   password: BxceQaOe
   port: 43567
   server: 36.156.102.74
@@ -9508,6 +9498,35 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- name: '香港3|@ripaojiedian #1'
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 443
+  server: 58.152.53.42
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4556
+  server: 36.151.192.242
+  skip-cert-verify: true
+  type: trojan
+- name: '香港5|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.129
+  skip-cert-verify: true
+  type: trojan
+- name: '日本|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 4492
+  server: 36.150.215.236
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港6|@ripaojiedian #1'
@@ -9518,3 +9537,60 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
+- name: '日本2|@ripaojiedian #1'
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 1332
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '日本3|@ripaojiedian #1'
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 3161
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @ripaojiedian)e9e4816:99990
+    mode: tls
+  port: 2377
+  server: 54.64.148.82
+  tfo: false
+  type: ss
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 2283
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡2|@ripaojiedian
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 5048
+  server: 160.16.107.37
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '新加坡3|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 51825
+  server: 36.150.215.197
+  skip-cert-verify: true
+  type: trojan
+- name: '美国3|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 53743
+  server: 36.151.251.47
+  skip-cert-verify: true
+  type: trojan
