@@ -6,8 +6,16 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 'DE_speednode_0009 #1'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.78.19.159
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: DE_speednode_0010
+  name: 'DE_speednode_0010 #1'
   port: 6666
   reality-opts:
     public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
@@ -19,15 +27,28 @@ proxies:
   type: vless
   udp: true
   uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+- name: 'DE_speednode_0011 #1'
+  port: 17287
+  server: 79.132.136.80
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0ce5451d-d771-4c7d-887e-1e51aef6fd2b
 - client-fingerprint: chrome
-  name: DE_speednode_0012
-  port: 34704
-  server: 5.189.190.60
-  servername: ava.game.naver.com.lsvly.qzz.io
+  flow: xtls-rprx-vision
+  name: 'DE_speednode_0012 #1'
+  port: 444
+  reality-opts:
+    public-key: FOSoac3DIrSrCUcBtQA-BdHMxCtqe2CYCpdvGxKMiUw
+    short-id: '!!str 82b9ca5d8d39ba72'
+  server: 151.236.15.72
+  servername: opensuse.org
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 69394f3f-e84c-44b3-96ae-46000130cf2b
+  udp: true
+  uuid: faaaf16e-188e-42f2-bcc1-17feadc84fad
 - alterId: 0
   cipher: auto
   name: 德国 001
@@ -1191,33 +1212,3 @@ proxies:
     headers:
       Host: fei.634676.xyz
     path: /?ed=2560
-- name: DE_speednode_0009
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.78.19.159
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 'DE_speednode_0011 #1'
-  port: 17287
-  server: 79.132.136.80
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0ce5451d-d771-4c7d-887e-1e51aef6fd2b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'DE_speednode_0012 #1'
-  port: 444
-  reality-opts:
-    public-key: FOSoac3DIrSrCUcBtQA-BdHMxCtqe2CYCpdvGxKMiUw
-    short-id: '!!str 82b9ca5d8d39ba72'
-  server: 151.236.15.72
-  servername: opensuse.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: faaaf16e-188e-42f2-bcc1-17feadc84fad
