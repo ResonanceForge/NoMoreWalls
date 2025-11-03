@@ -1,16 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  name: '新加坡2|@ripaojiedian #1'
-  network: tcp
+- name: 新加坡2|@ripaojiedian
   password: bca467b8c15211d189008a93c7519d3b
   port: 5048
   server: 160.16.107.37
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '新加坡3|@ripaojiedian #1'
-  network: tcp
+- name: 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 51825
   server: 36.150.215.197
@@ -232,3 +228,11 @@ proxies:
   type: vless
   udp: true
   uuid: a2088892-07c5-4c54-8a10-4a4b6ebefab6
+- client-fingerprint: chrome
+  name: '新加坡3|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 24392
+  server: 36.150.215.236
+  skip-cert-verify: true
+  type: trojan
