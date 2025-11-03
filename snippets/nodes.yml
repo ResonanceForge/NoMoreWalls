@@ -120,7 +120,7 @@ proxies:
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- name: 'HK_speednode_0009 #1'
+- name: HK_speednode_0004
   network: tcp
   password: BxceQaOe
   port: 443
@@ -145,7 +145,7 @@ proxies:
   server: 36.150.215.197
   skip-cert-verify: true
   type: trojan
-- name: 'CN_speednode_0003 #1'
+- name: 日本2|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 1332
@@ -153,7 +153,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: '日本3|@ripaojiedian #1'
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
@@ -162,7 +161,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 'CN_speednode_0004 #1'
+- name: 新加坡2|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 2283
@@ -170,7 +169,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: '新加坡3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
@@ -201,15 +199,14 @@ proxies:
   server: 36.151.251.47
   skip-cert-verify: true
   type: trojan
-- name: 'CN_speednode_0005 #1'
+- name: CN_speednode_0005
   password: adbac894-90b9-4913-b77e-a715a8d4ebc8
   port: 20021
   server: oss-cn-shanghai.letssepub.com
   skip-cert-verify: false
   sni: dingding-doc.com
   type: trojan
-  udp: true
-- name: 'JP_speednode_0020 #1'
+- name: JP_speednode_0020
   network: ws
   password: trojan
   port: 443
@@ -217,7 +214,6 @@ proxies:
   skip-cert-verify: false
   sni: wahaha.yingyangkuaixian.dpdns.org
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: wahaha.yingyangkuaixian.dpdns.org
