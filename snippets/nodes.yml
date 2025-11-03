@@ -128,12 +128,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 日本|@ripaojiedian
-  password: BxceQaOe
-  port: 4492
-  server: 36.150.215.236
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '香港6|@ripaojiedian #1'
@@ -144,6 +138,13 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
+- name: '日本|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 8112
+  server: 36.150.215.197
+  skip-cert-verify: true
+  type: trojan
 - name: 'CN_speednode_0003 #1'
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
@@ -153,9 +154,10 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 日本3|@ripaojiedian
+- name: '日本3|@ripaojiedian #1'
+  network: tcp
   password: bca467b8c15211d189008a93c7519d3b
-  port: 3161
+  port: 316
   server: 117.172.176.24
   skip-cert-verify: false
   sni: www.nintendogames.net
@@ -169,17 +171,11 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 新加坡2|@ripaojiedian
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 5048
-  server: 160.16.107.37
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: '新加坡3|@ripaojiedian #1'
+  network: tcp
   password: BxceQaOe
-  port: 51825
-  server: 36.150.215.197
+  port: 24392
+  server: 36.150.215.236
   skip-cert-verify: true
   type: trojan
 - name: '美国|@ripaojiedian #1'
@@ -9511,30 +9507,8 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
-- name: '日本|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 8112
-  server: 36.150.215.197
-  skip-cert-verify: true
-  type: trojan
-- name: '日本3|@ripaojiedian #1'
-  network: tcp
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 316
-  server: 117.172.176.24
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '新加坡3|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 24392
-  server: 36.150.215.236
-  skip-cert-verify: true
-  type: trojan
 - cipher: aes-256-cfb
-  name: 🇻🇳 越南|@ripaojiedian
+  name: '🇻🇳 越南|@ripaojiedian #1'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.142
