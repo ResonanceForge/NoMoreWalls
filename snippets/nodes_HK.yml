@@ -16,9 +16,7 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- client-fingerprint: chrome
-  name: '香港3|@ripaojiedian #1'
-  network: tcp
+- name: 香港3|@ripaojiedian
   password: bca467b8c15211d189008a93c7519d3b
   port: 443
   server: 58.152.53.42
@@ -67,6 +65,15 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: '香港3|@ripaojiedian #1'
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 443
+  server: 58.152.53.42
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
