@@ -407,7 +407,7 @@ proxies:
     headers:
       Host: joss.krikkrik.xyz
     path: /Free-VPN-CF-Geo-Project/AE5
-- name: 亚太地区 001
+- name: CN_speednode_0003
   network: tcp
   password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
   port: 13007
@@ -415,6 +415,7 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+  udp: true
 - name: 中国 007
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -9503,3 +9504,11 @@ proxies:
   server: 103.186.154.193
   tfo: false
   type: ss
+- name: HK_speednode_0013
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
