@@ -1,5 +1,19 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'CA_speednode_0002 #1'
+  port: 26113
+  reality-opts:
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: '!!str 1fbd20fd'
+  server: 40.233.71.65
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+- client-fingerprint: chrome
   name: 加拿大 001
   network: ws
   packet-addr: false
@@ -184,17 +198,3 @@ proxies:
     headers:
       Host: 3k.pureboy.eu.org
     path: /?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: CA_speednode_0002
-  port: 26113
-  reality-opts:
-    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-    short-id: '!!str 1fbd20fd'
-  server: 40.233.71.65
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff

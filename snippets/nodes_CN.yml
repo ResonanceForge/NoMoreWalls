@@ -1,4 +1,13 @@
 proxies:
+- name: 'CN_speednode_0003 #1'
+  network: tcp
+  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
 - name: 中国 002
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
