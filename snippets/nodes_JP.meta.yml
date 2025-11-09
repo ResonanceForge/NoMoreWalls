@@ -26,6 +26,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+<<<<<<< HEAD
 - name: 日本 001
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -305,9 +306,24 @@ proxies:
   server: 103.231.75.74
   skip-cert-verify: true
   tfo: true
+=======
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇯🇵 日本4|@ripaojiedian
+  password: 89d52514-f5a4-45c6-96ea-49e113e60129
+  port: 10007
+  server: 183.2.133.119
+  tfo: false
+  type: ss
+- name: JP_speednode_0018
+  password: c3a66484-bde4-11ef-9410-f23c93141fad
+  port: 3443
+  server: 665cb53b-t5jc00-t5v27d-88rr.tky02.east.189ti.com
+>>>>>>> 352718ea55dcb4f42f136d0085d3b9250a526ad4
   tls: true
-  type: vless
+  type: http
   udp: true
+<<<<<<< HEAD
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   grpc-opts: {}
@@ -1310,4 +1326,6 @@ proxies:
   tls: true
   type: http
   udp: true
+=======
+>>>>>>> 352718ea55dcb4f42f136d0085d3b9250a526ad4
   username: c3a66484-bde4-11ef-9410-f23c93141fad

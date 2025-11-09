@@ -9505,18 +9505,80 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+<<<<<<< HEAD
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港6|@ripaojiedian #1'
   port: 11210
   server: 8.148.194.27
   skip-cert-verify: false
+=======
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 3841
+  server: 221.128.195.12
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1251
+  server: 36.150.215.247
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.186
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港6|@ripaojiedian
+  port: 11210
+  server: 8.148.194.27
+  skip-cert-verify: false
+>>>>>>> 352718ea55dcb4f42f136d0085d3b9250a526ad4
   tfo: false
   tls: false
   type: vmess
   uuid: c74f0304-5b43-3772-852a-2b108c423d23
+<<<<<<< HEAD
 - cipher: chacha20-ietf-poly1305
   name: '🇯🇵 日本4|@ripaojiedian #1'
+=======
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4011
+  server: 36.150.215.248
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 日本2|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 1334
+  server: 117.172.176.22
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 日本3|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 4095
+  server: 117.172.176.22
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本4|@ripaojiedian
+>>>>>>> 352718ea55dcb4f42f136d0085d3b9250a526ad4
   password: 89d52514-f5a4-45c6-96ea-49e113e60129
   port: 10007
   server: 183.2.133.119
@@ -9524,7 +9586,11 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
+<<<<<<< HEAD
   name: '🇰🇷 韩国|@ripaojiedian #1'
+=======
+  name: 🇰🇷 韩国|@ripaojiedian
+>>>>>>> 352718ea55dcb4f42f136d0085d3b9250a526ad4
   port: 11215
   server: 8.148.248.105
   skip-cert-verify: false
@@ -9532,10 +9598,99 @@ proxies:
   tls: false
   type: vmess
   uuid: c74f0304-5b43-3772-852a-2b108c423d23
+<<<<<<< HEAD
 - cipher: aes-256-cfb
   name: '🇻🇳 越南|@ripaojiedian #1'
+=======
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 2283
+  server: 117.172.176.22
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡2|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 2173
+  server: 117.172.176.22
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 8041
+  server: 36.150.215.248
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 1328
+  server: 153.121.44.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 4173
+  server: 117.172.176.22
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 38799
+  server: 36.151.251.38
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇻🇳 越南|@ripaojiedian
+>>>>>>> 352718ea55dcb4f42f136d0085d3b9250a526ad4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.215
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 香港6|@ripaojiedian
+  network: tcp
+  port: '11210'
+  server: 8.148.194.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c74f0304-5b43-3772-852a-2b108c423d23
+- alterId: 2
+  cipher: auto
+  name: 韩国|@ripaojiedian
+  network: tcp
+  port: '11215'
+  server: 8.148.248.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c74f0304-5b43-3772-852a-2b108c423d23
+- name: CN_speednode_0003
+  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: HK_speednode_0013
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
