@@ -29128,7 +29128,7 @@ proxy-groups:
   - 🔰 延迟最低
   - ✅ 手动选择
   - 🗺️ 选择地区
-  type: url-test
+  type: select
 - interval: 300
   name: ♻ 自动选择
   proxies: &id001
@@ -31468,34 +31468,34 @@ proxy-groups:
   url: https://www.google.com/
 - name: ✅ 手动选择
   proxies: *id001
-  type: url-test
+  type: select
 - name: 🌐 突破锁区
   proxies:
   - DIRECT
   - 🚀 选择代理
-  type: url-test
+  type: select
 - name: ❓ 疑似国内
   proxies:
   - DIRECT
   - 🚀 选择代理
   - REJECT
-  type: url-test
+  type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - 🚀 选择代理
-  type: url-test
+  type: select
 - name: 🚨 病毒网站
   proxies:
   - REJECT
   - DIRECT
-  type: url-test
+  type: select
 - name: ⛔ 广告拦截
   proxies:
   - REJECT
   - DIRECT
   - 🚀 选择代理
-  type: url-test
+  type: select
 - name: 🗺️ 选择地区
   proxies:
   - 🇯🇵 日本
@@ -31510,7 +31510,7 @@ proxy-groups:
   - 🇰🇷 韩国
   - 🇷🇺 俄罗斯
   - 🇩🇪 德国
-  type: url-test
+  type: select
 - name: 🇯🇵 日本
   proxies:
   - '日本|@ripaojiedian #1'
@@ -33394,7 +33394,7 @@ proxy-groups:
   - 德国 081
   - 德国 087
   - 德国 091
-  type: select
+  type: url-test
 rules:
 - IP-CIDR,23.231.151.252/32,⛔ 广告拦截
 - IP-CIDR,194.59.220.161/32,⛔ 广告拦截

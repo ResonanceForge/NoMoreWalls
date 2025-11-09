@@ -21,20 +21,21 @@ locations = ["- name: 🇯🇵 日本",
              "- name: 🇨🇳 中国",
              "- name: 🇷🇺 俄罗斯",]
 
-found_location=False
 for location in locations:
-    print(location)
+    found_location=False
+    # print(location)
     for i, line in enumerate(content_lines):
         # print(line)
         if location in line:
             found_location = True
-            print("found \"location\"")
-            break
+            print("found ", location)
+            print(found_location)
+            continue
 
         if found_location and "select" in line:
             print("found \"select\"")
             content_lines[i] = line.replace("select","url-test")
-            print(content_lines)
+            print(content_lines[i])
             continue
 
 config_file_meta_autochoose.writelines(content_lines)
