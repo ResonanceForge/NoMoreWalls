@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '韩国|@ripaojiedian #1'
+  network: tcp
+  port: '27578'
+  server: 1.32.216.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
 - alterId: 1
   cipher: auto
   name: 韩国 002
@@ -67,20 +77,10 @@ proxies:
   uuid: d1de8433-692d-47fd-9a8d-6ccb02ea39bd
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国|@ripaojiedian
+  name: '🇰🇷 韩国|@ripaojiedian #1'
   port: 27578
   server: 1.32.216.163
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
-- alterId: 0
-  cipher: auto
-  name: 韩国|@ripaojiedian
-  network: tcp
-  port: '27578'
-  server: 1.32.216.163
-  servername: ''
   tls: false
   type: vmess
   uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
