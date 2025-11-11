@@ -1,16 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  name: '美国|@ripaojiedian #1'
-  network: tcp
+- name: 美国|@ripaojiedian
   password: 1b57001bd214304027025a740b6cf1ac
   port: 5097
   server: 153.121.44.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '美国2|@ripaojiedian #1'
-  network: tcp
+- name: 美国2|@ripaojiedian
   password: e4e262d453466988575c397a30562337
   port: 4173
   server: 117.172.176.22
@@ -15956,3 +15952,27 @@ proxies:
     headers:
       Host: jannah.homes
     path: linkvws
+- name: '美国|@ripaojiedian #1'
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 674
+  server: 160.16.138.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '美国2|@ripaojiedian #1'
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 674
+  server: 160.16.138.24
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4569
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
