@@ -1,20 +1,18 @@
 proxies:
-- name: 'CN_speednode_0009 #1'
+- name: CN_speednode_0009
   password: BxceQaOe
   port: 38799
   server: 36.151.251.38
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
-  udp: true
-- name: 'CN_speednode_0012 #1'
+- name: CN_speednode_0012
   password: BxceQaOe
   port: 38799
   server: 36.151.251.38
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 中国 002
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -1434,19 +1432,3 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 38117bbc-49f6-48f8-b39e-f41b94841793
-- name: CN_speednode_0010
-  password: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
-  port: 27235
-  server: 20ba856c-t5gv40-te0r6o-1r7vv.cm5.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
-- name: CN_speednode_0011
-  password: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
-  port: 32233
-  server: a9964e2f-t5gv40-te0r6o-1r7vv.id.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
