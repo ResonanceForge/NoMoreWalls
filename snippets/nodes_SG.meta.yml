@@ -1,21 +1,24 @@
 proxies:
-- name: 新加坡|@ripaojiedian
-  password: 1b57001bd214304027025a740b6cf1ac
+- name: '新加坡|@ripaojiedian #1'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
   port: 2760
   server: 160.16.106.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡2|@ripaojiedian
-  password: 1b57001bd214304027025a740b6cf1ac
+- name: '新加坡2|@ripaojiedian #1'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
   port: 127
   server: 160.16.106.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: '新加坡3|@ripaojiedian #1'
+  network: tcp
   password: BxceQaOe
-  port: 518
+  port: 2753
   server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
@@ -236,27 +239,3 @@ proxies:
   type: vless
   udp: true
   uuid: a2088892-07c5-4c54-8a10-4a4b6ebefab6
-- name: '新加坡|@ripaojiedian #1'
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 2760
-  server: 160.16.106.144
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '新加坡2|@ripaojiedian #1'
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 127
-  server: 160.16.106.144
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '新加坡3|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 2753
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
