@@ -1,4 +1,17 @@
 proxies:
+- name: 'SE_speednode_0020 #1'
+  network: ws
+  password: edeff73d-065d-4b0a-b848-aad9d3380223
+  port: 443
+  server: 77.221.141.207
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
 - alterId: 1
   cipher: auto
   name: 瑞典 002
@@ -50,16 +63,3 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 744847f4-8549-4bab-a8e4-6b410d271c16
-- name: SE_speednode_0020
-  network: ws
-  password: edeff73d-065d-4b0a-b848-aad9d3380223
-  port: 443
-  server: 77.221.141.207
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
