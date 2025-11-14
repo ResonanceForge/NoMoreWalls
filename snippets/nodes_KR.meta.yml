@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '韩国|@ripaojiedian #1'
+  network: tcp
+  port: '47093'
+  server: 114.98.183.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - client-fingerprint: chrome
   name: 韩国 001
   network: ws
@@ -103,20 +113,10 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 韩国|@ripaojiedian
+  name: '🇰🇷 韩国|@ripaojiedian #1'
   port: 47093
   server: 114.98.183.61
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
-- alterId: 0
-  cipher: auto
-  name: 韩国|@ripaojiedian
-  network: tcp
-  port: '47093'
-  server: 114.98.183.61
-  servername: ''
   tls: false
   type: vmess
   uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
