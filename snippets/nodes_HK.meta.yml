@@ -39,8 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '香港6|@ripaojiedian #1'
-  network: tcp
+- name: 香港6|@ripaojiedian
   password: 50a99183-2543-40bd-98a2-12bbc6ecf882
   port: 49213
   server: 118.253.166.237
@@ -62,12 +61,27 @@ proxies:
   server: 103.103.245.158
   type: ss
 - cipher: chacha20-ietf
-  name: '🇭🇰 香港7|@ripaojiedian #1'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 2000
-  server: oshk02.mynode.me
+  name: 🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.182.158
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港7|@ripaojiedian #1'
+  port: 25007
+  server: onecat-jp.03ezhg0qsa.download
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 69749298-6821-3358-b6d3-1d18d8642cba
+- alterId: 0
+  cipher: auto
+  name: 香港7|@ripaojiedian
+  network: tcp
+  port: '25007'
+  server: onecat-jp.03ezhg0qsa.download
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 69749298-6821-3358-b6d3-1d18d8642cba
