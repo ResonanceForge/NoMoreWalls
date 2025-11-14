@@ -11,6 +11,20 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'FR_speednode_0014 #1'
+  port: 33009
+  reality-opts:
+    public-key: vQxUlk2tCENv9crfrUAp5JdJOZTKhMH7XnoKLqbAYx0
+    short-id: '!!str c0d304da0c4dcadc'
+  server: 195.154.42.111
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77a33d77-7af9-4c33-9556-d6711becca04
 - alterId: 1
   cipher: auto
   name: 法国 001
@@ -1633,17 +1647,3 @@ proxies:
   type: vless
   udp: true
   uuid: 296b5322-3f50-4ad3-b504-6e1e370dc544
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: FR_speednode_0014
-  port: 33009
-  reality-opts:
-    public-key: vQxUlk2tCENv9crfrUAp5JdJOZTKhMH7XnoKLqbAYx0
-    short-id: '!!str c0d304da0c4dcadc'
-  server: 195.154.42.111
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77a33d77-7af9-4c33-9556-d6711becca04

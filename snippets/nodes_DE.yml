@@ -1,4 +1,12 @@
 proxies:
+- name: 'DE_speednode_0010 #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.178.207.130
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 德国 001
@@ -187,11 +195,3 @@ proxies:
   tls: true
   type: vmess
   uuid: b5e4a13b-4f58-4bad-a2d0-279fa7534188
-- name: DE_speednode_0010
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.178.207.130
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
