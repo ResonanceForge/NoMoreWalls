@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 'US_speednode_0025 #1'
+- name: US_speednode_0025
   network: ws
   port: 2052
   server: br.pouriau.com
@@ -31,7 +31,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: bc4ee22b-87f5-4bc0-b0f5-3cd802d716e2
   ws-opts:
     headers:
@@ -15954,3 +15953,17 @@ proxies:
     headers:
       Host: jannah.homes
     path: linkvws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0050
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: '!!str 4c02bbbfa833b3b6'
+  server: autos.jykvpn.com
+  servername: cdnjs.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
