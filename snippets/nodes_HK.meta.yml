@@ -15,21 +15,21 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- name: 🇭🇰 香港3|@ripaojiedian
+- name: 香港3|@ripaojiedian
   password: 2274c52572e721086f8bd8f88984643c
   port: 443
   server: 58.152.110.9
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇭🇰 香港4|@ripaojiedian
+- name: 香港4|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 203.198.122.97
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇭🇰 香港5|@ripaojiedian
+- name: 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 219.77.239.35
@@ -68,26 +68,12 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- cipher: chacha20-ietf
-  name: '🇭🇰 香港6|@ripaojiedian #1'
-  password: asd123456
-  port: 8388
-  server: 103.149.182.158
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港7|@ripaojiedian #1'
-  port: 25007
-  server: onecat-jp.03ezhg0qsa.download
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 69749298-6821-3358-b6d3-1d18d8642cba
 - name: '香港3|@ripaojiedian #1'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 443
   server: 58.152.110.216
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '香港4|@ripaojiedian #1'
@@ -106,3 +92,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf
+  name: '🇭🇰 香港6|@ripaojiedian #1'
+  password: asd123456
+  port: 8388
+  server: 103.149.183.80
+  type: ss
