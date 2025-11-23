@@ -21,6 +21,8 @@ locations = ["- name: 🇯🇵 日本",
              "- name: 🇨🇳 中国",
              "- name: 🇷🇺 俄罗斯",]
 
+rule_unchanged = True
+
 for location in locations:
     found_location=False
     # print(location)
@@ -37,6 +39,12 @@ for location in locations:
             content_lines[i] = line.replace("select","url-test")
             print(content_lines[i])
             continue
+        if line.strip() == "rules:" and rule_unchanged:
+            print("yes")
+            content_lines.insert(i + 1, "- DOMAIN-KEYWORD,iclass30,DIRECT\n")
+            rule_unchanged = False
+        # else:
+        #     continue
 
 config_file_meta_autochoose.writelines(content_lines)
 
