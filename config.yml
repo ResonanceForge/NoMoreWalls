@@ -172,6 +172,9 @@ proxy-groups:
     proxies: []
 
 rules:
+  - DOMAIN-SUFFIX,mirrors.tuna.tsinghua.edu.cn,DIRECT
+  - DOMAIN-SUFFIX,xkw.com,DIRECT
+  - DOMAIN-SUFFIX,zxxk.com,DIRECT
   # 应急响应：BootCDN/Staticfile 被投毒！
   - DOMAIN,cdn.bootcss.com,🚨 病毒网站
   - DOMAIN,cdn.bootcdn.net,🚨 病毒网站
