@@ -1,4 +1,5 @@
 proxies:
+<<<<<<< HEAD
 - name: 🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -41,6 +42,163 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
+=======
+- name: HK20｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: HK2｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: HK3｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: HK4｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: HK24｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: 219.76.135.98
+  type: trojan
+- name: HK10｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: HK11｜原生/疑似家宽｜非常安全
+  password: 5f4142b3-b20f-43f1-bc09-41c0e00662f9
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK12｜原生/疑似家宽｜非常安全
+  password: 14f7a5c0-e8ae-40a7-884c-41555730e3b6
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK13｜原生/疑似家宽｜非常安全
+  password: 4a14fe06-1b03-4d93-a360-1e33ae972896
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK14｜原生/疑似家宽｜非常安全
+  password: 80429ec5-265a-4a99-b0bb-ddc9e75411c0
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK16｜原生/疑似家宽｜非常安全
+  password: 21f085a7-ace6-495e-b550-281c8bfde899
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK17｜原生/疑似家宽｜非常安全
+  password: 19fcde52-c498-4863-8fb1-5923c75dec39
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK18｜原生/疑似家宽｜非常安全
+  password: 397b6abf-c044-4fa7-9b70-269d9ada828d
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: HK32｜家宽｜非常安全
+  network: ws
+  port: '80'
+  server: 3f637c17-t94cg0-tcuz7t-1ta58.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: HK33｜机房｜低风险
+  network: tcp
+  port: '30809'
+  server: v9.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 HK
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  tls: false
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港|@ripaojiedian
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3373
+  server: 18.179.142.141
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1820
+  server: 13.112.171.80
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 2
+  cipher: auto
+>>>>>>> upstream/master
   name: 香港|@ripaojiedian
   network: tcp
   port: '30807'

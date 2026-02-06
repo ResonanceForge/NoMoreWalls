@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-# import re
+import re
 # import datetime
 # import requests
 # import threading
 from typing import Callable, List, Union, Iterable
-# from fetch import raw2fastly, session, LOCAL
+from fetch import raw2fastly, session, LOCAL
 
 
 # def kkzui():
@@ -72,8 +72,21 @@ from typing import Callable, List, Union, Iterable
 #                 subs.add(sub)
 #     return subs
 
+def fakeyou():
+    DOMAIN = "https://fakeyou.top"
+    res = session.get(DOMAIN)
+    res.raise_for_status()
+    url = re.search(r'<a href="(/post/\d+/)"', res.text)
+    if not url: return
+    res = session.get(DOMAIN+url.group(1))
+    lines = res.text.splitlines()
+    for line in lines:
+        line = line.strip()
+        if line.startswith("https://image.fakeyou.top/"):
+            return line.split('<')[0]+"#ignore=ss,vless"
+
 AUTOFUNTYPE = Callable[[], Union[str, Iterable[str], None]]
-AUTOURLS: List[AUTOFUNTYPE] = []
+AUTOURLS: List[AUTOFUNTYPE] = [fakeyou]
 AUTOFETCH: List[AUTOFUNTYPE] = []
 
 if __name__ == '__main__':

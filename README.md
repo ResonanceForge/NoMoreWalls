@@ -4,12 +4,6 @@
 
 自动抓取合并互联网上的公开节点。
 
-## 一些题外话：国家危难的时刻已经到来
-
-- **[什么才是真正的性别平等？](https://www.bilibili.com/video/BV16Mtnz1Exo/)我们要真正的平权而不是所谓的“女权”！“公平”不应成为特权的借口！**
-- **[NGO 的影子借“公益”之名渗透名校！](https://www.bilibili.com/video/BV15JtnzMExo/)防范身边的境外势力渗透！**
-- **[油罐车事件是最好的照妖镜，上赶着带节奏都是谁请大家记下来。](https://www.bilibili.com/video/BV1p1421b7Ki)私有化愈发严重影响的是所有中国人的切身利益，必须用公有平衡私有我们才有发展的前途。**
-
 ## 公告
 
 **我们拒绝为任何“女权组织”提供任何服务！我们拒绝为任何企图分裂国家的 NGO 组织提供任何服务！**
@@ -18,9 +12,7 @@
 
 此项目包含“反 996 许可证”，请各位使用者**不要违法违规要求别人加班，自觉遵守《中华人民共和国劳动法》及其它法律法规**！
 
-**本项目提供的 Clash 订阅包含我们精心设计的分流规则，Google Play 软件秒下，自动识别被墙域名，只需将 `🐟 漏网之鱼` 维持在 `DIRECT` 即可！**
-
-由于江苏电信、移动经常屏蔽未备案域名，本项目能自动识别屏蔽并分流，如果你仍然遇到跳转反诈中心，请将 `❓ 疑似国内` 切换为 `🚀 选择代理`。
+**本项目提供的 Clash 订阅包含我们精心设计的分流规则，Google Play 软件秒下 (限国行机)，自动识别被墙域名，只需将 `🐟 漏网之鱼` 维持在 `DIRECT` 即可！**
 
 由于 [BootCDN/Staticfile 已被病毒公司收购](https://www.52pojie.cn/thread-1944970-1-1.html)，我们拦截了这些网站。
 
@@ -30,15 +22,14 @@
 
 另有**理论上永不被墙的** jsDelivr 镜像，**强烈建议**收藏：<https://www.jsdelivr.com/package/gh/peasoft/NoMoreWalls>
 
-我们新增了 `snippets` 文件夹来存放从 `list.meta.yml` 中拆分出的配置片段，用于将本项目提供的一些配置整合到你自己的配置中。
+我们新增了 [`snippets` 目录](./snippets/) 来存放从 `list.meta.yml` 中拆分出的配置片段，用于将本项目提供的一些配置整合到你自己的配置中。此目录中还有本项目的独立规则集覆写文件。
 
 ### 为什么 *不要* 使用付费节点？
 
 1. 付费节点存在付完费厂商立即跑路的**诈骗风险**，且一旦被骗钱款**无法追回**！
 2. 付费节点需要注册账号并付费，厂商可以借此收集你的**个人信息**然后倒卖！付费节点管理程序可能**存在漏洞**，由 ZF 支持的黑客也可能把你的个人信息提交给 ZF。
-3. 付费节点数量少，一旦封禁死亡率就是 100%。与其花**几倍的钱**购买多个机场备用，不如使用本项目收集的**全网各处**公开的节点，总数是付费订阅的 10 倍，**总有不少节点存活**！
-4. 现在免费节点的质量并不差，Hysteria 节点**秒开 4K 不是梦**！![秒开 4K](https://github.com/user-attachments/assets/ea73db01-e7bf-4e31-a06f-13c91e9ee87c)
 
+推荐阅读 [DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro)。
 
 ## 使用方法
 
@@ -64,8 +55,8 @@
 - [JsDelivr Cloudflare CDN](https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml)
 - [JsDelivr GCore CDN](https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.meta.yml)
 
-或添加 Sing-Box 订阅：（第三方提供转换，不支持本项目的节点选择和分流规则，该链接本身需要过代理。建议在本地搭建转换服务。）
-- [转换链接（第三方）](https://subapi.fxxk.dedyn.io/sub?target=singbox&url=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Fsnippets%2Fnodes.meta.yml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&tls13=true&emoji=true&list=false&xudp=true&udp=true&tfo=false&expand=true&scv=false&fdn=false&singbox.ipv6=1)
+或添加 Sing-Box 订阅：（第三方提供转换，不支持本项目的节点选择和分流规则。建议在本地搭建转换服务。）
+- [转换链接（第三方）](https://subwork.top/singbox?config=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Fsnippets%2Fnodes.meta.yml&ua=&selectedRules=%5B%22Location%3ACN%22%2C%22Private%22%2C%22Non-China%22%2C%22Github%22%2C%22Google%22%2C%22Youtube%22%2C%22AI+Services%22%2C%22Telegram%22%5D&customRules=%5B%5D&enable_clash_ui=true)
 
 ## 免责声明
 
@@ -103,6 +94,10 @@
 如果本地仓库长期未更新，请删除仓库并重新克隆来同步最新更改，不要使用 `git pull`。
 
 ## 一些题外话
+
+- **什么才是真正的性别平等？（原视频已失效）我们要真正的平权而不是所谓的“女权”！“公平”不应成为特权的借口！**
+- **[NGO 的影子借“公益”之名渗透名校！](https://www.bilibili.com/video/BV15JtnzMExo/)防范身边的境外势力渗透！**
+- **[油罐车事件是最好的照妖镜，上赶着带节奏都是谁请大家记下来。](https://www.bilibili.com/video/BV1p1421b7Ki)私有化愈发严重影响的是所有中国人的切身利益，必须用公有平衡私有我们才有发展的前途。**
 
 <!-- **上方事件的严重性已经远超下面的事情了！！！** -->
 

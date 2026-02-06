@@ -1,6 +1,115 @@
 proxies:
+<<<<<<< HEAD
 - name: 美国|@ripaojiedian
   network: tcp
+=======
+- name: US4｜机房｜低风险
+  network: ws
+  password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
+  port: 2087
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17698512162997.682637.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698512164336.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: US5｜机房｜低风险
+  network: ws
+  password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
+  port: 2083
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17698512161222.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698512161457.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: US16｜机房｜低风险
+  password: c22516d4-a4a2-4c62-917f-b73437d5827c
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US9｜机房｜低风险
+  password: c30d5cba-aa70-4588-86b5-4cc897839ab8
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US10｜家宽｜非常安全
+  password: 3692ef88-4d16-4848-a01b-b646f9448b11
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: US12｜机房｜低风险
+  password: 41a4f30b-10d2-43e1-8e7f-0605eb63b064
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US13｜机房｜低风险
+  password: ad8c3eed-70b9-4a22-94ca-b16e888290da
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US18｜机房｜低风险
+  network: ws
+  port: '2086'
+  server: 154.83.2.156
+  tls: false
+  type: vmess
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
+- name: US15｜机房｜低风险
+  password: 572685d1-c0d9-47e6-9764-05b7ada3745f
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US17｜机房｜低风险
+  password: 1face1ff-4075-4e3c-823d-dafd3430140b
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: US20｜机房｜低风险
+  network: tcp
+  port: '30824'
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: US21｜机房｜低风险
+  network: tcp
+  port: '30808'
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 美国|@ripaojiedian
+  network: tcp
+>>>>>>> upstream/master
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 1276
   server: 160.16.231.103

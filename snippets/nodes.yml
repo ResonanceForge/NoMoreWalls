@@ -89,8 +89,325 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- name: JP21｜机房｜低风险
+  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+  port: 25010
+  server: 37.202.200.19
+  skip-cert-verify: true
+  sni: 37.202.200.19
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: CN4｜家宽｜非常安全
+  network: tcp
+  port: '59003'
+  server: 183.236.51.36
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: HK20｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+<<<<<<< HEAD
+  server: 63.180.254.10
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港|@ripaojiedian
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+=======
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: HK2｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: HK3｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: HK4｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: IN1｜家宽｜非常安全
+  network: tcp
+  port: '9000'
+  server: id2.wpairplane.com
+  tls: false
+  type: vmess
+  uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
+- name: HK24｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: 219.76.135.98
+  type: trojan
+- name: HK10｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: US4｜机房｜低风险
+  network: ws
+  password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
+  port: 2087
+  server: bestcdn0.868863.xyz
+  skip-cert-verify: true
+  sni: 17698512162997.682637.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698512164336.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: US5｜机房｜低风险
+  network: ws
+  password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
+  port: 2083
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17698512161222.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698512161457.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: HK11｜原生/疑似家宽｜非常安全
+  password: 5f4142b3-b20f-43f1-bc09-41c0e00662f9
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK12｜原生/疑似家宽｜非常安全
+  password: 14f7a5c0-e8ae-40a7-884c-41555730e3b6
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK13｜原生/疑似家宽｜非常安全
+  password: 4a14fe06-1b03-4d93-a360-1e33ae972896
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK14｜原生/疑似家宽｜非常安全
+  password: 80429ec5-265a-4a99-b0bb-ddc9e75411c0
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK16｜原生/疑似家宽｜非常安全
+  password: 21f085a7-ace6-495e-b550-281c8bfde899
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK17｜原生/疑似家宽｜非常安全
+  password: 19fcde52-c498-4863-8fb1-5923c75dec39
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK18｜原生/疑似家宽｜非常安全
+  password: 397b6abf-c044-4fa7-9b70-269d9ada828d
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: US16｜机房｜低风险
+  password: c22516d4-a4a2-4c62-917f-b73437d5827c
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US9｜机房｜低风险
+  password: c30d5cba-aa70-4588-86b5-4cc897839ab8
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US10｜家宽｜非常安全
+  password: 3692ef88-4d16-4848-a01b-b646f9448b11
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: US12｜机房｜低风险
+  password: 41a4f30b-10d2-43e1-8e7f-0605eb63b064
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US13｜机房｜低风险
+  password: ad8c3eed-70b9-4a22-94ca-b16e888290da
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US18｜机房｜低风险
+  network: ws
+  port: '2086'
+  server: 154.83.2.156
+  tls: false
+  type: vmess
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: VN1｜商宽｜非常安全
+  network: tcp
+  port: '43528'
+  server: faq1.lieerr222.cn
+  tls: false
+  type: vmess
+  uuid: 38cba758-a831-4869-a4b5-e1410a798c16
+- name: DE24｜机房｜低风险
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro010.instconn.com
+  skip-cert-verify: true
+  sni: frankfurtrm2.686911.xyz
+  type: trojan
+- name: CA1｜机房｜低风险
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro006.instconn.com
+  skip-cert-verify: true
+  sni: torontorm1.686911.xyz
+  type: trojan
+- name: US15｜机房｜低风险
+  password: 572685d1-c0d9-47e6-9764-05b7ada3745f
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- name: US17｜机房｜低风险
+  password: 1face1ff-4075-4e3c-823d-dafd3430140b
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  sni: xiaozhu1.kkieo555.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: VN2｜商宽｜非常安全
+  network: tcp
+  port: '43528'
+  server: faq1.lieerr222.cn
+  tls: false
+  type: vmess
+  uuid: e404a24f-cb43-4cec-abf1-7b7783ce8316
+- alterId: 0
+  cipher: auto
+  name: SG1｜机房｜低风险
+  network: tcp
+  port: '8080'
+  server: 47.236.78.132
+  tls: false
+  type: vmess
+  uuid: 542f6e13-9542-470c-974a-d31c0a05a37d
+- name: DE27｜机房｜低风险
+  network: ws
+  password: f7cecc70-524e-4bea-af14-d7367fdb4080
+  port: 8443
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17698511625136.206353.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698511625590.206353.xyz
+    path: '%2Fagrbniuh'
+- alterId: 2
+  cipher: auto
+  name: US20｜机房｜低风险
+  network: tcp
+  port: '30824'
+  server: v24.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: FR6｜机房｜低风险
+  network: tcp
+  port: '30835'
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: HK32｜家宽｜非常安全
+  network: ws
+  port: '80'
+  server: 3f637c17-t94cg0-tcuz7t-1ta58.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: HK33｜机房｜低风险
+  network: tcp
+  port: '30809'
+  server: v9.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: US21｜机房｜低风险
+  network: tcp
+  port: '30808'
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: tg频道:@ripaojiedian
+  name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -104,6 +421,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+>>>>>>> upstream/master
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
@@ -201,7 +519,11 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
+<<<<<<< HEAD
   name: 🇰🇷 韩国|@ripaojiedian
+=======
+  name: 韩国|@ripaojiedian
+>>>>>>> upstream/master
   password: qwerREWQ@@
   port: 25879
   server: 168.126.234.233

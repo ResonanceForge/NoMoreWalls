@@ -3,6 +3,7 @@ NoMoreWalls:
     ⛔ 广告拦截: adblock
     🚀 选择代理: proxy
     🌐 突破锁区: region
+    🚨 病毒网站: malware
     DIRECT: direct
   categories:
     redir: [Relay, 中转, OVERALL]
@@ -185,6 +186,7 @@ rules:
   - DOMAIN,search.kiwibrowser.org,🚨 病毒网站
   - DOMAIN-SUFFIX,kiwibrowser.org,⛔ 广告拦截
   - DOMAIN-KEYWORD,kiwisearchservices,🚨 病毒网站 # See https://github.com/Tobi823/ffupdater/issues/35
+  - DOMAIN-SUFFIX,xunlei.com,🚨 病毒网站
   # Adblock 补刀 (主程序解析白名单时会把要屏蔽的一起加白了)
   - DOMAIN,img-c.heytapimage.com,⛔ 广告拦截
   - DOMAIN,adsbdfs.heytapimage.com,⛔ 广告拦截
@@ -237,7 +239,7 @@ rules:
   
   # - DOMAIN-SUFFIX,googleapis.cn,DIRECT
   - DOMAIN,dl.google.com,❓ 疑似国内
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器，多数可直连，连不上 Google Play 会自动更换
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器，可直连，但只有国行机才能选到国内？
   - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，似乎没啥卵用？
   - DOMAIN-SUFFIX,gvt1-cn.com,DIRECT
   - DOMAIN,redirector.gvt1.com,DIRECT # 会解析到你使用的运营商
