@@ -104,15 +104,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: US_b1c3f_0082
+  name: NL44｜机房｜低风险
   network: ws
-  port: 2053
+  port: '2053'
   server: nextmi.hajmyab.ir
   servername: yakxvtfbyk.hajmyab.ir
-  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
   uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
   ws-opts:
     headers:
@@ -958,77 +956,18 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: CN_b1c3f_0007
-  port: 25210
-  server: ncgddx.gdsxrk.com
+  name: CN_936a1_0007
+  network: ws
+  port: 16626
+  server: 103.181.165.104
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 623787ef-7786-4572-abf5-0180892558aa
-- name: FR_b1c3f_0021
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 135.125.232.253
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
+  uuid: 23f4d251-d346-43f8-a59f-5ea41c454a0b
   ws-opts:
     headers:
-      Host: nodes.830901.xyz
-    path: /?ed=2560
-- name: HK_b1c3f_0030
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: HK_b1c3f_0031
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: HK_b1c3f_0034
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: SC_b1c3f_0073
-  network: ws
-  port: 2086
-  server: 154.83.2.156
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-  ws-opts:
-    headers:
-      Host: v205.19740822.xyz
-    path: /
-- name: US_b1c3f_0079
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
+      Host: a2c9b05f120d7e6a27ed8a027731604d.mobgslb.tbcache.com
     path: /
 - name: DE_speednode_0014
   password: telegram-id-directvpn
@@ -1060,4 +999,152 @@ proxies:
   skip-cert-verify: true
   sni: qfdfsg.wsone.icu
   type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: KR_936a1_0023
+  network: http
+  port: 52838
+  server: 49.128.219.75
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 77bc10e1-65b0-443c-8a6d-e0a08506e056
+- cipher: aes-256-cfb
+  name: MK_936a1_0024
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.185.37
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0059
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.85
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0060
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.204
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0061
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.213
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0062
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.81
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0063
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0064
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.194
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0065
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.249
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0066
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.28
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0067
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.57
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0068
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.226
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0069
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.211
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0070
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.114
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0071
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.181
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0072
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.56
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0073
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.74
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0074
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.44
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0075
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.226
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0076
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.27
+  type: ss
   udp: true

@@ -104,15 +104,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: US_b1c3f_0082
+  name: NL44｜机房｜低风险
   network: ws
-  port: 2053
+  port: '2053'
   server: nextmi.hajmyab.ir
   servername: yakxvtfbyk.hajmyab.ir
-  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
   uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
   ws-opts:
     headers:
@@ -1355,1093 +1353,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: AE_b1c3f_0001
-  network: ws
-  port: 2053
-  server: 217.60.36.183
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: AE_b1c3f_0002
-  network: ws
-  port: 2053
-  server: 217.60.37.196
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: AT_b1c3f_0003
-  network: ws
-  port: 8443
-  server: 152.53.131.209
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: AT_b1c3f_0004
-  port: 4443
-  reality-opts:
-    public-key: DLqBw8458S7vERpm_w4NMGz1kNp7b7uIjwCgStZERyo
-  server: austria.pryanik.net.ru
-  servername: sun6-21.userapi.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57df620f-96b1-4f2b-a6ff-043ce11b6995
-- name: BG_b1c3f_0005
-  network: ws
-  port: 443
-  server: 83.143.113.26
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: CH_b1c3f_0006
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '6ba85179e30d4fc2'
-  server: 138.124.79.9
-  servername: sun6-21.userapi.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
-- alterId: 0
-  cipher: auto
-  name: CN_b1c3f_0007
-  port: 25210
-  server: ncgddx.gdsxrk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 623787ef-7786-4572-abf5-0180892558aa
-- name: DE_b1c3f_0008
-  network: ws
-  port: 443
-  server: 194.9.6.3
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: DE_b1c3f_0009
-  network: ws
-  port: 443
-  server: 45.153.230.220
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: DE_b1c3f_0010
-  network: ws
-  port: 2096
-  server: 5.10.214.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560
-- name: DE_b1c3f_0011
-  network: ws
-  port: 443
-  server: 195.245.239.195
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: DE_b1c3f_0012
-  network: ws
-  port: 2053
-  server: 45.144.233.205
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: DE_b1c3f_0013
-  network: ws
-  port: 443
-  server: 93.185.156.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: DE_b1c3f_0014
-  network: ws
-  port: 8443
-  server: 5.39.249.10
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: DE_b1c3f_0015
-  network: ws
-  port: 443
-  server: 92.246.136.62
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: FI_b1c3f_0016
-  port: 8443
-  reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: '58c512b4422e2517'
-  server: 78.153.139.68
-  servername: images.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-- name: FR_b1c3f_0017
-  network: ws
-  port: 8443
-  server: 188.130.207.158
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: FR_b1c3f_0018
-  network: ws
-  port: 8443
-  server: 46.8.224.150
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: FR_b1c3f_0019
-  port: 3032
-  reality-opts:
-    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
-  server: fr.locations-service.com
-  servername: refersion.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e59083aa-d933-4952-8cf0-eec74f718705
-- name: FR_b1c3f_0020
-  network: ws
-  port: 8443
-  server: 95.182.98.38
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: FR_b1c3f_0021
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 135.125.232.253
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: /?ed=2560
-- name: GB_b1c3f_0022
-  network: ws
-  port: 2096
-  server: 25.129.199.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560
-- name: GB_b1c3f_0023
-  network: ws
-  port: 443
-  server: 91.84.103.205
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: GB_b1c3f_0024
-  network: ws
-  port: 443
-  server: 91.84.103.232
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: GB_b1c3f_0025
-  network: ws
-  port: 8443
-  server: 185.170.153.186
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: GB_b1c3f_0026
-  network: ws
-  port: 8443
-  server: 82.117.245.9
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: GB_b1c3f_0027
-  network: ws
-  port: 8443
-  server: 91.84.111.44
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: GB_b1c3f_0028
-  network: ws
-  port: 443
-  server: 185.170.153.53
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: GR_b1c3f_0029
-  port: 443
-  reality-opts:
-    public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
-    short-id: 'b5e0cd9ca194c0a5'
-  server: 185.234.57.207
-  servername: teamdocs.su
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
-- name: HK_b1c3f_0030
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: HK_b1c3f_0031
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: HK_b1c3f_0032
-  port: 443
-  reality-opts:
-    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
-  server: 2.hk.2.cdn-bilibili.cn
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: HK_b1c3f_0033
-  port: 443
-  reality-opts:
-    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
-  server: 2.hk.1.cdn-bilibili.cn
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-- name: HK_b1c3f_0034
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: IL_b1c3f_0035
-  port: 443
-  reality-opts:
-    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-    short-id: '55e6af1a35e64a98'
-  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-  servername: i2pd.website
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-- flow: xtls-rprx-vision
-  name: IQ_b1c3f_0036
-  port: 4443
-  reality-opts:
-    public-key: DLqBw8458S7vERpm_w4NMGz1kNp7b7uIjwCgStZERyo
-  server: fin.pryanik.net.ru
-  servername: sun6-21.userapi.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c580e6f8-96d5-4b81-a958-d309cda653ff
-- name: IR_b1c3f_0037
-  network: ws
-  port: 8082
-  server: 62.60.156.158
-  servername: ennyfe.zipgd3vx91o.ddns-ip.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ennyfe.zipgd3vx91o.ddns-ip.net
-    path: /@Marisa_kristi
-- name: KR_b1c3f_0038
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- name: LV_b1c3f_0039
-  network: ws
-  port: 443
-  server: 185.242.106.215
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: LV_b1c3f_0040
-  network: ws
-  port: 443
-  server: 195.135.252.139
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: ME_b1c3f_0041
-  network: ws
-  port: 443
-  server: 92.42.96.223
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: NL_b1c3f_0042
-  network: ws
-  port: 8443
-  server: 176.222.55.24
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: NL_b1c3f_0043
-  network: ws
-  port: 2053
-  server: 88.210.6.236
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: NL_b1c3f_0044
-  port: 443
-  reality-opts:
-    public-key: AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw
-    short-id: '92dca6'
-  server: nl1.miyazono-kaori.com
-  servername: www.philips.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
-- name: NL_b1c3f_0045
-  network: ws
-  port: 2053
-  server: 103.90.75.41
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: NL_b1c3f_0046
-  network: ws
-  port: 2053
-  server: 51.158.146.213
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: NL_b1c3f_0047
-  network: ws
-  port: 2053
-  server: 212.34.155.195
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: NL_b1c3f_0048
-  network: ws
-  port: 8443
-  server: 185.193.158.71
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: NL_b1c3f_0049
-  network: ws
-  port: 443
-  server: 89.169.13.12
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: NL_b1c3f_0050
-  network: ws
-  port: 2053
-  server: 147.45.43.58
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: NL_b1c3f_0051
-  network: ws
-  port: 8443
-  server: 85.192.60.51
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: NL_b1c3f_0052
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '86e999a2cdc2'
-  server: nl01-gmn02-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
-- flow: xtls-rprx-vision
-  name: NL_b1c3f_0053
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '8453e5fd9af927'
-  server: nl02-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
-- flow: xtls-rprx-vision
-  name: NL_b1c3f_0054
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '8453e5fd9af927'
-  server: 94.228.215.12
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
-- name: NL_b1c3f_0055
-  network: ws
-  port: 443
-  server: 81.85.72.197
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: NL_b1c3f_0056
-  network: ws
-  port: 443
-  server: 89.169.13.207
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: NL_b1c3f_0057
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '8453e5fd9af927'
-  server: 94.228.215.13
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
-- name: PL_b1c3f_0058
-  network: ws
-  port: 8443
-  server: 81.200.154.2
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: RO_b1c3f_0059
-  network: ws
-  port: 443
-  server: 5.253.188.151
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: RO_b1c3f_0060
-  network: ws
-  port: 443
-  server: 5.253.188.238
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: RO_b1c3f_0061
-  network: ws
-  port: 2053
-  server: 188.241.241.123
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: RU_b1c3f_0062
-  port: 443
-  reality-opts:
-    public-key: --Hfd0J48lUn9F6lHE3NJn8M-MdjeWTQDWMtJshhYAk
-    short-id: 'deadbeefcafebabe'
-  server: 185.241.195.45
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 46254027-2890-4224-9c7b-4bfede00175b
-- flow: xtls-rprx-vision
-  name: RU_b1c3f_0063
-  port: 5443
-  reality-opts:
-    public-key: fN0jSTqScsS-N3lRjtdgMoKsm3y2IJB9-z84Ewg_p2M
-    short-id: '7c41e6ab7c162a95'
-  server: 185.247.185.6
-  servername: sun6-22.userapi.com:443
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd0aba07-3b28-48a2-8cbb-49be72420089
-- flow: xtls-rprx-vision
-  name: RU_b1c3f_0064
-  port: 8443
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: '1929ef620e9b34f5'
-  server: 158.160.221.132
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4603e54d-b023-4947-83e7-70025416f306
-- flow: xtls-rprx-vision
-  name: RU_b1c3f_0065
-  port: 443
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: 'f4b4a6365558ea2e'
-  server: 89.169.128.105
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00c01f55-e31a-41cd-872b-938cda90afc3
-- name: RU_b1c3f_0066
-  network: ws
-  port: 80
-  server: nl-90w-c.southnetworks.cloud
-  servername: nl-90w-c.southnetworks.cloud
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e08f1ad7-0c60-446d-baec-08b3b69bb3d0
-  ws-opts:
-    headers:
-      Host: nl-90w-c.southnetworks.cloud
-    path: /getWorkerUpdates
-- flow: xtls-rprx-vision
-  name: RU_b1c3f_0067
-  port: 10443
-  reality-opts:
-    public-key: 4jkTVxhDBqn2B-jBylY8zUEQg2VbDtmmYX2nz2kdgz8
-    short-id: 'e6b3a1d7f02c9e54'
-  server: api-c1.wiki-mobile-two.com
-  servername: pimg.mycdn.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8da176f-e24e-4af1-a386-53a6a5396248
-- flow: xtls-rprx-vision
-  name: RU_b1c3f_0068
-  port: 443
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: nld14.freednet.org
-  servername: www.cybo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
-- name: RU_b1c3f_0069
-  network: ws
-  port: 2053
-  server: 85.234.107.140
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: RU_b1c3f_0070
-  network: ws
-  port: 443
-  server: 95.182.115.127
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: RU_speednode_0034
-  port: 443
-  reality-opts:
-    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
-    short-id: '8a6605e7'
-  server: 45.139.26.213
-  servername: www.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
-- flow: xtls-rprx-vision
-  name: RU_b1c3f_0072
-  port: 843
-  reality-opts:
-    public-key: mtBArpboH_OF7Z_tsIAmNlYTK5h0fjxVsZKz91KE03s
-    short-id: '96962fed'
-  server: 194.55.235.208
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32465a00-e9c1-4b2c-a57f-42f9ccaf64eb
-- alterId: 0
-  cipher: auto
-  name: SC_b1c3f_0073
-  network: ws
-  port: 2086
-  server: 154.83.2.156
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-  ws-opts:
-    headers:
-      Host: v205.19740822.xyz
-    path: /
-- name: US_b1c3f_0074
-  network: ws
-  port: 2096
-  server: 14.102.228.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560
-- name: US_b1c3f_0075
-  network: ws
-  port: 8443
-  server: 143.20.213.128
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: US_b1c3f_0076
-  network: ws
-  port: 8443
-  server: 143.20.236.203
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: US_b1c3f_0077
-  network: ws
-  port: 8443
-  server: 143.20.213.235
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: US_b1c3f_0078
-  network: ws
-  port: 443
-  server: 147.75.237.72
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: US_b1c3f_0079
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /
-- name: US_b1c3f_0080
-  network: ws
-  port: 443
-  server: 185.218.137.83
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: US_b1c3f_0081
-  network: ws
-  port: 2053
-  server: 199.119.137.95
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560
-- name: VN_b1c3f_0083
-  network: ws
-  port: 58202
-  server: 103.245.237.124
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cca053d5-7123-4a87-83d6-babe4e9c8115
 - name: AU_speednode_0001
   port: 443
   reality-opts:
@@ -2461,6 +1372,21 @@ proxies:
   type: http
   udp: true
   username: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: CN_936a1_0007
+  network: ws
+  port: 16626
+  server: 103.181.165.104
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23f4d251-d346-43f8-a59f-5ea41c454a0b
+  ws-opts:
+    headers:
+      Host: a2c9b05f120d7e6a27ed8a027731604d.mobgslb.tbcache.com
+    path: /
 - name: CN_speednode_0008
   password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
   port: 3233
@@ -2576,6 +1502,28 @@ proxies:
     headers:
       Host: blog.zanborak-shop.ir
     path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: KR_936a1_0023
+  network: http
+  port: 52838
+  server: 49.128.219.75
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 77bc10e1-65b0-443c-8a6d-e0a08506e056
+- cipher: aes-256-cfb
+  name: MK_936a1_0024
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.185.37
+  type: ss
+  udp: true
 - flow: xtls-rprx-vision
   name: NL_speednode_0025
   port: 443
@@ -2692,6 +1640,19 @@ proxies:
   type: vless
   udp: true
   uuid: c9246b70-3eca-4825-84b0-16c32e3124a7
+- flow: xtls-rprx-vision
+  name: RU_speednode_0034
+  port: 443
+  reality-opts:
+    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
+    short-id: '8a6605e7'
+  server: 45.139.26.213
+  servername: www.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
 - name: SE_speednode_0035
   network: ws
   port: 443
@@ -2953,3 +1914,129 @@ proxies:
   type: http
   udp: true
   username: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+- cipher: aes-256-cfb
+  name: VN_936a1_0059
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.85
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0060
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.204
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0061
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.213
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0062
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.81
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0063
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0064
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.194
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0065
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.249
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0066
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.28
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0067
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.57
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0068
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.226
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0069
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.211
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0070
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.114
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0071
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.181
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0072
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.56
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0073
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.74
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0074
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.44
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0075
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.226
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_936a1_0076
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.27
+  type: ss
+  udp: true
