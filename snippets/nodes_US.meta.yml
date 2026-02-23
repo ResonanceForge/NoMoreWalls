@@ -322,28 +322,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_3aef0_0021
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 8349696c-tb0v40-tcfva5-duku.sjc.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: US_speednode_0016
-  network: ws
-  port: 80
-  server: 104.20.1.252
-  servername: bright-organizationauhuddhesz.sportland.company.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7d4a519b-d270-434e-a42d-d39624577a92
-  ws-opts:
-    headers:
-      Host: bright-organizationauhuddhesz.sportland.company.
-    path: /
 - name: US_speednode_0015
   network: ws
   port: 80
@@ -357,4 +335,18 @@ proxies:
   ws-opts:
     headers:
       Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+    path: /
+- name: US_speednode_0016
+  network: ws
+  port: 80
+  server: 104.20.1.252
+  servername: bright-organizationauhuddhesz.sportland.company.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7d4a519b-d270-434e-a42d-d39624577a92
+  ws-opts:
+    headers:
+      Host: bright-organizationauhuddhesz.sportland.company.
     path: /
