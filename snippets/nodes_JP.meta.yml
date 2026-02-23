@@ -40,7 +40,7 @@ proxies:
   type: trojan
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: JP_speednode_0004
+  name: JP_2a02a_0004
   port: 48816
   reality-opts:
     public-key: fk4uHkIWXJ5MbcsFASbAhKlC5gV9m-XovXftmIDSuxo
@@ -52,3 +52,16 @@ proxies:
   type: vless
   udp: true
   uuid: 570d1a03-6acf-40ca-819e-1049906235d9
+- client-fingerprint: chrome
+  name: JP_speednode_0014
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32b8f0e7-4b87-4291-88ab-742b9aa883e9
