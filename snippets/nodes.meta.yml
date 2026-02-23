@@ -199,12 +199,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: KR_2a02a_0005
+- name: KR3｜家宽｜高风险 (黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
-  udp: true
   username: Og%3D%3D
 - name: HK21｜原生/疑似家宽｜非常安全
   network: tcp
@@ -1214,162 +1213,24 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- flow: xtls-rprx-vision
-  name: DE_2a02a_0001
-  port: 443
-  reality-opts:
-    public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-    short-id: '4daa022e84f8edf2'
-  server: de.cdn.stun.su
-  servername: de.cdn.stun.su
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    method: GET
+    path:
+    - /
+  name: BG_3aef0_0001
+  network: http
+  port: 2086
+  server: 87.120.219.124
   skip-cert-verify: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: HK_2a02a_0002
-  port: 1314
-  reality-opts:
-    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-    short-id: '4b070735'
-  server: 42.2.28.64
-  servername: buylite.music.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d607a577-978c-487a-a2ad-788e4129162a
-- flow: xtls-rprx-vision
-  name: IN_2a02a_0003
-  port: 443
-  reality-opts:
-    public-key: h6jFhmMYpmiEmm4sxrBLBSxtgsdM5k5EUvrv1bKNFGU
-    short-id: '8894620bd4b91f71'
-  server: 144.24.97.225
-  servername: osxapps.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1834316d-2b59-4239-970d-c764218bcdf2
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: JP_2a02a_0004
-  port: 48816
-  reality-opts:
-    public-key: fk4uHkIWXJ5MbcsFASbAhKlC5gV9m-XovXftmIDSuxo
-    short-id: '21280d81'
-  server: 38.207.130.145
-  servername: www.python.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 570d1a03-6acf-40ca-819e-1049906235d9
-- name: RU_2a02a_0007
-  port: 8443
-  reality-opts:
-    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
-    short-id: '8bd29483ded126b4'
-  server: meow-msc.nethcloud.top
-  servername: wikihow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
-- flow: xtls-rprx-vision
-  name: RU_2a02a_0008
-  port: 8443
-  reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: '48fccabc158a4c22'
-  server: 158.160.223.36
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 11e41a32-6672-48a0-b9cb-c8694242ecff
-- flow: xtls-rprx-vision
-  name: RU_2a02a_0009
-  port: 8443
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: 'f4b4a6365558ea2e'
-  server: 89.169.128.105
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
-- flow: xtls-rprx-vision
-  name: RU_2a02a_0010
-  port: 443
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: '8f222b3475800821'
-  server: 158.160.105.121
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8accc46-c511-42fb-919b-9283799a88a1
-- flow: xtls-rprx-vision
-  name: RU_2a02a_0011
-  port: 443
-  reality-opts:
-    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
-    short-id: '8a6605e7'
-  server: 45.139.26.213
-  servername: www.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: US_2a02a_0013
-  port: 443
-  reality-opts:
-    public-key: VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU
-    short-id: 'fd26d49a'
-  server: 203.10.96.138
-  servername: cdn-dynmedia-1.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6977f74-e620-4748-a2d3-4351a588c659
-- name: US_2a02a_0014
-  port: 443
-  reality-opts:
-    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
-    short-id: 'efd29b2d25'
-  server: 64.188.64.59
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
-- flow: xtls-rprx-vision
-  name: US_2a02a_0015
-  port: 443
-  reality-opts:
-    public-key: C7H4Nh55F4B8iHaVHWY6VK562RI6p_t8H7lrX_O8SnQ
-  server: pl2.jugsenkeys4pays.su
-  servername: pl2.jugsenkeys4pays.su
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b183589d-5e32-4141-a39a-6cb747964c67
+  uuid: e6a866ca-1756-44ed-9866-a9949f2bad38
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: CH_speednode_0002
@@ -1384,7 +1245,7 @@ proxies:
   type: vless
   udp: true
   uuid: bb255691-e0f9-ec71-9876-a8b9c9e9fac0
-- name: CN_speednode_0003
+- name: CN_3aef0_0003
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 31233
   server: 46488f6d-taz0g0-tcfva5-duku.my.oshuawei.com
@@ -1392,7 +1253,7 @@ proxies:
   type: http
   udp: true
   username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: CN_speednode_0004
+- name: CN_3aef0_0004
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 31233
   server: 707a819d-tb0v40-tcfva5-duku.my.oshuawei.com
@@ -1400,7 +1261,7 @@ proxies:
   type: http
   udp: true
   username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: CN_speednode_0005
+- name: CN_3aef0_0005
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 32232
   server: 6b37cfb7-tb0v40-tcfva5-duku.id.oshuawei.com
@@ -1408,7 +1269,7 @@ proxies:
   type: http
   udp: true
   username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: CN_speednode_0006
+- name: CN_3aef0_0006
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 32232
   server: e667d23a-taz0g0-tcfva5-duku.id.oshuawei.com
@@ -1417,7 +1278,7 @@ proxies:
   udp: true
   username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
 - flow: xtls-rprx-vision
-  name: FI_speednode_0007
+  name: FI_speednode_0003
   port: 8443
   reality-opts:
     public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
@@ -1430,7 +1291,7 @@ proxies:
   udp: true
   uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
 - flow: xtls-rprx-vision
-  name: FR_speednode_0008
+  name: FR_3aef0_0008
   port: 443
   reality-opts:
     public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
@@ -1442,7 +1303,7 @@ proxies:
   udp: true
   uuid: 70b49349-9c87-497e-818c-46006e1c3ce0
 - flow: xtls-rprx-vision
-  name: GB_speednode_0009
+  name: GB_speednode_0004
   port: 443
   reality-opts:
     public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
@@ -1453,7 +1314,7 @@ proxies:
   type: vless
   udp: true
   uuid: f0b15f64-db59-438c-b1b6-f1b83db52240
-- name: GB_speednode_0010
+- name: GB_3aef0_0010
   port: 8443
   reality-opts:
     public-key: LHlFdzprRH3N8OxZK5WrGSu5vtr0_fu6iLzHAFNt9AM
@@ -1466,7 +1327,7 @@ proxies:
   udp: true
   uuid: cdeedd27-4b50-4f5b-b0c4-1967cc972f93
 - flow: xtls-rprx-vision
-  name: GR_speednode_0011
+  name: GR_speednode_0005
   port: 443
   reality-opts:
     public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
@@ -1478,7 +1339,7 @@ proxies:
   type: vless
   udp: true
   uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
-- name: GR_speednode_0012
+- name: GR_speednode_0006
   port: 443
   reality-opts:
     public-key: 2Z2meC9rRAMD3k52ne8dh8PdfRNpOs5T9yObPyFkXyQ
@@ -1490,7 +1351,7 @@ proxies:
   type: vless
   udp: true
   uuid: b824f264-8cc3-4669-9f60-47b51ed1aa11
-- name: IN_speednode_0013
+- name: IN_speednode_0007
   port: 443
   reality-opts:
     public-key: a3wxOmmJ95RHcuVYvxGusowLy8c6a4amlbS2OxMNTHc
@@ -1502,7 +1363,7 @@ proxies:
   type: vless
   udp: true
   uuid: c8f1ee8a-07bd-4f28-b542-65ef4891004d
-- name: JP_speednode_0014
+- name: JP_3aef0_0014
   port: 443
   reality-opts:
     public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
@@ -1514,7 +1375,7 @@ proxies:
   type: vless
   udp: true
   uuid: 32b8f0e7-4b87-4291-88ab-742b9aa883e9
-- name: MD_speednode_0015
+- name: MD_speednode_0009
   port: 443
   reality-opts:
     public-key: ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U
@@ -1526,7 +1387,7 @@ proxies:
   type: vless
   udp: true
   uuid: c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb
-- name: MD_speednode_0016
+- name: MD_speednode_0010
   port: 443
   reality-opts:
     public-key: ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U
@@ -1539,7 +1400,7 @@ proxies:
   udp: true
   uuid: f078abea-a480-44c7-a785-4436c767835a
 - flow: xtls-rprx-vision
-  name: RU_speednode_0017
+  name: RU_speednode_0011
   port: 443
   reality-opts:
     public-key: iobA_bK3A-Mj4IF65agM5VbKQdbI1FDtq4WaOPkRwU4
@@ -1551,7 +1412,7 @@ proxies:
   type: vless
   udp: true
   uuid: e7bf2367-a233-4d37-b7ef-2c017413febe
-- name: RU_speednode_0018
+- name: RU_speednode_0012
   port: 52042
   reality-opts:
     public-key: Z23_1wSIy1CNUEB7YEJwPZzCEsMTmzTNGe_h5bzEMHY
@@ -1563,7 +1424,7 @@ proxies:
   type: vless
   udp: true
   uuid: f557eadb-1715-4c0b-aaae-f9b9577d827d
-- name: SG_speednode_0019
+- name: SG_speednode_0013
   port: 443
   reality-opts:
     public-key: C1ZoKW-5BWP4D6hQwpF4X-5TMI2HkevyJMo-FletEQs
@@ -1575,7 +1436,7 @@ proxies:
   type: vless
   udp: true
   uuid: 95e3a7e6-ff2b-4554-b107-8ff4c58b7981
-- name: SI_speednode_0020
+- name: SI_speednode_0014
   port: 13760
   reality-opts:
     public-key: ktZ1lxOpDoIq3mk39kNAi1uK0z3qTA6f-6u2KbQmICg
@@ -1587,7 +1448,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5fad3ad2-1a94-40d0-85bb-51eb83f5c7df
-- name: US_speednode_0021
+- name: US_3aef0_0021
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 8349696c-tb0v40-tcfva5-duku.sjc.oshuawei.com
@@ -1595,7 +1456,7 @@ proxies:
   type: http
   udp: true
   username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: US_speednode_0022
+- name: US_speednode_0016
   network: ws
   port: 80
   server: 104.20.1.252
@@ -1608,4 +1469,27 @@ proxies:
   ws-opts:
     headers:
       Host: bright-organizationauhuddhesz.sportland.company.
+    path: /
+- name: KR_speednode_0008
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- name: US_speednode_0015
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  servername: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+  ws-opts:
+    headers:
+      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
     path: /
