@@ -410,34 +410,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- name: US_e3454_0015
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  servername: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
-  ws-opts:
-    headers:
-      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
-    path: /
-- name: US_e3454_0016
-  network: ws
-  port: 80
-  server: 104.20.1.252
-  servername: bright-organizationauhuddhesz.sportland.company.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7d4a519b-d270-434e-a42d-d39624577a92
-  ws-opts:
-    headers:
-      Host: bright-organizationauhuddhesz.sportland.company.
-    path: /
 - name: US_speednode_0021
   network: ws
   port: 443
@@ -452,6 +424,21 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: US_76b2a_0022
+  network: ws
+  port: 37952
+  server: 156.236.76.45
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b8304f18-9a28-427c-b1fe-d92ee1757c0b
+  ws-opts:
+    headers:
+      Host: 156.236.76.45
+    path: /arki
 - client-fingerprint: chrome
   name: US_speednode_0023
   port: 8443
