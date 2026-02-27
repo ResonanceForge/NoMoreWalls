@@ -1,13 +1,29 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: GB6｜机房｜低风险
+  name: GB4｜机房｜低风险
   network: tcp
   port: '30836'
   server: v36.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: GB6｜机房｜低风险
+  password: cac966c1-b596-48ff-ab7c-6d58f8d6ca04
+  port: 65535
+  server: 132.145.52.10
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: GB8｜机房｜低风险
+  password: cac966c1-b596-48ff-ab7c-6d58f8d6ca04
+  port: 65535
+  server: 132.145.28.17
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: 🇬🇧/@en_vpn/کانفیگ های بیشتر
   password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
   port: 65535
@@ -17,14 +33,14 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: GB_5b7e5_0006
+  name: GB_b5374_0006
   password: kaQH3hGdcP80XEDI
   port: 443
   server: 20.108.41.100
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: GB_speednode_0007
+  name: GB_speednode_0006
   port: 443
   reality-opts:
     public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
@@ -38,7 +54,7 @@ proxies:
   uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
 - alterId: 0
   cipher: auto
-  name: GB_5b7e5_0008
+  name: GB_b5374_0008
   port: 180
   server: 82.198.246.97
   skip-cert-verify: true
@@ -46,3 +62,17 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: 2HWC3TKZmYDORsrGqTTOITNFBp6ANhwgERK6lPcVbic
+    short-id: '!!str ecd1c97d'
+  server: 195.20.17.182
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
