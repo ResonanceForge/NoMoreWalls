@@ -1,4 +1,16 @@
 proxies:
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: GB26｜机房｜低风险
+  password: 08030894-57a7-49e8-83a5-0b99d7a1b820
+  port: 1443
+  server: 185.85.242.177
+  skip-cert-verify: true
+  sni: gbr1.587458.xyz
+  type: tuic
+  udp-relay-mode: native
+  uuid: 08030894-57a7-49e8-83a5-0b99d7a1b820
 - name: 🇬🇧/@en_vpn/کانفیگ های بیشتر
   password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
   port: 65535
@@ -8,14 +20,14 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: GB_a3a1b_0007
+  name: GB_9f9b7_0007
   password: 1kVr0KATIJI7mwOF
   port: 443
   server: admin.c1.havij.co
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GB_a3a1b_0008
+  name: GB_9f9b7_0008
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.194
