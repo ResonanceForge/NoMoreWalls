@@ -1,32 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_9fc70_0011
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 17f0f0e38f01af5a'
-  server: 51.250.4.119
-  servername: api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72adc5b8-146a-4bfe-921b-5c9e1df016e0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_9fc70_0012
-  port: 18122
-  reality-opts:
-    public-key: b8y-G1s0KMtKBVZR9b70nVrFvYma0FyDGV-ACq5qxyk
-    short-id: '!!str 78e225'
-  server: 84.201.171.134
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 79cd8514-aea9-41b9-b950-db5aa8937497
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: RU_speednode_0014
