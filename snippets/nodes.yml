@@ -90,17 +90,18 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: 'tg频道:@ripaojiedian #1'
+  name: tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港|@ripaojiedian
-  port: 30807
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
   server: v10.hdacd.com
-  skip-cert-verify: false
+  servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -109,7 +110,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 331
   server: 3.112.130.96
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
@@ -141,7 +141,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4937
   server: 13.230.112.99
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
@@ -149,7 +148,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 34818
   server: 18.181.193.208
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
@@ -157,7 +155,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 13.230.112.99
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
@@ -181,7 +178,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3057
   server: 18.181.193.208
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
@@ -189,7 +185,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
   server: 13.230.112.99
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
@@ -200,23 +195,55 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: CN_35346_0002
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 43076
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_35346_0003
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 34411
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_35346_0004
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 20149
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_35346_0005
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 12589
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_35346_0006
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 46197
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_35346_0007
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 25612
+  server: ldu.izenny.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: CN_ecdb7_0001
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: false
+  name: GB_35346_0011
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
