@@ -90,17 +90,18 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: 'tg频道:@ripaojiedian #1'
+  name: tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港|@ripaojiedian
-  port: 30807
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
   server: v10.hdacd.com
-  skip-cert-verify: false
+  servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -109,7 +110,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 443
   server: 58.152.18.189
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
@@ -141,7 +141,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 34818
   server: 54.250.6.236
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
@@ -149,7 +148,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4937
   server: 13.114.100.13
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
@@ -157,7 +155,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 54.250.6.236
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
@@ -165,7 +162,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4674
   server: 13.114.100.13
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
@@ -181,7 +177,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
   server: 13.114.100.13
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
@@ -189,7 +184,6 @@ proxies:
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4019
   server: 54.250.6.236
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
@@ -200,16 +194,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   name: CN_2ad15_0002
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
