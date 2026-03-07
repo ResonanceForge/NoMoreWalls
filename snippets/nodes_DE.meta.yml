@@ -35,7 +35,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: DE_speednode_0007
+- name: DE_922f4_0007
   network: ws
   port: 2016
   server: 45.145.42.211
@@ -49,7 +49,7 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: /?ed=2560
-- name: DE_speednode_0008
+- name: DE_922f4_0008
   network: ws
   port: 443
   server: 185.110.189.174
@@ -63,7 +63,7 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: /?ed=2560
-- name: DE_speednode_0009
+- name: DE_922f4_0009
   network: ws
   port: 2083
   server: 89.58.26.175
@@ -78,7 +78,7 @@ proxies:
       Host: sni.111000.dynv6.net
     path: /?ed=2560
 - client-fingerprint: random
-  name: DE_speednode_0010
+  name: DE_922f4_0010
   network: ws
   port: 1007
   server: 89.58.15.243
@@ -92,3 +92,16 @@ proxies:
     headers:
       Host: lirpeuijr.chinav.indevs.in
     path: /danfeng
+- client-fingerprint: firefox
+  name: DE_speednode_0002
+  port: 2280
+  reality-opts:
+    public-key: 3O9CVvzD_0omAKw17VJoL0NlezpzxRAHNIbOWGBto2I
+    short-id: '!!str faf804ddc2e49f6c'
+  server: 192.76.160.216
+  servername: tgju.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fa2f5cd-0cbc-4e4f-bce1-a59ae090eef4
