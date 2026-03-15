@@ -1,11 +1,12 @@
 proxies:
-- name: KR5｜家宽｜高风险 (代理/黑名单)
+- name: KR_speednode_0022
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
+  udp: true
   username: T2clM0QlM0Q6
-- name: KR_speednode_0008
+- name: KR_b8c6a_0008
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -14,7 +15,7 @@ proxies:
   type: http
   udp: true
   username: test
-- name: KR_speednode_0009
+- name: KR_b8c6a_0009
   network: ws
   port: 15284
   server: 221.146.116.77
@@ -29,7 +30,7 @@ proxies:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
-  name: KR_speednode_0010
+  name: KR_b8c6a_0010
   network: ws
   port: 10840
   server: 210.105.224.42
@@ -46,7 +47,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: KR_speednode_0011
+  name: KR_b8c6a_0011
   network: ws
   port: 50001
   server: 220.73.70.34
@@ -60,7 +61,7 @@ proxies:
     headers:
       Host: snippet.fgfw.de5.net
     path: /danfeng
-- name: KR_speednode_0012
+- name: KR_speednode_0024
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -74,7 +75,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: KR_speednode_0013
+- name: KR_b8c6a_0013
   network: ws
   port: 12125
   server: 183.97.71.221
@@ -88,7 +89,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
-- name: KR_speednode_0014
+- name: KR_speednode_0025
   network: ws
   port: 8443
   server: 59.3.3.161
@@ -102,7 +103,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: KR_speednode_0015
+- name: KR_b8c6a_0015
   network: ws
   port: 11099
   server: 220.88.3.5
@@ -116,7 +117,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: KR_speednode_0016
+- name: KR_b8c6a_0016
   network: ws
   port: 10448
   server: 220.85.201.216
@@ -130,7 +131,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: KR_speednode_0017
+- name: KR_b8c6a_0017
   network: ws
   port: 15347
   server: 61.102.250.123
@@ -144,7 +145,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: KR_speednode_0018
+- name: KR_b8c6a_0018
   network: ws
   port: 50000
   server: 211.184.116.84
@@ -159,7 +160,7 @@ proxies:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳+@WangCai2
 - client-fingerprint: chrome
-  name: KR_speednode_0019
+  name: KR_b8c6a_0019
   network: ws
   port: 50000
   server: 211.184.116.84
@@ -173,3 +174,31 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
+- name: KR_speednode_0023
+  network: ws
+  port: 10973
+  server: 119.195.168.105
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: KR_speednode_0026
+  network: ws
+  port: 22410
+  server: 211.48.77.114
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /
