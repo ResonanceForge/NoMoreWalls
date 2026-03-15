@@ -74,87 +74,6 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: US_speednode_0047
-  network: ws
-  port: 443
-  server: 68.64.179.96
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_b8c6a_0027
-  port: 443
-  reality-opts:
-    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-    short-id: '!!str feedbacc'
-  server: 144.31.2.248
-  servername: pl.fasti.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_b8c6a_0028
-  port: 443
-  reality-opts:
-    public-key: CwmIRtPbbb0VDHYxHTiDxF1xtVDG4Jr90RJZvCKQzXQ
-  server: proxy.darknet.run
-  servername: proxy.darknet.run
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 420a0e21-08c6-4e94-a965-41226b38b674
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_b8c6a_0029
-  port: 4546
-  reality-opts:
-    public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
-  server: 144.31.234.7
-  servername: enterprise.api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_b8c6a_0030
-  port: 4546
-  reality-opts:
-    public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
-  server: 144.31.234.7
-  servername: enterprise.api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b52989b9-09dc-4ca0-b722-e6fe3e8a0313
-- name: US_b8c6a_0031
-  network: ws
-  port: 443
-  server: 192.0.63.91
-  servername: snippet.fgfw.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.indevs.in
-    path: /danfeng
 - name: US_speednode_0042
   network: ws
   password: iwangjie
@@ -211,6 +130,20 @@ proxies:
   network: ws
   port: 443
   server: 68.64.179.243
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: US_speednode_0047
+  network: ws
+  port: 443
+  server: 68.64.179.96
   servername: ylnhh.cc.cd
   skip-cert-verify: false
   tls: true
