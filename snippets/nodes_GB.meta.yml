@@ -1,17 +1,24 @@
 proxies:
-- name: GB_87ff4_0004
-  password: IL37892054
-  port: 443
-  server: upright-rhino.rooster465.autos
-  skip-cert-verify: false
-  sni: upright-rhino.rooster465.autos
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: GB_87ff4_0005
+  name: GB_350f3_0018
   network: ws
   port: 16618
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
+  ws-opts:
+    headers:
+      Host: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: GB_350f3_0019
+  network: ws
+  port: 16632
   server: t.cnmjcn.cyou
   skip-cert-verify: false
   tls: false
@@ -21,4 +28,19 @@ proxies:
   ws-opts:
     headers:
       Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: GB_350f3_0020
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
     path: /

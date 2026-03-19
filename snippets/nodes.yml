@@ -106,12 +106,13 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 香港2|@ripaojiedian
+  name: CN_350f3_0008
   port: 6001
   server: cn01.365cloud8754.com
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - name: 香港3|@ripaojiedian
   network: tcp
@@ -210,11 +211,12 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 台湾|@ripaojiedian
+  name: CN_350f3_0014
   password: dd9e4541-9be2-4c3f-9c49-7dde77c3480b
   port: 38239
   server: stream-cdn-asia-06.silver-line.digital
   type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -235,20 +237,16 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- alterId: 2
-  cipher: auto
-  name: CN_87ff4_0001
-  port: 30833
-  server: v33.hdacd.com
-  servername: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- name: AU_speednode_0002
+  password: IL37892054
+  port: 443
+  server: engaged-ram.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: CN_87ff4_0002
+  name: CN_350f3_0003
   port: 30812
   server: v12.hdacd.com
   skip-cert-verify: false
@@ -258,9 +256,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: CN_87ff4_0003
+  name: CN_350f3_0005
   network: ws
-  port: 16618
+  port: 16617
   server: m.cnmjin.net
   skip-cert-verify: false
   tls: false
@@ -271,19 +269,161 @@ proxies:
     headers:
       Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
     path: /
-- name: GB_87ff4_0004
-  password: IL37892054
-  port: 443
-  server: upright-rhino.rooster465.autos
-  skip-cert-verify: false
-  sni: upright-rhino.rooster465.autos
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: GB_87ff4_0005
+  name: CN_350f3_0006
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_350f3_0007
+  network: ws
+  port: 16616
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_350f3_0009
   network: ws
   port: 16618
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
+  ws-opts:
+    headers:
+      Host: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_350f3_0010
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_350f3_0011
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_350f3_0012
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_350f3_0013
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_350f3_0015
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_350f3_0016
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: GB_350f3_0018
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
+  ws-opts:
+    headers:
+      Host: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: GB_350f3_0019
+  network: ws
+  port: 16632
   server: t.cnmjcn.cyou
   skip-cert-verify: false
   tls: false
@@ -294,72 +434,21 @@ proxies:
     headers:
       Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
     path: /
-- name: LU_87ff4_0006
-  password: IL37892054
-  port: 443
-  server: apt-magpie.rooster465.autos
-  skip-cert-verify: false
-  sni: apt-magpie.rooster465.autos
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: TW_87ff4_0007
+  name: GB_350f3_0020
   network: ws
-  port: 80
-  server: abm96f00fby3.jkhkgj.xyz
-  skip-cert-verify: true
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /market/jp1
-- cipher: chacha20-ietf-poly1305
-  name: US_87ff4_0008
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 88.210.36.108
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_87ff4_0009
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_87ff4_0010
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 88.210.36.109
-  type: ss
-  udp: true
-- name: AU_speednode_0002
-  password: IL37892054
-  port: 443
-  server: engaged-ram.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
 - name: KR_speednode_0024
   network: ws
   password: trojan
