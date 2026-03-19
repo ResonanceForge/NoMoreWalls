@@ -259,115 +259,12 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- name: 🇭🇰 香港3|@ripaojiedian
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 19256
-  server: 43.207.153.203
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.123
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 921
-  server: 13.231.159.112
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本|@ripaojiedian
-  password: BxceQaOe
-  port: 16919
-  server: 52.198.90.187
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@ripaojiedian
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 2001
-  server: 160.16.106.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@ripaojiedian
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4937
-  server: 13.230.254.47
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡|@ripaojiedian
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 3419
-  server: 160.16.106.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 3419
-  server: 43.207.164.92
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 41973
-  server: 13.230.254.47
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇺🇸 美国|@ripaojiedian
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 3057
-  server: 160.16.106.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4920
-  server: 13.231.19.155
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 37223
-  server: 43.207.164.92
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 香港2|@ripaojiedian
-  network: tcp
-  port: '6001'
-  server: cn01.365cloud8754.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 921
   server: 54.168.247.232
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
@@ -399,6 +296,7 @@ proxies:
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4937
   server: 57.180.246.216
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
@@ -406,6 +304,7 @@ proxies:
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 2001
   server: 13.230.3.199
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
@@ -413,6 +312,7 @@ proxies:
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4674
   server: 160.16.72.205
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
@@ -420,6 +320,7 @@ proxies:
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3419
   server: 160.16.214.104
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
@@ -435,6 +336,7 @@ proxies:
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4920
   server: 54.199.166.248
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
@@ -442,6 +344,7 @@ proxies:
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4019
   server: 160.16.214.104
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
@@ -460,7 +363,27 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: CN_103de_0001
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 香港2|@ripaojiedian
+  network: tcp
+  port: '6001'
+  server: cn01.365cloud8754.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
+- alterId: 2
+  cipher: auto
+  name: CN_8c84c_0001
   port: 30833
   server: v33.hdacd.com
   servername: v33.hdacd.com
@@ -471,7 +394,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: CN_103de_0002
+  name: CN_8c84c_0002
   port: 30812
   server: v12.hdacd.com
   skip-cert-verify: false
@@ -481,7 +404,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: CN_103de_0003
+  name: CN_8c84c_0003
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -504,7 +427,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: GB_103de_0005
+  name: GB_8c84c_0005
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -527,7 +450,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: TW_103de_0007
+  name: TW_8c84c_0007
   network: ws
   port: 80
   server: abm96f00fby3.jkhkgj.xyz
@@ -541,7 +464,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /market/jp1
 - cipher: chacha20-ietf-poly1305
-  name: US_103de_0008
+  name: US_8c84c_0008
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -553,7 +476,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_103de_0009
+  name: US_8c84c_0009
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -565,7 +488,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_103de_0010
+  name: US_8c84c_0010
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
