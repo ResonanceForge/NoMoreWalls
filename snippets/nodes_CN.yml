@@ -1,4 +1,19 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: CN_f0047_0003
+  network: ws
+  port: 51254
+  server: hk18.stimaysmhy8.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 71165393-5252-4fea-ac96-c36b508720c8
+  ws-opts:
+    headers:
+      Host: hk18.stimaysmhy8.com
+    path: /
 - name: CN_speednode_0004
   password: 71165393-5252-4fea-ac96-c36b508720c8
   port: 44302
