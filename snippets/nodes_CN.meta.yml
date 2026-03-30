@@ -1,35 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: CN_9c86b_0003
-  network: ws
-  port: 51254
-  server: hk18.stimaysmhy8.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 71165393-5252-4fea-ac96-c36b508720c8
-  ws-opts:
-    headers:
-      Host: hk18.stimaysmhy8.com
-    path: /
-- name: CN_9c86b_0004
-  password: 71165393-5252-4fea-ac96-c36b508720c8
-  port: 44302
-  server: hk07.jsytongxin.com
-  skip-cert-verify: true
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
-- name: CN_9c86b_0005
-  password: 71165393-5252-4fea-ac96-c36b508720c8
-  port: 39204
-  server: jp14.jsyjiedian8.com
-  skip-cert-verify: true
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: CN_speednode_0002
   network: ws

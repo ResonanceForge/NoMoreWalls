@@ -210,53 +210,9 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: AT_9c86b_0002
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.98
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
 - alterId: 0
   cipher: auto
-  name: CN_9c86b_0003
-  network: ws
-  port: 51254
-  server: hk18.stimaysmhy8.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 71165393-5252-4fea-ac96-c36b508720c8
-  ws-opts:
-    headers:
-      Host: hk18.stimaysmhy8.com
-    path: /
-- name: CN_9c86b_0004
-  password: 71165393-5252-4fea-ac96-c36b508720c8
-  port: 44302
-  server: hk07.jsytongxin.com
-  skip-cert-verify: true
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
-- name: CN_9c86b_0005
-  password: 71165393-5252-4fea-ac96-c36b508720c8
-  port: 39204
-  server: jp14.jsyjiedian8.com
-  skip-cert-verify: true
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: GB_9c86b_0007
+  name: GB_4058d_0006
   port: 180
   server: 82.198.246.97
   skip-cert-verify: true
@@ -264,76 +220,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: IR_9c86b_0008
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: MD_9c86b_0012
-  password: strong-secret-pass-777
-  port: 4443
-  server: 103.231.73.181
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: NL_9c86b_0013
-  network: ws
-  password: trojan
-  port: 82
-  server: 136.244.105.89
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- name: NL_9c86b_0015
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: SC_9c86b_0018
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.16.212
-  type: ss
-  udp: true
-- name: US_9c86b_0019
-  network: ws
-  password: trojan
-  port: 8025
-  server: 54.46.72.234
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- name: US_9c86b_0026
-  network: ws
-  password: trojan
-  port: 28080
-  server: 38.83.41.89
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
 - name: US_speednode_0028
   network: ws
   password: trojan
@@ -347,3 +233,34 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: US_4058d_0033
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+    tls: false
+  port: 2377
+  server: 134.195.101.125
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_4058d_0034
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+    tls: false
+  port: 2377
+  server: 134.195.101.127
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ZA_4058d_0035
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  port: 16233
+  server: 102.133.165.160
+  type: ss
+  udp: true
