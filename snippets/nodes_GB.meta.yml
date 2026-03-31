@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: GB_24753_0006
+  name: GB_e8367_0007
   port: 180
   server: 82.198.246.97
   skip-cert-verify: true
@@ -9,6 +9,17 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_e8367_0008
+  port: 17310
+  server: 82.21.80.224
+  servername: viffes.shortanimedrama.space
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0009

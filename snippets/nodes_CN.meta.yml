@@ -1,19 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  name: CN_24753_0002
-  network: ws
-  port: 1234
-  server: 223.72.61.78
-  servername: snippet.danfeng.gleeze.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: CN_e8367_0003
+  password: 5d522fb6-4c75-44b3-a1ec-bfd5794ec503
+  port: 45510
+  server: sgp05.network-cdn-gw-yd.net
+  type: ss
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    path: /danfeng?ed=2560
 - name: CN_speednode_0004
   password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
   port: 32233
