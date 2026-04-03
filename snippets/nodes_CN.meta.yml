@@ -1,19 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: CN_636c8_0003
-  password: 5d522fb6-4c75-44b3-a1ec-bfd5794ec503
-  port: 45510
-  server: sgp05.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- name: CN_636c8_0004
-  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  port: 32233
-  server: 975e0293-t9zts0-tcq5zn-19qpt.id.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
 - name: CN_speednode_0005
   password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
   port: 5228
@@ -198,6 +183,28 @@ proxies:
   type: http
   udp: true
   username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+- cipher: rc4-md5
+  name: CN_debb8_0028
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202603170083291-ozVAbtVbLK.download.microsoft.com
+    mode: http
+  port: 8717
+  server: efan9863.dns8656815.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: CN_debb8_0029
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202603170083291-ozVAbtVbLK.download.microsoft.com
+    mode: http
+  port: 8760
+  server: efan9863.dns8656815.com
+  type: ss
+  udp: true
 - name: CN_speednode_0030
   password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
   port: 17235
