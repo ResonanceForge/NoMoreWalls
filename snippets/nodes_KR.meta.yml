@@ -1,13 +1,4 @@
 proxies:
-- name: KR_1b4e4_0060
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
 - alpn:
   - http/1.1
   client-fingerprint: random

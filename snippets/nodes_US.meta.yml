@@ -23,66 +23,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_1b4e4_0066
-  network: ws
-  port: 443
-  server: 192.200.160.20
-  servername: 639073677243704890.camry-perma.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9254fe9-dd7e-4f90-ab06-4c96c5cd7362
-  ws-opts:
-    headers:
-      Host: 639073677243704890.camry-perma.info
-    path: /qszxrsws?ed=2560
-- name: US_1b4e4_0067
-  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  port: 443
-  server: 1926e588-ta1og0-tc59t3-81nv.jp.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-- name: US_1b4e4_0069
-  password: 275728c9-07a2-4f21-807f-4e2189f02929
-  port: 4445
-  server: 4-nas8bs9e6.mix.dexiansheng.com
-  tls: true
-  type: http
-  udp: true
-  username: walless
-- name: US_1b4e4_0070
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  port: 443
-  server: 0381022d-tcxds0-tdt3k0-jx5r.de.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-- name: US_1b4e4_0071
-  password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  port: 443
-  server: d0921ded-tcz8g0-teei0c-1ryup.de.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: US_1b4e4_0072
-  port: 443
-  reality-opts:
-    public-key: j5sQbSLF4SeU7XHU27W56ZuveT-O6HwxX2wi5neM4UM
-    short-id: '!!str abcdef00'
-  server: vleesvpn-app-nl01.gw-vpn.click
-  servername: plus.im
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b605b776-b676-430e-8957-00f1e0166bee
 - name: US_speednode_0011
   network: ws
   password: trojan
@@ -138,6 +78,18 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: US_ab7db_0015
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: feb7fa9:154948
+    mode: tls
+    tls: false
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+  udp: true
 - name: US_speednode_0016
   network: ws
   port: 443
