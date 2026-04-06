@@ -1,5 +1,5 @@
 proxies:
-- name: KR_speednode_0060
+- name: KR_1b4e4_0060
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -8,3 +8,35 @@ proxies:
   type: http
   udp: true
   username: test
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: KR_speednode_0007
+  network: ws
+  port: 10162
+  server: 106.251.70.75
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- client-fingerprint: chrome
+  name: KR_speednode_0008
+  network: ws
+  port: 20244
+  server: 211.194.9.159
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
