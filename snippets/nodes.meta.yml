@@ -265,6 +265,7 @@ proxies:
     public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
   server: 138.124.186.202
   servername: www.fh-aachen.de
+<<<<<<< HEAD
   skip-cert-verify: false
   tls: true
   type: vless
@@ -322,10 +323,62 @@ proxies:
   port: 10162
   server: 106.251.70.75
   servername: snippet.chinav.eu.cc
+=======
+>>>>>>> 69c77e61b3f5c85c714deb446433ad194064141c
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
+<<<<<<< HEAD
+=======
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: HK_speednode_0004
+  network: ws
+  port: 3389
+  server: 203.168.131.110
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: HK_speednode_0005
+  network: ws
+  port: 3389
+  server: 203.168.131.110
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfengfp=random
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: KR_speednode_0007
+  network: ws
+  port: 10162
+  server: 106.251.70.75
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+>>>>>>> 69c77e61b3f5c85c714deb446433ad194064141c
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
@@ -421,6 +474,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
+<<<<<<< HEAD
 - cipher: chacha20-ietf-poly1305
   name: US_3da89_0015
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -433,6 +487,8 @@ proxies:
   server: 88.210.36.107
   type: ss
   udp: true
+=======
+>>>>>>> 69c77e61b3f5c85c714deb446433ad194064141c
 - name: US_speednode_0016
   network: ws
   port: 443
