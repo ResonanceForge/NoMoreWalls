@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: KR_speednode_0007
+  name: KR_78870_0007
   network: ws
   port: 10162
   server: 106.251.70.75
@@ -17,7 +17,7 @@ proxies:
       Host: snippet.chinav.eu.cc
     path: /danfeng
 - client-fingerprint: chrome
-  name: KR_speednode_0008
+  name: KR_78870_0008
   network: ws
   port: 20244
   server: 211.194.9.159
@@ -31,3 +31,29 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: KR_speednode_0036
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: KR_speednode_0037
+  port: 19001
+  reality-opts:
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: krp01.jumperservice.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f

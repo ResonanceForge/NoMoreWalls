@@ -45,7 +45,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: HK_speednode_0004
+  name: HK_78870_0004
   network: ws
   port: 3389
   server: 203.168.131.110
@@ -62,7 +62,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: HK_speednode_0005
+  name: HK_78870_0005
   network: ws
   port: 3389
   server: 203.168.131.110
@@ -76,3 +76,17 @@ proxies:
     headers:
       Host: snippet.chinav.eu.cc
     path: /danfengfp=random
+- name: HK_speednode_0014
+  network: ws
+  port: 7443
+  server: 222.167.202.14
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.14:7443
