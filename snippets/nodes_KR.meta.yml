@@ -1,36 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: KR_78870_0007
-  network: ws
-  port: 10162
-  server: 106.251.70.75
-  servername: snippet.chinav.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.chinav.eu.cc
-    path: /danfeng
-- client-fingerprint: chrome
-  name: KR_78870_0008
-  network: ws
-  port: 20244
-  server: 211.194.9.159
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: /danfeng?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: KR_speednode_0036
