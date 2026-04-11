@@ -23,6 +23,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: US_6d0ea_0030
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usb2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.42.24
+  type: ss
+  udp: true
 - name: US_speednode_0033
   network: ws
   password: trojan

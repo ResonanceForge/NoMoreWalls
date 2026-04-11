@@ -99,13 +99,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🐵15@oneclickvpnkeys
-  password: 0d892bc7-41c5-4dc5-90bb-40dfc0043dd5
-  port: 443
-  server: 51.195.241.243
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 🪺1@oneclickvpnkeys
   password: 7151e6b8-0d8e-4548-a9f2-af52ccc2cdfe
   port: 4433
@@ -132,40 +125,12 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: 🐵37@oneclickvpnkeys
-  password: hysteria2_fastlane_jwiedq1o6
-  port: 443
-  server: 5.181.21.132
-  skip-cert-verify: true
-  sni: at1.h.smartaisupport.ru
-  tls: false
-  type: hysteria2
-- name: 🐵14@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: FxZylbqClUqVqAs2nezW9kPyFb2edZ2
-  password: rstnnl
-  port: 443
-  server: reddeadfan.rd-team.ru
-  skip-cert-verify: true
-  sni: reddeadfan.rd-team.ru
-  tls: false
-  type: hysteria2
 - name: 🪺28@oneclickvpnkeys
   obfs: salamander
   obfs-password: cry_me_a_r1ver_2026
   password: strong-secret-pass-777
   port: 444
   server: 45.120.179.89
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 🐵39@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: cry_me_a_r1ver_2026
-  password: strong-secret-pass-777
-  port: 444
-  server: 82.118.16.61
   skip-cert-verify: true
   sni: www.microsoft.com
   tls: false
@@ -301,577 +266,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: AT_86b92_0001
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.167
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: AU_6d0ea_0001
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-au-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 193.177.220.147
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- name: AT_86b92_0002
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.98
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- flow: xtls-rprx-vision
-  name: AT_86b92_0003
-  port: 443
-  reality-opts:
-    public-key: P7XdTB-V3VEV_B5Wenifit6OriVM5YUQ8ir-SSqes0U
-    short-id: '7a4f4b55a899ae1d'
-  server: 95.164.36.217
-  servername: www.booking.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-- flow: xtls-rprx-vision
-  name: AT_86b92_0004
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: 'd82fb387'
-  server: 152.53.1.32
-  servername: chat.deepseek.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f8380ae-9f5d-4cb5-8f5f-0f70fbe054a9
-- name: CH_86b92_0005
-  network: ws
-  port: 4433
-  server: 138.226.240.199
-  servername: sub.mot.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
-- name: DE_86b92_0006
-  network: ws
-  port: 4001
-  server: 185.94.29.156
-  servername: sub.mot.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
-- name: DE_86b92_0007
-  network: ws
-  port: 4002
-  server: 37.114.50.157
-  servername: sub.mot.ip-ddns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
-- name: FR_86b92_0008
-  network: ws
-  port: 8443
-  server: 51.210.151.165
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: GB_86b92_0009
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0010
-  network: ws
-  port: 80
-  server: d928a6f8-t9zts0-tcc9uq-1rnrp.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0011
-  network: ws
-  port: 80
-  server: 1389306e-t9w4g0-tcr22d-1rsuw.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0012
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0018
-  network: ws
-  port: 80
-  server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-    path: /
-- name: HK_86b92_0014
-  network: ws
-  port: 7443
-  server: 222.167.202.14
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /222.167.202.14:7443
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0015
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0016
-  network: ws
-  port: 80
-  server: ff61e176-t9u9s0-tsjk4v-1atkp.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0017
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0019
-  network: ws
-  port: 80
-  server: 1808992d-t9mv40-tcmken-19les.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0020
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0021
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0022
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0023
-  network: ws
-  port: 80
-  server: 9c402b0d-t70f40-tfeciy-1iddy.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 9c402b0d-t70f40-tfeciy-1iddy.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0024
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0025
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0026
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0027
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0028
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0029
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0030
-  network: ws
-  port: 80
-  server: 584a79d6-t9w4g0-tb5rbt-1kcpe.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_86b92_0031
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- name: ID_86b92_0032
-  password: M7v%w11Se*
-  port: 443
-  server: qfdfsg.wsone.icu
-  skip-cert-verify: true
-  sni: qfdfsg.wsone.icu
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: ID_86b92_0033
-  port: 8443
-  reality-opts:
-    public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
-    short-id: 'a1b2c3d4e5f6'
-  server: 202.155.11.137
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3a1017d-1ebf-11f1-8cae-c3845d39d2de
-- alterId: 0
-  cipher: auto
-  name: IR_86b92_0034
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: JP_86b92_0035
-  network: ws
-  password: trojan
-  port: 587
-  server: 217.142.250.195
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- flow: xtls-rprx-vision
-  name: KR_86b92_0036
-  port: 19001
-  reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-  server: krp01.jumperservice.com
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: KR_86b92_0037
-  port: 19001
-  reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-  server: krp01.jumperservice.com
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
-- name: LV_86b92_0038
-  network: ws
-  port: 443
-  server: 31.128.32.98
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560
-- name: NL_86b92_0039
-  network: ws
-  port: 2053
-  server: 185.243.112.61
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560
-- name: NL_86b92_0040
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  sni: 94.131.105.125
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: RU_86b92_0041
-  port: 443
-  reality-opts:
-    public-key: FZbK0E3QBK7QslwVEXimX6vmXC8cb6826lSLJUkIEgU
-  server: 217.114.11.246
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9768f14f-a790-4c78-b1d9-60cc0e9d99a0
-- name: US_speednode_0031
-  network: ws
-  port: 443
-  server: 135.84.74.155
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
-- name: US_86b92_0044
-  network: ws
-  port: 443
-  server: 94.131.101.135
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560
 - flow: xtls-rprx-vision
   name: CH_speednode_0002
   port: 443
@@ -885,6 +290,21 @@ proxies:
   type: vless
   udp: true
   uuid: 443fd8ea-3cfd-4286-a4e2-91276e41fe51
+- alterId: 0
+  cipher: auto
+  name: CN_6d0ea_0003
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c57c421-1d87-475b-8ec1-5595a304b19d
+  ws-opts:
+    headers:
+      Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
+    path: /
 - flow: xtls-rprx-vision
   name: CY_speednode_0004
   port: 443
@@ -1218,6 +638,31 @@ proxies:
   type: vless
   udp: true
   uuid: d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a
+- cipher: chacha20-ietf-poly1305
+  name: US_6d0ea_0030
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usb2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.42.24
+  type: ss
+  udp: true
+- name: US_speednode_0031
+  network: ws
+  port: 443
+  server: 135.84.74.155
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /
 - name: US_speednode_0032
   password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
   port: 443

@@ -23,6 +23,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: US_6d0ea_0030
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usb2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.42.24
+  type: ss
+  udp: true
 - name: US_speednode_0031
   network: ws
   port: 443
@@ -37,20 +48,6 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: /
-- name: US_86b92_0044
-  network: ws
-  port: 443
-  server: 94.131.101.135
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560
 - name: US_speednode_0032
   password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
   port: 443
