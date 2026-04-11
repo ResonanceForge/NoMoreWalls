@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: KR_speednode_0036
+  name: KR_86b92_0036
   port: 19001
   reality-opts:
     public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
@@ -14,7 +14,7 @@ proxies:
   uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: KR_speednode_0037
+  name: KR_86b92_0037
   port: 19001
   reality-opts:
     public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
@@ -25,3 +25,12 @@ proxies:
   type: vless
   udp: true
   uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
+- name: KR_speednode_0025
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test

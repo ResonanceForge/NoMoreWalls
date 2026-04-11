@@ -210,7 +210,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: AT_speednode_0001
+- name: AT_86b92_0001
   network: ws
   password: trojan
   port: 8444
@@ -223,7 +223,7 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: AT_speednode_0002
+- name: AT_86b92_0002
   network: ws
   password: trojan
   port: 8444
@@ -540,7 +540,7 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- name: ID_speednode_0032
+- name: ID_86b92_0032
   password: M7v%w11Se*
   port: 443
   server: qfdfsg.wsone.icu
@@ -558,7 +558,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: JP_speednode_0035
+- name: JP_86b92_0035
   network: ws
   password: trojan
   port: 587
@@ -571,7 +571,7 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: NL_speednode_0040
+- name: NL_86b92_0040
   password: strong-secret-pass-777
   port: 4443
   server: 94.131.105.125
@@ -579,3 +579,23 @@ proxies:
   sni: 94.131.105.125
   type: trojan
   udp: true
+- name: NL_speednode_0027
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_speednode_0033
+  network: ws
+  password: trojan
+  port: 50000
+  server: 38.60.89.136
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
