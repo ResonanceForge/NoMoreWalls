@@ -24,7 +24,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: US_a02a3_0030
+  name: US_720b7_0030
   password: somebody
   plugin: obfs
   plugin-opts:
@@ -34,7 +34,7 @@ proxies:
   server: 38.244.42.24
   type: ss
   udp: true
-- name: US_speednode_0031
+- name: US_720b7_0031
   network: ws
   port: 443
   server: 135.84.74.155
@@ -48,7 +48,7 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: /
-- name: US_speednode_0032
+- name: US_720b7_0032
   password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
   port: 443
   server: a2cb60c5-t9zts0-td95qh-1isea.sj.oshuawei.com
@@ -56,7 +56,7 @@ proxies:
   type: http
   udp: true
   username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-- name: US_speednode_0033
+- name: US_720b7_0033
   network: ws
   password: trojan
   port: 50000
@@ -70,7 +70,7 @@ proxies:
       Host: jflsjlaf.pages.dev
     path: /
 - client-fingerprint: chrome
-  name: US_speednode_0034
+  name: US_720b7_0034
   port: 443
   reality-opts:
     public-key: H6i2nA8Pm4b5Wb9UxP3GOQ_1WAEdlqUg5WDCBDdxtFo
@@ -81,3 +81,16 @@ proxies:
   type: vless
   udp: true
   uuid: 39c72576-8e0a-4249-ab37-0c89ce6a8e93
+- name: US_speednode_0023
+  network: ws
+  password: trojan
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /

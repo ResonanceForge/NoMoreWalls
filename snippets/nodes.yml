@@ -211,7 +211,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: AU_a02a3_0001
+  name: AU_720b7_0001
   password: somebody
   plugin: obfs
   plugin-opts:
@@ -223,7 +223,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: CN_a02a3_0003
+  name: CN_720b7_0003
   network: ws
   port: 16622
   server: planb.mojcn.com
@@ -236,7 +236,7 @@ proxies:
     headers:
       Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
     path: /
-- name: NL_speednode_0027
+- name: NL_720b7_0027
   password: strong-secret-pass-777
   port: 4443
   server: 94.131.105.125
@@ -244,7 +244,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_a02a3_0030
+  name: US_720b7_0030
   password: somebody
   plugin: obfs
   plugin-opts:
@@ -254,12 +254,25 @@ proxies:
   server: 38.244.42.24
   type: ss
   udp: true
-- name: US_speednode_0033
+- name: US_720b7_0033
   network: ws
   password: trojan
   port: 50000
   server: 38.60.89.136
   skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: US_speednode_0023
+  network: ws
+  password: trojan
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
   udp: true

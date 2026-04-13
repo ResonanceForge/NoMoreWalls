@@ -1,5 +1,5 @@
 proxies:
-- name: GB_speednode_0009
+- name: GB_720b7_0009
   network: ws
   port: 8443
   server: 91.84.101.164
@@ -15,7 +15,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: GB_speednode_0010
+  name: GB_720b7_0010
   port: 443
   reality-opts:
     public-key: 0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M
@@ -27,7 +27,7 @@ proxies:
   type: vless
   udp: true
   uuid: 4c3fe585-ac09-41df-b284-888818888188
-- name: GB_speednode_0011
+- name: GB_720b7_0011
   network: ws
   port: 2053
   server: 45.43.76.184
@@ -43,7 +43,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: GB_speednode_0012
+  name: GB_720b7_0012
   port: 443
   reality-opts:
     public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
@@ -55,3 +55,16 @@ proxies:
   type: vless
   udp: true
   uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0002
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: 138.124.186.202
+  servername: www.fh-aachen.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
