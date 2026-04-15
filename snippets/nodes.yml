@@ -242,7 +242,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: CN_8e679_0001
+  name: CN_cacb1_0001
   network: ws
   port: 16622
   server: planb.mojcn.com
@@ -255,12 +255,25 @@ proxies:
     headers:
       Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
     path: /
-- name: US_speednode_0023
+- name: US_cacb1_0023
   network: ws
   password: trojan
   port: 8025
   server: 54.46.72.234
   skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: US_speednode_0014
+  network: ws
+  password: trojan
+  port: 54321
+  server: 154.12.53.125
+  skip-cert-verify: false
   sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
