@@ -238,297 +238,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- flow: xtls-rprx-vision
-  name: CY_a17cd_0001
-  port: 6443
-  reality-opts:
-    public-key: x-VSf_bBIC1iELDvaoM4SKMTK2YAAnUlVkhAWBbvpSc
-    short-id: 'b9605803fb4b'
-  server: gbr1.frostbot.ru
-  servername: gbr1.frostbot.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b77fb18-cece-4759-9a81-571f1be53e0c
-- flow: xtls-rprx-vision
-  name: CY_a17cd_0002
-  port: 46110
-  reality-opts:
-    public-key: 7q3_m65wkw4AlZ0tk2SGw5PQePvYPh2kaU-UCkHUb2g
-    short-id: '5e'
-  server: 185.153.181.118
-  servername: www.deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6ec3c298-1058-43bd-81e3-54b155c4ae21
-- name: HK_a17cd_0004
-  network: ws
-  port: 3389
-  server: 203.168.131.105
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng
-- flow: xtls-rprx-vision
-  name: HK_a17cd_0006
-  port: 443
-  reality-opts:
-    public-key: _t05V9DbgwyxSJOgRBhWYHt8d4Xt-qFfUXONotbUnCE
-    short-id: 'f37fb7531c60780d'
-  server: polands.stardevs.top
-  servername: polands.stardevs.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
-- name: KR_a17cd_0007
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  udp: true
-  username: T2clM0QlM0Q6
-- flow: xtls-rprx-vision
-  name: NL_a17cd_0008
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: 'd82fb387'
-  server: 45.43.92.20
-  servername: chat.deepseek.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
-- flow: xtls-rprx-vision
-  name: RO_speednode_0014
-  port: 443
-  reality-opts:
-    public-key: kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw
-    short-id: 'c906f73d3ba8211f'
-  server: 91.199.50.37
-  servername: www.alibaba.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-- name: SG_a17cd_0011
-  network: ws
-  port: 443
-  server: 43.168.16.112
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng
-- alpn:
-  - h2
-  - http/1.1
-  name: US_speednode_0018
-  network: ws
-  port: 443
-  server: 18.245.54.3
-  servername: d2241b25w3zftf.cloudfront.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-  ws-opts:
-    headers:
-      Host: d2241b25w3zftf.cloudfront.net
-    path: /
-- alpn:
-  - http/1.1
-  name: US_a17cd_0013
-  network: ws
-  port: 25557
-  server: 69.63.208.141
-  servername: snippet.gfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.qzz.io
-    path: /danfeng
-- name: US_a17cd_0014
-  network: ws
-  password: trojan
-  port: 54321
-  server: 154.12.53.125
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- name: US_a17cd_0015
-  network: ws
-  port: 443
-  server: 74.120.174.180
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng
-- name: US_a17cd_0021
-  network: ws
-  port: 8443
-  server: 162.159.45.202
-  servername: zoro.jakesolo.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dcda262b-0d36-4032-edd9-da4fd2d53711
-  ws-opts:
-    headers:
-      Host: zoro.jakesolo.eu.org
-    path: /ws
-- flow: xtls-rprx-vision
-  name: US_a17cd_0022
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: 'd82fb387'
-  server: 144.31.122.171
-  servername: chat.deepseek.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
-- cipher: aes-256-cfb
-  name: VN_a17cd_0023
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.113
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0024
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.142
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0025
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.236
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0026
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.21
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0027
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.29
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0028
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.55
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0029
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.149
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0030
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.208
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0031
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.158
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0032
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.212
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0033
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.161
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0034
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.241
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0035
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.134
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0036
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.239
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_a17cd_0037
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.141
-  type: ss
-  udp: true
 - name: AT_speednode_0001
   network: ws
   password: trojan
@@ -581,6 +290,36 @@ proxies:
   type: vless
   udp: true
   uuid: 72eb4de8-5eca-420d-8876-173ef58d82e8
+- alterId: 0
+  cipher: auto
+  name: GB_06ed7_0005
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_06ed7_0006
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: GB_06ed7_0007
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - flow: xtls-rprx-vision
   name: GB_speednode_0008
   port: 443
@@ -646,6 +385,19 @@ proxies:
   type: vless
   udp: true
   uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+- flow: xtls-rprx-vision
+  name: RO_speednode_0014
+  port: 443
+  reality-opts:
+    public-key: kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw
+    short-id: 'c906f73d3ba8211f'
+  server: 91.199.50.37
+  servername: www.alibaba.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
 - name: SG_speednode_0015
   network: ws
   port: 45137
@@ -689,6 +441,23 @@ proxies:
   ws-opts:
     headers:
       Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: US_speednode_0018
+  network: ws
+  port: 443
+  server: 18.245.54.3
+  servername: d2241b25w3zftf.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+  ws-opts:
+    headers:
+      Host: d2241b25w3zftf.cloudfront.net
     path: /
 - client-fingerprint: randomized
   name: US_speednode_0019
@@ -814,3 +583,66 @@ proxies:
   type: vless
   udp: true
   uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
+- cipher: aes-256-cfb
+  name: VN_06ed7_0032
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.58
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_06ed7_0033
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.41
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_06ed7_0034
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.215
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_06ed7_0035
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.191
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_06ed7_0036
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.206
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_06ed7_0037
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.252
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_06ed7_0038
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.60
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_06ed7_0039
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.115
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_06ed7_0040
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.79
+  type: ss
+  udp: true
