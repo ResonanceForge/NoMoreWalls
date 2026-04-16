@@ -210,7 +210,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US_speednode_0014
+- name: US_a17cd_0014
   network: ws
   password: trojan
   port: 54321
@@ -224,107 +224,133 @@ proxies:
       Host: jflsjlaf.pages.dev
     path: /
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0023
+  name: VN_a17cd_0023
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.113
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0024
+  name: VN_a17cd_0024
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.142
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0025
+  name: VN_a17cd_0025
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.236
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0026
+  name: VN_a17cd_0026
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.21
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0027
+  name: VN_a17cd_0027
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.29
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0028
+  name: VN_a17cd_0028
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.55
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0029
+  name: VN_a17cd_0029
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.149
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0030
+  name: VN_a17cd_0030
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.208
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0031
+  name: VN_a17cd_0031
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.158
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0032
+  name: VN_a17cd_0032
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.212
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0033
+  name: VN_a17cd_0033
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.161
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0034
+  name: VN_a17cd_0034
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.241
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0035
+  name: VN_a17cd_0035
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.134
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0036
+  name: VN_a17cd_0036
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.239
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_3f0e6_0037
+  name: VN_a17cd_0037
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.141
   type: ss
   udp: true
+- name: AT_speednode_0001
+  network: ws
+  password: trojan
+  port: 8888
+  server: 152.53.45.251
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: AT_speednode_0002
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.167
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
