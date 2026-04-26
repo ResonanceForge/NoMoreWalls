@@ -23,11 +23,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_80950_0137
+- name: US_speednode_0097
   network: ws
   password: '!!str 1234567890'
-  port: 8443
-  server: 95.164.123.131
+  port: 443
+  server: 144.31.85.72
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -36,24 +36,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0101
+- name: US_speednode_0099
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 144.31.118.170
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0104
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 64.188.70.233
+  server: 144.31.139.103
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -75,11 +62,50 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0097
+- name: US_speednode_0101
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 144.31.85.72
+  server: 144.31.118.170
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0102
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.118.170
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0103
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.70.233
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0104
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.70.233
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -101,11 +127,11 @@ proxies:
   type: vless
   udp: true
   uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
-- name: US_speednode_0099
+- name: US_speednode_0107
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 144.31.139.103
+  server: 144.31.188.6
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -113,199 +139,6 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0103
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 64.188.70.233
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /
-- name: US_speednode_0102
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.118.170
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /
-- name: US_80950_0147
-  network: ws
-  port: 443
-  server: 44.32.224.207
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0148
-  network: ws
-  port: 443
-  server: 64.188.73.248
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0149
-  network: ws
-  port: 443
-  server: 144.31.19.131
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0150
-  network: ws
-  port: 2053
-  server: 44.32.224.198
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0151
-  network: ws
-  port: 443
-  server: 144.31.132.176
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0152
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.98.216
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_80950_0153
-  network: ws
-  port: 443
-  server: 44.32.224.196
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0154
-  network: ws
-  port: 443
-  server: 44.32.224.197
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0155
-  network: ws
-  port: 2053
-  server: 44.32.224.208
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0156
-  network: ws
-  port: 443
-  server: 144.31.116.136
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /
-- name: US_80950_0157
-  network: ws
-  port: 443
-  server: 144.31.7.95
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0158
-  network: ws
-  port: 443
-  server: 83.219.97.178
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
     path: /?ed=2560
 - name: US_speednode_0108
   network: ws
@@ -332,115 +165,6 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_80950_0161
-  network: ws
-  port: 2053
-  server: 44.32.224.207
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0162
-  network: ws
-  port: 443
-  server: 44.32.224.195
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0107
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.188.6
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_80950_0164
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 144.31.213.59
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0120
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 104.128.139.68
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_80950_0166
-  network: ws
-  port: 443
-  server: 169.40.4.32
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0167
-  network: ws
-  port: 8443
-  server: 169.40.2.93
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_80950_0168
-  network: ws
-  port: 443
-  server: 169.40.1.34
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
     path: /?ed=2560
 - name: US_speednode_0110
   network: ws
@@ -567,6 +291,19 @@ proxies:
   password: '!!str 1234567890'
   port: 443
   server: 144.31.138.127
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0120
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 104.128.139.68
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
