@@ -1,5 +1,5 @@
 proxies:
-- name: SE_speednode_0092
+- name: SE_6a69f_0092
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -12,7 +12,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: SE_speednode_0093
+- name: SE_6a69f_0093
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -25,7 +25,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: SE_speednode_0094
+- name: SE_6a69f_0094
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -38,7 +38,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: SE_speednode_0095
+- name: SE_6a69f_0095
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -51,3 +51,17 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: SE_speednode_0012
+  port: 52000
+  reality-opts:
+    public-key: QxNM7Wad1AT-erPr2JpacYeluAAASMT5yHU_ANpWD1Q
+    short-id: '!!str 9bcf6f2c'
+  server: 159.194.213.95
+  servername: ozon.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
