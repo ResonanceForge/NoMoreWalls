@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: HK_speednode_0011
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -24,6 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -43,7 +44,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: edge
-  name: HK_speednode_0011
+  name: HK_43f6e_0011
   network: ws
   port: 443
   server: rhciuib.synccut.de
@@ -58,7 +59,7 @@ proxies:
       Host: rhciuib.synccut.de
     path: /video_clip
 - client-fingerprint: firefox
-  name: HK_speednode_0012
+  name: HK_43f6e_0012
   network: ws
   port: 10100
   server: 103.224.172.99

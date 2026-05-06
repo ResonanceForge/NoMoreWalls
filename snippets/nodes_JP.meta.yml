@@ -24,7 +24,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: firefox
-  name: JP_speednode_0013
+  name: JP_43f6e_0013
   network: ws
   port: 443
   server: 8.216.6.167
@@ -38,3 +38,14 @@ proxies:
     headers:
       Host: py7k82mu.api-node-02.gfw.hidns.co
     path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: JP_speednode_0014
+  port: 443
+  server: tokyo1.ap221.com
+  servername: tokyo.ap221.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
