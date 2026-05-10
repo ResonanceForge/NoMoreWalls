@@ -104,111 +104,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港3|@ripaojiedian
-  password: 7ebc402f3383366fe4f554abd8625439
-  port: 53018
-  server: 16.162.191.171
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 3685
-  server: 13.158.22.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本|@ripaojiedian
-  password: BxceQaOe
-  port: 6463
-  server: 54.178.153.235
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@ripaojiedian
-  password: 7ebc402f3383366fe4f554abd8625439
-  port: 11541
-  server: 16.162.87.210
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@ripaojiedian
-  password: 7ebc402f3383366fe4f554abd8625439
-  port: 24184
-  server: 16.162.87.210
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡|@ripaojiedian
-  password: 7ebc402f3383366fe4f554abd8625439
-  port: 2511
-  server: 54.92.68.201
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  password: 7ebc402f3383366fe4f554abd8625439
-  port: 4840
-  server: 16.162.191.171
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 2074
-  server: 54.178.153.235
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇺🇸 美国|@ripaojiedian
-  password: 7ebc402f3383366fe4f554abd8625439
-  port: 52249
-  server: 16.162.191.171
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
-  password: 7ebc402f3383366fe4f554abd8625439
-  port: 6604
-  server: 16.162.87.210
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 50606
-  server: 54.178.153.235
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国5|@ripaojiedian
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
@@ -307,6 +202,34 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国5|@ripaojiedian
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 2
+  cipher: auto
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
   name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
@@ -327,7 +250,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_94f6b_0006
+  name: GB_9fb93_0006
   port: 180
   server: 82.198.246.97
   skip-cert-verify: true
@@ -337,7 +260,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_94f6b_0007
+  name: GB_9fb93_0007
   port: 180
   server: 82.198.246.9
   skip-cert-verify: false
@@ -347,7 +270,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: TW_94f6b_0018
+  name: TW_9fb93_0018
   port: 30811
   server: v11.zgtfqs.click
   skip-cert-verify: false
@@ -361,7 +284,7 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: TW_94f6b_0019
+  name: TW_9fb93_0019
   network: http
   port: 56738
   server: 103.127.243.59
@@ -376,7 +299,7 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: TW_94f6b_0020
+  name: TW_9fb93_0020
   network: http
   port: 54291
   server: 103.127.243.66
@@ -395,7 +318,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: US_94f6b_0023
+  name: US_9fb93_0023
   network: ws
   port: 3438
   server: 216.167.43.29
@@ -405,7 +328,7 @@ proxies:
   udp: true
   uuid: 01d3482e-27f5-4eac-ab5e-906787bb32ef
 - cipher: aes-256-cfb
-  name: VN_94f6b_0026
+  name: VN_9fb93_0026
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.251
