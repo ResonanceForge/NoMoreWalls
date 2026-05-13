@@ -1,14 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: GB_6086e_0010
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-  udp: true
 - alterId: 0
-  cipher: aes-128-gcm
-  name: GB_6086e_0013
+  cipher: auto
+  name: GB_24773_0001
   port: 180
   server: 82.198.246.9
   skip-cert-verify: false
@@ -16,23 +9,9 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: GB_6086e_0012
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.89
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB_6086e_0014
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.89
-  type: ss
-  udp: true
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_6086e_0018
+  name: GB_24773_0002
   port: 180
   server: 82.198.246.214
   skip-cert-verify: false
@@ -40,37 +19,19 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: GB_6086e_0016
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.99
-  type: ss
-  udp: true
 - alterId: 0
-  cipher: aes-128-gcm
-  name: GB_6086e_0017
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: GB_6086e_0019
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
-  type: ss
-  udp: true
-- alterId: 2
   cipher: auto
-  name: GB_6086e_0020
-  port: 30806
-  server: v6.hdacd.com
+  name: GB_24773_0003
+  network: ws
+  port: 443
+  server: free-v7-09.elbrusway.online
+  servername: free-v7-09.elbrusway.online
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: b4bc8fcd-739e-4525-8bed-20d10e850988
+  ws-opts:
+    headers:
+      Host: free-v7-09.elbrusway.online
+    path: /vmess-balkar

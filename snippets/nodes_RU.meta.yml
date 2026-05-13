@@ -1,44 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  name: RU_6086e_0045
-  network: ws
-  port: 443
-  server: 85.92.108.39
-  servername: sni.111000.v6.army
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: aes-128-gcm
+  name: RU_24773_0009
+  password: 6784aee2-0dfe-474f-8446-480259ff9918
+  port: 442
+  server: ru.safepass.click
+  type: ss
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /
-- name: RU_6086e_0046
-  network: ws
-  port: 443
-  server: 45.139.77.52
-  servername: sni.111000.v6.army
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /
-- name: RU_6086e_0047
-  network: ws
-  port: 443
-  server: 5.129.233.22
-  servername: sni.111000.v6.army
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /

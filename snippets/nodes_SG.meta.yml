@@ -23,20 +23,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: SG_6086e_0049
-  network: ws
-  port: 36089
-  server: 83.147.254.4
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
-    path: /@Marisa_kristi
 - client-fingerprint: chrome
   name: SG_speednode_0010
   network: ws
