@@ -1,40 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: GB_2e68b_0001
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_2e68b_0002
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_2e68b_0003
-  network: ws
-  port: 443
-  server: free-v7-09.elbrusway.online
-  servername: free-v7-09.elbrusway.online
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b4bc8fcd-739e-4525-8bed-20d10e850988
-  ws-opts:
-    headers:
-      Host: free-v7-09.elbrusway.online
-    path: /vmess-balkar
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0009
@@ -49,6 +13,26 @@ proxies:
   type: vless
   udp: true
   uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_2b38a_0015
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_2b38a_0012
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: GB_speednode_0014
   network: ws
   port: 443
@@ -77,3 +61,13 @@ proxies:
   type: vless
   udp: true
   uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+- alterId: 2
+  cipher: auto
+  name: GB_2b38a_0017
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
