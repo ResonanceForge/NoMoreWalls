@@ -242,7 +242,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_6811c_0001
+  name: GB_2e68b_0001
   port: 180
   server: 82.198.246.9
   skip-cert-verify: false
@@ -252,7 +252,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_6811c_0002
+  name: GB_2e68b_0002
   port: 180
   server: 82.198.246.214
   skip-cert-verify: false
@@ -262,7 +262,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_6811c_0003
+  name: GB_2e68b_0003
   network: ws
   port: 443
   server: free-v7-09.elbrusway.online
@@ -277,9 +277,22 @@ proxies:
       Host: free-v7-09.elbrusway.online
     path: /vmess-balkar
 - cipher: aes-128-gcm
-  name: RU_6811c_0009
+  name: RU_2e68b_0009
   password: 6784aee2-0dfe-474f-8446-480259ff9918
   port: 442
   server: ru.safepass.click
   type: ss
   udp: true
+- name: US_speednode_0066
+  network: ws
+  password: :U]2hAN7Y[Ka0Eb_
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: TEst-63W.PaGEs.deV
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: TEst-63W.PaGEs.deV
+    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==?ed=2560

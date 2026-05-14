@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: GB_6811c_0001
+  name: GB_2e68b_0001
   port: 180
   server: 82.198.246.9
   skip-cert-verify: false
@@ -11,7 +11,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_6811c_0002
+  name: GB_2e68b_0002
   port: 180
   server: 82.198.246.214
   skip-cert-verify: false
@@ -21,7 +21,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_6811c_0003
+  name: GB_2e68b_0003
   network: ws
   port: 443
   server: free-v7-09.elbrusway.online
@@ -35,3 +35,45 @@ proxies:
     headers:
       Host: free-v7-09.elbrusway.online
     path: /vmess-balkar
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0009
+  port: 443
+  reality-opts:
+    public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
+    short-id: '!!str ad8c7a6ace2f'
+  server: 2.26.123.64
+  servername: download.spectrum.vu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+- name: GB_speednode_0014
+  network: ws
+  port: 443
+  server: 217.180.14.212
+  servername: sni.111000.dns.army
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0016
+  port: 443
+  reality-opts:
+    public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
+    short-id: '!!str ad8c7a6ace2f'
+  server: 2.27.63.99
+  servername: download.spectrum.vu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
