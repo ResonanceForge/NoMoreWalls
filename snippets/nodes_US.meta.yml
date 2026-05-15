@@ -25,7 +25,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_5d022_0013
+  name: GB_36784_0013
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -63,7 +63,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chromefp=chrome
-  name: US_speednode_0056
+  name: US_36784_0056
   network: ws
   port: 443
   server: 34.180.125.14
@@ -78,7 +78,7 @@ proxies:
       Host: gogo.vks.dpdns.org
     path: /fp=chromefp=chrome
 - client-fingerprint: chrome
-  name: US_speednode_0057
+  name: US_36784_0057
   network: ws
   port: 443
   server: 34.180.125.14
@@ -94,7 +94,7 @@ proxies:
     path: /fp=chrome
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0058
+  name: US_36784_0058
   port: 22231
   server: 72.56.62.253
   servername: r1.mizulina.top
@@ -105,7 +105,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: US_speednode_0059
+  name: US_speednode_0037
   port: 22231
   server: r1.mizulina.top
   servername: r1.mizulina.top
@@ -115,7 +115,7 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
-  name: US_speednode_0060
+  name: US_36784_0060
   network: ws
   port: 443
   server: 47.84.95.77
@@ -130,7 +130,7 @@ proxies:
       Host: gogo.wknm.dpdns.org
     path: /
 - client-fingerprint: randomized
-  name: US_speednode_0062
+  name: US_36784_0062
   network: ws
   port: 2095
   server: ns.cloudflare.com
@@ -145,7 +145,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm--fangbinxing.workers.dev
     path: /
 - client-fingerprint: chrome
-  name: US_speednode_0063
+  name: US_36784_0063
   network: ws
   port: 443
   server: 69.84.182.13
@@ -161,7 +161,7 @@ proxies:
     path: /kbjc/jp1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0064
+  name: US_speednode_0039
   port: 443
   reality-opts:
     public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
@@ -173,7 +173,7 @@ proxies:
   type: vless
   udp: true
   uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb
-- name: US_speednode_0065
+- name: US_36784_0065
   network: ws
   port: 21505
   server: 70.39.206.127
@@ -187,7 +187,7 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?ed=2560
-- name: US_speednode_0066
+- name: US_36784_0066
   network: ws
   password: :U]2hAN7Y[Ka0Eb_
   port: 8443
@@ -200,13 +200,13 @@ proxies:
     headers:
       Host: TEst-63W.PaGEs.deV
     path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==?ed=2560
-- name: US_speednode_0067
+- name: US_36784_0067
   port: 7070
   server: 20.83.154.79
   type: socks5
   udp: true
 - client-fingerprint: chromefp=chromefp=chromefp=chrome
-  name: US_speednode_0068
+  name: US_36784_0068
   network: ws
   port: 443
   server: 34.180.125.14
@@ -224,7 +224,7 @@ proxies:
   - http/1.1
   client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: US_speednode_0069
+  name: US_speednode_0040
   port: 443
   server: it-bridge.sbrf-cdn342.ru
   servername: sub.sbrf-cdn342.ru
@@ -235,7 +235,7 @@ proxies:
   uuid: 7bd29cac-f692-48a3-88d1-505f7e55f0d0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0070
+  name: US_36784_0070
   port: 17700
   server: usvless.yydzx.xyz
   servername: usvless.yydzx.xyz
@@ -244,3 +244,30 @@ proxies:
   type: vless
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_speednode_0036
+  port: 57502
+  reality-opts:
+    public-key: IOAu39FSiRk_VX4sfzCVZorWhUY0ikftPdHqcmNoY1c
+    short-id: '!!str ebfeeffb94d5bd5d'
+  server: 64.49.46.225
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a4caef32-090f-4f17-b7fa-2808f205620d
+- client-fingerprint: chrome
+  name: US_speednode_0038
+  port: 23100
+  reality-opts:
+    public-key: H0HQU-snRgdfuIYOe9VkVHVn3mFqrHUD8lle55dilxU
+    short-id: '!!str 303a58f57b0d'
+  server: 156.238.254.5
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5a17f2f-aa94-4b61-8574-ce0b301f9062
