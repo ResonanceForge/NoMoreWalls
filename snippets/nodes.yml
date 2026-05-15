@@ -194,13 +194,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_36784_0013
+  name: 🇺🇸 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
@@ -243,28 +242,66 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: CN_36784_0005
-  port: 9046
-  server: select-hk.ddnskunlun.com
-  servername: select-hk.ddnskunlun.com
+  name: CN_95e1a_0007
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  ws-opts:
+    headers:
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
+    path: /
 - alterId: 0
-  cipher: aes-128-gcm
-  name: GB_36784_0015
-  port: 180
-  server: 82.198.246.9
+  cipher: auto
+  name: CN_95e1a_0008
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  ws-opts:
+    headers:
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
+    path: /
 - alterId: 0
-  cipher: aes-128-gcm
-  name: GB_36784_0012
+  cipher: auto
+  name: CN_95e1a_0009
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  ws-opts:
+    headers:
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: GB_95e1a_0010
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.131
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_95e1a_0011
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.141
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: GB_95e1a_0012
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -272,110 +309,63 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_95e1a_0014
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  ws-opts:
+    headers:
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
+    path: /
 - alterId: 2
   cipher: auto
-  name: GB_36784_0017
-  port: 30836
-  server: v36.hdacd.com
+  name: ID_95e1a_0015
+  port: 30809
+  server: v9.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: HK_36784_0019
-  network: ws
-  port: 53213
-  server: bgroup.node4.v.nodelist-airport.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
-- alterId: 0
-  cipher: auto
-  name: SG_36784_0051
-  port: 28641
-  server: bgroup.node3.v.nodelist-airport.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
-- cipher: chacha20-ietf-poly1305
-  name: TW_36784_0052
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg0011499tl.cybervena.com
+- cipher: aes-256-cfb
+  name: VN_95e1a_0041
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.214
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: TW_36784_0053
-  password: qwerREWQ@@
-  port: 41632
-  server: 185.189.160.105
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: TW_36784_0054
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 111.248.76.47
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: TW_36784_0055
-  password: a9a0d092-6f0e-4701-81ee-454643d6d506
-  port: 50099
-  server: r3mrcg0011499tl.cybervena.com
-  type: ss
-  udp: true
-- name: US_36784_0066
-  network: ws
-  password: :U]2hAN7Y[Ka0Eb_
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: TEst-63W.PaGEs.deV
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: TEst-63W.PaGEs.deV
-    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==?ed=2560
-- cipher: aes-256-cfb
-  name: VN_36784_0071
+  name: VN_95e1a_0042
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.58
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_36784_0072
+  name: VN_95e1a_0043
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.222
+  server: 103.186.155.213
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_36784_0073
+  name: VN_95e1a_0044
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.69
+  server: 103.186.155.229
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_36784_0074
+  name: VN_95e1a_0045
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.128
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_36784_0075
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.55
+  server: 103.186.154.24
   type: ss
   udp: true

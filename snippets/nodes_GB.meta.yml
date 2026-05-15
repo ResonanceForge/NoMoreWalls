@@ -1,31 +1,21 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_36784_0009
-  port: 443
-  reality-opts:
-    public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
-    short-id: '!!str ad8c7a6ace2f'
-  server: 2.26.123.64
-  servername: download.spectrum.vu
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: GB_95e1a_0010
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.131
+  type: ss
   udp: true
-  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_36784_0015
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: GB_95e1a_0011
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.141
+  type: ss
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
-  name: GB_36784_0012
+  cipher: auto
+  name: GB_95e1a_0012
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -33,44 +23,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: GB_36784_0014
-  network: ws
-  port: 443
-  server: 217.180.14.212
-  servername: sni.111000.dns.army
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_36784_0016
-  port: 443
-  reality-opts:
-    public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
-    short-id: '!!str ad8c7a6ace2f'
-  server: 2.27.63.99
-  servername: download.spectrum.vu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-- alterId: 2
-  cipher: auto
-  name: GB_36784_0017
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0013
@@ -85,3 +37,18 @@ proxies:
   type: vless
   udp: true
   uuid: 5bd36fef-18ac-4d69-8080-25df6c9b369e
+- alterId: 0
+  cipher: auto
+  name: GB_95e1a_0014
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  ws-opts:
+    headers:
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
+    path: /
