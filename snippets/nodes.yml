@@ -211,7 +211,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_5db17_0009
+  name: GB_af36c_0009
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -250,7 +250,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
-  name: ES_5db17_0003
+  name: ES_af36c_0003
   password: KnJGad3FqTvjqbaX
   port: 9014
   server: 5.188.181.201
@@ -258,7 +258,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_5db17_0010
+  name: GB_af36c_0010
   port: 180
   server: 82.198.246.9
   skip-cert-verify: false
@@ -267,7 +267,7 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: GB_5db17_0006
+  name: GB_af36c_0006
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.35
@@ -275,7 +275,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: GB_5db17_0007
+  name: GB_af36c_0007
   port: 180
   server: 82.198.246.214
   skip-cert-verify: true
@@ -285,7 +285,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_5db17_0008
+  name: GB_af36c_0008
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -295,7 +295,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: GB_5db17_0011
+  name: GB_af36c_0011
   port: 30824
   server: v24.hdacd.com
   skip-cert-verify: false
@@ -303,7 +303,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: TW_speednode_0028
+- name: TW_af36c_0028
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
   server: tvhinet.lajichang.xyz
@@ -311,7 +311,7 @@ proxies:
   sni: bing.com
   type: trojan
   udp: true
-- name: TW_speednode_0029
+- name: TW_af36c_0029
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
   server: tvhinet.lajichang.xyz
@@ -325,7 +325,7 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: TW_5db17_0030
+  name: TW_af36c_0030
   network: http
   port: 53229
   server: 103.127.243.54
@@ -335,30 +335,43 @@ proxies:
   udp: true
   uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
 - cipher: aes-256-cfb
-  name: VN_5db17_0042
+  name: VN_af36c_0042
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.31
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_5db17_0043
+  name: VN_af36c_0043
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.9
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_5db17_0044
+  name: VN_af36c_0044
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.81
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_5db17_0045
+  name: VN_af36c_0045
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.183
   type: ss
   udp: true
+- name: US_speednode_0048
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: vless.herogoing.top
+  skip-cert-verify: false
+  sni: vless.herogoing.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vless.herogoing.top
+    path: /tr?ed=2560
