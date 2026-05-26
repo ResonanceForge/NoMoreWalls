@@ -61,90 +61,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: US_52b5a_0021
-  port: 36895
-  reality-opts:
-    public-key: SKJQzoN8Lh8kqrDEyKzevbHHmfRhKe8XmzBxPYXF2A4
-    short-id: '!!str 5a585c3e894bf074'
-  server: 44.242.50.106
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c875449-ae7d-46f8-b919-5a29f271dfce
-- name: US_52b5a_0022
-  network: ws
-  password: :U]2hAN7Y[Ka0Eb_
-  port: 8443
-  server: www.speedtest.net
-  skip-cert-verify: false
-  sni: TEst-63W.PaGEs.deV
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: TEst-63W.PaGEs.deV
-    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==
-- name: US_52b5a_0023
-  network: ws
-  port: 2096
-  server: 172.64.47.168
-  servername: jp.aniua.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: jp.aniua.qzz.io
-    path: /?ed=2095
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: US_52b5a_0024
-  network: ws
-  port: 443
-  server: 92.118.228.113
-  servername: c1mxc.api-gateway.fgfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
-- name: US_52b5a_0025
-  network: ws
-  password: :U]2hAN7Y[Ka0Eb_
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: TEst-63W.PaGEs.deV
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: TEst-63W.PaGEs.deV
-    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==
-- name: US_52b5a_0026
-  network: ws
-  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: gzjx.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: gzjx.dpdns.org
-    path: /51.91.253.83=8443
 - client-fingerprint: chrome
   name: US_speednode_0035
   port: 443
@@ -171,3 +87,17 @@ proxies:
   type: vless
   udp: true
   uuid: 301a4309-0f4d-42bf-a057-7d60c7a73259
+- cipher: aes-256-cfb
+  name: US_0457f_0037
+  password: amazonskr05
+  port: 443
+  server: 13.218.172.80
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_0457f_0038
+  password: amazonskr05
+  port: 443
+  server: 100.27.193.207
+  type: ss
+  udp: true

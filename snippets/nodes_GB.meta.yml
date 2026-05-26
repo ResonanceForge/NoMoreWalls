@@ -1,52 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_52b5a_0005
-  port: 443
-  reality-opts:
-    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
-    short-id: '!!str bdac121c7debdaba'
-  server: swe-8t.freeonline.pro
-  servername: www.microsoft.com
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_0457f_0006
+  port: 180
+  server: 82.198.246.214
   skip-cert-verify: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: GB_52b5a_0006
-  network: ws
-  port: 2087
-  server: 157.245.34.157
-  servername: c1mxc.api-gateway.fgfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: GB_52b5a_0007
-  network: ws
-  port: 443
-  server: 157.245.33.149
-  servername: c1mxc.api-gateway.fgfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0007

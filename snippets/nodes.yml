@@ -248,49 +248,70 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  name: PY_52b5a_0015
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.165.233.93
+- cipher: chacha20-ietf-poly1305
+  name: DE_0457f_0005
+  password: Fh0TVw64B57wDPoJ2VLsog
+  port: 443
+  server: 5.230.184.171
   type: ss
   udp: true
-- name: US_52b5a_0022
-  network: ws
-  password: :U]2hAN7Y[Ka0Eb_
-  port: 8443
-  server: www.speedtest.net
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_0457f_0006
+  port: 180
+  server: 82.198.246.214
   skip-cert-verify: false
-  sni: TEst-63W.PaGEs.deV
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: TEst-63W.PaGEs.deV
-    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==
-- name: US_52b5a_0025
-  network: ws
-  password: :U]2hAN7Y[Ka0Eb_
-  port: 8443
-  server: 104.17.148.22
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: TW_0457f_0031
+  network: http
+  port: 53229
+  server: 103.127.243.54
   skip-cert-verify: false
-  sni: TEst-63W.PaGEs.deV
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: TEst-63W.PaGEs.deV
-    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==
-- name: US_52b5a_0026
-  network: ws
-  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+- cipher: chacha20-ietf-poly1305
+  name: TW_0457f_0032
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg0011499tl.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TW_0457f_0033
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  port: 50099
+  server: r3mrcg0011499tl.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: UA_0457f_0034
+  password: qTa6L03BFhHoyA3psL9xpV
   port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: gzjx.dpdns.org
-  type: trojan
+  server: 185.207.136.67
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: gzjx.dpdns.org
-    path: /51.91.253.83=8443
+- cipher: aes-256-cfb
+  name: US_0457f_0037
+  password: amazonskr05
+  port: 443
+  server: 13.218.172.80
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_0457f_0038
+  password: amazonskr05
+  port: 443
+  server: 100.27.193.207
+  type: ss
+  udp: true
