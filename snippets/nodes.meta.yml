@@ -97,6 +97,16 @@ proxies:
   sni: assgzl.hhwyy.xyz
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: outline_ir
+  password: auth
+  port: 443
+  server: 49.12.142.89
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: 'Telegram : @V2ynpv'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -131,6 +141,14 @@ proxies:
   server: 166.88.142.205
   skip-cert-verify: true
   sni: mg6.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 🐏80@oneclickvpnkeys
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -344,21 +362,21 @@ proxies:
       Host: ger.vpnsmart.xyz
     path: /
 - cipher: aes-256-cfb
-  name: CA_b9415_0005
+  name: CA_1b1dd_0005
   password: amazonskr05
   port: 443
   server: 15.157.68.13
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: CA_b9415_0006
+  name: CA_1b1dd_0006
   password: amazonskr05
   port: 443
   server: 35.183.129.131
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: CA_b9415_0007
+  name: CA_1b1dd_0007
   password: amazonskr05
   port: 443
   server: 15.222.60.36
@@ -366,7 +384,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: CH_b9415_0008
+  name: CH_1b1dd_0008
   port: 9002
   server: world.t.51guangtaobao.com
   skip-cert-verify: false
@@ -376,7 +394,7 @@ proxies:
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: CH_b9415_0009
+  name: CH_1b1dd_0009
   port: 6012
   server: world.t.51guangtaobao.com
   skip-cert-verify: false
@@ -386,7 +404,7 @@ proxies:
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: CH_b9415_0010
+  name: CH_1b1dd_0010
   port: 2504
   server: world.t.51guangtaobao.com
   skip-cert-verify: false
@@ -396,7 +414,7 @@ proxies:
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: CH_b9415_0011
+  name: CH_1b1dd_0011
   port: 9020
   server: world.t.51guangtaobao.com
   skip-cert-verify: false
@@ -406,7 +424,7 @@ proxies:
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: CH_b9415_0012
+  name: CH_1b1dd_0012
   port: 6009
   server: world.t.51guangtaobao.com
   skip-cert-verify: false
@@ -441,14 +459,14 @@ proxies:
   udp: true
   uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
 - cipher: chacha20-ietf-poly1305
-  name: CY_b9415_0015
+  name: CY_1b1dd_0015
   password: hfSE3thwAQqvSIac5xLpUD
   port: 53292
   server: 45.83.130.97
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: DE_b9415_0016
+  name: DE_1b1dd_0016
   password: amazonskr05
   port: 443
   server: 18.195.95.15
@@ -466,7 +484,7 @@ proxies:
   uuid: 55f7d143-a594-4a91-b030-f227039f85ef
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_b9415_0018
+  name: GB_1b1dd_0018
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -535,7 +553,7 @@ proxies:
   udp: true
   uuid: 729d3d1e-ee1a-4c42-84bc-2ff331518221
 - cipher: chacha20-ietf-poly1305
-  name: GB_b9415_0024
+  name: GB_1b1dd_0024
   password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
   port: 31348
   server: 89.185.84.34
@@ -631,7 +649,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - cipher: chacha20-ietf-poly1305
-  name: NL_b9415_0035
+  name: NL_1b1dd_0035
   password: CJmTCCx7Ltud
   port: 8388
   server: 108.181.126.122
@@ -719,7 +737,7 @@ proxies:
   udp: true
   uuid: bbbdf76b-c952-43bf-aa76-a6dcd10f4ab9
 - cipher: chacha20-ietf-poly1305
-  name: SE_b9415_0047
+  name: SE_1b1dd_0047
   password: CZjvepQLlrEC9sVxkFfnlK
   port: 34633
   server: 78.40.117.161
@@ -731,7 +749,7 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: TW_b9415_0048
+  name: TW_1b1dd_0048
   network: http
   port: 55386
   server: 103.127.243.60
@@ -741,7 +759,7 @@ proxies:
   udp: true
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
 - cipher: chacha20-ietf-poly1305
-  name: TW_b9415_0049
+  name: TW_1b1dd_0049
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
@@ -1046,7 +1064,7 @@ proxies:
     path: /2.56.204.183:443
 - alterId: 0
   cipher: auto
-  name: US_b9415_0070
+  name: US_1b1dd_0070
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
@@ -1069,7 +1087,7 @@ proxies:
   uuid: 2042c7c4-f0c8-48ec-926b-65112b064e2c
 - alterId: 0
   cipher: auto
-  name: US_b9415_0072
+  name: US_1b1dd_0072
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -1103,7 +1121,7 @@ proxies:
   udp: true
   uuid: 8a6b2cf8-b21a-402a-bc3f-7efee320052f
 - cipher: chacha20-ietf-poly1305
-  name: US_b9415_0075
+  name: US_1b1dd_0075
   password: 4LwjNxZEaMDsT26xKjcNmo
   port: 4668
   server: 79.141.163.21
@@ -1152,28 +1170,28 @@ proxies:
       Host: afrcloud2.c01.kr
     path: /2.56.204.183:443fp=chrome
 - cipher: aes-256-cfb
-  name: VN_b9415_0079
+  name: VN_1b1dd_0079
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.200
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_b9415_0080
+  name: VN_1b1dd_0080
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.232
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_b9415_0081
+  name: VN_1b1dd_0081
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.202
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_b9415_0082
+  name: VN_1b1dd_0082
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.208
