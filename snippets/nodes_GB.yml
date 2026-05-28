@@ -1,7 +1,17 @@
 proxies:
 - alterId: 0
+  cipher: auto
+  name: GB_e5853_0022
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
   cipher: aes-128-gcm
-  name: GB_3676f_0018
+  name: GB_e5853_0023
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -9,10 +19,3 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: GB_3676f_0024
-  password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
-  port: 31348
-  server: 89.185.84.34
-  type: ss
-  udp: true

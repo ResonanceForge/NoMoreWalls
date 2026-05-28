@@ -202,12 +202,13 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
+  name: GB_e5853_0021
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
@@ -249,93 +250,191 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
-  name: CA_3676f_0005
-  password: amazonskr05
-  port: 443
-  server: 15.157.68.13
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: CA_3676f_0006
+  name: CA_e5853_0001
   password: amazonskr05
   port: 443
   server: 35.183.129.131
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0002
+  port: 11104
+  server: dotu-hkv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0003
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0004
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0005
+  port: 11105
+  server: dotu-hkv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0006
+  port: 11129
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0007
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0008
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0009
+  port: 11130
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0010
+  port: 11113
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0011
+  network: ws
+  port: 33414
+  server: cu7.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu7.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0012
+  port: 11101
+  server: dotu-hkv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0013
+  network: ws
+  port: 33204
+  server: yd4.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd4.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: CN_e5853_0014
+  network: ws
+  port: 33411
+  server: ct2.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct2.ainivp.com
+    path: /ray
 - cipher: aes-256-cfb
-  name: CA_3676f_0007
+  name: DE_e5853_0017
   password: amazonskr05
   port: 443
-  server: 15.222.60.36
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: CH_3676f_0008
-  port: 9002
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: CH_3676f_0009
-  port: 6012
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: CH_3676f_0010
-  port: 2504
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: CH_3676f_0011
-  port: 9020
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: CH_3676f_0012
-  port: 6009
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- cipher: chacha20-ietf-poly1305
-  name: CY_3676f_0015
-  password: hfSE3thwAQqvSIac5xLpUD
-  port: 53292
-  server: 45.83.130.97
+  server: 18.195.213.130
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: DE_3676f_0016
+  name: DE_e5853_0018
   password: amazonskr05
   port: 443
-  server: 18.195.95.15
+  server: 3.71.109.196
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: ES_e5853_0019
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: GB_e5853_0022
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_3676f_0018
+  name: GB_e5853_0023
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -343,104 +442,35 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: GB_3676f_0024
-  password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
-  port: 31348
-  server: 89.185.84.34
-  type: ss
-  udp: true
-- name: KR_speednode_0029
+- name: SC_speednode_0040
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 30303
-  server: 121.191.33.84
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
+  password: mitivpn
+  port: 443
+  server: 45.130.125.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
-- name: KR_speednode_0030
+      Host: www.app-cloud.ir
+    path: /?ed=2048
+- name: SC_speednode_0041
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 12345
-  server: 59.30.42.194
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
+  password: mitivpn
+  port: 443
+  server: 45.130.125.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
-- name: KR_speednode_0031
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18000
-  server: 121.154.96.50
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
-- name: KR_speednode_0032
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 29999
-  server: 14.53.107.138
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
-- cipher: chacha20-ietf-poly1305
-  name: NL_3676f_0035
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SE_3676f_0047
-  password: CZjvepQLlrEC9sVxkFfnlK
-  port: 34633
-  server: 78.40.117.161
-  type: ss
-  udp: true
+      Host: www.app-cloud.ir
+    path: /
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: TW_3676f_0048
-  network: http
-  port: 55386
-  server: 103.127.243.60
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- cipher: chacha20-ietf-poly1305
-  name: TW_3676f_0049
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: US_3676f_0070
+  name: US_e5853_0043
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
@@ -448,48 +478,55 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: US_3676f_0072
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+- name: US_speednode_0045
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: www.app-cloud.ir
+  type: trojan
   udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- cipher: chacha20-ietf-poly1305
-  name: US_3676f_0075
-  password: 4LwjNxZEaMDsT26xKjcNmo
-  port: 4668
-  server: 79.141.163.21
-  type: ss
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /?ed=2048
+- name: US_speednode_0046
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: VN_3676f_0079
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.200
-  type: ss
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /?ed=2048
+- name: US_speednode_0048
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: VN_3676f_0080
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.232
-  type: ss
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /
+- name: US_speednode_0049
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
+  skip-cert-verify: false
+  sni: www.app-cloud.ir
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: VN_3676f_0081
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.202
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_3676f_0082
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.208
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /
