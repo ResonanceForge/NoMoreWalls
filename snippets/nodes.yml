@@ -202,13 +202,12 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_c13b4_0007
+  name: 🇺🇸 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
@@ -249,98 +248,49 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  name: CA_c13b4_0002
-  password: amazonskr05
-  port: 443
-  server: 15.223.186.62
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: FR_c13b4_0004
-  password: Sj2yu7qKPprUmPJoOCgN6q
-  port: 443
-  server: 163.5.192.18
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: GB_c13b4_0008
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: GB_c13b4_0009
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: GB_c13b4_0011
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: NN_c13b4_0016
+  name: CN_660ee_0004
   network: ws
-  port: 33408
-  server: yd3.ainivp.com
+  port: 10055
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
   ws-opts:
     headers:
-      Host: yd3.ainivp.com
-    path: /ray
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: RU_c13b4_0020
-  password: Sy2vCAJafzeswDVuBfNO6Q
-  port: 8388
-  server: 89.23.98.196
+  name: FI_660ee_0006
+  password: MZeSTvpl2uoey1R0frhPyJ
+  port: 51544
+  server: 109.107.182.229
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG_c13b4_0022
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 11788
-  server: jp-05.jjsdns.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: TW_c13b4_0023
-  network: http
-  port: 53229
-  server: 103.127.243.54
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
 - name: HK_speednode_0007
   password: 65fQmPHHbPcBCfvSHt
   port: 443
   server: au-4.tr202605.com
   skip-cert-verify: false
   type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: US_660ee_0026
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: US_660ee_0027
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
   udp: true
