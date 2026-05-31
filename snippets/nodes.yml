@@ -202,7 +202,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_29a79_0007
+  name: GB_c13b4_0007
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -250,14 +250,14 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
-  name: CA_29a79_0002
+  name: CA_c13b4_0002
   password: amazonskr05
   port: 443
   server: 15.223.186.62
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: FR_29a79_0004
+  name: FR_c13b4_0004
   password: Sj2yu7qKPprUmPJoOCgN6q
   port: 443
   server: 163.5.192.18
@@ -265,7 +265,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: GB_29a79_0008
+  name: GB_c13b4_0008
   port: 180
   server: 82.198.246.214
   skip-cert-verify: false
@@ -275,7 +275,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: GB_29a79_0009
+  name: GB_c13b4_0009
   port: 30836
   server: v36.hdacd.com
   skip-cert-verify: false
@@ -285,7 +285,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: GB_29a79_0011
+  name: GB_c13b4_0011
   port: 30829
   server: v29.hdacd.com
   skip-cert-verify: false
@@ -295,7 +295,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: NN_29a79_0016
+  name: NN_c13b4_0016
   network: ws
   port: 33408
   server: yd3.ainivp.com
@@ -309,14 +309,14 @@ proxies:
       Host: yd3.ainivp.com
     path: /ray
 - cipher: chacha20-ietf-poly1305
-  name: RU_29a79_0020
+  name: RU_c13b4_0020
   password: Sy2vCAJafzeswDVuBfNO6Q
   port: 8388
   server: 89.23.98.196
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG_29a79_0022
+  name: SG_c13b4_0022
   password: a9d727cd-330b-4edd-8911-7c224df6afd5
   port: 11788
   server: jp-05.jjsdns.com
@@ -328,7 +328,7 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: TW_29a79_0023
+  name: TW_c13b4_0023
   network: http
   port: 53229
   server: 103.127.243.54
@@ -337,3 +337,10 @@ proxies:
   type: vmess
   udp: true
   uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+- name: HK_speednode_0007
+  password: 65fQmPHHbPcBCfvSHt
+  port: 443
+  server: au-4.tr202605.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
