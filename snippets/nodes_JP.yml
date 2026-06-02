@@ -1,5 +1,5 @@
 proxies:
-- name: 日本|@ripaojiedian
+- name: JP_speednode_0023
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -7,6 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: 日本2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -23,10 +24,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-gcm
-  name: JP_11c6a_0024
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 29690
-  server: ss.025.node-for-bigairport.win
-  type: ss
-  udp: true

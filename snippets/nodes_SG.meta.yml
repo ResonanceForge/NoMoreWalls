@@ -1,5 +1,5 @@
 proxies:
-- name: 新加坡|@ripaojiedian
+- name: JP_speednode_0022
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 1180
@@ -7,6 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -23,10 +24,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: SG_11c6a_0048
-  password: vJ4LrBqkqCYgGMO08YmmsMjQ3ZMtJ7Ey6Sxfpe
-  port: 41348
-  server: 5.34.177.228
-  type: ss
-  udp: true
