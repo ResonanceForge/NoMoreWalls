@@ -2,21 +2,35 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 30022
-  server: 43.207.209.201
+  port: 16712
+  server: 13.114.234.238
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 11541
-  server: 43.198.204.47
+  port: 31351
+  server: 43.207.82.19
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: JP_speednode_0012
+- name: 日本3|@ripaojiedian
   network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 2511
+  server: 16.162.32.32
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-gcm
+  name: JP_0b374_0011
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 29004
+  server: ss.022.node-for-bigairport.win
+  type: ss
+  udp: true
+- name: JP_speednode_0012
   password: d84665c37878196ecf983cf6910e3b44
   port: 8066
   server: 18.181.199.223
@@ -24,10 +38,11 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: JP_0b374_0011
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 29004
-  server: ss.022.node-for-bigairport.win
-  type: ss
+- name: JP_speednode_0013
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 3842
+  server: 18.181.199.223
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
   udp: true
