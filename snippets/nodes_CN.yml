@@ -1,16 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: CN_b6972_0001
-  network: ws
-  port: 10021
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  name: CN_22a0b_0001
+  port: 11973
+  server: board-04.ddnskunlun.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: CN_22a0b_0002
+  port: 11885
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
