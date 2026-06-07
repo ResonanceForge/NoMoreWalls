@@ -1,4 +1,70 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[ermaozi/get_subscribe]🇺🇸_US_美...'
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '[ermaozi/get_subscribe]🇺🇸_US_美... #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- name: '[ermaozi/get_subscribe]🇺🇸_US_美... #2'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: '[ermaozi/get_subscribe]🇺🇸_US_美... #3'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[ermaozi/get_subscribe]🇺🇸_US_美... #4'
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '[Rawdroid/Free-servers]美国+加利福尼...'
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- name: '[Rawdroid/Free-servers]美国+科罗拉多...'
+  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
+  port: 443
+  server: 130.94.104.210
+  skip-cert-verify: false
+  sni: www.cdn-structure.click
+  type: trojan
+- cipher: aes-256-gcm
+  name: '[Rawdroid/Free-servers]美国+V2CR...'
+  password: 444ec1bb5b77df8c
+  port: 50128
+  server: 166.1.228.19
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: '[ermaozi/get_subscribe]🇮🇩_ID_印...'
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -24,14 +90,4 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
