@@ -16,13 +16,6 @@ proxies:
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
-- name: 科技共享-开源节点 572
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
 - name: 科技共享-开源节点 003
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45553
@@ -30,12 +23,19 @@ proxies:
   skip-cert-verify: true
   sni: ch.01.naiun.bilibili.com
   type: trojan
+- name: 科技共享-开源节点 572
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 科技共享-开源节点 880
+  name: 科技共享-开源节点 887
   network: tcp
-  port: 180
-  server: 82.198.246.214
+  port: '180'
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
@@ -47,18 +47,19 @@ proxies:
   skip-cert-verify: false
   type: trojan
 - name: '[Rawdroid/Free-servers]美国+科罗拉多...'
-  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
+  network: tcp
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
   port: 443
-  server: 130.94.104.210
+  server: 130.94.92.144
   skip-cert-verify: false
-  sni: www.cdn-structure.click
+  sni: www.node-finder.click
   type: trojan
-- cipher: aes-256-gcm
-  name: '[Rawdroid/Free-servers]美国+V2CR...'
-  password: 444ec1bb5b77df8c
-  port: 50128
-  server: 166.1.228.19
-  type: ss
+- name: '[Rawdroid/Free-servers]美国+科罗拉多... #1'
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  port: 443
+  server: 130.94.107.171
+  sni: www.logger-guard.click
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 科技共享-开源节点 721
@@ -86,7 +87,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_1ab65_0012
+  name: GB_54ab4_0012
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
