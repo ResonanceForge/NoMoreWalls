@@ -1,4 +1,11 @@
 proxies:
+- name: 科技共享-开源节点 003
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 科技共享-开源节点 898
@@ -16,13 +23,6 @@ proxies:
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
-- name: 科技共享-开源节点 003
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
 - name: 科技共享-开源节点 572
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 47909
@@ -30,66 +30,11 @@ proxies:
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 科技共享-开源节点 887
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 科技共享-开源节点 273
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  skip-cert-verify: false
-  type: trojan
-- name: '[Rawdroid/Free-servers]美国+科罗拉多...'
-  network: tcp
-  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
-  port: 443
-  server: 130.94.92.144
-  skip-cert-verify: false
-  sni: www.node-finder.click
-  type: trojan
-- name: '[Rawdroid/Free-servers]美国+科罗拉多... #1'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 科技共享-开源节点 721
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
   server: 95.40.24.24
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 美国2|@ripaojiedian
-  network: tcp
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 16.163.146.65
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -103,7 +48,57 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_e0fcc_0012
+  name: 科技共享-开源节点 887
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 科技共享-开源节点 167
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
+  port: 443
+  server: 130.94.68.100
+  skip-cert-verify: true
+  sni: www.rolll.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 科技共享-开源节点 880
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '[Rawdroid/Free-servers]美国+科罗拉多... #1'
+  network: tcp
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
+  port: 443
+  server: 130.94.92.144
+  sni: www.node-finder.click
+  type: trojan
+- name: 美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  port: 49277
+  server: 16.163.146.65
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: GB_6e548_0012
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
