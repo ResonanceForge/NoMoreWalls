@@ -89,21 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 科技共享-开源节点 003
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- name: 科技共享-开源节点 686
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  type: trojan
 - alpn:
   - http/1.1
   name: '[peasoft/NoMoreWalls]🇫🇷FR_3|1....'
@@ -130,100 +115,6 @@ proxies:
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
-- name: 科技共享-开源节点 572
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 32434
-  server: 18.166.29.119
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 美国|@ripaojiedian
-  network: tcp
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 95.40.24.24
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- cipher: aes-256-cfb
-  name: '[peasoft/NoMoreWalls]🇨🇦CA_2|1....'
-  password: amazonskr05
-  port: 443
-  server: 52.60.99.199
-  type: ss
-- name: DE_speednode_0011
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: de-1.hysteria.ltd
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: '[peasoft/NoMoreWalls]🇰🇷KR_1|3....'
-  password: qwerREWQ@@
-  port: 55104
-  server: 221.150.109.20
-  type: ss
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 17801
-  server: 54.46.2.184
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 科技共享-开源节点 548
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001269pz2.cybervena.com
-  type: ss
-- cipher: aes-256-gcm
-  name: '[peasoft/NoMoreWalls]🇷🇺RU_1|2....'
-  password: 32c0ea6e823341a2
-  port: 20129
-  server: 46.29.163.200
-  type: ss
-- name: '[1808.ga]🇮🇳 India, Mumbai | [B...'
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: amanm.wsone.icu
-  skip-cert-verify: false
-  sni: amanm.wsone.icu
-  type: trojan
-- name: '[1808.ga]🇮🇳 India, New Delhi |...'
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: hyfuuf6.wsone.icu
-  skip-cert-verify: true
-  sni: hyfuuf6.wsone.icu
-  type: trojan
-- name: '[1808.ga]🇮🇳 India, Mumbai | [B... #1'
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: tttyder.wsone.icu
-  skip-cert-verify: true
-  sni: tttyder.wsone.icu
-  type: trojan
-- name: '[1808.ga]🇮🇳 India, Mumbai | [B... #2'
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: amanm.wsone.icu
-  skip-cert-verify: false
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 科技共享-开源节点 887
@@ -234,20 +125,18 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 科技共享-开源节点 167
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  skip-cert-verify: true
-  sni: www.rolll.click
-  type: trojan
-- name: '[1808.ga]🇻🇳 Vietnam, Hanoi | [...'
-  network: tcp
-  password: DX4wKmVl.CNIjwO5CYf7_qg+f1eMN4yt_F
-  port: 443
-  server: 130.94.3.146
+- name: '[peasoft/NoMoreWalls]DE_speedn...'
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
   skip-cert-verify: false
-  sni: www.event-snapshot.click
+  sni: de-1.hysteria.ltd
+  type: trojan
+- name: '[Rawdroid/Free-servers]美国+V2CR...'
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
+  port: 443
+  server: 149.104.87.182
+  sni: www.jewelapp.click
   type: trojan
 - alterId: 0
   cipher: auto
@@ -259,19 +148,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[Rawdroid/Free-servers]美国+科罗拉多... #1'
-  network: tcp
-  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
-  port: 443
-  server: 130.94.92.144
-  sni: www.node-finder.click
-  type: trojan
-- cipher: aes-256-cfb
-  name: '[peasoft/NoMoreWalls]🇰🇷KR_2|4....'
-  password: qwerREWQ@@
-  port: 3417
-  server: 221.150.109.19
-  type: ss
 - alterId: 2
   cipher: auto
   name: 科技共享-开源节点 894
@@ -279,15 +155,6 @@ proxies:
   port: '30807'
   server: v10.hdacd.com
   servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 科技共享-开源节点 342
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -370,6 +237,22 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 32434
+  server: 18.166.29.119
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  port: 49277
+  server: 95.40.24.24
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
@@ -378,36 +261,142 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 17801
+  server: 54.46.2.184
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_9db07_0012
+  name: 🇺🇸 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: CN_9db07_0001
-  port: 11973
-  server: board-04.ddnskunlun.com
+  name: AU_2a61e_0001
+  port: 30808
+  server: v8.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: CN_9db07_0002
-  port: 11885
-  server: board-02.ddnskunlun.com
+  name: CN_2a61e_0003
+  network: ws
+  port: 10055
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: GB_2a61e_0007
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: GB_2a61e_0008
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: HK_2a61e_0009
+  network: http
+  port: 56972
+  server: 154.37.223.19
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+- alterId: 2
+  cipher: auto
+  name: ID_2a61e_0010
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: IR_2a61e_0011
+  port: 1020
+  server: nlt.reata.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+- alterId: 2
+  cipher: auto
+  name: JP_2a61e_0012
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: TW_2a61e_0052
+  network: http
+  port: 53229
+  server: 103.127.243.54
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+- cipher: chacha20-ietf-poly1305
+  name: TW_2a61e_0053
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TW_2a61e_0054
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 科技共享-开源节点 886
@@ -428,6 +417,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: 科技共享-开源节点 003
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
 - name: 科技共享-开源节点 324
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -1041,6 +1037,13 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 科技共享-开源节点 167
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
+  port: 443
+  server: 130.94.68.100
+  skip-cert-verify: true
+  sni: www.rolll.click
+  type: trojan
 - name: 科技共享-开源节点 171
   password: BxceQaOe
   port: 4099
@@ -1245,6 +1248,15 @@ proxies:
   port: 53292
   server: 45.83.130.97
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 科技共享-开源节点 342
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 科技共享-开源节点 230
@@ -1646,6 +1658,12 @@ proxies:
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: chacha20-ietf-poly1305
+  name: 科技共享-开源节点 548
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001269pz2.cybervena.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 科技共享-开源节点 365
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -2111,6 +2129,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- name: 科技共享-开源节点 572
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 科技共享-开源节点 844
@@ -2184,6 +2209,14 @@ proxies:
     headers:
       Host: cg1c04.waimaojd.com
     path: /api/v1/graphql
+- name: 科技共享-开源节点 686
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 科技共享-开源节点 617

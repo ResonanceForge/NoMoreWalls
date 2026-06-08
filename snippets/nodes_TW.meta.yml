@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 科技共享-开源节点 548
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001269pz2.cybervena.com
-  type: ss
 - name: TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
@@ -13,3 +7,32 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: TW_2a61e_0052
+  network: http
+  port: 53229
+  server: 103.127.243.54
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+- cipher: chacha20-ietf-poly1305
+  name: TW_2a61e_0053
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TW_2a61e_0054
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
+  udp: true

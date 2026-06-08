@@ -1,12 +1,4 @@
 proxies:
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 32434
-  server: 18.166.29.119
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
@@ -38,4 +30,12 @@ proxies:
   server: 18.166.208.105
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 32434
+  server: 18.166.29.119
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
