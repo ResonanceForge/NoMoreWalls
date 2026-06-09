@@ -15,7 +15,7 @@ proxies:
     path: '%2Fjumping'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: KR_speednode_0014
+  name: KR_654bd_0014
   port: 30086
   reality-opts:
     public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
@@ -29,7 +29,7 @@ proxies:
   uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: KR_speednode_0015
+  name: KR_654bd_0015
   port: 15803
   reality-opts:
     public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
@@ -41,7 +41,7 @@ proxies:
   type: vless
   udp: true
   uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- name: KR_speednode_0016
+- name: KR_654bd_0016
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -50,13 +50,13 @@ proxies:
   type: http
   udp: true
   username: test
-- name: KR_speednode_0018
+- name: KR_654bd_0018
   port: 1090
   server: 121.169.46.116
   type: socks5
   udp: true
   username: Og%3D%3D
-- name: KR_speednode_0019
+- name: KR_654bd_0019
   password: 8f99107c-f091-11ee-9935-f23c9164ca5d
   port: 31433
   server: 14915d8d-t9zts0-ta64ri-1qzi1.kr.oshuawei.com
@@ -64,3 +64,16 @@ proxies:
   type: http
   udp: true
   username: 8f99107c-f091-11ee-9935-f23c9164ca5d
+- name: KR_speednode_0008
+  network: ws
+  password: pUkVhYVSnjbEy4xbkNJ2QvXTSSLHxRN6sRbdSnnwpbMSXTbC
+  port: 443
+  server: node3.bw8848.org
+  skip-cert-verify: false
+  sni: node3.bw8848.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: node3.bw8848.org
+    path: /node3-node3-jgnkjy
