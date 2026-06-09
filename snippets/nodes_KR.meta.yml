@@ -1,5 +1,19 @@
 proxies:
 - client-fingerprint: chrome
+  name: 韩国(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 2083
+  server: 123.111.169.70
+  servername: linek.perry.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fjumping'
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: KR_speednode_0014
   port: 30086

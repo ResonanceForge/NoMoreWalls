@@ -1,34 +1,49 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 科技共享-开源节点 908
+- flow: xtls-rprx-vision
+  name: '俄罗斯(yudou789.top 玉豆免费节点) #6'
   network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
+  port: 443
+  server: cloud.cdnru.net
+  servername: cloud.cdnru.net
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  ws-opts:
-    headers:
-      Host: r1.mizulina.top
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 科技共享-开源节点 893
-  network: raw
+  uuid: 33612cbf-0639-4285-81da-f88eba1d4f85
+- client-fingerprint: chrome
+  name: '俄罗斯(yudou789.top 玉豆免费节点) #7'
+  network: xhttp
   port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
+  server: 188.225.58.59
+  servername: es-xh-02.hpdata.click
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
   ws-opts:
-    headers:
-      Host: r1.mizulina.top
+    path: '%2Fvk'
+- name: '俄罗斯(yudou789.top 玉豆免费节点) #8'
+  obfs: salamander
+  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
+  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
+  port: 9443
+  server: 80.66.81.78
+  skip-cert-verify: false
+  sni: tunel1.washing.help
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯(yudou789.top 玉豆免费节点) #9'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI
+    short-id: '!!str 1c74cf626ef50bb3'
+  server: ru-selectel-01.com
+  servername: sni.ru-selectel-01.com
+  tls: false
+  type: vless
+  uuid: 8cd00214-09da-48d9-8004-8281ff918d36
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: RU_speednode_0050

@@ -1,4 +1,60 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 日本(yudou789.top 玉豆免费节点)
+  network: tcp
+  port: 47381
+  reality-opts:
+    public-key: kiMGo34R7wN3bHFbY_6MqIHePd7rlnOkxGCt-Ek1Ej0
+    short-id: '!!str 67e2075367998314'
+  server: 13.231.185.74
+  servername: www.yahoo.com
+  tls: false
+  type: vless
+  uuid: c6508e59-dd68-4dc0-b14f-3192e84ef843
+- name: '日本(yudou789.top 玉豆免费节点) #1'
+  network: ws
+  port: 8443
+  server: 195.245.229.66
+  servername: linek.perry.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fact'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '日本(yudou789.top 玉豆免费节点) #2'
+  network: xhttp
+  port: 443
+  server: 172.66.0.243
+  servername: fzserver.art
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b1f93fc1-b69f-44cd-a952-ed80de1a05c2
+  ws-opts:
+    headers:
+      Host: fzserver.art
+    path: '%2Fuuid%2Fget'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '日本(yudou789.top 玉豆免费节点) #3'
+  network: tcp
+  port: 20312
+  reality-opts:
+    public-key: 0rtwJI2LRYd35hN1SsoG5tAiH0sasbxBs230lcCmSHE
+    short-id: '!!str 1a124fe241cd9fab'
+  server: 13.159.91.226
+  servername: www.amd.com
+  tls: false
+  type: vless
+  uuid: 5cbdfbb1-cdcc-4448-95c2-b1f3aed8d9c5
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -32,7 +88,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: JP_abddb_0012
+  name: JP_197b7_0012
   port: 30833
   server: v33.hdacd.com
   skip-cert-verify: false
