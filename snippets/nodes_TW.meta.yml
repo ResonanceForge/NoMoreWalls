@@ -7,19 +7,24 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 🇹🇼TW-🚀@VPNine1
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 12401
-  server: starlink-tw1.mfa.cat
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '🇹🇼TW-🚀@VPNine1 #1'
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 12405
-  server: starlink-tw5.mfa.cat
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: TW_ed982_0063
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 38320
+  server: account-center.zzdy25.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TW_ed982_0064
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 36321
+  server: account-center.zzdy25.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TW_ed982_0065
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 38777
+  server: account-center.zzdy25.com
+  type: ss
+  udp: true
