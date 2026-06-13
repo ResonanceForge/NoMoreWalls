@@ -1,39 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: '新加坡(yudou789.top 玉豆免费节点) #2'
-  network: ws
-  port: 2053
-  server: 149.28.129.157
-  servername: linek.perry.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: '%2Fthread%2Fforum%2Fres'
-- name: '新加坡(yudou789.top 玉豆免费节点) #1'
-  network: ws
-  port: 8443
-  server: 45.76.185.254
-  servername: linek.perry.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: '%2Fitem%2Fcode%2Fdh'
-- name: '新加坡(yudou789.top 玉豆免费节点) #3'
-  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  port: 2056
-  server: sg1.shiyuandian.shop
-  skip-cert-verify: true
-  sni: sg1.shiyuandian.shop
-  tls: false
-  type: hysteria2
 - name: 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
