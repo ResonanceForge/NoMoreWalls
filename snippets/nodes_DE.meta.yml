@@ -1,11 +1,28 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 德国(yudou789.top 玉豆免费节点)
-  password: XUMTygEM1jVYIvysXKqA5T
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 德国(yudou789.top 玉豆免费节点)
+  network: tcp
   port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-  udp: true
+  reality-opts:
+    public-key: vTtRZ_FeFQoAigFr_pmVc_O85RaE9H8aVL0SitFYcmI
+    short-id: '!!str 53cd45d26d7b53fe'
+  server: 159.195.60.65
+  servername: free1.anotherboring.top
+  tls: false
+  type: vless
+  uuid: c897facf-2836-4538-be6e-25386fb49284
+- name: '德国(yudou789.top 玉豆免费节点) #1'
+  network: ws
+  port: 80
+  server: 104.24.45.247
+  tls: false
+  type: vless
+  uuid: 2e71d8fc-d2e8-44fc-89bd-c8a449a193aa
+  ws-opts:
+    headers:
+      Host: odd-bread-435d.ahmadrezasteamacc.workers.dev
+    path: '%2F%3Fed%3D2048'
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
