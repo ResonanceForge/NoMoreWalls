@@ -23,3 +23,20 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇯🇵JP_2|3.8MB/s
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: '443'
+  server: saas.sin.fan
+  skip-cert-verify: false
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /

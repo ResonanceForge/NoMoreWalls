@@ -31,334 +31,166 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_1|1.6MB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- encryption: none
-  name: 🇩🇪DE_15|2.1MB/s
-  network: ws
-  port: '80'
-  server: speedtest.net
-  servername: max-gb1.global.ssl.fastly.net
-  type: vless
-  udp: true
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|2.7MB/s
-  network: xhttp
-  port: '2053'
-  server: 45.85.119.181
-  servername: FREEchanell1.mobilezahra.com.
+  encryption: mlkem768x25519plus.native.0rtt.R53o6T7qs1BOuqPzb02dDIBzpKqtioSPChYKw-jD11Q
+  name: 🇩🇪DE_1|1.2MB/s
+  network: ws
+  port: '2083'
+  server: 188.121.125.169
+  servername: salamasalmabacheha.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 98731bd6-07ae-4fd0-b05c-26253eea43db
-  xhttp-opts:
-    host: FREEchanell1.mobilezahra.com.
-    mode: auto
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
-- encryption: none
-  name: US_speednode_0050
-  network: ws
-  port: 80
-  server: 199.232.197.131
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_5|1.9MB/s
-  network: ws
-  port: '80'
-  server: 151.101.2.219
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_6|2.5MB/s
-  network: ws
-  port: '80'
-  server: 151.101.0.1
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
+      Host: salamasalmabacheha.dpdns.org
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_7|2.1MB/s
-  network: tcp
-  port: '8443'
-  server: cdn9-33.vk-cdnvideo.com
-  servername: cdn9-33.vk-cdnvideo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_8|2.5MB/s
-  network: ws
-  port: '80'
-  server: 151.101.109.223
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|1.6MB/s
-  network: tcp
-  port: '7443'
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str d82fb387'
-  server: 167.104.223.68
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1c0277ad-bb4d-496f-bc0c-40ccee03fca5
   xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_10|2.6MB/s
-  network: xhttp
-  port: '8443'
-  server: 108.165.216.191
-  servername: rana.bardo-chronos.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 417a471c-6183-495d-87ef-331e7e8842fe
-  xhttp-opts:
-    host: rana.bardo-chronos.online
-    mode: auto
-    path: /tarasi
-    x-padding-bytes: 100-1000
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_11|2.7MB/s
+  name: 🇩🇪DE_2|2.6MB/s
   network: xhttp
   port: '2083'
-  server: 104.17.89.154
-  servername: rana.bardo-chronos.online
+  server: 104.17.122.123
+  servername: ziba.velizor.ir
   tls: true
   type: vless
   udp: true
-  uuid: 417a471c-6183-495d-87ef-331e7e8842fe
+  uuid: 6c22648a-18f5-4249-9ace-72a1639d4190
   xhttp-opts:
-    host: rana.bardo-chronos.online
+    host: ziba.velizor.ir
     mode: auto
-    path: /SAFIGH5SS
+    path: /
     x-padding-bytes: 100-1000
   xudp: true
-- encryption: none
-  name: US_speednode_0051
-  network: ws
-  port: 80
-  server: 151.101.2.219
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_13|1.1MB/s
-  network: ws
-  port: '80'
-  server: 151.101.109.223
-  type: vless
-  udp: true
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_14|2.4MB/s
-  network: tcp
-  port: '2040'
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: '!!str 53197c66aef53c44'
-  server: 108.165.236.144
-  servername: tradingview.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-  xudp: true
-- name: 🇩🇪DE_16|2.1MB/s
-  network: ws
-  port: 80
-  server: 167.82.0.1
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_17|4.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.183.200.172
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_18|2.4MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.8MB/s
   network: tcp
   packet-encoding: xudp
-  port: 8443
-  server: 95.133.245.106
-  servername: cdn9-33.vk-cdnvideo.com
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 89.125.20.100
+  servername: auto.malina24.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: 🇩🇪DE_19|2.1MB/s
-  password: ''
-  port: 1080
-  server: 185.125.102.149
-  type: socks5
-  username: ''
-- encryption: none
-  name: 🇩🇪DE_20|3.4MB/s
-  network: ws
-  port: '8080'
-  server: 169.40.32.242
-  type: vless
-  udp: true
-  uuid: 5a4ef156-7139-4922-9198-f88a9ccaf3dc
-  ws-opts:
-    headers:
-      Host: 169.40.32.242
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /Path
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+  uuid: fdba43e2-9dc3-4c3e-a890-08ab21e60081
+- client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_21|2.5MB/s
+  name: 🇩🇪DE_4|2.5MB/s
   network: xhttp
-  port: '2087'
-  server: fran.vipg.tr
-  servername: fran.eghbal.shop
+  packet-encoding: xudp
+  port: 2052
+  reality-opts:
+    _spider-x: /favicon.ico
+    public-key: x_FA0TvtlipBs1AeTmyq68Wb3b_0cTk1qqcksjONr1U
+    short-id: '!!str 854eff'
+  server: 138.201.58.111
+  servername: www.yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7eb1eed8-cfbb-478f-b4e1-fcd29c09c1a8
+  uuid: b97199f6-3a60-4e5d-8346-1f35b12e6ca3
   xhttp-opts:
     mode: auto
-    path: /
+    path: /processing
     x-padding-bytes: 100-1000
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_22|1.4MB/s
-  network: xhttp
-  port: '2044'
-  server: 104.248.141.0
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|2.5MB/s
+  network: ws
+  port: '443'
+  server: betty.ns.cloudflare.com
+  servername: vangoghhh.info
+  tls: true
   type: vless
   udp: true
-  uuid: 85f4cf3a-0f7a-4ec0-8c0c-9164111d69c8
-  xhttp-opts:
-    mode: auto
-    path: /
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /rdfgtws
+  xudp: true
+- name: 🇩🇪DE_6|1.3MB/s
+  network: ws
+  port: '80'
+  server: 104.25.118.238
+  type: vless
+  udp: true
+  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
+  ws-opts:
+    headers:
+      Host: billowing-cloud-d339.sospanel.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /eyJqdW5rIjoiOFRwTjlPWHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_7|1.2MB/s
+  network: ws
+  port: '443'
+  server: 104.16.72.139
+  servername: cdn-pro2.postshup.ir.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71152717-dc50-4fee-a13d-c6656b51e341
+  ws-opts:
+    headers:
+      Host: cdn-pro2.postshup.ir.
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /news
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_23|2.1MB/s
-  network: xhttp
-  port: '8800'
-  reality-opts:
-    public-key: pH-aP5Utr1uaT-OtP57tRLAzfRXHlyvloBWs6hKrUgk
-    short-id: '!!str f1c9'
-  server: 5.175.220.244
-  servername: sourceforge.net
+  name: 🇩🇪DE_8|2.5MB/s
+  network: ws
+  port: '443'
+  server: betty.ns.cloudflare.com
+  servername: shegeftihaaa.net
   tls: true
   type: vless
   udp: true
-  uuid: b3595294-85ed-41a0-bf24-2906c7dc9197
-  xhttp-opts:
-    host: telegram.crowsvpn.shop
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  ws-opts:
+    headers:
+      Host: shegeftihaaa.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /rsedgws
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_9|1.5MB/s
+  network: ws
+  port: '2086'
+  server: 172.67.89.31
+  type: vless
+  udp: true
+  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
+  ws-opts:
+    headers:
+      Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
   xudp: true
 - name: DE_speednode_0001
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu

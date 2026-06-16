@@ -1,1 +1,92 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - yahoo.com
+    path:
+    - /
+  name: 🇨🇭CH_1|2.0MB/s
+  network: http
+  port: '44050'
+  reality-opts:
+    public-key: Yg-PzXlYZ_7DW1ug8dtOagVJ7SeaRzVUL9FNuRUFgw4
+    short-id: '!!str b3'
+  server: 83.228.225.29
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6f9ad6e-4166-4b98-85c8-53d75ec3832f
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇭CH_2|1.3MB/s
+  network: tcp
+  port: '30781'
+  reality-opts:
+    public-key: FVbLgN2sj_1WrbMhsh_vltW1NOX84WNC6x8Ed_DQSB0
+    short-id: '!!str 94d8'
+  server: 83.228.225.29
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6f9ad6e-4166-4b98-85c8-53d75ec3832f
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - varzesh3.com
+    path:
+    - /
+  name: 🇨🇭CH_3|1.9MB/s
+  network: http
+  port: '37603'
+  reality-opts:
+    public-key: aKJBOO1d7i-dMux749IK__EpLOKUw8rd-bHTy3QmvXY
+    short-id: '!!str 14b5d78ae526'
+  server: 83.228.225.29
+  servername: varzesh3.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6f9ad6e-4166-4b98-85c8-53d75ec3832f
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇨🇭CH_4|1.6MB/s
+  network: http
+  port: '11236'
+  reality-opts:
+    public-key: Kl47z4IqBFKSTb5fI3j3UQxj7iXbsof-5CE9_v1LIWQ
+    short-id: '!!str 71f8775bbab6c1f2'
+  server: 83.228.225.29
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6f9ad6e-4166-4b98-85c8-53d75ec3832f
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_5|1.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 72.56.38.250
+  servername: abuse.sellflow.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
