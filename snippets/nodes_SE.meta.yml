@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|1.0MB/s
+  network: tcp
+  port: '9443'
+  reality-opts:
+    public-key: b60pe0RnyUEGs675DF2HIiv4wRIREgjxKoGETVIr7FM
+    short-id: '!!str c4f2b8a9e1d37056'
+  server: 193.188.21.153
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee908a50-cec3-44b2-9f85-2396b571cdb8
+  xudp: true

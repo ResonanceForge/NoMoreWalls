@@ -140,16 +140,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪73619 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: hg26zdlxvw7bj6pd
-  password: 0djglvgv7lh45uz9
-  port: 32254
-  server: 91.107.137.0
-  skip-cert-verify: false
-  sni: saeed.saeedposivip.ir
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   - h2
@@ -165,165 +155,80 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.R53o6T7qs1BOuqPzb02dDIBzpKqtioSPChYKw-jD11Q
-  name: 🇩🇪DE_1|1.2MB/s
-  network: ws
-  port: '2083'
-  server: 188.121.125.169
-  servername: salamasalmabacheha.dpdns.org
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: rYwYudDb69CwjAJNw5KTFqJnRwwADgDMDpjv9KESjEY
+    short-id: '!!str f5c14a97040a38bf'
+  server: 45.134.217.196
+  servername: gr1.panel11.ru
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 039a1658-e86e-475f-a3a4-67cc249acada
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_2|2.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|2.3MB/s
+  network: ws
+  port: '443'
+  server: betty.ns.cloudflare.com
+  servername: terazhediii.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
   ws-opts:
     headers:
-      Host: salamasalmabacheha.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
-    path: /
+      Host: terazhediii.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /hdgrbws
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|2.6MB/s
-  network: xhttp
-  port: '2083'
-  server: 104.17.122.123
-  servername: ziba.velizor.ir
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|1.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
+    short-id: '!!str b76dcf9e1183fe1b'
+  server: 2.59.132.83
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 6c22648a-18f5-4249-9ace-72a1639d4190
-  xhttp-opts:
-    host: ziba.velizor.ir
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
+  uuid: c82343d1-3302-4d2a-83c8-241c9d06fa4e
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.8MB/s
+  name: 🇩🇪DE_5|1004KB/s
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: '8443'
   reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 89.125.20.100
-  servername: auto.malina24.xyz
-  skip-cert-verify: false
+    public-key: b60pe0RnyUEGs675DF2HIiv4wRIREgjxKoGETVIr7FM
+    short-id: '!!str b3e1a2c4d5f60789'
+  server: 92.246.139.176
+  servername: www.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: fdba43e2-9dc3-4c3e-a890-08ab21e60081
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|2.5MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 2052
-  reality-opts:
-    _spider-x: /favicon.ico
-    public-key: x_FA0TvtlipBs1AeTmyq68Wb3b_0cTk1qqcksjONr1U
-    short-id: '!!str 854eff'
-  server: 138.201.58.111
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b97199f6-3a60-4e5d-8346-1f35b12e6ca3
-  xhttp-opts:
-    mode: auto
-    path: /processing
-    x-padding-bytes: 100-1000
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_5|2.5MB/s
-  network: ws
-  port: '443'
-  server: betty.ns.cloudflare.com
-  servername: vangoghhh.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /rdfgtws
-  xudp: true
-- name: 🇩🇪DE_6|1.3MB/s
-  network: ws
-  port: '80'
-  server: 104.25.118.238
-  type: vless
-  udp: true
-  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
-  ws-opts:
-    headers:
-      Host: billowing-cloud-d339.sospanel.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /eyJqdW5rIjoiOFRwTjlPWHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_7|1.2MB/s
-  network: ws
-  port: '443'
-  server: 104.16.72.139
-  servername: cdn-pro2.postshup.ir.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71152717-dc50-4fee-a13d-c6656b51e341
-  ws-opts:
-    headers:
-      Host: cdn-pro2.postshup.ir.
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /news
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_8|2.5MB/s
-  network: ws
-  port: '443'
-  server: betty.ns.cloudflare.com
-  servername: shegeftihaaa.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
-  ws-opts:
-    headers:
-      Host: shegeftihaaa.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /rsedgws
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_9|1.5MB/s
-  network: ws
-  port: '2086'
-  server: 172.67.89.31
-  type: vless
-  udp: true
-  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
-  ws-opts:
-    headers:
-      Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
+  uuid: ee908a50-cec3-44b2-9f85-2396b571cdb8
   xudp: true
 - name: DE_speednode_0001
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
