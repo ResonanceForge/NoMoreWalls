@@ -1,26 +1,26 @@
 proxies:
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  network: tcp
-  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
-  port: 443
-  server: 130.94.94.15
-  skip-cert-verify: true
-  sni: 130.94.94.15
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 美国+V2CROSS.COM
-  password: GyZ5Xo0ht41vYmW3H4
-  port: 816
-  server: 149.28.255.6
-  type: ss
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: www.ignitelimit.com
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.calmloud.com
     path: '%2Fassignment'
+- name: 美国+华盛顿Cogent通信公司
+  network: tcp
+  password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
+  port: 443
+  server: 38.54.13.189
+  skip-cert-verify: true
+  sni: 38.54.13.189
+  type: trojan
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -29,24 +29,34 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '@GozargahAzad|🇺🇸'
+- name: 🇺🇸75820 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: '@JynMarket'
   password: odnvqb4ihg396e5z
   port: 37025
   server: 104.252.19.102
   skip-cert-verify: false
-  sni: ''
+  sni: 104.252.19.102
   tls: false
   type: hysteria2
-- name: '@GozargahAzad|🇺🇸 #1'
+- name: 🇺🇸75821 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: '@JynMarket'
+  password: odnvqb4ihg396e5z
+  port: 51554
+  server: 104.252.19.102
+  skip-cert-verify: false
+  sni: 104.252.19.102
+  tls: false
+  type: hysteria2
+- name: 🇺🇸75819 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: '@JynMarket'
   password: odnvqb4ihg396e5z
   port: 54040
   server: 104.252.19.102
   skip-cert-verify: false
-  sni: ''
+  sni: 104.252.19.102
   tls: false
   type: hysteria2
 - name: 美国|@ripaojiedian
