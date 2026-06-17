@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 8443
+  server: 46.8.226.197
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
