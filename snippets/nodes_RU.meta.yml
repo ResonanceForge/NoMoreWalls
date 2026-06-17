@@ -1,86 +1,33 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 俄罗斯(yudou789.top 玉豆免费节点)
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 109.236.57.63
-  servername: sellflow.org
-  tls: false
-  type: vless
-  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '俄罗斯(yudou789.top 玉豆免费节点) #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 109.236.57.68
-  servername: sellflow.org
-  tls: false
-  type: vless
-  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '俄罗斯(yudou789.top 玉豆免费节点) #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 109.236.57.143
-  servername: sellflow.org
-  tls: false
-  type: vless
-  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '俄罗斯(yudou789.top 玉豆免费节点) #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 109.236.57.69
-  servername: sellflow.org
-  tls: false
-  type: vless
-  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '俄罗斯(yudou789.top 玉豆免费节点) #4'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 109.236.57.141
-  servername: sellflow.org
-  tls: false
-  type: vless
-  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '俄罗斯(yudou789.top 玉豆免费节点) #5'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 109.236.57.64
-  servername: sellflow.org
-  tls: false
-  type: vless
-  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '俄罗斯(yudou789.top 玉豆免费节点) #6'
+  name: 🇷🇺RU_1|2.6MB/s
   network: tcp
-  port: 1020
+  port: '443'
   reality-opts:
-    public-key: ULEKhRXed87x1kNaVVq4l8ANWDwmcoxetjclnShfhWM
-    short-id: '!!str 4374d295a4f9dd83'
-  server: 81.177.213.232
-  servername: yahoo.com
-  tls: false
+    public-key: fTr_LAmKQdYpAhijlApm1kMjS8_11Y9HMKconlHmZWE
+    short-id: '!!str e8d2a1b4c39f8877'
+  server: 37.77.104.182
+  servername: www.cloudflare.com
+  tls: true
   type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bc
+  udp: true
+  uuid: abd880a5-d08f-4dfe-b8f5-d4b61892163a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: z9iMcQ_FXkqsKOHIgd5jLTUFfC891umkkBbSHPLYfhU
+    short-id: '!!str 1e46adf53ba79205'
+  server: 92.255.109.223
+  servername: maxmsk.sixsubstore.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78aa0206-1598-4a75-b28b-ebfecb769a48
+  xudp: true

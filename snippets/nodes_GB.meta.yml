@@ -1,7 +1,19 @@
 proxies:
+- name: 英国(yudou789.top 玉豆免费节点)
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  server: cf.877774.xyz
+  skip-cert-verify: true
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    path: '%2F%3Fed%3D2048'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 英国(yudou789.top 玉豆免费节点)
+  name: '英国(yudou789.top 玉豆免费节点) #1'
   network: tcp
   port: 5457
   reality-opts:

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '法国(yudou789.top 玉豆免费节点) #5'
+  name: '法国(yudou789.top 玉豆免费节点) #6'
   network: ws
   port: '59525'
   server: 194.60.95.7
@@ -10,4 +10,18 @@ proxies:
   type: vmess
   uuid: 66ff581f-98d0-43cc-cecb-a7232f411c6d
   ws-opts:
+    headers:
+      Host: ''
     path: /66ff581f-98d0-43cc-cecb-a7232f411c6d
+- name: '法国(yudou789.top 玉豆免费节点) #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
