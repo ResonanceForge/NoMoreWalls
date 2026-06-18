@@ -89,36 +89,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
+- name: 美国+华盛顿Cogent通信公司
+  password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
   port: 443
-  server: 172.64.146.143
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: 英国+V2CROSS.COM
-  network: tcp
-  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
-  port: 443
-  server: 185.126.236.190
+  server: 38.54.13.189
   skip-cert-verify: true
-  sni: 185.126.236.190
+  sni: 38.54.13.189
   type: trojan
-- name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05

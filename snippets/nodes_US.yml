@@ -1,14 +1,11 @@
 proxies:
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
+- name: 美国+华盛顿Cogent通信公司
+  password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
   port: 443
-  server: 172.64.146.143
-  skip-cert-verify: false
-  sni: www.multiplydose.com
+  server: 38.54.13.189
+  skip-cert-verify: true
+  sni: 38.54.13.189
   type: trojan
-  ws-opts:
-    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
