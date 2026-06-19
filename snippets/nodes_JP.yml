@@ -1,14 +1,4 @@
 proxies:
-- name: 日本+东京都Amazon数据中心
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 18.182.54.28
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    path: '%2F'
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -34,32 +24,29 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 🇯🇵JP_2|4.8MB/s
+  name: 🇯🇵JP_2|1.6MB/s
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: '443'
-  server: 154.12.191.211
+  port: 443
+  server: 207.65.189.9
   skip-cert-verify: false
   sni: hhcm.hhxaf.cc.cd
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /
 - client-fingerprint: chrome
-  name: 🇯🇵JP_3|2.0MB/s
+  name: 🇯🇵JP_5|3.5MB/s
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: '443'
-  server: 156.231.140.216
-  skip-cert-verify: false
+  port: 443
+  server: 85.155.176.241
   sni: hhcm.hhxaf.cc.cd
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+      Host: hhcm.hhxaf.cc.cd
     path: /

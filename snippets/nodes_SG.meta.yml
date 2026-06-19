@@ -47,61 +47,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬SG_1|2.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-003.fastervpn.world
+  type: hysteria2
+  up: ''
 - alpn:
-  - h2
-  - http/1.1
+  - h3
   client-fingerprint: chrome
-  name: 🇸🇬SG_1|1.7MB/s
+  name: 🇸🇬SG_2|1.8MB/s
   network: ws
-  port: '2096'
-  server: 141.193.213.20
-  servername: primelinelk.me
+  port: 2087
+  server: 162.159.18.228
+  servername: lh1.fum.ccwu.cc
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+  uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65
   ws-opts:
     headers:
-      Host: primelinelk.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /xprolk-primeline
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_2|1.5MB/s
-  network: ws
-  port: '2096'
-  server: 141.193.213.21
-  servername: primelinelk.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
-  ws-opts:
-    headers:
-      Host: primelinelk.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /xprolk-primeline
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_3|1.3MB/s
-  network: ws
-  port: '8443'
-  server: support.zoom.us
-  servername: primelinelk.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-  ws-opts:
-    headers:
-      Host: primelinelk.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /xprolk-primeline
-  xudp: true
+      Host: lh1.fum.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo
