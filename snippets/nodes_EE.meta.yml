@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇪🇪EE_1|2.1MB/s
+  network: xhttp
+  port: '443'
+  server: estonchiklife.com
+  servername: estonchiklife.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 141bbdef-a341-4846-aec7-9d6531ff8790
+  xhttp-opts:
+    host: estonchiklife.com
+    mode: auto
+    path: /xhttppath/
+  xudp: true

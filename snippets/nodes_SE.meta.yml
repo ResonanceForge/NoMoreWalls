@@ -1,54 +1,67 @@
 proxies:
-- name: 🇸🇪@V2RayyNGvpn🇸🇪 ⛔برنامه V2Ray...
+- down: ''
+  fingerprint: ''
+  name: 🇸🇪SE_3|2.0MB/s
+  obfs: salamander
+  obfs-password: T.me$V2RayyNGvpn
+  password: T$me$V2RayyNGvpn
+  port: '443'
+  server: 70.34.205.15
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|2.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug
+    short-id: '!!str fe12'
+  server: 144.31.128.56
+  servername: 33432ews-topology-gslb-yccdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: e8bf51de-efc9-42a4-be50-1a6bc3170c63
+  xudp: true
+- name: 🇸🇪SE_2|1.6MB/s
+  port: 8443
+  server: 45.159.12.11
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- disable-sni: true
+  name: 🇸🇪SE_4|1.4MB/s
   obfs: salamander
   obfs-password: T.me$V2RayyNGvpn
   password: T$me$V2RayyNGvpn
   port: 443
   server: 70.34.205.15
   skip-cert-verify: true
-  sni: www.wordreference.com
-  tls: false
+  sni: ''
+  tfo: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇪SE_1|1.8MB/s
-  network: tcp
-  port: '8443'
-  server: 45.159.12.164
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  xudp: true
-- encryption: none
-  name: 🇸🇪SE_2|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  server: 45.159.12.18
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- encryption: none
-  name: 🇸🇪SE_3|1.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  server: 45.159.12.6
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
   name: SE_speednode_0055
   port: 8443
   server: 45.159.12.191
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- client-fingerprint: chrome
+  name: SE_speednode_0056
+  port: 8443
+  server: 79.127.249.221
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true

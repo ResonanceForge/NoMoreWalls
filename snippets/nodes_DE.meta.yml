@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 德国 V2CROSS.COM
-  network: tcp
-  port: '1020'
-  server: nlt.reata.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -28,89 +18,121 @@ proxies:
   tls: false
   type: hysteria2
 - alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪DE_1|1.2MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.0MB/s
-  network: tcp
-  port: '443'
-  server: 5.175.178.81
-  servername: esttk31.potatosubge20.org
+  name: 🇩🇪DE_2|3.7MB/s
+  network: xhttp
+  port: '8080'
+  reality-opts:
+    public-key: EuZnNlT9zkzoHD04YffK0HpKnjPVpEGuEOXrNJPiQWs
+    short-id: '!!str 79efe4'
+  server: 162.55.98.167
+  servername: www.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: d23a1ce1-b6a6-4a58-b56b-1be6a1cd7d39
+  uuid: d531c1ee-62a2-49d6-9f94-b6005f8b2dac
+  xhttp-opts:
+    mode: auto
+    path: /mediaprocessing
+    x-padding-bytes: 100-1000
   xudp: true
-- insecure: '1'
-  mport: 40000-49999
-  name: 🇩🇪DE_2|1.0MB/s
-  obfs: salamander
-  obfs-password: YzgyOTowNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: de-by10fuo0kw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_3|1.9MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: g-de2-x9cr8bwsquaj.radshim.com
-  servername: g-de2-x9cr8bwsquaj.radshim.com
-  skip-cert-verify: false
+  name: 🇩🇪DE_3|2.4MB/s
+  network: xhttp
+  port: '2087'
+  server: 188.114.97.26
+  servername: mhione.mgvip.ir
   tls: true
   type: vless
   udp: true
-  uuid: dc109a0f-04e7-4e27-8df0-4decdc4fc90c
-  ws-opts:
-    path: /ws
-- client-fingerprint: firefox
-  name: 🇩🇪DE_4|1.7MB/s
+  uuid: 093e2398-047a-474e-8c1e-7015934954b0
+  xhttp-opts:
+    host: mhione.mgvip.ir
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_4|3.1MB/s
   network: xhttp
+  packet-encoding: xudp
+  port: 7000
+  server: 89.106.64.15
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
+  xhttp-opts:
+    host: a12.crowsvpn.shop
+    mode: stream-one
+    path: /
+    x-padding-bytes: 100-1000
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|3.4MB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: 33QqunoReeEg7c91wXRc29hGIEBfjQbajsg3-wcmX38
-    short-id: '!!str c4a3aac6dace3289'
-  server: 83.243.86.237
-  servername: www.microsoft.com
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+  server: 94.156.122.90
+  servername: de555.sonicsonic.icu
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1c7e2730-839d-4321-84f9-4e6b69ea4856
-  xhttp-opts:
-    mode: auto
-    path: /cdn/segments/v2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_5|2.6MB/s
-  network: ws
-  port: '443'
-  server: client.jison.ir
-  servername: fty.jison.ir
+  uuid: b4e7884c-d2fa-4d17-b95a-e2fab387937a
+- client-fingerprint: firefox
+  name: 🇩🇪DE_6|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: GzOdZG9TCQSrZV7ivcmOq9tKWUf37QnoTxSHf32OfAs
+    short-id: '!!str 1680'
+  server: 80.253.251.157
+  servername: www.samsung.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 06a368f4-e62e-4486-97a1-4c60bb7a0eed
-  ws-opts:
-    headers:
-      Host: sdt.jison.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /ws
+  uuid: 612c872d-1370-4109-8644-f0755f97e33f
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_7|1.4MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 89.144.30.104
+  servername: dey.lnmarketplace.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  xhttp-opts:
+    host: dey.lnmarketplace.net
+    mode: stream-one
+    path: /kavir
   xudp: true
