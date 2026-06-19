@@ -1,31 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+惠普HP
+- name: 英国+V2CROSS.COM
   network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '!!str 01'
-  server: 15.204.97.219
-  servername: fuck.rkn
-  tls: false
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str d82fb387'
-  server: 31.76.38.18
-  servername: icloud.com
+  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
+  port: 443
+  server: 185.126.236.190
   skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 6e41151e-ae07-4ea6-910e-7a3986b7bc0d
+  sni: 185.126.236.190
+  type: trojan
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision

@@ -89,58 +89,272 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.7.147
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: DE41｜机房｜高风险 (黑名单)
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 64
+  cipher: auto
+  name: US74｜机房｜低风险
+  network: tcp
+  port: '34114'
+  server: 103.181.164.237
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
-  - http/1.1
-  name: 美国+洛杉矶
+  - h3%2Ch2%2Chttp%2F1.1
+  name: US80｜机房｜低风险
   network: ws
-  password: humanity
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
-  server: 66.81.247.155
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: 172.64.53.190
+  skip-cert-verify: true
+  sni: snll667.pages.dev
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  network: tcp
-  password: BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V
-  port: 443
-  server: 130.94.114.217
-  sni: 130.94.114.217
+      Host: snll667.pages.dev
+    path: '%2F'
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: TW3｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 14147
+  server: 203.69.248.40
+  skip-cert-verify: true
+  sni: snll667.pages.dev
   type: trojan
-- name: 亚太地区+V2CROSS.COM
+  ws-opts:
+    headers:
+      Host: snll667.pages.dev
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: ID5｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 8.223.63.150
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: ID6｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 34.143.159.175
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- name: PE2｜机房｜低风险
   network: tcp
-  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
+  password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
-  server: 103.125.216.169
-  sni: 103.125.216.169
+  server: 38.180.173.150
+  skip-cert-verify: true
+  sni: 38.180.173.150
   type: trojan
-- name: '亚太地区+V2CROSS.COM #1'
-  network: tcp
-  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: HK67｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
   port: 443
-  server: 103.125.219.70
-  sni: 103.125.219.70
+  server: cf.877774.xyz
+  skip-cert-verify: true
+  sni: snll667.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snll667.pages.dev
+    path: '%2F'
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: HK68｜机房｜低风险
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 95.40.61.115
+  skip-cert-verify: true
+  sni: snll667.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snll667.pages.dev
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: ID17｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 83.229.121.113
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: ID24｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 47.76.218.163
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: ID10｜家宽｜非常安全
+  network: ws
+  port: '2087'
+  server: 103.224.80.7
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: ID16｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 38.55.194.138
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: ID21｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 149.104.31.55
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: ID22｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 38.55.193.19
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: ID25｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 43.134.87.15
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: ID23｜家宽｜非常安全
+  network: ws
+  port: '443'
+  server: 38.55.193.78
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- name: IN1｜机房｜低风险
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 139.84.133.199
+  skip-cert-verify: true
+  sni: 139.84.133.199
+  type: trojan
+- name: US146｜机房｜低风险
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 194.33.45.157
+  skip-cert-verify: true
+  sni: 194.33.45.157
+  type: trojan
+- name: SG6｜机房｜高风险 (黑名单)
+  network: tcp
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 5.180.78.22
+  skip-cert-verify: true
+  sni: 5.180.78.22
   type: trojan
 - name: 罗马尼亚+V2CROSS.COM
-  network: tcp
   password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
   port: 443
   server: 185.137.157.59
-  skip-cert-verify: true
   sni: www.lateralio.click
+  type: trojan
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: tcp
+  password: PoSQBShqwNV9wKX4WHxDoLxbvp4eQYnD8v
+  port: 443
+  server: 130.94.78.17
+  skip-cert-verify: false
+  type: trojan
+- name: 英国+V2CROSS.COM
+  network: tcp
+  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
+  port: 443
+  server: 185.126.236.190
+  skip-cert-verify: true
+  sni: 185.126.236.190
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
