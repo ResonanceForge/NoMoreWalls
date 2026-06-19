@@ -162,61 +162,8 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_1|1.2MB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|3.7MB/s
-  network: xhttp
-  port: '8080'
-  reality-opts:
-    public-key: EuZnNlT9zkzoHD04YffK0HpKnjPVpEGuEOXrNJPiQWs
-    short-id: '!!str 79efe4'
-  server: 162.55.98.167
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d531c1ee-62a2-49d6-9f94-b6005f8b2dac
-  xhttp-opts:
-    mode: auto
-    path: /mediaprocessing
-    x-padding-bytes: 100-1000
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|2.4MB/s
-  network: xhttp
-  port: '2087'
-  server: 188.114.97.26
-  servername: mhione.mgvip.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 093e2398-047a-474e-8c1e-7015934954b0
-  xhttp-opts:
-    host: mhione.mgvip.ir
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
 - encryption: none
-  name: 🇩🇪DE_4|3.1MB/s
+  name: 🇩🇪DE_1|1.2MB/s
   network: xhttp
   packet-encoding: xudp
   port: 7000
@@ -231,53 +178,30 @@ proxies:
     mode: stream-one
     path: /
     x-padding-bytes: 100-1000
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|3.4MB/s
+- client-fingerprint: chrome
+  name: 🇩🇪DE_2|2.6MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
-  server: 94.156.122.90
-  servername: de555.sonicsonic.icu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b4e7884c-d2fa-4d17-b95a-e2fab387937a
-- client-fingerprint: firefox
-  name: 🇩🇪DE_6|2.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: GzOdZG9TCQSrZV7ivcmOq9tKWUf37QnoTxSHf32OfAs
-    short-id: '!!str 1680'
-  server: 80.253.251.157
-  servername: www.samsung.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 612c872d-1370-4109-8644-f0755f97e33f
-- alpn:
-  - h2
-  client-fingerprint: firefox
+  password: SoftNetConnect
+  port: 42549
+  server: 194.5.193.150
+  skip-cert-verify: true
+  sni: www.speedtest.net
+  type: trojan
+- client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_7|1.4MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 89.144.30.104
-  servername: dey.lnmarketplace.net
-  skip-cert-verify: false
+  name: 🇩🇪DE_3|2.1MB/s
+  network: ws
+  port: '443'
+  server: another-cf.dnsyes.kawaii520.icu
+  servername: tupdfsfrgsdgd57345v8de.kawaii520.icu
   tls: true
   type: vless
   udp: true
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  xhttp-opts:
-    host: dey.lnmarketplace.net
-    mode: stream-one
-    path: /kavir
+  uuid: f1c742c5-f44c-481d-9fbf-2a2ceebd8ab9
+  ws-opts:
+    headers:
+      Host: tupdfsfrgsdgd57345v8de.kawaii520.icu
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
   xudp: true
