@@ -335,26 +335,11 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- alpn:
-  - h3
-  - h2
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
+- name: 亚太地区+V2CROSS.COM
+  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
   port: 443
-  server: 104.18.152.54
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
-  port: 443
-  server: 185.137.157.59
-  skip-cert-verify: true
-  sni: www.lateralio.click
+  server: 103.125.219.70
+  sni: 103.125.219.70
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
