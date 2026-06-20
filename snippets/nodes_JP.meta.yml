@@ -103,20 +103,6 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  name: 日本+东京Fastly节点
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.110.219
-  skip-cert-verify: true
-  sni: global.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-    path: /ed=mitivpn
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
