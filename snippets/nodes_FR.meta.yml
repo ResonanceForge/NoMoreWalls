@@ -1,9 +1,21 @@
 proxies:
-- name: 🇫🇷FR_1|1.9MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 18066
-  server: hy2.313186.xyz
-  skip-cert-verify: false
-  sni: hy2.313186.xyz
-  tfo: false
-  type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_1|2.1MB/s
+  network: ws
+  port: '8443'
+  server: 188.114.97.6
+  servername: argoovpn.imanaghapour.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: argoovpn.imanaghapour.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /
+  xudp: true
