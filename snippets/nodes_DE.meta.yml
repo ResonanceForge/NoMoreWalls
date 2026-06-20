@@ -144,6 +144,21 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1.0MB/s
+  network: tcp
+  port: '9999'
+  reality-opts:
+    public-key: _kcz60zlz7bBTIXtK11MgHIrnVBF9sTJnU2MiLCwDF8
+    short-id: '!!str 80335f00af'
+  server: 134.255.252.76
+  servername: varzesh3.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 437c9e5b-e0c5-47b9-930a-12824ffc53ed
+  xudp: true
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -176,21 +191,6 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|1.0MB/s
-  network: tcp
-  port: '9999'
-  reality-opts:
-    public-key: _kcz60zlz7bBTIXtK11MgHIrnVBF9sTJnU2MiLCwDF8
-    short-id: '!!str 80335f00af'
-  server: 134.255.252.76
-  servername: varzesh3.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 437c9e5b-e0c5-47b9-930a-12824ffc53ed
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
