@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  name: 🇨🇭CH_1|3.3MB/s
+  network: tcp
+  password: SoftNetConnect
+  port: '42549'
+  server: 83.228.230.226
+  skip-cert-verify: true
+  sni: www.speedtest.net
+  type: trojan
+  udp: true

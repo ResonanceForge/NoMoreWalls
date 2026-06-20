@@ -47,32 +47,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG_1|2.8MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-003.fastervpn.world
-  type: hysteria2
-  up: ''
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 🇸🇬SG_2|1.8MB/s
-  network: ws
-  port: 2087
-  server: 162.159.18.228
-  servername: lh1.fum.ccwu.cc
-  skip-cert-verify: true
-  tfo: false
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|2.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 7AXo3q32WLxsiwm3J0W-bhTQfTEyFK6rnEeQfdBfkS0
+    short-id: '!!str 4d'
+  server: 152.42.198.111
+  servername: www.digitalocean.com
   tls: true
   type: vless
-  uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65
-  ws-opts:
-    headers:
-      Host: lh1.fum.ccwu.cc
-    path: /proxyip=sjc.o00o.ooo
+  udp: true
+  uuid: 0fbf78f2-9b05-4f6d-af3a-a8b0cc989f97
+  xudp: true

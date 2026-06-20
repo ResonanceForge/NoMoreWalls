@@ -1,26 +1,68 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: 🇬🇧GB_2|2.5MB/s
-  network: tcp
-  port: 8443
-  server: 152.233.28.201
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: deepl.com
+  name: 🇬🇧GB_1|2.5MB/s
+  network: grpc
+  port: '446'
+  reality-opts:
+    public-key: FHjXqTeS4Fj6okH5b8VOsSPdfLVQmwHcI4a9NYrWYFU
+    short-id: '!!str d7abeb515312dc2f'
+  server: denewscabinetfly.com
+  servername: deepl.com
   tls: true
   type: vless
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: 8684c32b-2ffb-4b75-802a-76f90fb15cba
   xudp: true
-- encryption: none
-  name: 🇬🇧GB_3|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  server: 152.233.28.202
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: deepl.com
+  name: 🇬🇧GB_2|2.9MB/s
+  network: grpc
+  port: '446'
+  reality-opts:
+    public-key: FHjXqTeS4Fj6okH5b8VOsSPdfLVQmwHcI4a9NYrWYFU
+    short-id: '!!str d7abeb515312dc2f'
+  server: denewscabinetfly.com
+  servername: deepl.com
   tls: true
   type: vless
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: 278f52f9-99fc-447c-94d0-ada8f9800703
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg
+    short-id: '!!str 1b40e7c2a1d8f635'
+  server: 2.26.128.72
+  servername: wombat.mycdn-me.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5c76e2a-cf15-4bc9-9f70-e9079b55f284
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_4|1.6MB/s
+  network: ws
+  port: '443'
+  server: another-cf.dnsyes.kawaii520.icu
+  servername: 4gf45fdg45fd542g2in.kawaii520.icu
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31fc82da-1136-4a84-a596-7fbba8026c1d
+  ws-opts:
+    headers:
+      Host: 4gf45fdg45fd542g2in.kawaii520.icu
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
