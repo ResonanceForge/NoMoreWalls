@@ -171,61 +171,83 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_1|1.0MB/s
-  network: xhttp
-  port: '773'
-  server: 31.70.87.57
-  servername: mesh-5340.spliceflowtech.com
+  name: 🇩🇪DE_1|3.2MB/s
+  network: tcp
+  port: '54158'
+  reality-opts:
+    public-key: biMkbJbybvFLprg9ZYyhnnooZdwlno-v_NQpR6n_RWo
+    short-id: '!!str 4f6e401f'
+  server: 91.107.240.98
+  servername: aws.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: 26ca9191-5a90-40e5-9f03-c9181bcefb21
-  xhttp-opts:
-    host: mesh-5340.spliceflowtech.com
-    mode: auto
-    path: /api
+  uuid: 3a851f27-6e69-4abc-831e-a89f4a4f3296
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|1.6MB/s
+- encryption: none
+  name: 🇩🇪DE_2|3.1MB/s
   network: xhttp
-  port: '2053'
-  server: s5.meoshop.ir
-  servername: baba.meoshop.ir
-  tls: true
+  port: '7000'
+  server: 89.106.64.15
   type: vless
   udp: true
-  uuid: 2dacceea-8664-4fed-ba16-27fdd3b40f3e
+  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
   xhttp-opts:
-    host: baba.meoshop.ir
-    mode: auto
+    host: a12.crowsvpn.shop
+    mode: stream-one
     path: /
     x-padding-bytes: 100-1000
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|1.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: KS0F6q2PTY1s6y2sH5PdrznYqprIkUBtS1masvcrJjo
+    short-id: '!!str 823257b7b9ab9d02'
+  server: 94.156.179.71
+  servername: de2.zestful.bond
+  tls: true
+  type: vless
+  udp: true
+  uuid: 967064b5-3272-431e-8dce-9519acfb94be
+  xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|2.3MB/s
+  name: 🇩🇪DE_4|2.6MB/s
   network: xhttp
   port: '443'
-  server: 104.16.74.10
-  servername: erori3430330.cloudwanfaired.top
+  server: 167.82.101.210
+  servername: global.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: eb17b44d-4e27-4a40-b4d1-ecf4d59043dd
   xhttp-opts:
-    host: erori3430330.cloudwanfaired.top
+    host: hormiz5.global.ssl.fastly.net
     mode: auto
-    path: /api
+    path: /
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
     x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_5|2.9MB/s
+  network: tcp
+  port: '55555'
+  reality-opts:
+    public-key: XPuLE49PtDeixzwOmEHuMFSZexYDTQifZ7s99w5e4QY
+    short-id: '!!str 880eeeef4927eed5'
+  server: ipreality2.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb17b44d-4e27-4a40-b4d1-ecf4d59043dd
   xudp: true

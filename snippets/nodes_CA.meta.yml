@@ -18,3 +18,22 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇦CA_1|2.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 41087
+  reality-opts:
+    _spider-x: /
+    public-key: aoGL5vNnsEuKoBXQFXyHTxjvcdAn3SxT4qUgV6aJxnw
+    short-id: '!!str 190d259bbd40d4c3'
+  server: 15.223.121.250
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57d94cf7-ca36-4c2a-bec5-90cf38588cda
+  xudp: true

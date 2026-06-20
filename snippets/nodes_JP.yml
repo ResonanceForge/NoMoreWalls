@@ -1,4 +1,18 @@
 proxies:
+- alpn:
+  - http/1.1
+  name: 日本+东京Fastly节点
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: global.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+    path: /ed=mitivpn
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -7,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇯🇵JP_2|1.1MB/s
+- name: 日本2|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 37973

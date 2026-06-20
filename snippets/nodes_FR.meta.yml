@@ -1,21 +1,33 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  name: 🇫🇷FR_1|2.1MB/s
-  network: ws
-  port: '8443'
-  server: 188.114.97.6
-  servername: argoovpn.imanaghapour.ir
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 65T6l7e51lwKu1rzQ4FgqVPe-JyG43IqPLw6r9U2v10
+    short-id: '!!str 0befa76540b5db79'
+  server: 45.90.97.132
+  servername: fr.bvps.cloud
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: argoovpn.imanaghapour.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|2.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2dgS9vJTywAfGZmlkuzDIIXLUR-E1A-0na8_W--ruUc
+    short-id: '!!str 5be8210215'
+  server: 89.208.113.157
+  servername: parisjetaime.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
   xudp: true
