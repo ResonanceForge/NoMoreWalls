@@ -1,1 +1,41 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_2|2.9MB/s
+  network: tcp
+  port: '8443'
+  server: 152.233.28.201
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: U_E3xSI6QY_Mj-3zjkB4esvMj0aVvYH6W6oHOR50XBs
+    short-id: '!!str 10debbdf94767541'
+  server: 95.133.242.210
+  servername: filesconvert.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5982d32f-f2e4-4267-a8ad-48492e65344c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_4|3.1MB/s
+  network: tcp
+  port: '8443'
+  server: nl.oplatasite.ru
+  servername: vpn.oplatasite.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
+  xudp: true
