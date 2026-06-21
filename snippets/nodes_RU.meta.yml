@@ -1,17 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+莫斯科
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2dgS9vJTywAfGZmlkuzDIIXLUR-E1A-0na8_W--ruUc
-    short-id: '!!str 5be8210215'
-  server: 89.208.113.157
-  servername: parisjetaime.com
-  tls: false
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
   type: vless
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU_1|2.4MB/s
   password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
