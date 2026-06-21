@@ -1,5 +1,6 @@
 proxies:
-- name: 俄罗斯(yudou789.top 玉豆免费节点)
+- client-fingerprint: chrome
+  name: TR_speednode_0108
   network: tcp
   port: 8443
   server: 87.249.139.233
@@ -7,9 +8,10 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: TR_speednode_0064
+  name: TR_speednode_0106
   network: tcp
   port: 8443
   server: 87.249.139.236
@@ -20,7 +22,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: SE_speednode_0056
+  name: SE_speednode_0103
   network: tcp
   port: 8443
   server: 79.127.249.221
@@ -30,16 +32,12 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
+- cipher: aes-256-gcm
+  name: 俄罗斯+莫斯科
+  password: 32c0ea6e823341a2
+  port: 32324
+  server: 46.29.163.30
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU_1|2.4MB/s
   password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B

@@ -1,57 +1,4 @@
 proxies:
-- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560
-- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.110.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 185.159.247.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-    path: /
-- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 77.75.199.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: 英国+V2CROSS.COM
-  password: TrojanPass2026!
-  port: 8448
-  server: 2.26.54.174
-  sni: foolsland.ru
-  type: trojan
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -70,6 +17,22 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: U_E3xSI6QY_Mj-3zjkB4esvMj0aVvYH6W6oHOR50XBs
+    short-id: '!!str 10debbdf94767541'
+  server: 95.133.242.210
+  servername: filesconvert.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5982d32f-f2e4-4267-a8ad-48492e65344c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   name: 🇬🇧GB_4|3.1MB/s
   network: tcp
   port: '8443'
@@ -80,3 +43,17 @@ proxies:
   udp: true
   uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
   xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: 4HjtN0YBEbiECAB-A-arFQUHlozgxpSEZx5g4436fF4
+    short-id: '!!str 99cf4c707e103c1e'
+  server: 87.121.105.33
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a9a91808-8e7a-4f8d-9658-ab1b94f199e8
