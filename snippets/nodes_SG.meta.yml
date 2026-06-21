@@ -1,21 +1,4 @@
 proxies:
-- name: 新加坡(yudou789.top 玉豆免费节点)
-  port: 1080
-  server: 5.255.99.75
-  tls: false
-  type: socks5
-  username: Og
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '新加坡(yudou789.top 玉豆免费节点) #2'
-  network: tcp
-  port: 443
-  server: 104.43.91.69
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - name: SG6｜机房｜高风险 (黑名单)
   network: tcp
   password: af4b064a9c39472fb34ad8b113acdc6b

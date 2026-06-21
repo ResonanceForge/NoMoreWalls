@@ -1,46 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: vTtRZ_FeFQoAigFr_pmVc_O85RaE9H8aVL0SitFYcmI
-    short-id: '!!str 53cd45d26d7b53fe'
-  server: 159.195.60.65
-  servername: free1.anotherboring.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: c897facf-2836-4538-be6e-25386fb49284
-  xudp: true
-- name: '德国(yudou789.top 玉豆免费节点) #1'
-  network: ws
-  port: 8880
-  server: 31.185.108.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime23.workers.dev
-    path: '%2F'
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_2|2.5MB/s
-  network: tcp
-  port: '1020'
-  server: nlt.reata.ir
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-  xudp: true
 - name: DE1｜机房｜低风险
   password: aa98121d-728a-437c-a84f-99feb82a467f
   port: 21118
@@ -236,6 +194,20 @@ proxies:
   type: hysteria
   udp: true
   up: 500
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇩🇪DE_2|2.5MB/s
+  network: tcp
+  port: '1020'
+  server: nlt.reata.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: 🇩🇪DE_3|1.7MB/s
@@ -251,6 +223,22 @@ proxies:
     host: germany4.alibaba1405.org
     mode: auto
     path: /v2raylink
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|2.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: vTtRZ_FeFQoAigFr_pmVc_O85RaE9H8aVL0SitFYcmI
+    short-id: '!!str 53cd45d26d7b53fe'
+  server: 159.195.60.65
+  servername: free1.anotherboring.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: c897facf-2836-4538-be6e-25386fb49284
   xudp: true
 - client-fingerprint: firefox
   encryption: none
