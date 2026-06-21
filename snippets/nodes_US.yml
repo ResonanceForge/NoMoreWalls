@@ -30,25 +30,37 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+V2CROSS.COM
-  password: oJRk-2+NoHJ3N4frj_O2.0CzT+WAgdcs7b
-  port: 28126
-  server: 144.31.55.35
-  sni: www.game-bridge.click
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: humanity
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: tcp
+  password: Bt-qzyomC7g37TaHwvPSV0.YrNSxFmlvIP
   port: 443
-  server: 45.130.125.0
-  sni: www.calmloud.com
+  server: 130.94.107.242
+  skip-cert-verify: true
+  sni: 130.94.107.242
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
+- name: 美国+V2CROSS.COM
+  network: tcp
+  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
+  port: 443
+  server: 45.61.52.243
+  sni: 45.61.52.243
+  type: trojan
+- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: tcp
+  port: '1546'
+  server: pro.sanaiehdasti.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
 - name: 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
