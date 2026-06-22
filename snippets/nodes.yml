@@ -335,25 +335,14 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+- name: 英国+V2CROSS.COM
   network: tcp
-  password: Bt-qzyomC7g37TaHwvPSV0.YrNSxFmlvIP
+  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
   port: 443
-  server: 130.94.107.242
+  server: 185.126.236.190
   skip-cert-verify: true
+  sni: 185.126.236.190
   type: trojan
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - name: 美国+华盛顿Cogent通信公司
   network: tcp
   password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
@@ -363,18 +352,13 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2f'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
+- name: '美国+V2CROSS.COM #1'
+  network: tcp
+  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   port: 443
-  server: 104.16.174.46
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: 45.61.52.243
+  sni: 45.61.52.243
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
