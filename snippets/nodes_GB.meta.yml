@@ -1,16 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 48350
-  reality-opts:
-    public-key: Ea23HWLvV6k7UjJ8xCsUH2UI0oyasSLjXV84aTXQ6Uk
-  server: 185.170.10.248
-  servername: stats.vk-portal.net
-  tls: false
-  type: vless
-  uuid: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -39,6 +27,22 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: U_E3xSI6QY_Mj-3zjkB4esvMj0aVvYH6W6oHOR50XBs
+    short-id: '!!str 10debbdf94767541'
+  server: 95.133.242.210
+  servername: filesconvert.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5982d32f-f2e4-4267-a8ad-48492e65344c
   xudp: true
 - client-fingerprint: chrome
   encryption: none
