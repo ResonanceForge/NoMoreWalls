@@ -36,27 +36,28 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+华盛顿Cogent通信公司
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: PoSQBShqwNV9wKX4WHxDoLxbvp4eQYnD8v
+  port: 443
+  server: 130.94.78.17
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
   network: tcp
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: '1546'
+  server: pro.sanaiehdasti.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
+- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
+  network: tcp
+  password: BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V
   port: 443
-  server: 38.54.64.247
-  skip-cert-verify: true
+  server: 130.94.114.217
+  sni: 130.94.114.217
   type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -67,25 +68,25 @@ proxies:
   type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
+  password: 860c3c2c89a1c7515792be1c5295d21e
   port: 49277
-  server: 43.198.206.201
+  server: 18.162.41.225
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
+  password: 860c3c2c89a1c7515792be1c5295d21e
   port: 17005
-  server: 13.115.223.251
+  server: 95.40.53.232
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.163.80.94
+  port: 11993
+  server: 95.40.92.87
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -424,14 +425,3 @@ proxies:
     headers:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0129
-  port: 443
-  server: assets.trorays.com
-  servername: assets.trorays.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
