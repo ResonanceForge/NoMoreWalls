@@ -1,18 +1,22 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_1|2.6MB/s
-  network: xhttp
-  port: '443'
-  server: www.speedtest.net
-  servername: MajID-ApP-3kNus0R6.LneWAPDOMinFasTLogIn2.org
+- name: 🇫🇷FR_1|1.1MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 18066
+  server: hy2.313186.xyz
+  skip-cert-verify: false
+  sni: hy2.313186.xyz
+  tfo: false
+  type: hysteria2
+- grpc-opts:
+    grpc-service-name: grpc-api
+  name: 🇫🇷FR_2|1.2MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: fry2.brocollisuper.click
+  servername: fry2.brocollisuper.click
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bbab81f3-87a0-4e63-8b3b-010c645d8da7
-  xhttp-opts:
-    host: MajID-ApP-3kNus0R6.LneWAPDOMinFasTLogIn2.org
-    mode: stream-one
-    path: /meti
-    x-padding-bytes: 100-1000
-  xudp: true
+  uuid: e4468d51-2528-4d40-a92d-5cf409d00dac

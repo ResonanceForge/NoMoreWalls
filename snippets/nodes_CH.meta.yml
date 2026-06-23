@@ -1,27 +1,33 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇨🇭CH_1|3.8MB/s
-  network: tcp
-  password: SoftNetConnect
-  port: '42549'
-  server: 83.228.224.161
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  type: trojan
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: 🇨🇭CH_1|3.7MB/s
+  network: http
+  port: '22'
+  server: 172.65.111.43
+  type: vless
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_2|2.6MB/s
-  network: tcp
-  port: '2083'
+  name: 🇨🇭CH_2|1.1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY
-    short-id: '!!str 4e590fdc'
-  server: 83.228.224.161
-  servername: www.yahoo.com
+    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
+    short-id: '!!str 6ba85179e30d4fc3'
+  server: 179.237.69.218
+  servername: yandex.by
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
-  xudp: true
+  uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
+  xhttp-opts:
+    mode: auto
+    path: /xh
