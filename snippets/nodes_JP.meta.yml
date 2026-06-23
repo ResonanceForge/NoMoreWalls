@@ -103,6 +103,19 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- name: 日本+东京Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.109.223
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
