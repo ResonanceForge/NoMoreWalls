@@ -1,10 +1,29 @@
 proxies:
-- name: KR5｜家宽｜高风险 (代理/黑名单)
+- name: KR_speednode_0002
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
+  udp: true
   username: T2clM0QlM0Q6
+- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
 - client-fingerprint: chrome
   name: 🇰🇷KR_1|1.2MB/s
   network: ws
@@ -21,7 +40,7 @@ proxies:
     headers:
       Host: s5.868001.xyz
     path: /proxyip
-- name: KR_speednode_0011
+- name: KR_1bccd_0011
   password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
   port: 31433
   server: b96d8f0d-t9zts0-tgzvop-hns7.kr.oshuawei.com
@@ -29,3 +48,11 @@ proxies:
   type: http
   udp: true
   username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+- name: KR_speednode_0003
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 31433
+  server: 5399cdbf-t9zts0-tc4puo-m0b9.kr.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
