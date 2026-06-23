@@ -1,26 +1,4 @@
 proxies:
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 212.41.10.228
-  servername: abuse.sellflow.org
-  tls: false
-  type: vless
-  uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU_1|2.4MB/s
   password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
