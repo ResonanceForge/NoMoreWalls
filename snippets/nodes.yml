@@ -335,6 +335,23 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 罗马尼亚+V2CROSS.COM
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  port: 443
+  server: 185.137.157.250
+  sni: fra250.clientfirewall.click
+  type: trojan
 - name: 意大利+米兰Fastly节点
   network: ws
   password: MITIVPN
@@ -345,43 +362,6 @@ proxies:
     headers:
       Host: mitivpn--4.global.ssl.fastly.net
     path: /ed=mitivpn
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.47.69
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2Fassignment'
-- name: 英国+V2CROSS.COM
-  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
-  port: 443
-  server: 185.126.236.190
-  sni: 185.126.236.190
-  type: trojan
-- alpn:
-  - h2
-  name: 日本+东京Fastly节点
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 151.101.110.219
-  skip-cert-verify: true
-  sni: global.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn--3.global.ssl.fastly.net
-    path: /ed=mitivpn
-- name: '英国+V2CROSS.COM #1'
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  port: 443
-  server: 185.126.236.44
-  sni: www.mesaly.click
-  type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05

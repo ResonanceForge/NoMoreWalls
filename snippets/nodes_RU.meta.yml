@@ -1,17 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 2777
-  reality-opts:
-    public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao
-    short-id: '!!str 0f4dacf08722a29f'
-  server: disk.api-yandex.net
-  servername: ads.x5.ru
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 80
+  server: 193.233.21.140
   tls: false
   type: vless
-  uuid: a48c736e-d3de-47b8-a6eb-ef1d6fd34c63
+  uuid: f9255507-1b65-433f-bfd8-193b35e068e2
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU_1|2.4MB/s
   password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
