@@ -1,15 +1,4 @@
 proxies:
-- name: 瑞典+Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.86.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F'
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇪SE_1|3.2MB/s

@@ -335,30 +335,58 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 美国+V2CROSS.COM
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
-  port: 443
-  server: 45.61.52.243
-  skip-cert-verify: false
-  sni: 45.61.52.243
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
+- name: 希腊+V2CROSS.COM
   network: tcp
-  port: '49178'
-  server: 160.250.247.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
-- name: '美国+V2CROSS.COM #1'
-  network: tcp
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 45.61.58.89
+  server: 92.119.35.97
   skip-cert-verify: false
   type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 罗马尼亚+V2CROSS.COM
+  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
+  port: 443
+  server: 185.137.157.59
+  sni: www.lateralio.click
+  type: trojan
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.44.211
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: '美国+V2CROSS.COM #1'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 199.232.237.245
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cdn2-mitivpn.global.ssl.fastly.net
+    path: /usa=mitivpn
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -521,3 +549,51 @@ proxies:
     headers: {}
     path: /
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_21921_0066
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+    tls: false
+  port: 2377
+  server: 134.195.101.115
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_21921_0067
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+    tls: false
+  port: 2377
+  server: 134.195.101.118
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_21921_0070
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+    tls: false
+  port: 2377
+  server: 134.195.101.127
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_21921_0071
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+    tls: false
+  port: 2377
+  server: 134.195.101.117
+  type: ss
+  udp: true
