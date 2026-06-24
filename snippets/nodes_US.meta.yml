@@ -36,95 +36,21 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+CloudFlare节点
+- name: 美国+加利福尼亚州洛杉矶Fastly节点
   network: ws
-  port: 443
-  server: cdn.9889888.xyz
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
+  port: 80
+  server: 151.101.24.151
+  tls: false
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
 - name: 美国+Fastly全球Anycast节点
   network: ws
   port: 80
-  server: 151.101.2.219
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 🇩🇪DE_10|1.5MB/s
-  network: ws
-  port: 80
-  server: 151.101.162.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
-  port: 443
-  server: 38.60.168.129
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+Fastly全球Anycast节点 #1'
-  network: ws
-  port: 80
-  server: 151.101.2.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F'
-- cipher: chacha20-ietf-poly1305
-  name: 美国+弗吉尼亚州
-  password: xfscSDcb-SeEqqRb.omzVGgVgNpXh3bA1u
-  port: 26286
-  server: 67.219.106.119
-  type: ss
-- name: '美国+Fastly全球Anycast节点 #2'
-  network: ws
-  port: 80
-  server: 151.101.0.35
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 美国+得克萨斯州达拉斯Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.48.151
+  server: 151.101.192.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -132,28 +58,47 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  skip-cert-verify: false
-  type: trojan
-- name: 美国+俄亥俄州哥伦布Fastly节点
+- name: 美国+Fastly节点
   network: ws
   port: 80
-  server: 151.101.144.151
+  server: 151.101.188.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: '%2F'
-- name: '美国+Fastly全球Anycast节点 #3'
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.26.12.222
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- name: '美国+Fastly全球Anycast节点 #1'
   network: ws
   port: 80
-  server: 151.101.67.151
+  server: 151.101.66.219
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- client-fingerprint: chrome
+  name: '美国+Fastly全球Anycast节点 #2'
+  network: ws
+  port: 80
+  server: speedtest.net
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846

@@ -247,6 +247,21 @@ proxies:
     path: /
     x-padding-bytes: 100-1000
   xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|2.6MB/s
+  network: ws
+  port: '80'
+  server: 151.101.171.151
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /?ed=2560
+  xudp: true
 - alpn:
   - h2
   - http/1.1
@@ -317,6 +332,19 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /?ed=2560
   xudp: true
+- name: 🇩🇪DE_10|1.5MB/s
+  network: ws
+  port: 80
+  server: 151.101.162.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https://t.me/WangCai2🇨🇳
 - name: 🇩🇪DE_11|1.5MB/s
   network: ws
   port: 80

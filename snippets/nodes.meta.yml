@@ -760,22 +760,32 @@ proxies:
   sni: my.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: cdn.9889888.xyz
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
-- name: 美国+Fastly全球Anycast节点
+- name: 新加坡+Fastly节点
   network: ws
   port: 80
-  server: 151.101.2.219
+  server: 151.101.10.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 加拿大+不列颠哥伦比亚省温哥华Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.215.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 美国+加利福尼亚州洛杉矶Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.24.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -783,44 +793,21 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 🇩🇪DE_10|1.5MB/s
+- name: 美国+Fastly全球Anycast节点
   network: ws
   port: 80
-  server: 151.101.162.151
-  skip-cert-verify: true
+  server: 151.101.192.151
   tls: false
   type: vless
-  udp: true
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
-  port: 443
-  server: 38.60.168.129
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+Fastly全球Anycast节点 #1'
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 巴西+库里奇巴Fastly节点
   network: ws
   port: 80
-  server: 151.101.2.151
+  server: 151.101.253.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -828,22 +815,28 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: '%2F'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_5|1.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: jLa4bn_ZuTamBSUdxQCJJI1seX1TvPQDKB5u7rzbcG4
-    short-id: 'ce92dfd666224477'
-  server: rezerv18.yunus.guru
-  servername: rezerv18.yunus.guru
-  skip-cert-verify: false
-  tls: true
+- name: 意大利+米兰Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.241.151
+  tls: false
   type: vless
-  udp: true
-  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 美国+Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.188.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
 - name: 罗马尼亚+V2CROSS.COM
   network: tcp
   password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
@@ -852,16 +845,64 @@ proxies:
   skip-cert-verify: false
   sni: fra154.clientfirewall.click
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 美国+弗吉尼亚州
-  password: xfscSDcb-SeEqqRb.omzVGgVgNpXh3bA1u
-  port: 26286
-  server: 67.219.106.119
-  type: ss
-- name: '美国+Fastly全球Anycast节点 #2'
+- name: '罗马尼亚+V2CROSS.COM #1'
+  network: tcp
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  port: 443
+  server: 185.137.157.250
+  skip-cert-verify: false
+  sni: fra250.clientfirewall.click
+  type: trojan
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.26.12.222
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- name: 英国+伦敦Fastly节点
   network: ws
   port: 80
-  server: 151.101.0.35
+  server: 151.101.17.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 日本+Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.74.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F'
+- name: '英国+伦敦Fastly节点 #1'
+  network: ws
+  port: 80
+  server: 151.101.16.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+Fastly全球Anycast节点 #1'
+  network: ws
+  port: 80
+  server: 151.101.66.219
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -869,47 +910,10 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 香港+电讯盈科有限公司
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: 美国+得克萨斯州达拉斯Fastly节点
+- name: '美国+Fastly全球Anycast节点 #2'
   network: ws
   port: 80
-  server: 151.101.48.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: 香港+Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.79.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  skip-cert-verify: false
-  type: trojan
-- name: 美国+俄亥俄州哥伦布Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.144.151
+  server: speedtest.net
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -917,40 +921,35 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: '%2F'
-- name: 加拿大+V2CROSS.COM
-  network: tcp
-  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
-  port: 443
-  server: 198.52.244.10
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+Fastly全球Anycast节点 #3'
+- name: '日本+Fastly节点 #1'
   network: ws
   port: 80
-  server: 151.101.67.151
+  server: 151.101.73.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: '%2F'
-- encryption: none
-  name: 🇩🇪DE_5|2.6MB/s
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 希腊+V2CROSS.COM
+  network: tcp
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.105
+  skip-cert-verify: false
+  type: trojan
+- name: 加拿大+安大略省多伦多Fastly节点
   network: ws
-  port: '80'
-  server: 151.101.171.151
+  port: 80
+  server: 151.101.126.151
   tls: false
   type: vless
-  udp: true
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /?ed=2560
-  xudp: true
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
 - name: 🐬66@oneclickvpnkeys
   password: 00dcd873-9211-4d61-ad35-87999906e5c8
   port: 443
@@ -1065,22 +1064,6 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: '@vmesskhodam'
-  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
-  port: 443
-  server: 46.254.18.107
-  skip-cert-verify: false
-  sni: newlte.kihsuyhf8jkiugsxb.cfd
-  tls: false
-  type: hysteria2
-- name: Tel-@NapsterNetvIrani🫂 1
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 202.61.205.86
-  skip-cert-verify: false
-  sni: de1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
 - name: '@bored_vpn'
   obfs: salamander
   obfs-password: lmzo7ebpr6m8theh
@@ -1110,6 +1093,22 @@ proxies:
   sni: se.esimpson.org
   tls: false
   type: hysteria2
+- name: 🇨🇳TW_@https://t.me/daily_free_...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: hy1.466688.xyz
+  skip-cert-verify: true
+  sni: https://t.me/daily_free_vpn
+  tls: false
+  type: hysteria2
+- name: 🇭🇰HK_@https://t.me/daily_free_...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: hy2.466688.xyz
+  skip-cert-verify: true
+  sni: https://t.me/daily_free_vpn
+  tls: false
+  type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
@@ -1118,24 +1117,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: '@vmesskhodam #1'
-  password: MySecurePassword123
-  port: 8443
-  server: wuhantravel.duckdns.org
-  skip-cert-verify: false
-  sni: wuhantravel.duckdns.org
-  tls: false
-  type: hysteria2
-- name: '@vmesskhodam #2'
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: hy2-new.aspidnet.xyz
-  skip-cert-verify: true
-  sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: 🇳🇱 - NL - @FreeOnlineVPN
@@ -1460,6 +1441,21 @@ proxies:
     headers: {}
     path: /
   xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|2.6MB/s
+  network: ws
+  port: '80'
+  server: 151.101.171.151
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /?ed=2560
+  xudp: true
 - alpn:
   - h3
   - h2
@@ -1666,6 +1662,19 @@ proxies:
   udp: true
   uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
   xudp: true
+- name: 🇩🇪DE_10|1.5MB/s
+  network: ws
+  port: 80
+  server: 151.101.162.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https://t.me/WangCai2🇨🇳
 - name: 🇩🇪DE_11|1.5MB/s
   network: ws
   port: 80
@@ -1890,6 +1899,22 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL_5|1.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: jLa4bn_ZuTamBSUdxQCJJI1seX1TvPQDKB5u7rzbcG4
+    short-id: 'ce92dfd666224477'
+  server: rezerv18.yunus.guru
+  servername: rezerv18.yunus.guru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
 - encryption: none
   name: 🇩🇪DE_16|1014KB/s
   network: ws
