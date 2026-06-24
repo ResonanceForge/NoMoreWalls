@@ -335,28 +335,51 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 罗马尼亚+V2CROSS.COM
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   network: tcp
-  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  password: d5VIifAZlI.VX459mxBPZ0skFQ2JP6BvHy
   port: 443
-  server: 185.137.157.154
+  server: 130.94.97.33
   skip-cert-verify: false
-  sni: fra154.clientfirewall.click
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 美国+华盛顿Cogent通信公司
   network: tcp
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  port: 443
+  server: 38.60.168.129
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 美国+Akamai科技公司CDN网络节点
+  password: hRd=IXkjozMEKLeGR_0q09jtwly5J2la2O
+  port: 24833
+  server: 172.234.202.34
+  type: ss
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 罗马尼亚+V2CROSS.COM
   password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
   port: 443
   server: 185.137.157.250
-  skip-cert-verify: false
   sni: fra250.clientfirewall.click
-  type: trojan
-- name: 希腊+V2CROSS.COM
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.105
-  skip-cert-verify: false
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
