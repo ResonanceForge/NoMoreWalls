@@ -222,6 +222,21 @@ proxies:
     mode: auto
     path: /v2raylink
   xudp: true
+- encryption: none
+  name: 🇩🇪DE_3|2.1MB/s
+  network: ws
+  port: '80'
+  server: 167.82.0.1
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
+  xudp: true
 - alpn:
   - h2
   - http/1.1
