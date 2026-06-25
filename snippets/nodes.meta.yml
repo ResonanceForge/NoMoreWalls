@@ -759,98 +759,68 @@ proxies:
   sni: my.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 美国+V2CROSS.COM
-  password: 6U3psR0sQuQxWXoBHB4KTD3YacwQwS21XvSEy9
-  port: 41348
-  server: 45.129.96.62
-  type: ss
-- name: 美国+华盛顿Cogent通信公司
+- name: 新加坡+DigitalOcean数据中心
   network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 39412
+  server: 178.128.49.154
+  tls: false
+  type: vless
+  uuid: 1ba7a781-9669-4be5-b417-0df65a105ad1
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /FREE+By+Tharuwa+(0767597317)
+- alpn:
+  - http/1.1
+  name: 日本+东京Fastly节点
+  network: ws
+  password: MiTiVPN
   port: 443
-  server: 38.47.105.76
-  sni: tjsp.hhxaf.cc.cd
+  server: 151.101.110.219
+  skip-cert-verify: false
+  sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: '%2F'
-- name: 希腊+V2CROSS.COM
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+      Host: cdn2-mitivpn.global.ssl.fastly.net
+    path: /de=mitivpn
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
   port: 443
-  server: 92.119.35.105
+  server: 185.137.157.250
+  skip-cert-verify: false
+  sni: fra250.clientfirewall.click
+  type: trojan
+- name: 英国+伦敦Choopa数据中心
+  network: tcp
+  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
+  port: 443
+  server: 45.77.227.183
   skip-cert-verify: false
   type: trojan
-- name: 美国+CloudFlare节点
+- name: 美国+V2CROSS.COM
   network: ws
+  password: MiTiVPN
   port: 443
-  server: 104.17.121.98
-  servername: unnes.ac.id.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
+  server: 199.232.237.245
+  sni: ssl.fastly.com
+  type: trojan
   ws-opts:
     headers:
-      Host: unnes.ac.id.yxls.eu.cc
-    path: '%2Fca-cl'
+      Host: cdn2-mitivpn.global.ssl.fastly.net
+    path: /usa=mitivpn
+- name: 美国+华盛顿Cogent通信公司
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  port: 443
+  server: 38.60.202.163
+  sni: 38.60.202.163
+  type: trojan
 - name: '美国+V2CROSS.COM #1'
   password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
   port: 443
   server: 207.126.167.162
   type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.6
-  skip-cert-verify: true
-  sni: global.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cdn-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
-- name: '希腊+V2CROSS.COM #1'
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.131
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+华盛顿Cogent通信公司 #1'
-  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
-  port: 443
-  server: 38.60.220.65
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚+V2CROSS.COM
-  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
-  port: 27116
-  server: 104.156.233.234
-  type: ss
-- flow: xtls-rprx-vision
-  name: US_speednode_0053
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: '473277e2'
-  server: tw3.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.80
-  type: ss
 - name: 🐙63@oneclickvpnkeys
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
@@ -2496,6 +2466,19 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
+- flow: xtls-rprx-vision
+  name: US_speednode_0053
+  port: 443
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: '473277e2'
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
 - name: US_speednode_0054
   network: ws
   port: 80

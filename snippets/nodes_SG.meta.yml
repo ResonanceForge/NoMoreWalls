@@ -7,6 +7,17 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- name: 新加坡+DigitalOcean数据中心
+  network: ws
+  port: 39412
+  server: 178.128.49.154
+  tls: false
+  type: vless
+  uuid: 1ba7a781-9669-4be5-b417-0df65a105ad1
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /FREE+By+Tharuwa+(0767597317)
 - name: 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
