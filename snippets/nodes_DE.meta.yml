@@ -144,17 +144,6 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- name: 西班牙+马德里Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.133.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -176,7 +165,7 @@ proxies:
 - name: 🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
-  password: CRzpXvIiyI
+  password: S0Mq06tf1I
   port: 443
   server: 185.250.41.245
   skip-cert-verify: true
@@ -186,16 +175,6 @@ proxies:
 - name: '🇩🇪@V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
-  password: S0Mq06tf1I
-  port: 443
-  server: 185.250.41.245
-  skip-cert-verify: true
-  sni: www.wordreference.com
-  tls: false
-  type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪 #2'
-  obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
   password: Z7MFGgpuzh
   port: 443
   server: 185.250.41.245
@@ -203,7 +182,7 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪 #3'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪 #2'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: ockdTdb3vU
@@ -242,21 +221,6 @@ proxies:
     host: germany4.alibaba1405.org
     mode: auto
     path: /v2raylink
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_3|2.1MB/s
-  network: ws
-  port: '80'
-  server: 167.82.0.1
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
   xudp: true
 - alpn:
   - h2

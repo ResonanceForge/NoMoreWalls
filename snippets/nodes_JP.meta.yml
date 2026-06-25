@@ -106,54 +106,14 @@ proxies:
 - name: 日本+东京Fastly节点
   network: ws
   port: 80
-  server: 151.101.111.151
+  server: 151.101.109.223
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '日本+东京Fastly节点 #1'
-  network: ws
-  port: 80
-  server: 151.101.109.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0053
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: '!!str 473277e2'
-  server: tw3.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
-- alpn:
-  - http/1.1
-  name: '日本+东京Fastly节点 #2'
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.110.219
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cdn2-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
+    path: '%2F'
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
