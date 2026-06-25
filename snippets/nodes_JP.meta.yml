@@ -103,6 +103,28 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- name: 日本+Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.73.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F'
+- name: 日本+东京Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.108.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -114,23 +136,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 10624
-  server: 18.183.54.150
+  server: 54.250.183.37
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
-  password: ba5b6f1d3a9da87096165da523fb4375
+  password: a844e75e40134ee742e80ced8509b310
   port: 37973
-  server: 16.163.95.104
+  server: 13.158.46.252
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: ba5b6f1d3a9da87096165da523fb4375
+  password: a844e75e40134ee742e80ced8509b310
   port: 3743
-  server: 95.40.43.133
+  server: 13.158.46.252
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
