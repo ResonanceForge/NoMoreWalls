@@ -147,7 +147,7 @@ proxies:
 - name: 西班牙+马德里Fastly节点
   network: ws
   port: 80
-  server: 151.101.134.151
+  server: 151.101.133.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -186,7 +186,7 @@ proxies:
 - name: '🇩🇪@V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
-  password: Z7MFGgpuzh
+  password: S0Mq06tf1I
   port: 443
   server: 185.250.41.245
   skip-cert-verify: true
@@ -194,6 +194,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '🇩🇪@V2RayyNGvpn🇩🇪 #2'
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: Z7MFGgpuzh
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
+- name: '🇩🇪@V2RayyNGvpn🇩🇪 #3'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: ockdTdb3vU
@@ -371,6 +381,19 @@ proxies:
   network: ws
   port: 80
   server: 151.101.55.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https://t.me/WangCai2🇨🇳
+- name: 🇩🇪DE_12|1.1MB/s
+  network: ws
+  port: 80
+  server: 151.101.9.151
   skip-cert-verify: true
   tls: false
   type: vless

@@ -30,6 +30,13 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: zK=0KfL3IG+sNNZL-J7d0Nonu4wFBx8MOy
+  port: 443
+  server: 172.235.229.227
+  skip-cert-verify: false
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: a844e75e40134ee742e80ced8509b310
@@ -89,7 +96,7 @@ proxies:
     path: /
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_229d9_0066
+  name: US_956a2_0066
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -101,7 +108,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_229d9_0067
+  name: US_956a2_0067
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -113,7 +120,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_229d9_0070
+  name: US_956a2_0070
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -125,7 +132,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_229d9_0071
+  name: US_956a2_0071
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
