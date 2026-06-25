@@ -7,6 +7,30 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- name: 🇩🇪DE_12|1.1MB/s
+  network: ws
+  port: 80
+  server: 151.101.9.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https://t.me/WangCai2🇨🇳
+- name: '新加坡+Fastly节点 #1'
+  network: ws
+  port: 80
+  server: 151.101.8.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
 - name: 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055

@@ -36,10 +36,32 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+明尼苏达州明尼阿波利斯Fastly节点
+- name: 美国+弗吉尼亚州阿什本Fastly节点
   network: ws
   port: 80
-  server: 151.101.151.151
+  server: 151.101.203.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https://t.me/WangCai2🇨🇳
+- name: 美国+Fastly全球Anycast节点
+  network: ws
+  port: 80
+  server: 151.101.3.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+Fastly全球Anycast节点 #1'
+  network: ws
+  port: 80
+  server: 151.101.194.219
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -50,7 +72,7 @@ proxies:
 - name: 美国+加利福尼亚州洛杉矶Fastly节点
   network: ws
   port: 80
-  server: 151.101.199.151
+  server: 151.101.196.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -58,32 +80,11 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: 美国+Fastly节点
+- name: US_speednode_0076
   network: ws
   port: 80
-  server: 151.101.191.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: 美国+德克萨斯州休斯顿Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.182.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: 🇩🇪DE_10|1.5MB/s
-  network: ws
-  port: 80
-  server: 151.101.162.151
+  server: 151.101.67.151
+  servername: max-gb1.global.ssl.fastly.net
   skip-cert-verify: true
   tls: false
   type: vless
@@ -92,32 +93,51 @@ proxies:
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: US_speednode_0063
-  network: ws
-  port: 80
-  server: 151.101.194.219
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 美国+V2CROSS.COM
+- name: 美国+Fastly节点
   network: ws
   port: 80
-  server: 167.82.0.1
+  server: 151.101.160.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: /
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 美国+得克萨斯州达拉斯Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.48.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+Fastly全球Anycast节点 #3'
+  network: ws
+  port: 80
+  server: speedtest.net
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F'
+- name: 美国+佛罗里达州迈阿密Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.7.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -402,6 +422,20 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
+- name: US_speednode_0063
+  network: ws
+  port: 80
+  server: 151.101.194.219
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
 - name: US_speednode_0065
   network: ws
   port: 80
@@ -417,7 +451,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: US_21921_0066
+  name: US_229d9_0066
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -429,7 +463,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_21921_0067
+  name: US_229d9_0067
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -469,7 +503,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: US_21921_0070
+  name: US_229d9_0070
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -481,7 +515,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_21921_0071
+  name: US_229d9_0071
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -539,20 +573,6 @@ proxies:
   network: ws
   port: 80
   server: 151.101.25.151
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: US_speednode_0076
-  network: ws
-  port: 80
-  server: 151.101.67.151
   servername: max-gb1.global.ssl.fastly.net
   skip-cert-verify: true
   tls: false

@@ -335,13 +335,30 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 罗马尼亚+V2CROSS.COM
+- alterId: 0
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
   network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: '49178'
+  server: 160.250.247.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
+- alpn:
+  - http/1.1
+  name: '日本+东京Fastly节点 #1'
+  network: ws
+  password: MiTiVPN
   port: 443
-  server: 185.137.157.156
+  server: 151.101.110.219
   skip-cert-verify: false
+  sni: ssl.fastly.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: cdn2-mitivpn.global.ssl.fastly.net
+    path: /de=mitivpn
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -505,7 +522,7 @@ proxies:
     path: /
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_21921_0066
+  name: US_229d9_0066
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -517,7 +534,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_21921_0067
+  name: US_229d9_0067
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -529,7 +546,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_21921_0070
+  name: US_229d9_0070
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -541,7 +558,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_21921_0071
+  name: US_229d9_0071
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
