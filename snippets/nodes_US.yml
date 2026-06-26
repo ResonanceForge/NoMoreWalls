@@ -35,7 +35,15 @@ proxies:
   port: 443
   server: 38.54.64.247
   type: trojan
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+CloudFlare节点
+  network: ws
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  port: 443
+  server: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    path: '%2Fbr-orcl'
+- name: 美国+V2CROSS.COM
   password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   port: 443
   server: 45.61.52.243
@@ -92,19 +100,7 @@ proxies:
     path: /
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_cd92d_0066
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 134.195.101.115
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_cd92d_0067
+  name: US_f8315_0022
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -116,19 +112,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_cd92d_0070
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 134.195.101.127
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_cd92d_0071
+  name: US_f8315_0023
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -137,5 +121,17 @@ proxies:
     tls: false
   port: 2377
   server: 134.195.101.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_f8315_0024
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+    tls: false
+  port: 2377
+  server: 134.195.101.127
   type: ss
   udp: true
