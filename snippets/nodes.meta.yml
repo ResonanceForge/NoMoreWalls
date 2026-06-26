@@ -759,33 +759,37 @@ proxies:
   sni: my.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- flow: xtls-rprx-vision
-  name: 南非+V2CROSS.COM
+- name: 希腊+V2CROSS.COM
   network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: '2715592069f36fe7'
-  server: 45.198.87.218
-  servername: storage.yandex.net
-  tls: false
-  type: vless
-  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8080
-  server: 104.21.11.152
-  tls: false
-  type: vless
-  uuid: d7a8ae86-9904-4f71-8fe4-d754ded610d7
-  ws-opts:
-    headers:
-      Host: server6.diwir81236.workers.dev
-    path: /eyJqdW5rIjoiOHNqQ3Bqc2dTZlppTEl1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560
-- name: '美国+CloudFlare节点 #1'
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  port: 443
+  server: 92.119.35.127
+  skip-cert-verify: false
+  type: trojan
+- name: 香港+电讯盈科有限公司
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
+- name: 英国+伦敦Choopa数据中心
+  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
+  port: 443
+  server: 45.77.227.183
+  sni: ''
+  type: trojan
+- name: '希腊+V2CROSS.COM #1'
+  network: tcp
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.119
+  skip-cert-verify: false
+  type: trojan
+- name: 新加坡+Choopa数据中心
   network: ws
   port: 443
-  server: www.cnae.top
+  server: 149.28.159.222
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   tls: true
@@ -795,71 +799,56 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
-- flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
+- name: 美国+Akamai科技公司CDN网络节点
   network: tcp
-  port: 9443
-  server: bero-3.bexum.fun
-  servername: bero-3.bexum.fun
-  tls: true
-  type: vless
-  uuid: 7d876627-abf5-4865-8ff4-03f37d49de5d
-- name: 希腊+V2CROSS.COM
+  password: zK=0KfL3IG+sNNZL-J7d0Nonu4wFBx8MOy
+  port: 443
+  server: 172.235.229.227
+  skip-cert-verify: false
+  type: trojan
+- name: '希腊+V2CROSS.COM #2'
   network: tcp
   password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 92.119.35.127
+  server: 92.119.35.125
   skip-cert-verify: false
   type: trojan
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 167.82.101.251
-  servername: default.ssl.fastly.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
-  ws-opts:
-    headers:
-      Host: newip.global.ssl.fastly.neT.
-    path: /
-- name: '美国+V2CROSS.COM #1'
+- name: 法国+V2CROSS.COM
   network: ws
   port: 8880
-  server: 155.46.167.30
+  server: 94.140.0.100
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 78e6619e-e82a-cd8d-b482-0973d8498305
   ws-opts:
     headers:
-      Host: vms.lifetime50.workers.dev
-    path: ''
-- name: '美国+CloudFlare节点 #2'
+      Host: silent-pine-a674.jfadwkglaugul.workers.dev
+    path: /sync
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: www.calmloud.com
+  server: 104.20.6.134
+  skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: /assignment
-- name: 美国+华盛顿Cogent通信公司
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 罗马尼亚+V2CROSS.COM
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 38.60.202.163
+  server: 185.137.157.138
   type: trojan
-- flow: xtls-rprx-vision
-  name: 比利时+V2CROSS.COM
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: _BMcBaQjBV5AXRtl7yWxV6vYR8Jm7nfwXY6VhltMtBo
-  server: 109.69.218.217
-  servername: www.engage.edgedoor.ink
-  tls: false
-  type: vless
-  uuid: 7d14f1cf-3740-4fbd-a31c-6f7d078f97d7
+- cipher: aes-256-gcm
+  name: 伊朗+V2CROSS.COM
+  password: p+sslTvPR5jUuECZwjaTLZiImJPTnc/Bt4n7c+h1vyg=
+  port: 443
+  server: 85.198.9.136
+  type: ss
 - name: 🐙63@oneclickvpnkeys
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
@@ -2646,7 +2635,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: US_739a6_0066
+  name: US_d7aa6_0066
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -2658,7 +2647,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_739a6_0067
+  name: US_d7aa6_0067
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -2698,7 +2687,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: US_739a6_0070
+  name: US_d7aa6_0070
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -2710,7 +2699,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_739a6_0071
+  name: US_d7aa6_0071
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:

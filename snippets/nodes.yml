@@ -342,20 +342,65 @@ proxies:
   server: 92.119.35.127
   skip-cert-verify: false
   type: trojan
-- name: '美国+CloudFlare节点 #2'
+- name: 香港+电讯盈科有限公司
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
+- name: 英国+伦敦Choopa数据中心
+  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
+  port: 443
+  server: 45.77.227.183
+  sni: ''
+  type: trojan
+- name: '希腊+V2CROSS.COM #1'
+  network: tcp
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.119
+  skip-cert-verify: false
+  type: trojan
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: zK=0KfL3IG+sNNZL-J7d0Nonu4wFBx8MOy
+  port: 443
+  server: 172.235.229.227
+  skip-cert-verify: false
+  type: trojan
+- name: '希腊+V2CROSS.COM #2'
+  network: tcp
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  port: 443
+  server: 92.119.35.125
+  skip-cert-verify: false
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: www.calmloud.com
+  server: 104.20.6.134
+  skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: /assignment
-- name: 美国+华盛顿Cogent通信公司
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 罗马尼亚+V2CROSS.COM
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 38.60.202.163
+  server: 185.137.157.138
   type: trojan
+- cipher: aes-256-gcm
+  name: 伊朗+V2CROSS.COM
+  password: p+sslTvPR5jUuECZwjaTLZiImJPTnc/Bt4n7c+h1vyg=
+  port: 443
+  server: 85.198.9.136
+  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -511,7 +556,7 @@ proxies:
     path: /
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_739a6_0066
+  name: US_d7aa6_0066
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -523,7 +568,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_739a6_0067
+  name: US_d7aa6_0067
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -535,7 +580,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_739a6_0070
+  name: US_d7aa6_0070
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -547,7 +592,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_739a6_0071
+  name: US_d7aa6_0071
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
