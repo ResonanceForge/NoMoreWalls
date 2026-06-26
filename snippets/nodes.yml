@@ -335,32 +335,10 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 希腊+V2CROSS.COM
-  network: tcp
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: 92.119.35.127
-  skip-cert-verify: false
-  type: trojan
-- name: 香港+电讯盈科有限公司
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: 英国+伦敦Choopa数据中心
-  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
-  port: 443
-  server: 45.77.227.183
-  sni: ''
-  type: trojan
-- name: '希腊+V2CROSS.COM #1'
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.119
-  skip-cert-verify: false
+  server: 38.54.64.247
   type: trojan
 - name: 美国+Akamai科技公司CDN网络节点
   network: tcp
@@ -369,38 +347,45 @@ proxies:
   server: 172.235.229.227
   skip-cert-verify: false
   type: trojan
-- name: '希腊+V2CROSS.COM #2'
-  network: tcp
+- name: 希腊+V2CROSS.COM
   password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 92.119.35.125
+  server: 92.119.35.117
+  type: trojan
+- name: '希腊+V2CROSS.COM #1'
+  network: tcp
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.87
   skip-cert-verify: false
   type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
+- name: '希腊+V2CROSS.COM #2'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: 92.119.35.85
+  type: trojan
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  port: 443
+  server: 104.17.121.43
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+      Host: space.byu.id.yxls.eu.cc
+    path: '%2Fbr-orcl'
+- name: 英国+伦敦Choopa数据中心
+  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
   port: 443
-  server: 185.137.157.138
+  server: 45.77.227.183
   type: trojan
-- cipher: aes-256-gcm
-  name: 伊朗+V2CROSS.COM
-  password: p+sslTvPR5jUuECZwjaTLZiImJPTnc/Bt4n7c+h1vyg=
+- name: 罗马尼亚+V2CROSS.COM
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
   port: 443
-  server: 85.198.9.136
-  type: ss
+  server: 185.137.157.154
+  sni: fra154.clientfirewall.click
+  type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -556,7 +541,7 @@ proxies:
     path: /
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0066
+  name: US_1bf20_0066
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -568,7 +553,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0067
+  name: US_1bf20_0067
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -580,7 +565,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0070
+  name: US_1bf20_0070
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -592,7 +577,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0071
+  name: US_1bf20_0071
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:

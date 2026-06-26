@@ -1,9 +1,21 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+伦敦DigitalOcean数据中心
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SAgG_t0cdKBPSvJzlIjrwTRjtBjfaUZnpYWhXyxEHSg
+    short-id: '!!str 2fe2afb9c7978f36'
+  server: 138.68.150.88
+  servername: learn.microsoft.com
+  tls: false
+  type: vless
+  uuid: 2c53af1c-c440-38f0-94f1-8bc32a4274f8
 - name: 英国+伦敦Choopa数据中心
   password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
   port: 443
   server: 45.77.227.183
-  sni: ''
   type: trojan
 - client-fingerprint: chrome
   encryption: none

@@ -759,46 +759,11 @@ proxies:
   sni: my.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- name: 希腊+V2CROSS.COM
-  network: tcp
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: 92.119.35.127
-  skip-cert-verify: false
+  server: 38.54.64.247
   type: trojan
-- name: 香港+电讯盈科有限公司
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: 英国+伦敦Choopa数据中心
-  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
-  port: 443
-  server: 45.77.227.183
-  sni: ''
-  type: trojan
-- name: '希腊+V2CROSS.COM #1'
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.119
-  skip-cert-verify: false
-  type: trojan
-- name: 新加坡+Choopa数据中心
-  network: ws
-  port: 443
-  server: 149.28.159.222
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
 - name: 美国+Akamai科技公司CDN网络节点
   network: tcp
   password: zK=0KfL3IG+sNNZL-J7d0Nonu4wFBx8MOy
@@ -806,49 +771,95 @@ proxies:
   server: 172.235.229.227
   skip-cert-verify: false
   type: trojan
-- name: '希腊+V2CROSS.COM #2'
-  network: tcp
+- name: 希腊+V2CROSS.COM
   password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 92.119.35.125
+  server: 92.119.35.117
+  type: trojan
+- name: '希腊+V2CROSS.COM #1'
+  network: tcp
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.87
   skip-cert-verify: false
   type: trojan
-- name: 法国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 94.140.0.100
+- flow: xtls-rprx-vision
+  name: 英国+伦敦DigitalOcean数据中心
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SAgG_t0cdKBPSvJzlIjrwTRjtBjfaUZnpYWhXyxEHSg
+    short-id: '2fe2afb9c7978f36'
+  server: 138.68.150.88
+  servername: learn.microsoft.com
   tls: false
   type: vless
-  uuid: 78e6619e-e82a-cd8d-b482-0973d8498305
-  ws-opts:
-    headers:
-      Host: silent-pine-a674.jfadwkglaugul.workers.dev
-    path: /sync
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
+  uuid: 2c53af1c-c440-38f0-94f1-8bc32a4274f8
+- name: 美国+CloudFlare节点
   network: ws
-  password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 104.16.75.223
+  servername: server-ir-7.ariyuz.org
   skip-cert-verify: false
-  sni: www.calmloud.com
+  tls: true
+  type: vless
+  uuid: b26ec0f4-6c92-45f7-b287-2a664abf1963
+  ws-opts:
+    path: '%2F'
+- name: '希腊+V2CROSS.COM #2'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.85
+  type: trojan
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: another-cf.dnsyes.kawaii520.icu
+  servername: tt86554he5f4jb8ezvry6v8us.another-appleid.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7b3c9cec-6a21-4d57-b9c9-383d519e0b27
+  ws-opts:
+    headers:
+      Host: tt86554he5f4jb8ezvry6v8us.another-appleid.ccwu.cc
+    path: /gateway/ws/a8d2f91c
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  port: 443
+  server: 104.17.121.43
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+      Host: space.byu.id.yxls.eu.cc
+    path: '%2Fbr-orcl'
+- name: 英国+伦敦Choopa数据中心
+  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
   port: 443
-  server: 185.137.157.138
+  server: 45.77.227.183
   type: trojan
-- cipher: aes-256-gcm
-  name: 伊朗+V2CROSS.COM
-  password: p+sslTvPR5jUuECZwjaTLZiImJPTnc/Bt4n7c+h1vyg=
+- flow: xtls-rprx-vision
+  name: US_speednode_0053
+  network: tcp
   port: 443
-  server: 85.198.9.136
-  type: ss
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: '473277e2'
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
+- name: 罗马尼亚+V2CROSS.COM
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  port: 443
+  server: 185.137.157.154
+  sni: fra154.clientfirewall.click
+  type: trojan
 - name: 🐙63@oneclickvpnkeys
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
@@ -889,20 +900,20 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
+- name: 🇸🇬SG_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.212.100.129
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - name: 🐙61@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
   sni: https://t.me/oneclickvpnkeys
-  tls: false
-  type: hysteria2
-- name: 🇺🇸US_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.144.118.75
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 🐙68@oneclickvpnkeys
@@ -1012,30 +1023,6 @@ proxies:
   sni: se.esimpson.org
   tls: false
   type: hysteria2
-- name: 🇯🇵JP_@QiangLieTuiJian
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy3.466688.xyz
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  tls: false
-  type: hysteria2
-- name: 🇺🇸US_@QiangLieTuiJian
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy4.466688.xyz
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  tls: false
-  type: hysteria2
-- name: '🇺🇸US_@QiangLieTuiJian #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy5.466688.xyz
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
@@ -1056,6 +1043,16 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
+- name: '🇩🇪@V2RayyNGvpn🇩🇪 #1'
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: T-Me-V2RayyNGvpn
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
 - name: 🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -1066,7 +1063,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪 #1'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪 #2'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: Z7MFGgpuzh
@@ -1095,7 +1092,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪 #2'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪 #3'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: dJtElQSz4v
@@ -1105,7 +1102,21 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪 #3'
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  fingerprint: chrome
+  name: best_internet_iran
+  obfs: salamander
+  obfs-password: tb46go2ezfjc11f9
+  password: gpek52gl59sw832k
+  port: 59182
+  server: wt.easyiran.org
+  sni: wt.easyiran.org
+  tls: false
+  type: hysteria2
+- name: '🇩🇪@V2RayyNGvpn🇩🇪 #4'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: ockdTdb3vU
@@ -2481,19 +2492,6 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- flow: xtls-rprx-vision
-  name: US_speednode_0053
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: '473277e2'
-  server: tw3.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
 - name: US_speednode_0054
   network: ws
   port: 80
@@ -2635,7 +2633,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0066
+  name: US_1bf20_0066
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -2647,7 +2645,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0067
+  name: US_1bf20_0067
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -2687,7 +2685,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0070
+  name: US_1bf20_0070
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -2699,7 +2697,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0071
+  name: US_1bf20_0071
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:

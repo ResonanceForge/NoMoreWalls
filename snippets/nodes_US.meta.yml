@@ -36,6 +36,11 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  type: trojan
 - name: 美国+Akamai科技公司CDN网络节点
   network: tcp
   password: zK=0KfL3IG+sNNZL-J7d0Nonu4wFBx8MOy
@@ -43,50 +48,48 @@ proxies:
   server: 172.235.229.227
   skip-cert-verify: false
   type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
-  password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 104.16.75.223
+  servername: server-ir-7.ariyuz.org
   skip-cert-verify: false
-  sni: www.calmloud.com
+  tls: true
+  type: vless
+  uuid: b26ec0f4-6c92-45f7-b287-2a664abf1963
+  ws-opts:
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: another-cf.dnsyes.kawaii520.icu
+  servername: tt86554he5f4jb8ezvry6v8us.another-appleid.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7b3c9cec-6a21-4d57-b9c9-383d519e0b27
+  ws-opts:
+    headers:
+      Host: tt86554he5f4jb8ezvry6v8us.another-appleid.ccwu.cc
+    path: /gateway/ws/a8d2f91c
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  port: 443
+  server: 104.17.121.43
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
+      Host: space.byu.id.yxls.eu.cc
+    path: '%2Fbr-orcl'
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 🇺🇸US_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.144.118.75
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 🇺🇸US_@QiangLieTuiJian
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy4.466688.xyz
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  tls: false
-  type: hysteria2
-- name: '🇺🇸US_@QiangLieTuiJian #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy5.466688.xyz
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 美国2|@ripaojiedian
@@ -224,20 +227,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0053
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: '!!str 473277e2'
-  server: tw3.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
 - name: US_speednode_0054
   network: ws
   port: 80
@@ -379,7 +368,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0066
+  name: US_1bf20_0066
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -391,7 +380,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0067
+  name: US_1bf20_0067
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -431,7 +420,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0070
+  name: US_1bf20_0070
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -443,7 +432,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_d7aa6_0071
+  name: US_1bf20_0071
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
