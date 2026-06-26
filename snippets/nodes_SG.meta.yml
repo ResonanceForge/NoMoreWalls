@@ -7,6 +7,14 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- name: 新加坡+Amazon数据中心
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055

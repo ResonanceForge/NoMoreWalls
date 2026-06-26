@@ -1,4 +1,24 @@
 proxies:
+- name: 英国+伦敦Choopa数据中心
+  network: tcp
+  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
+  port: 443
+  server: 45.77.227.183
+  skip-cert-verify: false
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.29
+  servername: it.s3-cloud.xyz
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
