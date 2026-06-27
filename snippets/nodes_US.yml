@@ -30,20 +30,26 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+- name: '美国+V2CROSS.COM #1'
+  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
   port: 443
-  server: 38.54.64.247
+  server: 207.126.167.162
   type: trojan
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
-  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  password: humanity
   port: 443
-  server: space.byu.id.yxls.eu.cc
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: '%2Fbr-orcl'
-- name: 美国+V2CROSS.COM
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '美国+V2CROSS.COM #2'
   password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   port: 443
   server: 45.61.52.243
@@ -51,9 +57,9 @@ proxies:
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 333967de4411e1e833244ba4becc20bf
+  password: 230012981ba34c12fec11deca0379005
   port: 49277
-  server: 18.163.100.203
+  server: 54.46.30.217
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -61,7 +67,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 16.162.121.169
+  server: 54.46.109.132
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
