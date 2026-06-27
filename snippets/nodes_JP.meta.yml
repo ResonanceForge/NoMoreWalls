@@ -103,6 +103,15 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- name: 日本+东京Choopa数据中心
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 108.160.132.132
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    path: /
 - alpn:
   - http/1.1
   name: 日本+东京Fastly节点
@@ -110,13 +119,12 @@ proxies:
   password: Mitivpn
   port: 443
   server: 151.101.110.219
-  skip-cert-verify: false
   sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
+    path: '%2Fde%3Dmitivpn'
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
