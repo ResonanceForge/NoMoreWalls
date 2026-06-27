@@ -30,17 +30,38 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
+- name: 美国+华盛顿Cogent通信公司
+  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
   port: 443
-  server: 172.64.155.209
-  sni: www.gossipglove.com
+  server: 38.60.220.65
+  type: trojan
+- name: '美国+华盛顿Cogent通信公司 #1'
+  network: tcp
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  port: 443
+  server: 38.60.168.129
+  skip-cert-verify: false
+  type: trojan
+- alpn:
+  - h2
+  name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 151.101.56.6
+  skip-cert-verify: false
+  sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
+      Host: 4-4-3-mitivpn.global.ssl.fastly.net
+    path: /
+- name: 美国+V2CROSS.COM
+  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
+  port: 443
+  server: 207.126.167.162
+  skip-cert-verify: false
+  type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 230012981ba34c12fec11deca0379005
@@ -57,76 +78,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_2|1.1MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 199.181.197.176
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /MiTiVPN=fL
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_3|1.2MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 164.38.155.135
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /MiTiVPN=De
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_4|2.6MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 94.140.0.100
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /MiTiVPN=Usa
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_5|2.6MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 45.131.4.118
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /MiTiVPN=Se
 - cipher: chacha20-ietf-poly1305
-  name: US_18ad6_0022
+  name: US_ca48f_0022
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -138,7 +91,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_18ad6_0023
+  name: US_ca48f_0023
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -150,7 +103,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_18ad6_0024
+  name: US_ca48f_0024
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -161,3 +114,16 @@ proxies:
   server: 134.195.101.127
   type: ss
   udp: true
+- name: US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn

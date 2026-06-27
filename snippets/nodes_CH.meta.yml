@@ -1,22 +1,15 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers:
-      Host:
-      - www.yahoo.com
-    path:
-    - /JKVPN
-  name: 🇨🇭CH_1|1.9MB/s
-  network: http
-  port: '443'
+  flow: xtls-rprx-vision
+  name: 瑞士+V2CROSS.COM
+  network: tcp
+  port: 2083
   reality-opts:
-    public-key: 7Tl6MxuH1PZpbKIETVPK1he_MjOLtUeMTFiEek9HQiM
-    short-id: '!!str 2ef0f0b1'
-  server: 991827262gsgs-8822nbeoaoznzznzb.poki-pakipon.ir
-  servername: yahoo.com
-  tls: true
+    public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY
+    short-id: '!!str 4e590fdc'
+  server: 83.228.251.47
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
   type: vless
-  udp: true
-  uuid: 8c6c6500-f5ec-4e53-b9f8-939708b9d2eb
-  xudp: true
+  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
