@@ -335,64 +335,92 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.151
+  skip-cert-verify: false
+  sni: 185.137.157.151
+  type: trojan
+- name: 美国+Fastly全球Anycast节点
+  network: ws
+  password: Mitivpn
+  port: 80
+  server: 151.101.0.0
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /ed=mitivpn
+- name: 美国+V2CROSS.COM
+  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
+  port: 443
+  server: 207.126.167.162
+  type: trojan
 - name: 希腊+V2CROSS.COM
   password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
   server: 92.119.35.120
   type: trojan
-- name: '美国+V2CROSS.COM #1'
-  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
+- alpn:
+  - h2
+  - http/1.1
+  name: '罗马尼亚+V2CROSS.COM #1'
+  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
   port: 443
-  server: 207.126.167.162
+  server: 185.137.157.59
+  sni: www.lateralio.click
   type: trojan
-- name: 罗马尼亚+V2CROSS.COM
+- cipher: chacha20-ietf-poly1305
+  name: 伊拉克+V2CROSS.COM
+  password: gWBgmKb8AL1uRK0jZ44AoOPaC5lVTOHZmi
+  port: 13683
+  server: 91.108.254.104
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+  port: 14605
+  server: 103.241.66.76
+  type: ss
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
+  type: trojan
+- name: 英国+Technicolor+SA
+  password: 63872b0d-87dd-4474-b690-92773af2922e
+  port: 20035
+  server: kkvlvvq-a.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 美国+华盛顿Cogent通信公司
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
+  type: ss
+- name: '罗马尼亚+V2CROSS.COM #3'
   network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.145
-  skip-cert-verify: false
-  type: trojan
-- name: '希腊+V2CROSS.COM #1'
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  port: 443
-  server: 92.119.35.123
-  type: trojan
-- name: '希腊+V2CROSS.COM #2'
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.97
-  type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
   server: 185.137.157.142
   type: trojan
 - alpn:
   - http/1.1
-  name: '美国+CloudFlare节点 #1'
+  name: '美国+V2CROSS.COM #2'
   network: ws
-  password: humanity
+  password: Mitivpn
   port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: 167.82.101.251
+  sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '希腊+V2CROSS.COM #3'
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.93
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+V2CROSS.COM #2'
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
-  port: 443
-  server: 45.61.52.243
-  sni: 45.61.52.243
-  type: trojan
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: '%2Fde'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -541,7 +569,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: GB_f8315_0002
+  name: GB_dc183_0002
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -550,7 +578,7 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: US_f8315_0022
+  name: US_dc183_0022
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -562,7 +590,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_f8315_0023
+  name: US_dc183_0023
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -574,7 +602,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_f8315_0024
+  name: US_dc183_0024
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:

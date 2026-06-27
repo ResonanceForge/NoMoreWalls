@@ -30,31 +30,46 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+Fastly全球Anycast节点
+  network: ws
+  password: Mitivpn
+  port: 80
+  server: 151.101.0.0
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /ed=mitivpn
+- name: 美国+V2CROSS.COM
   password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
   port: 443
   server: 207.126.167.162
   type: trojan
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 美国+华盛顿Cogent通信公司
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
+  type: ss
 - alpn:
   - http/1.1
-  name: '美国+CloudFlare节点 #1'
+  name: '美国+V2CROSS.COM #2'
   network: ws
-  password: humanity
+  password: Mitivpn
   port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: 167.82.101.251
+  sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #2'
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
-  port: 443
-  server: 45.61.52.243
-  sni: 45.61.52.243
-  type: trojan
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: '%2Fde'
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 230012981ba34c12fec11deca0379005
@@ -106,7 +121,7 @@ proxies:
     path: /
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_f8315_0022
+  name: US_dc183_0022
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -118,7 +133,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_f8315_0023
+  name: US_dc183_0023
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -130,7 +145,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_f8315_0024
+  name: US_dc183_0024
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
