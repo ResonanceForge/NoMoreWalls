@@ -13,20 +13,6 @@ proxies:
   port: 23027
   server: 45.32.122.179
   type: ss
-- client-fingerprint: chrome
-  name: 新加坡+腾讯云
-  network: ws
-  port: 7788
-  server: 43.153.208.246
-  servername: c.eoa.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
-  ws-opts:
-    headers:
-      Host: c.eoa.ccwu.cc
-    path: '%2F'
 - name: 新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
