@@ -1,20 +1,17 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: qq
   encryption: none
-  name: 🇸🇪SE_1|3.2MB/s
-  network: xhttp
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|1.7MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: 9bQKxfkbIe21xpF95Ze1omF37XTnz7FGzNyRYTneV38
-    short-id: '!!str 2df193d1'
-  server: 13.51.6.239
-  servername: is1-ssl.mzstatic.com
+    public-key: I_h51HYy1GxghdjFod51Wv4xIAeRh1ezYN-7vubv5zQ
+    short-id: '!!str a1ab5a56bc11c2'
+  server: sw.cloudload.org
+  servername: sw.cloudload.org
   tls: true
   type: vless
   udp: true
-  uuid: 10e4afc4-eeac-4a16-93e8-a42b70ce148b
-  xhttp-opts:
-    mode: stream-up
-    path: '@namedzadim'
-    x-padding-bytes: 100-1000
+  uuid: 17550015-678f-43ad-b0d2-65c0a829bedb
   xudp: true

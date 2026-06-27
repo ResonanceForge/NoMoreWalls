@@ -1,33 +1,22 @@
 proxies:
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 🇨🇭CH_1|3.7MB/s
-  network: http
-  port: '22'
-  server: 172.65.111.43
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇭CH_2|1.1MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
+  http-opts:
+    headers:
+      Host:
+      - www.yahoo.com
+    path:
+    - /JKVPN
+  name: 🇨🇭CH_1|1.9MB/s
+  network: http
+  port: '443'
   reality-opts:
-    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
-    short-id: '!!str 6ba85179e30d4fc3'
-  server: 179.237.69.218
-  servername: yandex.by
-  skip-cert-verify: false
+    public-key: 7Tl6MxuH1PZpbKIETVPK1he_MjOLtUeMTFiEek9HQiM
+    short-id: '!!str 2ef0f0b1'
+  server: 991827262gsgs-8822nbeoaoznzznzb.poki-pakipon.ir
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
-  xhttp-opts:
-    mode: auto
-    path: /xh
+  uuid: 8c6c6500-f5ec-4e53-b9f8-939708b9d2eb
+  xudp: true
