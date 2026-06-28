@@ -335,74 +335,38 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
-  port: 443
-  server: 185.137.157.59
-  skip-cert-verify: false
-  sni: www.lateralio.click
-  type: trojan
 - name: 希腊+V2CROSS.COM
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.71
-  type: trojan
-- name: '希腊+V2CROSS.COM #1'
   password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
   server: 92.119.35.117
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
-  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+- name: '希腊+V2CROSS.COM #1'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 185.137.157.250
-  sni: fra250.clientfirewall.click
+  server: 92.119.35.71
   type: trojan
-- alpn:
-  - h2
-  name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: 151.101.56.6
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4-4-3-mitivpn.global.ssl.fastly.net
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰+V2CROSS.COM
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+  port: 14605
+  server: 193.168.175.56
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+  port: 14605
+  server: 103.240.147.113
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 伊拉克+V2CROSS.COM
+  password: IIMxFMyq3FwyPd21UGWgmNJCAiYN9m2vOo
+  port: 18982
+  server: 91.108.254.252
+  type: ss
 - name: 美国+华盛顿Cogent通信公司
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: 38.60.202.163
-  sni: 38.60.202.163
-  type: trojan
-- name: '罗马尼亚+V2CROSS.COM #2'
-  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
-  port: 443
-  server: 185.137.157.154
-  sni: fra154.clientfirewall.click
-  type: trojan
-- name: 美国+Fastly全球Anycast节点
-  network: ws
-  password: Mitivpn
-  port: 80
-  server: 151.101.0.0
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /ed=mitivpn
-- name: '美国+华盛顿Cogent通信公司 #1'
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  port: 443
-  server: 38.60.136.156
-  skip-cert-verify: false
+  server: 38.54.64.247
   type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 新加坡+Choopa数据中心
@@ -410,10 +374,29 @@ proxies:
   port: 23027
   server: 45.32.122.179
   type: ss
-- name: '希腊+V2CROSS.COM #2'
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+- name: '罗马尼亚+V2CROSS.COM #1'
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
   port: 443
-  server: 92.119.35.131
+  server: 185.137.157.250
+  sni: fra250.clientfirewall.click
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚+新南威尔士州悉尼Choopa数据中心
+  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
+  port: 15675
+  server: 45.77.232.213
+  type: ss
+- name: '罗马尼亚+V2CROSS.COM #2'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.142
+  type: trojan
+- name: '美国+V2CROSS.COM #1'
+  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
+  port: 443
+  server: 45.61.52.243
+  skip-cert-verify: false
+  sni: 45.61.52.243
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -441,24 +424,24 @@ proxies:
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50116
-  server: 18.166.59.96
+  port: 3941
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 20744
-  server: 54.46.109.132
+  port: 3941
+  server: 18.163.56.230
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 52.196.252.9
+  port: 18021
+  server: 18.183.83.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -490,7 +473,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 9149
-  server: 18.162.53.161
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -506,7 +489,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 54.46.109.132
+  server: 16.163.142.40
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -520,6 +503,94 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇺🇸US_3|3.3MB/s
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: '58995'
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  name: 🇨🇭CH_2|4.0MB/s
+  network: tcp
+  password: SoftNetConnect
+  port: '42549'
+  server: 37.156.44.215
+  skip-cert-verify: true
+  sni: www.speedtest.net
+  type: trojan
+  udp: true
+- name: 🇺🇸US_5|1.5MB/s
+  network: tcp
+  password: 63872b0d-87dd-4474-b690-92773af2922e
+  port: '42531'
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+  udp: true
+- name: 🇺🇸US_9|1.3MB/s
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 50888
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+- name: 🇺🇸US_10|1.1MB/s
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 13320
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇺🇸US_11|2.0MB/s
+  network: ws
+  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
+  port: '443'
+  server: h2.bnm.uw.to
+  skip-cert-verify: false
+  sni: h2.bnm.uw.to
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇯🇵JP_7|2.6MB/s
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 151.101.1.242
+  skip-cert-verify: false
+  sni: cdn.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /de=mitivpn
+- name: 🇨🇭CH_4|2.9MB/s
+  network: tcp
+  password: SoftNetConnect
+  port: '42549'
+  server: 37.156.44.215
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN

@@ -36,56 +36,49 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- alpn:
-  - h2
-  name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: 151.101.56.6
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4-4-3-mitivpn.global.ssl.fastly.net
-    path: /
 - name: 美国+华盛顿Cogent通信公司
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: 38.60.202.163
-  sni: 38.60.202.163
+  server: 38.54.64.247
   type: trojan
-- name: 美国+Fastly全球Anycast节点
+- name: 美国+V2CROSS.COM
   network: ws
-  password: Mitivpn
-  port: 80
-  server: 151.101.0.0
-  type: trojan
+  port: 443
+  server: support.zoom.us
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
   ws-opts:
     headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /ed=mitivpn
-- name: '美国+华盛顿Cogent通信公司 #1'
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-amz
+- name: '美国+V2CROSS.COM #1'
+  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   port: 443
-  server: 38.60.136.156
+  server: 45.61.52.243
   skip-cert-verify: false
+  sni: 45.61.52.243
   type: trojan
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  port: 443
+  server: 167.82.101.251
+  servername: default.ssl.fastly.net
+  tls: true
+  type: vless
+  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
+  ws-opts:
+    headers:
+      Host: newip.global.ssl.fastly.neT.
+    path: /
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 🇺🇸US_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.133.156.115
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 美国2|@ripaojiedian
@@ -100,24 +93,155 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 54.46.109.132
+  server: 16.163.142.40
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.0MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|2.3MB/s
   network: ws
-  port: '8880'
-  server: 172.64.88.251
+  port: '443'
+  server: fast.cd-tur4.ir
+  servername: default.ssl.fastly.net
+  tls: true
   type: vless
   udp: true
-  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
+  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
   ws-opts:
     headers:
-      Host: patient-cake-39c7.44-e7a.workers.dev
+      Host: newip.global.ssl.fastly.neT.
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /
   xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_2|1.7MB/s
+  network: ws
+  port: '443'
+  server: rvg-production-b337.up.railway.app
+  servername: rvg-production-b337.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3195e102-c157-eed6-eaa5-13ae596360e2
+  ws-opts:
+    headers:
+      Host: rvg-production-b337.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /ws/3195e102-c157-eed6-eaa5-13ae596360e2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_3|3.3MB/s
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: '58995'
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_4|2.9MB/s
+  network: ws
+  port: '443'
+  server: support.zoom.us
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /us-gllc
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_5|1.5MB/s
+  network: tcp
+  password: 63872b0d-87dd-4474-b690-92773af2922e
+  port: '42531'
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+  udp: true
+- encryption: none
+  name: 🇺🇸US_6|3.4MB/s
+  network: xhttp
+  port: 80
+  server: wst.imsoon.net
+  type: vless
+  udp: true
+  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
+  xhttp-opts:
+    host: play.google.com
+    mode: auto
+    path: /SoonTeam
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_7|2.6MB/s
+  network: xhttp
+  port: 80
+  server: 76.13.121.90
+  type: vless
+  udp: true
+  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
+  xhttp-opts:
+    host: play.google.com
+    mode: auto
+    path: /SoonTeam
+    x-padding-bytes: 100-1000
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_8|2.3MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 🇺🇸US_9|1.3MB/s
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 50888
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+- name: 🇺🇸US_10|1.1MB/s
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 13320
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_11|2.0MB/s
+  network: ws
+  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
+  port: '443'
+  server: h2.bnm.uw.to
+  skip-cert-verify: false
+  sni: h2.bnm.uw.to
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
 - alterId: 0
   cipher: auto
   name: US_b220b_0054
