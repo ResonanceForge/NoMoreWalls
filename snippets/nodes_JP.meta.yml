@@ -103,20 +103,6 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 日本+V2CROSS.COM
-  network: ws
-  port: 3389
-  server: 43.163.89.186
-  servername: c.eoa.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
-  ws-opts:
-    headers:
-      Host: c.eoa.ccwu.cc
-    path: '%2F'
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
