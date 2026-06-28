@@ -759,106 +759,226 @@ proxies:
   sni: my.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.110
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.218
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #2'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.92
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - name: 希腊+V2CROSS.COM
   password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 92.119.35.117
+  server: 92.119.35.120
   type: trojan
-- name: '希腊+V2CROSS.COM #1'
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.71
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰+V2CROSS.COM
-  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
-  port: 14605
-  server: 193.168.175.56
-  type: ss
 - flow: xtls-rprx-vision
-  name: 罗马尼亚+V2CROSS.COM
+  name: '美国+V2CROSS.COM #3'
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
-    short-id: 'd23753491eefde7e'
-  server: 185.137.157.72
-  servername: www.nvidia.com
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.206
+  servername: storage.yandex.net
   tls: false
   type: vless
-  uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
-  port: 14605
-  server: 103.240.147.113
-  type: ss
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - cipher: chacha20-ietf-poly1305
   name: 伊拉克+V2CROSS.COM
   password: IIMxFMyq3FwyPd21UGWgmNJCAiYN9m2vOo
   port: 18982
   server: 91.108.254.252
   type: ss
-- name: 美国+华盛顿Cogent通信公司
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
-  port: 443
-  server: 38.54.64.247
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡+Choopa数据中心
-  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
-  port: 23027
-  server: 45.32.122.179
-  type: ss
-- name: '罗马尼亚+V2CROSS.COM #1'
-  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
-  port: 443
-  server: 185.137.157.250
-  sni: fra250.clientfirewall.click
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚+新南威尔士州悉尼Choopa数据中心
-  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
-  port: 15675
-  server: 45.77.232.213
-  type: ss
-- name: '罗马尼亚+V2CROSS.COM #2'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.142
-  type: trojan
-- name: 美国+V2CROSS.COM
+- name: 美国+CloudFlare节点
   network: ws
+  port: 2095
+  server: www.wto.org
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+    path: /
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #4'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.93
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- name: '希腊+V2CROSS.COM #1'
+  network: tcp
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
+  server: 92.119.35.117
+  skip-cert-verify: false
+  type: trojan
+- name: 日本+V2CROSS.COM
+  network: ws
+  port: 3389
+  server: 43.163.89.186
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: '%2F'
+- encryption: none
+  name: 🇺🇸US_4|2.9MB/s
+  network: ws
+  port: '443'
   server: support.zoom.us
   servername: support.zoom.us.yxls.eu.cc
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
+  udp: true
+  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
   ws-opts:
     headers:
       Host: support.zoom.us.yxls.eu.cc
-    path: /sg-amz
-- name: '美国+V2CROSS.COM #1'
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
-  port: 443
-  server: 45.61.52.243
-  skip-cert-verify: false
-  sni: 45.61.52.243
-  type: trojan
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  port: 443
-  server: 167.82.101.251
-  servername: default.ssl.fastly.net
-  tls: true
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /us-gllc
+  xudp: true
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #6'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.182
+  servername: storage.yandex.net
+  tls: false
   type: vless
-  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  sni: www.calmloud.com
+  type: trojan
   ws-opts:
     headers:
-      Host: newip.global.ssl.fastly.neT.
-    path: /
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #7'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.187
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #8'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.195
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.68
+  type: trojan
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #9'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.244
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #10'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.50
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #11'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.55
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #12'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 'e3d38cee79d4f94c'
+  server: 45.195.137.212
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - name: 🏇64@oneclickvpnkeys
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
@@ -1403,23 +1523,6 @@ proxies:
     x-padding-bytes: 100-1000
   xudp: true
 - encryption: none
-  name: 🇺🇸US_4|2.9MB/s
-  network: ws
-  port: '443'
-  server: support.zoom.us
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /us-gllc
-  xudp: true
-- encryption: none
   name: 🇸🇬SG_3|4.1MB/s
   network: ws
   port: '443'
@@ -1859,7 +1962,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_b220b_0003
+  name: DE_61ec0_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -2267,7 +2370,7 @@ proxies:
   uuid: 52faee73-e0fe-4661-992d-67259257170f
 - alterId: 0
   cipher: auto
-  name: US_b220b_0054
+  name: US_61ec0_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
