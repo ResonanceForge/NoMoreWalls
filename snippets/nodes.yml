@@ -335,21 +335,28 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 美国+CloudFlare节点
+- name: 瑞典+V2CROSS.COM
   network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: true
+  password: Mitivpn
+  port: 80
+  server: 146.75.116.190
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2Fapp_bedal%F0%9F%87%A8%F0%9F%87%B3'
 - cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.80
+  name: 澳大利亚+V2CROSS.COM
+  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+  port: 27116
+  server: 104.156.233.234
   type: ss
+- name: 罗马尼亚+V2CROSS.COM
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  skip-cert-verify: false
+  type: trojan
 - name: 希腊+V2CROSS.COM
   network: tcp
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
@@ -357,58 +364,48 @@ proxies:
   server: 92.119.35.119
   skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚+V2CROSS.COM
-  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
-  port: 27116
-  server: 104.156.233.234
-  type: ss
 - name: 亚太地区+V2CROSS.COM
+  network: tcp
   password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
   port: 443
-  server: 103.125.216.68
+  server: 103.125.216.18
+  skip-cert-verify: false
   type: trojan
+- name: '罗马尼亚+V2CROSS.COM #1'
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  port: 443
+  server: 185.137.157.250
+  skip-cert-verify: false
+  sni: fra250.clientfirewall.click
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.80
+  type: ss
 - name: '希腊+V2CROSS.COM #1'
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 92.119.35.97
+  server: 92.119.35.105
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡+Choopa数据中心
+  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
+  port: 23027
+  server: 45.32.122.179
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 澳大利亚+新南威尔士州悉尼Choopa数据中心
   password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
   port: 15675
   server: 45.77.232.213
   type: ss
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.9
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
 - name: '希腊+V2CROSS.COM #2'
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 92.119.35.105
+  server: 92.119.35.97
   type: trojan
-- name: 英国+V2CROSS.COM
-  network: tcp
-  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
-  port: 443
-  server: 185.126.236.190
-  skip-cert-verify: false
-  sni: 185.126.236.190
-  type: trojan
-  ws-opts:
-    headers:
-      Host: v2rayNplus--v2rayNplus--v2rayNplus
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
