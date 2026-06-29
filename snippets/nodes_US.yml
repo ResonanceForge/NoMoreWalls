@@ -30,57 +30,41 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.145
-  type: ss
-- alpn:
-  - h2
-  name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: 151.101.56.6
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4-4-3-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  type: trojan
 - name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
-  sni: www.calmloud.com
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmloud.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.8.83
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '美国+V2CROSS.COM #1'
+- name: 美国+Fastly全球Anycast节点
   network: ws
   password: Mitivpn
-  port: 443
-  server: 167.82.101.251
-  skip-cert-verify: false
-  sni: ssl.fastly.com
+  port: 80
+  server: 151.101.0.0
   type: trojan
   ws-opts:
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de
+    path: /ed=mitivpn
+- cipher: chacha20-ietf-poly1305
+  name: 美国+华盛顿Cogent通信公司
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
+  type: ss
 - name: 美国|@ripaojiedian
   network: tcp
   password: 4e4910ec52552e36aa43a870a179da83
@@ -160,7 +144,7 @@ proxies:
     path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
 - alterId: 0
   cipher: auto
-  name: US_2629a_0054
+  name: US_0813b_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
