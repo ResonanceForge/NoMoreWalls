@@ -759,58 +759,86 @@ proxies:
   sni: my.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.82
+  type: ss
 - name: 美国+CloudFlare节点
   network: ws
-  password: humanity
   port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 104.16.174.3
+  servername: JoinProxyVPN11.amoosamiii.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
   ws-opts:
-    path: /assignment
+    headers:
+      Host: amoosamiii.net
+    path: /poiuyws
 - name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.138
+  server: 185.137.157.142
   type: trojan
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: US_speednode_0055
-  network: tcp
-  port: 14005
-  reality-opts:
-    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
-    short-id: '97a01dfaef'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
+- name: 希腊+V2CROSS.COM
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 104.18.8.83
+  server: 92.119.35.117
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚+新南威尔士州悉尼Choopa数据中心
+  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
+  port: 15675
+  server: 45.77.232.213
+  type: ss
+- name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 151.101.56.6
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: ssl.fastly.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '香港+Amazon数据中心 #1'
-  network: tcp
-  port: 14008
-  reality-opts:
-    public-key: WQP0QFc9RlOg7TDAI2i_VNQEtFwB_5kE5AKykeIipm0
-    short-id: '8e5d94464f'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    headers:
+      Host: 4-4-3-mitivpn.global.ssl.fastly.net
+    path: /boost
+- name: '希腊+V2CROSS.COM #1'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.93
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #1'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.151
+  type: trojan
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #2'
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  port: 443
+  server: 185.137.157.250
+  skip-cert-verify: false
+  sni: fra250.clientfirewall.click
+  type: trojan
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
+- name: '希腊+V2CROSS.COM #2'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.105
+  type: trojan
 - name: 美国+Fastly全球Anycast节点
   network: ws
   password: Mitivpn
@@ -821,106 +849,7 @@ proxies:
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
     path: /ed=mitivpn
-- name: 意大利+米兰Fastly节点
-  network: ws
-  password: Mitivpn
-  port: 80
-  server: 151.101.242.172
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4-4-3-mitivpn.global.ssl.fastly.net
-    path: /ed=mitivpn
-- flow: xtls-rprx-vision
-  name: '香港+Amazon数据中心 #2'
-  network: tcp
-  port: 14006
-  reality-opts:
-    public-key: XPLe-686APp5RHaiFHZDTJsf1kMo-aMZuKjKeHmdyEM
-    short-id: 'ff5ebee2264c'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
-  type: ss
-- name: 香港+电讯盈科有限公司
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: 亚太地区+V2CROSS.COM
-  network: tcp
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.68
-  type: trojan
-- name: 希腊+V2CROSS.COM
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.131
-  type: trojan
-- name: '希腊+V2CROSS.COM #1'
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.97
-  skip-cert-verify: false
-  type: trojan
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '香港+Amazon数据中心 #3'
-  network: tcp
-  port: 14009
-  reality-opts:
-    public-key: CAFHM6x5kO2ofkpEDelcOJlZ4i6Kw4ZlDNIfdV6ptUw
-    short-id: '6a1a47'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- name: '希腊+V2CROSS.COM #2'
-  network: tcp
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  port: 443
-  server: 92.119.35.123
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: fm3.pages.dev
-  servername: fm3.pages.dev
-  tls: true
-  type: vless
-  uuid: f0db70ae-559e-4cba-aa00-3a04eb04c3e0
-- name: '希腊+V2CROSS.COM #3'
-  network: tcp
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  port: 443
-  server: 92.119.35.127
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.80
-  type: ss
-- name: '希腊+V2CROSS.COM #4'
-  network: tcp
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  port: 443
-  server: 92.119.35.120
-  skip-cert-verify: false
-  type: trojan
-- name: 🇩🇪DE_@WangCai_8
+- name: 🦖10@oneclickvpnkeys
   password: 2bed923d-0204-4993-ae38-59281c98bfd9
   port: 4142
   server: 2a0b:4142:a86::2
@@ -1946,7 +1875,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_0813b_0003
+  name: DE_295b5_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -2354,7 +2283,7 @@ proxies:
   uuid: 52faee73-e0fe-4661-992d-67259257170f
 - alterId: 0
   cipher: auto
-  name: US_0813b_0054
+  name: US_295b5_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
@@ -2362,6 +2291,20 @@ proxies:
   type: vmess
   udp: true
   uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0055
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: '97a01dfaef'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: US_speednode_0056

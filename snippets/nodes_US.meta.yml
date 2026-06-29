@@ -36,25 +36,38 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+CloudFlare节点
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
   network: ws
-  password: humanity
   port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.8.83
+  server: 104.16.174.3
+  servername: JoinProxyVPN11.amoosamiii.net
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  tls: true
+  type: vless
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+    path: /poiuyws
+- name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 151.101.56.6
+  skip-cert-verify: false
+  sni: ssl.fastly.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: 4-4-3-mitivpn.global.ssl.fastly.net
+    path: /boost
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
+  type: trojan
 - name: 美国+Fastly全球Anycast节点
   network: ws
   password: Mitivpn
@@ -65,21 +78,6 @@ proxies:
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
     path: /ed=mitivpn
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
-  type: ss
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: fm3.pages.dev
-  servername: fm3.pages.dev
-  tls: true
-  type: vless
-  uuid: f0db70ae-559e-4cba-aa00-3a04eb04c3e0
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -259,7 +257,7 @@ proxies:
     path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
 - alterId: 0
   cipher: auto
-  name: US_0813b_0054
+  name: US_295b5_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
@@ -267,6 +265,20 @@ proxies:
   type: vmess
   udp: true
   uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0055
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: '!!str 97a01dfaef'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: US_speednode_0056
