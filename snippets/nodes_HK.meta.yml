@@ -35,6 +35,19 @@ proxies:
   sni: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 香港+Amazon数据中心
+  network: tcp
+  port: 14008
+  reality-opts:
+    public-key: WQP0QFc9RlOg7TDAI2i_VNQEtFwB_5kE5AKykeIipm0
+    short-id: '!!str 8e5d94464f'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  tls: false
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - name: 🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
