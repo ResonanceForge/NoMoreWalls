@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: mrdwYKeDH1Zj4EPov28I9cd3lQB7ZZFn_g7frYIsARY
+    short-id: '!!str 99410f96248aac87'
+  server: 194.87.131.105
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 08379cf5-8256-404f-a6c5-2b933bb6c73f
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|1.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: -sij6MifOyoPdIBR9kjB3ww2ClWk7IhITppFxUEdBzI
+    short-id: '!!str 9e0ba98da61cb818'
+  server: ru.bvps.cloud
+  servername: ru.bvps.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
+  xudp: true
