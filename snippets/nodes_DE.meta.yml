@@ -162,6 +162,37 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 🇩🇪DE_@WangCai_8
+  password: b1be3c3c-5cb7-4b5b-8dbc-a407eb0d63b7
+  port: 4142
+  server: 2a0b:4142:a86::2
+  skip-cert-verify: true
+  sni: c9a0c4942b7edk1v6.587458.xyz
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - h3
+  fingerprint: chrome
+  name: 🇩🇪💎hysteria2-@hollowcon
+  obfs: salamander
+  obfs-password: xdbc2u01v1j9fhvv
+  password: hk6ah4vgb0qp2koh
+  port: 2087
+  server: ger1.riziro.ir
+  sni: ger1.riziro.ir
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 🇩🇪💎hysteria-@hollowcon
+  password: hk6ah4vgb0qp2koh
+  port: 4526
+  server: panel.riziro.ir
+  sni: ger1.riziro.ir
+  tls: false
+  type: hysteria2
 - name: 2🇩🇪آلمان اوشاخلاری 🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -172,53 +203,8 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: 🇩🇪DE_1|2.1MB/s
-  network: tcp
-  port: '25565'
-  server: 172.65.109.171
-  type: vless
-  udp: true
-  uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_2|2.1MB/s
-  network: ws
-  port: '443'
-  server: 188.114.97.6
-  servername: API.ICR7.IR
-  tls: true
-  type: vless
-  udp: true
-  uuid: b8ca14a6-9b54-436f-8822-9c679615372c
-  ws-opts:
-    headers:
-      Host: API.ICR7.IR
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /Mori?ed=1024
-  xudp: true
-- name: 🇩🇪DE_3|2.3MB/s
-  network: ws
-  port: '8880'
-  server: 104.26.13.40
-  type: vless
-  udp: true
-  uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
-  ws-opts:
-    headers:
-      Host: broken-star-c5ae.446.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_ccae7_0003
+  name: DE_3037e_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
