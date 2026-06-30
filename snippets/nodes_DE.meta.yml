@@ -172,40 +172,80 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|3.6MB/s
-  network: ws
-  port: 8443
-  server: 104.20.2.221
-  servername: bycf.lzjnb.shop
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: bycf.lzjnb.shop
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  - h2
+  client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_2|1.9MB/s
-  network: ws
+  name: 🇩🇪DE_1|2.7MB/s
+  network: xhttp
   port: '443'
-  server: Gerlight.soltankabos.ir
-  servername: amtal9.soltankabos.ir
+  server: 45.130.125.172
+  servername: germany4.alibaba1405.org
   tls: true
   type: vless
   udp: true
-  uuid: 15b7bde3-292a-4d82-91ea-d56a60f69321
+  uuid: ac006062-f051-43c6-bd4c-f409285c8635
+  xhttp-opts:
+    host: germany4.alibaba1405.org
+    mode: auto
+    path: /v2raylink
+  xudp: true
+- name: 🇩🇪DE_2|2.3MB/s
+  network: ws
+  port: '8880'
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
   ws-opts:
     headers:
-      Host: amtal9.soltankabos.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /ws?ed=2560
+      Host: dry-sunset-f3c4.282.workers.dev
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 🇩🇪DE_3|2.7MB/s
+  network: ws
+  port: '8880'
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: f5c01a38-a92a-46a1-8968-a0582f4e2f2a
+  ws-opts:
+    headers:
+      Host: steep-frost-8b18.350-c77.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 🇩🇪DE_4|2.0MB/s
+  network: ws
+  port: '8880'
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
+  ws-opts:
+    headers:
+      Host: throbbing-moon-a07c.90-ec4.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 🇩🇪DE_5|2.5MB/s
+  network: ws
+  port: '8880'
+  server: 104.26.13.40
+  type: vless
+  udp: true
+  uuid: 9d45d137-9892-4a83-a04a-f30b4da28243
+  ws-opts:
+    headers:
+      Host: broken-wave-8a45.483.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - cipher: chacha20-ietf-poly1305
   name: DE_069bc_0003

@@ -30,52 +30,51 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 38.54.64.247
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
-  type: ss
-- name: 美国+乔治亚洲亚特兰大Fastly节点
+- name: '美国+华盛顿Cogent通信公司 #1'
+  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
+  port: 443
+  server: 38.60.220.65
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
   network: ws
   password: Mitivpn
   port: 443
-  server: 151.101.56.6
+  server: 167.82.101.251
   skip-cert-verify: false
   sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: 4-4-3-Mitivpn.global.ssl.fastly.net
-    path: /boost/mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /de
 - name: 美国|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 49277
-  server: 13.230.33.22
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 17005
+  server: 35.77.44.189
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 17005
-  server: 13.230.33.22
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 49277
+  server: 52.195.226.156
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 43.198.243.211
+  port: 11993
+  server: 43.199.36.29
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

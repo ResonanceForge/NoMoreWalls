@@ -31,48 +31,39 @@ proxies:
   type: hysteria2
 - name: 新加坡|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 6357
-  server: 43.199.32.140
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 48738
+  server: 35.77.44.189
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 48738
-  server: 43.199.32.140
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 6357
+  server: 43.199.41.146
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22459
-  server: 95.40.63.61
+  port: 9149
+  server: 43.198.17.28
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇸🇬SG_1|5.2MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-sg-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-003.fastervpn.world
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_2|3.5MB/s
+  name: 🇸🇬SG_1|2.0MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 172.64.153.159
+  port: 8443
+  server: 207.148.119.176
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -89,11 +80,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_3|3.9MB/s
+  name: 🇸🇬SG_2|2.8MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 162.159.8.123
+  port: 8443
+  server: 162.159.46.24
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -110,11 +101,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_4|3.7MB/s
+  name: 🇸🇬SG_3|3.6MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 162.159.46.67
+  port: 8443
+  server: 172.64.35.37
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -131,11 +122,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_5|4.3MB/s
+  name: 🇸🇬SG_4|3.3MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 162.159.10.87
+  port: 8443
+  server: 104.18.37.237
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -152,11 +143,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_6|2.2MB/s
+  name: 🇸🇬SG_5|2.1MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 162.159.16.154
+  port: 8443
+  server: 162.159.41.198
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -167,3 +158,39 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬SG_6|3.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.3.48
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- encryption: none
+  name: 🇸🇬SG_7|3.2MB/s
+  network: ws
+  port: '2095'
+  server: 172.64.146.66
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /
+  xudp: true

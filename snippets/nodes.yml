@@ -335,18 +335,21 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚+新南威尔士州悉尼Choopa数据中心
+  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
+  port: 15675
+  server: 45.77.232.213
+  type: ss
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: 185.137.157.154
-  sni: fra154.clientfirewall.click
+  server: 38.54.64.247
   type: trojan
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: '美国+华盛顿Cogent通信公司 #1'
+  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 38.60.220.65
   type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 新加坡+Choopa数据中心
@@ -354,36 +357,65 @@ proxies:
   port: 23027
   server: 45.32.122.179
   type: ss
-- name: '罗马尼亚+V2CROSS.COM #1'
-  network: tcp
+- name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.140
+  server: 185.137.157.151
   type: trojan
-- name: 亚太地区+V2CROSS.COM
+- name: 希腊+V2CROSS.COM
   network: tcp
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 103.125.216.68
+  server: 92.119.35.119
+  skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
-  type: ss
-- name: 美国+乔治亚洲亚特兰大Fastly节点
+- name: '希腊+V2CROSS.COM #1'
+  network: tcp
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.93
+  sni: 92.119.35.93
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
   network: ws
   password: Mitivpn
   port: 443
-  server: 151.101.56.6
+  server: 167.82.101.251
   skip-cert-verify: false
   sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: 4-4-3-Mitivpn.global.ssl.fastly.net
-    path: /boost/mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /de
+- name: '希腊+V2CROSS.COM #2'
+  network: tcp
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.85
+  skip-cert-verify: false
+  type: trojan
+- name: '希腊+V2CROSS.COM #3'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.131
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #1'
+  network: tcp
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  port: 443
+  server: 185.137.157.250
+  skip-cert-verify: false
+  sni: fra250.clientfirewall.click
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #2'
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.140
+  type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -401,97 +433,97 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 53012
-  server: 13.230.33.22
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 2008
+  server: 16.163.56.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 16.163.129.142
+  port: 11035
+  server: 43.199.35.162
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27167
-  server: 16.163.145.84
+  port: 29449
+  server: 54.46.43.201
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10624
-  server: 13.115.183.122
+  port: 27826
+  server: 52.197.219.28
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 5701
-  server: 18.181.172.59
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 55973
+  server: 18.166.64.127
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 5701
-  server: 13.230.33.22
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 37973
+  server: 43.199.41.146
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 6357
-  server: 43.199.32.140
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 48738
+  server: 35.77.44.189
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 48738
-  server: 43.199.32.140
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 6357
+  server: 43.199.41.146
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22459
-  server: 95.40.63.61
+  port: 9149
+  server: 43.198.17.28
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 49277
-  server: 13.230.33.22
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 17005
+  server: 35.77.44.189
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 17005
-  server: 13.230.33.22
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 49277
+  server: 52.195.226.156
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 43.198.243.211
+  port: 11993
+  server: 43.199.36.29
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -505,20 +537,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵JP_1|2.7MB/s
-  network: ws
-  password: Mitivpn
-  port: '443'
-  server: 151.101.65.242
-  skip-cert-verify: false
-  sni: cdn.gamingdll.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /de=mitivpn
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN

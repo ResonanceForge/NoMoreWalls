@@ -36,31 +36,56 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 38.54.64.247
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
-  type: ss
-- name: 美国+乔治亚洲亚特兰大Fastly节点
+- name: '美国+华盛顿Cogent通信公司 #1'
+  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
+  port: 443
+  server: 38.60.220.65
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
   network: ws
   password: Mitivpn
   port: 443
-  server: 151.101.56.6
+  server: 167.82.101.251
   skip-cert-verify: false
   sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: 4-4-3-Mitivpn.global.ssl.fastly.net
-    path: /boost/mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn---mtmvpn
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /de
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 8080
+  server: time.is
+  servername: orange-rain-6e34.cimarac875.workers.dev
+  tls: false
+  type: vless
+  uuid: e7186358-4330-f129-f14e-34ca00000039
+  ws-opts:
+    headers:
+      Host: orange-rain-6e34.cimarac875.workers.dev
+    path: /sync
+- client-fingerprint: chrome
+  name: 美国+CloudFlare
+  network: ws
+  port: 443
+  server: 162.159.18.241
+  servername: wz1.fum.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65
+  ws-opts:
+    headers:
+      Host: wz1.fum.ccwu.cc
+    path: '%2Fproxyip%3Dsjc.o00o.ooo'
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -71,119 +96,162 @@ proxies:
   type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 49277
-  server: 13.230.33.22
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 17005
+  server: 35.77.44.189
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 4e4910ec52552e36aa43a870a179da83
-  port: 17005
-  server: 13.230.33.22
+  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  port: 49277
+  server: 52.195.226.156
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 43.198.243.211
+  port: 11993
+  server: 43.199.36.29
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|2.2MB/s
+  name: 🇺🇸US_1|2.5MB/s
   network: ws
-  port: '443'
+  port: 443
   server: support.zoom.us
   servername: support.zoom.us.yxls.eu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
+  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
   ws-opts:
     headers:
       Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /us-gllc
+    path: /sg-amz
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_2|2.5MB/s
+  network: ws
+  port: '443'
+  server: rvg-production-2030.up.railway.app
+  servername: rvg-production-2030.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8664d5b6-3316-a334-5163-dffb9dea4c3f
+  ws-opts:
+    headers:
+      Host: rvg-production-2030.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /ws/8664d5b6-3316-a334-5163-dffb9dea4c3f
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: 🇺🇸US_3|1.6MB/s
+  network: grpc
+  port: '443'
+  server: gb7.univesalsrv.com
+  servername: gb7.univesalsrv.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 810b8ba9-3232-42ac-a474-3e921fdc8845
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_4|1.6MB/s
+  network: xhttp
+  port: '443'
+  server: 104.18.153.130
+  servername: www.chinns.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8b54a64-3e9a-4455-93c4-452202fbe440
+  xhttp-opts:
+    host: www.chinns.ccwu.cc
+    mode: stream-one
+    path: /a/v----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
   xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_2|1.9MB/s
+  name: 🇺🇸US_5|2.2MB/s
   network: ws
   port: '443'
-  server: rvg-production-7fb9.up.railway.app
-  servername: rvg-production-7fb9.up.railway.app
+  server: luffypanel-production-2c37.up.railway.app
+  servername: luffypanel-production-2c37.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 5bf7ce35-6344-2b7c-2892-a7bef76b28d8
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: rvg-production-7fb9.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /ws/5bf7ce35-6344-2b7c-2892-a7bef76b28d8
+      Host: luffypanel-production-2c37.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /ws/New Link
   xudp: true
-- name: 🇺🇸US_3|3.3MB/s
+- encryption: none
+  name: 🇺🇸US_6|2.4MB/s
+  network: ws
+  port: '8080'
+  server: 104.17.122.62
+  servername: ez-9eb0c3.ezaccess131f845.workers.dev
+  type: vless
+  udp: true
+  uuid: 2a166c5e-6560-4cc0-a891-c3482f1379ea
+  ws-opts:
+    headers:
+      Host: ez-9eb0c3.ezaccess131f845.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇺🇸US_7|3.3MB/s
+  network: ws
+  port: '8880'
+  server: 216.24.57.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime28.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: ''
+  xudp: true
+- name: 🇺🇸US_8|1.6MB/s
   network: ws
   port: '8880'
   server: 104.16.100.66
   type: vless
   udp: true
-  uuid: 92a4cb10-228f-4239-8c63-c566b20a9167
+  uuid: 59a0424b-d36b-4685-bac5-89d50d8969a8
   ws-opts:
     headers:
-      Host: square-waterfall-c1de.199-82d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+      Host: billowing-snowflake-f056.63-f14.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|2.3MB/s
-  network: ws
-  port: '443'
-  server: 170.114.46.6
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /us-gllc
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_5|3.4MB/s
-  network: ws
-  port: '443'
-  server: 104.19.58.118
-  servername: us1-us1.aiopen.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: f872264a-664a-4b6a-84e8-516a39099860
-  ws-opts:
-    headers:
-      Host: us1-us1.aiopen.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /kbjc/us1
-  xudp: true
-- name: 🇺🇸US_6|2.6MB/s
+- name: 🇺🇸US_9|2.5MB/s
   password: ''
   port: '9002'
-  server: 138.199.35.200
+  server: 156.146.59.15
   skip-cert-verify: true
   tls: true
   type: http
