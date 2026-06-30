@@ -173,35 +173,37 @@ proxies:
   tls: false
   type: hysteria2
 - encryption: none
-  name: 🇩🇪DE_1|2.4MB/s
-  network: ws
-  port: '2086'
-  server: 172.67.89.31
+  name: 🇩🇪DE_1|2.1MB/s
+  network: tcp
+  port: '25565'
+  server: 172.65.109.171
   type: vless
   udp: true
-  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
-  ws-opts:
-    headers:
-      Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
+  uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
   xudp: true
-- name: 🇩🇪DE_2|3.2MB/s
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_2|2.1MB/s
   network: ws
-  port: '8880'
-  server: 104.26.13.40
+  port: '443'
+  server: 188.114.97.6
+  servername: API.ICR7.IR
+  tls: true
   type: vless
   udp: true
-  uuid: b9ea760d-3200-4d6d-8000-30514ebbce5a
+  uuid: b8ca14a6-9b54-436f-8822-9c679615372c
   ws-opts:
     headers:
-      Host: aged-pine-d8c4.379.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+      Host: API.ICR7.IR
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+    path: /Mori?ed=1024
   xudp: true
-- name: 🇩🇪DE_3|2.1MB/s
+- name: 🇩🇪DE_3|2.3MB/s
   network: ws
   port: '8880'
   server: 104.26.13.40
