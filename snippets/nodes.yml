@@ -335,86 +335,101 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚+新南威尔士州悉尼Choopa数据中心
-  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
-  port: 15675
-  server: 45.77.232.213
+- cipher: aes-256-gcm
+  name: 俄罗斯+鞑靼斯坦喀山justhost
+  password: cfe685726eea2c4b
+  port: 50129
+  server: 46.17.43.63
   type: ss
-- name: 美国+华盛顿Cogent通信公司
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+- alpn:
+  - http/1.1
+  name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 38.54.64.247
-  type: trojan
-- name: '美国+华盛顿Cogent通信公司 #1'
-  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
-  port: 443
-  server: 38.60.220.65
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡+Choopa数据中心
-  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
-  port: 23027
-  server: 45.32.122.179
-  type: ss
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.151
-  type: trojan
-- name: 希腊+V2CROSS.COM
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.119
+  server: 188.114.97.6
   skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
-- name: '希腊+V2CROSS.COM #1'
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
   port: 443
-  server: 92.119.35.93
-  sni: 92.119.35.93
+  server: 172.66.44.211
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
+- name: 美国+CloudFlare
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.17.189
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: 美国+华盛顿Cogent通信公司
+  network: tcp
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  port: 443
+  server: 38.60.202.163
+  skip-cert-verify: false
+  sni: 38.60.202.163
   type: trojan
 - alpn:
   - http/1.1
-  name: 美国+V2CROSS.COM
+  name: 日本+东京Fastly节点
   network: ws
   password: Mitivpn
   port: 443
-  server: 167.82.101.251
+  server: 151.101.110.219
   skip-cert-verify: false
   sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de
-- name: '希腊+V2CROSS.COM #2'
-  network: tcp
+    path: /de=mitivpn
+- name: 希腊+V2CROSS.COM
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 92.119.35.85
+  server: 92.119.35.97
+  type: trojan
+- name: '希腊+V2CROSS.COM #1'
+  network: tcp
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  port: 443
+  server: 92.119.35.117
   skip-cert-verify: false
   type: trojan
-- name: '希腊+V2CROSS.COM #3'
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 92.119.35.131
+  server: 185.137.157.138
+  sni: 185.137.157.138
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: '罗马尼亚+V2CROSS.COM #1'
   network: tcp
   password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
   port: 443
   server: 185.137.157.250
   skip-cert-verify: false
   sni: fra250.clientfirewall.click
-  type: trojan
-- name: '罗马尼亚+V2CROSS.COM #2'
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.140
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -537,6 +552,28 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_4|4.1MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 🇺🇸US_5|3.2MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 64.186.248.160
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    path: /
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
@@ -551,7 +588,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_069bc_0003
+  name: DE_19dc2_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -585,7 +622,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_069bc_0054
+  name: US_19dc2_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true

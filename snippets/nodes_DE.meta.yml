@@ -172,83 +172,58 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
+- encryption: none
+  name: 🇩🇪DE_1|3.4MB/s
+  network: ws
+  port: '2086'
+  server: 172.67.89.31
+  type: vless
+  udp: true
+  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
+  ws-opts:
+    headers:
+      Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
+  xudp: true
 - alpn:
-  - http/1.1
   - h2
-  client-fingerprint: chrome
+  - http/1.1
+  client-fingerprint: '360'
   encryption: none
-  name: 🇩🇪DE_1|2.7MB/s
-  network: xhttp
+  name: 🇩🇪DE_2|1.6MB/s
+  network: ws
   port: '443'
-  server: 45.130.125.172
-  servername: germany4.alibaba1405.org
+  server: 14.102.228.201
+  servername: app.zynuro.ir
   tls: true
   type: vless
   udp: true
-  uuid: ac006062-f051-43c6-bd4c-f409285c8635
-  xhttp-opts:
-    host: germany4.alibaba1405.org
-    mode: auto
-    path: /v2raylink
-  xudp: true
-- name: 🇩🇪DE_2|2.3MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
+  uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
   ws-opts:
     headers:
-      Host: dry-sunset-f3c4.282.workers.dev
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 🇩🇪DE_3|2.7MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: f5c01a38-a92a-46a1-8968-a0582f4e2f2a
-  ws-opts:
-    headers:
-      Host: steep-frost-8b18.350-c77.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 🇩🇪DE_4|2.0MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
-  ws-opts:
-    headers:
-      Host: throbbing-moon-a07c.90-ec4.workers.dev
+      Host: app.zynuro.ir
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /a8Kp92LmQx
   xudp: true
-- name: 🇩🇪DE_5|2.5MB/s
+- name: 🇩🇪DE_3|2.1MB/s
   network: ws
   port: '8880'
   server: 104.26.13.40
   type: vless
   udp: true
-  uuid: 9d45d137-9892-4a83-a04a-f30b4da28243
+  uuid: b9ea760d-3200-4d6d-8000-30514ebbce5a
   ws-opts:
     headers:
-      Host: broken-wave-8a45.483.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      Host: aged-pine-d8c4.379.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_069bc_0003
+  name: DE_19dc2_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
