@@ -47,21 +47,34 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬SG_1|3.7MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.110.106
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tfo: false
-  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_2|3.6MB/s
+  name: 🇸🇬SG_1|2.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.153.159
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬SG_2|2.8MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -82,7 +95,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_3|3.5MB/s
+  name: 🇸🇬SG_3|2.8MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -103,28 +116,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_4|3.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.42.182
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬SG_5|2.7MB/s
+  name: 🇸🇬SG_4|2.9MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -145,7 +137,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_6|3.3MB/s
+  name: 🇸🇬SG_5|4.8MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -166,7 +158,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_7|5.0MB/s
+  name: 🇸🇬SG_6|3.9MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -187,28 +179,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_8|3.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.46.24
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬SG_9|3.5MB/s
+  name: 🇸🇬SG_7|4.2MB/s
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -229,7 +200,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_10|1.8MB/s
+  name: 🇸🇬SG_8|4.2MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -250,7 +221,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_11|2.1MB/s
+  name: 🇸🇬SG_9|3.4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -271,7 +242,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_12|3.4MB/s
+  name: 🇸🇬SG_10|2.9MB/s
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -292,7 +263,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_13|2.8MB/s
+  name: 🇸🇬SG_11|2.6MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -313,7 +284,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_14|2.6MB/s
+  name: 🇸🇬SG_12|3.6MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -334,7 +305,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_15|3.6MB/s
+  name: 🇸🇬SG_13|3.5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -355,7 +326,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_16|3.9MB/s
+  name: 🇸🇬SG_14|3.4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -376,28 +347,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_17|3.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 172.64.35.37
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬SG_18|1.6MB/s
+  name: 🇸🇬SG_15|2.3MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -418,28 +368,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_19|3.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.41.198
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: 🇸🇬SG_20|3.4MB/s
+  name: 🇸🇬SG_16|3.7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -460,7 +389,28 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_21|3.8MB/s
+  name: 🇸🇬SG_17|3.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.8.123
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬SG_18|4.6MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -481,7 +431,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_22|2.5MB/s
+  name: 🇸🇬SG_19|3.6MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -502,7 +452,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_23|3.8MB/s
+  name: 🇸🇬SG_20|2.8MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -523,7 +473,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_24|4.5MB/s
+  name: 🇸🇬SG_21|3.7MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -544,7 +494,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_25|2.5MB/s
+  name: 🇸🇬SG_22|2.8MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -565,7 +515,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_26|3.5MB/s
+  name: 🇸🇬SG_23|2.7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -586,7 +536,28 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_27|2.2MB/s
+  name: 🇸🇬SG_24|3.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.146.229
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬SG_25|3.8MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -607,7 +578,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_28|2.9MB/s
+  name: 🇸🇬SG_26|3.8MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -628,7 +599,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_29|3.5MB/s
+  name: 🇸🇬SG_27|2.2MB/s
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -649,7 +620,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_30|3.7MB/s
+  name: 🇸🇬SG_28|3.4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -670,11 +641,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇸🇬SG_31|2.7MB/s
+  name: 🇸🇬SG_29|2.4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 162.159.3.48
+  server: 162.159.10.87
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -685,46 +656,24 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- encryption: none
-  name: 🇸🇬SG_32|1.9MB/s
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬SG_30|4.5MB/s
   network: ws
-  port: '80'
-  server: 172.64.156.188
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.16.154
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 53342b53-157e-4475-9f3a-40439434e689
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: c.iamdt.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      Host: t1s1.rittbo.kdns.fr
     path: /
-  xudp: true
-- name: 🇸🇬SG_33|2.1MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.48.193
-  type: vless
-  udp: true
-  uuid: 8995976a-1c81-4b44-a414-d3bc71058a21
-  ws-opts:
-    headers:
-      Host: muddy-queen-cdda.181-cf9.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- name: 🇸🇬SG_34|3.7MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.48.193
-  type: vless
-  udp: true
-  uuid: a7b8b48e-1000-46f5-a974-f6606d94f3b4
-  ws-opts:
-    headers:
-      Host: misty-hill-4b94.146-c18.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true

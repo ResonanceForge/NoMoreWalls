@@ -173,7 +173,7 @@ proxies:
   tls: false
   type: hysteria2
 - encryption: none
-  name: 🇩🇪DE_1|3.4MB/s
+  name: 🇩🇪DE_1|2.4MB/s
   network: ws
   port: '2086'
   server: 172.67.89.31
@@ -183,32 +183,11 @@ proxies:
   ws-opts:
     headers:
       Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
     path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: '360'
-  encryption: none
-  name: 🇩🇪DE_2|1.6MB/s
-  network: ws
-  port: '443'
-  server: 14.102.228.201
-  servername: app.zynuro.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
-  ws-opts:
-    headers:
-      Host: app.zynuro.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /a8Kp92LmQx
-  xudp: true
-- name: 🇩🇪DE_3|2.1MB/s
+- name: 🇩🇪DE_2|3.2MB/s
   network: ws
   port: '8880'
   server: 104.26.13.40
@@ -218,12 +197,26 @@ proxies:
   ws-opts:
     headers:
       Host: aged-pine-d8c4.379.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
+- name: 🇩🇪DE_3|2.1MB/s
+  network: ws
+  port: '8880'
+  server: 104.26.13.40
+  type: vless
+  udp: true
+  uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
+  ws-opts:
+    headers:
+      Host: broken-star-c5ae.446.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_19dc2_0003
+  name: DE_ccae7_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
