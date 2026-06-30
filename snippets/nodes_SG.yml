@@ -7,6 +7,12 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡+Choopa数据中心
+  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
+  port: 23027
+  server: 45.32.122.179
+  type: ss
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 82c038b55e40ca2613b76bb98c7f6d1f
