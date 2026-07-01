@@ -144,78 +144,6 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- encryption: none
-  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  network: tcp
-  port: 10443
-  server: 136.244.94.171
-  type: vless
-  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
-- encryption: none
-  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
-  network: tcp
-  port: 443
-  server: 136.244.94.171
-  type: vless
-  uuid: 52516534-4986-4959-b30b-a89463eed9af
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65-uhe66vr6.nike77prime.ru
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.111.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime52.workers.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
-    short-id: '!!str a1b2c3d4e5f6'
-  security: reality
-  server: 84.21.189.197
-  servername: queuev4.vk.com
-  tls: true
-  type: vless
-  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -275,84 +203,85 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
+- encryption: none
+  name: 🇩🇪DE_1|1.5MB/s
+  network: tcp
+  port: '6666'
+  server: 109.122.251.182
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.QtVN6SieJTpMzWSJnKeROmieCKH2IBeY8htIFCbPIWw
+  name: 🇩🇪DE_2|2.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: NJHHn2lOkY0ScOiK8qf5xc57YFRsT44EYjUYOrbIVUw
+    short-id: '!!str b21ec2de'
+  server: 168.222.43.15
+  servername: www.oracle.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38c555db-e464-4da4-bc70-67530ab8d33c
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
+  name: 🇩🇪DE_3|2.0MB/s
+  network: xhttp
+  port: '2087'
+  server: mio.game2lizard.com
+  servername: liz11.jooje.lat
+  tls: true
+  type: vless
+  udp: true
+  uuid: 527561c6-bed1-44c5-8404-f322fbf7ced2
+  xhttp-opts:
+    host: liz11.jooje.lat
+    mode: auto
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_4|2.8MB/s
+  network: ws
+  port: '443'
+  server: 45.43.89.236
+  servername: ee.seaspirit.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14aedc8e-66d3-4e38-8f03-e7315fcf5b36
+  ws-opts:
+    headers:
+      Host: ee.seaspirit.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.5MB/s
+  name: 🇩🇪DE_5|1.8MB/s
   network: tcp
   port: '2053'
   reality-opts:
     public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
     short-id: '!!str c0d1d1776fed0f6d'
-  server: 178.18.147.226
-  servername: nl-t2.vinnypuxtomoon.today
+  server: ee-t2.vinnypuxtomoon.today
+  servername: ee-t2.vinnypuxtomoon.today
   tls: true
   type: vless
   udp: true
   uuid: 1ee0c3d2-9c42-463f-8497-ee05f76b84e5
   xudp: true
-- encryption: none
-  name: 🇩🇪DE_2|2.7MB/s
-  network: tcp
-  port: '25565'
-  server: 172.65.109.171
-  type: vless
-  udp: true
-  uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_3|3.3MB/s
-  network: tcp
-  port: '40443'
-  reality-opts:
-    public-key: O44jGa94V6nWk8THGHup9johzfGLcKfM3ff9V7LYeTg
-    short-id: '!!str 4e72b7bf3f15c8'
-  server: de.bashirsweb.xyz
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 889152f7-8e6e-47eb-88ab-6a6711fb2b21
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|1.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
-    short-id: '!!str fedcba9876543210'
-  server: sof.edgeptr.org
-  servername: www.lovelive-anime.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: de3fb5b2-af5d-4002-87b0-ff7d1f569d94
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_5|2.2MB/s
-  network: xhttp
-  port: '443'
-  server: fastly.videobazi.com
-  servername: default.ssl.fastly.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 175c6db9-4a69-4abc-8736-c3f72748b7a0
-  xhttp-opts:
-    host: Fastspeedmar.global.ssl.fastly.net
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_6|2.7MB/s
+  name: 🇩🇪DE_6|1.6MB/s
   network: ws
-  port: '2053'
-  server: 134.209.224.221
+  port: '443'
+  server: 46.101.171.202
   servername: vpn47.cc.cd
   tls: true
   type: vless
@@ -361,8 +290,79 @@ proxies:
   ws-opts:
     headers:
       Host: vpn47.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 45.145.56.146
+  servername: www.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17930cee-cbea-484b-ad7f-7b8062825fee
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_8|2.4MB/s
+  network: grpc
+  port: '2053'
+  reality-opts:
+    public-key: ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA
+    short-id: '!!str d9a7c1e2b3f4481a'
+  server: 217.144.184.251
+  servername: cdn.jsdelivr.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: '360'
+  encryption: none
+  name: 🇩🇪DE_9|2.3MB/s
+  network: ws
+  port: '443'
+  server: 188.114.97.230
+  servername: app.zynuro.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
+  ws-opts:
+    headers:
+      Host: app.zynuro.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /a8Kp92LmQx
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_10|1.5MB/s
+  network: ws
+  port: '443'
+  server: 104.248.23.56
+  servername: vpn47.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
     path: /
   xudp: true
 - cipher: chacha20-ietf-poly1305

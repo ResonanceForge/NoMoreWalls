@@ -1,42 +1,80 @@
 proxies:
-- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
+- name: 法国+ONLINE+S.A.S.数据中心
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 18271
+  server: clash-ip1.934618.xyz
+  skip-cert-verify: false
+  sni: clash-ip1.934618.xyz
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇫🇷 FR 03 TG: @nodpai'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
+  name: 🇫🇷FR_1|2.6MB/s
+  network: xhttp
+  port: '2087'
+  server: mio2.game2lizard.com
+  servername: fr0.eorqen.ir
   tls: true
   type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
+  udp: true
+  uuid: 527561c6-bed1-44c5-8404-f322fbf7ced2
+  xhttp-opts:
+    host: fr0.eorqen.ir
+    mode: auto
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|2.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.97
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_3|2.5MB/s
+  network: xhttp
+  port: '2096'
+  server: 45.131.6.203
+  servername: corecache.novacorelorna.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c940549-ac64-370e-eda9-67257bab6815
+  xhttp-opts:
+    host: intelligentgatewayplatform.novacorelorna.com
+    mode: auto
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_4|2.5MB/s
+  network: ws
+  port: '443'
+  server: 188.114.97.6
+  servername: JoinProxyVPN11.terazhediii.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  ws-opts:
+    headers:
+      Host: terazhediii.info
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /hdgrbws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+  xudp: true
 - cipher: aes-256-cfb
-  name: 🇫🇷FR_1|2.3MB/s
+  name: 🇫🇷FR_5|3.2MB/s
   password: amazonskr05
   port: '443'
-  server: 15.236.37.125
+  server: 15.237.138.120
   type: ss
   udp: true
 - name: FR_speednode_0004

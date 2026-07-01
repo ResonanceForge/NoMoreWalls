@@ -103,188 +103,6 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  network: ws
-  port: 17416
-  security: tls
-  server: 103.133.240.115
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristifp=chrome
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  network: ws
-  port: 30003
-  security: tls
-  server: 140.235.10.14
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristifp=chrome
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 15807
-  server: 138.2.112.117
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  skip-cert-verify: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-    path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 176.124.223.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 06 TG: @nodpai'
-  network: ws
-  port: 30001
-  security: tls
-  server: 114.204.40.185
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 07 TG: @nodpai'
-  network: ws
-  port: 7152
-  security: tls
-  server: 8.219.129.246
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: ws
-  port: 42769
-  server: 45.143.131.216
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  skip-cert-verify: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-    path: /@Marisa_kristi
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
-  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-  port: 443
-  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 日本+V2CROSS.COM
-  network: tcp
-  port: 14002
-  reality-opts:
-    public-key: D4eZTpgaPV_2YQa7cbiDMGnZs6NBEU2JkfUroHpvoWs
-    short-id: '!!str 7cabb05b68f63b'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '日本+V2CROSS.COM #1'
-  network: tcp
-  port: 14010
-  reality-opts:
-    public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
-    short-id: '!!str 1ebaa8ea57a71ffc'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '日本+V2CROSS.COM #2'
-  network: tcp
-  port: 14003
-  reality-opts:
-    public-key: bHHdXJs2NGgY4tDUBwmoLBaKM7y_5sd49geQcdbihz0
-    short-id: '!!str 80963776'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '日本+V2CROSS.COM #3'
-  network: tcp
-  port: 14004
-  reality-opts:
-    public-key: zSt5a1vs3C3oxm3fSUB_egA98IO3XZr7JGzE6OdMTz8
-    short-id: '!!str 22c485f4000241'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: US_speednode_0055
-  network: tcp
-  port: 14005
-  reality-opts:
-    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
-    short-id: '!!str 97a01dfaef'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -295,33 +113,33 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 52.197.219.28
+  port: 52904
+  server: 18.181.219.39
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
-  password: 82c038b55e40ca2613b76bb98c7f6d1f
-  port: 55973
-  server: 18.166.64.127
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 3743
+  server: 18.163.118.4
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: 82c038b55e40ca2613b76bb98c7f6d1f
+  password: cbed60798db0624ba9d15418f0d0d9a4
   port: 37973
-  server: 43.199.41.146
+  server: 95.40.113.209
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 🇯🇵JP_1|2.0MB/s
+  name: 🇯🇵JP_1|4.4MB/s
   network: ws
   port: '443'
-  server: cf1.466688.xyz
+  server: cf5.466688.xyz
   servername: mia6.pages.dev
   tls: true
   type: vless
@@ -330,27 +148,27 @@ proxies:
   ws-opts:
     headers:
       Host: mia6.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /out/sort/stars?ed=2560@https://t.me/QiangLieTuiJian
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇯🇵JP_2|3.4MB/s
+  name: 🇯🇵JP_2|3.5MB/s
   network: ws
   port: '443'
-  server: cf1.466688.xyz
-  servername: mia11.pages.dev
+  server: cf5.466688.xyz
+  servername: mia7.pages.dev
   tls: true
   type: vless
   udp: true
   uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
   ws-opts:
     headers:
-      Host: mia11.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /note?ed=2560@https://t.me/QiangLieTuiJian
+      Host: mia7.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /movie/bbs/source?ed=2560@https://t.me/QiangLieTuiJian
   xudp: true
 - client-fingerprint: chrome
   ech-opts:
@@ -358,11 +176,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵JP_3|2.7MB/s
+  name: 🇯🇵JP_3|2.9MB/s
   network: ws
   packet-encoding: xudp
-  port: 2083
-  server: 162.159.45.201
+  port: 443
+  server: 172.64.53.27
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -379,7 +197,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵JP_4|3.2MB/s
+  name: 🇯🇵JP_4|2.0MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -400,7 +218,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵JP_5|3.1MB/s
+  name: 🇯🇵JP_5|3.6MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -421,11 +239,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵JP_6|3.9MB/s
+  name: 🇯🇵JP_6|2.7MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 162.159.38.101
+  port: 2083
+  server: 162.159.44.172
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -442,11 +260,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇯🇵JP_7|2.5MB/s
+  name: 🇯🇵JP_7|2.6MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 162.159.45.15
+  port: 8443
+  server: 152.70.105.42
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -457,3 +275,18 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_8|1.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: LOqLQYYIwSrxpoyivvajBd5GZ4ULD1ZhGhGbKUl5SF8
+    short-id: '!!str f01abc70'
+  server: 160.16.208.254
+  servername: v1-dy.ixigua.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8d37bf8-ff5b-4de8-8796-2de9c4072b41
+  xudp: true
