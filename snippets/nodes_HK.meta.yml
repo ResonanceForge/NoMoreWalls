@@ -35,6 +35,22 @@ proxies:
   sni: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_2|3.5MB/s
+  network: tcp
+  port: '14010'
+  reality-opts:
+    public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
+    short-id: '!!str 1ebaa8ea57a71ffc'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+  xudp: true
 - name: 🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -85,33 +101,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|2.5MB/s
-  network: tcp
-  port: '14006'
-  reality-opts:
-    public-key: XPLe-686APp5RHaiFHZDTJsf1kMo-aMZuKjKeHmdyEM
-    short-id: '!!str ff5ebee2264c'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇭🇰HK_2|2.6MB/s
+  name: US_speednode_0055
   network: tcp
-  port: 14001
+  port: 14005
   reality-opts:
-    public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
-    short-id: '!!str 16'
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: '!!str 97a01dfaef'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_3|3.2MB/s
+  network: tcp
+  port: '14004'
+  reality-opts:
+    public-key: zSt5a1vs3C3oxm3fSUB_egA98IO3XZr7JGzE6OdMTz8
+    short-id: '!!str 22c485f4000241'
   server: vip.bcjdvip.com
   servername: apple.com
   tls: true
@@ -119,6 +132,21 @@ proxies:
   udp: true
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
   xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_5|3.8MB/s
+  network: tcp
+  port: 14003
+  reality-opts:
+    public-key: bHHdXJs2NGgY4tDUBwmoLBaKM7y_5sd49geQcdbihz0
+    short-id: '!!str 80963776'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - name: HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443
