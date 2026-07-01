@@ -203,139 +203,83 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: 🇩🇪DE_1|1.5MB/s
-  network: tcp
-  port: '6666'
-  server: 109.122.251.182
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.QtVN6SieJTpMzWSJnKeROmieCKH2IBeY8htIFCbPIWw
-  name: 🇩🇪DE_2|2.8MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: NJHHn2lOkY0ScOiK8qf5xc57YFRsT44EYjUYOrbIVUw
-    short-id: '!!str b21ec2de'
-  server: 168.222.43.15
-  servername: www.oracle.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38c555db-e464-4da4-bc70-67530ab8d33c
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_3|2.0MB/s
+  name: 🇺🇸US_6|2.3MB/s
   network: xhttp
   port: '2087'
   server: mio.game2lizard.com
-  servername: liz11.jooje.lat
+  servername: liz21.jooje.lat
   tls: true
   type: vless
   udp: true
   uuid: 527561c6-bed1-44c5-8404-f322fbf7ced2
   xhttp-opts:
-    host: liz11.jooje.lat
+    host: liz21.jooje.lat
     mode: auto
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|2.8MB/s
-  network: ws
-  port: '443'
-  server: 45.43.89.236
-  servername: ee.seaspirit.dpdns.org
+  name: 🇩🇪DE_2|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 47.254.156.143
+  servername: api.company-target.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 14aedc8e-66d3-4e38-8f03-e7315fcf5b36
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- client-fingerprint: chrome
+  name: 🇩🇪DE_3|3.1MB/s
+  network: tcp
+  password: AG4yPUSazj57DBFnKG
+  port: '443'
+  server: de-3.tr202604.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- encryption: none
+  name: 🇩🇪DE_4|1.9MB/s
+  network: ws
+  port: '2086'
+  server: 172.67.89.31
+  type: vless
+  udp: true
+  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
   ws-opts:
     headers:
-      Host: ee.seaspirit.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /?ed=2560
+      Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|1.8MB/s
-  network: tcp
-  port: '2053'
-  reality-opts:
-    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
-    short-id: '!!str c0d1d1776fed0f6d'
-  server: ee-t2.vinnypuxtomoon.today
-  servername: ee-t2.vinnypuxtomoon.today
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1ee0c3d2-9c42-463f-8497-ee05f76b84e5
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_6|1.6MB/s
+- encryption: none
+  name: 🇩🇪DE_5|2.8MB/s
   network: ws
-  port: '443'
-  server: 46.101.171.202
-  servername: vpn47.cc.cd
-  tls: true
+  port: '2086'
+  server: 104.24.68.109
   type: vless
   udp: true
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
   ws-opts:
     headers:
-      Host: vpn47.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|2.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 45.145.56.146
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17930cee-cbea-484b-ad7f-7b8062825fee
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_8|2.4MB/s
-  network: grpc
-  port: '2053'
-  reality-opts:
-    public-key: ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA
-    short-id: '!!str d9a7c1e2b3f4481a'
-  server: 217.144.184.251
-  servername: cdn.jsdelivr.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1
+      Host: misty-bread-fd96.salehinezhadali.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==?ed=2560
   xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: '360'
   encryption: none
-  name: 🇩🇪DE_9|2.3MB/s
+  name: 🇩🇪DE_6|2.1MB/s
   network: ws
   port: '443'
-  server: 188.114.97.230
+  server: 14.102.228.201
   servername: app.zynuro.ir
   tls: true
   type: vless
@@ -344,29 +288,54 @@ proxies:
   ws-opts:
     headers:
       Host: app.zynuro.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /a8Kp92LmQx
   xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_10|1.5MB/s
+- name: 🇩🇪DE_7|1.7MB/s
   network: ws
-  port: '443'
-  server: 104.248.23.56
-  servername: vpn47.cc.cd
-  tls: true
+  port: '8880'
+  server: 162.159.156.214
   type: vless
   udp: true
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
   ws-opts:
     headers:
-      Host: vpn47.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /
+      Host: throbbing-moon-a07c.90-ec4.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 🇩🇪DE_8|2.5MB/s
+  network: ws
+  port: '8880'
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: e43ca713-a646-4406-a4d5-1e7bad20e7da
+  ws-opts:
+    headers:
+      Host: autumn-snow-735a.175-9d9.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 🇩🇪DE_9|2.4MB/s
+  network: ws
+  port: '8880'
+  server: 104.26.13.40
+  type: vless
+  udp: true
+  uuid: 723c410e-5789-4b21-abb9-d6ec05547ba9
+  ws-opts:
+    headers:
+      Host: blue-sky-e65b.221-553.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_1cc0e_0003
+  name: DE_fec3e_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16

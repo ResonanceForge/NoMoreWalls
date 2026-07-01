@@ -85,15 +85,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|3.4MB/s
+  name: 🇭🇰HK_1|2.5MB/s
   network: tcp
-  port: '14003'
+  port: '14006'
   reality-opts:
-    public-key: bHHdXJs2NGgY4tDUBwmoLBaKM7y_5sd49geQcdbihz0
-    short-id: '!!str 80963776'
+    public-key: XPLe-686APp5RHaiFHZDTJsf1kMo-aMZuKjKeHmdyEM
+    short-id: '!!str ff5ebee2264c'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+  xudp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇭🇰HK_2|2.6MB/s
+  network: tcp
+  port: 14001
+  reality-opts:
+    public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
+    short-id: '!!str 16'
   server: vip.bcjdvip.com
   servername: apple.com
   tls: true

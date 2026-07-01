@@ -30,24 +30,46 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
-  type: ss
-- name: '美国+CloudFlare节点 #1'
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
   network: ws
-  password: 9c521e24-7326-acd3-acec-d0afac2b465d
-  port: 8080
-  server: 104.21.34.58
-  skip-cert-verify: false
-  sni: red-cell-47f9.milaniomilan9.workers.dev
+  password: humanity
+  port: 443
+  server: 104.18.13.149
+  skip-cert-verify: true
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
-      Host: red-cell-47f9.milaniomilan9.workers.dev
-    path: /eyJqdW5rIjoiQ09WMGc3R0RTSzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4Ijo4fQ==
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: cbed60798db0624ba9d15418f0d0d9a4
@@ -75,24 +97,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸US_2|2.6MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 199.181.197.176
-  skip-cert-verify: false
-  sni: PioHosting.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /MiTiVPN=fL
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_3|2.4MB/s
+  name: 🇺🇸US_2|2.0MB/s
   network: ws
   password: MITIVPN
   port: '443'
@@ -103,12 +108,63 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /MiTiVPN=Usa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_3|1.7MB/s
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: 104.16.72.41
+  skip-cert-verify: false
+  sni: PioHosting.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /MiTiVPN=De
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_4|1.7MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: www.hcaptcha.com
+  skip-cert-verify: false
+  sni: PioHosting.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /MiTiVPN=NL
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_7|2.2MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 104.16.72.41
+  skip-cert-verify: false
+  sni: PioHosting.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_1cc0e_0054
+  name: US_fec3e_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
