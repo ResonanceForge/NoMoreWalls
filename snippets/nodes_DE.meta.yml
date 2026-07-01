@@ -162,14 +162,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_@WangCai_8
-  password: b1be3c3c-5cb7-4b5b-8dbc-a407eb0d63b7
-  port: 4142
-  server: 2a0b:4142:a86::2
-  skip-cert-verify: true
-  sni: c9a0c4942b7edk1v6.587458.xyz
-  tls: false
-  type: hysteria2
 - alpn:
   - h2
   - h3
@@ -203,37 +195,8 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: 🇩🇪DE_1|2.9MB/s
-  network: ws
-  port: '2086'
-  server: 172.67.89.31
-  type: vless
-  udp: true
-  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
-  ws-opts:
-    headers:
-      Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
-  xudp: true
-- name: 🇩🇪DE_2|1.7MB/s
-  network: ws
-  port: '8880'
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
-  ws-opts:
-    headers:
-      Host: tiny-feather-4c41.227.workers.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_27563_0003
+  name: DE_4d217_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
