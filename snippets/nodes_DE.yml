@@ -8,8 +8,18 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  name: 🇩🇪DE_5|1.5MB/s
+  network: tcp
+  password: DkQbKDcxEcKj6CoK6erBrQPsgnB7n7nM
+  port: '5222'
+  server: dc-38-de.netzrun.at
+  skip-cert-verify: false
+  sni: dc-38-de.netzrun.at
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_40b0a_0003
+  name: DE_3bd6a_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16

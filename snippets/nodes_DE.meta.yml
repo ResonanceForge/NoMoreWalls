@@ -144,20 +144,6 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 德国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 5.10.214.151
-  servername: octopusss5.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-    path: /udfyfws
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -207,7 +193,33 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|2.5MB/s
+- encryption: none
+  name: 🇩🇪DE_1|3.3MB/s
+  network: xhttp
+  port: '2087'
+  server: 57.129.117.5
+  type: vless
+  udp: true
+  uuid: b4675443-774f-4c1f-9a81-aea16803eda4
+  xhttp-opts:
+    host: miracle.gamecoreclub.sbs
+    mode: auto
+    path: /V2RayyNGvpn
+    x-padding-bytes: 100-1000
+  xudp: true
+- down: ''
+  fingerprint: D4:21:07:A8:C0:73:FB:35:55:78:4A:82:CD:26:20:A5:1B:81:1F:92:56:EB:39:B1:B9:65:4A:39:B5:95:06:58
+  name: 🇩🇪DE_2|2.6MB/s
+  obfs: salamander
+  obfs-password: OzJ10Bk1Z9MfaTDFAgDX0HldGsMiI7C2
+  password: r7386498464aq:qf0Jr3yaioRVPGv88xxUjfH4Y5hMQ0VA
+  port: '27039'
+  server: vids.jibiji.store
+  skip-cert-verify: true
+  sni: bts.com
+  type: hysteria2
+  up: ''
+- name: 🇩🇪DE_3|3.4MB/s
   network: ws
   port: '8880'
   server: 172.67.81.7
@@ -217,12 +229,39 @@ proxies:
   ws-opts:
     headers:
       Host: flat-butterfly-d503.411-d1e.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: 🇩🇪DE_4|1.8MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: KJoHsAShwQt-FYE2OGEekwDbeeYe-S1A0YBU8W5uYGc
+    short-id: '!!str 064c2d37308aeeb6'
+  server: hub.oneoknews.com
+  servername: hub.oneoknews.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 564397f8-4805-4433-ab5b-a24aa133bac2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_5|1.5MB/s
+  network: tcp
+  password: DkQbKDcxEcKj6CoK6erBrQPsgnB7n7nM
+  port: '5222'
+  server: dc-38-de.netzrun.at
+  skip-cert-verify: false
+  sni: dc-38-de.netzrun.at
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_40b0a_0003
+  name: DE_3bd6a_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
