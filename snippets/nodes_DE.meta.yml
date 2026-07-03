@@ -144,6 +144,20 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 德国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 5.10.214.151
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -193,6 +207,20 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
+- name: 🇩🇪DE_1|2.5MB/s
+  network: ws
+  port: '8880'
+  server: 172.67.81.7
+  type: vless
+  udp: true
+  uuid: 2ced390a-4252-4541-8985-730f7a06bb45
+  ws-opts:
+    headers:
+      Host: flat-butterfly-d503.411-d1e.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: DE_40b0a_0003
   password: 453u6Gcei04NyXbrWLKa0M
