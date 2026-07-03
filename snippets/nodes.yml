@@ -256,24 +256,28 @@ proxies:
   sni: 5.180.78.22
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
-  port: 16292
-  server: 38.54.80.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡+Choopa数据中心
-  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
-  port: 23027
-  server: 45.32.122.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '美国+华盛顿Cogent通信公司 #1'
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
+  name: 印度+V2CROSS.COM
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+  port: 14605
+  server: 103.240.147.113
   type: ss
 - name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.creationlong.org
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: tcp
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  skip-cert-verify: true
+  sni: 130.94.94.15
+  type: trojan
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
@@ -281,21 +285,19 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '美国+华盛顿Cogent通信公司 #2'
-  password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
-  port: 443
-  server: 38.60.252.118
-  skip-cert-verify: false
-  sni: 38.60.252.118
-  type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  type: trojan
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 美国+华盛顿Cogent通信公司
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡+Choopa数据中心
+  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
+  port: 23027
+  server: 45.32.122.179
+  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -411,23 +413,23 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - http/1.1
-  name: 🇺🇸US_1|1.9MB/s
+  name: 🇸🇬SG_1|4.3MB/s
   network: ws
   password: MITIVPN
   port: '443'
-  server: 94.140.0.40
+  server: 172.64.32.75
   skip-cert-verify: false
-  sni: Usa.App-Cloud.ir
+  sni: united.App-Cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /MiTiVPN=Usa
 - alpn:
   - http/1.1
-  name: 🇸🇬SG_10|3.9MB/s
+  name: 🇸🇬SG_2|3.7MB/s
   network: ws
   password: MiTiVPN
   port: '443'
@@ -438,48 +440,9 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /MiTiVPN=Se
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_6|2.1MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.16.72.101
-  skip-cert-verify: false
-  sni: N--l.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /MiTiVPN=NL
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_7|1.6MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: www.speedtest.net
-  skip-cert-verify: false
-  sni: germany.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /MiTiVPN=De
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|1.5MB/s
-  password: amazonskr05
-  port: '443'
-  server: 13.36.174.32
-  type: ss
-  udp: true
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
@@ -494,7 +457,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_3f74a_0003
+  name: DE_40b0a_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -528,7 +491,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_3f74a_0054
+  name: US_40b0a_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
