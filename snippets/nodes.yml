@@ -345,80 +345,48 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+  port: 14605
+  server: 103.241.66.76
+  type: ss
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
   port: 443
-  server: 185.137.157.140
+  server: 130.94.94.15
+  sni: 130.94.94.15
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰+V2CROSS.COM
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+  port: 14605
+  server: 193.168.175.56
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 美国+华盛顿Cogent通信公司
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
+  type: ss
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 185.137.157.142
+  server: 104.20.6.134
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '美国+华盛顿Cogent通信公司 #1'
+  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
+  port: 443
+  server: 38.60.136.156
   type: trojan
 - name: 亚太地区+V2CROSS.COM
   password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
   port: 443
-  server: 103.125.216.68
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.82
-  type: ss
-- name: '罗马尼亚+V2CROSS.COM #2'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.145
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.2.175
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: '罗马尼亚+V2CROSS.COM #3'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.128
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
-  port: 443
-  server: 38.54.64.247
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: 104.17.124.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '美国+华盛顿Cogent通信公司 #1'
-  network: tcp
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
-  port: 443
-  server: 38.60.202.163
-  skip-cert-verify: false
-  sni: 38.60.202.163
+  server: 103.125.216.18
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -541,58 +509,32 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_1|3.1MB/s
-  password: 1348a838-9105-4f3e-bd04-699a9be10480
-  port: '44404'
-  server: us04.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_1|2.1MB/s
+- name: 🇹🇷TR_1|1.5MB/s
   network: ws
+  password: dfdse334053vuohm
   port: 443
-  server: n1747624274.4u9ma.icu
-  servername: n1747624274.4u9ma.icu
+  server: auto.mhjstudio.ir
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: alternative.mhjstudio.ir
+  type: trojan
   udp: true
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
   ws-opts:
     headers:
-      Host: n1747624274.4u9ma.icu
+      Host: alternative.mhjstudio.ir
     path: /
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_1|5.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 57.180.55.43
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA_1|2.2MB/s
-  network: tcp
-  port: '18339'
-  server: c87s5.portablesubmarines.com
-  type: vmess
-  udp: true
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_3|5.4MB/s
-  password: amazonskr05
-  port: '443'
-  server: 43.207.4.4
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_3|3.3MB/s
+  password: 1348a838-9105-4f3e-bd04-699a9be10480
+  port: '44405'
+  server: us05.network-cdn-gw-yd.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_4|5.4MB/s
+  name: 🇫🇷FR_1|3.5MB/s
   password: amazonskr05
-  port: '443'
-  server: 52.192.80.59
+  port: 443
+  server: 51.44.220.197
+  skip-cert-verify: true
   type: ss
   udp: true
 - name: AE_speednode_0001
@@ -609,7 +551,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_5ed1e_0003
+  name: DE_356f0_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -643,7 +585,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_5ed1e_0054
+  name: US_356f0_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
