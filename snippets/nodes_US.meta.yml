@@ -40,36 +40,7 @@ proxies:
   name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.17.131.138
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: '%2Fsg-amz'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 198.41.223.238
+  server: 172.64.153.159
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -78,12 +49,40 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 104.21.18.48
+  servername: ez-a2fb15.sina-noraianfard-2015.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dc5b7653-70dd-4d5e-966f-3b595049a204
+  ws-opts:
+    headers:
+      Host: ez-a2fb15.sina-noraianfard-2015.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: cf9.466688.xyz
+  servername: zyzzzoao.xn--fiqv8j.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #3'
   network: ws
   port: 443
-  server: 172.64.153.159
+  server: 104.16.148.8
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -95,8 +94,19 @@ proxies:
     path: '%2F'
 - name: '美国+CloudFlare节点 #4'
   network: ws
+  port: 8880
+  server: www.baipiao.eu.org
+  tls: false
+  type: vless
+  uuid: d829cf8d-0a32-4e60-bcc3-a03fb4658ea4
+  ws-opts:
+    headers:
+      Host: shy-wind-a26f.182-104.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: '美国+CloudFlare节点 #5'
+  network: ws
   port: 443
-  server: 104.21.227.134
+  server: nexusmods.com
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -106,12 +116,20 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
-  type: ss
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 443
+  server: 198.41.223.238
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -132,109 +150,122 @@ proxies:
   type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 17005
-  server: 16.163.43.143
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 49277
+  server: 16.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
+  password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.50.86
+  server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2366
-  server: 16.163.155.249
+  port: 34638
+  server: 18.162.53.72
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
   encryption: none
+  name: 🇺🇸US_1|2.1MB/s
+  network: tcp
+  port: '2053'
+  reality-opts:
+    public-key: dV6O_qJsz93umq7BzAqvlnM8rEwaCFBrPlYSSkmCwQk
+    short-id: '!!str 11'
+  server: 34.201.63.79
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea9b76e2-3b93-4f6f-9fd5-441082de0a1c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.3MB/s
+  name: 🇺🇸US_2|1.9MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: 5SNuJakUsFk3udLSxuAhlzrdC6Xr2snwTIHvHwT5UiI
     short-id: '!!str fe8950f135674cfc'
   server: fikrep.tgflow.me
-  servername: fikrep.tgflow.me
   tls: true
   type: vless
   udp: true
   uuid: 9f19123a-1450-49f9-8ca4-3cc5f92f600b
   xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_3|3.4MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|2.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.148.210.179
+  type: ss
+  udp: true
 - name: 🇺🇸US_4|2.6MB/s
   password: ''
   port: 1080
   server: 47.253.211.16
   type: socks5
   username: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_5|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: -eUCuBsMq1skQmB5mIy5xptcAYOFtTm5PF0KQugjIGA
+    short-id: '!!str 0963b9822ae8b87e'
+  server: 143.198.124.34
+  servername: www.westerndigital.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2864749a-b45d-52c3-0f36-e64224f5480f
+  xudp: true
+- name: 🇺🇸US_6|2.1MB/s
+  password: ''
+  port: '9002'
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_7|2.3MB/s
+  password: ''
+  port: '9002'
+  server: 156.146.59.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_8|1.6MB/s
+  password: ''
+  port: '9002'
+  server: 156.146.59.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - cipher: aes-256-cfb
-  name: 🇺🇸US_5|2.7MB/s
+  name: 🇺🇸US_9|2.7MB/s
   password: amazonskr05
   port: '443'
   server: 3.133.132.79
   type: ss
   udp: true
-- name: 🇺🇸US_6|2.1MB/s
-  password: ''
-  port: '9002'
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_7|2.1MB/s
-  password: ''
-  port: '9002'
-  server: 156.146.59.38
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_8|2.0MB/s
-  password: ''
-  port: '9002'
-  server: 156.146.59.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_9|2.4MB/s
+- name: 🇺🇸US_10|2.1MB/s
   password: ''
   port: '9002'
   server: 156.146.59.7
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_10|2.5MB/s
-  password: ''
-  port: '9002'
-  server: 156.146.59.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_11|3.0MB/s
-  password: ''
-  port: '443'
-  server: 38.28.193.1
   skip-cert-verify: true
   tls: true
   type: http

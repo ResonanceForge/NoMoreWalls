@@ -345,20 +345,25 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 104.20.6.134
-  sni: www.calmloud.com
+  server: 185.137.157.140
+  sni: 185.137.157.140
   type: trojan
-  ws-opts:
-    path: /assignment
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡+Choopa数据中心
+  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
+  port: 23027
+  server: 45.32.122.179
+  type: ss
+- name: '罗马尼亚+V2CROSS.COM #1'
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 185.137.157.138
+  sni: 185.137.157.138
   type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 印度+V2CROSS.COM
@@ -366,16 +371,11 @@ proxies:
   port: 28061
   server: 103.111.114.82
   type: ss
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.135
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
+  name: 澳大利亚+V2CROSS.COM
+  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+  port: 27116
+  server: 104.156.233.234
   type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -394,39 +394,39 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 2008
-  server: 18.162.58.236
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 53012
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 95.40.26.121
+  port: 11035
+  server: 43.199.66.183
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.163.124.19
+  port: 4374
+  server: 16.162.34.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10624
-  server: 52.194.214.115
+  port: 27826
+  server: 13.230.228.151
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
+  password: d6788cf74e6844c45538204efd24b00f
   port: 5701
   server: 18.162.58.236
   skip-cert-verify: true
@@ -434,15 +434,23 @@ proxies:
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 3743
-  server: 16.163.138.198
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 55973
+  server: 18.162.58.236
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 48738
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
+  password: d6788cf74e6844c45538204efd24b00f
   port: 29642
   server: 16.163.43.143
   skip-cert-verify: true
@@ -451,32 +459,32 @@ proxies:
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22459
-  server: 43.198.12.202
+  port: 45744
+  server: 43.199.77.197
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 17005
-  server: 16.163.43.143
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 49277
+  server: 16.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
+  password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.50.86
+  server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2366
-  server: 16.163.155.249
+  port: 34638
+  server: 18.162.53.72
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -490,9 +498,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|2.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.148.210.179
+  type: ss
+  udp: true
 - alpn:
   - http/1.1
-  name: 🇹🇷TR_1|2.7MB/s
+  name: 🇹🇷TR_1|1.9MB/s
   network: ws
   password: dfdse334053vuohm
   port: '443'
@@ -503,17 +518,24 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
     path: /
 - cipher: aes-256-cfb
-  name: 🇺🇸US_5|2.7MB/s
+  name: 🇫🇷FR_1|2.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 15.237.74.149
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_9|2.7MB/s
   password: amazonskr05
   port: '443'
   server: 3.133.132.79
   type: ss
   udp: true
-- name: 🇩🇪DE_5|1.5MB/s
+- name: 🇩🇪DE_4|2.3MB/s
   network: tcp
   password: DkQbKDcxEcKj6CoK6erBrQPsgnB7n7nM
   port: '5222'
@@ -521,20 +543,6 @@ proxies:
   skip-cert-verify: false
   sni: dc-38-de.netzrun.at
   type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇪🇬EG_1|2.4MB/s
-  password: 2803361d6c196af8
-  port: '30888'
-  server: 166.1.228.172
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_2|2.5MB/s
-  password: amazonskr05
-  port: '443'
-  server: 35.180.21.4
-  type: ss
   udp: true
 - name: AE_speednode_0001
   network: ws
