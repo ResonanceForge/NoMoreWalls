@@ -345,39 +345,69 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
+- name: 罗马尼亚+V2CROSS.COM
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 38.60.220.65
+  server: 185.137.157.151
   type: trojan
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.47.69
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2Fassignment'
+- cipher: chacha20-ietf-poly1305
+  name: 美国+华盛顿Cogent通信公司
+  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
+  port: 16292
+  server: 38.54.80.160
+  type: ss
 - name: '美国+华盛顿Cogent通信公司 #1'
   password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
   server: 38.54.64.247
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
-  port: 14605
-  server: 103.241.66.76
+  name: 新加坡+Choopa数据中心
+  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
+  port: 23027
+  server: 45.32.122.179
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '印度+V2CROSS.COM #1'
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.82
-  type: ss
+- name: 美国+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.32
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 美国+加州
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.6
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: '%2Fassignment'
+- name: '美国+华盛顿Cogent通信公司 #2'
+  network: tcp
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  port: 443
+  server: 38.60.168.129
+  sni: 38.60.168.129
+  type: trojan
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
+- name: '美国+华盛顿Cogent通信公司 #3'
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  port: 443
+  server: 38.60.202.163
+  sni: 38.60.202.163
+  type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -500,10 +530,10 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 🇺🇸US_4|1.7MB/s
+  name: 🇯🇵JP_2|5.6MB/s
   password: amazonskr05
   port: '443'
-  server: 3.136.233.197
+  server: 57.180.55.43
   type: ss
   udp: true
 - name: AE_speednode_0001
@@ -520,7 +550,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_a2804_0003
+  name: DE_5ed1e_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -554,7 +584,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_a2804_0054
+  name: US_5ed1e_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
