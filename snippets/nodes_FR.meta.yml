@@ -1,11 +1,11 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|2.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 15.237.74.149
-  type: ss
-  udp: true
+- name: 法国+V2CROSS.COM
+  network: grpc
+  port: 8880
+  server: sca13.directdnsai.shop
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

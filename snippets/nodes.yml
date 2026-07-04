@@ -345,37 +345,45 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - name: 罗马尼亚+V2CROSS.COM
-  network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.140
-  sni: 185.137.157.140
+  server: 185.137.157.135
   type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 167.82.101.252
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: miticonfig.global.ssl.fastly.net
+    path: /MiTiVPN=Se
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+  port: 14605
+  server: 103.241.66.76
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 新加坡+Choopa数据中心
   password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
   port: 23027
   server: 45.32.122.179
-  type: ss
-- name: '罗马尼亚+V2CROSS.COM #1'
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  sni: 185.137.157.138
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚+V2CROSS.COM
-  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
-  port: 27116
-  server: 104.156.233.234
   type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -480,7 +488,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- name: 🇺🇸US_12|1.7MB/s
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -499,50 +507,11 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 🇺🇸US_3|2.5MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.148.210.179
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  name: 🇹🇷TR_1|1.9MB/s
-  network: ws
-  password: dfdse334053vuohm
-  port: '443'
-  server: auto.mhjstudio.ir
-  skip-cert-verify: false
-  sni: alternative.mhjstudio.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
-    path: /
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|2.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 15.237.74.149
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_9|2.7MB/s
+  name: 🇺🇸US_8|3.2MB/s
   password: amazonskr05
   port: '443'
   server: 3.133.132.79
   type: ss
-  udp: true
-- name: 🇩🇪DE_4|2.3MB/s
-  network: tcp
-  password: DkQbKDcxEcKj6CoK6erBrQPsgnB7n7nM
-  port: '5222'
-  server: dc-38-de.netzrun.at
-  skip-cert-verify: false
-  sni: dc-38-de.netzrun.at
-  type: trojan
   udp: true
 - name: AE_speednode_0001
   network: ws
@@ -558,7 +527,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_3bd6a_0003
+  name: DE_8d2fe_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -592,7 +561,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_3bd6a_0054
+  name: US_8d2fe_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
