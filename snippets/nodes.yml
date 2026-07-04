@@ -348,64 +348,76 @@ proxies:
 - name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.151
+  server: 185.137.157.140
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
-  port: 16292
-  server: 38.54.80.160
-  type: ss
-- name: '美国+华盛顿Cogent通信公司 #1'
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
-  port: 443
-  server: 38.54.64.247
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡+Choopa数据中心
-  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
-  port: 23027
-  server: 45.32.122.179
-  type: ss
-- name: 美国+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.32
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.6
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
-- name: '美国+华盛顿Cogent通信公司 #2'
+- name: '罗马尼亚+V2CROSS.COM #1'
   network: tcp
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 38.60.168.129
-  sni: 38.60.168.129
+  server: 185.137.157.142
   type: trojan
 - name: 亚太地区+V2CROSS.COM
   password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
   port: 443
-  server: 103.125.216.18
+  server: 103.125.216.68
   type: trojan
-- name: '美国+华盛顿Cogent通信公司 #3'
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.82
+  type: ss
+- name: '罗马尼亚+V2CROSS.COM #2'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.2.175
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: '罗马尼亚+V2CROSS.COM #3'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.128
+  type: trojan
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: 104.17.124.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: '美国+华盛顿Cogent通信公司 #1'
+  network: tcp
   password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
   port: 443
   server: 38.60.202.163
+  skip-cert-verify: false
   sni: 38.60.202.163
   type: trojan
 - cipher: aes-256-cfb
@@ -529,11 +541,58 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_1|3.1MB/s
+  password: 1348a838-9105-4f3e-bd04-699a9be10480
+  port: '44404'
+  server: us04.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|2.1MB/s
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  servername: n1747624274.4u9ma.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_2|5.6MB/s
+  name: 🇯🇵JP_1|5.1MB/s
   password: amazonskr05
   port: '443'
   server: 57.180.55.43
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦CA_1|2.2MB/s
+  network: tcp
+  port: '18339'
+  server: c87s5.portablesubmarines.com
+  type: vmess
+  udp: true
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_3|5.4MB/s
+  password: amazonskr05
+  port: '443'
+  server: 43.207.4.4
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_4|5.4MB/s
+  password: amazonskr05
+  port: '443'
+  server: 52.192.80.59
   type: ss
   udp: true
 - name: AE_speednode_0001
