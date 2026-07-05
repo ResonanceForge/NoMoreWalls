@@ -1,11 +1,33 @@
 proxies:
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+    short-id: '!!str fd17502f9ac38e58'
+  server: fin.monkeyvillage.pro
+  servername: fin.monkeyvillage.pro
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
+  udp: true
+  uuid: f17a6493-07c9-452e-aa5d-5e823cb5d5fe
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+    short-id: '!!str c3af5abcd0d3d9dc'
+  server: se.monkeyvillage.pro
+  servername: se.monkeyvillage.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: f17a6493-07c9-452e-aa5d-5e823cb5d5fe
+  xudp: true

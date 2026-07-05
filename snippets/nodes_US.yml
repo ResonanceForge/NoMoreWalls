@@ -30,103 +30,56 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 18 TG: @nodpai'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 24 TG: @nodpai'
-  network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: blackshadow.dpdns.org
-  sni: support.zoom.us.blackshadow.dpdns.org
-  tls: true
+  server: 38.54.64.247
+  type: trojan
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.166
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
     headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-    path: /195.123.218.174-443
-- name: 'B - 🇺🇸 US 32 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 33 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 34 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 35 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 36 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 37 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 42 TG: @nodpai'
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: '美国+V2CROSS.COM #1'
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18000
-  server: 121.154.96.50
-  sni: vpn.rnmcnm.com
-  tls: true
+  password: humanity
+  port: 443
+  server: 199.181.197.212
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: /trojan
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- cipher: chacha20-ietf-poly1305
+  name: '美国+华盛顿Cogent通信公司 #1'
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 46 TG: @nodpai'
+  name: 美国 CloudFlare节点
   network: ws
-  port: 52620
-  server: 38.60.176.80
+  port: 80
+  server: cf.tencentapp.cn
+  servername: ''
+  tls: false
   type: vmess
-  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
-    path: /8704a4ad
-- name: '美国+V2CROSS.COM #1'
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  skip-cert-verify: false
-  sni: 149.104.104.58
-  type: trojan
-- name: '美国+CloudFlare节点 #2'
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -134,21 +87,7 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
@@ -176,7 +115,24 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸US_1|1.7MB/s
+  name: 🇺🇸US_1|2.2MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: petrolicious.com
+  skip-cert-verify: false
+  sni: S-o-W.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_2|2.2MB/s
   network: ws
   password: MiTiVPN
   port: '443'
@@ -187,10 +143,50 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Nl
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_5|3.2MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: petrolicious.com
+  skip-cert-verify: false
+  sni: Fo-F-lL.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Fl
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_8|1.5MB/s
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: petrolicious.com
+  skip-cert-verify: false
+  sni: G-Dee.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
+- cipher: aes-256-cfb
+  name: 🇺🇸US_16|2.6MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.142.135.161
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: US_405ba_0054
