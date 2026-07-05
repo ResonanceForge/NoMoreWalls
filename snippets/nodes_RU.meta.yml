@@ -1,4 +1,18 @@
 proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 195.208.65.195
+  servername: s58794.cdn.ngenix.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 2be79376-2689-4b11-9c67-28ddd9c985b2
+  ws-opts:
+    path: /v1/data/sync/
 - name: 🇷🇺RU_1|2.1MB/s
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   port: 51385
