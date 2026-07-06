@@ -346,50 +346,80 @@ proxies:
   sni: 5.180.78.22
   type: trojan
 - cipher: chacha20-ietf-poly1305
+  name: 美国+华盛顿Cogent通信公司
+  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
+  port: 16292
+  server: 38.54.80.160
+  type: ss
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
   name: 印度+V2CROSS.COM
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
   port: 28061
-  server: 103.111.114.82
+  server: 103.111.114.80
   type: ss
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  port: 443
-  server: 38.60.136.156
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '印度+V2CROSS.COM #1'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.71
+  type: ss
 - name: '美国+华盛顿Cogent通信公司 #1'
   password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
   port: 443
   server: 38.60.252.118
-  sni: 38.60.252.118
+  skip-cert-verify: false
   type: trojan
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - cipher: chacha20-ietf-poly1305
   name: '美国+华盛顿Cogent通信公司 #2'
   password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
   port: 17283
   server: 38.180.221.145
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡+Choopa数据中心
+  password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
+  port: 23027
+  server: 45.32.122.179
+  type: ss
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
 - name: '罗马尼亚+V2CROSS.COM #1'
+  network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.142
+  server: 185.137.157.140
+  skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '印度+V2CROSS.COM #1'
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '美国+华盛顿Cogent通信公司 #3'
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
-  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -545,7 +575,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇺🇸US_6|2.1MB/s
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -553,48 +583,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_1|2.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.17.162.229
-  type: ss
-  udp: true
 - alpn:
   - http/1.1
-  name: 🇺🇸US_2|2.4MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.31.16.65
-  skip-cert-verify: false
-  sni: U-S-A.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Us
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_3|1.6MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: petrolicious.com
-  skip-cert-verify: false
-  sni: Fo-F-lL.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Fl
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_4|2.5MB/s
+  name: 🇺🇸US_1|2.6MB/s
   network: ws
   password: MiTiVPN
   port: '443'
@@ -605,43 +596,28 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Nl
-- client-fingerprint: firefox
-  name: 🇩🇪DE_1|2.5MB/s
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_2|2.7MB/s
   network: ws
-  password: zBfIAxaXtz
+  password: MiTiVPN
   port: '443'
-  server: 45.130.125.2
+  server: petrolicious.com
   skip-cert-verify: false
-  sni: sn.farxmode.ir
+  sni: S-o-W.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /db
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
 - alpn:
   - http/1.1
-  name: 🇩🇪DE_3|2.3MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.25.193.8
-  skip-cert-verify: false
-  sni: G-Dee.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
-- alpn:
-  - http/1.1
-  name: 🇸🇬SG_1|3.6MB/s
+  name: 🇸🇬SG_1|3.7MB/s
   network: ws
   password: MiTiVPN
   port: '443'
@@ -653,44 +629,47 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 15.236.37.125
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_5|2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.59.27.93
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_7|2.0MB/s
-  password: amazonskr05
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_1|1.5MB/s
+  network: ws
+  password: MITIVPN
   port: '443'
-  server: 18.188.176.234
-  type: ss
+  server: 104.25.193.8
+  skip-cert-verify: false
+  sni: G-Dee.MaQror.ir
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_1|1.7MB/s
-  password: 1a87017d0bf57f34
-  port: '32432'
-  server: 176.32.39.106
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_20|2.3MB/s
-  password: amazonskr05
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_3|2.5MB/s
+  network: ws
+  password: MITIVPN
   port: '443'
-  server: 18.118.140.96
-  type: ss
+  server: petrolicious.com
+  skip-cert-verify: false
+  sni: G-Dee.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
+- name: 🇺🇸US_5|2.7MB/s
+  password: BxceQaOe
+  port: '44265'
+  server: 18.163.116.155
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
 - name: AE_speednode_0001
   network: ws
@@ -706,7 +685,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_805a7_0003
+  name: DE_4962a_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -740,7 +719,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_805a7_0054
+  name: US_4962a_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true

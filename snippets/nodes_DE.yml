@@ -8,25 +8,10 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: firefox
-  name: 🇩🇪DE_1|2.5MB/s
-  network: ws
-  password: zBfIAxaXtz
-  port: '443'
-  server: 45.130.125.2
-  skip-cert-verify: false
-  sni: sn.farxmode.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /db
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪DE_3|2.3MB/s
+  name: 🇩🇪DE_1|1.5MB/s
   network: ws
   password: MITIVPN
   port: '443'
@@ -37,11 +22,11 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
 - cipher: chacha20-ietf-poly1305
-  name: DE_805a7_0003
+  name: DE_4962a_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
