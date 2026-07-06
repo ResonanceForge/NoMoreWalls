@@ -345,51 +345,46 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: 185.137.157.151
-  sni: 185.137.157.151
+  server: 38.54.64.247
+  skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
-  port: 14605
-  server: 103.241.66.76
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 美国+华盛顿Cogent通信公司
-  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
-  port: 17283
-  server: 38.180.221.143
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
   network: ws
-  port: 80
-  server: yg2.ygkkk.dpdns.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  password: MiTiVPN
+  port: 443
+  server: 167.82.101.252
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '印度+V2CROSS.COM #1'
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚+V2CROSS.COM
-  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
-  port: 27116
-  server: 104.156.233.234
-  type: ss
+      Host: miticonfig.global.ssl.fastly.net
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
+- name: 罗马尼亚+V2CROSS.COM
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.138
+  type: trojan
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
+- name: '亚太地区+V2CROSS.COM #1'
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.68
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #1'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -553,71 +548,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇭🇰HK_1|5.6MB/s
-  password: gXtfJmxrZ8Qkkd2k
-  port: '16025'
-  server: c722s2.portablesubmarines.com
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  name: 🇸🇬SG_1|3.1MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.18.37.237
-  skip-cert-verify: false
-  sni: S-o-W.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
-- cipher: aes-256-gcm
-  name: 🇭🇰HK_2|4.9MB/s
-  password: gXtfJmxrZ8Qkkd2k
-  port: '16025'
-  server: c722s1.portablesubmarines.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_3|5.0MB/s
-  network: tcp
-  port: '16025'
-  server: c722s3.portablesubmarines.com
-  type: vmess
-  udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_4|5.0MB/s
-  network: tcp
-  port: '16025'
-  server: c722s4.portablesubmarines.com
-  type: vmess
-  udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_5|4.6MB/s
-  network: tcp
-  port: '16025'
-  server: c722s5.portablesubmarines.com
-  type: vmess
-  udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  xudp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰HK_6|4.5MB/s
-  password: gXtfJmxrZ8Qkkd2k
-  port: '16025'
-  server: 45.78.26.146
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_1|1.5MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: '50099'
+  server: r3mrcg001286ek2.cybervena.com
   type: ss
   udp: true
 - name: AE_speednode_0001
@@ -634,7 +569,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_1c481_0003
+  name: DE_8bb70_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -668,7 +603,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_1c481_0054
+  name: US_8bb70_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
