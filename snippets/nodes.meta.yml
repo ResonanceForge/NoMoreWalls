@@ -769,221 +769,91 @@ proxies:
   sni: my.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  name: 香港+ThinkDream数据中心
-  network: ws
-  password: humanity
-  port: 443
-  server: 27.50.48.49
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: cf.130519.xyz
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
 - flow: xtls-rprx-vision
-  name: 比利时+V2CROSS.COM
+  name: 南非+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '3c9c5d01c6f824dd'
-  server: 155.117.137.182
-  servername: cdn6-49.yahoo.com
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: '2cfb5a0ae8ab0cb0'
+  server: 45.194.10.68
+  servername: storage.yandex.net
   tls: false
   type: vless
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
-  port: 443
-  server: 38.60.220.65
-  type: trojan
-  ws-opts:
-    path: '%2f'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.17.131.138
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-amz
-- flow: xtls-rprx-vision
-  name: '比利时+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '3c9c5d01c6f824dd'
-  server: 155.117.137.42
-  servername: cdn6-49.yahoo.com
-  tls: false
-  type: vless
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-- name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: vangoghhh.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: '%2Frdfgtws'
-- flow: xtls-rprx-vision
-  name: '比利时+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '3c9c5d01c6f824dd'
-  server: 155.117.137.228
-  servername: cdn6-49.yahoo.com
-  tls: false
-  type: vless
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-- name: 南非+V2CROSS.COM
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.156
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FQiangLieTuiJian
-  tls: false
-  type: hysteria2
-- name: 欧盟+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 45.8.211.217
-  servername: vangoghhh.info
-  tls: true
-  type: vless
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: '%2Frdfgtws'
-- down: ''
-  fingerprint: ''
-  name: 🇫🇷FR_1|2.7MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-fr-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-fr-001.fastervpn.world
-  tls: false
-  type: hysteria2
-  up: ''
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国+俄勒冈州波特兰Amazon数据中心
-  network: raw
-  port: 22189
-  reality-opts:
-    public-key: 5tUZskKOCKpjz3j7hmuYaQHNfE1QRtZI9P62qvSs1GY
-    short-id: '47b6d14ff477fe59'
-  server: 34.213.172.16
-  servername: www.tesla.com
-  tls: false
-  type: vless
-  uuid: 4889ee33-74e5-4819-86d8-b2a1a5bc8f46
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '比利时+V2CROSS.COM #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '3c9c5d01c6f824dd'
-  server: 155.117.137.153
-  servername: cdn6-49.yahoo.com
-  tls: false
-  type: vless
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 108.162.194.135
-  servername: nbhhh.mrcool.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-  ws-opts:
-    headers:
-      Host: nbhhh.mrcool.kdns.fr
-    path: /proxyip=dc844a1f.tp15333.ip.090227.xyz
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 172.64.42.44
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
-- name: '南非+V2CROSS.COM #1'
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.167
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FQiangLieTuiJian
-  tls: false
-  type: hysteria2
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
 - name: 罗马尼亚+V2CROSS.COM
-  network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
   server: 185.137.157.156
-  skip-cert-verify: false
   type: trojan
 - name: 美国+V2CROSS.COM
-  password: NX7LOtiM.=RdQTq..yxi-dm6OcQrkgE5rg
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 66.234.150.242
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 149.104.87.141
+  server: 188.114.97.57
+  sni: www.calmloud.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - flow: xtls-rprx-vision
-  name: '比利时+V2CROSS.COM #4'
+  name: '美国+V2CROSS.COM #1'
   network: tcp
   port: 443
   reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '3c9c5d01c6f824dd'
-  server: 155.117.137.53
-  servername: cdn6-49.yahoo.com
+    public-key: p2kybyvJhP9F98fLS4TcL8nNcFE-MdhfGoVBlGkdHUs
+    short-id: 'd1'
+  server: grm.janaj.space
+  servername: api-maps.yandex.ru
   tls: false
   type: vless
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-- name: 日本+东京Choopa数据中心
+  uuid: 8a4d32e8-ab02-4398-84a7-8d7672426ad6
+- name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 167.179.82.79
+  server: 172.64.53.65
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /fp
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚+V2CROSS.COM
+  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+  port: 27116
+  server: 104.156.233.234
+  type: ss
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 8443
+  server: 162.159.36.166
   servername: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
@@ -992,6 +862,99 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: betty.ns.cloudflare.com
+  servername: shegeftihaaa.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  ws-opts:
+    headers:
+      Host: shegeftihaaa.net
+    path: /rsedgws
+- name: '南非+V2CROSS.COM #1'
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.217
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FQiangLieTuiJian
+  tls: false
+  type: hysteria2
+- name: '南非+V2CROSS.COM #2'
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.218
+  skip-cert-verify: false
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.82
+  type: ss
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8443
+  server: 172.64.52.134
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '印度+V2CROSS.COM #1'
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+  port: 14605
+  server: 103.240.147.113
+  type: ss
+- name: '罗马尼亚+V2CROSS.COM #1'
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  skip-cert-verify: false
+  type: trojan
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 443
+  server: 162.159.38.101
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
+- cipher: chacha20-ietf-poly1305
+  name: '印度+V2CROSS.COM #2'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.71
+  type: ss
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.229.75
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -1064,22 +1027,6 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 🕹️90@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.161
-  skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  tls: false
-  type: hysteria2
-- name: 🕹️74@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.168
-  skip-cert-verify: true
-  sni: sni.fi-m247-02.com
-  tls: false
-  type: hysteria2
 - name: ♦️56@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
@@ -1116,22 +1063,6 @@ proxies:
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.194
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 🕹️73@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.199
-  skip-cert-verify: true
-  sni: sni.fi-m247-02.com
-  tls: false
-  type: hysteria2
-- name: 🕹️75@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.222
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -1180,14 +1111,6 @@ proxies:
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.230
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 🪼49@NetFlowTools
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 66.234.150.231
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -1437,22 +1360,6 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 🪼48@NetFlowTools
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.250.29.24
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 🪼47@NetFlowTools
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 18.141.236.225
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: 🕹️48@v2ray_configs_pools
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -1465,14 +1372,6 @@ proxies:
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.251.212.188
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 🪼46@NetFlowTools
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.255.220.11
   skip-cert-verify: true
   sni: vpn-sg-001.fastervpn.world
   tls: false
@@ -1649,244 +1548,33 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
-  name: 🇩🇪DE_1|2.6MB/s
-  network: ws
-  port: '80'
-  server: 104.25.193.8
-  servername: zeus-panel-pq1dnp.zeus-d9ei8x.workers.dev
-  type: vless
-  udp: true
-  uuid: 5a4cc74b-5b5b-45b1-b892-a7569e3363b3
-  ws-opts:
-    headers:
-      Host: zeus-panel-pq1dnp.zeus-d9ei8x.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh
-  xudp: true
-- encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.4MB/s
+  name: 🇺🇸US_1|1.7MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
-    short-id: 'befa80d97af98b74'
-  server: 38.244.20.214
+    public-key: toVw4zhkNKNX-ky2Ps7qz7dMMmwmfVUHNN611-M8qA8
+    short-id: '76140dbf02d4b52a'
+  server: 38.244.21.105
   servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
+  uuid: a19133c6-8e5d-4bbf-acdc-d88a628ab9c1
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_1|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.181
-  skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_2|1.9MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.218
-  skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_3|2.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.174
-  skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_4|1.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.229
-  skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_5|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.140
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_6|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.218
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_7|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.167
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_8|2.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.171
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_9|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.183
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_10|2.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.212
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_11|1.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.132
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_12|2.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.253
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_13|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.133
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_14|2.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.156
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_15|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.140
-  skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  type: hysteria2
-  up: ''
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_2|1.8MB/s
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_2|2.2MB/s
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '3c9c5d01c6f824dd'
-  server: 155.117.137.86
-  servername: cdn6-49.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_16|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.253
+  port: 30845
+  server: v45.hdacd.com
   skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  type: hysteria2
-  up: ''
-- name: 🇺🇸US_2|2.5MB/s
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 🇺🇸US_3|1.8MB/s
   network: ws
   port: 443
   server: 120.55.183.176
@@ -1900,176 +1588,24 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_3|1.8MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- down: ''
-  fingerprint: ''
-  name: 🇫🇮FI_17|1.8MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: '8449'
-  server: 45.196.182.236
-  skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  type: hysteria2
-  up: ''
 - alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 🇺🇸US_4|1.7MB/s
-  network: ws
-  port: '443'
-  server: x4g-production-40db.up.railway.app
-  servername: x4g-production-40db.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
-  ws-opts:
-    headers:
-      Host: x4g-production-40db.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ws/25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
-  xudp: true
-- alpn:
+  - h2
   - http/1.1
   encryption: none
-  name: 🇳🇱NL_1|1.9MB/s
+  name: 🇺🇸US_4|1.9MB/s
   network: ws
-  port: '443'
-  server: itx-bags.up.railway.app
-  servername: itx-bags.up.railway.app
+  port: '2053'
+  server: 94.140.0.255
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 95ce82f2-5dc3-45b6-a541-b614da0cfdb1
   ws-opts:
     headers:
-      Host: itx-bags.up.railway.app
+      Host: us.mohammadaz22.shop
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /ws/Ali
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
-    short-id: 'b76dcf9e1183fe1b'
-  server: de.riotvpn.eu
-  servername: avatars.mds.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  name: 🇵🇱PL_1|1.5MB/s
-  network: xhttp
-  port: '6443'
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 'e67fb918ed6b9ffb'
-  server: pl.riotvpn.eu
-  servername: avatars.mds.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|3.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: tCWATDQkb8y96seamXD6wsMSTIQSm-qtAGPnSwQubSQ
-    short-id: '9e5c7a3b1d0f'
-  server: uk.spectrum.vu
-  servername: uk.spectrum.vu
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_5|2.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: 18.221.163.56
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  type: hysteria2
-  up: ''
-- encryption: none
-  name: 🇸🇬SG_1|2.1MB/s
-  network: ws
-  port: '80'
-  server: 108.162.196.40
-  servername: zeus-panel-pq1dnp.zeus-d9ei8x.workers.dev
-  type: vless
-  udp: true
-  uuid: 5a4cc74b-5b5b-45b1-b892-a7569e3363b3
-  ws-opts:
-    headers:
-      Host: zeus-panel-pq1dnp.zeus-d9ei8x.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh
-  xudp: true
-- name: 🇺🇸US_6|2.8MB/s
-  password: ''
-  port: '443'
-  server: 38.28.193.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_2|1.7MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  port: '443'
-  server: 31.77.144.133
-  skip-cert-verify: false
-  sni: argg9.auragg.org
-  type: hysteria2
-  up: ''
-- name: 🇺🇸US_7|1.7MB/s
-  network: ws
-  port: '8880'
-  server: anydesk.com
-  type: vless
-  udp: true
-  uuid: b85c8be2-3109-4b8a-aa82-f0d8fe06f5ae
-  ws-opts:
-    headers:
-      Host: young-dust-b8d9.31-8ba.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /websocket?ed=2048
   xudp: true
 - name: AE_speednode_0001
   network: ws
@@ -2099,7 +1635,7 @@ proxies:
   udp: true
   uuid: e3e90161-fe65-443a-a3a4-e0e3a73704ca
 - cipher: chacha20-ietf-poly1305
-  name: DE_55f98_0003
+  name: DE_1ced9_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -2507,7 +2043,7 @@ proxies:
   uuid: 52faee73-e0fe-4661-992d-67259257170f
 - alterId: 0
   cipher: auto
-  name: US_55f98_0054
+  name: US_1ced9_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true

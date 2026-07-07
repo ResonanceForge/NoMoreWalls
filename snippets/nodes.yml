@@ -345,38 +345,81 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- alpn:
-  - http/1.1
-  name: 香港+ThinkDream数据中心
-  network: ws
-  password: humanity
-  port: 443
-  server: 27.50.48.49
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
-  port: 443
-  server: 38.60.220.65
-  type: trojan
-  ws-opts:
-    path: '%2f'
 - name: 罗马尼亚+V2CROSS.COM
-  network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
   server: 185.137.157.156
+  type: trojan
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.57
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚+V2CROSS.COM
+  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+  port: 27116
+  server: 104.156.233.234
+  type: ss
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.82
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '印度+V2CROSS.COM #1'
+  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+  port: 14605
+  server: 103.240.147.113
+  type: ss
+- name: '罗马尼亚+V2CROSS.COM #1'
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
   skip-cert-verify: false
   type: trojan
-- name: 美国+V2CROSS.COM
-  password: NX7LOtiM.=RdQTq..yxi-dm6OcQrkgE5rg
+- cipher: chacha20-ietf-poly1305
+  name: '印度+V2CROSS.COM #2'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.71
+  type: ss
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
   port: 443
-  server: 149.104.87.141
+  server: 172.64.229.75
+  sni: www.calmloud.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -498,6 +541,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_2|2.2MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
@@ -512,7 +567,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_55f98_0003
+  name: DE_1ced9_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -546,7 +601,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_55f98_0054
+  name: US_1ced9_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
