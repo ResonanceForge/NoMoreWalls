@@ -345,19 +345,6 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚+V2CROSS.COM
-  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
-  port: 27116
-  server: 104.156.233.234
-  type: ss
-- name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  sni: 185.137.157.138
-  type: trojan
 - name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
@@ -366,25 +353,27 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: /assignment
-- name: 美国+华盛顿Cogent通信公司
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  port: 443
-  server: 38.60.136.156
-  sni: ''
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 199.181.197.169
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
+    headers:
+      Host: www.calmloud.com
     path: '%2Fassignment'
+- cipher: chacha20-ietf-poly1305
+  name: 美国+华盛顿Cogent通信公司
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '美国+华盛顿Cogent通信公司 #1'
+  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
+  port: 16292
+  server: 38.54.80.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '美国+华盛顿Cogent通信公司 #2'
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.145
+  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -508,50 +497,91 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - http/1.1
-  name: 🇺🇸US_1|3.9MB/s
+  name: 🇺🇸US_1|1.9MB/s
   network: ws
   password: MiTiVPN
   port: '443'
-  server: 141.193.213.21
+  server: assets.fiverr.com
   skip-cert-verify: true
   sni: fffffl-lls.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
 - alpn:
   - http/1.1
-  name: 🇺🇸US_2|2.2MB/s
+  name: 🇺🇸US_3|2.6MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: assets.fiverr.com
+  skip-cert-verify: true
+  sni: sww-w.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=sw
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_4|1.9MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: www.speedtest.net
+  skip-cert-verify: true
+  sni: sww-w.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=sw
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇹🇼TW_1|3.0MB/s
+  network: tcp
+  port: '11886'
+  server: tttttt.ly123.edu.kg
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_10|2.8MB/s
   network: ws
   password: MITIVPN
   port: '443'
-  server: www.speedtest.net
+  server: 104.16.72.50
   skip-cert-verify: true
   sni: De-Ge-N.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=de
-- name: 🇫🇷FR_1|2.6MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.64.146.211
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
+- cipher: aes-128-gcm
+  name: 🇺🇸US_13|3.4MB/s
+  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
+  port: '40031'
+  server: permission_level_01.unclemanco.com
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
@@ -566,7 +596,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_1ced9_0003
+  name: DE_5b572_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -600,7 +630,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_1ced9_0054
+  name: US_5b572_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
