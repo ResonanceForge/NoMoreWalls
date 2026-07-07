@@ -345,16 +345,37 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚+V2CROSS.COM
-  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
-  port: 27116
-  server: 104.156.233.234
-  type: ss
+- alpn:
+  - http/1.1
+  name: 香港+ThinkDream数据中心
+  network: ws
+  password: humanity
+  port: 443
+  server: 27.50.48.49
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 美国+华盛顿Cogent通信公司
+  network: tcp
   password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
   port: 443
   server: 38.60.220.65
+  type: trojan
+  ws-opts:
+    path: '%2f'
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.156
+  skip-cert-verify: false
+  type: trojan
+- name: 美国+V2CROSS.COM
+  password: NX7LOtiM.=RdQTq..yxi-dm6OcQrkgE5rg
+  port: 443
+  server: 149.104.87.141
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -477,22 +498,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_1|3.4MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 141.193.213.21
-  skip-cert-verify: true
-  sni: fffffl-lls.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
