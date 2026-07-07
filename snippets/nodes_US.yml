@@ -30,21 +30,10 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '2026'
-  server: 155.103.71.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b2fcc775-1579-4b4b-9fe8-f8dde771c861
 - name: 美国+华盛顿Cogent通信公司
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
   port: 443
-  server: 38.60.168.129
-  sni: ''
+  server: 38.60.220.65
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
@@ -70,9 +59,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_1|3.4MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 141.193.213.21
+  skip-cert-verify: true
+  sni: fffffl-lls.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
 - alterId: 0
   cipher: auto
-  name: US_55033_0054
+  name: US_55f98_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true

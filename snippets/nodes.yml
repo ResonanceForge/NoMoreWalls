@@ -345,44 +345,16 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.156
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 立陶宛+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 89.116.46.8
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
-  port: 14605
-  server: 103.240.147.113
+  name: 澳大利亚+V2CROSS.COM
+  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+  port: 27116
+  server: 104.156.233.234
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '2026'
-  server: 155.103.71.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b2fcc775-1579-4b4b-9fe8-f8dde771c861
 - name: 美国+华盛顿Cogent通信公司
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
   port: 443
-  server: 38.60.168.129
-  sni: ''
+  server: 38.60.220.65
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -505,13 +477,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|3.5MB/s
-  password: amazonskr05
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_1|3.4MB/s
+  network: ws
+  password: MiTiVPN
   port: '443'
-  server: 35.180.255.4
-  type: ss
+  server: 141.193.213.21
+  skip-cert-verify: true
+  sni: fffffl-lls.MaQror.ir
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
@@ -526,7 +507,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_55033_0003
+  name: DE_55f98_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -560,7 +541,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_55033_0054
+  name: US_55f98_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
