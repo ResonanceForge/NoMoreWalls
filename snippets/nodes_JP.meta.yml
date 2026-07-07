@@ -103,19 +103,6 @@ proxies:
   sni: jp.xn--ehqa22b.site
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 日本+东京Oracle云计算数据中心
-  network: ws
-  port: 2053
-  server: 140.238.58.181
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -147,11 +134,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_1|1.7MB/s
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
-  port: '8201'
-  server: 24964a7e-ths2o0-ths4hq-azvy.fsmax.wkuaishou.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
