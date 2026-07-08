@@ -345,18 +345,24 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '印度+V2CROSS.COM #1'
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.71
-  type: ss
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.151
+  sni: 185.137.157.151
+  type: trojan
+- name: '美国+V2CROSS.COM #1'
+  password: NX7LOtiM.=RdQTq..yxi-dm6OcQrkgE5rg
+  port: 443
+  server: 149.104.87.141
+  sni: ''
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #1'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.140
+  type: trojan
 - name: 美国+华盛顿Cogent通信公司
   password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
   port: 443
@@ -364,46 +370,29 @@ proxies:
   sni: 38.60.252.118
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '印度+V2CROSS.COM #2'
+  name: 印度+V2CROSS.COM
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
   port: 28061
   server: 103.111.114.82
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '印度+V2CROSS.COM #3'
-  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
-  port: 14605
-  server: 103.240.147.113
+  name: '美国+华盛顿Cogent通信公司 #1'
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
   type: ss
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2F%2Fassignment'
 - cipher: chacha20-ietf-poly1305
-  name: '印度+V2CROSS.COM #4'
-  password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
-  port: 14605
-  server: 103.241.66.76
+  name: '美国+华盛顿Cogent通信公司 #2'
+  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
+  port: 16292
+  server: 38.54.80.160
   type: ss
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.145
-  type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.140
-  skip-cert-verify: false
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '印度+V2CROSS.COM #1'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.71
+  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -525,59 +514,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_1|2.7MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: www.speedtest.net
-  skip-cert-verify: true
-  sni: u---as.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
-- cipher: chacha20-ietf-poly1305
-  name: 🇪🇪EE_1|2.5MB/s
-  password: j1HaUANVRdB5ltSqhLYPWm
-  port: '14475'
-  server: 45.83.181.155
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇹🇼TW_2|3.9MB/s
-  network: tcp
-  port: '11886'
-  server: tttttt.ly123.edu.kg
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad
-  xudp: true
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_6|2.0MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: u---as.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
@@ -592,7 +528,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_5b572_0003
+  name: DE_a96c6_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -626,7 +562,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_5b572_0054
+  name: US_a96c6_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true

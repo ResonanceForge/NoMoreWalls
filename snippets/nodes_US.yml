@@ -30,23 +30,30 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
+- name: '美国+V2CROSS.COM #1'
+  password: NX7LOtiM.=RdQTq..yxi-dm6OcQrkgE5rg
+  port: 443
+  server: 149.104.87.141
+  sni: ''
+  type: trojan
 - name: 美国+华盛顿Cogent通信公司
   password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
   port: 443
   server: 38.60.252.118
   sni: 38.60.252.118
   type: trojan
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2F%2Fassignment'
+- cipher: chacha20-ietf-poly1305
+  name: '美国+华盛顿Cogent通信公司 #1'
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '美国+华盛顿Cogent通信公司 #2'
+  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
+  port: 16292
+  server: 38.54.80.160
+  type: ss
 - name: 美国|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
@@ -71,43 +78,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_1|2.7MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: www.speedtest.net
-  skip-cert-verify: true
-  sni: u---as.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_6|2.0MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: u---as.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
 - alterId: 0
   cipher: auto
-  name: US_5b572_0054
+  name: US_a96c6_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
