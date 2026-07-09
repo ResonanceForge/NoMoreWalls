@@ -1,24 +1,84 @@
 proxies:
-- alpn:
-  - h2
-  - h3
-  client-fingerprint: random
-  encryption: none
-  name: 🇬🇧GB_1|1.9MB/s
+- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
   network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+社会保险安全部
+  network: tcp
+  port: 55025
+  reality-opts:
+    public-key: w-7OnHTgZcqOMrpIADIVnpAcbyColg9Y9w3BYpFeTg8
+    short-id: '!!str 06e557c2cc84390f'
+  server: 51.195.235.8
+  servername: www.googletagmanager.com
+  tls: false
+  type: vless
+  uuid: be20f85a-bc04-45f8-b6cf-b8abc5f746ce
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_1|1.7MB/s
+  password: UZQY9hNjVNWwamajrXAf1vt8u63nj0fF
+  port: '8388'
+  server: 31.76.80.205
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-api
+  name: 🇬🇧GB_2|2.6MB/s
+  network: grpc
   port: '443'
-  server: client.alissn.ir
-  servername: second.alissn.ir
+  server: osit1.ghast.sbs
+  servername: osit1.ghast.sbs
   tls: true
   type: vless
   udp: true
-  uuid: 7384a94d-3fcb-4381-84e3-8a7af3f4de78
-  ws-opts:
-    headers:
-      Host: t2.alissn.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
+  uuid: 367ff772-a8f4-4895-8e99-3702a868f0c6
   xudp: true
 - name: GB_speednode_0005
   network: ws

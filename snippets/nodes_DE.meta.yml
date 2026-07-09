@@ -144,6 +144,78 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- encryption: none
+  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
+  network: tcp
+  port: 10443
+  server: 136.244.94.171
+  type: vless
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- encryption: none
+  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  server: 136.244.94.171
+  type: vless
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  security: reality
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
+  type: vless
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -213,7 +285,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.8dEUINg1gnE8w2Ze1FXC0wsst-t_fowZV_eU0RUGT6uTOAUz4yofCXOaZ1eHrgtMg-PD_wQcKZdZiBMUAOCvwGGybzEjyIhD0FDLGIpxPkrC4ukMkmVmfnWXRNsPG4SVVfKUtHV0TZicl4JHXFFoQ-cS4nx5G0JZeTnJKPYptgU_DCNf5OgM4opQggerb4leLymbagzOwBWySuha-UB7AkAHTGEnI8VYsOS0SJZmqnUX-MZMGfVLuMsVx-iiXkMVcZYi7kEV1lK8K3JD5Rhim6WfzKyUGrpwpSkSbIe2yiZM5RVP0Fih1IAGQVde_ryYnoI3EkNP1oBAhQeRNSsrxSm0PWZruHZFucxbFokFJOiZttALXXo9CRyWUcyqkSAfgwafMzPDfcZ11auFgeI8WuBMCXg4QrRzZSWLyKvG80Ca9LYgf7k-tQtjC9quPAWuDnkblRUFvER1a4A9xYLKyPw9LwpcFeAwGTcu3FK1X2y1gdWDhKMKCLGNpyQ0QsMfDgjHLQm4xaesL2pcuCKLtGpGdWaKUKSq2iTIIrtCofoCKUkK2jUghpAudWEV6DCci-JfeXG1HMYaiipyRYop2wGB5LV_kkkzTJC-ZfErs-BEqrMZHIgRvjKx_3KcCuUqugAvrCtFcWSqo7EpByl5IWVHi2txR_CC2Pyn21gvW5pPTCIsuLjAeVkIAF1BxMMxL_I9EVRKz0u41EEjzZV4six-T3G9smeBaEET08Qxy7QU6EetLLeaoNsm_QatvhuB-op3ziO1cDcwehuPmPilfaB8hzqDzLVfJPOCMtozYaQ6QEgytHwsidYxbqNRyWjARnw4s3Qe6Kp5zHAXsakTzEFQ_8mvbPuke8HH7As1jReRo8W-J9AnZXFak3UPqyw-4LUdpkq7-ad9kGdGxjzMG6dFtHIWcIoAWOevXNkydHwDPkMH2-lkwdt9kftZt3DAuXa6eKx1PYKT_eIgDtY1boFiPSuD8GaipieJZtw9PjmJjbKg0fi9WbQytgqnY9eh-7ElX4NU9aB5MIUbAKcJ7ByhaplaArSoZtoTbSkDdGt96eEAEgUc7ex8S5gAktvEFBhiZqnPo0aQ72xWJtFeZzQ2CoRgLtWn6SKRY5wvGXynWsK5_KtfVCw79dyOOVYCHqmpQGUo7RJ1qUUVA-iTDcq73TOSHjR8XQYtw1Gms1JS2ulESeSw5vF5yciu9htDrOqUxOlnIfBQA8KVHUN6LQWWt1aA3byyO7oSf4Y1fVRc-UgyxmZq0ZJCSoYntOspZgSttwWhtGE0nnu5T2oGW-ddQDdtYFA6cDtWaXtIaYhlQbQdJPsdgBgw9bNMHzJfu5MZzLYmIYZbJzp-EveP_VbN9DITSbR0xhGD9HpGErXFRTtm8ne7BwNw8zGfX9m6skh8fpAXq5I9yESgEYx67fMdJ3GkQzafc3KJBQgGwSoW0_OW4Hhhe6NL4vhQ-5Wm97KgjiU4FqoQIPJwnfF2lAF5dNAWY5RTiMSWOSNdv0lYlIBv5Yhx-zm5HHWPytlVyaDUIRsz5EcIcQ5udgE4dWvxK5V8YyiunL9AE-ilLK4
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.2MB/s
+  name: 🇩🇪DE_1|3.0MB/s
   network: tcp
   port: '2096'
   reality-opts:
@@ -226,8 +298,80 @@ proxies:
   udp: true
   uuid: 00874e80-0d25-4ff6-c25d-edb5a28546e6
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|2.5MB/s
+  network: tcp
+  port: '40443'
+  reality-opts:
+    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
+    short-id: '!!str '
+  server: 138.124.114.29
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3ed4cb7-cf16-4ec6-bfcf-cf3ead1c8625
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|2.6MB/s
+  network: xhttp
+  port: '8443'
+  server: securitytrails.com
+  servername: api.somethingelse.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a5fd8d7-4182-4f65-a005-ee8d39fe96b9
+  xhttp-opts:
+    host: api.somethingelse.dpdns.org
+    mode: auto
+    path: /forall
+    x-padding-bytes: 100-1000
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_6|2.6MB/s
+  network: ws
+  port: '443'
+  server: 195.209.87.198
+  servername: s52061.cdn.ngenix.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9727d3cf-d839-4d8b-b22e-6d62483fea25
+  ws-opts:
+    headers:
+      Host: s52061.cdn.ngenix.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /v1/data/sync/
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|2.6MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: bAbF5K_pk8MRvVIXJfH65xYiksNPNFYqLHLwaTEHojQ
+    short-id: '!!str '
+  server: 95.163.208.184
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3d932d2-ff06-4005-8ce7-b49b73f13967
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: DE_386af_0003
+  name: DE_205bd_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16

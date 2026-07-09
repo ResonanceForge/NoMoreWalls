@@ -7,6 +7,24 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
@@ -31,3 +49,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|3.4MB/s
+  network: ws
+  password: '!!str 666'
+  port: '443'
+  server: 104.18.33.209
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
