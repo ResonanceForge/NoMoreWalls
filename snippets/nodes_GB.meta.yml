@@ -1,59 +1,25 @@
 proxies:
-- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+- alpn:
+  - h2
+  - h3
+  client-fingerprint: random
+  encryption: none
+  name: 🇬🇧GB_1|1.9MB/s
   network: ws
-  port: 8880
-  server: 185.193.30.30
+  port: '443'
+  server: client.alissn.ir
+  servername: second.alissn.ir
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  uuid: 7384a94d-3fcb-4381-84e3-8a7af3f4de78
   ws-opts:
     headers:
-      Host: vms.lifetime09.workers.dev
-- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560
-- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.110.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 185.159.247.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
+      Host: t2.alissn.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /
-- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 77.75.199.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: 🇬🇧GB-🚀@VPNine1
-  password: hy2_lositfbu
-  port: 443
-  server: 144.31.213.121
-  skip-cert-verify: true
-  sni: gb.cleanersaz.help
-  tls: false
-  type: hysteria2
+  xudp: true
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN
