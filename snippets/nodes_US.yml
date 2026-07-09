@@ -122,33 +122,35 @@ proxies:
   network: ws
   password: humanity
   port: 443
+  server: 104.19.230.21
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
   server: 104.20.6.134
   sni: www.calmloud.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmloud.com
     path: '%2Fassignment'
-- name: 美国+华盛顿Cogent通信公司
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  port: 443
-  server: 38.60.136.156
-  type: trojan
-- name: '美国+CloudFlare节点 #2'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.177.143
+  server: 104.16.174.6
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- cipher: chacha20-ietf-poly1305
-  name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: U7+at2Sny7zODyHS1OS6QRepL8-5maNUFF
-  port: 21376
-  server: 130.94.0.150
-  type: ss
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
@@ -175,7 +177,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_12936_0054
+  name: US_386af_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true

@@ -32,14 +32,20 @@ proxies:
   tls: true
   type: vless
   uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
-- name: 法国+ONLINE+S.A.S.数据中心
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.27.216
-  skip-cert-verify: true
-  sni: bing.com
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: 法国+国际航空电讯集团公司(SITA)
+  network: grpc
+  port: 58846
+  reality-opts:
+    public-key: gHW23nivQCUmHOWQ2xTlQq-k3fZyoYvz3fI0Z2r9O0k
+    short-id: '!!str 124f76e2b3cbef'
+  server: 57.131.19.38
+  servername: play.google.com
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: c24b01cb-233c-44c4-b39c-5571a4c55264
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
