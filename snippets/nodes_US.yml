@@ -30,16 +30,6 @@ proxies:
   skip-cert-verify: true
   sni: 194.33.45.157
   type: trojan
-- name: 美国+CloudFlare节点
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 104.18.33.209
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: '%2Fglasspanel%2Fguest000_0_5de14443985f%2F'
 - name: 美国|@ripaojiedian
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
@@ -64,18 +54,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_2|3.3MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  name: 🇺🇸US_4|2.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.16.130.237
+  type: ss
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_5|2.0MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.14.255.108
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_7|3.6MB/s
+  password: amazonskr05
+  port: '443'
+  server: 18.191.132.3
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: US_eee5b_0054
