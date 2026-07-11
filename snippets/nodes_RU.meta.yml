@@ -1,11 +1,23 @@
 proxies:
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
+- name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 8882
+  server: gr1.fifapes.monster
+  tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   ws-opts:
     headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
+      Host: gr1.fifapes.monster
+    path: '%2F'
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 29148
+  server: it.fifapes.monster
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: '%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI'
+    path: '%2F'
