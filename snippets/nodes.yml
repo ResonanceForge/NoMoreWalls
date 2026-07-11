@@ -345,46 +345,60 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.145
-  type: trojan
-- name: 奥地利+V2CROSS.COM
+- name: 西班牙+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
-  server: 212.183.88.136
+  server: 185.18.250.252
+  skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
   ws-opts:
-    path: /assignment
-- name: '美国+V2CROSS.COM #2'
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  sni: 149.104.104.58
+  type: trojan
+- name: 美国+华盛顿Cogent通信公司
+  network: tcp
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  skip-cert-verify: true
+  sni: 38.54.64.247
+  type: trojan
+- name: '美国+V2CROSS.COM #1'
   password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
   port: 443
   server: 149.28.241.235
   sni: 149.28.241.235
   type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.82
+  type: ss
+- name: 罗马尼亚+V2CROSS.COM
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 38.60.168.129
+  server: 185.137.157.149
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #1'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.156
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '美国+华盛顿Cogent通信公司 #1'
-  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
-  port: 16292
-  server: 38.54.80.160
+  name: '印度+V2CROSS.COM #1'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.71
   type: ss
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: /assignment
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -506,13 +520,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|1.6MB/s
-  password: amazonskr05
-  port: '443'
-  server: 15.188.74.101
-  type: ss
+- name: 🇭🇰HK_1|3.7MB/s
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: 114.80.8.128
+  tls: true
+  type: trojan
   udp: true
+- name: 🇯🇵JP_5|1.6MB/s
+  network: ws
+  password: '666'
+  port: '443'
+  server: 166.88.2.154
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
@@ -527,7 +558,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_ece66_0003
+  name: DE_493fd_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -561,7 +592,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_ece66_0054
+  name: US_493fd_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
