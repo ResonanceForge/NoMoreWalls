@@ -345,24 +345,65 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - cipher: chacha20-ietf-poly1305
   name: 印度+V2CROSS.COM
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
   port: 28061
-  server: 103.111.114.82
+  server: 103.111.114.71
   type: ss
-- name: 香港+电讯盈科有限公司
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
-  network: tcp
+- name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.138
+  server: 185.137.157.142
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 德国 法尔肯施泰因HETZNER
+  network: tcp
+  port: '14991'
+  server: me.echo-license.gr
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.230.21
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.72.2
   skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 美国+华盛顿Cogent通信公司
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  port: 443
+  server: 38.60.168.129
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -379,7 +420,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_2|3.1MB/s
+- name: 香港3|@ripaojiedian
   network: tcp
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 32583
@@ -387,7 +428,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇭🇰HK_3|2.5MB/s
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -395,7 +436,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇭🇰HK_5|2.2MB/s
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -411,7 +452,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇯🇵JP_1|3.5MB/s
+- name: 日本2|@ripaojiedian
   network: tcp
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 40138
@@ -419,7 +460,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_2|2.0MB/s
+- name: 日本3|@ripaojiedian
   network: tcp
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 40138
@@ -435,7 +476,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_3|3.5MB/s
+- name: 新加坡2|@ripaojiedian
   network: tcp
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 6357
@@ -451,7 +492,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇺🇸US_8|2.1MB/s
+- name: 美国|@ripaojiedian
   network: tcp
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
@@ -459,7 +500,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸US_9|2.6MB/s
+- name: 美国2|@ripaojiedian
   network: tcp
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
@@ -467,7 +508,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸US_10|2.5MB/s
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -485,67 +526,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_1|2.6MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: '443'
-  server: 82.38.31.57
-  type: ss
-  udp: true
-- name: 🇭🇰HK_1|3.1MB/s
-  network: tcp
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: '39001'
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: 114.80.8.128
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_3|1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.14.255.108
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|4.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.180.199.237
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 2
   cipher: auto
-  name: 🇺🇸US_6|2.5MB/s
-  network: ws
-  port: '30080'
-  server: 143.198.235.98
+  name: 🇺🇸US_1|3.5MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d76c0edb-8097-4371-8d97-722723756012
-  ws-opts:
-    headers: {}
-    path: /vm
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
+- name: 🇭🇰HK_1|3.5MB/s
+  password: BxceQaOe
+  port: '29443'
+  server: 43.199.252.80
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: 🇫🇷FR_2|3.3MB/s
+  name: 🇫🇷FR_1|1.6MB/s
   password: amazonskr05
   port: '443'
   server: 13.37.239.23
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇺🇸US_12|2.5MB/s
+  name: 🇫🇷FR_2|1.6MB/s
   password: amazonskr05
   port: '443'
-  server: 3.129.218.147
+  server: 15.188.74.101
   type: ss
   udp: true
 - name: AE_speednode_0001
