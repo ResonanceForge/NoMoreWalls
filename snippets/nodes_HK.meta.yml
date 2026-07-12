@@ -35,17 +35,18 @@ proxies:
   sni: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 香港+电讯盈科有限公司
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
 - name: 🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 🇭🇰108787 | ⚡️Telegram = t.me/S...
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: soskeynets.auragg.org
+  sni: argg2.auragg.org
   tls: false
   type: hysteria2
 - alterId: 2
@@ -92,19 +93,24 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|3.4MB/s
+  name: 🇭🇰HK_2|2.6MB/s
   network: tcp
-  port: 32342
-  reality-opts:
-    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-    short-id: '!!str 6c6c7c97'
-  server: 3696b38bsg.murphyweb.sbs
-  servername: buylite.music.apple.com
-  tls: true
-  type: vless
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: '39001'
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
   udp: true
-  uuid: d44ed678-88ff-4bb4-b170-1a397a2f7ee2
+- client-fingerprint: chrome
+  name: 🇭🇰HK_3|2.8MB/s
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: '39001'
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: 114.80.8.128
+  type: trojan
+  udp: true
 - name: HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443

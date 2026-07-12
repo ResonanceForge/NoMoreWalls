@@ -335,97 +335,27 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  type: trojan
 - name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.149
+  server: 185.137.157.151
   type: trojan
-- name: 香港+电讯盈科有限公司
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 法国+国际航空电讯集团公司(SITA)
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 16688
-  server: ss.041.node-for-bigairport.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.80
-  type: ss
-- name: 美国+CloudFlare
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.17.189
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 199.181.197.169
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.99.0
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: '美国+V2CROSS.COM #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.0
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 西班牙+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- name: '罗马尼亚+V2CROSS.COM #2'
+- name: '罗马尼亚+V2CROSS.COM #1'
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.138
+  server: 185.137.157.149
   skip-cert-verify: false
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #2'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.142
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -506,7 +436,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: 🇸🇬SG_1|2.1MB/s
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -548,132 +478,43 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵JP_2|3.5MB/s
-  network: ws
-  password: '666'
-  port: '443'
-  server: cloudflare-ip.mofashi.ltd
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+- name: 🇭🇰HK_2|2.6MB/s
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: '39001'
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: www.yrtok.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇯🇵JP_3|3.6MB/s
-  network: ws
-  password: '666'
-  port: '443'
-  server: cf.090227.xyz
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_1|3.9MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
   skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 🇸🇬SG_9|1.5MB/s
+  password: BxceQaOe
+  port: '45744'
+  server: 16.162.191.181
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇸🇬SG_10|1.5MB/s
-  network: ws
-  password: '666'
-  port: '443'
-  server: 104.18.34.228
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+- name: 🇭🇰HK_3|2.8MB/s
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: '39001'
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: 114.80.8.128
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇸🇬SG_12|4.0MB/s
-  network: ws
-  password: '666'
-  port: '443'
-  server: nexusmods.com
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇸🇬SG_14|2.0MB/s
-  network: ws
-  password: '666'
-  port: '443'
-  server: 104.18.37.133
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇸🇬SG_15|4.3MB/s
-  network: ws
-  password: '666'
-  port: '443'
-  server: 104.18.33.225
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇺🇸US_3|2.1MB/s
-  network: ws
-  password: '666'
-  port: '443'
-  server: 45.63.89.102
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇯🇵JP_9|4.0MB/s
-  network: ws
-  password: '666'
-  port: '443'
-  server: saas.sin.fan
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇸🇬SG_17|3.9MB/s
-  network: ws
-  password: '666'
-  port: '443'
-  server: 104.18.43.190
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN

@@ -27,12 +27,6 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 香港+电讯盈科有限公司
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -76,3 +70,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 🇭🇰HK_2|2.6MB/s
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: '39001'
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK_3|2.8MB/s
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: '39001'
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: 114.80.8.128
+  type: trojan
+  udp: true
