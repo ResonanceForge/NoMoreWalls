@@ -118,26 +118,40 @@ proxies:
   uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
   ws-opts:
     path: /8704a4ad
-- name: '美国+CloudFlare节点 #2'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.19.230.21
-  skip-cert-verify: true
-  sni: www.multiplydose.com
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.multiplydose.com
+      Host: www.calmloud.com
     path: /assignment
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
   port: 443
-  server: 149.104.104.58
-  skip-cert-verify: false
-  sni: 149.104.104.58
+  server: 104.20.6.134
+  sni: www.calmloud.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.208.184
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -162,6 +176,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸US_1|3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.15.0.103
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.135.183.203
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_6|1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.16.130.237
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: US_96b7b_0054
