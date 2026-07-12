@@ -1,49 +1,27 @@
 proxies:
-- client-fingerprint: qq
-  encryption: none
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.7MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52f28e67-226f-4834-b2b5-6ef70dfd3adb
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|2.0MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c22431c-2143-46a2-90d3-b7716109a4ee
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|1.9MB/s
+  name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: '443'
+  port: 2087
   reality-opts:
-    public-key: UkWs8ZVCrm_MxuzW9a8wKJC3IPjwBJcaz7Rb5czATyA
-    short-id: '!!str da122c35'
-  server: ru7.netfix.app
-  servername: haharu7.xixihaha.it.com
-  tls: true
+    public-key: J2RPvguvaBHlFDFOcZHs4sY9wSNIGNvvmDZud49A7i8
+    short-id: '!!str 9f0a1b2c'
+  server: msk.24pitbullstore.ru
+  servername: msk.24pitbullstore.ru
+  tls: false
   type: vless
-  udp: true
-  uuid: 935b4c83-6fab-469f-93ea-f7cae11d8a6e
-  xudp: true
+  uuid: 570779d8-b4cd-4b3c-a8bd-6127f51c4d48
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Cve6RU_xmFPAsLiW2eIucli0lwEZyf7XFj6_rR8LukI
+    short-id: '!!str 671047edbaa38eef'
+  server: 193.111.117.62
+  servername: max.ru
+  tls: false
+  type: vless
+  uuid: 9946f24b-0020-40f6-9d06-de8abff0e584
