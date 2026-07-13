@@ -265,3 +265,41 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/fp=chrome
   xudp: true
+- name: 🇯🇵JP_3 | ⬇️ 1.3MB/s
+  network: ws
+  port: 8880
+  server: 213.182.199.63
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳
+- name: 🇯🇵JP_1 | ⬇️ 1.2MB/s
+  network: ws
+  port: 8880
+  server: 103.116.7.213
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /
+- name: 🇯🇵JP_2 | ⬇️ 1.8MB/s
+  network: ws
+  port: 8880
+  server: 185.251.83.63
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /Telegram
