@@ -144,6 +144,44 @@ proxies:
   sni: de.xn--ehqa22b.site
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 德国+V2CROSS.COM
+  network: tcp
+  port: 443
+  server: s661.wagahaha.xyz
+  servername: u695099ub02ce874s660.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: b02ce874s660.ccgfw.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: '德国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  server: 185.230.162.56
+  servername: u695099ub02ce874s660.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: b02ce874s660.ccgfw.top
+    path: ''
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -172,7 +210,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 🇩🇪109031 | ⚡️Telegram = t.me/S...
+- name: '@V2RayyNGvpn🇩🇪hy'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: CakZRUUlundefinedS
@@ -212,6 +250,16 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: 🇩🇪 TELEGRAM➜@MetiVIP
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: elknam6l7izf3z71
+  port: 52023
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 🇩🇪@V2RayyNGvpn🇩🇪hy
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -222,68 +270,102 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_1|2.1MB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|3.3MB/s
-  network: tcp
-  port: '44444'
-  reality-opts:
-    public-key: 79ji8OAmCVQTKcJmvf-iqZypOSKwuTD_sbatB4RHXXM
-    short-id: '!!str f37329647c9a1886'
-  server: Melinet1.temas-arvhA.iR
-  servername: yahoo.com.
-  tls: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - biscotti.yektanet.com
+    path:
+    - /
+  name: 🇩🇪DE_1|3.2MB/s
+  network: http
+  port: '12767'
+  server: 91.99.173.29
   type: vless
   udp: true
-  uuid: e044297a-304f-40a9-a9fb-d17b744fa781
+  uuid: 7ff3f986-f72c-4ebd-9eaa-bba121399cd2
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|2.4MB/s
+- client-fingerprint: chrome
+  name: 🇩🇪DE_2|2.3MB/s
   network: ws
-  port: '443'
-  server: s97944.cdn.ngenix.net
+  port: 8443
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: bycf.lzjnb.shop
+    max-early-data: 2560
+    path: /
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_3|3.5MB/s
+  obfs: salamander
+  obfs-password: pqvmx29fokvh8ubb
+  password: TELEgRAM-ID-conf0088
+  port: '2053'
+  server: cuetara.name.cuetara.name
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+  up: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  name: 🇩🇪DE_4|2.1MB/s
+  network: ws
+  port: '8443'
+  server: germanyserver.nizeo.ir
+  servername: germanyserver.nizeo.ir
   tls: true
   type: vless
   udp: true
-  uuid: ab6a5359-0edf-41c3-8dfd-e4b005e80820
+  uuid: 53510d6b-47e0-43d0-bd47-6934c1b26bbb
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /v1/data/sync/
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_4|1.8MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|2.9MB/s
+  network: ws
+  port: '443'
+  server: ip.sb
+  servername: bycf.lzjnb.shop
+  tls: true
+  type: vless
   udp: true
-  up: 500
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    headers:
+      Host: bycf.lzjnb.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|1.8MB/s
+  network: raw
+  port: '443'
+  server: 109.120.152.19
+  servername: fast_s89.screw.page
+  tls: true
+  type: vless
+  udp: true
+  uuid: c0aa0cee-e855-4bcc-9afc-46241cb17990
+  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: DE_117da_0003
   password: 453u6Gcei04NyXbrWLKa0M
