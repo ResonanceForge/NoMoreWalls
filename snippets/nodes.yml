@@ -335,41 +335,22 @@ proxies:
   skip-cert-verify: true
   sni: 5.180.78.22
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '印度+V2CROSS.COM #1'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.71
+  type: ss
 - name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.135
-  type: trojan
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.155.209
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
-- name: '罗马尼亚+V2CROSS.COM #1'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.142
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.44.211
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '罗马尼亚+V2CROSS.COM #2'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.151
+  server: 185.137.157.140
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -492,25 +473,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇸🇬SG_1|1.7MB/s
-  network: ws
-  password: cortex-trojan-2026
-  port: 8443
-  server: 152.42.191.178
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /trojan-ws-cortex
-- name: 🇭🇰HK_1|5.0MB/s
+- name: 🇭🇰HK_2|5.2MB/s
+  network: tcp
   password: 1df3ece1218bedba28c6c6ac726a07bb
   port: '39001'
   server: 114.80.8.128
   skip-cert-verify: true
   sni: www.yrtok.com
+  tls: true
   type: trojan
   udp: true
 - name: AE_speednode_0001
@@ -527,7 +497,7 @@ proxies:
       Host: 95r.ir
     path: /MiTiVPN=Usa
 - cipher: chacha20-ietf-poly1305
-  name: DE_117da_0003
+  name: DE_4e2a4_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
@@ -561,7 +531,7 @@ proxies:
     path: /MiTiVPN=Se
 - alterId: 0
   cipher: auto
-  name: US_117da_0054
+  name: US_4e2a4_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
