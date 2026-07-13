@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  name: 德国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 5.10.214.151
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -67,6 +81,16 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: Telegram🇩🇪V2RayyNGvpn
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: Z5dFAw7u6U
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: 🇩🇪 TELEGRAM➜@MetiVIP
   obfs: salamander
   obfs-password: detgimgm8qh8i2g2
@@ -88,7 +112,7 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: DE_dceee_0003
+  name: DE_af965_0003
   password: 453u6Gcei04NyXbrWLKa0M
   port: 443
   server: 5.230.184.16
