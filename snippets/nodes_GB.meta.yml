@@ -1,4 +1,51 @@
 proxies:
+- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
 - client-fingerprint: chrome
   name: 英国+V2CROSS.COM
   network: grpc
@@ -68,393 +115,3 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 英国_倫敦金融城
-  network: ws
-  port: 443
-  server: 149.7.16.248
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 149.7.16.248
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: '英国_倫敦金融城 #1'
-  network: ws
-  port: 443
-  server: 172.99.190.209
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 172.99.190.209
-    path: /linkvws
-- name: 英国_利兹
-  network: ws
-  port: 443
-  server: 94.247.142.241
-  servername: fq521.6789.cloudns.be
-  tls: true
-  type: vless
-  uuid: 775213ac-3976-439a-8977-3277c0e4735d
-  ws-opts:
-    headers:
-      Host: fq521.6789.cloudns.be
-    path: twitterfreecodessecurity%3Dtls
-- name: 英国_爱丁堡
-  network: ws
-  port: 443
-  server: 94.247.142.245
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2F'
-- name: 英国_伦敦
-  network: ws
-  port: 443
-  server: 185.238.228.184
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- name: '英国_伦敦 #1'
-  network: ws
-  port: 443
-  server: 185.238.228.212
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2F%3Fed%3D2048security%3Dtls'
-- name: 英国_Stretford
-  network: ws
-  port: 2053
-  server: 91.193.58.119
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2F%3Fed%3D2048security%3Dtls'
-- name: 英国_哈文特
-  network: ws
-  port: 443
-  server: 217.163.76.75
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2security%3Dtls
-- name: '英国_伦敦 #2'
-  network: ws
-  port: 8443
-  server: 154.197.121.248
-  servername: mositr.freenods.sbs
-  tls: true
-  type: vless
-  uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365
-  ws-opts:
-    headers:
-      Host: mositr.freenods.sbs
-    path: twitterfreecodes
-- name: 英国_貝辛斯托克
-  network: ws
-  port: 443
-  server: 194.36.55.36
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #3'
-  network: ws
-  port: 2086
-  server: 172.64.233.7
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #4'
-  network: ws
-  port: 2086
-  server: 172.64.233.35
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #5'
-  network: ws
-  port: 2086
-  server: 172.64.233.17
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #6'
-  network: ws
-  port: 2086
-  server: 172.64.233.32
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #7'
-  network: ws
-  port: 2086
-  server: 172.64.233.43
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #8'
-  network: ws
-  port: 2086
-  server: 172.64.233.27
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- name: '英国_哈文特 #1'
-  network: ws
-  port: 443
-  server: 217.163.76.97
-  servername: vz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: vz.ylks.xyz
-    path: '%2F3b2dg5zv2kftsfko%3Fed%3D2560'
-- client-fingerprint: random
-  name: '英国_哈文特 #2'
-  network: ws
-  port: 443
-  server: 217.163.76.245
-  servername: xz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: xz.ylks.xyz
-    path: '%2F'
-- name: '英国_哈文特 #3'
-  network: ws
-  port: 443
-  server: 217.163.76.11
-  servername: jz.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: jz.ylks01.eu.org
-    path: '%2Fblue'
-- client-fingerprint: random
-  name: '英国_哈文特 #4'
-  network: ws
-  port: 443
-  server: 217.163.76.225
-  servername: xz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: xz.ylks.xyz
-    path: '%2F'
-- name: '英国_哈文特 #5'
-  network: ws
-  port: 443
-  server: 217.163.76.73
-  servername: jz.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: jz.ylks01.eu.org
-    path: '%2Fblue'
-- name: '英国_哈文特 #6'
-  network: ws
-  port: 443
-  server: 217.163.76.111
-  servername: zz.linghang.buzz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: zz.linghang.buzz
-    path: '%2Fblue'
-- name: '英国_哈文特 #7'
-  network: ws
-  port: 443
-  server: 217.163.76.55
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
-- alterId: 0
-  cipher: auto
-  name: '美国(yudou789.top 玉豆免费节点) #67'
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: '美国(yudou789.top 玉豆免费节点) #63'
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: '美国(yudou789.top 玉豆免费节点) #49'
-  network: tcp
-  port: '30836'
-  server: v36.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇬🇧GB_2 | ⬇️ 1.7MB/s
-  network: ws
-  port: 443
-  server: 173.245.59.121
-  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-  tls: true
-  type: vless
-  uuid: 979b6822-d65a-400d-89f8-30391903ac20
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-    path: '%2Fws'
-- client-fingerprint: chrome
-  name: 'https://t.me/zyzzzoao ⚡️ #1'
-  network: ws
-  port: 443
-  server: transferwise.com
-  servername: rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 979b6822-d65a-400d-89f8-30391903ac20
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg
-    path: '%2Fws'
-- name: GB VLESS-110 | free-nodes
-  network: ws
-  port: 80
-  server: fuck1.tawanaproxy.online
-  tls: false
-  type: vless
-  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
-  ws-opts:
-    headers:
-      Host: en.tawana.cf.panbehpanel.ir
-    path: '%2F'
-- cipher: rc4-md5
-  name: 🇬🇧GB-146.70.61.37-6314
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧GB-94.156.250.148-0194
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.179-0178
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.179
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧+GB+1
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.182
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧+Join+Telegram:@Farah_VPN+🇬🇧
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.181
-  type: ss
-- cipher: aes-128-gcm
-  name: '🇬🇧+Join+Telegram:@Farah_VPN+🇬🇧 #1'
-  password: shadowsocks
-  port: 443
-  server: 158.173.24.73
-  type: ss

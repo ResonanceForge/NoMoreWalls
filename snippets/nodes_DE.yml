@@ -1,11 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国01 vmess
+  name: DE41｜机房｜高风险 (黑名单)
   network: tcp
   port: '180'
   server: 82.198.246.97
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -16,80 +15,3 @@ proxies:
   server: 5.230.184.16
   type: ss
   udp: true
-- name: 德国_Frankfurt am Main
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 3.69.0.8
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tz.ylks.xyz
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇩🇪DE-185.137.157.138-0215
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  type: trojan
-- name: 🇩🇪+DE+54
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.128
-  sni: 185.137.157.128
-  type: trojan
-- name: 🇩🇪+DE+22
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.151
-  sni: 185.137.157.151
-  type: trojan
-- name: 🇩🇪+DE+10
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.135
-  type: trojan
-- name: 🇩🇪DE-185.137.157.142-05
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.142
-  skip-cert-verify: true
-  type: trojan
-- name: 🇩🇪+DE+48
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.149
-  type: trojan
-- name: 🇩🇪+DE+18
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.145
-  type: trojan
-- cipher: aes-256-gcm
-  name: 🇩🇪DE-213.202.208.199-0209
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪+DE+41
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
-  type: ss

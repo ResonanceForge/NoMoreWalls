@@ -9,17 +9,3 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- flow: ''
-  name: '%3E%3E%40oneclickvpnkeys::CH'
-  network: ws
-  port: 443
-  server: us1.candyfans.win
-  servername: us1.candyfans.win
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d82baa81-c138-49fc-b81e-7ef0eb7ff063
-  ws-opts:
-    headers:
-      Host: us1.candyfans.win
-    path: '%2Fcgunws'
