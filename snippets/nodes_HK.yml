@@ -27,12 +27,6 @@ proxies:
     headers:
       Host: snll667.pages.dev
     path: '%2F'
-- name: 香港+电讯盈科有限公司
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -68,7 +62,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 香港|@ripaojiedian
+  name: 香港(yudou789.top 玉豆免费节点)
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -76,3 +70,69 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf
+  name: 🇭🇰HK-103.149.182.158-6174
+  password: asd123456
+  port: 8388
+  server: 103.149.182.158
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-203.218.79.113-5926
+  network: ws
+  port: 80
+  server: 72e6fdd1-sv2sg0-t61ki5-1smhu.hk3.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 72e6fdd1-sv2sg0-t61ki5-1smhu.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-203.218.79.113-5927
+  network: ws
+  port: 80
+  server: 88788ee2-sv4n40-t61ki5-1smhu.hk3.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 88788ee2-sv4n40-t61ki5-1smhu.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-203.218.79.113-5928
+  network: ws
+  port: 80
+  server: bcad1ab1-sv0xs0-t61ki5-1smhu.hk3.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: bcad1ab1-sv0xs0-t61ki5-1smhu.hk3.p5pv.com
+    path: /
+- name: 🇭🇰HK-58.152.18.55-2001
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 443
+  server: 58.152.18.55
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf
+  name: 🇭🇰HK-103.149.182.191-6193
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇭🇰HK-216.250.97.82-0290
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss

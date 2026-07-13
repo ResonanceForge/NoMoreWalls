@@ -97,10 +97,11 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: DE41｜机房｜高风险 (黑名单)
+  name: 美国01 vmess
   network: tcp
   port: '180'
   server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -239,3 +240,530 @@ proxies:
   server: 5.230.184.16
   type: ss
   udp: true
+- name: 德国_兰河畔林堡
+  network: ws
+  port: 80
+  server: 51.75.149.8
+  tls: false
+  type: vless
+  uuid: 4034162a-f4f2-4bd9-bb11-70047ebe20cf
+  ws-opts:
+    path: '%2Fmyiust%2F%3Fed'
+- name: '德国_兰河畔林堡 #1'
+  network: ws
+  port: 80
+  server: 51.75.149.8
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: false
+  type: vless
+  uuid: 4034162a-f4f2-4bd9-bb11-70047ebe20cf
+  ws-opts:
+    path: '%2Fmyiust%2F%3Fed%3D2048'
+- name: '德国_兰河畔林堡 #2'
+  network: ws
+  port: 80
+  server: 162.19.228.119
+  tls: false
+  type: vless
+  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  ws-opts:
+    path: '%2Fhttp'
+- name: 德国_杜塞尔多夫
+  network: ws
+  port: 443
+  server: 181.214.1.227
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 西班牙_马德里
+  network: ws
+  port: 443
+  server: 185.18.250.52
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: '西班牙_马德里 #1'
+  network: ws
+  port: 2053
+  server: 185.18.250.185
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2F'
+- name: '德国_杜塞尔多夫 #1'
+  network: ws
+  port: 443
+  server: 181.214.1.190
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 库拉索岛_威廉斯塔德
+  network: ws
+  port: 443
+  server: 88.216.66.193
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2F'
+- name: '库拉索岛_威廉斯塔德 #1'
+  network: ws
+  port: 443
+  server: 88.216.66.193
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2F%3Fed%3D2048security%3Dtls'
+- name: '西班牙_马德里 #2'
+  network: ws
+  port: 443
+  server: 185.18.250.109
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: '%2Ftg%40zdyz2'
+- name: '德国_兰河畔林堡 #3'
+  network: ws
+  port: 80
+  server: 162.19.228.119
+  tls: false
+  type: vless
+  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  ws-opts:
+    path: /http
+- name: '德国_兰河畔林堡 #4'
+  network: ws
+  port: 80
+  server: 51.75.149.8
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: false
+  type: vless
+  uuid: 4034162a-f4f2-4bd9-bb11-70047ebe20cf
+  ws-opts:
+    path: /myiust/?ed=2048
+- name: 德国_Frankfurt am Main
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 3.69.0.8
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tz.ylks.xyz
+    path: '%2F'
+- name: 塞尔维亚_贝尔格莱德
+  network: ws
+  port: 443
+  server: 38.180.100.80
+  servername: vz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: vz.ylks.xyz
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '德国_Frankfurt am Main #1'
+  network: ws
+  port: 443
+  server: 3.69.0.8
+  servername: hz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hz.ylks.xyz
+    path: '%2Fblue'
+- name: '德国_Frankfurt am Main #2'
+  network: ws
+  port: 443
+  server: 3.67.232.136
+  servername: hz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hz.ylks.xyz
+    path: '%2Fblue'
+- name: '德国_Frankfurt am Main #3'
+  network: ws
+  port: 443
+  server: 3.67.232.136
+  servername: vz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: vz.ylks.xyz
+    path: '%2Fpai6buclahf9cxx3%3Fed%3D2560'
+- name: '德国_Frankfurt am Main #4'
+  network: ws
+  port: 443
+  server: 3.68.31.54
+  servername: hz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hz.ylks.xyz
+    path: '%2Fblue'
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_6 | ⬇️ 4.3MB/s
+  network: ws
+  port: 2053
+  server: 172.64.152.23
+  servername: hz.badomzamini.uk
+  tls: true
+  type: vless
+  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  ws-opts:
+    headers:
+      Host: hz.badomzamini.uk
+    path: '%2Flatest%3Fed%3D2560'
+- name: DE VLESS-54 | free-nodes
+  network: ws
+  port: 80
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
+  ws-opts:
+    headers:
+      Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
+    path: '%2F%3Fed'
+- client-fingerprint: chrome
+  name: 官网520.juanwangjc.top德国 免费使用-01
+  network: ws
+  port: 443
+  server: vip3.kaixincloud.top
+  servername: apii.onlineshoppingez.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e6c7ed63-89db-4ae1-a3f8-7a722921b3b2
+  ws-opts:
+    headers:
+      Host: apii.onlineshoppingez.ir
+    path: '%2FO1w0n3vYgFKYs7EzNAvLPvOp'
+- name: DE VLESS-58 | free-nodes
+  network: ws
+  port: 80
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: 546e91b5-c33e-4b04-b20c-c0fc8f6d9d7f
+  ws-opts:
+    headers:
+      Host: bIZARRe-CEntEryZCvddNcfJ.spORtLand.COmPANY.
+    path: '%2F'
+- name: DE VLESS-85 | free-nodes
+  network: ws
+  port: 80
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
+  ws-opts:
+    headers:
+      Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
+    path: '%2F%3Fed'
+- name: 🇩🇪DE_3 | ⬇️ 1.8MB/s
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  tls: false
+  type: vless
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  ws-opts:
+    headers:
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+    path: '%2F%3Fed'
+- client-fingerprint: chrome
+  name: 🇩🇪DE_13 | ⬇️ 5.6MB/s
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+    path: '%2Fws'
+- client-fingerprint: chrome
+  name: 官网520.juanwangjc.top德国 免费使用-03
+  network: ws
+  port: 2083
+  server: v3.dabache.top
+  servername: hajames.amirconfigpaanelllll.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c805b05e-339d-40e0-8787-432d97a27345
+  ws-opts:
+    headers:
+      Host: hajames.amirconfigpaanelllll.com
+    path: '%2F'
+- name: DE VLESS-56 | free-nodes
+  network: ws
+  port: 80
+  server: 104.20.1.252
+  tls: false
+  type: vless
+  uuid: 4c97ec3e-3527-48c5-80ff-b715463896ba
+  ws-opts:
+    headers:
+      Host: kIndhEArTeD-PARkb5Rjo2juEr.sPorTLaNd.COMpAny.
+    path: '%2F%3Fed'
+- name: 德國
+  network: ws
+  port: 80
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: 546e91b5-c33e-4b04-b20c-c0fc8f6d9d7f
+  ws-opts:
+    headers:
+      Host: bizarre-centeryzcvddncfj.sportland.company.
+    path: '%2F%3Fed'
+- name: DE VLESS-66 | free-nodes
+  network: ws
+  port: 80
+  server: 104.20.1.252
+  tls: false
+  type: vless
+  uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
+  ws-opts:
+    headers:
+      Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
+    path: '%2F%3Fed'
+- name: DE VLESS-42 | free-nodes
+  network: ws
+  port: 2052
+  server: nx.cloud1.hosting-ip.zulagaming.icu
+  tls: false
+  type: vless
+  uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
+  ws-opts:
+    headers:
+      Host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
+    path: '%2F'
+- name: '美國 #9'
+  network: ws
+  port: 80
+  server: 104.20.1.252
+  tls: false
+  type: vless
+  uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
+  ws-opts:
+    headers:
+      Host: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
+    path: '%2F%3Fed'
+- name: 🇩🇪DE_4 | ⬇️ 4.4MB/s
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  tls: false
+  type: vless
+  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
+  ws-opts:
+    headers:
+      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
+    path: '%2F%3Fed'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: DE VLESS-35 | free-nodes
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RQvzYCW0H-c-MiJtVMFwE-F2IOzVlHn4QItU34IpM2U
+    short-id: '!!str 42fee40f46c3c9c2'
+  server: 141.98.188.65
+  servername: de20.strelkavpn.com
+  tls: false
+  type: vless
+  uuid: 0792bfd8-ac2b-44b9-8409-c448334e41ae
+- client-fingerprint: chrome
+  name: 🇩🇪DE_8 | ⬇️ 4.8MB/s
+  network: tcp
+  port: 443
+  server: decdn13.suio.me
+  servername: decdn13.suio.me
+  tls: true
+  type: vless
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- name: 🇩🇪DE-185.137.157.138-0215
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.138
+  type: trojan
+- name: 🇩🇪+DE+54
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.128
+  sni: 185.137.157.128
+  type: trojan
+- name: 🇩🇪+DE+22
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.151
+  sni: 185.137.157.151
+  type: trojan
+- name: 🇩🇪+DE+10
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
+  type: trojan
+- name: 🇩🇪DE-185.137.157.142-05
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.142
+  skip-cert-verify: true
+  type: trojan
+- name: 🇩🇪+DE+48
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.149
+  type: trojan
+- name: 🇩🇪+DE+18
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-213.202.208.199-0209
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪+DE+41
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
+- name: 德国06 vless
+  network: ws
+  port: 8880
+  server: clean.photoggenic.ir
+  tls: false
+  type: vless
+  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+  ws-opts:
+    headers:
+      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+    path: '%2F'
+- client-fingerprint: chrome
+  name: 德国02 vless
+  network: ws
+  port: 2096
+  server: api.dark-coffe.com
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
+    path: '%2F'
+- name: 德国01 vless
+  network: ws
+  port: 80
+  server: 185.143.233.235
+  tls: false
+  type: vless
+  uuid: 087d8602-503b-4091-9f05-44c20792083c
+  ws-opts:
+    headers:
+      Host: oon.visaups.ir
+    path: '%2F'
+- name: '%3E%3E%40DailyV2RY::DE'
+  network: xhttp
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vp12.mydatacloud1.ir
+    path: /@WarpiFree---@WarpiFree---@WarpiFree---@WarpiFree
+- name: '@confiig_hub #2'
+  network: xhttp
+  port: 80
+  server: test.fast.hosting-ip.com
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: byby.global.ssl.fastly.net
+    path: /telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048
+- name: '@V2rayNGVPN'
+  network: xhttp
+  port: 80
+  server: 151.101.0.0
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: aaeman.global.ssl.fastly.net
+    path: /telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048

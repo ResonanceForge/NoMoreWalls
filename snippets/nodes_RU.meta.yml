@@ -1,9 +1,359 @@
 proxies:
-- name: '俄罗斯+V2CROSS.COM #1'
+- name: 俄罗斯+V2CROSS.COM
   password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   port: 8443
   server: aestheticperforator.ru
-  skip-cert-verify: false
   sni: aestheticperforator.ru
   tls: false
   type: hysteria2
+- name: 俄罗斯联邦_莫斯科
+  network: ws
+  port: 2096
+  server: 188.42.145.159
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2F%3Fed%3D2048security%3Dtls'
+- name: '俄罗斯联邦_莫斯科 #1'
+  network: ws
+  port: 8443
+  server: 188.42.145.159
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: '%2Ftg%40zdyz2'
+- name: '俄罗斯联邦_莫斯科 #2'
+  network: ws
+  port: 8443
+  server: 188.42.145.90
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2F%3Fedfp%3Dchromefp%3Dchrome'
+- name: '俄罗斯联邦_莫斯科 #3'
+  network: ws
+  port: 443
+  server: 193.9.49.80
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: '俄罗斯联邦_莫斯科 #4'
+  network: ws
+  port: 8443
+  server: 188.42.145.159
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: '俄罗斯联邦_莫斯科 #5'
+  network: ws
+  port: 8443
+  server: 188.42.145.159
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2security%3Dtls
+- name: '俄罗斯联邦_莫斯科 #6'
+  network: ws
+  port: 8443
+  server: 188.42.145.90
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2F%3Fed'
+- name: '俄罗斯联邦_莫斯科 #7'
+  network: ws
+  port: 443
+  server: 188.42.145.226
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: '俄罗斯联邦_莫斯科 #8'
+  network: ws
+  port: 443
+  server: 188.42.145.159
+  servername: VIrgiNiavPn-nL.pagEs.dEv
+  tls: true
+  type: vless
+  uuid: 54ef4ecf-ff37-436a-be13-95c8a8a1114d
+  ws-opts:
+    headers:
+      Host: VIrgiNiavPn-nL.pagEs.dEv
+    path: '%2Fsecurity%3Dtls'
+- name: '俄罗斯联邦_莫斯科 #9'
+  network: ws
+  port: 443
+  server: 188.42.145.159
+  servername: VIrgiNiavPn-nL.pagEs.dEv
+  tls: true
+  type: vless
+  uuid: 54ef4ecf-ff37-436a-be13-95c8a8a1114d
+  ws-opts:
+    headers:
+      Host: VIrgiNiavPn-nL.pagEs.dEv
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯联邦_圣彼得堡
+  network: ws
+  port: 12910
+  server: 22.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '俄罗斯联邦_圣彼得堡 #1'
+  network: ws
+  port: 12910
+  server: 22.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 22.lwdh.us
+    path: /
+- name: 俄罗斯_新西伯利亚
+  network: ws
+  port: 443
+  server: 45.67.215.0
+  servername: xz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xz.ylks.xyz
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '俄罗斯_新西伯利亚 #1'
+  network: ws
+  port: 443
+  server: 45.67.215.185
+  servername: vz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: vz.ylks.xyz
+    path: '%2F3b2dg5zv2kftsfko%3Fed%3D2560'
+- name: '俄罗斯_新西伯利亚 #2'
+  network: ws
+  port: 443
+  server: 45.67.215.177
+  servername: vz.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    headers:
+      Host: vz.ylkszy.eu.org
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '俄罗斯_新西伯利亚 #3'
+  network: ws
+  port: 443
+  server: 45.67.215.99
+  servername: hz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hz.ylks.xyz
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '俄罗斯_新西伯利亚 #4'
+  network: ws
+  port: 443
+  server: 45.67.215.22
+  servername: jz.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: jz.ylks01.eu.org
+    path: '%2Fblue'
+- client-fingerprint: random
+  name: '俄罗斯_新西伯利亚 #5'
+  network: ws
+  port: 443
+  server: 45.67.215.81
+  servername: vz.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    headers:
+      Host: vz.ylkszy.eu.org
+    path: '%2F'
+- name: '俄罗斯_新西伯利亚 #6'
+  network: ws
+  port: 443
+  server: 45.67.215.167
+  servername: jz.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: jz.ylks01.eu.org
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '俄罗斯_新西伯利亚 #7'
+  network: ws
+  port: 443
+  server: 45.67.215.167
+  servername: vz.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    headers:
+      Host: vz.ylkszy.eu.org
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- client-fingerprint: random
+  name: '俄罗斯_新西伯利亚 #8'
+  network: ws
+  port: 443
+  server: 45.67.215.220
+  servername: vz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: vz.ylks.xyz
+    path: '%2F'
+- name: '俄罗斯_新西伯利亚 #9'
+  network: ws
+  port: 443
+  server: 45.67.215.101
+  servername: vz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: vz.ylks.xyz
+    path: '%2F3b2dg5zv2kftsfko%3Fed%3D2560'
+- name: '俄罗斯_新西伯利亚 #10'
+  network: ws
+  port: 443
+  server: 45.67.215.4
+  servername: vz.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    headers:
+      Host: vz.ylkszy.eu.org
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '俄罗斯_新西伯利亚 #11'
+  network: ws
+  port: 443
+  server: 45.67.215.41
+  servername: xz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xz.ylks.xyz
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '俄罗斯_新西伯利亚 #12'
+  network: ws
+  port: 443
+  server: 45.67.215.185
+  servername: zz.linghang.buzz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: zz.linghang.buzz
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- client-fingerprint: random
+  name: '俄罗斯_新西伯利亚 #13'
+  network: ws
+  port: 443
+  server: 45.67.215.39
+  servername: xz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xz.ylks.xyz
+    path: '%2F'
+- name: '俄罗斯_新西伯利亚 #14'
+  network: ws
+  port: 443
+  server: 45.67.215.102
+  servername: jz.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: jz.ylks01.eu.org
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '俄罗斯_新西伯利亚 #15'
+  network: ws
+  port: 443
+  server: 45.67.215.73
+  servername: hz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hz.ylks.xyz
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '俄罗斯_新西伯利亚 #16'
+  network: ws
+  port: 443
+  server: 45.67.215.39
+  servername: vz.ylkszy.eu.org
+  tls: true
+  type: vless
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
+  ws-opts:
+    headers:
+      Host: vz.ylkszy.eu.org
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
