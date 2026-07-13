@@ -133,7 +133,7 @@ session = requests.Session()
 session.trust_env = False
 if PROXY and not PROXY == 'NONE':
     session.proxies = {'http': PROXY, 'https': PROXY}
-session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) Clash-verge/v2.4.2 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
+session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) clash-verge/v2.5.1 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
 session.mount('file://', FileAdapter())
 
 class UnsupportedType(Exception): pass
