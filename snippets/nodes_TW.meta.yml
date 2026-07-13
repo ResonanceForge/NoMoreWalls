@@ -1,18 +1,31 @@
 proxies:
-- alpn:
-  - h3%2Ch2%2Chttp%2F1.1
-  name: TW3｜机房｜低风险
-  network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-  port: 14147
-  server: 203.69.248.40
+- insecure: '1'
+  mport: 40000-49999
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
   skip-cert-verify: true
-  sni: snll667.pages.dev
-  type: trojan
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
-      Host: snll667.pages.dev
-    path: '%2F'
+      Host: ct3.ainivp.com
+    path: /ray
 - name: TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
