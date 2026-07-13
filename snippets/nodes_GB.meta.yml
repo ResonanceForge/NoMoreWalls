@@ -1,4 +1,5 @@
 proxies:
+<<<<<<< HEAD
 - name: 'A - 🇬🇧 GB 01 TG: @nodpai'
   network: ws
   port: 8880
@@ -56,12 +57,28 @@ proxies:
     short-id: '!!str '
   server: umbr.gconexustun.ru
   servername: cdn4-23.yahoo.com
+=======
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇬🇧GB_1|2.1MB/s
+  network: xhttp
+  port: '48933'
+  reality-opts:
+    public-key: uugDdrD7u6_dXpH4SCUwUvP4eaG-InWUZk-VKpyxiHc
+    short-id: '!!str '
+  server: umbr.gconexustun.ru
+  servername: cdn9-05.yahoo.com
+>>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
   tls: true
   type: vless
   udp: true
   uuid: 42455ebe-1c84-479a-9bac-6433c30f8d19
   xhttp-opts:
+<<<<<<< HEAD
     mode: auto
+=======
+    mode: packet-up
+>>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
     path: /
     reuse-settings:
       c-max-reuse-times: 64-128
@@ -102,6 +119,7 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+<<<<<<< HEAD
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -136,3 +154,5 @@ proxies:
     headers:
       host: escoffier.changli.ddns-ip.net
     path: /proxyip=navia.shorekeeper.ir
+=======
+>>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab

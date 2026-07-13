@@ -6,7 +6,7 @@
 
 ## 公告
 
-**我们拒绝为任何“女权组织”提供任何服务！我们拒绝为任何企图分裂国家的 NGO 组织提供任何服务！**
+**我们拒绝为任何“女权组织”提供任何服务！我们绝不允许任何企图破坏中国国家和社会稳定的组织或个人使用本服务！**
 
 本项目拒绝为**流氓资本家**提供任何服务！特别的，项目的许可证**严格禁止**实行 996 工作制的公司使用本项目！
 
@@ -91,15 +91,21 @@
 9. 运行 `fetch.py`
 10. 你已获得完整订阅
 
-如果本地仓库长期未更新，请删除仓库并重新克隆来同步最新更改，不要使用 `git pull`。
+如果本地仓库长期未更新，也请使用 `--depth=1` 更新仓库：
+
+```bash
+git pull --depth=1
+git reset --hard origin/master
+```
 
 ## 一些题外话
 
+- **[违法电影《监狱来的妈妈》，这些人是想对中国社会进行大规模脱敏训练](https://www.bilibili.com/video/BV1XcLD6BE6p/)**
 - **什么才是真正的性别平等？（原视频已失效）我们要真正的平权而不是所谓的“女权”！“公平”不应成为特权的借口！**
 - **[NGO 的影子借“公益”之名渗透名校！](https://www.bilibili.com/video/BV15JtnzMExo/)防范身边的境外势力渗透！**
 - **[油罐车事件是最好的照妖镜，上赶着带节奏都是谁请大家记下来。](https://www.bilibili.com/video/BV1p1421b7Ki)私有化愈发严重影响的是所有中国人的切身利益，必须用公有平衡私有我们才有发展的前途。**
 
-<!-- **上方事件的严重性已经远超下面的事情了！！！** -->
+**上方事件的严重性已经远超下面的事情了！！！**
 
 - **[百度？百毒！](https://user.guancha.cn/main/content?id=100552)魏则西去世3周年：害死他的百度广告和莆田系医院**
 - **[没收违法所得的合法性与合理性基础欠缺——简评承德程序员事件](https://www.dehenglaw.com/CN/tansuocontent/0008/029562/7.aspx?MID=0902)**
@@ -114,10 +120,10 @@
 
 ## Star History
 
-<a href="https://star-history.com/#peasoft/NoMoreWalls">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=peasoft/NoMoreWalls&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=peasoft/NoMoreWalls" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=peasoft/NoMoreWalls" />
-  </picture>
+<a href="https://www.star-history.com/?repos=peasoft%2FNoMoreWalls&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=peasoft/NoMoreWalls&type=date&theme=dark&legend=top-left&sealed_token=8UVynllUplJa4vHl5DyiCpLI2RXSk29T0lsBrpwrzwLAbSJZj26QdM8Ci747u68K-UUMdH5GiH86o4tNu0hVYpj6AbR97k5HH730KfsO1wMCMWPsWiqu08zWfVjPUvj6qCu70vTw7w2ukyOzCl8Fzp_6-12EqObw3tw7JorvJ0nCXUB59L42IFPFYb_q" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=peasoft/NoMoreWalls&type=date&legend=top-left&sealed_token=8UVynllUplJa4vHl5DyiCpLI2RXSk29T0lsBrpwrzwLAbSJZj26QdM8Ci747u68K-UUMdH5GiH86o4tNu0hVYpj6AbR97k5HH730KfsO1wMCMWPsWiqu08zWfVjPUvj6qCu70vTw7w2ukyOzCl8Fzp_6-12EqObw3tw7JorvJ0nCXUB59L42IFPFYb_q" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=peasoft/NoMoreWalls&type=date&legend=top-left&sealed_token=8UVynllUplJa4vHl5DyiCpLI2RXSk29T0lsBrpwrzwLAbSJZj26QdM8Ci747u68K-UUMdH5GiH86o4tNu0hVYpj6AbR97k5HH730KfsO1wMCMWPsWiqu08zWfVjPUvj6qCu70vTw7w2ukyOzCl8Fzp_6-12EqObw3tw7JorvJ0nCXUB59L42IFPFYb_q" />
+ </picture>
 </a>

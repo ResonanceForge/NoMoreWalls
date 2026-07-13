@@ -1,4 +1,5 @@
 proxies:
+<<<<<<< HEAD
 - name: 'A - 🇰🇷 KR 01 TG: @nodpai'
   network: ws
   port: 8880
@@ -27,6 +28,15 @@ proxies:
   skip-cert-verify: true
   sni: dev.aoliuqu.press
   type: trojan
+=======
+- name: 🇰🇷KR_1|5.1MB/s
+  password: H7mP2xY9kJ4nQ9wR5tF6vB3z
+  port: 443
+  server: vpn-kr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-002.fastervpn.world
+  type: hysteria2
+>>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
   udp: true
 - name: KR_speednode_0014
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
@@ -36,6 +46,7 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+<<<<<<< HEAD
 - name: 🇰🇷KR_13 | ⬇️ 1.2MB/s
   network: ws
   port: 8880
@@ -173,3 +184,5 @@ proxies:
     headers:
       host: vngsupply.ip-ddns.com
     path: /ycqlKbi40f2kVjZS?ed=2560
+=======
+>>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab

@@ -72,21 +72,22 @@ from fetch import raw2fastly, session, LOCAL
 #                 subs.add(sub)
 #     return subs
 
-def fakeyou():
-    DOMAIN = "https://fakeyou.top"
-    res = session.get(DOMAIN)
-    res.raise_for_status()
-    url = re.search(r'<a href="(/post/\d+/)"', res.text)
-    if not url: return
-    res = session.get(DOMAIN+url.group(1))
-    lines = res.text.splitlines()
-    for line in lines:
-        line = line.strip()
-        if line.startswith("https://image.fakeyou.top/"):
-            return line.split('<')[0]+"#ignore=ss,vless"
+# def fakeyou():
+#     # The site has been closed
+#     DOMAIN = "https://fakeyou.top"
+#     res = session.get(DOMAIN)
+#     res.raise_for_status()
+#     url = re.search(r'<a href="(/post/\d+/)"', res.text)
+#     if not url: return
+#     res = session.get(DOMAIN+url.group(1))
+#     lines = res.text.splitlines()
+#     for line in lines:
+#         line = line.strip()
+#         if line.startswith("https://image.fakeyou.top/"):
+#             return line.split('<')[0]+"#ignore=ss,vless"
 
 AUTOFUNTYPE = Callable[[], Union[str, Iterable[str], None]]
-AUTOURLS: List[AUTOFUNTYPE] = [fakeyou]
+AUTOURLS: List[AUTOFUNTYPE] = []
 AUTOFETCH: List[AUTOFUNTYPE] = []
 
 if __name__ == '__main__':

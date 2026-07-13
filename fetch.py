@@ -120,11 +120,11 @@ DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
 
 STOP_FAKE_NODES = """vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NjU0Rlx1NjExRlx1NjVGNlx1NjcxRlx1RkYwQ1x1NjZGNFx1NjVCMFx1NjY4Mlx1NTA1QyIsDQogICJhZGQiOiAiMC4wLjAuMCIsDQogICJwb3J0IjogIjEiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NTk4Mlx1NjcwOVx1OTcwMFx1ODk4MVx1RkYwQ1x1ODFFQVx1ODg0Q1x1NjQyRFx1NUVGQSIsDQogICJhZGQiOiAiMC4wLjAuMCIsDQogICJwb3J0IjogIjIiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEUyRFx1NTM0RVx1NEVCQVx1NkMxMVx1NTE3MVx1NTQ4Q1x1NTZGRFx1NjIxMFx1N0FDQjc2XHU1NDY4XHU1RTc0XHVGRjAxIiwNCiAgImFkZCI6ICIwLjAuMC4wIiwNCiAgInBvcnQiOiAiMyIsDQogICJpZCI6ICI4ODg4ODg4OC04ODg4LTg4ODgtODg4OC04ODg4ODg4ODg4ODgiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAid2ViLjUxLmxhIiwNCiAgImFscG4iOiAiaHR0cC8xLjEiLA0KICAiZnAiOiAiY2hyb21lIg0KfQ==
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEUyRFx1NTZGRFx1NTE3MVx1NEVBN1x1NTE1QVx1NjIxMFx1N0FDQjEwNVx1NTQ2OFx1NUU3NFx1RkYwMSIsDQogICJhZGQiOiAiMC4wLjAuMCIsDQogICJwb3J0IjogIjMiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
 """
 
 d = datetime.datetime.now()
-if STOP:
+if STOP or ((d.month, d.day) in ((6, 4), (7, 1), (10, 1)) and not (LOCAL or PROXY)):
     DEBUG_NO_NODES = DEBUG_NO_DYNAMIC = STOP = True
     NAME_SHOW_TYPE = NAME_NO_FLAGS = NAME_SHOW_SRC = False
     BANNED_WORDS = []
@@ -133,7 +133,7 @@ session = requests.Session()
 session.trust_env = False
 if PROXY and not PROXY == 'NONE':
     session.proxies = {'http': PROXY, 'https': PROXY}
-session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) clash-verge/v2.5.1 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
+session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) Clash-verge/v2.4.2 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
 session.mount('file://', FileAdapter())
 
 class UnsupportedType(Exception): pass
@@ -443,7 +443,7 @@ class Node:
                 self.data['alpn'] = unquote(v).split(',')
             elif k in ('sni', 'obfs', 'obfs-password'):
                 self.data[k] = v
-            elif k == 'fp': self.data['fingerprint'] = v
+            elif k == 'fp': self.data['client-fingerprint'] = v
 
     def _load_tuic(self, url: str, dt: str):
         parsed = self.urlparse(url)
@@ -465,7 +465,7 @@ class Node:
                 self.data['alpn'] = unquote(v).split(',')
             elif k in ('sni', 'udp_relay_mode'):
                 self.data[k.replace('_','-')] = v
-            elif k == 'fp': self.data['fingerprint'] = v
+            elif k == 'fp': self.data['client-fingerprint'] = v
             elif k == 'congestion_control': self.data['congestion-controller'] = v
 
     def _load__legacy(self, url: str, dt: str):
@@ -688,8 +688,8 @@ class Node:
             ret += f"insecure={int(data['skip-cert-verify'])}&"
         if 'alpn' in data:
             ret += f"alpn={quote(','.join(data['alpn']))}&"
-        if 'fingerprint' in data:
-            ret += f"fp={data['fingerprint']}&"
+        if 'client-fingerprint' in data:
+            ret += f"fp={data['client-fingerprint']}&"
         for k in ('sni', 'obfs', 'obfs-password'):
             if k in data:
                 ret += f"{k}={data[k]}&"
@@ -705,8 +705,8 @@ class Node:
             ret += f"allow_insecure={int(data['skip-cert-verify'])}&"
         if 'alpn' in data:
             ret += f"alpn={quote(','.join(data['alpn']))}&"
-        if 'fingerprint' in data:
-            ret += f"fp={data['fingerprint']}&"
+        if 'client-fingerprint' in data:
+            ret += f"fp={data['client-fingerprint']}&"
         if 'congestion-controller' in data:
             ret += f"congestion_control={data['congestion-controller']}&"
         for k in ('sni', 'udp-relay-mode'):
@@ -1307,9 +1307,12 @@ def main():
                     if ctgs and keys[-1] == 'OVERALL':
                         break
                 if len(ctgs) == 1:
-                    if node.supports_clash():
-                        ctg_nodes[ctgs[0]].append(node.clash_data)
-                    ctg_nodes_meta[ctgs[0]].append(node.clash_data)
+                    try:
+                        if node.supports_clash():
+                            ctg_nodes[ctgs[0]].append(node.clash_data)
+                        ctg_nodes_meta[ctgs[0]].append(node.clash_data)
+                    except Exception:
+                        traceback.print_exc()
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
@@ -1355,20 +1358,26 @@ def main():
     # Clash & Meta
     global_fp: Optional[str] = conf.get('global-client-fingerprint', None)
     proxies: List[Node.DATA_TYPE] = []
+    proxies_snip: List[Node.DATA_TYPE] = []
     proxies_meta: List[Node.DATA_TYPE] = []
+    proxies_meta_snip: List[Node.DATA_TYPE] = []
     ctg_base: Dict[str, Any] = conf['proxy-groups'][3].copy()
     names_clash: Union[Set[str], List[str]] = set()
     names_clash_meta: Union[Set[str], List[str]] = set()
     for p in merged.values():
         if p.supports_meta():
-            if ('client-fingerprint' in p.data and
-                    p.data['client-fingerprint'] == global_fp):
-                del p.data['client-fingerprint']
-            proxies_meta.append(p.clash_data)
-            names_clash_meta.add(p.data['name'])
+            clash_data = p.clash_data
+            clash_data_snip = clash_data.copy()
+            if ('client-fingerprint' in clash_data and
+                    clash_data['client-fingerprint'] == global_fp):
+                del clash_data['client-fingerprint']
             if p.supports_clash():
-                proxies.append(p.clash_data)
+                proxies.append(clash_data)
+                proxies_snip.append(clash_data_snip)
                 names_clash.add(p.data['name'])
+            proxies_meta.append(clash_data)
+            proxies_meta_snip.append(clash_data_snip)
+            names_clash_meta.add(p.data['name'])
     names_clash = list(names_clash)
     names_clash_meta = list(names_clash_meta)
     conf_meta = copy.deepcopy(conf)
@@ -1400,7 +1409,7 @@ def main():
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
-        f.write(yaml.dump({'proxies': proxies}, allow_unicode=True).replace('!!str ',''))
+        f.write(yaml.dump({'proxies': proxies_snip}, allow_unicode=True).replace('!!str ',''))
 
     # Meta
     conf = conf_meta
@@ -1426,7 +1435,7 @@ def main():
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
-        f.write(yaml.dump({'proxies': proxies_meta}, allow_unicode=True).replace('!!str ',''))
+        f.write(yaml.dump({'proxies': proxies_meta_snip}, allow_unicode=True).replace('!!str ',''))
 
     if snip_conf:
         print("正在写出配置片段...")
