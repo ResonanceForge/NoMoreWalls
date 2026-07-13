@@ -23,3 +23,81 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 日本_Osaka
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 150.230.7.216
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tz.ylks.xyz
+    path: '%2F'
+- name: 🇯🇵JP-43.207.192.70-2635
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: stirred-buck.rooster465.autos
+  sni: stirred-buck.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-52.68.90.114-2636
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: busy-lab.rooster465.autos
+  sni: busy-lab.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-18.179.120.96-2634
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: faithful-clam.rooster465.autos
+  sni: faithful-clam.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-52.194.192.245-2633
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: exciting-grizzly.rooster465.autos
+  sni: exciting-grizzly.rooster465.autos
+  type: trojan
+- cipher: aes-128-gcm
+  name: 🇯🇵+Join+Telegram:@Farah_VPN+🇯🇵
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵JP-149.22.87.240-0165
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-140.83.51.161-1450
+  network: ws
+  port: '25686'
+  server: 140.83.51.161
+  servername: jp02.a0a.xyz
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-157.85.230.247-2343
+  network: ws
+  port: '2052'
+  server: 157.85.230.247
+  servername: www.bing.com
+  tls: false
+  type: vmess
+  uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm

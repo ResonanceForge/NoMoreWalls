@@ -17,3 +17,160 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 法国_里昂
+  network: ws
+  port: 443
+  server: beyonddsz.cfd
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 法国_马赛
+  network: ws
+  port: 443
+  server: 110.724064.xyz
+  tls: true
+  type: vmess
+  uuid: b11208a0-d0b1-486d-95bb-7e88ed6012b9
+  ws-opts:
+    headers:
+      Host: 110.724064.xyz
+    path: /nlpivws
+- name: 法国_巴黎
+  network: ws
+  port: 443
+  server: 185.16.110.103
+  servername: jz.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: jz.ylks01.eu.org
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '法国_巴黎 #1'
+  network: ws
+  port: 443
+  server: 185.16.110.103
+  servername: jz.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: jz.ylks01.eu.org
+    path: '%2Fblue'
+- name: '法国_巴黎 #2'
+  network: ws
+  port: 443
+  server: 185.16.110.91
+  servername: xz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xz.ylks.xyz
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '法国_巴黎 #3'
+  network: ws
+  port: 443
+  server: 185.16.110.91
+  servername: vz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: vz.ylks.xyz
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- client-fingerprint: chrome
+  name: FR VLESS-75 | free-nodes
+  network: ws
+  port: 443
+  server: 69.84.182.20
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: '%2Fws'
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3 | ⬇️ 6.2MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  tls: true
+  type: vless
+  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
+  ws-opts:
+    headers:
+      Host: fr-1-fr-1.aiopen.sbs
+    path: '%2Fkbjc%2Ffr1'
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1 | ⬇️ 4.3MB/s
+  network: ws
+  port: 443
+  server: 104.24.69.114
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+    path: '%2Fws'
+- client-fingerprint: chrome
+  name: 🇫🇷FR_7 | ⬇️ 3.3MB/s
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: '%2Fws'
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇫🇷+FR+2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Lk_uZjr6a6DyLsgh1VasuUCN9G2YdO32u9nFZPgHxSw
+    short-id: '!!str 0f5af4a2'
+  server: 20.199.24.140
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: d890b403-d536-4c32-945c-b46e250492a6
+  ws-opts:
+    path: '%2F'
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '%3E%3E%40FreakConfig::FR'
+  network: xhttp
+  port: 443
+  server: 188.114.96.3
+  servername: zedmodeon.snapp-digikala.workers.dev
+  tls: true
+  type: vless
+  uuid: a96d28ab-5018-4604-8fd6-2273f0eccaa4
+  ws-opts:
+    headers:
+      Host: zedmodeon.snapp-digikala.workers.dev
+    path: '%2F---%40ZEDMODEON%2F---%40ZEDMODEON%2F---%40ZEDMODEON%2F---%40ZEDMODEON%2F---%40ZEDMODEON%2F---%40ZEDMODEON'
