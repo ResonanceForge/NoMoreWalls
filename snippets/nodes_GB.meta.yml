@@ -1,5 +1,4 @@
 proxies:
-<<<<<<< HEAD
 - name: 'A - 🇬🇧 GB 01 TG: @nodpai'
   network: ws
   port: 8880
@@ -57,28 +56,12 @@ proxies:
     short-id: '!!str '
   server: umbr.gconexustun.ru
   servername: cdn4-23.yahoo.com
-=======
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇬🇧GB_1|2.1MB/s
-  network: xhttp
-  port: '48933'
-  reality-opts:
-    public-key: uugDdrD7u6_dXpH4SCUwUvP4eaG-InWUZk-VKpyxiHc
-    short-id: '!!str '
-  server: umbr.gconexustun.ru
-  servername: cdn9-05.yahoo.com
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
   tls: true
   type: vless
   udp: true
   uuid: 42455ebe-1c84-479a-9bac-6433c30f8d19
   xhttp-opts:
-<<<<<<< HEAD
     mode: auto
-=======
-    mode: packet-up
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
     path: /
     reuse-settings:
       c-max-reuse-times: 64-128
@@ -119,7 +102,6 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-<<<<<<< HEAD
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -154,5 +136,206 @@ proxies:
     headers:
       host: escoffier.changli.ddns-ip.net
     path: /proxyip=navia.shorekeeper.ir
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-764
+  network: tcp
+  port: 443
+  server: s4034.ccgfw.online
+  servername: u695099u54eb92dfs4031.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 54eb92dfs4031.wagahaha.xyz
+    path: ''
+- name: NL荷兰
+  network: ws
+  port: 8090
+  server: 195.63.167.193
+  tls: false
+  type: vless
+  uuid: ef14c532-b69a-4f46-ae29-272f2fdaf673
+  ws-opts:
+    headers:
+      Host: rukr.speedload.ru
+    path: '%2Fws'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-815
+  network: tcp
+  port: 443
+  server: s561.gogocs.xyz
+  servername: u695099u540f16e2s501.okgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 540f16e2s501.okgfw.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-839
+  network: tcp
+  port: 443
+  server: 82.47.22.163
+  servername: u695099u540f16e2s501.okgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 540f16e2s501.okgfw.top
+    path: ''
+- name: '英国 #2'
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
+  password: eltgrek81o6w5cd4
+  port: 8443
+  server: musicclips.videolinks.ru
+  skip-cert-verify: false
+  sni: musicclips.videolinks.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-750
+  network: tcp
+  port: 443
+  server: s4033.uugfw.top
+  servername: u695099u54eb92dfs4031.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 54eb92dfs4031.wagahaha.xyz
+    path: ''
+- client-fingerprint: chrome
+  name: GB VLESS-139
+  network: tcp
+  port: 21443
+  reality-opts:
+    public-key: PEPivzCg5cBehVQUMVJLNPx3A9hy719Fq7HQsXMp4Ro
+  server: hostvds-nl-nl.kvnfreetest.uk
+  servername: cloudflare.com
+  tls: false
+  type: vless
+  uuid: 122f8c58-f173-4f4a-acb8-86172ba5e10d
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-809
+  network: tcp
+  port: 443
+  server: s348.okgfw.top
+  servername: u695099u540f16e2s501.okgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 540f16e2s501.okgfw.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-875
+  network: tcp
+  port: 443
+  server: s221.wagahaha.xyz
+  servername: u695099u474eb3f0s642.csgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 474eb3f0s642.csgfw.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-774
+  network: tcp
+  port: 443
+  server: 91.108.254.16
+  servername: u695099u54eb92dfs4031.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 54eb92dfs4031.wagahaha.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-811
+  network: tcp
+  port: 443
+  server: s235.ccgfw.online
+  servername: u695099u474eb3f0s642.csgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 474eb3f0s642.csgfw.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-852
+  network: tcp
+  port: 443
+  server: 185.85.242.156
+  servername: u695099u474eb3f0s642.csgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 474eb3f0s642.csgfw.top
+    path: ''

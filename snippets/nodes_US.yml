@@ -1,5 +1,4 @@
 proxies:
-<<<<<<< HEAD
 - alterId: 0
   cipher: auto
   name: 'B - 🇺🇸 US 18 TG: @nodpai'
@@ -28,7 +27,7 @@ proxies:
   sni: ch.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 33 TG: @nodpai'
+- name: 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 90081bb25c.node.tro.cac.cab
@@ -44,7 +43,7 @@ proxies:
   sni: de.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 35 TG: @nodpai'
+- name: '🇺🇸_US_美国 #1'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
   server: 90081bb25c.node.tro.cac.cab
@@ -94,8 +93,6 @@ proxies:
   server: 149.104.104.58
   sni: 149.104.104.58
   type: trojan
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
 - name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -120,7 +117,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-<<<<<<< HEAD
 - alterId: 0
   cipher: auto
   name: US_dceee_0054
@@ -131,8 +127,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
 - name: US_speednode_0063
   network: ws
   password: Mitivpn
@@ -146,7 +140,6 @@ proxies:
     headers:
       Host: www.gamingdll.ir
     path: /usa=mitivpn
-<<<<<<< HEAD
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -201,5 +194,130 @@ proxies:
   udp: true
   ws-opts:
     path: /profile/telegram@ssrsub
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
+- name: 美国_55
+  password: humanity
+  port: 443
+  server: 104.19.64.105
+  sni: www.calmlunch.com
+  type: trojan
+- name: 美國+
+  network: ws
+  password: 9c521e24-7326-acd3-acec-d0afac2b465d
+  port: 8080
+  server: 104.25.108.147
+  skip-cert-verify: false
+  sni: red-cell-47f9.milaniomilan9.workers.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: red-cell-47f9.milaniomilan9.workers.dev
+    path: /
+- name: 美国_19
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+- name: 美国_54
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  type: trojan
+- name: 'US美国 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 🇺🇸 美国 华盛顿Cogent通信公司
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  port: 443
+  server: 38.60.168.129
+  skip-cert-verify: false
+  type: trojan
+- name: 'US美国 #40'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.166
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
+- name: 美国_5
+  password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
+  port: 443
+  server: blog.webex.com
+  sni: unnes.ac.id.yxls.eu.cc
+  type: trojan
+- name: 'US美国 #81'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: 美国_13
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  sni: www.calmlunch.com
+  type: trojan
+- name: 美国_24
+  password: MITIVPN
+  port: 443
+  server: 104.16.72.41
+  sni: De.App-Cloud.ir
+  type: trojan
+- name: 'US美国 #78'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: '%2Fassignment'
+- name: '美国 #120'
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 45.131.5.9
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+- alpn:
+  - http/1.1
+  name: 'US美国 #80'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'

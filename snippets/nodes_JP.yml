@@ -1,5 +1,4 @@
 proxies:
-<<<<<<< HEAD
 - alterId: 0
   cipher: auto
   name: 'A - 🇯🇵 JP 04 TG: @nodpai'
@@ -9,8 +8,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -34,4 +31,10 @@ proxies:
   server: 18.163.103.6
   skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- name: 日本_2
+  password: PI36027154
+  port: 443
+  server: large-baboon.rooster465.autos
+  sni: large-baboon.rooster465.autos
   type: trojan

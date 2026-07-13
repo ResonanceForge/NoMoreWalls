@@ -1,5 +1,4 @@
 proxies:
-<<<<<<< HEAD
 - name: 'A - 🇭🇰 HK 01 TG: @nodpai'
   password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
   port: 5228
@@ -56,8 +55,6 @@ proxies:
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
 - name: 🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -108,7 +105,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-<<<<<<< HEAD
 - name: 🇭🇰HK_1|2.6MB/s
   network: tcp
   password: 1df3ece1218bedba28c6c6ac726a07bb
@@ -119,8 +115,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
 - name: HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443
@@ -129,7 +123,6 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-<<<<<<< HEAD
 - name: 🇭🇰HK_11 | ⬇️ 1.2MB/s
   network: ws
   port: 8880
@@ -230,5 +223,135 @@ proxies:
     headers:
       host: hk.laoyoutiao.link
     path: /Telegram@WangCai2/?ed
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
+- name: 🇭🇰
+  network: ws
+  port: 80
+  server: 91.193.58.196
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: '🇭🇰 #1'
+  network: ws
+  port: 80
+  server: 91.193.58.22
+  tls: false
+  type: vless
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+  ws-opts:
+    headers:
+      Host: plain-darkness-90ea.259.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
+- name: 香港
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg3.auragg.org
+  skip-cert-verify: true
+  sni: argg3.auragg.org
+  tls: false
+  type: hysteria2
+- name: '🇭🇰 #2'
+  network: ws
+  port: 80
+  server: 91.193.58.203
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: '🇭🇰 #3'
+  network: ws
+  port: 80
+  server: 91.193.58.79
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: '香港 #1'
+  network: tcp
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  type: trojan
+- name: '🇭🇰 #4'
+  network: ws
+  port: 80
+  server: 91.193.58.25
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: '🇭🇰 #5'
+  network: ws
+  port: 80
+  server: 91.193.58.244
+  tls: false
+  type: vless
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+  ws-opts:
+    headers:
+      Host: plain-darkness-90ea.259.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
+- name: '🇭🇰 #6'
+  network: ws
+  port: 80
+  server: 91.193.58.20
+  tls: false
+  type: vless
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+  ws-opts:
+    headers:
+      Host: plain-darkness-90ea.259.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
+- name: '🇭🇰 #7'
+  network: ws
+  port: 80
+  server: 91.193.58.247
+  tls: false
+  type: vless
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+  ws-opts:
+    headers:
+      Host: plain-darkness-90ea.259.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
+- flow: xtls-rprx-vision
+  name: 香港_2
+  network: tcp
+  port: 60000
+  server: 45.144.174.72
+  servername: forex.prod.cnyes.cool
+  tls: false
+  type: vless
+  uuid: 9402e506-6907-4fe6-9c41-c5e60c86b621
+  ws-opts:
+    path: /
+- name: 香港_1
+  password: PI36027154
+  port: 443
+  server: moved-osprey.rooster465.autos
+  sni: moved-osprey.rooster465.autos
+  type: trojan
+- name: '🇭🇰 #8'
+  network: ws
+  port: 80
+  server: 91.193.58.23
+  tls: false
+  type: vless
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+  ws-opts:
+    headers:
+      Host: plain-darkness-90ea.259.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2

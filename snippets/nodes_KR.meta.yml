@@ -1,5 +1,4 @@
 proxies:
-<<<<<<< HEAD
 - name: 'A - 🇰🇷 KR 01 TG: @nodpai'
   network: ws
   port: 8880
@@ -28,15 +27,6 @@ proxies:
   skip-cert-verify: true
   sni: dev.aoliuqu.press
   type: trojan
-=======
-- name: 🇰🇷KR_1|5.1MB/s
-  password: H7mP2xY9kJ4nQ9wR5tF6vB3z
-  port: 443
-  server: vpn-kr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-002.fastervpn.world
-  type: hysteria2
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
   udp: true
 - name: KR_speednode_0014
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
@@ -46,7 +36,6 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-<<<<<<< HEAD
 - name: 🇰🇷KR_13 | ⬇️ 1.2MB/s
   network: ws
   port: 8880
@@ -184,5 +173,259 @@ proxies:
     headers:
       host: vngsupply.ip-ddns.com
     path: /ycqlKbi40f2kVjZS?ed=2560
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: KR VLESS-770
+  network: tcp
+  port: 443
+  server: s10026.ccgfw.top
+  servername: u695099u80427469s10024.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 80427469s10024.gogocs.xyz
+    path: ''
+- name: 'KR韩国 #1'
+  password: C0DD7bgChaltqnh/T2az6ijM
+  port: 20000
+  server: 193.123.228.188
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: KR VLESS-845
+  network: tcp
+  port: 443
+  server: 158.247.232.160
+  servername: u695099u1494b595s9885.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 1494b595s9885.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: KR VLESS-851
+  network: tcp
+  port: 443
+  server: 64.176.232.14
+  servername: u695099u1bfb03a3s9886.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 1bfb03a3s9886.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 'KR VLESS-823 #1'
+  network: tcp
+  port: 443
+  server: 141.164.45.237
+  servername: u695099u80427469s10024.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 80427469s10024.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: KR VLESS-823
+  network: tcp
+  port: 443
+  server: s10025.okgfwbackxyz.xyz
+  servername: u695099u80427469s10024.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 80427469s10024.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: KR VLESS-839
+  network: tcp
+  port: 443
+  server: s9887.okgfw.top
+  servername: u695099u1bfb03a3s9886.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 1bfb03a3s9886.gogocs.xyz
+    path: ''
+- name: 韩国
+  password: d5m-5bGOsVbFgRlxsEyO3pCF
+  port: 55020
+  server: 8.148.4.25
+  skip-cert-verify: true
+  sni: 8.148.4.25
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: KR VLESS-840
+  network: tcp
+  port: 443
+  server: s9888.okgg.top
+  servername: u695099u1bfb03a3s9886.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 1bfb03a3s9886.gogocs.xyz
+    path: ''
+- name: 🇰🇷 韩国 首尔Amazon数据中心
+  password: H7mP2xY9kJ4nQ9wR5tF6vB3z
+  port: 443
+  server: vpn-kr-002.fastervpn.world
+  skip-cert-verify: false
+  sni: vpn-kr-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: KR VLESS-796
+  network: tcp
+  port: 443
+  server: s9862.csgfw.top
+  servername: u695099u27bfe3a3s9860.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 27bfe3a3s9860.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: KR VLESS-853
+  network: tcp
+  port: 443
+  server: 158.247.238.115
+  servername: u695099u27bfe3a3s9860.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 27bfe3a3s9860.gogocs.xyz
+    path: ''
+- client-fingerprint: chrome
+  name: 'KR韩国 #3'
+  network: ws
+  port: 11090
+  server: 14.37.84.94
+  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: efe89173-e683-496f-bcf7-a9e7ad1ae574
+  ws-opts:
+    headers:
+      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+    path: '%2F%40Marisa_kristi'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: KR VLESS-803
+  network: tcp
+  port: 443
+  server: s9863.uugfw.top
+  servername: u695099u27bfe3a3s9860.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 27bfe3a3s9860.gogocs.xyz
+    path: ''
+- client-fingerprint: chrome
+  name: 'KR韩国 #4'
+  network: ws
+  port: 46177
+  server: 61.111.244.247
+  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6b56bad4-8eb7-46f3-af28-120420c504a6
+  ws-opts:
+    headers:
+      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+    path: '%2F%40Marisa_kristi'
+- client-fingerprint: chrome
+  name: 'KR韩国 #5'
+  network: ws
+  port: 11201
+  server: 211.37.103.158
+  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eab4a63a-8c50-47c8-93db-7be873c4471b
+  ws-opts:
+    headers:
+      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+    path: '%2F%40Marisa_kristi'

@@ -1,5 +1,4 @@
 proxies:
-<<<<<<< HEAD
 - encryption: none
   name: 'A - 🇩🇪 DE 01 TG: @nodpai'
   network: tcp
@@ -72,8 +71,6 @@ proxies:
   tls: true
   type: vless
   uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -162,7 +159,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-<<<<<<< HEAD
 - cipher: chacha20-ietf-poly1305
   name: DE_dceee_0003
   password: 453u6Gcei04NyXbrWLKa0M
@@ -347,5 +343,385 @@ proxies:
     headers:
       host: vngsupply.ip-ddns.com
     path: /ycqlKbi40f2kVjZS?ed=2560
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
+- name: DE德国
+  network: ws
+  port: 80
+  server: 199.232.112.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #37'
+  network: ws
+  port: 80
+  server: 151.101.8.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #108'
+  network: ws
+  port: 80
+  server: 199.232.24.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: 'DE德国 #3'
+  network: ws
+  port: 80
+  server: 199.232.212.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #4'
+  network: ws
+  port: 80
+  server: 199.232.80.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: DE VLESS-787
+  network: tcp
+  port: 443
+  server: s662.csgfw.top
+  servername: u695099ub02ce874s660.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: b02ce874s660.ccgfw.top
+    path: ''
+- name: '美国 #107'
+  network: ws
+  port: 80
+  server: 199.232.140.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #104'
+  network: ws
+  port: 80
+  server: 146.75.116.19
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #62'
+  network: ws
+  port: 80
+  server: 151.101.156.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: C6XuP7qLuICjL8uqnj53IcOTPNhVSdandnqH60gmtWc
+    short-id: '!!str 1a301872a9a1'
+  server: g.r.stockym.com
+  servername: amd.com
+  tls: false
+  type: vless
+  uuid: f09d18a9-d778-4e00-a49a-c0063d1c1b11
+  ws-opts:
+    headers:
+      Host: v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---
+    path: '%2F'
+- name: '美国 #57'
+  network: ws
+  port: 80
+  server: 151.101.236.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #42'
+  network: ws
+  port: 80
+  server: 199.232.16.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- grpc-opts:
+    grpc-service-name: grpc-direct
+  name: 德国_1
+  network: grpc
+  port: 2053
+  server: 5.129.250.210
+  tls: true
+  type: vless
+  uuid: 9316bdbe-64c3-11f1-a103-aef63c7126b0
+  ws-opts:
+    path: /
+- name: 🇩🇪
+  network: xhttp
+  port: 80
+  server: 146.75.55.57
+  tls: false
+  type: vless
+  uuid: e4f83b5e-2ac5-4040-ade6-afb095a8d1c2
+  ws-opts:
+    headers:
+      Host: Fred443portlarucin.com
+    path: /1ht
+- name: '美国 #59'
+  network: ws
+  port: 80
+  server: 146.75.120.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #34'
+  network: ws
+  port: 80
+  server: 199.232.40.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #123'
+  network: ws
+  port: 80
+  server: 151.101.4.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #116'
+  network: ws
+  port: 80
+  server: 199.232.52.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: 'DE德国 #15'
+  network: ws
+  port: 80
+  server: 104.18.48.51
+  tls: false
+  type: vless
+  uuid: 104f2abd-acbb-4fdf-aab6-38135b039110
+  ws-opts:
+    headers:
+      Host: falling-river-b997.hamid989898989898.workers.dev
+    path: '%2FeyJqdW5rIjoiYnJneTIxQUtSIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuODkuNTIuMTI0IiwiNjQuNDkuMTUuMTY0IiwiMTk4LjEwNS4xMjMuMjUiLCI4Mi4yNi4xMzYuMzIiLCI4Mi4yNi45NC4yOCIsIjE1NS4xMDMuNzEuMjEyIiwiMTg1LjIzNC42Ni45MSIsIjk0LjEzMS4xMjMuNzQiLCIxMzguMTI0LjEwNy4xMjQiLCI5NC4xMzEuMTA4LjEzNiIsIjE5NS4xNi43NC43MyIsIjgyLjI2LjE5OC44OSIsIjEzOC4xMjQuMTA3LjM1IiwiMi41Ni4xMjcuMTM3IiwiMTA3LjE4MS4xNTUuNzEiLCIxMzguMTI0LjEwNy4yMTYiLCIxMDcuMTYxLjE3NC45OSJdfQ%3D%3D'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: DE VLESS-781
+  network: tcp
+  port: 443
+  server: 185.230.162.56
+  servername: u695099ub02ce874s660.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: b02ce874s660.ccgfw.top
+    path: ''
+- name: 'DE德国 #16'
+  network: ws
+  port: 80
+  server: 199.232.232.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #78'
+  network: ws
+  port: 80
+  server: 151.101.240.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #99'
+  network: ws
+  port: 80
+  server: 151.101.204.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: 'DE德国 #20'
+  network: ws
+  port: 80
+  server: 151.101.0.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: DE VLESS-757
+  network: tcp
+  port: 443
+  server: s661.wagahaha.xyz
+  servername: u695099ub02ce874s660.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: b02ce874s660.ccgfw.top
+    path: ''
+- name: 'DE德国 #22'
+  network: ws
+  port: 80
+  server: 151.101.64.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #114'
+  network: ws
+  port: 80
+  server: 199.232.172.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '🇩🇪 #1'
+  network: xhttp
+  port: 80
+  server: 146.75.55.218
+  tls: false
+  type: vless
+  uuid: e4f83b5e-2ac5-4040-ade6-afb095a8d1c2
+  ws-opts:
+    headers:
+      Host: Fred443portlarucin.com
+    path: /1ht
+- name: '🇩🇪 #2'
+  network: xhttp
+  port: 80
+  server: 146.75.55.236
+  tls: false
+  type: vless
+  uuid: e4f83b5e-2ac5-4040-ade6-afb095a8d1c2
+  ws-opts:
+    headers:
+      Host: Fred443portlarucin.com
+    path: /1ht
+- name: '美国 #117'
+  network: ws
+  port: 80
+  server: 151.101.244.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: '美国 #124'
+  network: ws
+  port: 80
+  server: 151.101.188.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
+- name: 'DE德国 #34'
+  network: ws
+  port: 80
+  server: 146.75.88.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'

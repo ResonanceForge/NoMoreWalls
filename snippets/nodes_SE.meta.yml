@@ -9,7 +9,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-<<<<<<< HEAD
 - alpn:
   - http/1.1
   client-fingerprint: random
@@ -44,5 +43,15 @@ proxies:
     headers:
       host: carlotta.shoorekeeper.cloudns.org
     path: /proxyip=zani.yaemiko.ggff.net
-=======
->>>>>>> 78aa87ace5de92dc5246f3d7cc591736df121cab
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '美国 #90'
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: zOPjTJV8xgGMmD0Mg0jWsRYSOsa_2pp7SSs88EFK6nw
+  server: 81.90.21.104
+  servername: se.realitynetwork.eu
+  tls: false
+  type: vless
+  uuid: fe604665-7c82-44cf-a067-869fe9b2abae
