@@ -1,31 +1,30 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '40238'
-  server: 208.84.102.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 54cbda00-c8f7-4954-8401-e04899129abe
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2F%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
   server: 104.26.6.159
   sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.72.41
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
@@ -55,7 +54,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_f57e0_0054
+  name: US_c56da_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
