@@ -1,32 +1,43 @@
 proxies:
-- name: '美国+CloudFlare节点 #2'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.26.6.159
-  sni: www.creationlong.org
+  server: 172.66.44.211
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.multiplydose.com
     path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.12
-  sni: www.ignitelimit.com
+  server: 104.20.6.134
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: www.multiplydose.com
+    path: '%2F%2Fassignment'
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  sni: ''
+  type: trojan
 - name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.72.41
+  server: 104.16.71.213
+  skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.calmlunch.com
     path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
