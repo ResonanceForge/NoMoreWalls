@@ -98,23 +98,19 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|2.1MB/s
+  name: 🇩🇪DE_1|1.9MB/s
   network: ws
-  port: '443'
-  server: love.ns.cloudflare.com
-  servername: kcxal.freshfieldhub-ili.sbs
+  port: 2087
+  server: 104.26.13.217
+  servername: vp8.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
+  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
   ws-opts:
     headers:
-      Host: kcxal.freshfieldhub-ili.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /sea
-  xudp: true
+      Host: vp8.cc.cd
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: DE_f57e0_0003
   password: 453u6Gcei04NyXbrWLKa0M
