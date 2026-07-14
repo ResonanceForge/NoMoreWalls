@@ -1,12 +1,8 @@
 proxies:
 - name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 194.53.53.30
+  network: tcp
+  port: 2090
+  server: fn.fifapes.monster
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055

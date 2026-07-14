@@ -1,26 +1,8 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
-  port: 443
-  server: 38.60.168.129
-  type: trojan
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
 - name: 美国+V2CROSS.COM
-  network: tcp
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
   server: 149.104.104.58
-  skip-cert-verify: false
   sni: 149.104.104.58
   type: trojan
 - name: 美国|@ripaojiedian
@@ -53,17 +35,24 @@ proxies:
     method: GET
     path:
     - /x
-  name: 🇺🇸US_1|2.1MB/s
+  name: 🇺🇸US_1|1.9MB/s
   network: http
-  port: 52080
+  port: 1001
   server: 154.36.128.61
   tls: false
   type: vmess
   udp: true
-  uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
+  uuid: 9ae252b6-ec0a-431a-b5da-38f2ece84683
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|3.6MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.145.57.90
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: US_88e2c_0054
+  name: US_6b2d6_0054
   port: 13932
   server: 104.253.134.92
   skip-cert-verify: true
