@@ -1,11 +1,12 @@
 proxies:
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+- name: 俄罗斯+V2CROSS.COM
   network: ws
   port: 8880
-  server: 45.67.215.30
+  server: 194.53.53.30
+  tls: false
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: vms.lifetime48.workers.dev
+      Host: vms.lifetime51.workers.dev
     path: /
