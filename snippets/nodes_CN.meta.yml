@@ -1,16 +1,14 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸US_2|3.6MB/s
+  name: 广东省广州市+腾讯云
   network: tcp
-  port: '40082'
+  port: 40082
   reality-opts:
     public-key: GBCcf9j7irjlYN4Z5SW5ssP9ACHCnTvHk8PI9LHkqmI
     short-id: '!!str d32620c540976780'
   server: 159.75.20.13
   servername: www.cloudflare.com
-  tls: true
+  tls: false
   type: vless
-  udp: true
   uuid: 26bb3a99-4583-4744-bb8e-a5c823ad29e9
-  xudp: true
