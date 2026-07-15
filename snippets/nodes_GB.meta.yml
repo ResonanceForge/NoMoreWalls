@@ -1,20 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|2.0MB/s
+- name: 英国+V2CROSS.COM
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: GiKeeUCNajwz3ha0wB75SOmHge-xShneuTqiMwuNljI
-    short-id: '!!str e206677dbabc674f'
-  server: 82.47.22.20
-  servername: 5post-gate.x5.ru
-  tls: true
+  port: 58748
+  server: ara.public.lat
+  tls: false
   type: vless
-  udp: true
-  uuid: a2308572-ee3b-489a-988d-8de9e28e1c60
-  xudp: true
+  uuid: 21e22226-0b96-4b4e-9a91-5c7f9e3f1760
+  ws-opts:
+    headers:
+      Host: Proxy-Se7en---Proxy-Se7en---Proxy-Se7en---Proxy-Se7en---Proxy-Se7en---Proxy-Se7en---Proxy-Se7en
+    path: '%2F'
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN
