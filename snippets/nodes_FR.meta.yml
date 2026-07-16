@@ -1,27 +1,19 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_1|3.4MB/s
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|2.3MB/s
   network: ws
-  port: '8443'
-  server: vps.tirexnet.kdns.fr
-  servername: vps.tirexnet.kdns.fr
-  tls: true
-  type: vless
+  password: humanity
+  port: '443'
+  server: 104.18.152.97
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: 895b71ff-3957-4c27-af2a-1f1706c64beb
   ws-opts:
     headers:
-      Host: vps.tirexnet.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /tirexpath
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /assignment
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
