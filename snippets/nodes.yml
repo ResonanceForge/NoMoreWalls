@@ -89,39 +89,45 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
 - name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
-  sni: www.multiplydose.com
+  server: 104.26.6.159
+  skip-cert-verify: false
+  sni: www.creationlong.org
   type: trojan
   ws-opts:
     headers:
-      Host: www.multiplydose.com
-    path: '%2F%252F%252Fassignment'
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.128
-  type: trojan
+      Host: www.creationlong.org
+    path: /assignment
 - cipher: chacha20-ietf-poly1305
   name: 印度+V2CROSS.COM
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
   port: 28061
-  server: 103.111.114.82
+  server: 103.111.114.71
   type: ss
-- name: '罗马尼亚+V2CROSS.COM #1'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: 美国+华盛顿Cogent通信公司
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
   port: 443
-  server: 185.137.157.156
+  server: 38.60.168.129
+  type: trojan
+- name: 法国巴黎+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 日本+V2CROSS.COM
+  password: '3632736327'
+  port: 3411
+  server: us03180923.tmdsb.org
+  sni: us03180923.tmdsb.org
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -186,7 +192,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡|@ripaojiedian
+- name: 🇸🇬SG_3|3.4MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -244,144 +250,74 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵JP_1|2.5MB/s
-  password: CF68213490
-  port: 443
-  server: evolving-mollusk.rooster465.autos
-  skip-cert-verify: true
-  sni: evolving-mollusk.rooster465.autos
-  type: trojan
-- name: 🇵🇱PL_1|2.1MB/s
-  password: KV63147582
-  port: 443
-  server: more-trout.rooster465.autos
-  skip-cert-verify: true
-  sni: more-trout.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG_1|3.6MB/s
-  password: CF68213490
-  port: 443
-  server: normal-macaque.rooster465.autos
-  skip-cert-verify: true
-  sni: normal-macaque.rooster465.autos
-  type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬SG_2|4.6MB/s
-  password: CF68213490
-  port: '443'
-  server: brief-warthog.rooster465.autos
-  skip-cert-verify: false
-  sni: brief-warthog.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_1|3.4MB/s
-  password: CF68213490
-  port: '443'
-  server: pure-ram.rooster465.autos
-  skip-cert-verify: false
-  sni: pure-ram.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.3MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.97
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.5MB/s
-  password: CF68213490
-  port: '443'
-  server: learning-wren.rooster465.autos
-  skip-cert-verify: false
-  sni: learning-wren.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_5|3.5MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: internal-krill.rooster465.autos
-  skip-cert-verify: false
-  sni: internal-krill.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_6|5.1MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: relevant-oryx.rooster465.autos
-  skip-cert-verify: false
-  sni: relevant-oryx.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_7|5.2MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: bright-cicada.rooster465.autos
-  skip-cert-verify: false
-  sni: bright-cicada.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_2|5.4MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: concrete-aardvark.rooster465.autos
-  skip-cert-verify: false
-  sni: concrete-aardvark.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_8|3.8MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: active-hippo.rooster465.autos
-  skip-cert-verify: false
-  sni: active-hippo.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_9|4.5MB/s
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: grateful-owl.rooster465.autos
-  skip-cert-verify: false
-  sni: grateful-owl.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇰🇷KR_2|3.4MB/s
-  password: CF68213490
-  port: '443'
-  server: pure-ram.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_8|2.2MB/s
+  name: 🇩🇪DE_11|2.6MB/s
   network: tcp
   password: OD90375861
   port: '443'
-  server: together-insect.rooster465.autos
+  server: busy-hermit.rooster465.autos
   skip-cert-verify: false
-  sni: together-insect.rooster465.autos
+  sni: busy-hermit.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_4|1.6MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- client-fingerprint: chrome
+  name: 🇵🇱PL_1|3.7MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: emerging-weevil.rooster465.autos
+  skip-cert-verify: false
+  sni: emerging-weevil.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_1|3.3MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: polite-coyote.rooster465.autos
+  skip-cert-verify: false
+  sni: polite-coyote.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇳🇱NL_5|2.5MB/s
+  password: KV63147582
+  port: '443'
+  server: 89.39.70.233
+  skip-cert-verify: false
+  sni: game-firefly.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK_1|1.5MB/s
+  network: tcp
+  password: KV63147582
+  port: '443'
+  server: desired-tahr.rooster465.autos
+  skip-cert-verify: false
+  sni: desired-tahr.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|2.6MB/s
+  network: tcp
+  password: KV63147582
+  port: '443'
+  server: popular-meerkat.rooster465.autos
+  skip-cert-verify: false
+  sni: popular-meerkat.rooster465.autos
   type: trojan
   udp: true
 - name: AE_speednode_0001
