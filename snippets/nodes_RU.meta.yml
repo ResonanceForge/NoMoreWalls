@@ -1,1 +1,53 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 59978
+  reality-opts:
+    public-key: zU3_YlbtgNxg4_mPQzmz3aBCET3vUNbBMYrEztVFs0Q
+    short-id: '!!str c3a0d1'
+  server: 194.87.69.48
+  servername: ymail.com
+  tls: false
+  type: vless
+  uuid: 1136f25a-4925-4ba6-9620-771dd9553f92
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug
+    short-id: '!!str 5e3ab3ab228625'
+  server: 185.209.15.133
+  servername: conetnet-vioooe-video.ru
+  tls: false
+  type: vless
+  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
+- auth: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  name: 🇷🇺RU_1|2.0MB/s
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 8443
+  server: fl02.auragg.org
+  skip-cert-verify: true
+  sni: fl02.auragg.org
+  type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: 213.219.212.24
+  servername: eh.vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0c03d71-8139-4639-bb05-e444e07a0d2b
+  xudp: true
