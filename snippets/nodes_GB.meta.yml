@@ -3,15 +3,28 @@ proxies:
   flow: xtls-rprx-vision
   name: 英国+社会保险安全部
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: KYNrRy0ElOU9Hg5tmWRwpf-Ff3R8Gjcjdk91jZt2nGg
-    short-id: '!!str bb6c8a1e7c'
-  server: 51.250.25.216
-  servername: cdn.tracker.yandex.net
+    public-key: XvqUR-fhL0E9z9b_8q_uEvyE-lpC-l1D4CivPKSthh4
+    short-id: '!!str cbb840f5'
+  server: 51.195.94.187
+  servername: addons.mozilla.org
   tls: false
   type: vless
-  uuid: 4392b776-41a2-4300-b545-a3d2724b605b
+  uuid: 5c221de4-590b-41b8-8a3d-4c7dd6d0948f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JfPS2DUo4zsn-fn1lI8om8uCXEUyyUDutxfpLryUIx0
+    short-id: '!!str 03ff6d202621bc78'
+  server: 31.77.147.204
+  servername: dl.google.com
+  tls: false
+  type: vless
+  uuid: 78b4c08b-b191-4550-9406-15ab3ff87bd9
 - name: 🇬🇧V2RayyNGvpnکانال ما 🇬🇧
   obfs: salamander
   obfs-password: TeLeGRam=V2RayyNGvpn
@@ -22,34 +35,6 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- client-fingerprint: qq
-  name: 🇬🇧GB_1|2.5MB/s
-  port: 443
-  reality-opts:
-    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
-    short-id: '!!str 1559b440'
-  server: 77.110.113.188
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|2.2MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: '!!str 6d6f13013d3e1d0c'
-  server: g8.steptofsvo.com
-  servername: g8.steptofsvo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-  xudp: true
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN
