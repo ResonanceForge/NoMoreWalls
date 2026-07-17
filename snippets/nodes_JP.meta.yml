@@ -1,4 +1,23 @@
 proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 日本+东京Choopa数据中心
+  network: tcp
+  port: 443
+  server: 45.76.199.51
+  servername: u695099ue135b21fs10030.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: e135b21fs10030.gogocs.xyz
+    path: ''
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
