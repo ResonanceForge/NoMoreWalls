@@ -9,19 +9,23 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_1|1.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.133.180.164
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_2|2.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 18.175.139.211
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB_1|2.2MB/s
+  network: grpc
+  port: '2087'
+  reality-opts:
+    public-key: YPbKkg4p8zdxymjtC0qBiDkiMIlu0Iutu5zEbgR46So
+    short-id: '!!str c226283c4de5b1ad'
+  server: 31.76.113.160
+  servername: ads.x5.ru
+  tls: true
+  type: vless
   udp: true
+  uuid: b90064cf-3f61-4f37-b549-a72100a8c9db
+  xudp: true
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN
