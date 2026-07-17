@@ -1,19 +1,22 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+社会保险安全部
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: MZ4v9kcs6nnAKuCAz4pvViC50BoM3exoL_5Yi-1b1kE
-    short-id: '!!str 59de66570907b747'
-  server: 51.250.44.66
-  servername: ads.x5.ru
+- name: 🇬🇧V2RayyNGvpnکانال ما 🇬🇧
+  obfs: salamander
+  obfs-password: TeLeGRam=V2RayyNGvpn
+  password: V2RayyNGvpn
+  port: 58410
+  server: 51.89.225.225
+  skip-cert-verify: true
+  sni: www.oracle.com
   tls: false
-  type: vless
-  uuid: bbae962a-b6e9-46e6-990c-6abf13e6b075
+  type: hysteria2
 - cipher: aes-256-cfb
   name: 🇬🇧GB_1|1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.133.180.164
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_2|2.1MB/s
   password: amazonskr05
   port: '443'
   server: 18.175.139.211
