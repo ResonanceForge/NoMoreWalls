@@ -1,11 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_1|1.6MB/s
-  password: Vr06rU_v1vFPYeXq9zbsAA
-  port: '1080'
-  server: 195.12.48.126
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '2078'
+  server: 93.180.134.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN
