@@ -1,17 +1,14 @@
 proxies:
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 🇸🇪SE_1|1.8MB/s
-  network: grpc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 瑞典+V2CROSS.COM
+  network: tcp
   port: 443
   reality-opts:
-    public-key: uYXyM2Nwmqw3bSDSV95XmpbOaAYBmBTh619Vl8lFJRs
-    short-id: '!!str 60cde13ab21686e9'
-  server: stats.oneoker.com
-  servername: stats.oneoker.com
-  tls: true
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: '!!str 43dcff53849b81e6'
+  server: 185.231.101.89
+  servername: se.quattro-tech.ru
+  tls: false
   type: vless
-  udp: true
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+  uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
