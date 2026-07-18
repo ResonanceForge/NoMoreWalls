@@ -1,49 +1,164 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 美国+V2CROSS.COM
-  password: Vr06rU_v1vFPYeXq9zbsAA
-  port: 1080
-  server: 156.146.40.84
-  type: ss
 - client-fingerprint: chrome
   name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.18.206.22
-  servername: amooaliii.net
+  server: 172.64.42.44
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: amooaliii.net
-    path: '%2Fjdhfyws'
-- name: '美国+V2CROSS.COM #1'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 2096
-  server: 104.26.5.224
-  servername: vp23.cc.cd
+  port: 443
+  server: 104.20.6.134
+  servername: r.meDiASHOPPp.sbS
+  tls: true
+  type: vless
+  uuid: 2088ef0d-4d2c-43b3-874b-b6a03531c81b
+  ws-opts:
+    headers:
+      Host: r.mediashoppp.sbs
+    path: /eyJqdW5rIjoiVVpPeXNodUFQMHNVcU12aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 172.64.147.15
+  servername: tianshu13.pages.dev
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: tianshu13.pages.dev
+    path: /pyip=proxyip.sg.cmliussss.net
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8443
+  server: 185.241.42.81
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4fp=chrome
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: 172.64.146.28
+  servername: tianshu13.pages.dev
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: tianshu13.pages.dev
+    path: /pyip=proxyip.sg.cmliussss.net
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 443
+  server: 172.67.73.19
+  servername: vp38.cc.cd
   tls: true
   type: vless
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: vp23.cc.cd
-    path: /fp=chrome
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+      Host: vp38.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #5'
+  network: ws
   port: 443
-  server: 38.54.64.247
-  sni: 38.54.64.247
-  type: trojan
+  server: 162.159.34.23
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
+- client-fingerprint: firefox
+  name: 🇺🇸 美国 | USA 14
+  network: ws
+  port: 443
+  server: 199.232.29.204
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+- client-fingerprint: chrome
+  name: '美国+V2CROSS.COM #2'
+  network: ws
+  port: 443
+  server: 199.232.22.39
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 443
+  server: 172.64.53.27
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #7'
+  network: ws
+  port: 8443
+  server: 104.17.156.166
+  servername: vp31.cc.cd
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp31.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #8'
+  network: ws
+  port: 443
+  server: 172.64.145.186
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512'
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -332,20 +447,6 @@ proxies:
   network: ws
   port: 443
   server: 199.232.249.110
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-- client-fingerprint: firefox
-  name: 🇺🇸 美国 | USA 14
-  network: ws
-  port: 443
-  server: 199.232.29.204
   servername: ssl.fastly.com
   tls: true
   type: vless
