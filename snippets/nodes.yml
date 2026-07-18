@@ -89,27 +89,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱NL_1|1.5MB/s
-  network: raw
-  port: '10049'
-  server: family.bucket.x9.kfc-520.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-  xudp: true
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+- name: 罗马尼亚+V2CROSS.COM
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 38.54.64.247
-  skip-cert-verify: true
-  sni: 38.54.64.247
+  server: 185.137.157.149
+  sni: 185.137.157.149
   type: trojan
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.6.159
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 荷兰+V2CROSS.COM
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
@@ -125,32 +119,27 @@ proxies:
   port: 28061
   server: 103.111.114.71
   type: ss
-- name: 罗马尼亚+V2CROSS.COM
+- name: '罗马尼亚+V2CROSS.COM #1'
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.140
+  server: 185.137.157.145
+  sni: ''
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 德国 法尔肯施泰因HETZNER
-  network: tcp
-  port: '14991'
-  server: me.echo-license.gr
+  name: 日本 V2CROSS.COM
+  network: raw
+  port: '10038'
+  server: family.bucket.x9.kfc-520.com
   servername: ''
   tls: false
   type: vmess
-  uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- name: '罗马尼亚+V2CROSS.COM #2'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 104.20.6.134
-  sni: www.multiplydose.com
+  server: 185.137.157.128
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2F%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -322,6 +311,18 @@ proxies:
   type: vmess
   udp: true
   uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱NL_1|1.5MB/s
+  network: raw
+  port: '10049'
+  server: family.bucket.x9.kfc-520.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
   xudp: true
 - cipher: aes-256-cfb
   name: 🇩🇪DE_10|2.4MB/s
