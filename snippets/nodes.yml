@@ -90,49 +90,15 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 罗马尼亚+V2CROSS.COM
-  network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.145
-  skip-cert-verify: false
+  server: 185.137.157.151
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.140
-  type: trojan
-- name: '罗马尼亚+V2CROSS.COM #2'
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.135
-  skip-cert-verify: false
-  type: trojan
-- name: 美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2F%2Fassignment'
 - cipher: chacha20-ietf-poly1305
   name: 印度+V2CROSS.COM
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
   port: 28061
-  server: 103.111.114.80
+  server: 103.111.114.82
   type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -255,100 +221,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵 日本 | JPN
-  password: JA96378052
-  port: 443
-  server: stable-racer.rooster465.autos
-  skip-cert-verify: true
-  sni: stable-racer.rooster465.autos
-  type: trojan
-  udp: true
 - name: 🇯🇵 日本 | JPN 5
   password: JA96378052
   port: 443
   server: square-skink.rooster465.autos
   skip-cert-verify: true
   sni: square-skink.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 8
-  network: tcp
-  password: HW85960347
-  port: 443
-  server: advanced-ox.rooster465.autos
-  skip-cert-verify: true
-  sni: advanced-ox.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 9
-  network: tcp
-  password: JA96378052
-  port: 443
-  server: certain-kit.rooster465.autos
-  skip-cert-verify: true
-  sni: certain-kit.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 10
-  password: HW85960347
-  port: 443
-  server: cunning-grub.rooster465.autos
-  skip-cert-verify: true
-  sni: cunning-grub.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 12
-  password: PD07395842
-  port: 443
-  server: legible-chipmunk.rooster465.autos
-  skip-cert-verify: true
-  sni: legible-chipmunk.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 13
-  network: tcp
-  password: HW85960347
-  port: 443
-  server: united-grouse.rooster465.autos
-  skip-cert-verify: true
-  sni: united-grouse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 14
-  network: tcp
-  password: HW85960347
-  port: 443
-  server: proper-mouse.rooster465.autos
-  skip-cert-verify: true
-  sni: proper-mouse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 17
-  network: tcp
-  password: HW85960347
-  port: 443
-  server: normal-dory.rooster465.autos
-  skip-cert-verify: true
-  sni: normal-dory.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 19
-  password: JA96378052
-  port: 443
-  server: proven-stud.rooster465.autos
-  skip-cert-verify: true
-  sni: proven-stud.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 20
-  network: tcp
-  password: JA96378052
-  port: 443
-  server: ruling-toucan.rooster465.autos
-  skip-cert-verify: true
-  sni: ruling-toucan.rooster465.autos
   type: trojan
   udp: true
 - name: 🇯🇵 日本 | JPN 21
@@ -359,92 +237,12 @@ proxies:
   sni: deep-ringtail.rooster465.autos
   type: trojan
   udp: true
-- name: 🇯🇵 日本 | JPN 22
-  password: HW85960347
-  port: 443
-  server: fleet-pony.rooster465.autos
-  skip-cert-verify: true
-  sni: fleet-pony.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 23
-  password: HW85960347
-  port: 443
-  server: harmless-gobbler.rooster465.autos
-  skip-cert-verify: true
-  sni: harmless-gobbler.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 2
-  password: PD07395842
-  port: 443
-  server: kind-grizzly.rooster465.autos
-  skip-cert-verify: true
-  sni: kind-grizzly.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 4
-  password: PD07395842
-  port: 443
-  server: excited-ghoul.rooster465.autos
-  skip-cert-verify: true
-  sni: excited-ghoul.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  password: JA96378052
-  port: 443
-  server: aware-corgi.rooster465.autos
-  skip-cert-verify: true
-  sni: aware-corgi.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  password: HW85960347
-  port: 443
-  server: curious-llama.rooster465.autos
-  skip-cert-verify: true
-  sni: curious-llama.rooster465.autos
-  type: trojan
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 6
   password: JA96378052
   port: 443
   server: upward-puma.rooster465.autos
   skip-cert-verify: true
   sni: upward-puma.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 7
-  password: HW85960347
-  port: 443
-  server: happy-porpoise.rooster465.autos
-  skip-cert-verify: true
-  sni: happy-porpoise.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 8
-  password: JA96378052
-  port: 443
-  server: aware-coyote.rooster465.autos
-  skip-cert-verify: true
-  sni: aware-coyote.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 9
-  password: HW85960347
-  port: 443
-  server: settling-grouper.rooster465.autos
-  skip-cert-verify: true
-  sni: settling-grouper.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 10
-  password: JA96378052
-  port: 443
-  server: enough-lamb.rooster465.autos
-  skip-cert-verify: true
-  sni: enough-lamb.rooster465.autos
   type: trojan
   udp: true
 - name: 🇸🇬 新加坡 | SGP 11
@@ -455,53 +253,12 @@ proxies:
   sni: national-dingo.rooster465.autos
   type: trojan
   udp: true
-- name: 🇸🇬 新加坡 | SGP 13
-  password: HW85960347
+- name: 🇺🇸 美国 | USA
+  password: SX95078263
   port: 443
-  server: absolute-teal.rooster465.autos
+  server: legal-glider.rooster465.autos
   skip-cert-verify: true
-  sni: absolute-teal.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 14
-  network: tcp
-  password: HW85960347
-  port: 443
-  server: aware-coyote.rooster465.autos
-  skip-cert-verify: true
-  sni: aware-coyote.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 17
-  password: JA96378052
-  port: 443
-  server: tolerant-fowl.rooster465.autos
-  skip-cert-verify: true
-  sni: tolerant-fowl.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 18
-  password: HW85960347
-  port: 443
-  server: optimum-tuna.rooster465.autos
-  skip-cert-verify: true
-  sni: optimum-tuna.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 19
-  password: JA96378052
-  port: 443
-  server: dominant-jaguar.rooster465.autos
-  skip-cert-verify: true
-  sni: dominant-jaguar.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 21
-  password: JA96378052
-  port: 443
-  server: sharing-filly.rooster465.autos
-  skip-cert-verify: true
-  sni: sharing-filly.rooster465.autos
+  sni: legal-glider.rooster465.autos
   type: trojan
   udp: true
 - name: 🏴‍☠️ 未知地区 | Unknown
@@ -514,7 +271,6 @@ proxies:
   type: trojan
   udp: true
 - name: 🏴‍☠️ 未知地区 | Unknown 2
-  network: tcp
   password: HW85960347
   port: 443
   server: pro-mako.rooster465.autos
@@ -530,14 +286,6 @@ proxies:
   sni: informed-alpaca.rooster465.autos
   type: trojan
   udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown 5
-  password: JA96378052
-  port: 443
-  server: moral-cow.rooster465.autos
-  skip-cert-verify: true
-  sni: moral-cow.rooster465.autos
-  type: trojan
-  udp: true
 - name: 🏴‍☠️ 未知地区 | Unknown 6
   password: JA96378052
   port: 443
@@ -547,191 +295,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_21|4.2MB/s
-  password: JA96378052
-  port: '443'
-  server: 47.130.185.122
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_16|4.5MB/s
-  password: JA96378052
-  port: '443'
-  server: 52.195.11.84
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_22|3.9MB/s
-  password: JA96378052
-  port: '443'
-  server: 52.74.76.236
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_17|5.4MB/s
-  password: JA96378052
-  port: '443'
-  server: 3.112.1.122
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_23|3.1MB/s
-  password: JA96378052
-  port: '443'
-  server: 13.212.210.184
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_18|4.8MB/s
-  password: JA96378052
-  port: '443'
-  server: 18.181.203.134
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_19|5.1MB/s
-  password: JA96378052
-  port: '443'
-  server: 54.178.60.95
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_24|1.6MB/s
-  password: JA96378052
-  port: '443'
-  server: 18.139.54.235
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_25|4.0MB/s
-  password: JA96378052
-  port: '443'
-  server: 13.212.203.196
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_20|5.1MB/s
-  password: JA96378052
-  port: '443'
-  server: 35.73.189.250
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_21|4.9MB/s
-  password: HW85960347
-  port: 443
-  server: outgoing-eagle.rooster465.autos
-  skip-cert-verify: true
-  sni: outgoing-eagle.rooster465.autos
-  type: trojan
-- name: 🇯🇵JP_22|6.7MB/s
-  password: PD07395842
-  port: 443
-  server: on-roughy.rooster465.autos
-  skip-cert-verify: true
-  sni: on-roughy.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇰🇷KR_3|5.0MB/s
-  password: PD07395842
-  port: 443
-  server: together-amoeba.rooster465.autos
-  skip-cert-verify: true
-  sni: together-amoeba.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬SG_26|3.8MB/s
-  password: PD07395842
-  port: 443
-  server: excited-sole.rooster465.autos
-  skip-cert-verify: true
-  sni: excited-sole.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_25|2.6MB/s
-  network: tcp
-  password: HW85960347
-  port: '443'
-  server: casual-bee.rooster465.autos
-  skip-cert-verify: false
-  sni: casual-bee.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬SG_28|2.5MB/s
-  network: tcp
-  password: JA96378052
-  port: '443'
-  server: inspired-goshawk.rooster465.autos
-  skip-cert-verify: false
-  sni: inspired-goshawk.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_26|5.4MB/s
-  network: tcp
-  password: HW85960347
-  port: '443'
-  server: lasting-bobcat.rooster465.autos
-  skip-cert-verify: false
-  sni: lasting-bobcat.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_27|5.2MB/s
-  network: tcp
-  password: HW85960347
-  port: '443'
-  server: on-airedale.rooster465.autos
-  skip-cert-verify: false
-  sni: on-airedale.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_29|3.7MB/s
-  network: tcp
-  password: JA96378052
-  port: '443'
-  server: brave-muskox.rooster465.autos
-  skip-cert-verify: false
-  sni: brave-muskox.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_31|2.7MB/s
-  network: tcp
-  password: HW85960347
-  port: '443'
-  server: cool-lioness.rooster465.autos
-  skip-cert-verify: false
-  sni: cool-lioness.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_32|4.9MB/s
-  network: tcp
-  password: JA96378052
-  port: '443'
-  server: normal-dory.rooster465.autos
-  skip-cert-verify: false
-  sni: normal-dory.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_33|5.4MB/s
-  network: tcp
+  name: 🇯🇵JP_3|7.2MB/s
   password: HW85960347
   port: '443'
   server: elegant-arachnid.rooster465.autos
@@ -739,16 +303,8 @@ proxies:
   sni: elegant-arachnid.rooster465.autos
   type: trojan
   udp: true
-- name: 🇸🇬SG_30|3.4MB/s
-  network: tcp
-  password: JA96378052
-  port: '443'
-  server: normal-cow.rooster465.autos
-  skip-cert-verify: false
-  sni: normal-cow.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬SG_31|4.4MB/s
+- client-fingerprint: chrome
+  name: 🇸🇬SG_11|4.6MB/s
   network: tcp
   password: JA96378052
   port: '443'
@@ -757,43 +313,115 @@ proxies:
   sni: willing-eagle.rooster465.autos
   type: trojan
   udp: true
-- name: 🇸🇬SG_32|3.5MB/s
-  network: tcp
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|3.3MB/s
   password: HW85960347
   port: '443'
-  server: excited-alien.rooster465.autos
-  skip-cert-verify: false
-  sni: excited-alien.rooster465.autos
+  server: outgoing-eagle.rooster465.autos
+  skip-cert-verify: true
+  sni: outgoing-eagle.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_34|4.4MB/s
+  name: 🇯🇵JP_5|4.9MB/s
+  password: JA96378052
+  port: '443'
+  server: 3.112.1.122
+  skip-cert-verify: true
+  sni: WangCai.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_8|4.4MB/s
+  password: JA96378052
+  port: '443'
+  server: 13.212.210.184
+  skip-cert-verify: true
+  sni: WangCai.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_6|5.1MB/s
+  password: JA96378052
+  port: '443'
+  server: 54.178.60.95
+  skip-cert-verify: true
+  sni: WangCai.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_3|4.0MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.77.54.36
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_7|5.5MB/s
+  password: JA96378052
+  port: '443'
+  server: 52.195.11.84
+  skip-cert-verify: true
+  sni: WangCai.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_9|4.8MB/s
+  password: JA96378052
+  port: '443'
+  server: inspired-goshawk.rooster465.autos
+  skip-cert-verify: false
+  sni: inspired-goshawk.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|3.0MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.135.248.162
+  type: ss
+  udp: true
+- name: 🇯🇵 日本 | JPN 9
+  network: tcp
+  password: JA96378052
+  port: 443
+  server: certain-kit.rooster465.autos
+  skip-cert-verify: true
+  sni: certain-kit.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_4|2.0MB/s
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇩🇪DE_6|2.1MB/s
+  network: tcp
+  port: '10037'
+  server: family.bucket.x9.kfc-520.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_9|5.0MB/s
   network: tcp
   password: HW85960347
   port: '443'
   server: renewing-leopard.rooster465.autos
   skip-cert-verify: true
   sni: renewing-leopard.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_34|3.7MB/s
-  network: tcp
-  password: JA96378052
-  port: '443'
-  server: curious-ocelot.rooster465.autos
-  skip-cert-verify: false
-  sni: curious-ocelot.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_36|2.3MB/s
-  network: tcp
-  password: HW85960347
-  port: '443'
-  server: better-earwig.rooster465.autos
-  skip-cert-verify: false
-  sni: better-earwig.rooster465.autos
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -838,6 +466,14 @@ proxies:
   sni: endless-crappie.rooster465.autos
   type: trojan
   udp: true
+- name: 🇯🇵 日本 | JPN
+  password: JA96378052
+  port: 443
+  server: stable-racer.rooster465.autos
+  skip-cert-verify: true
+  sni: stable-racer.rooster465.autos
+  type: trojan
+  udp: true
 - name: 🇯🇵 日本 | JPN 3
   password: HW85960347
   port: 443
@@ -846,6 +482,45 @@ proxies:
   sni: together-mayfly.rooster465.autos
   type: trojan
   udp: true
+- name: 🇯🇵 日本 | JPN 8
+  password: HW85960347
+  port: 443
+  server: advanced-ox.rooster465.autos
+  skip-cert-verify: true
+  sni: advanced-ox.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 10
+  password: HW85960347
+  port: 443
+  server: cunning-grub.rooster465.autos
+  skip-cert-verify: true
+  sni: cunning-grub.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 12
+  password: PD07395842
+  port: 443
+  server: legible-chipmunk.rooster465.autos
+  skip-cert-verify: true
+  sni: legible-chipmunk.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 13
+  password: HW85960347
+  port: 443
+  server: united-grouse.rooster465.autos
+  skip-cert-verify: true
+  sni: united-grouse.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 14
+  password: HW85960347
+  port: 443
+  server: proper-mouse.rooster465.autos
+  skip-cert-verify: true
+  sni: proper-mouse.rooster465.autos
+  type: trojan
 - name: 🇯🇵 日本 | JPN 15
   password: PD07395842
   port: 443
@@ -854,6 +529,13 @@ proxies:
   sni: frank-turtle.rooster465.autos
   type: trojan
   udp: true
+- name: 🇯🇵 日本 | JPN 17
+  password: HW85960347
+  port: 443
+  server: normal-dory.rooster465.autos
+  skip-cert-verify: true
+  sni: normal-dory.rooster465.autos
+  type: trojan
 - name: 🇯🇵 日本 | JPN 18
   password: PD07395842
   port: 443
@@ -862,12 +544,59 @@ proxies:
   sni: key-pony.rooster465.autos
   type: trojan
   udp: true
+- name: 🇯🇵 日本 | JPN 19
+  password: JA96378052
+  port: 443
+  server: proven-stud.rooster465.autos
+  skip-cert-verify: true
+  sni: proven-stud.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 20
+  password: JA96378052
+  port: 443
+  server: ruling-toucan.rooster465.autos
+  skip-cert-verify: true
+  sni: ruling-toucan.rooster465.autos
+  type: trojan
+- name: 🇯🇵 日本 | JPN 22
+  password: HW85960347
+  port: 443
+  server: fleet-pony.rooster465.autos
+  skip-cert-verify: true
+  sni: fleet-pony.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 23
+  password: HW85960347
+  port: 443
+  server: harmless-gobbler.rooster465.autos
+  skip-cert-verify: true
+  sni: harmless-gobbler.rooster465.autos
+  type: trojan
+  udp: true
 - name: 🇰🇷 韩国 | KOR
   password: PD07395842
   port: 443
   server: proud-horse.rooster465.autos
   skip-cert-verify: true
   sni: proud-horse.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | KOR 2
+  password: PD07395842
+  port: 443
+  server: kind-grizzly.rooster465.autos
+  skip-cert-verify: true
+  sni: kind-grizzly.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | KOR 4
+  password: PD07395842
+  port: 443
+  server: excited-ghoul.rooster465.autos
+  skip-cert-verify: true
+  sni: excited-ghoul.rooster465.autos
   type: trojan
   udp: true
 - name: 🇰🇷 韩国 | KOR 5
@@ -899,6 +628,70 @@ proxies:
   port: 1080
   server: 146.70.254.238
   type: ss
+- name: 🇸🇬 新加坡 | SGP 2
+  password: JA96378052
+  port: 443
+  server: aware-corgi.rooster465.autos
+  skip-cert-verify: true
+  sni: aware-corgi.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 3
+  password: HW85960347
+  port: 443
+  server: curious-llama.rooster465.autos
+  skip-cert-verify: true
+  sni: curious-llama.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 7
+  password: HW85960347
+  port: 443
+  server: happy-porpoise.rooster465.autos
+  skip-cert-verify: true
+  sni: happy-porpoise.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 8
+  password: JA96378052
+  port: 443
+  server: aware-coyote.rooster465.autos
+  skip-cert-verify: true
+  sni: aware-coyote.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 9
+  password: HW85960347
+  port: 443
+  server: settling-grouper.rooster465.autos
+  skip-cert-verify: true
+  sni: settling-grouper.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 10
+  password: JA96378052
+  port: 443
+  server: enough-lamb.rooster465.autos
+  skip-cert-verify: true
+  sni: enough-lamb.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 13
+  password: HW85960347
+  port: 443
+  server: absolute-teal.rooster465.autos
+  skip-cert-verify: true
+  sni: absolute-teal.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 14
+  password: HW85960347
+  port: 443
+  server: aware-coyote.rooster465.autos
+  skip-cert-verify: true
+  sni: aware-coyote.rooster465.autos
+  type: trojan
+  udp: true
 - name: 🇸🇬 新加坡 | SGP 16
   password: JA96378052
   port: 443
@@ -907,12 +700,36 @@ proxies:
   sni: relaxed-unicorn.rooster465.autos
   type: trojan
   udp: true
-- name: 🇺🇸 美国 | USA
-  password: SX95078263
+- name: 🇸🇬 新加坡 | SGP 17
+  password: JA96378052
   port: 443
-  server: legal-glider.rooster465.autos
+  server: tolerant-fowl.rooster465.autos
   skip-cert-verify: true
-  sni: legal-glider.rooster465.autos
+  sni: tolerant-fowl.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 18
+  password: HW85960347
+  port: 443
+  server: optimum-tuna.rooster465.autos
+  skip-cert-verify: true
+  sni: optimum-tuna.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 19
+  password: JA96378052
+  port: 443
+  server: dominant-jaguar.rooster465.autos
+  skip-cert-verify: true
+  sni: dominant-jaguar.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 21
+  password: JA96378052
+  port: 443
+  server: sharing-filly.rooster465.autos
+  skip-cert-verify: true
+  sni: sharing-filly.rooster465.autos
   type: trojan
   udp: true
 - name: 🇺🇸 美国 | USA 2
@@ -950,6 +767,14 @@ proxies:
   server: pleasing-monkfish.rooster465.autos
   skip-cert-verify: true
   sni: pleasing-monkfish.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🏴‍☠️ 未知地区 | Unknown 5
+  password: JA96378052
+  port: 443
+  server: moral-cow.rooster465.autos
+  skip-cert-verify: true
+  sni: moral-cow.rooster465.autos
   type: trojan
   udp: true
 - name: 🏴‍☠️ 未知地区 | Unknown 7

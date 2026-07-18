@@ -1,20 +1,26 @@
 proxies:
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 🇬🇧 英国 | GBR
-  network: grpc
-  port: 443
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|3.0MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.135.248.162
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_2|2.7MB/s
+  network: raw
+  port: '443'
   reality-opts:
-    public-key: pVc2H60-PlZ1gRiYyYc089xCwcck5BTs67k6B2-5ZRM
-    short-id: '!!str 7a7de52ae0e6c22f'
-  server: api.oneoker.com
-  servername: api.oneoker.com
+    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
+    short-id: '!!str 1559b440'
+  server: 77.110.113.188
+  servername: www.samsung.com
   tls: true
   type: vless
   udp: true
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun

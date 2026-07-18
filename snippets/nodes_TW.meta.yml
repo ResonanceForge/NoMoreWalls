@@ -11,9 +11,9 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: ljfxz
-  name: 🇹🇼 🇨🇳 台湾 | TWN 4
+  name: 🇹🇼 🇨🇳 台湾 | TWN 2
   network: grpc
-  port: 36801
+  port: 36784
   server: t1.feiyue706.com
   servername: t1.feiyue706.com
   tls: true
@@ -33,19 +33,6 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  network: grpc
-  port: 36784
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
 - alpn:
   - h3
   congestion-controller: bbr
@@ -60,6 +47,19 @@ proxies:
   sni: hr2g0t.yydzx.xyz
   type: tuic
   uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
+  name: 🇹🇼 🇨🇳 台湾 | TWN 4
+  network: grpc
+  port: 36801
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: TW_speednode_0053
