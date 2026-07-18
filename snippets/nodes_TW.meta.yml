@@ -15,6 +15,19 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 🇹🇼 🇨🇳 台湾 | TWN
+  network: ws
+  port: 2087
+  server: 220.135.92.105
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: TW_speednode_0053

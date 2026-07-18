@@ -66,6 +66,59 @@ proxies:
         Gecko) Chrome/48.0.2564.116 Safari/537.36
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
   xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 | HKG
+  network: ws
+  port: 8443
+  server: 185.241.42.81
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 | HKG 2
+  network: ws
+  port: 2053
+  server: 23.133.52.10
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 3
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 香港 | HKG 4
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27002
+  server: cf0op7.yytls.top
+  skip-cert-verify: true
+  sni: r709le.yytls.top
+  type: anytls
+  udp: true
+- name: 🇭🇰 香港 | HKG 5
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27002
+  server: qxcv2o.yytls.top
+  skip-cert-verify: true
+  sni: wx5d5u.yytls.top
+  type: anytls
+  udp: true
 - name: HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443

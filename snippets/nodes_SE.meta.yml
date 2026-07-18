@@ -12,3 +12,40 @@ proxies:
   tls: false
   type: vless
   uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
+- auth: 71cada65-d23e-418c-88e4-a06188d14689
+  name: 🇸🇪 瑞典 | SWE
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: swe-one.quiet-rogue.site
+  skip-cert-verify: true
+  sni: swe-one.quiet-rogue.site
+  type: hysteria2
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wiqox4cXWo08IKTueVpIp5k0aC25Hcbuo0uAKvqlQ2Y
+    short-id: '!!str ae5abf486d5dcd20'
+  server: swe-one.quiet-rogue.site
+  servername: swe-one.quiet-rogue.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71cada65-d23e-418c-88e4-a06188d14689
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: auragrpc
+  name: 🇸🇪 瑞典 | SWE 3
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: TGJxKbPG8ds2NwK6uhgQURUfVJ01BcRh3Eaoy3dtdGA
+    short-id: '!!str a3d8f1e9b2c7d4e6'
+  server: virgin.ggsw01.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
