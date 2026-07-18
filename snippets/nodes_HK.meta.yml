@@ -50,75 +50,47 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇭🇰HK_1|1.8MB/s
-  network: ws
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|3.1MB/s
+  network: tcp
   port: '443'
-  server: 91.110.182.6
-  servername: s5gydl.936.us.ci
+  reality-opts:
+    public-key: CdNLdccy_ALnjDvwZa14eP31CoJ_BLqJAS2OLCNwogg
+    short-id: '!!str d19dcb524604e214'
+  server: z-hkl.h.w.466688.xyz
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: 1b6de5d8-3285-422c-b6fe-2989918f528b
   xudp: true
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
   name: 🇭🇰 香港 | HKG
-  network: ws
-  port: 8443
-  server: 185.241.42.81
-  servername: s5gydl.936.us.ci
+  network: grpc
+  port: 36795
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
   tls: true
   type: vless
   udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
   name: 🇭🇰 香港 | HKG 2
-  network: ws
-  port: 2053
-  server: 23.133.52.10
-  servername: s5gydl.936.us.ci
+  network: grpc
+  port: 36788
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
   tls: true
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 3
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港 | HKG 4
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27002
-  server: cf0op7.yytls.top
-  skip-cert-verify: true
-  sni: r709le.yytls.top
-  type: anytls
-  udp: true
-- name: 🇭🇰 香港 | HKG 5
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27002
-  server: qxcv2o.yytls.top
-  skip-cert-verify: true
-  sni: wx5d5u.yytls.top
-  type: anytls
-  udp: true
+  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
 - name: HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443

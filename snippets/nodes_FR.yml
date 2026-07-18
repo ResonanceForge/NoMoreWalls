@@ -1,16 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国 | FRA 2
-  network: ws
-  port: 80
-  server: fr3-0626.18838003.xyz
+- name: 🇫🇷 法国 | FRA 4
+  password: PD07395842
+  port: 443
+  server: pretty-quail.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: pretty-quail.rooster465.autos
+  type: trojan
   udp: true
-  uuid: 35f6c738-06bb-378c-9cda-aecdb3827d0b
-  ws-opts:
-    headers:
-      Host: fr3-0626.18838003.xyz
-    path: /fr333gogofa
