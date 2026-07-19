@@ -11,58 +11,15 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: ljfxz
-  name: 🇹🇼 🇨🇳 台湾 | TWN 4
-  network: grpc
-  port: 36781
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
-- name: 🇹🇼TW_2|2.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
   name: 🇹🇼 🇨🇳 台湾 | TWN
   network: grpc
-  port: 36780
+  port: 36783
   server: t1.feiyue706.com
   servername: t1.feiyue706.com
   tls: true
   type: vless
   udp: true
   uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27005
-  server: vrn1sn.yytls.top
-  skip-cert-verify: true
-  sni: kadtry.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇹🇼 🇨🇳 台湾 | TWN 3
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27105
-  reduce-rtt: false
-  request-timeout: 0
-  server: g4u45m.yydzx.xyz
-  skip-cert-verify: true
-  sni: g4u45m.yydzx.xyz
-  type: tuic
-  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: TW_speednode_0053

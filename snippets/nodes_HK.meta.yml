@@ -50,20 +50,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
   name: 🇭🇰 香港 | HKG
-  network: grpc
-  port: 36796
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
-- client-fingerprint: chrome
-  name: 🇭🇰 香港 | HKG 2
   network: ws
   port: 443
   server: 104.129.166.20
@@ -75,33 +62,22 @@ proxies:
     headers:
       Host: cf11.evan00.dpdns.org
     path: Telegram🇨🇳 @WangCai2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
   name: 🇭🇰 香港 | HKG 3
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27102
-  reduce-rtt: false
-  request-timeout: 0
-  server: wx5y44.yydzx.xyz
-  skip-cert-verify: true
-  sni: wx5y44.yydzx.xyz
-  type: tuic
-  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 4
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  network: grpc
+  port: 36795
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇭🇰 香港 | HKG 5
+  name: 🇭🇰 香港 | HKG 4
   network: tcp
   port: 443
   reality-opts:
@@ -113,33 +89,20 @@ proxies:
   type: vless
   udp: true
   uuid: 904183f1-0495-478b-b11f-1fe12e84ad8b
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇭🇰 香港 | HKG 6
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27102
-  reduce-rtt: false
-  request-timeout: 0
-  server: ifd6ci.yydzx.xyz
-  skip-cert-verify: true
-  sni: ifd6ci.yydzx.xyz
-  type: tuic
-  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  name: 🇭🇰 香港 | HKG 7
-  network: grpc
-  port: 36795
-  server: t1.feiyue706.com
-  servername: t1.feiyue706.com
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港 | HKG 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CdNLdccy_ALnjDvwZa14eP31CoJ_BLqJAS2OLCNwogg
+    short-id: '!!str d19dcb524604e214'
+  server: z-hkl.h.w.466688.xyz
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
+  uuid: 1b6de5d8-3285-422c-b6fe-2989918f528b
 - name: HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443

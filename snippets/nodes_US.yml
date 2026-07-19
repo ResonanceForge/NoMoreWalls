@@ -1,11 +1,10 @@
 proxies:
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 172.64.146.28
-  skip-cert-verify: true
-  sni: www.gossipglove.com
+  server: 104.26.6.159
+  sni: www.creationlong.org
   type: trojan
   ws-opts:
     path: '%2Fassignment'
@@ -33,88 +32,140 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_2|1.5MB/s
-  password: KV63147582
-  port: 443
-  server: hardy-seahorse.rooster465.autos
-  skip-cert-verify: true
-  sni: hardy-seahorse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇺🇸US_7|3.1MB/s
-  password: JA96378052
-  port: 443
-  server: careful-cow.rooster465.autos
-  skip-cert-verify: true
-  sni: careful-cow.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_12|2.7MB/s
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 美国 | USA 31
+- client-fingerprint: chrome
+  name: 🇺🇸US_6|2.0MB/s
   network: tcp
-  password: KV63147582
-  port: 443
-  server: wondrous-dogfish.rooster465.autos
-  skip-cert-verify: true
-  sni: wondrous-dogfish.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_14|3.1MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
+  password: ON38567014
+  port: '443'
+  server: harmless-akita.rooster465.autos
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /x
-  name: 🇺🇸 美国 | USA 2
-  network: http
-  port: 1001
-  server: 154.36.128.61
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9ae252b6-ec0a-431a-b5da-38f2ece84683
-- name: 🇺🇸 美国 | USA 23
-  password: HW85960347
-  port: 443
-  server: pretty-clam.rooster465.autos
-  skip-cert-verify: true
-  sni: pretty-clam.rooster465.autos
+  sni: harmless-akita.rooster465.autos
   type: trojan
   udp: true
-- name: 🇺🇸 美国 | USA 24
+- name: 🇦🇺 澳大利亚 | AUS
+  password: ON38567014
+  port: 443
+  server: national-stingray.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国 | USA 31
   network: ws
   password: humanity
   port: 443
-  server: 162.159.91.211
+  server: 104.18.152.143
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      Host: www.ignitelimit.com
     path: /assignment
+- name: 🇺🇸 美国 | USA 32
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 33
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 34
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 36
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.210
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 37
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇺🇸 美国 | USA 38
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 8.47.69.0
+  skip-cert-verify: true
+  sni: fl-bo--l7---u.aPp-cLoud.IR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: fl-bo--l7---u.aPp-cLoud.IR
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=f--lll
+- name: 🇺🇸 美国 | USA 39
+  password: ON38567014
+  port: 443
+  server: polished-cicada.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国 | USA 40
+  password: JA96378052
+  port: 443
+  server: working-raccoon.rooster465.autos
+  skip-cert-verify: true
+  sni: working-raccoon.rooster465.autos
+  type: trojan
+- name: 🇺🇸 美国 | USA 41
+  password: HW85960347
+  port: 443
+  server: sweeping-insect.rooster465.autos
+  skip-cert-verify: true
+  sni: sweeping-insect.rooster465.autos
+  type: trojan
 - name: US_speednode_0063
   network: ws
   password: Mitivpn

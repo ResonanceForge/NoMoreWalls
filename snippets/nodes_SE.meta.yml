@@ -1,22 +1,43 @@
 proxies:
+- auth: a307dbfd-1069-4880-950a-b5f5e82c3478
+  name: 🇸🇪 瑞典 | SWE
+  password: a307dbfd-1069-4880-950a-b5f5e82c3478
+  port: 443
+  server: vault.ressel-radar.shop
+  skip-cert-verify: true
+  sni: vault.ressel-radar.shop
+  type: hysteria2
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: api.v1.StreamService
-  name: 🇬🇧 英国 | GBR 3
+  name: 🇸🇪 瑞典 | SWE 2
   network: grpc
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: pVc2H60-PlZ1gRiYyYc089xCwcck5BTs67k6B2-5ZRM
-    short-id: '!!str 7a7de52ae0e6c22f'
-  server: api.oneoker.com
-  servername: api.oneoker.com
+    public-key: 4EY4k0Ush0fOcMCMbbx4qPv5OBXswb77LGN6wH8axSA
+    short-id: '!!str 5747aafd6c68484a'
+  server: api.oneoneok.com
+  servername: api.oneoneok.com
   tls: true
   type: vless
   udp: true
   uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
 - client-fingerprint: firefox
-  name: 🇸🇪 瑞典 | SWE
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典 | SWE 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
+  server: meow-warsaw.nethcloud.top
+  servername: www.wikihow.com
+  tls: true
+  type: vless
+  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+- client-fingerprint: firefox
+  name: 🇸🇪 瑞典 | SWE 4
   network: xhttp
   port: 8443
   reality-opts:
@@ -30,17 +51,3 @@ proxies:
   xhttp-opts:
     host: wikihow.com
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪 瑞典 | SWE 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE
-    short-id: '!!str 1ca44564cda56661'
-  server: 109.120.188.54
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4401809f-4d60-4df7-ab14-da48955c2cb3
