@@ -1,24 +1,67 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+威尔士阿伯斯威大学
   network: tcp
-  port: '2078'
-  server: 93.180.134.52
-  servername: ''
+  port: 443
+  reality-opts:
+    public-key: L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww
+    short-id: '!!str ed7b9bdfedb9b8e5'
+  server: nl.go-vpn.club
+  servername: gateway.icloud.com
   tls: false
-  type: vmess
-  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
+  type: vless
+  uuid: 40de6299-d792-4868-8a82-411ead0aa943
+- auth: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  name: 🇸🇪 瑞典 | SWE 2
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 8443
+  server: sw02.auragg.org
+  skip-cert-verify: true
+  sni: sw02.auragg.org
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB_2|2.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: VmBEjLUpiEnoNIaPNGDfVPIOzH_ktSDdsGGAvissxgI
+    short-id: '!!str '
+  server: 2.26.82.237
+  servername: speed.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 906be882-7f16-47c3-8702-59db2ada9688
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_3|2.2MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
+    short-id: '!!str 1559b440'
+  server: 77.110.113.188
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - down: ''
   fingerprint: ''
-  name: 🇬🇧GB_1|2.0MB/s
+  name: 🇬🇧GB_4|2.1MB/s
   obfs: ''
   obfs-password: ''
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: '48343'
-  server: nl02.auragg.org
+  port: '443'
+  server: ge01.auragg.org
   skip-cert-verify: false
-  sni: nl02.auragg.org
+  sni: ge01.auragg.org
   type: hysteria2
   up: ''
 - client-fingerprint: chrome
@@ -53,20 +96,12 @@ proxies:
   tls: true
   type: vless
   uuid: 1a4e38b0-b430-321c-9962-c732bfede070
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 5
-  network: tcp
+- cipher: aes-256-cfb
+  name: 🇬🇧 英国 | GBR 4
+  password: amazonskr05
   port: 443
-  reality-opts:
-    public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8
-    short-id: '!!str 6a2e3af684799b19'
-  server: cdn.pinecloud.net
-  servername: cdn.pinecloud.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
+  server: 52.56.188.204
+  type: ss
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN
