@@ -1,5 +1,28 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qm-zp2dNT8dDO9KWbfQrxN3IKT0JlNZkWT53aaCKfxM
+    short-id: '!!str d9662905'
+  server: zaplio-gook.ru
+  servername: zaplio-gook.ru
+  tls: false
+  type: vless
+  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '2078'
+  server: 93.180.134.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
+- client-fingerprint: chrome
   name: 🇬🇧 英国 | GBR
   network: ws
   port: 443

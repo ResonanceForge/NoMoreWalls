@@ -89,33 +89,48 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 德国 法尔肯施泰因HETZNER
+  network: tcp
+  port: '14991'
+  server: me.echo-license.gr
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5
 - name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.156
-  sni: 185.137.157.156
+  server: 185.137.157.149
   type: trojan
 - name: '罗马尼亚+V2CROSS.COM #1'
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.145
-  skip-cert-verify: false
+  server: 185.137.157.151
+  sni: 185.137.157.151
   type: trojan
-- name: '美国+V2CROSS.COM #2'
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 172.64.146.28
+  skip-cert-verify: true
+  sni: www.gossipglove.com
   type: trojan
-- name: 香港+电讯盈科有限公司
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '2078'
+  server: 93.180.134.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05

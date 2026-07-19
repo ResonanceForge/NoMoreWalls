@@ -1,133 +1,74 @@
 proxies:
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 69.46.46.41
-  servername: node-7946883854-80433a-production.up.railway.app
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: node-7946883854-80433a-production.up.railway.app
-    path: /ws/nebla
-- client-fingerprint: chrome
-  flow: ''
-  name: 北美地区+V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 23.133.52.10
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 48711
-  server: 155.103.69.195
+- name: 美国+V2CROSS.COM
+  password: e3a5bb40be52de65
+  port: 2328
+  server: q.baoge.me
+  skip-cert-verify: true
+  sni: q.baoge.me
   tls: false
-  type: vless
-  uuid: 23a9b46e-9443-4268-81c5-399929919ab0
-  ws-opts:
-    headers:
-      Host: snapp.io
-    path: '%2F'
+  type: hysteria2
 - client-fingerprint: chrome
   name: 美国+CloudFlare节点
   network: ws
-  port: 443
-  server: 172.64.147.137
-  servername: tianshu13.pages.dev
+  port: 2083
+  server: 104.18.33.139
+  servername: vp41.cc.cd
   tls: true
   type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: tianshu13.pages.dev
-    path: /pyip=proxyip.sg.cmliussss.net
+      Host: vp41.cc.cd
+    path: /
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 172.64.155.209
-  servername: cf.cfvip.lol
+  server: 108.162.198.136
+  servername: edge-4cb23bf6.pages.dev
   tls: true
   type: vless
-  uuid: 93f0761d-4393-4b43-a523-e812fa0b7e83
+  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
   ws-opts:
     headers:
-      Host: cf.cfvip.lol
-    path: /pyip=47.251.95.178
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇳🇱NL_3|2.5MB/s
-  network: ws
-  port: '443'
-  server: 172.64.151.120
-  servername: nl1.cloudbench.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
-  ws-opts:
-    headers:
-      Host: nl1.cloudbench.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /cdn
-  xudp: true
-- name: '美国+CloudFlare节点 #3'
+      Host: edge-4cb23bf6.pages.dev
+    path: /
+- name: '美国+CloudFlare节点 #2'
   network: ws
   port: 443
-  server: cdn.9889888.xyz
+  server: 104.21.227.134
   servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: '美国+V2CROSS.COM #2'
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+    path: '%2F'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 172.64.146.28
+  skip-cert-verify: true
+  sni: www.gossipglove.com
   type: trojan
-- name: '美国+V2CROSS.COM #3'
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+V2CROSS.COM #1'
   network: ws
   port: 443
-  server: 199.232.249.110
+  server: 167.82.77.173
   servername: ssl.fastly.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
   ws-opts:
     headers:
       Host: pan21.global.ssl.fastly.net
-    path: '%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 172.64.147.15
-  servername: tianshu13.pages.dev
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: tianshu13.pages.dev
-    path: /pyip=proxyip.sg.cmliussss.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed0
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
