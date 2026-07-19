@@ -1,68 +1,41 @@
 proxies:
-- name: 🇰🇷 韩国 | KOR 4
+- client-fingerprint: chrome
+  name: 🇰🇷KR_1|1.5MB/s
+  network: ws
+  port: 8443
+  server: 43.164.191.65
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- name: 🇰🇷KR_2|4.7MB/s
   password: ON38567014
   port: 443
   server: quick-lab.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇰🇷 韩国 | KOR 5
+- name: 🇰🇷 韩国 | KOR 3
   password: ON38567014
   port: 443
   server: apt-magpie.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇰🇷 韩国 | KOR 6
-  password: ON38567014
-  port: 443
-  server: evolving-ewe.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 7
-  password: ON38567014
-  port: 443
-  server: thorough-elf.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 8
-  password: ON38567014
-  port: 443
-  server: novel-kodiak.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 9
-  password: ON38567014
-  port: 443
-  server: settled-camel.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 10
+- name: 🇰🇷KR_4|3.6MB/s
   password: ON38567014
   port: 443
   server: trusted-grouper.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇰🇷 韩国 | KOR 11
-  password: ON38567014
-  port: 443
-  server: desired-boxer.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 12
-  password: ON38567014
-  port: 443
-  server: prepared-monitor.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 13
+- client-fingerprint: chrome
+  name: 🇰🇷 韩国 | KOR 4
+  network: tcp
   password: ON38567014
   port: 443
   server: winning-polecat.rooster465.autos
@@ -70,17 +43,55 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_11|3.6MB/s
+  name: 🇰🇷 韩国 | KOR 7
   network: tcp
   password: ON38567014
-  port: '443'
+  port: 443
   server: evolving-kangaroo.rooster465.autos
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: evolving-kangaroo.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
+  name: 🇰🇷KR_8|2.5MB/s
+  network: tcp
+  password: ON38567014
+  port: '443'
+  server: winning-polecat.rooster465.autos
+  skip-cert-verify: true
+  sni: winning-polecat.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
   name: 🇰🇷 韩国 | KOR
+  network: ws
+  port: 8443
+  server: 43.155.221.27
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- name: 🇰🇷 韩国 | KOR 2
+  password: ON38567014
+  port: 443
+  server: desired-boxer.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | KOR 5
+  password: ON38567014
+  port: 443
+  server: settled-camel.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇰🇷 韩国 | KOR 6
   network: ws
   port: 8443
   server: 123.111.169.70
@@ -93,38 +104,19 @@ proxies:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - client-fingerprint: chrome
-  name: 🇰🇷 韩国 | KOR 2
+  name: 🇰🇷 韩国 | KOR 8
   network: ws
-  port: 8443
-  server: 43.133.237.158
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  name: 🇰🇷 韩国 | KOR 3
-  network: ws
-  port: 8443
-  server: 43.164.191.65
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- name: 🇰🇷 韩国 | KOR 14
-  password: ON38567014
   port: 443
-  server: charmed-fly.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
+  server: 140.238.17.157
+  servername: ela6n.l8k2.p1d.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
   udp: true
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: ela6n.l8k2.p1d.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
 - name: KR_speednode_0014
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 31433

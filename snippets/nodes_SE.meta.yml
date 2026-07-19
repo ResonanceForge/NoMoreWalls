@@ -1,23 +1,24 @@
 proxies:
+- name: 🇸🇪116040 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+  password: 6f436a44f70393da7e45615824a39d3b
+  port: 989
+  server: soskeynets.org
+  sni: bamak.teain.org
+  tls: false
+  type: hysteria2
+- name: '🇸🇪116040 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+  password: 6f436a44f70393da7e45615824a39d3b
+  port: 989
+  server: teain.org
+  sni: bamak.teain.org
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 🇸🇪 瑞典 | SWE 2
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 4EY4k0Ush0fOcMCMbbx4qPv5OBXswb77LGN6wH8axSA
-    short-id: '!!str 5747aafd6c68484a'
-  server: api.oneoneok.com
-  servername: api.oneoneok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-- client-fingerprint: firefox
-  name: 🇸🇪 瑞典 | SWE 4
+  name: 🇸🇪 瑞典 | SWE
   network: xhttp
   port: 8443
   reality-opts:
@@ -31,3 +32,11 @@ proxies:
   xhttp-opts:
     host: wikihow.com
     path: /
+- auth: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  name: 🇸🇪 瑞典 | SWE 2
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 8443
+  server: sw02.auragg.org
+  skip-cert-verify: true
+  sni: sw02.auragg.org
+  type: hysteria2

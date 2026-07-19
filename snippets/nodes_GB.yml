@@ -1,12 +1,16 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '2078'
+  server: 93.180.134.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
 - cipher: aes-256-cfb
   name: 🇬🇧 英国 | GBR 2
-  password: amazonskr05
-  port: 443
-  server: 52.56.188.204
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧 英国 | GBR
   password: amazonskr05
   port: 443
   server: 13.135.169.180

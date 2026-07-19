@@ -89,31 +89,53 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.71
+  type: ss
 - name: 美国+华盛顿Cogent通信公司
+  network: tcp
   password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
   server: 38.54.64.247
   sni: 38.54.64.247
   type: trojan
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '印度+V2CROSS.COM #1'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.80
+  type: ss
 - name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.156
+  server: 185.137.157.142
   sni: ''
   type: trojan
 - name: '罗马尼亚+V2CROSS.COM #1'
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.128
+  server: 185.137.157.151
   sni: ''
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '印度+V2CROSS.COM #2'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.82
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '2078'
+  server: 93.180.134.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -235,104 +257,43 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇩🇪 德国 | DEU 24
-  password: ON38567014
-  port: 443
-  server: sensible-grubworm.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: 🇬🇧 英国 | GBR 2
+  name: 🇬🇧 英国 | GBR 4
   password: amazonskr05
   port: 443
   server: 52.56.188.204
   type: ss
-- name: 🇰🇷 韩国 | KOR 4
+- name: 🇰🇷KR_2|4.7MB/s
   password: ON38567014
   port: 443
   server: quick-lab.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇰🇷 韩国 | KOR 5
+- name: 🇰🇷 韩国 | KOR 3
   password: ON38567014
   port: 443
   server: apt-magpie.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇰🇷 韩国 | KOR 6
-  password: ON38567014
-  port: 443
-  server: evolving-ewe.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 7
-  password: ON38567014
-  port: 443
-  server: thorough-elf.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 8
-  password: ON38567014
-  port: 443
-  server: novel-kodiak.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 9
-  password: ON38567014
-  port: 443
-  server: settled-camel.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 10
+- name: 🇰🇷KR_4|3.6MB/s
   password: ON38567014
   port: 443
   server: trusted-grouper.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇰🇷 韩国 | KOR 11
-  password: ON38567014
-  port: 443
-  server: desired-boxer.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 12
-  password: ON38567014
-  port: 443
-  server: prepared-monitor.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 13
+- client-fingerprint: chrome
+  name: 🇰🇷 韩国 | KOR 4
+  network: tcp
   password: ON38567014
   port: 443
   server: winning-polecat.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇳🇱 荷兰 | NLD 8
-  password: ON38567014
-  port: 443
-  server: workable-crawdad.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 10
-  password: ON38567014
-  port: 443
-  server: unique-gobbler.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 13
+- name: 🇸🇬SG_1|2.1MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -344,129 +305,59 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- name: 🇸🇬SG_2|3.9MB/s
+- client-fingerprint: chrome
+  name: 🇰🇷 韩国 | KOR 7
   network: tcp
   password: ON38567014
   port: 443
-  server: crucial-moth.rooster465.autos
-  skip-cert-verify: false
-  sni: crucial-moth.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_3|2.2MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: '8080'
-  server: 82.38.31.156
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_11|3.6MB/s
-  network: tcp
-  password: ON38567014
-  port: '443'
   server: evolving-kangaroo.rooster465.autos
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: evolving-kangaroo.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|5.0MB/s
+  name: 🇸🇬 新加坡 | SGP 13
   network: tcp
   password: ON38567014
-  port: '443'
+  port: 443
   server: glorious-glider.rooster465.autos
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: glorious-glider.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_4|3.8MB/s
+  name: 🇰🇷KR_8|2.5MB/s
   network: tcp
   password: ON38567014
   port: '443'
-  server: neutral-quail.rooster465.autos
-  skip-cert-verify: false
-  sni: neutral-quail.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_5|2.2MB/s
-  network: tcp
-  password: ON38567014
-  port: '443'
-  server: summary-finch.rooster465.autos
-  skip-cert-verify: false
-  sni: summary-finch.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK_1|1.5MB/s
-  network: tcp
-  password: ON38567014
-  port: '443'
-  server: natural-swan.rooster465.autos
-  skip-cert-verify: false
-  sni: natural-swan.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇳🇱NL_4|2.0MB/s
-  network: tcp
-  password: ON38567014
-  port: '443'
-  server: actual-aardvark.rooster465.autos
-  skip-cert-verify: false
-  sni: actual-aardvark.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇦🇹 奥地利 | AUT
-  network: ws
-  password: humanity
-  port: 443
-  server: 212.183.88.136
+  server: winning-polecat.rooster465.autos
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: winning-polecat.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇩🇪 德国 | DEU
+  network: ws
+  password: '666'
+  port: 443
+  server: 162.159.137.204
+  skip-cert-verify: true
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇦🇺 澳大利亚 | AUS
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 🇩🇪 德国 | DEU 2
   password: ON38567014
   port: 443
-  server: national-stingray.rooster465.autos
+  server: sensible-grubworm.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇨🇳 CN_118
-  network: ws
-  port: 443
-  server: 221.204.41.88
-  servername: speeches-obligations-view-epinions.trycloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
-  ws-opts:
-    headers:
-      Host: speeches-obligations-view-epinions.trycloudflare.com
-    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
-- cipher: aes-256-cfb
-  name: 🇩🇪 德国 | DEU 3
-  password: amazonskr05
-  port: 443
-  server: 3.126.251.203
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇫🇷 法国 | FRA 3
+  name: 🇫🇷 法国 | FRA
   network: ws
   port: 80
   server: fr3-0626.18838003.xyz
@@ -480,59 +371,170 @@ proxies:
       Host: fr3-0626.18838003.xyz
     path: /fr333gogofa
 - cipher: aes-256-cfb
-  name: 🇬🇧 英国 | GBR
+  name: 🇬🇧 英国 | GBR 2
   password: amazonskr05
   port: 443
   server: 13.135.169.180
   type: ss
-- alterId: 2
+- name: 🇭🇰 香港 | HKG 3
+  password: HW85960347
+  port: 443
+  server: top-goshawk.rooster465.autos
+  skip-cert-verify: true
+  sni: top-goshawk.rooster465.autos
+  type: trojan
+- name: 🇭🇰 香港 | HKG 4
+  password: ON38567014
+  port: 443
+  server: dynamic-grubworm.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | HKG 8
+  password: ON38567014
+  port: 443
+  server: genuine-grackle.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 2
+  network: ws
+  password: '666'
+  port: 443
+  server: 154.19.187.141
+  skip-cert-verify: true
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 🇰🇷 韩国 | KOR 2
+  password: ON38567014
+  port: 443
+  server: desired-boxer.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | KOR 5
+  password: ON38567014
+  port: 443
+  server: settled-camel.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 | NLD 2
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.156
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺 俄罗斯 | RUS 3
+  password: vwc9nGgP8O5KeWbyrwiUow
+  port: 1080
+  server: 212.67.17.239
+  type: ss
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 3
+  network: ws
+  password: '666'
+  port: 443
+  server: 104.18.33.240
+  skip-cert-verify: true
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- alterId: 0
   cipher: auto
-  name: 🇯🇵 日本 | JPN 3
-  port: 30806
-  server: v6.hdacd.com
+  name: 🇸🇬 新加坡 | SGP 11
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  servername: 377bba13899082eed0aa25dc365119c7.mobgslb.tbcache.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇰🇷 韩国 | KOR 14
-  password: ON38567014
-  port: 443
-  server: charmed-fly.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 9
-  password: ON38567014
-  port: 443
-  server: actual-aardvark.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: 2ed5919d-9a69-4c79-90af-e21915182aa1
+  ws-opts:
+    headers:
+      Host: planb.mojcn.com
+    path: /
 - name: 🇸🇬 新加坡 | SGP 14
-  password: ON38567014
-  port: 443
-  server: exotic-turtle.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇹🇷 土耳其 | TUR 3
   network: ws
-  password: d0d98c51-c542-447e-959f-d8cf6a6b7a9c
-  port: 3001
-  server: 153.56.171.118
+  password: '666'
+  port: 443
+  server: store.ubi.com
   skip-cert-verify: true
-  sni: avargon.site
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: avargon.site
-    path: /vpn
-- name: 🇺🇸 美国 | USA 31
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 🇸🇬 新加坡 | SGP 15
+  network: ws
+  password: '666'
+  port: 443
+  server: 104.18.39.78
+  skip-cert-verify: true
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 🇸🇬 新加坡 | SGP 21
+  network: ws
+  password: '666'
+  port: 443
+  server: 172.64.152.29
+  skip-cert-verify: true
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 🇸🇬 新加坡 | SGP 22
+  network: ws
+  password: '666'
+  port: 443
+  server: 172.64.154.248
+  skip-cert-verify: true
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 🇺🇸 美国 | USA 2
+  network: ws
+  password: '666'
+  port: 443
+  server: 104.17.162.3
+  skip-cert-verify: true
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 🇺🇸 美国 | USA 5
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.143
+  server: 104.18.152.210
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -541,110 +543,56 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 32
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 33
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.207
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇺🇸 美国 | USA 34
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 36
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.147.210
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 37
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇺🇸 美国 | USA 38
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 8.47.69.0
-  skip-cert-verify: true
-  sni: fl-bo--l7---u.aPp-cLoud.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: fl-bo--l7---u.aPp-cLoud.IR
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=f--lll
-- name: 🇺🇸 美国 | USA 39
+- name: 🇺🇸 美国 | USA 6
   password: ON38567014
   port: 443
   server: polished-cicada.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇺🇸 美国 | USA 40
-  password: JA96378052
+- name: 🇺🇸 美国 | USA 7
+  network: ws
+  password: '666'
   port: 443
-  server: working-raccoon.rooster465.autos
+  server: 104.19.212.207
   skip-cert-verify: true
-  sni: working-raccoon.rooster465.autos
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
   type: trojan
-- name: 🇺🇸 美国 | USA 41
+  udp: true
+  ws-opts:
+    headers:
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 🇺🇸 美国 | USA 18
   password: HW85960347
   port: 443
   server: sweeping-insect.rooster465.autos
   skip-cert-verify: true
   sni: sweeping-insect.rooster465.autos
   type: trojan
+- name: 🇺🇸 美国 | USA 22
+  password: ON38567014
+  port: 443
+  server: harmless-akita.rooster465.autos
+  skip-cert-verify: true
+  sni: harmless-akita.rooster465.autos
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 27
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN

@@ -1,30 +1,7 @@
 proxies:
-- alpn:
-  - h3
-  congestion-controller: cubic
-  disable-sni: false
-  name: 🇫🇷 法国 | FRA
-  password: dongtaiwang.com
-  port: 33888
-  reduce-rtt: false
-  request-timeout: 0
-  server: 62.210.24.143
-  skip-cert-verify: true
-  sni: bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
-- name: 🇫🇷 法国 | FRA 2
-  network: tcp
-  port: 50171
-  server: 104.238.191.140
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5de7e72d-5f52-40c0-be9c-15ce3b95aeff
 - alterId: 0
   cipher: auto
-  name: 🇫🇷 法国 | FRA 3
+  name: 🇫🇷 法国 | FRA
   network: ws
   port: 80
   server: fr3-0626.18838003.xyz
@@ -37,6 +14,50 @@ proxies:
     headers:
       Host: fr3-0626.18838003.xyz
     path: /fr333gogofa
+- client-fingerprint: chrome
+  name: 🇫🇷 法国 | FRA 2
+  network: ws
+  port: 8443
+  server: 51.91.101.216
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- client-fingerprint: firefox
+  name: 🇫🇷 法国 | FRA 3
+  network: xhttp
+  port: 32202
+  reality-opts:
+    public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
+    short-id: '!!str f57d8f26'
+  server: 62.210.24.143
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
+  xhttp-opts:
+    host: www.amazon.com
+    path: /G3EEoH63
+- alpn:
+  - h3
+  congestion-controller: cubic
+  disable-sni: false
+  name: 🇫🇷 法国 | FRA 4
+  password: dongtaiwang.com
+  port: 33888
+  reduce-rtt: false
+  request-timeout: 0
+  server: 62.210.24.143
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

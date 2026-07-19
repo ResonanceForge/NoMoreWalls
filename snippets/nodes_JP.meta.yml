@@ -31,7 +31,51 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
+  name: 🇯🇵JP_1|1.9MB/s
+  network: ws
+  port: '443'
+  server: 188.253.118.174
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  xudp: true
+- client-fingerprint: chrome
   name: 🇯🇵 日本 | JPN
+  network: ws
+  port: 443
+  server: 23.249.17.25
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- name: 🇯🇵 日本 | JPN 2
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 154.19.187.141
+  skip-cert-verify: true
+  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN 3
   network: ws
   port: 443
   server: 172.64.52.107
@@ -44,24 +88,16 @@ proxies:
       Host: edge-267487d0.pages.dev
     path: /?ed=2048fp=chrome
 - client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 2
+  name: 🇯🇵 日本 | JPN 4
   network: ws
-  port: 8443
-  server: 43.165.178.147
-  servername: s5gydl.936.us.ci
+  port: 443
+  server: 45.32.34.220
+  servername: ela6n.l8k2.p1d.hh.hhyf.kdns.fr
   tls: true
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  udp: true
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
   ws-opts:
     headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵 日本 | JPN 3
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      Host: ela6n.l8k2.p1d.hh.hhyf.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
