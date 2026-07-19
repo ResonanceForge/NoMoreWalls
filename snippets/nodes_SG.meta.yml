@@ -39,189 +39,70 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬 新加坡 | SGP 6
-  password: JA96378052
-  port: 443
-  server: upward-puma.rooster465.autos
-  skip-cert-verify: true
-  sni: upward-puma.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 11
-  password: PD07395842
-  port: 443
-  server: national-dingo.rooster465.autos
-  skip-cert-verify: true
-  sni: national-dingo.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|2.2MB/s
   network: tcp
-  password: HW85960347
-  port: 443
-  server: feasible-guppy.rooster465.autos
-  skip-cert-verify: true
-  sni: feasible-guppy.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown 2
-  password: HW85960347
-  port: 443
-  server: pro-mako.rooster465.autos
-  skip-cert-verify: true
-  sni: pro-mako.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown 4
-  password: HW85960347
-  port: 443
-  server: informed-alpaca.rooster465.autos
-  skip-cert-verify: true
-  sni: informed-alpaca.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown 6
-  password: JA96378052
-  port: 443
-  server: trusting-moccasin.rooster465.autos
-  skip-cert-verify: true
-  sni: trusting-moccasin.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_11|4.6MB/s
-  network: tcp
-  password: JA96378052
-  port: '443'
-  server: willing-eagle.rooster465.autos
+  password: OccIqeORGQwiNkwS
+  port: '19128'
+  server: jpbgp.netvigor.cc
   skip-cert-verify: false
-  sni: willing-eagle.rooster465.autos
+  sni: yazhou10.dynu.net
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_8|4.4MB/s
-  password: JA96378052
-  port: '443'
-  server: 13.212.210.184
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_9|4.8MB/s
-  password: JA96378052
-  port: '443'
-  server: inspired-goshawk.rooster465.autos
-  skip-cert-verify: false
-  sni: inspired-goshawk.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_12|1.6MB/s
+- encryption: none
+  name: 🇸🇬SG_2|3.7MB/s
   network: ws
-  port: '443'
-  server: 103.25.202.114
-  servername: s5gydl.936.us.ci
-  tls: true
+  port: '8880'
+  server: cf3.466688.xyz
   type: vless
   udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
   ws-opts:
     headers:
-      Host: s5gydl.936.us.ci
+      Host: late-mountain-6801.355.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: 🇸🇬 新加坡 | SGP
-  network: ws
-  port: 8880
-  server: 162.159.21.178
-  tls: false
-  type: vless
-  udp: true
-  uuid: 94977b19-6720-48a6-92fd-00238757ea30
-  ws-opts:
-    headers:
-      Host: fragrant-credit-c4cf.148-e68.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: 🇸🇬 新加坡 | SGP 2
-  password: JA96378052
-  port: 443
-  server: aware-corgi.rooster465.autos
-  skip-cert-verify: true
-  sni: aware-corgi.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  password: HW85960347
-  port: 443
-  server: curious-llama.rooster465.autos
-  skip-cert-verify: true
-  sni: curious-llama.rooster465.autos
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 4
-  network: ws
-  port: 2053
-  server: 91.192.81.154
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 5
-  network: ws
-  port: 2083
-  server: 8.39.125.122
-  servername: vp6.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
-  ws-opts:
-    headers:
-      Host: vp6.cc.cd
-    path: /
-- name: 🇸🇬 新加坡 | SGP 7
+  name: 🇸🇬SG_3|3.7MB/s
+  network: tcp
   password: HW85960347
-  port: 443
-  server: happy-porpoise.rooster465.autos
-  skip-cert-verify: true
-  sni: happy-porpoise.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 8
-  password: JA96378052
-  port: 443
-  server: aware-coyote.rooster465.autos
-  skip-cert-verify: true
-  sni: aware-coyote.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 9
-  password: HW85960347
-  port: 443
-  server: settling-grouper.rooster465.autos
-  skip-cert-verify: true
-  sni: settling-grouper.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 10
-  password: JA96378052
-  port: 443
-  server: enough-lamb.rooster465.autos
-  skip-cert-verify: true
-  sni: enough-lamb.rooster465.autos
+  port: '443'
+  server: master-possum.rooster465.autos
+  skip-cert-verify: false
+  sni: master-possum.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: firefox
-  name: 🇸🇬 新加坡 | SGP 12
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5KO-p5u_N5i11i_DC49SsSKTW1XvTiYMhg-eMzj3HTw
+    short-id: '!!str 0417be28beffdfc1'
+  server: 43.159.50.28
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: aa83d161-1169-494a-a57e-c8d8b327f051
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
+  name: 🇸🇬 新加坡 | SGP 2
+  network: grpc
+  port: 36785
+  server: t1.feiyue706.com
+  servername: t1.feiyue706.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
+- client-fingerprint: firefox
+  name: 🇸🇬 新加坡 | SGP 3
   network: ws
   port: 2083
   server: 188.164.248.82
@@ -234,67 +115,39 @@ proxies:
     headers:
       Host: vp9.cc.cd
     path: /
-- name: 🇸🇬 新加坡 | SGP 13
+- name: 🇸🇬 新加坡 | SGP 4
   password: HW85960347
   port: 443
-  server: absolute-teal.rooster465.autos
+  server: picked-hamster.rooster465.autos
   skip-cert-verify: true
-  sni: absolute-teal.rooster465.autos
+  sni: picked-hamster.rooster465.autos
   type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 14
+- name: 🇸🇬 新加坡 | SGP 5
   password: HW85960347
   port: 443
-  server: aware-coyote.rooster465.autos
+  server: renewed-porpoise.rooster465.autos
   skip-cert-verify: true
-  sni: aware-coyote.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 15
-  network: tcp
-  port: 21719
-  server: 43.245.198.157
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6ff24708-1b2a-47dc-bc2b-d498ea00e3e1
-- name: 🇸🇬 新加坡 | SGP 16
-  password: JA96378052
-  port: 443
-  server: relaxed-unicorn.rooster465.autos
-  skip-cert-verify: true
-  sni: relaxed-unicorn.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 17
-  password: JA96378052
-  port: 443
-  server: tolerant-fowl.rooster465.autos
-  skip-cert-verify: true
-  sni: tolerant-fowl.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 18
-  password: HW85960347
-  port: 443
-  server: optimum-tuna.rooster465.autos
-  skip-cert-verify: true
-  sni: optimum-tuna.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 19
-  password: JA96378052
-  port: 443
-  server: dominant-jaguar.rooster465.autos
-  skip-cert-verify: true
-  sni: dominant-jaguar.rooster465.autos
+  sni: renewed-porpoise.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 20
+  name: 🇸🇬 新加坡 | SGP 6
   network: ws
   port: 443
-  server: 152.42.212.65
+  server: 43.156.181.203
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 7
+  network: ws
+  port: 8443
+  server: 64.56.71.64
   servername: s5gydl.936.us.ci
   tls: true
   type: vless
@@ -304,11 +157,121 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- name: 🇸🇬 新加坡 | SGP 21
-  password: JA96378052
+- name: 🇸🇬 新加坡 | SGP 8
+  password: HW85960347
   port: 443
-  server: sharing-filly.rooster465.autos
+  server: lucky-urchin.rooster465.autos
   skip-cert-verify: true
-  sni: sharing-filly.rooster465.autos
+  sni: lucky-urchin.rooster465.autos
   type: trojan
   udp: true
+- name: 🇸🇬 新加坡 | SGP 9
+  password: HW85960347
+  port: 443
+  server: leading-eel.rooster465.autos
+  skip-cert-verify: true
+  sni: leading-eel.rooster465.autos
+  type: trojan
+- name: 🇸🇬 新加坡 | SGP 10
+  password: HW85960347
+  port: 443
+  server: adapted-whippet.rooster465.autos
+  skip-cert-verify: true
+  sni: adapted-whippet.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡 | SGP 11
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SUfGUYeyXhvcomjjiVWlkEK1wSL6Q0wCRNVAzrxaI3Q
+    short-id: '!!str 62a71a3bc82af165'
+  server: lfvps.top
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea535933-6fe2-45ae-b737-5b2d47e04bb4
+- name: 🇸🇬 新加坡 | SGP 12
+  password: PD07395842
+  port: 443
+  server: adapted-whippet.rooster465.autos
+  skip-cert-verify: true
+  sni: adapted-whippet.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 13
+  password: HW85960347
+  port: 443
+  server: tops-puma.rooster465.autos
+  skip-cert-verify: true
+  sni: tops-puma.rooster465.autos
+  type: trojan
+- name: 🇸🇬 新加坡 | SGP 14
+  password: JA96378052
+  port: 443
+  server: precious-stag.rooster465.autos
+  skip-cert-verify: true
+  sni: precious-stag.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 15
+  password: HW85960347
+  port: 443
+  server: social-cod.rooster465.autos
+  skip-cert-verify: true
+  sni: social-cod.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  name: 🇸🇬 新加坡 | SGP 16
+  network: ws
+  port: 2087
+  server: 188.164.248.95
+  servername: vp9.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
+  ws-opts:
+    headers:
+      Host: vp9.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 17
+  network: ws
+  port: 8443
+  server: 43.160.246.223
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- name: 🇸🇬 新加坡 | SGP 18
+  password: HW85960347
+  port: 443
+  server: pro-mako.rooster465.autos
+  skip-cert-verify: true
+  sni: pro-mako.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 19
+  network: ws
+  port: 443
+  server: 172.64.146.37
+  servername: tianshu13.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: tianshu13.pages.dev
+    path: /pyip=proxyip.sg.cmliussss.net

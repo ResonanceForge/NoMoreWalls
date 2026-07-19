@@ -1,53 +1,62 @@
 proxies:
-- encryption: none
-  name: 🇫🇷FR_1|3.6MB/s
-  network: tcp
-  port: '22223'
-  server: 13.36.95.89
-  type: vless
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|2.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.97
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- client-fingerprint: firefox
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  congestion-controller: cubic
+  disable-sni: false
   name: 🇫🇷 法国 | FRA
-  network: xhttp
-  port: 32202
-  reality-opts:
-    public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
-    short-id: '!!str f57d8f26'
+  password: dongtaiwang.com
+  port: 33888
+  reduce-rtt: false
+  request-timeout: 0
   server: 62.210.24.143
-  servername: www.amazon.com
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国 | FRA 2
+  network: ws
+  port: 80
+  server: fr3-0626.18838003.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 35f6c738-06bb-378c-9cda-aecdb3827d0b
+  ws-opts:
+    headers:
+      Host: fr3-0626.18838003.xyz
+    path: /fr333gogofa
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
+  name: 🇫🇷 法国 | FRA 3
+  network: grpc
+  port: 56785
+  server: t3.feiyue706.com
+  servername: t3.feiyue706.com
   tls: true
   type: vless
   udp: true
-  uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
-  xhttp-opts:
-    host: www.amazon.com
-    path: /G3EEoH63
-- name: 🇫🇷 法国 | FRA 2
-  network: tcp
-  port: 22224
-  server: 13.36.95.89
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷 法国 | FRA 3
-  network: tcp
-  port: 22222
-  server: 51.44.110.9
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷 法国 | FRA 4
-  password: PD07395842
-  port: 443
-  server: pretty-quail.rooster465.autos
-  skip-cert-verify: true
-  sni: pretty-quail.rooster465.autos
-  type: trojan
-  udp: true
+  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

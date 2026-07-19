@@ -1,11 +1,26 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '2078'
+  server: 93.180.134.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
+- cipher: chacha20-ietf-poly1305
+  name: 英国+V2CROSS.COM
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
+  type: ss
 - cipher: aes-256-cfb
-  name: 🇬🇧GB_1|3.0MB/s
+  name: 🇬🇧 英国 | GBR 2
   password: amazonskr05
-  port: '443'
+  port: 443
   server: 13.135.248.162
   type: ss
-  udp: true
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN

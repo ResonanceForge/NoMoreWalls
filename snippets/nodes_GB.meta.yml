@@ -1,98 +1,42 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_1|3.0MB/s
-  password: amazonskr05
-  port: '443'
-  server: 13.135.248.162
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '2078'
+  server: 93.180.134.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
+- cipher: chacha20-ietf-poly1305
+  name: 英国+V2CROSS.COM
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
   type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_2|2.7MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
-    short-id: '!!str 1559b440'
-  server: 77.110.113.188
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: api.v1.StreamService
-  name: 🇬🇧 英国 | GBR 2
+  name: 🇬🇧 英国 | GBR
   network: grpc
   port: 443
   reality-opts:
-    public-key: uYXyM2Nwmqw3bSDSV95XmpbOaAYBmBTh619Vl8lFJRs
-    short-id: '!!str 60cde13ab21686e9'
-  server: stats.oneoker.com
-  servername: stats.oneoker.com
+    public-key: pVc2H60-PlZ1gRiYyYc089xCwcck5BTs67k6B2-5ZRM
+    short-id: '!!str 7a7de52ae0e6c22f'
+  server: api.oneoker.com
+  servername: api.oneoker.com
   tls: true
   type: vless
   udp: true
   uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  name: 🇬🇧 英国 | GBR 3
-  network: grpc
-  port: 56784
-  server: t3.feiyue706.com
-  servername: t3.feiyue706.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
-- client-fingerprint: chrome
-  name: 🇬🇧 英国 | GBR 4
-  network: ws
+- cipher: aes-256-cfb
+  name: 🇬🇧 英国 | GBR 2
+  password: amazonskr05
   port: 443
-  server: 91.193.59.224
-  servername: cf11.evan00.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
-  ws-opts:
-    headers:
-      Host: cf11.evan00.dpdns.org
-    path: Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🇬🇧 英国 | GBR 5
-  network: ws
-  port: 443
-  server: 91.193.59.65
-  servername: cf11.evan00.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
-  ws-opts:
-    headers:
-      Host: cf11.evan00.dpdns.org
-    path: Telegram🇨🇳 @WangCai2
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-yandex
-  name: 🇬🇧 英国 | GBR 6
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: '!!str 844352756c1fabba'
-  server: uk.riotvpn.eu
-  servername: avatars.mds.yandex.net
-  tls: true
-  type: vless
-  uuid: f885cecc-a6ea-4e9b-87da-c7dc4b745348
+  server: 13.135.248.162
+  type: ss
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN
