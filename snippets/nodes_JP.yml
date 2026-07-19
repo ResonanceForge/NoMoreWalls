@@ -23,8 +23,31 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|3.9MB/s
+- name: 🇯🇵JP_1|3.7MB/s
+  password: JA96378052
+  port: 443
+  server: probable-weasel.rooster465.autos
+  skip-cert-verify: true
+  sni: probable-weasel.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_2|3.7MB/s
+  password: HW85960347
+  port: 443
+  server: touching-turtle.rooster465.autos
+  skip-cert-verify: true
+  sni: touching-turtle.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 5
+  password: JA96378052
+  port: 443
+  server: apparent-wasp.rooster465.autos
+  skip-cert-verify: true
+  sni: apparent-wasp.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_5|2.6MB/s
   network: tcp
   password: HW85960347
   port: '443'
@@ -33,63 +56,31 @@ proxies:
   sni: ultimate-cardinal.rooster465.autos
   type: trojan
   udp: true
-- name: 🇯🇵 日本 | JPN
-  password: JA96378052
-  port: 443
-  server: probable-weasel.rooster465.autos
-  skip-cert-verify: true
-  sni: probable-weasel.rooster465.autos
+- client-fingerprint: chrome
+  name: 🇯🇵JP_6|5.2MB/s
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: engaged-ram.rooster465.autos
+  skip-cert-verify: false
+  sni: engaged-ram.rooster465.autos
   type: trojan
   udp: true
-- name: 🇯🇵 日本 | JPN 5
+- name: 🇯🇵 日本 | JPN 3
+  password: HW85960347
+  port: 443
+  server: normal-pika.rooster465.autos
+  skip-cert-verify: true
+  sni: normal-pika.rooster465.autos
+  type: trojan
+- name: 🇯🇵 日本 | JPN 7
   password: JA96378052
   port: 443
-  server: peaceful-muskrat.rooster465.autos
+  server: destined-skylark.rooster465.autos
   skip-cert-verify: true
-  sni: peaceful-muskrat.rooster465.autos
+  sni: destined-skylark.rooster465.autos
   type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 8
-  password: JA96378052
-  port: 443
-  server: 18.181.203.134
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵 日本 | JPN 9
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇯🇵 日本 | JPN 10
-  password: HW85960347
-  port: 443
-  server: touching-turtle.rooster465.autos
-  skip-cert-verify: true
-  sni: touching-turtle.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 11
-  password: JA96378052
-  port: 443
-  server: apparent-wasp.rooster465.autos
-  skip-cert-verify: true
-  sni: apparent-wasp.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 14
-  password: HW85960347
-  port: 443
-  server: tight-sunfish.rooster465.autos
-  skip-cert-verify: true
-  sni: tight-sunfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 15
   password: HW85960347
   port: 443
   server: daring-cobra.rooster465.autos
@@ -97,10 +88,20 @@ proxies:
   sni: daring-cobra.rooster465.autos
   type: trojan
   udp: true
-- name: 🇯🇵 日本 | JPN 17
+- name: 🇯🇵 日本 | JPN 15
   password: HW85960347
   port: 443
-  server: normal-pika.rooster465.autos
+  server: star-shrew.rooster465.autos
   skip-cert-verify: true
-  sni: normal-pika.rooster465.autos
+  sni: star-shrew.rooster465.autos
   type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 20
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

@@ -1,17 +1,36 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
   name: 🇰🇷 韩国 | KOR
-  network: grpc
-  port: 46785
-  server: t2.feiyue706.com
-  servername: t2.feiyue706.com
+  network: ws
+  port: 8443
+  server: 43.133.232.228
+  servername: s5gydl.936.us.ci
   tls: true
   type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇰🇷 韩国 | KOR 2
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27008
+  server: bsyt0a.yytls.top
+  skip-cert-verify: true
+  sni: bsyt0a.yytls.top
+  type: anytls
   udp: true
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
+- name: 🇰🇷 韩国 | KOR 3
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27008
+  server: ciakqm.yytls.top
+  skip-cert-verify: true
+  sni: dx2ev9.yytls.top
+  type: anytls
+  udp: true
 - name: KR_speednode_0014
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 31433

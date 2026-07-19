@@ -30,17 +30,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|3.9MB/s
-  network: tcp
-  password: HW85960347
-  port: '443'
-  server: ultimate-cardinal.rooster465.autos
-  skip-cert-verify: false
-  sni: ultimate-cardinal.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN
+- name: 🇯🇵JP_1|3.7MB/s
   password: JA96378052
   port: 443
   server: probable-weasel.rooster465.autos
@@ -48,85 +38,7 @@ proxies:
   sni: probable-weasel.rooster465.autos
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  name: 🇯🇵 日本 | JPN 3
-  network: grpc
-  port: 46780
-  server: t2.feiyue706.com
-  servername: t2.feiyue706.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 4
-  network: ws
-  port: 8443
-  server: 172.237.29.30
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- name: 🇯🇵 日本 | JPN 5
-  password: JA96378052
-  port: 443
-  server: peaceful-muskrat.rooster465.autos
-  skip-cert-verify: true
-  sni: peaceful-muskrat.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 6
-  network: ws
-  port: 8443
-  server: 216.23.86.105
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 7
-  network: ws
-  port: 443
-  server: 172.104.80.248
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- name: 🇯🇵 日本 | JPN 8
-  password: JA96378052
-  port: 443
-  server: 18.181.203.134
-  skip-cert-verify: true
-  sni: WangCai.rooster465.autos
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵 日本 | JPN 9
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵 日本 | JPN 10
+- name: 🇯🇵JP_2|3.7MB/s
   password: HW85960347
   port: 443
   server: touching-turtle.rooster465.autos
@@ -134,7 +46,7 @@ proxies:
   sni: touching-turtle.rooster465.autos
   type: trojan
   udp: true
-- name: 🇯🇵 日本 | JPN 11
+- name: 🇯🇵 日本 | JPN 5
   password: JA96378052
   port: 443
   server: apparent-wasp.rooster465.autos
@@ -143,44 +55,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 12
-  network: ws
-  port: 8443
-  server: 43.163.238.201
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- auth: ND5rGly4ook8qje8
-  name: 🇯🇵 日本 | JPN 13
-  password: ND5rGly4ook8qje8
-  port: 23247
-  server: 13.192.232.42
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- name: 🇯🇵 日本 | JPN 14
-  password: HW85960347
-  port: 443
-  server: tight-sunfish.rooster465.autos
-  skip-cert-verify: true
-  sni: tight-sunfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 15
-  password: HW85960347
-  port: 443
-  server: daring-cobra.rooster465.autos
-  skip-cert-verify: true
-  sni: daring-cobra.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 16
+  name: 🇯🇵JP_4|1.5MB/s
   network: ws
   port: 8443
   server: 172.238.22.36
@@ -193,18 +68,38 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- name: 🇯🇵 日本 | JPN 17
+- name: 🇯🇵JP_5|2.6MB/s
+  network: tcp
   password: HW85960347
-  port: 443
-  server: normal-pika.rooster465.autos
-  skip-cert-verify: true
-  sni: normal-pika.rooster465.autos
+  port: '443'
+  server: ultimate-cardinal.rooster465.autos
+  skip-cert-verify: false
+  sni: ultimate-cardinal.rooster465.autos
   type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵 日本 | JPN 18
+  name: 🇯🇵JP_6|5.2MB/s
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: engaged-ram.rooster465.autos
+  skip-cert-verify: false
+  sni: engaged-ram.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27003
+  server: n8a21l.yytls.top
+  skip-cert-verify: true
+  sni: r24agy.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵 日本 | JPN 2
   network: ws
   port: 443
-  server: 23.249.17.25
+  server: 103.53.80.24
   servername: s5gydl.936.us.ci
   tls: true
   type: vless
@@ -214,3 +109,154 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- name: 🇯🇵 日本 | JPN 3
+  password: HW85960347
+  port: 443
+  server: normal-pika.rooster465.autos
+  skip-cert-verify: true
+  sni: normal-pika.rooster465.autos
+  type: trojan
+- name: 🇯🇵 日本 | JPN 4
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27035
+  server: zzsdsd.yytls.top
+  skip-cert-verify: true
+  sni: m0z6wc.yytls.top
+  type: anytls
+  udp: true
+- name: 🇯🇵 日本 | JPN 6
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27030
+  server: npg4t0.yytls.top
+  skip-cert-verify: true
+  sni: imd0yr.yytls.top
+  type: anytls
+  udp: true
+- name: 🇯🇵 日本 | JPN 7
+  password: JA96378052
+  port: 443
+  server: destined-skylark.rooster465.autos
+  skip-cert-verify: true
+  sni: destined-skylark.rooster465.autos
+  type: trojan
+- name: 🇯🇵 日本 | JPN 8
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27033
+  server: q6q38o.yytls.top
+  skip-cert-verify: true
+  sni: tv7mbw.yytls.top
+  type: anytls
+  udp: true
+- name: 🇯🇵 日本 | JPN 9
+  network: ws
+  port: 8880
+  server: soskeynets.yunzhongzhuan.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 23187ddc-16a5-432d-bf4e-dd42a7ae39f7
+  ws-opts:
+    headers:
+      Host: steep-thunder-97fa.108-d10.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- name: 🇯🇵 日本 | JPN 10
+  password: HW85960347
+  port: 443
+  server: daring-cobra.rooster465.autos
+  skip-cert-verify: true
+  sni: daring-cobra.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN 11
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27003
+  server: mn8345.yytls.top
+  skip-cert-verify: true
+  sni: wnglo3.yytls.top
+  type: anytls
+  udp: true
+- name: 🇯🇵 日本 | JPN 12
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27037
+  server: nbu3ia.yytls.top
+  skip-cert-verify: true
+  sni: txfmod.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇯🇵 日本 | JPN 13
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27003
+  server: t6b787.yytls.top
+  skip-cert-verify: true
+  sni: t6b787.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇯🇵 日本 | JPN 14
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27104
+  reduce-rtt: false
+  request-timeout: 0
+  server: l3e6xb.yydzx.xyz
+  skip-cert-verify: true
+  sni: l3e6xb.yydzx.xyz
+  type: tuic
+  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+- name: 🇯🇵 日本 | JPN 15
+  password: HW85960347
+  port: 443
+  server: star-shrew.rooster465.autos
+  skip-cert-verify: true
+  sni: star-shrew.rooster465.autos
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇯🇵 日本 | JPN 16
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27005
+  server: pdxs9e.yytls.top
+  skip-cert-verify: true
+  sni: pdxs9e.yytls.top
+  type: anytls
+  udp: true
+- name: 🇯🇵 日本 | JPN 17
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27035
+  server: vpn3kr.yytls.top
+  skip-cert-verify: true
+  sni: r406c0.yytls.top
+  type: anytls
+  udp: true
+- auth: ND5rGly4ook8qje8
+  name: 🇯🇵 日本 | JPN 18
+  password: ND5rGly4ook8qje8
+  port: 23247
+  server: 13.192.232.42
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- name: 🇯🇵 日本 | JPN 19
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27033
+  server: h2zaaa.yytls.top
+  skip-cert-verify: true
+  sni: a5p64j.yytls.top
+  type: anytls
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 20
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

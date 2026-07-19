@@ -1,34 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.1MB/s
+- name: 🇫🇷 法国 | FRA
   network: ws
   password: humanity
-  port: '443'
-  server: 104.18.152.97
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  port: 443
+  server: 212.183.88.136
+  skip-cert-verify: true
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      Host: www.calmlunch.com
     path: /assignment
-- alpn:
-  - h3
-  congestion-controller: cubic
-  disable-sni: false
-  name: 🇫🇷 法国 | FRA
-  password: dongtaiwang.com
-  port: 33888
-  reduce-rtt: false
-  request-timeout: 0
-  server: 62.210.24.143
-  skip-cert-verify: true
-  sni: bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
 - alterId: 0
   cipher: auto
   name: 🇫🇷 法国 | FRA 2
@@ -44,19 +27,37 @@ proxies:
     headers:
       Host: fr3-0626.18838003.xyz
     path: /fr333gogofa
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
+- alpn:
+  - h3
+  congestion-controller: cubic
+  disable-sni: false
   name: 🇫🇷 法国 | FRA 3
-  network: grpc
-  port: 56785
-  server: t3.feiyue706.com
-  servername: t3.feiyue706.com
+  password: dongtaiwang.com
+  port: 33888
+  reduce-rtt: false
+  request-timeout: 0
+  server: 62.210.24.143
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+- client-fingerprint: firefox
+  name: 🇫🇷 法国 | FRA 4
+  network: xhttp
+  port: 32202
+  reality-opts:
+    public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
+    short-id: '!!str f57d8f26'
+  server: 62.210.24.143
+  servername: www.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
+  uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
+  xhttp-opts:
+    host: www.amazon.com
+    path: /G3EEoH63
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

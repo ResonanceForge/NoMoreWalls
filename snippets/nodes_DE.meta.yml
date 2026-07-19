@@ -128,151 +128,14 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 🇩🇪 德国 | DEU 3
+  name: 🇩🇪DE_1|4.4MB/s
   password: amazonskr05
   port: 443
   server: 3.77.54.36
   type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_2|3.3MB/s
-  network: xhttp
-  port: '8443'
-  server: love.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_3|3.3MB/s
-  network: xhttp
-  port: '8443'
-  server: bayan.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-    short-id: '!!str 2e40144ddc07e8e1'
-  server: us02.tunnely.ru
-  servername: us02.tunnely.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_5|2.7MB/s
-  network: ws
-  port: '8880'
-  server: 172.66.132.196
-  type: vless
-  udp: true
-  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
-  ws-opts:
-    headers:
-      Host: tiny-feather-4c41.227.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_6|2.5MB/s
-  network: ws
-  port: '2095'
-  server: cdnjs.com
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /fp=randomized
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|3.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: qm-zp2dNT8dDO9KWbfQrxN3IKT0JlNZkWT53aaCKfxM
-    short-id: '!!str d9662905'
-  server: zaplio-gook.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
-  xudp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇩🇪DE_8|2.5MB/s
-  network: http
-  port: '8882'
-  server: 31.56.197.160
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU
-  network: ws
-  port: 8443
-  server: 152.228.134.90
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: auragrpc
-  name: 🇩🇪 德国 | DEU 2
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: TGJxKbPG8ds2NwK6uhgQURUfVJ01BcRh3Eaoy3dtdGA
-    short-id: '!!str a3d8f1e9b2c7d4e6'
-  server: z9m-ctrl.nu.auragg.org
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 4
+  name: 🇩🇪DE_2|3.0MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -288,7 +151,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 🇩🇪 德国 | DEU 5
+  name: 🇩🇪 德国 | DEU 10
   port: 26691
   protocol: udp
   server: 5.83.129.143
@@ -296,8 +159,177 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
+- cipher: aes-256-cfb
+  name: 🇩🇪 德国 | DEU 14
+  password: amazonskr05
+  port: 443
+  server: 54.93.83.254
+  type: ss
+- name: 🇩🇪DE_5|1.8MB/s
+  network: ws
+  port: '8880'
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
+  ws-opts:
+    headers:
+      Host: wild-frog-c709.403-6ff.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪 德国 | DEU 9
+  network: xhttp
+  port: 8443
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪 德国 | DEU 17
+  network: xhttp
+  port: 8443
+  server: bayan.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_8|1.9MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: 3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q
+    short-id: '!!str dab093f5'
+  server: 194.55.239.250
+  servername: yastatic.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6192b7d1-fc9d-4be1-900e-dbd69de95ddf
+  xudp: true
+- name: 🇩🇪DE_9|2.1MB/s
+  network: ws
+  port: '8880'
+  server: www.zsu.gov.ua
+  type: vless
+  udp: true
+  uuid: bfa3aaaf-41d3-4ec4-8453-e9827d7e7b30
+  ws-opts:
+    headers:
+      Host: crimson-mode-f8de.432-9e1.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇩🇪DE_10|2.5MB/s
+  network: http
+  port: '8882'
+  server: 31.56.197.160
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_11|1.6MB/s
+  network: grpc
+  port: '49007'
+  reality-opts:
+    public-key: t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0
+    short-id: '!!str dfdee30a27b11f0f'
+  server: 185.229.9.31
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb3c2bd0-66e9-4619-a94b-cf8cc4ff35a7
+  xudp: true
+- name: 🇩🇪DE_12|3.0MB/s
+  network: ws
+  port: '8880'
+  server: 104.27.82.154
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_13|2.1MB/s
+  network: ws
+  port: '2096'
+  server: legend.zdshop.ir
+  servername: gtyiradsgkdsfghysfr.konjedland.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: bfa83493-f64e-4c01-b62c-ee21988018f5
+  ws-opts:
+    headers:
+      Host: gtyiradsgkdsfghysfr.konjedland.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /WEDBAZ?ed=2048
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_14|2.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: '8443'
+  server: 213.202.219.29
+  skip-cert-verify: false
+  sni: grape-sos-de.roxa.org
+  type: hysteria2
+  up: ''
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_15|1.6MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.126.251.203
+  type: ss
+  udp: true
 - auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  name: 🇩🇪 德国 | DEU 6
+  name: 🇩🇪 德国 | DEU
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
   password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
@@ -307,90 +339,190 @@ proxies:
   sni: ff2.yuntong.click
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 7
-  network: ws
-  port: 8443
-  server: 51.91.100.9
-  servername: s5gydl.936.us.ci
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str e1f8a3b6'
+  server: fl.musicperec.ru
+  servername: www.amd.com
   tls: true
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- name: 🇩🇪 德国 | DEU 8
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
   udp: true
-  uuid: fb12a529-181a-42e6-a247-3ba44e081f57
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1/?2048
-- cipher: aes-256-cfb
-  name: 🇩🇪 德国 | DEU 9
-  password: amazonskr05
+  uuid: 31216f81-3139-0021-bac4-646680314264
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 3
+  network: ws
   port: 443
-  server: 54.93.83.254
-  type: ss
-- name: 🇩🇪 德国 | DEU 10
-  network: ws
-  port: 80
-  server: 155.212.170.92
-  tls: false
+  server: 1.tls.fastly.veraspeed.ir
+  servername: ssl.fastly.com
+  tls: true
   type: vless
   udp: true
-  uuid: f387e32c-a8ab-4adf-9c5c-fe371cf78f6b
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
   ws-opts:
     headers:
-      Host: 26bc92586944.apruxdomain.online
-    path: /
-- name: 🇩🇪 德国 | DEU 12
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 4
   network: ws
-  port: 2082
-  server: 82.115.16.211
+  port: 443
+  server: 199.232.249.110
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
+    short-id: '!!str a91045bc'
+  server: 163.5.153.153
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
+- name: 🇩🇪 德国 | DEU 6
+  network: ws
+  port: 2086
+  server: digitalocean.com
   tls: false
   type: vless
   udp: true
-  uuid: 1c404fde-0aa5-482c-ab00-0b34db703ac8
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
   ws-opts:
-    path: /
+    headers:
+      Host: arshia.lezzatArshia.ir
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
+    v2ray-http-upgrade: true
+- client-fingerprint: edge
+  encryption: mlkem768x25519plus.native.0rtt.81v4M2zT2d7WOF84cR0ruUfDKkCNlH-aAGYPoR6yGlU
+  name: 🇩🇪 德国 | DEU 7
+  network: tcp
+  port: 52610
+  reality-opts:
+    public-key: Nd1Efm_-pq3EJNcQU5WOU7d2lSgjtc5JFxLFQjQP-nA
+    short-id: '!!str 7bf016de036a78'
+  server: 31.76.21.111
+  servername: okko.tv
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9f67e27-f269-4dd8-8cb7-2281fa2fede5
+- http-opts:
+    headers:
+      Host:
+      - /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+    method: GET
+    path:
+    - /
+  name: 🇩🇪 德国 | DEU 8
+  network: http
+  port: 8882
+  server: gr1.fifapes.monster
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 11
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ayJjf8TJwT_INFKDDHk9uv3zyoERmbG2gECNX1fwFxo
+    short-id: '!!str 94c2ae0f7b6d3e15'
+  server: fi.plus-hit.ru
+  servername: fi.plus-hit.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: de0683f5-ad03-40c4-90f2-59feec9003b9
 - cipher: aes-256-cfb
   name: 🇩🇪 德国 | DEU 13
   password: amazonskr05
   port: 443
-  server: 3.75.172.120
+  server: 63.177.252.44
   type: ss
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 15
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
   udp: true
-- name: 🇩🇪 德国 | DEU 14
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 26bc92586944.apruxdomain.online
-  tls: false
+  up: 500
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 16
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: D6XeTEyHUrcUWHuo5uNjBY3fQXhthHLLXdufndJlCGo
+    short-id: '!!str fcc34c19a6bbe4bb'
+  server: 45.157.234.46
+  servername: free6.anotherboring.top
+  tls: true
   type: vless
   udp: true
-  uuid: f387e32c-a8ab-4adf-9c5c-fe371cf78f6b
+  uuid: 3b1eabd2-7796-4e60-a6e2-0bca82cbc64e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 18
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI
+    short-id: '!!str 7f2e9c4b1a8d6e53'
+  server: nl.n.belka.network
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb6b3497-2026-4a86-b9a5-3e5f18e77a37
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 19
+  port: 20088
+  protocol: none
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- client-fingerprint: firefox
+  name: 🇩🇪 德国 | DEU 20
+  network: ws
+  port: 443
+  server: 199.232.29.204
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
   ws-opts:
     headers:
-      Host: 26bc92586944.apruxdomain.online
-    path: /
-- cipher: aes-256-cfb
-  name: 🇩🇪 德国 | DEU 15
-  password: amazonskr05
-  port: 443
-  server: 63.176.169.206
-  type: ss
-- auth: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  name: 🇩🇪 德国 | DEU 16
-  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: 443
-  server: fl01.auragg.org
-  skip-cert-verify: true
-  sni: fl01.auragg.org
-  type: hysteria2
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
