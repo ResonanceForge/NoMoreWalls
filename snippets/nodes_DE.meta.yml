@@ -37,7 +37,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: ⭕T.Me=V2RayyNGvpn🇩🇪
+- name: 🇩🇪115779 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: IoFmkhjUlE
@@ -127,6 +127,18 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: 🇩🇪 德国 | DEU 4
+  network: ws
+  port: 80
+  server: 108.162.194.226
+  tls: false
+  type: vless
+  udp: true
+  uuid: 39e4ffce-5027-4138-a93b-4de33bc2a3f1
+  ws-opts:
+    headers:
+      Host: ppp.19bot.ir
+    path: /secure-vpn/
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
   name: 🇩🇪 德国 | DEU 17
@@ -159,21 +171,23 @@ proxies:
     mode: auto
     path: /
     x-padding-bytes: 100-1000
-- encryption: none
-  name: 🇩🇪DE_3|1.8MB/s
-  network: ws
-  port: '445'
-  server: snapp.ir.jetpingnet.com
-  type: vless
+- name: 🇩🇪 德国 | DEU 24
+  password: ON38567014
+  port: 443
+  server: sensible-grubworm.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: c8b2807e-7d40-4e62-949b-b99a2fdbeb45
-  ws-opts:
-    headers:
-      Host: snapp.ir.jetpingnet.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /sdfskfjh?ed=2048
-  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_5|2.2MB/s
+  network: tcp
+  password: ON38567014
+  port: '443'
+  server: summary-finch.rooster465.autos
+  skip-cert-verify: false
+  sni: summary-finch.rooster465.autos
+  type: trojan
+  udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -206,32 +220,6 @@ proxies:
   port: 443
   server: 3.126.251.203
   type: ss
-- name: 🇩🇪 德国 | DEU 4
-  network: ws
-  port: 80
-  server: 108.162.194.226
-  tls: false
-  type: vless
-  udp: true
-  uuid: 39e4ffce-5027-4138-a93b-4de33bc2a3f1
-  ws-opts:
-    headers:
-      Host: ppp.19bot.ir
-    path: /secure-vpn/
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 5
-  network: ws
-  port: 2053
-  server: 152.228.134.80
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - client-fingerprint: chrome
   name: 🇩🇪 德国 | DEU 6
   network: ws
@@ -405,10 +393,3 @@ proxies:
   type: vless
   udp: true
   uuid: a307dbfd-1069-4880-950a-b5f5e82c3478
-- name: 🇩🇪 德国 | DEU 24
-  password: ON38567014
-  port: 443
-  server: sensible-grubworm.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true

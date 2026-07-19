@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- http-opts:
+    headers:
+      Host:
+      - /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+    method: GET
+    path:
+    - /
+  name: 🇩🇪 德国 | DEU 20
+  network: http
+  port: 8882
+  server: gr1.fifapes.monster
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: gr1.fifapes.monster
+    path: '%2F'
