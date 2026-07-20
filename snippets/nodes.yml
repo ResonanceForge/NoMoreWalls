@@ -89,6 +89,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '2078'
+  server: 93.180.134.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
+- name: 香港+电讯盈科有限公司
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  type: trojan
 - name: 荷兰+V2CROSS.COM
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
@@ -97,13 +113,65 @@ proxies:
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
     path: '%2Fin-pdr'
+- name: 美国+CloudFlare节点
+  network: xhttp
+  password: VPNCUSTOMIZE
+  port: 443
+  server: 162.159.38.183
+  skip-cert-verify: false
+  sni: ww.offers.de5.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bvck-oizksj-swin-usje-c-o.offers.de5.net
+    path: /config
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.host-tracker.com
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - cipher: aes-256-gcm
   name: 上海市+电信
   password: 95c3d114-5370-3e54-832a-5a5acc492b9b
   port: 20068
   server: 1.n.c.5.h.z.q.e.d.fr01-ae5.entry.v51124-5.qpon
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.80
+  type: ss
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.98.0
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
