@@ -39,99 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇵🇱 波兰 | POL 2
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: cdd.themesh.site
-  servername: cdd.themesh.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fa9f6ae-877b-4858-b128-a8377fd9038b
-  xhttp-opts:
-    host: cdd.themesh.site
-    mode: packet-up
-    path: /api/v3/content/
-    sc-max-each-post-bytes: 1500000
-    sc-min-posts-interval-ms: 50-100
-    seq-key: x_seq
-    seq-placement: query
-    session-key: x_session
-    session-placement: query
-    uplink-chunk-size: 4096-8192
-    uplink-data-key: X-Data
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-header: Referer
-    x-padding-key: utm_source
-    x-padding-method: tokenish
-    x-padding-placement: queryInHeader
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|4.0MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: '443'
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /in-pdr
-- client-fingerprint: random
-  name: 🇸🇬 新加坡 | SGP 3
-  network: ws
-  port: 8443
-  server: 162.159.34.128
-  servername: image.evan00.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b961a840-e716-4466-84e3-b701d10adec0
-  ws-opts:
-    headers:
-      Host: image.evan00.dpdns.org
-    path: /proxyip=ProxyIP.US.cmliussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 8
-  network: ws
-  port: 2096
-  server: 172.64.145.94
-  servername: image.evan00.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b961a840-e716-4466-84e3-b701d10adec0
-  ws-opts:
-    headers:
-      Host: image.evan00.dpdns.org
-    path: /proxyip=ProxyIP.US.cmliussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 9
-  network: ws
-  port: 2096
-  server: fw8je9.cf.3666888.xyz
-  servername: image.evan00.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b961a840-e716-4466-84e3-b701d10adec0
-  ws-opts:
-    headers:
-      Host: image.evan00.dpdns.org
-    path: /proxyip=ProxyIP.US.cmliussss.net
-  xudp: true
-- name: 🇸🇬 新加坡 | SGP
+- name: 🇸🇬 新加坡 | SGP 19
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -143,11 +51,84 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡 | SGP 2
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 12
   network: ws
   port: 8443
-  server: 104.18.37.237
+  server: 162.159.34.128
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|4.0MB/s
+  network: ws
+  port: 2096
+  server: 172.64.145.94
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- client-fingerprint: chrome
+  name: 🇸🇬SG_4|4.5MB/s
+  network: ws
+  port: 2096
+  server: fw8je9.cf.3666888.xyz
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 22
+  network: ws
+  port: 443
+  server: 162.159.24.144
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_6|2.9MB/s
+  network: ws
+  port: '443'
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_7|3.9MB/s
+  network: ws
+  port: '443'
+  server: 162.159.26.86
   servername: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
@@ -156,16 +137,307 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /
-- name: 🇸🇬 新加坡 | SGP 4
+  xudp: true
+- name: 🇸🇬 新加坡 | SGP
+  password: IQ68037294
+  port: 443
+  server: prepared-turkey.rooster465.autos
+  skip-cert-verify: true
+  sni: prepared-turkey.rooster465.autos
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  port: 443
+  server: cdn.262832.xyz
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 3
+  network: ws
+  port: 2096
+  server: 172.64.151.254
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  port: 2087
+  server: 162.159.36.117
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 🇸🇬 新加坡 | SGP 5
+  network: ws
+  port: 8880
+  server: 162.159.21.178
+  tls: false
+  type: vless
+  udp: true
+  uuid: f09f4baa-7688-4514-8062-c3ea8e319624
+  ws-opts:
+    headers:
+      Host: dark-leaf-93a1.440-02e.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 6
+  network: ws
+  port: 443
+  server: 172.64.38.215
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 7
+  network: ws
+  port: 443
+  server: 108.162.193.0
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 8
+  network: ws
+  port: 8443
+  server: 162.159.11.220
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 9
+  network: ws
+  port: 2096
+  server: 162.159.40.181
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 10
+  network: ws
+  port: 8443
+  server: 173.245.58.217
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 11
+  network: ws
+  port: 443
+  server: 108.162.195.196
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 13
+  network: ws
+  port: 8443
+  server: 104.18.33.134
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 14
+  network: ws
+  port: 2087
+  server: 162.159.49.17
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 15
+  network: ws
+  port: 443
+  server: 162.159.0.46
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 🇸🇬 新加坡 | SGP 16
+  password: IQ68037294
+  port: 443
+  server: humane-hawk.rooster465.autos
+  skip-cert-verify: true
+  sni: humane-hawk.rooster465.autos
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 17
+  network: ws
+  port: 8443
+  server: 172.64.159.76
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 18
+  network: ws
+  port: 443
+  server: 108.162.195.58
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 20
+  network: ws
+  port: 2053
+  server: 172.64.158.48
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 21
+  network: ws
+  port: 8443
+  server: 172.64.35.32
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 🇸🇬 新加坡 | SGP 23
   password: IQ68037294
   port: 443
   server: pleased-sawfly.rooster465.autos
   skip-cert-verify: true
   type: trojan
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 24
+  network: ws
+  port: 8443
+  server: 104.18.38.250
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 5
+  name: 🇸🇬 新加坡 | SGP 25
   network: tcp
   port: 443
   reality-opts:
@@ -179,29 +451,110 @@ proxies:
   uuid: aa83d161-1169-494a-a57e-c8d8b327f051
 - alpn:
   - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇸🇬 新加坡 | SGP 6
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27103
-  reduce-rtt: false
-  request-timeout: 0
-  server: z8ifz3.yydzx.xyz
-  skip-cert-verify: true
-  sni: z8ifz3.yydzx.xyz
-  type: tuic
-  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 | SGP 7
-  network: tcp
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 26
+  network: ws
   port: 443
-  reality-opts:
-    public-key: SUfGUYeyXhvcomjjiVWlkEK1wSL6Q0wCRNVAzrxaI3Q
-    short-id: '!!str 62a71a3bc82af165'
-  server: lfvps.top
-  servername: www.cloudflare.com
+  server: 162.159.46.78
+  servername: image.evan00.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: ea535933-6fe2-45ae-b737-5b2d47e04bb4
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 27
+  network: ws
+  port: 443
+  server: 162.159.14.181
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 🇸🇬 新加坡 | SGP 28
+  password: IQ68037294
+  port: 443
+  server: endless-kiwi.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 29
+  network: ws
+  port: 8443
+  server: 172.64.153.57
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 🇸🇬 新加坡 | SGP 30
+  network: ws
+  port: 443
+  server: 162.159.7.178
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 🇸🇬 新加坡 | SGP 31
+  password: IQ68037294
+  port: 443
+  server: apt-midge.rooster465.autos
+  skip-cert-verify: true
+  sni: apt-midge.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 32
+  password: IQ68037294
+  port: 443
+  server: glowing-deer.rooster465.autos
+  skip-cert-verify: true
+  sni: glowing-deer.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 33
+  password: IQ68037294
+  port: 443
+  server: still-mastodon.rooster465.autos
+  skip-cert-verify: true
+  sni: still-mastodon.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP 34
+  network: ws
+  port: 2096
+  server: 104.18.47.140
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net

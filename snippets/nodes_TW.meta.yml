@@ -7,47 +7,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27005
-  server: hp9wyz.yytls.top
-  skip-cert-verify: true
-  sni: wluvbc.yytls.top
-  type: anytls
-  udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27005
-  server: v0j780.yytls.top
-  skip-cert-verify: true
-  sni: e485ne.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇹🇼 🇨🇳 台湾 | TWN 3
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27005
-  server: n6z1a5.yytls.top
-  skip-cert-verify: true
-  sni: n6z1a5.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇹🇼 🇨🇳 台湾 | TWN 4
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27105
-  reduce-rtt: false
-  request-timeout: 0
-  server: omuh90.yydzx.xyz
-  skip-cert-verify: true
-  sni: omuh90.yydzx.xyz
-  type: tuic
-  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: TW_speednode_0053

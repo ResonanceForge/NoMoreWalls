@@ -1,47 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '2078'
-  server: 93.180.134.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
-- client-fingerprint: firefox
-  name: 🇬🇧 英国 | GBR
-  network: tcp
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 | NLD
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
-  reality-opts:
-    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-  server: uk.monkora.org
-  servername: uk.monkora.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d89c9d5e-004f-4a02-8cd5-0c0d697862bb
-- client-fingerprint: chrome
-  name: 🇬🇧 英国 | GBR 2
-  network: ws
-  port: 8443
-  server: ad-010.vector9nmb3.info
-  servername: ad-010.vector9nmb3.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
-  ws-opts:
-    headers:
-      Host: ad-010.vector9nmb3.info
-    path: /
-- name: 🇬🇧 英国 | GBR 3
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  port: 27012
-  server: awdpvb.yytls.top
-  skip-cert-verify: true
-  sni: yigw1s.yytls.top
-  type: anytls
+  server: 82.38.31.35
+  type: ss
   udp: true
 - name: GB_speednode_0005
   network: ws
