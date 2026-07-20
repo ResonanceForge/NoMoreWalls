@@ -30,15 +30,33 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵 日本 | JPN 6
+- name: 🇯🇵 日本 | JPN 21
   password: IQ68037294
   port: 443
-  server: amazed-burro.rooster465.autos
+  server: intense-basilisk.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_2|2.0MB/s
+  name: 🇯🇵JP_2|3.1MB/s
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: novel-bat.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_3|2.8MB/s
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: major-duckling.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|2.8MB/s
   network: tcp
   password: IQ68037294
   port: '443'
@@ -125,6 +143,13 @@ proxies:
     headers:
       Host: image.evan00.dpdns.org
     path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 🇯🇵 日本 | JPN 6
+  password: IQ68037294
+  port: 443
+  server: amazed-burro.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alpn:
   - h3
   client-fingerprint: random
@@ -320,13 +345,6 @@ proxies:
     headers:
       Host: image.evan00.dpdns.org
     path: /proxyip=ProxyIP.US.cmliussss.net
-- name: 🇯🇵 日本 | JPN 21
-  password: IQ68037294
-  port: 443
-  server: intense-basilisk.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - client-fingerprint: random
   name: 🇯🇵 日本 | JPN 22
   network: ws

@@ -1,18 +1,34 @@
 proxies:
-- name: 🇫🇷 法国 | FRA 2
-  password: IQ68037294
-  port: 443
-  server: immune-earwig.rooster465.autos
-  skip-cert-verify: true
-  sni: immune-earwig.rooster465.autos
-  type: trojan
-  udp: true
 - name: 🇫🇷 法国 | FRA 3
   password: IQ68037294
   port: 443
   server: definite-giraffe.rooster465.autos
   skip-cert-verify: true
   sni: definite-giraffe.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇫🇷 法国 | FRA 6
+  password: IQ68037294
+  port: 443
+  server: humane-bird.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇫🇷FR_6|3.2MB/s
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: firm-warthog.rooster465.autos
+  skip-cert-verify: false
+  sni: firm-warthog.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇫🇷 法国 | FRA 2
+  password: IQ68037294
+  port: 443
+  server: immune-earwig.rooster465.autos
+  skip-cert-verify: true
+  sni: immune-earwig.rooster465.autos
   type: trojan
   udp: true
 - name: 🇫🇷 法国 | FRA 5
@@ -23,9 +39,3 @@ proxies:
   sni: desired-pony.rooster465.autos
   type: trojan
   udp: true
-- name: 🇫🇷 法国 | FRA 6
-  password: IQ68037294
-  port: 443
-  server: humane-bird.rooster465.autos
-  skip-cert-verify: true
-  type: trojan

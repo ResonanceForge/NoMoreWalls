@@ -1,12 +1,11 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
+- encryption: none
+  name: 🇷🇺 俄罗斯 | RUS 2
   network: tcp
-  port: 8882
-  server: gr1.fifapes.monster
+  port: 13561
+  server: 87.242.85.201
   tls: false
   type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  ws-opts:
-    headers:
-      Host: '%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI'
-    path: '%2F'
+  udp: true
+  uuid: 566f8818-17fe-4ca9-8035-c9081ece6f68
+  xudp: true
