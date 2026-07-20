@@ -23,18 +23,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬 新加坡 | SGP 19
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
 - name: 🇸🇬 新加坡 | SGP
   password: IQ68037294
   port: 443
@@ -51,6 +39,18 @@ proxies:
   sni: humane-hawk.rooster465.autos
   type: trojan
   udp: true
+- name: 🇸🇬 新加坡 | SGP 19
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
 - name: 🇸🇬 新加坡 | SGP 23
   password: IQ68037294
   port: 443

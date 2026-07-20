@@ -89,19 +89,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 荷兰 | NLD
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 荷兰+V2CROSS.COM
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
-  server: 82.38.31.35
-  type: ss
-  udp: true
+  server: 188.164.248.122
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    path: '%2Fin-pdr'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -223,38 +219,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇸🇬 新加坡 | SGP 19
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+- name: 🇮🇪 爱尔兰 | IRL
+  password: IQ68037294
   port: 443
-  server: 188.164.248.122
+  server: moving-wren.rooster465.autos
   skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
+  sni: moving-wren.rooster465.autos
   type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_1|3.3MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+- name: 🇯🇵 日本 | JPN 6
+  password: IQ68037294
+  port: 443
+  server: amazed-burro.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国 | KOR 6
+  password: IQ68037294
+  port: 443
+  server: whole-perch.rooster465.autos
+  skip-cert-verify: true
+  sni: whole-perch.rooster465.autos
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.7MB/s
+  name: 🇯🇵JP_2|2.0MB/s
   network: tcp
   password: IQ68037294
   port: '443'
-  server: firm-warthog.rooster465.autos
+  server: enhanced-dassie.rooster465.autos
   skip-cert-verify: false
-  sni: firm-warthog.rooster465.autos
+  sni: enhanced-dassie.rooster465.autos
   type: trojan
   udp: true
 - name: 🇩🇪 德国 | DEU 3
@@ -303,21 +298,6 @@ proxies:
   server: humane-bird.rooster465.autos
   skip-cert-verify: true
   type: trojan
-- name: 🇮🇪 爱尔兰 | IRL
-  password: IQ68037294
-  port: 443
-  server: moving-wren.rooster465.autos
-  skip-cert-verify: true
-  sni: moving-wren.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 6
-  password: IQ68037294
-  port: 443
-  server: amazed-burro.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 🇯🇵 日本 | JPN 9
   password: IQ68037294
   port: 443
@@ -390,14 +370,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇰🇷 韩国 | KOR 6
-  password: IQ68037294
-  port: 443
-  server: whole-perch.rooster465.autos
-  skip-cert-verify: true
-  sni: whole-perch.rooster465.autos
-  type: trojan
-  udp: true
 - name: 🇰🇷 韩国 | KOR 7
   password: IQ68037294
   port: 443
@@ -447,6 +419,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 1f23397d-fdb3-4773-fc11-857284546f2f
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 荷兰 | NLD
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.35
+  type: ss
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 6
   password: IQ68037294
   port: 443
@@ -469,6 +448,18 @@ proxies:
   sni: humane-hawk.rooster465.autos
   type: trojan
   udp: true
+- name: 🇸🇬 新加坡 | SGP 19
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
 - name: 🇸🇬 新加坡 | SGP 23
   password: IQ68037294
   port: 443
