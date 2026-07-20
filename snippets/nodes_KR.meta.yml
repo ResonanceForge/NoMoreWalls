@@ -1,25 +1,19 @@
 proxies:
 - auth: 78f2e8f0-68ea-438e-84ec-d58c9416c680
-  name: 🇰🇷 韩国 | KOR
+  name: 🇰🇷KR_1|3.7MB/s
   password: 78f2e8f0-68ea-438e-84ec-d58c9416c680
   port: 18385
   server: kr1.ktmhyld.com
   skip-cert-verify: true
   sni: kr1.ktmhyld.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇰🇷 韩国 | KOR 2
-  network: tcp
-  port: 8686
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 13.125.76.168
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- name: 🇰🇷 韩国 | KOR
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
+  port: 56127
+  server: 154.90.62.70
+  skip-cert-verify: true
+  sni: 154.90.62.70
+  type: trojan
 - name: KR_speednode_0014
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 31433

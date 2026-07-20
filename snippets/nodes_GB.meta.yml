@@ -1,35 +1,56 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_2|2.5MB/s
-  network: raw
-  port: 443
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '2078'
+  server: 93.180.134.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
+- client-fingerprint: qq
+  name: 🇬🇧GB_1|2.0MB/s
+  network: tcp
+  port: '443'
   reality-opts:
     public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
     short-id: '!!str 1559b440'
   server: 77.110.113.188
   servername: www.samsung.com
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_3|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: '443'
-  server: ge01.auragg.org
-  skip-cert-verify: false
-  sni: ge01.auragg.org
-  type: hysteria2
-  up: ''
-- client-fingerprint: qq
+- encryption: none
+  name: 🇫🇷 法国 | FRA 3
+  network: tcp
+  port: 443
+  server: 0w7ymj.spectrum.vu
+  tls: false
+  type: vless
+  udp: true
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_4|3.2MB/s
+  name: 🇬🇧 英国 | GBR 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o
+  server: 130.78.216.194
+  servername: panel.tehno.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a12bb81-f3a3-0064-99ab-36febf676b4a
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_4|2.5MB/s
   network: tcp
   port: '8443'
   reality-opts:
@@ -42,22 +63,66 @@ proxies:
   udp: true
   uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   xudp: true
-- name: 🇬🇧 英国 | GBR
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_5|2.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o
+    short-id: '!!str '
+  server: 130.78.216.194
+  servername: panel.tehno.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a12bb81-f3a3-0065-99ab-36febf676b4a
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR
+  network: tcp
+  port: 3443
+  reality-opts:
+    public-key: lTFIEk0zPP0ShGATCZBUvCmaTmJXeAFdS6FuUKbmHkY
+    short-id: '!!str 529584669876b8e9'
+  server: 176.109.88.246
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f487abf-c202-4eb9-bdb7-314be6ff7c8d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国 | GBR 2
+  network: tcp
+  port: 20003
+  reality-opts:
+    public-key: anEFutGKj3bd5dRKm63oMUEJjUpkV4i2DJyb4SglsEU
+    short-id: '!!str 3ad40ee414b8d72e'
+  server: 138.124.14.70
+  servername: payeer.smmfather.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: c0e84986-1a20-4b51-93b3-dbfb3d55a4ce
+- name: 🇬🇧 英国 | GBR 3
   network: ws
   port: 80
-  server: 91.193.58.40
+  server: 91.193.58.13
   tls: false
   type: vless
   udp: true
-  uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
   ws-opts:
     headers:
-      Host: sahanwickramasinghevip.shop
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇬🇧 英国 | GBR 2
+      Host: plain-darkness-90ea.259.workers.dev
+    path: /pyip=Telegram🇨🇳 @WangCai2
+- name: 🇬🇧 英国 | GBR 5
   network: ws
   port: 80
-  server: 91.193.58.58
+  server: 91.193.58.204
   tls: false
   type: vless
   udp: true

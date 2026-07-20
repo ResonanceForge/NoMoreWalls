@@ -1,5 +1,5 @@
 proxies:
-- name: 新加坡|@ripaojiedian
+- name: 🇸🇬 新加坡 | SGP 6
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡2|@ripaojiedian
+- name: 🇸🇬 新加坡 | SGP 5
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: 🇸🇬SG_8|2.5MB/s
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -23,18 +23,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 | SGP 13
+- name: 🇸🇬SG_1|3.8MB/s
   network: ws
-  port: 16618
-  server: planb.mojcn.com
-  servername: 377bba13899082eed0aa25dc365119c7.mobgslb.tbcache.com
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2ed5919d-9a69-4c79-90af-e21915182aa1
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
   ws-opts:
     headers:
-      Host: planb.mojcn.com
-    path: /
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- name: 🇸🇬 新加坡 | SGP
+  password: BxceQaOe
+  port: 41421
+  server: 43.198.13.164
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan

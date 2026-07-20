@@ -1,13 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|1.9MB/s
-  password: OccIqeORGQwiNkwS
-  port: '19128'
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-  udp: true
 - name: 🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -24,15 +15,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
+- name: 🇭🇰 香港 | HKG 3
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
   server: 18.162.155.166
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: 🇭🇰HK_4|3.5MB/s
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -58,34 +49,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
+- name: 🇭🇰 香港 | HKG
+  password: BxceQaOe
+  port: 27161
+  server: 18.166.57.77
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇭🇰 香港 | HKG 2
+  password: JA96378052
+  port: 443
+  server: saved-mudfish.rooster465.autos
+  skip-cert-verify: true
+  sni: saved-mudfish.rooster465.autos
+  type: trojan
+- alpn:
+  - ''
+  alterId: 2
   cipher: auto
-  name: 🇭🇰HK_1|3.7MB/s
-  network: ws
-  port: '12890'
-  server: cs.ktmcn.net
-  skip-cert-verify: false
+  name: 🇭🇰 香港 | HKG 4
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰HK_2|5.6MB/s
-  password: 95c3d114-5370-3e54-832a-5a5acc492b9b
-  port: '1416'
-  server: n.j.y.y.h.z.g.e.d.hk06-ae5.entry.v51124-5.qpon
-  type: ss
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: 🇭🇰 香港 | HKG
+  name: 🇭🇰 香港 | HKG 5
   password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
   port: 27102
   reduce-rtt: false
@@ -95,24 +89,6 @@ proxies:
   sni: wfscrl.yydzx.xyz
   type: tuic
   uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港 | HKG 2
-  password: VJescVWup8PR
-  port: 8388
-  server: 212.192.13.95
-  type: ss
-- alpn:
-  - ''
-  alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | HKG 3
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443
