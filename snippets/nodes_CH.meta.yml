@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭 瑞士 | CHE
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: '!!str 43dcff53849b81e6'
+  server: 179.237.86.7
+  servername: ch.quattro-tech.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭 瑞士 | CHE 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '!!str 2e40144ddc07e8e1'
+  server: ch10.tunnely.ru
+  servername: ch10.tunnely.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5

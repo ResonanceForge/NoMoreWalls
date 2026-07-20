@@ -1,51 +1,57 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.bHRJoW9nvDfcJd3ZRLXLDwT4i216yH90Uz42CXEoVUc
   name: 🇫🇷 法国 | FRA
-  network: tcp
-  port: 80
-  reality-opts:
-    public-key: uOXWzNhsJ6sMuaZV8zPNZLu0kHNoUmDTRv6P1mlnsXk
-    short-id: '!!str f953de6e4a8768dd'
-  server: teamspk.callofdeuti.ir
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: dd6018cb-e047-4371-bdca-460bf0045f02
-- client-fingerprint: firefox
-  name: 🇫🇷 法国 | FRA 2
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw
-    short-id: '!!str b7b70c104ad267b8'
-  server: check09.allenshop66244.ir
-  servername: play.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 351c2f9d-4ee4-4316-bd23-dd1fe506bb4a
-- name: 🇫🇷 法国 | FRA 3
-  network: tcp
-  port: 443
-  server: 0w7ymj.spectrum.vu
-  tls: false
-  type: vless
-  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-- name: 🇫🇷 法国 | FRA 4
   network: ws
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
+  port: 8443
+  server: ad-004.vector9nmb3.info
+  servername: ad-004.vector9nmb3.info
+  tls: true
+  type: vless
   udp: true
+  uuid: 901fc0c9-ae4c-4d06-9fed-253b25b68a0e
   ws-opts:
     headers:
-      Host: www.gossipglove.com
-    path: /assignment
+      Host: ad-004.vector9nmb3.info
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇫🇷 法国 | FRA 2
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27011
+  server: kc264g.yytls.top
+  skip-cert-verify: true
+  sni: kc264g.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国 | FRA 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str f34818a561dfd1fe'
+  server: 45.192.2.115
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b8dfc50-9e2d-4b3c-85cd-870b478312a0
+- client-fingerprint: chrome
+  name: 🇫🇷 法国 | FRA 4
+  network: ws
+  port: 8443
+  server: 104.21.40.223
+  servername: ad-020.limaklhc6.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1ad37675-b4cf-42fa-9dc5-83fd35cd63cb
+  ws-opts:
+    headers:
+      Host: ad-020.limaklhc6.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇫🇷 法国 | FRA 5
@@ -61,32 +67,6 @@ proxies:
     headers:
       Host: fr3-0626.18838003.xyz
     path: /fr333gogofa
-- client-fingerprint: chrome
-  name: 🇫🇷 法国 | FRA 6
-  network: ws
-  port: 8443
-  server: 104.21.40.223
-  servername: ad-020.limaklhc6.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1ad37675-b4cf-42fa-9dc5-83fd35cd63cb
-  ws-opts:
-    headers:
-      Host: ad-020.limaklhc6.info
-    path: /
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 | FRA 7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
-  server: 37.49.230.102
-  servername: fastsync.xyz
-  tls: true
-  type: vless
-  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

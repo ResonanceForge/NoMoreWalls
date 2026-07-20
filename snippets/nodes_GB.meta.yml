@@ -1,68 +1,38 @@
 proxies:
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
   name: 🇬🇧 英国 | GBR
-  network: tcp
-  port: 3443
-  reality-opts:
-    public-key: lTFIEk0zPP0ShGATCZBUvCmaTmJXeAFdS6FuUKbmHkY
-    short-id: '!!str 529584669876b8e9'
-  server: 176.109.88.246
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f487abf-c202-4eb9-bdb7-314be6ff7c8d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 2
-  network: tcp
-  port: 20003
-  reality-opts:
-    public-key: anEFutGKj3bd5dRKm63oMUEJjUpkV4i2DJyb4SglsEU
-    short-id: '!!str 3ad40ee414b8d72e'
-  server: 138.124.14.70
-  servername: payeer.smmfather.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: c0e84986-1a20-4b51-93b3-dbfb3d55a4ce
-- name: 🇬🇧 英国 | GBR 3
-  network: ws
-  port: 80
-  server: 91.193.58.13
-  tls: false
-  type: vless
-  udp: true
-  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
-  ws-opts:
-    headers:
-      Host: plain-darkness-90ea.259.workers.dev
-    path: /pyip=Telegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 4
   network: tcp
   port: 443
   reality-opts:
-    public-key: X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o
-  server: 130.78.216.194
-  servername: panel.tehno.store
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+  server: uk.monkora.org
+  servername: uk.monkora.org
   tls: true
   type: vless
-  uuid: 2a12bb81-f3a3-0064-99ab-36febf676b4a
-- name: 🇬🇧 英国 | GBR 5
+  udp: true
+  uuid: d89c9d5e-004f-4a02-8cd5-0c0d697862bb
+- client-fingerprint: chrome
+  name: 🇬🇧 英国 | GBR 2
   network: ws
-  port: 80
-  server: 91.193.58.204
-  tls: false
+  port: 8443
+  server: ad-010.vector9nmb3.info
+  servername: ad-010.vector9nmb3.info
+  tls: true
   type: vless
   udp: true
-  uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
+  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
   ws-opts:
     headers:
-      Host: sahanwickramasinghevip.shop
-    path: /?Telegram-WangCai2🇨🇳
+      Host: ad-010.vector9nmb3.info
+    path: /
+- name: 🇬🇧 英国 | GBR 3
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  port: 27012
+  server: awdpvb.yytls.top
+  skip-cert-verify: true
+  sni: yigw1s.yytls.top
+  type: anytls
+  udp: true
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN

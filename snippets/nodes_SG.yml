@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬 新加坡 | SGP 6
+- name: 新加坡|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬 新加坡 | SGP 5
+- name: 新加坡2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_3|3.4MB/s
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -24,7 +24,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|3.0MB/s
+  name: 🇸🇬SG_2|4.0MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: '443'
@@ -35,22 +35,24 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /in-pdr
-- client-fingerprint: chrome
-  name: 🇸🇬SG_4|3.6MB/s
-  password: BxceQaOe
-  port: '41421'
-  server: 43.198.13.164
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 🇸🇬 新加坡 | SGP
-  password: BxceQaOe
-  port: 41421
-  server: 43.198.13.164
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
   skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- name: 🇸🇬 新加坡 | SGP 4
+  password: IQ68037294
+  port: 443
+  server: pleased-sawfly.rooster465.autos
+  skip-cert-verify: true
   type: trojan
