@@ -2,37 +2,48 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 24397
-  server: 54.238.245.134
+  port: 10624
+  server: 43.198.72.49
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 16.163.40.213
+  port: 38937
+  server: 54.46.77.161
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 16.163.40.213
+  port: 40138
+  server: 18.166.58.27
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵 日本 | JPN 2
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 154.19.187.141
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 4
+  port: 30806
+  server: v6.hdacd.com
   skip-cert-verify: true
-  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 6
+  network: ws
+  port: 12883
+  server: cs.ktmcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 78f2e8f0-68ea-438e-84ec-d58c9416c680
   ws-opts:
     headers:
-      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
-    path: /glasspanel/guest000_0_5de14443985f/
+      Host: baidu.com
+    path: /

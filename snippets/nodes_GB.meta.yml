@@ -1,13 +1,7 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇬🇧 英国 | GBR 2
-  password: amazonskr05
-  port: 443
-  server: 13.135.169.180
-  type: ss
 - client-fingerprint: chrome
   encryption: none
-  name: 🇬🇧GB_3|2.5MB/s
+  name: 🇬🇧GB_2|2.5MB/s
   network: raw
   port: 443
   reality-opts:
@@ -21,52 +15,57 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
-- client-fingerprint: chrome
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB_3|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: '443'
+  server: ge01.auragg.org
+  skip-cert-verify: false
+  sni: ge01.auragg.org
+  type: hysteria2
+  up: ''
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR
+  name: 🇬🇧GB_4|3.2MB/s
   network: tcp
-  port: 443
+  port: '8443'
   reality-opts:
-    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
-    short-id: '!!str 1bc2c1ef1c'
-  server: uk02.alilago.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 1a4e38b0-b430-321c-9962-c732bfede070
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
-    short-id: '!!str 1bc2c1ef1c'
-  server: uk05.alilago.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 1a4e38b0-b430-321c-9962-c732bfede070
-- cipher: aes-256-cfb
-  name: 🇬🇧 英国 | GBR 4
-  password: amazonskr05
-  port: 443
-  server: 52.56.188.204
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧 英国 | GBR 5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8
-    short-id: '!!str 6a2e3af684799b19'
-  server: cdn.pinecloud.net
-  servername: cdn.pinecloud.net
+    public-key: t2FvwVkeIow45IC0jOpWMCRuDZgJrNXno--fRTNM0xU
+    short-id: '!!str c58e2a7f4b91d63e'
+  server: ge03.auragg.org
+  servername: ge03.auragg.org
   tls: true
   type: vless
   udp: true
-  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
+  uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  xudp: true
+- name: 🇬🇧 英国 | GBR
+  network: ws
+  port: 80
+  server: 91.193.58.40
+  tls: false
+  type: vless
+  udp: true
+  uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
+  ws-opts:
+    headers:
+      Host: sahanwickramasinghevip.shop
+    path: /?Telegram-WangCai2🇨🇳
+- name: 🇬🇧 英国 | GBR 2
+  network: ws
+  port: 80
+  server: 91.193.58.58
+  tls: false
+  type: vless
+  udp: true
+  uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
+  ws-opts:
+    headers:
+      Host: sahanwickramasinghevip.shop
+    path: /?Telegram-WangCai2🇨🇳
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN

@@ -1,21 +1,17 @@
 proxies:
-- name: 🇩🇪 德国 | DEU
-  network: ws
-  password: '!!str 666'
+- cipher: aes-256-cfb
+  name: 🇩🇪 德国 | DEU 4
+  password: amazonskr05
   port: 443
-  server: 162.159.137.204
+  server: 63.177.252.44
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 12
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
-  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇩🇪 德国 | DEU 2
-  password: ON38567014
-  port: 443
-  server: sensible-grubworm.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

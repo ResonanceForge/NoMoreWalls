@@ -37,16 +37,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '@Surfboardv2ray'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: M4q4riAk3C
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -107,169 +97,12 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 5
-  network: ws
-  port: 8443
-  server: 51.77.141.103
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪 德国 | DEU 6
-  network: xhttp
-  port: 8443
-  server: love.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪 德国 | DEU 10
-  network: xhttp
-  port: 8443
-  server: bayan.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 11
-  network: ws
-  port: 2053
-  server: 152.228.135.44
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  name: 🇫🇷 法国 | FRA 2
-  network: ws
-  port: 8443
-  server: 51.91.101.216
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_6|2.3MB/s
-  network: xhttp
-  port: '2083'
-  server: securitytrails.com
-  servername: cdn.simsamsom.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 957360f2-2ec4-4638-8cf3-fffc6cc57aa1
-  xhttp-opts:
-    host: cdn.simsamsom.dpdns.org
-    mode: auto
-    path: /forall
-    x-padding-bytes: 100-1000
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_7|3.6MB/s
-  network: tcp
-  port: '57785'
-  server: 136.244.95.190
-  type: vless
-  udp: true
-  uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: random
-  encryption: none
-  name: 🇩🇪DE_8|2.6MB/s
-  network: ws
-  port: '2087'
-  server: vs.dragonio.ir
-  servername: red.dragonio.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38128d56-75fd-4758-b132-92d7e0a10cf0
-  ws-opts:
-    headers:
-      Host: red.dragonio.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_9|2.5MB/s
-  network: ws
-  port: '2053'
-  server: 152.228.135.135
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  xudp: true
-- name: 🇩🇪 德国 | DEU
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 162.159.137.204
-  skip-cert-verify: true
-  sni: goer6.dwev.ejf.hh.hhhdl.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: goer6.dwev.ejf.hh.hhhdl.kdns.fr
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇩🇪 德国 | DEU 2
-  password: ON38567014
-  port: 443
-  server: sensible-grubworm.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 🇩🇪 德国 | DEU 3
+  name: 🇩🇪 德国 | DEU
   port: 26691
   protocol: udp
   server: 5.83.129.143
@@ -277,102 +110,12 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 德国 | DEU 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM
-    short-id: '!!str 2b8c5e91'
-  server: 2.26.71.73
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e843ed6-09e7-4be5-bd52-a1dc46568aeb
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 7
-  network: ws
-  port: 443
-  server: 162.159.136.89
-  servername: ela6n.l8k2.p1d.hh.hhyf.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  ws-opts:
-    headers:
-      Host: ela6n.l8k2.p1d.hh.hhyf.kdns.fr
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇩🇪 德国 | DEU 8
-  network: ws
-  port: 80
-  server: 108.162.194.226
-  tls: false
-  type: vless
-  udp: true
-  uuid: 39e4ffce-5027-4138-a93b-4de33bc2a3f1
-  ws-opts:
-    headers:
-      Host: ppp.19bot.ir
-    path: /secure-vpn/
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 9
-  network: ws
-  port: 8443
-  server: 152.228.134.90
-  servername: s5gydl.936.us.ci
-  tls: true
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 🇩🇪 德国 | DEU 12
-  port: 20088
-  protocol: none
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- name: 🇩🇪 德国 | DEU 13
-  network: ws
-  port: 2082
-  server: 82.115.16.211
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1c404fde-0aa5-482c-ab00-0b34db703ac8
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: 🇩🇪 德国 | DEU 14
-  network: ws
-  port: 443
-  server: 162.159.140.85
-  servername: ela6n.l8k2.p1d.hh.hhyf.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  ws-opts:
-    headers:
-      Host: ela6n.l8k2.p1d.hh.hhyf.kdns.fr
-    path: /glasspanel/guest000_0_5de14443985f/
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 15
+  name: 🇩🇪 德国 | DEU 3
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -381,3 +124,140 @@ proxies:
   type: hysteria
   udp: true
   up: 500
+- encryption: none
+  name: 🇩🇪DE_3|3.4MB/s
+  network: tcp
+  port: '57785'
+  server: 136.244.95.190
+  type: vless
+  udp: true
+  uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_4|2.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 171.22.134.213
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 2
+  port: 20088
+  protocol: none
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- cipher: aes-256-cfb
+  name: 🇩🇪 德国 | DEU 4
+  password: amazonskr05
+  port: 443
+  server: 63.177.252.44
+  type: ss
+- name: 🇩🇪 德国 | DEU 5
+  network: ws
+  packet-encoding: xudp
+  port: 2086
+  server: 104.19.173.68
+  tls: false
+  type: vless
+  udp: true
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
+  ws-opts:
+    headers:
+      Host: arshia.lezzatArshia.ir
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
+    v2ray-http-upgrade: true
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 6
+  network: ws
+  port: 443
+  server: 45.130.125.221
+  servername: record.kalasystem.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88084f24-21bf-49a3-8626-e2afee7e940b
+  ws-opts:
+    headers:
+      Host: record.kalasystem.com
+    path: /movies
+- client-fingerprint: chrome
+  name: 🇩🇪 德国 | DEU 7
+  network: ws
+  port: 6443
+  server: 95.164.53.184
+  servername: vp35.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp35.cc.cd
+    path: /
+- name: 🇩🇪 德国 | DEU 8
+  network: ws
+  port: 2086
+  server: digitalocean.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
+  ws-opts:
+    headers:
+      Host: arshia.lezzatArshia.ir
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
+    v2ray-http-upgrade: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国 | DEU 9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '!!str 2e40144ddc07e8e1'
+  server: de07.tunnely.ru
+  servername: de07.tunnely.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
+- client-fingerprint: random
+  name: 🇩🇪 德国 | DEU 10
+  network: ws
+  port: 443
+  server: icook.tw
+  servername: cf12.evan00.dpdns.org
+  tls: true
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  ws-opts:
+    headers:
+      Host: cf12.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- alterId: 2
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 12
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
