@@ -18,75 +18,105 @@ proxies:
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 18.166.58.27
+  port: 6357
+  server: 95.40.51.248
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 18.162.155.166
+  port: 6357
+  server: 18.162.245.180
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 43.198.13.164
+  port: 9149
+  server: 43.199.146.29
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬 新加坡 | SGP 19
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- name: 🇸🇬 新加坡 | SGP 33
+- name: 🇸🇬 新加坡 | SGP 23
   password: IQ68037294
   port: 443
-  server: still-mastodon.rooster465.autos
+  server: pleased-sawfly.rooster465.autos
   skip-cert-verify: true
-  sni: still-mastodon.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|3.5MB/s
+  password: IQ68037294
+  port: '443'
+  server: casual-stallion.rooster465.autos
+  skip-cert-verify: false
   type: trojan
   udp: true
-- name: 🇸🇬SG_3|4.7MB/s
-  network: ws
-  port: 2087
-  server: 198.41.223.87
-  servername: 3da0360c.myblog-2hd.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
-  ws-opts:
-    headers:
-      Host: 3da0360c.myblog-2hd.pages.dev
-    path: /
 - client-fingerprint: chrome
-  name: 🇸🇬SG_4|3.0MB/s
-  network: tcp
+  name: 🇸🇬SG_3|3.1MB/s
   password: IQ68037294
   port: '443'
   server: glowing-deer.rooster465.autos
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: 🇸🇬 新加坡 | SGP
+- encryption: none
+  name: 🇸🇬SG_4|2.9MB/s
+  network: ws
+  port: '8880'
+  server: cf3.466688.xyz
+  type: vless
+  udp: true
+  uuid: 6b504c50-8535-44cf-8e4e-f8ee674a922e
+  ws-opts:
+    headers:
+      Host: old-moon-16d0.156-a25.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
+  xudp: true
+- encryption: none
+  name: 🇸🇬SG_5|3.7MB/s
+  network: ws
+  port: '8880'
+  server: cf4.466688.xyz
+  type: vless
+  udp: true
+  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
+  ws-opts:
+    headers:
+      Host: late-mountain-6801.355.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬 新加坡 | SGP
+  network: tcp
   password: IQ68037294
   port: 443
   server: prepared-turkey.rooster465.autos
   skip-cert-verify: true
   sni: prepared-turkey.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_7|3.1MB/s
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: helpful-possum.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_8|3.0MB/s
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: apt-midge.rooster465.autos
+  skip-cert-verify: false
   type: trojan
   udp: true
 - alpn:
@@ -338,6 +368,18 @@ proxies:
     headers:
       Host: image.evan00.dpdns.org
     path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 🇸🇬 新加坡 | SGP 19
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
 - client-fingerprint: random
   name: 🇸🇬 新加坡 | SGP 20
   network: ws
@@ -379,12 +421,6 @@ proxies:
     headers:
       Host: image.evan00.dpdns.org
     path: /proxyip=ProxyIP.US.cmliussss.net
-- name: 🇸🇬 新加坡 | SGP 23
-  password: IQ68037294
-  port: 443
-  server: pleased-sawfly.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
 - alpn:
   - h3
   client-fingerprint: random
@@ -500,6 +536,14 @@ proxies:
   server: glowing-deer.rooster465.autos
   skip-cert-verify: true
   sni: glowing-deer.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 33
+  password: IQ68037294
+  port: 443
+  server: still-mastodon.rooster465.autos
+  skip-cert-verify: true
+  sni: still-mastodon.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
