@@ -1,9 +1,20 @@
 proxies:
 - client-fingerprint: chrome
+  name: 美国+V2CROSS.COM
+  network: ws
+  port: 2053
+  server: 45.130.125.162
+  servername: po.fastbrokencompony.com
+  tls: true
+  type: vless
+  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
   name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: cloudflare-ip.mofashi.ltd
+  server: yx.cloudflare.182682.xyz
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -12,35 +23,46 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: 北美地区+V2CROSS.COM
+    path: '%2F'
+- client-fingerprint: chrome
+  name: 美国+科罗拉多州布隆菲尔德市Level+3通信股份有限公司
   network: ws
-  password: humanity
-  port: 443
-  server: 198.62.62.23
-  sni: www.calmlunch.com
-  type: trojan
+  port: 2087
+  server: 8.35.211.169
+  servername: vp11.cc.cd
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: firefox
+    headers:
+      Host: vp11.cc.cd
+    path: /
+- client-fingerprint: chrome
   name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: www.speedtest.org
-  servername: shegeftihaaa.net
+  server: 104.17.191.115
+  servername: vp26.cc.cd
   tls: true
   type: vless
-  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: shegeftihaaa.net
-    path: '%2Frsedgws'
+      Host: vp26.cc.cd
+    path: /
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 🇺🇸118244 | ⚡️Telegram = t.me/S...
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: 155.248.209.237
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 美国|@ripaojiedian
@@ -67,6 +89,61 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 🇺🇸US_1|2.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: cdn.pusytroller.cf
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cdn.pusytroller.cf
+    path: /
+- client-fingerprint: random
+  name: 🇺🇸US_2|1.6MB/s
+  network: ws
+  port: '443'
+  server: 35.212.239.108
+  servername: work.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  ws-opts:
+    headers:
+      Host: work.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 🇺🇸US_3|3.5MB/s
+  network: ws
+  port: '8443'
+  server: 154.21.93.106
+  servername: work.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  ws-opts:
+    headers:
+      Host: work.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- name: 🇺🇸US_4|3.5MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: US_speednode_0055

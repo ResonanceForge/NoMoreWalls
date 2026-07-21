@@ -89,33 +89,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 北美地区+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.62.62.23
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - cipher: chacha20-ietf-poly1305
   name: 印度+V2CROSS.COM
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
   port: 28061
   server: 103.111.114.71
   type: ss
-- name: 新西兰+V2CROSS.COM
+- alterId: 0
+  cipher: auto
+  name: 山西省太原市 联通
   network: ws
-  password: humanity
-  port: 443
-  server: 202.37.33.80
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
+  port: '443'
+  server: 221.204.41.88
+  servername: speeches-obligations-view-epinions.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
   ws-opts:
     headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
+      Host: speeches-obligations-view-epinions.trycloudflare.com
+    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -237,26 +230,60 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇸🇬SG_1|4.0MB/s
+- name: 🇸🇬SG_1|2.5MB/s
+  password: IQ68037294
+  port: 443
+  server: internal-sunbird.rooster465.autos
+  skip-cert-verify: true
+  sni: internal-sunbird.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|3.8MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
+  port: '443'
   server: 188.164.248.122
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /in-pdr
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_4|3.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 18.159.53.205
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_2|3.3MB/s
-  network: tcp
-  password: BxceQaOe
-  port: '9149'
-  server: 18.163.84.233
+  name: 🇰🇷KR_1|3.5MB/s
+  password: IQ68037294
+  port: '443'
+  server: accurate-drake.rooster465.autos
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: accurate-drake.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|2.3MB/s
+  password: IQ68037294
+  port: '443'
+  server: guided-warthog.rooster465.autos
+  skip-cert-verify: true
+  sni: guided-warthog.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_3|2.1MB/s
+  password: IQ68037294
+  port: '443'
+  server: pleased-lobster.rooster465.autos
+  skip-cert-verify: true
+  sni: pleased-lobster.rooster465.autos
   type: trojan
   udp: true
 - name: AE_speednode_0001
