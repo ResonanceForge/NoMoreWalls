@@ -1,77 +1,4 @@
 proxies:
-- name: 德国(yudou789.top 玉豆免费节点)
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: glad-javelin.rooster465.autos
-  skip-cert-verify: false
-  sni: glad-javelin.rooster465.autos
-  type: trojan
-- name: '德国(yudou789.top 玉豆免费节点) #1'
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: enabling-gobbler.rooster465.autos
-  skip-cert-verify: false
-  sni: enabling-gobbler.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '德国(yudou789.top 玉豆免费节点) #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
-    short-id: '!!str b7fc0f11dda97edb'
-  server: 201.51.12.73
-  servername: corelink.su
-  tls: false
-  type: vless
-  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '德国(yudou789.top 玉豆免费节点) #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
-    short-id: '!!str b7fc0f11dda97edb'
-  server: corelink.su
-  servername: corelink.su
-  tls: false
-  type: vless
-  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
-- name: '德国(yudou789.top 玉豆免费节点) #4'
-  obfs: salamander
-  obfs-password: eNM%2FNfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo%3D
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: false
-  sni: ff2.yuntong.click
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '德国(yudou789.top 玉豆免费节点) #5'
-  network: ws
-  port: 443
-  server: love.ns.cloudflare.com
-  servername: fosae.starriverway-milo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
-  ws-opts:
-    headers:
-      Host: fosae.starriverway-milo.sbs
-    path: '%2Fsea'
-- name: 德国+V2CROSS.COM
-  network: tcp
-  port: 2090
-  server: fn.fifapes.monster
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -120,12 +47,12 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 🇩🇪T-ME-V2RayyNGvpn🎖️
+- name: 🇩🇪117699 | ⚡️Telegram = t.me/S...
   obfs: salamander
-  obfs-password: T-ME-V2RayyNGvpn
-  password: idCPgpLEqx
-  port: 25810
-  server: 91.107.174.32
+  obfs-password: t-me-V2RayyNGvpn
+  password: fGc3qPlaQk
+  port: 31999
+  server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
@@ -138,24 +65,6 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 🪩45@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: o3774es6cfv74kaf
-  port: 443
-  server: social.klipp.su
-  sni: social.klipp.su
-  tls: false
-  type: hysteria2
-- name: '🇩🇪117460 | ⚡️Telegram = t.me/S... #1'
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: o3774es6cfv74kaf
-  port: 443
-  server: soskeynets.klipp.su
-  sni: social.klipp.su
   tls: false
   type: hysteria2
 - alpn:
