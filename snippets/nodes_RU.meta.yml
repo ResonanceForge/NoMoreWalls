@@ -38,13 +38,25 @@ proxies:
   tls: false
   type: vless
   uuid: 1136f25a-4925-4ba6-9620-771dd9553f92
-- name: '俄罗斯+V2CROSS.COM #1'
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|3.5MB/s
+  password: IQ68037294
+  port: '443'
+  server: casual-stallion.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '俄罗斯+V2CROSS.COM #1'
   network: tcp
-  port: 36100
-  server: 90.156.255.166
+  port: 2090
+  server: fn.fifapes.monster
   tls: false
   type: vless
-  uuid: 7e5e2a1d-6234-4ad0-ab9a-4d918368cbd8
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: fn.fifapes.monster
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision

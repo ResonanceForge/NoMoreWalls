@@ -62,6 +62,13 @@ proxies:
     headers:
       Host: ch-de.sdcards.ir
     path: '%2F%3FTelegram-WangCai2'
+- name: 英国+V2CROSS.COM
+  network: tcp
+  port: 2553
+  server: 82.109.242.198
+  tls: false
+  type: vless
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
 - client-fingerprint: chrome
   name: 🇬🇧GB_2|2.7MB/s
   network: ws
