@@ -89,13 +89,33 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 北美地区+V2CROSS.COM
+  network: ws
+  password: humanity
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 198.62.62.23
+  sni: www.calmlunch.com
   type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.71
+  type: ss
+- name: 新西兰+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 202.37.33.80
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05

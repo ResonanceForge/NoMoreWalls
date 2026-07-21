@@ -89,12 +89,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国+CloudFlare节点
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.21.227.134
+  server: cloudflare-ip.mofashi.ltd
   servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -102,24 +103,15 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: 德国+黑森州法兰克福DigitalOcean数据中心
-  network: tcp
-  port: 58324
-  server: 167.172.173.163
-  tls: false
-  type: vless
-  uuid: 3d675570-43d2-443e-93bb-29b9d1fdc563
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: '%2F%40Nap_v2ray%2C%40Nap_v2ray%2C%40Nap_v2ray%2C%40Nap_v2ray%2C%40Nap_v2ray%2C%40Nap_v2ray%2C%40Nap_v2ray%2C%40Nap_v2ray%2C%40Nap_v2ray'
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 北美地区+V2CROSS.COM
+  network: ws
+  password: humanity
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 198.62.62.23
+  sni: www.calmlunch.com
   type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 南非+V2CROSS.COM
@@ -133,19 +125,56 @@ proxies:
   tls: false
   type: vless
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: chrome
+- cipher: chacha20-ietf-poly1305
+  name: 印度+V2CROSS.COM
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.71
+  type: ss
+- name: 日本+东京Digital+VM
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
   name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 104.26.4.60
-  servername: t1s1.rittbo.kdns.fr
+  server: www.speedtest.org
+  servername: shegeftihaaa.net
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D2560'
+      Host: shegeftihaaa.net
+    path: '%2Frsedgws'
+- name: 新西兰+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 202.37.33.80
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: '%2Fassignment'
+- name: 德国+黑森州法兰克福DigitalOcean数据中心
+  network: tcp
+  port: 58324
+  server: 167.172.173.163
+  tls: false
+  type: vless
+  uuid: 3d675570-43d2-443e-93bb-29b9d1fdc563
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -386,16 +415,6 @@ proxies:
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 🇫🇮FI-🚀@VPNine1
-  obfs: salamander
-  obfs-password: 53cgqwhojoxri5lr
-  password: elknam6l7izf3z71
-  port: 52018
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: ''
   tls: false
   type: hysteria2
 - name: '@prrofile_purple  ♥️👈 تلگرام'
