@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 78.159.245.32
+  servername: furrycdn.net
+  tls: true
+  type: vless
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  ws-opts:
+    headers:
+      Host: furrycdn.net
+    path: /api/v1/make-love-not-war

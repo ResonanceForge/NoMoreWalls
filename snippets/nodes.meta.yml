@@ -89,91 +89,101 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 香港+电讯盈科有限公司
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 南非+V2CROSS.COM
   network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: themeforest.net
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.45
+  servername: storage.yandex.net
   tls: false
   type: vless
-  uuid: 96a32aaa-ebd9-4824-aa04-e9678011d9b0
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
   ws-opts:
     headers:
-      Host: old-tooth-d793.447-02e.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      Host: '---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network'
+- client-fingerprint: firefox
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 78.159.245.32
+  servername: furrycdn.net
+  tls: true
+  type: vless
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  ws-opts:
+    headers:
+      Host: furrycdn.net
+    path: /api/v1/make-love-not-war
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.21.227.134
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 印度+V2CROSS.COM
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
   port: 28061
-  server: 103.111.114.71
+  server: 103.111.114.82
   type: ss
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 172.64.153.159
+  server: cdn.9889888.xyz
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
     path: '%2F'
-- name: 美国+V2CROSS.COM
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '南非+V2CROSS.COM #1'
   network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.46
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- name: 英国+V2CROSS.COM
+  network: tcp
+  port: 12683
+  server: 31.192.244.42
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 8c8d8180-a2c5-4478-a86e-4117f841e88e
 - client-fingerprint: chrome
-  name: 马来西亚+吉隆坡Cloudflare+Warp节点
-  network: ws
-  port: 8443
-  server: 8.39.125.193
-  servername: vp35.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp35.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
+  flow: xtls-rprx-vision
+  name: '南非+V2CROSS.COM #2'
+  network: tcp
   port: 443
-  server: yx.cloudflare.182682.xyz
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.250
+  servername: storage.yandex.net
+  tls: false
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: 北京市+阿里云BGP服务器
-  network: ws
-  port: 443
-  server: 60.205.5.16
-  servername: vp58.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: Telegram🇨🇳 @VPNine1
+      Host: '---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network---@sil3nt_network'
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
