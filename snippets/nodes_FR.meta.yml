@@ -1,4 +1,150 @@
 proxies:
+- client-fingerprint: chrome
+  name: 法国(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 443
+  server: store.ubi.com
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '法国(yudou789.top 玉豆免费节点) #2'
+  network: ws
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '法国(yudou789.top 玉豆免费节点) #3'
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '法国(yudou789.top 玉豆免费节点) #4'
+  network: ws
+  port: 443
+  server: yx.cloudflare.182682.xyz
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
+- name: '法国(yudou789.top 玉豆免费节点) #5'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: correct-pony.rooster465.autos
+  skip-cert-verify: false
+  sni: correct-pony.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: '法国(yudou789.top 玉豆免费节点) #6'
+  network: ws
+  port: 443
+  server: 162.159.49.145
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '法国(yudou789.top 玉豆免费节点) #7'
+  network: ws
+  port: 443
+  server: 104.19.87.194
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '法国(yudou789.top 玉豆免费节点) #8'
+  network: ws
+  port: 443
+  server: 162.159.43.131
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '法国(yudou789.top 玉豆免费节点) #9'
+  network: ws
+  port: 443
+  server: 104.24.9.6
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: '法国(yudou789.top 玉豆免费节点) #10'
+  network: ws
+  port: '55009'
+  server: 2001:bc8:32d7:225::3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
+  ws-opts:
+    path: /0zNW56sF
+- client-fingerprint: chrome
+  name: '法国(yudou789.top 玉豆免费节点) #12'
+  network: ws
+  port: 8443
+  server: ad-004.vector9nmb3.info
+  servername: ad-004.vector9nmb3.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 901fc0c9-ae4c-4d06-9fed-253b25b68a0e
+  ws-opts:
+    headers:
+      Host: ad-004.vector9nmb3.info
+    path: '%2F'
 - client-fingerprint: random
   encryption: none
   flow: xtls-rprx-vision
@@ -15,64 +161,6 @@ proxies:
   udp: true
   uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 | FRA
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-    short-id: '!!str 2e40144ddc07e8e1'
-  server: fr03.tunnely.ru
-  servername: fr03.tunnely.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
-- name: 🇫🇷 法国 | FRA 2
-  password: IQ68037294
-  port: 443
-  server: immune-earwig.rooster465.autos
-  skip-cert-verify: true
-  sni: immune-earwig.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇫🇷 法国 | FRA 3
-  password: IQ68037294
-  port: 443
-  server: definite-giraffe.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-giraffe.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷 法国 | FRA 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: '!!str f34818a561dfd1fe'
-  server: 45.192.2.115
-  servername: yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b8dfc50-9e2d-4b3c-85cd-870b478312a0
-- name: 🇫🇷 法国 | FRA 5
-  password: IQ68037294
-  port: 443
-  server: desired-pony.rooster465.autos
-  skip-cert-verify: true
-  sni: desired-pony.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇫🇷 法国 | FRA 6
-  password: IQ68037294
-  port: 443
-  server: humane-bird.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

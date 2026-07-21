@@ -1,15 +1,50 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
+- name: 俄罗斯(yudou789.top 玉豆免费节点)
   network: ws
-  port: 80
-  server: 91.193.58.166
-  tls: false
+  port: 443
+  server: 78.159.245.32
+  servername: furrycdn.net
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: d566d849-ab28-4695-b01f-dcd284b67f5c
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
   ws-opts:
     headers:
-      Host: dry-frog-8793.454-dc4.workers.dev
-    path: /pyip=Telegram🇨🇳+@WangCai2
+      Host: furrycdn.net
+    path: '%2Fapi%2Fv1%2Fmake-love-not-war'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '俄罗斯(yudou789.top 玉豆免费节点) #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Py03aPnCma9Ip4xCvtBsK77NScUYphSw46RmdjFSvls
+    short-id: '!!str a374f536afccddfe'
+  server: 51.250.84.76
+  servername: ads.x5.ru
+  tls: false
+  type: vless
+  uuid: bdc00b0d-e5f5-4cde-8414-6eb7ab5af117
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '俄罗斯(yudou789.top 玉豆免费节点) #2'
+  network: tcp
+  port: 59978
+  reality-opts:
+    public-key: zU3_YlbtgNxg4_mPQzmz3aBCET3vUNbBMYrEztVFs0Q
+    short-id: '!!str c3a0d1'
+  server: 195.58.49.41
+  servername: ymail.com
+  tls: false
+  type: vless
+  uuid: 1136f25a-4925-4ba6-9620-771dd9553f92
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 36100
+  server: 90.156.255.166
+  tls: false
+  type: vless
+  uuid: 7e5e2a1d-6234-4ad0-ab9a-4d918368cbd8
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision

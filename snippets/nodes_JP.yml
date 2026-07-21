@@ -1,4 +1,12 @@
 proxies:
+- name: '日本(yudou789.top 玉豆免费节点) #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: flexible-pony.rooster465.autos
+  skip-cert-verify: false
+  sni: flexible-pony.rooster465.autos
+  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -30,47 +38,5 @@ proxies:
   port: '443'
   server: sweeping-parakeet.rooster465.autos
   skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 6
-  password: IQ68037294
-  port: 443
-  server: amazed-burro.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | JPN 9
-  password: IQ68037294
-  port: 443
-  server: key-sponge.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 🇯🇵 日本 | JPN 10
-  password: IQ68037294
-  port: 443
-  server: literate-grizzly.rooster465.autos
-  skip-cert-verify: true
-  sni: literate-grizzly.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇯🇵 日本 | JPN 18
-  network: http
-  port: 58517
-  server: 134.122.199.106
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 389d5b99-63dc-469f-a830-666712c4adf6
-- name: 🇯🇵 日本 | JPN 21
-  password: IQ68037294
-  port: 443
-  server: intense-basilisk.rooster465.autos
-  skip-cert-verify: true
   type: trojan
   udp: true
