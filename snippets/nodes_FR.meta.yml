@@ -1,37 +1,47 @@
 proxies:
-- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|2.1MB/s
   network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: humanity
+  port: '443'
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: vms.lifetime56.workers.dev
-- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇫🇷 FR 03 TG: @nodpai'
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
+- fingerprint: ''
+  name: 🇫🇷FR_2|4.4MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: '22880'
+  server: anytls2.934618.xyz
+  skip-cert-verify: false
+  sni: anytls2.934618.xyz
+  type: anytls
+  udp: true
+  username: github.com/Alvin9999-newpac/fanqiang
+- encryption: none
+  name: 🇫🇷FR_3|2.5MB/s
   network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
+  port: '22222'
+  server: 51.44.112.70
   type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|2.6MB/s
+  network: tcp
+  password: WG39087154
+  port: '443'
+  server: nearby-cod.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
