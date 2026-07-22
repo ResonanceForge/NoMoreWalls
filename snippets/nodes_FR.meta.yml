@@ -1,4 +1,20 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 法国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QocXHwad0mV7WA5jSAcqDac3uuVBEp1WF775-CilniE
+    short-id: '!!str 45ba18f429ad1f28'
+  server: 185.159.108.42
+  servername: web.max.ru
+  tls: false
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+  ws-opts:
+    headers:
+      Host: v2rayNplus--v2rayNplus--v2rayNplus
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

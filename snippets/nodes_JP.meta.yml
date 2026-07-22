@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 日本+东京OneProvider
+  network: tcp
+  port: 12683
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 103.75.118.228
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778

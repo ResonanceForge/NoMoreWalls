@@ -91,53 +91,48 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 新加坡+Amazon数据中心
+  name: 巴西+V2CROSS.COM
   network: tcp
-  port: 17623
+  port: 443
   reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: '48050fab'
-  server: 3.0.111.82
-  servername: www.apple.com
+    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
+    short-id: 'b7fc0f11dda97edb'
+  server: 201.51.12.73
+  servername: corelink.su
   tls: false
   type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- cipher: aes-256-gcm
-  name: 伊朗+V2CROSS.COM
-  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
-  port: 82
-  server: 94.183.124.95
-  type: ss
-- name: 🇸🇬SG_1|4.0MB/s
+  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 法国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QocXHwad0mV7WA5jSAcqDac3uuVBEp1WF775-CilniE
+    short-id: '45ba18f429ad1f28'
+  server: 185.159.108.42
+  servername: web.max.ru
+  tls: false
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+  ws-opts:
+    headers:
+      Host: v2rayNplus--v2rayNplus--v2rayNplus
+- name: 荷兰+V2CROSS.COM
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: true
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
     headers:
       Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- client-fingerprint: chrome
-  name: 北京市+阿里云BGP服务器
+    path: '%2Fin-pdr'
+- name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 60.205.5.16
-  servername: vp58.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳 @VPNine1
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: yx.cloudflare.182682.xyz
+  server: 104.26.5.60
   servername: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
@@ -145,18 +140,44 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: 德国+黑森州法兰克福DigitalOcean数据中心
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 立陶宛+V2CROSS.COM
   network: tcp
-  port: 58324
-  server: 167.172.173.163
+  port: 443
+  reality-opts:
+    public-key: xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE
+    short-id: '6ba85179e30d4fc2'
+  server: 5.199.170.105
+  servername: amd.com
   tls: false
   type: vless
-  uuid: 3d675570-43d2-443e-93bb-29b9d1fdc563
+  uuid: fd47216b-4217-4ec1-85b9-98304634a391
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 8880
+  server: deepl.com
+  tls: false
+  type: vless
+  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
   ws-opts:
     headers:
-      Host: play.google.com
-    path: /@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray,@Nap_v2ray
+      Host: super-feather-91c4.267.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 日本+东京OneProvider
+  network: tcp
+  port: 12683
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '48050fab'
+  server: 103.75.118.228
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -221,16 +242,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '@AzarAndoozVPNbot'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 3uIVdQh2vc
-  port: 33884
-  server: 140.233.177.48
-  skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
 - name: 🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -251,7 +262,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '@AzarAndoozVPNbot #1'
+- name: '@AzarAndoozVPNbot'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: ALg6h4f8Mo
@@ -289,26 +300,6 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '@Surfboardv2ray'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: M4q4riAk3C
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '@AzarAndoozVPNbot #2'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: Ov5kSglMCd
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 🇳🇱@V2RayyNGvpn کانال ما  🇳🇱
   obfs: salamander
   obfs-password: Telegram=V2RayyNGvpn
@@ -329,7 +320,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: telegram @mtmvpn 15
+- name: '@mehrosaboran'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: UUoAsk2eM4
@@ -339,17 +330,17 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '@Surfboardv2ray #1'
+- name: 🇩🇪118695 | ⚡️Telegram = t.me/S...
   obfs: salamander
-  obfs-password: T-ME-V2RayyNGvpn
+  obfs-password: t-me-V2RayyNGvpn
   password: V2RayyNGvpn
-  port: 25810
-  server: 91.107.174.32
+  port: 40837
+  server: 162.19.181.176
   skip-cert-verify: true
-  sni: www.amd.com
+  sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: '@Surfboardv2ray #2'
+- name: '@Surfboardv2ray'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: VpxzokH9V4
@@ -373,16 +364,6 @@ proxies:
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: ZkWtnfGK6h
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '@AzarAndoozVPNbot #3'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: ZkaDQncyundefineda
   port: 31999
   server: 91.107.152.188
   skip-cert-verify: true
@@ -419,7 +400,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: Telegram=V2RayyNGvpn🇩🇪
+- name: 'Telegram=V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: fGc3qPlaQk
@@ -466,16 +447,6 @@ proxies:
   server: 91.107.174.32
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '@Surfboardv2ray #3'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: vVaz4PV7B7
-  port: 33884
-  server: 140.233.177.48
-  skip-cert-verify: true
-  sni: www.oracle.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -599,6 +570,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇸🇬SG_1|4.0MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
   name: 🇩🇪DE_1|2.6MB/s

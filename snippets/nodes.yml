@@ -89,24 +89,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 伊朗+V2CROSS.COM
-  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
-  port: 82
-  server: 94.183.124.95
-  type: ss
-- name: 🇸🇬SG_1|4.0MB/s
+- name: 荷兰+V2CROSS.COM
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: true
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
     headers:
       Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
+    path: '%2Fin-pdr'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -228,6 +221,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇸🇬SG_1|4.0MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
