@@ -67,72 +67,25 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_1|1.6MB/s
-  port: 20088
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪DE_2|1.8MB/s
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- client-fingerprint: chrome
-  name: 🇩🇪DE_3|2.4MB/s
-  network: ws
-  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|2.1MB/s
+  password: amazonskr05
   port: '443'
-  server: 103.27.157.97
-  skip-cert-verify: false
-  sni: rem.dtr.kotokopolb.ru
-  type: trojan
+  server: 63.180.180.176
+  type: ss
   udp: true
+- encryption: none
+  name: 🇩🇪DE_2|2.1MB/s
+  network: ws
+  port: '8880'
+  server: 172.65.90.52
+  type: vless
+  udp: true
+  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /trojan-ws
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: dqgIhU45MGa6nWIwRU-j9LDYVOQXliSQAoI1Foe4cyI
-    short-id: '!!str 11ffa74edffc01aa'
-  server: 93.152.224.198
-  servername: akenai.kyras.pw
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|2.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: dJDkS3qV0P2GnLUkGBpmeWhu5brRDMVUeBE4ng1WcnQ
-    short-id: '!!str '
-  server: 5.83.129.253
-  servername: flash.try-me.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+      Host: blue-rice-7142.30-346.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
