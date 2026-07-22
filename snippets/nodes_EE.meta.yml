@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 爱沙尼亚+V2CROSS.COM
+  network: tcp
+  port: 45176
+  reality-opts:
+    public-key: A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M
+    short-id: '!!str 8433cb66b6c3ab6d'
+  server: 185.155.97.58
+  servername: www.googletagmanager.com
+  tls: false
+  type: vless
+  uuid: dc7940e0-6bff-45e3-853d-4007561803c3
