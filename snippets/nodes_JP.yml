@@ -1,12 +1,4 @@
 proxies:
-- name: 日本+V2CROSS.COM
-  network: ws
-  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
-  port: 443
-  server: rem.dtr.kotokopolb.ru
-  type: trojan
-  ws-opts:
-    path: '%2Ftrojan-ws'
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -23,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_3|2.5MB/s
+- name: 日本3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
