@@ -1,55 +1,27 @@
 proxies:
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 45.130.125.162
-  servername: po.fastbrokencompony.com
-  tls: true
-  type: vless
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: yx.cloudflare.182682.xyz
+  server: 104.21.227.134
   servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
-- client-fingerprint: chrome
-  name: 美国+科罗拉多州布隆菲尔德市Level+3通信股份有限公司
-  network: ws
-  port: 2087
-  server: 8.35.211.169
-  servername: vp11.cc.cd
-  tls: true
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
+- name: 美国+V2CROSS.COM
+  network: tcp
+  port: 2090
+  server: fn.fifapes.monster
+  tls: false
   type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   ws-opts:
     headers:
-      Host: vp11.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.17.191.115
-  servername: vp26.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp26.cc.cd
-    path: /
+      Host: /?
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -69,77 +41,133 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 95.40.51.248
-  skip-cert-verify: true
+  server: 16.162.187.38
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.167.109.142
-  skip-cert-verify: true
+  port: 49277
+  server: 18.167.84.124
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11993
-  server: 18.166.225.126
+  port: 29085
+  server: 43.198.106.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|2.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2095
-  server: cdn.pusytroller.cf
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cdn.pusytroller.cf
-    path: /
-- client-fingerprint: random
-  name: 🇺🇸US_2|1.6MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|3.0MB/s
   network: ws
   port: '443'
-  server: 35.212.239.108
-  servername: work.evany.de5.net
+  server: x4g-production-7c06.up.railway.app
+  servername: x4g-production-7c06.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  uuid: 22470158-224c-f031-ee03-3f0826454a0f
   ws-opts:
     headers:
-      Host: work.evany.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /proxyip=ProxyIP.US.cmliussss.net
+      Host: x4g-production-7c06.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /ws/22470158-224c-f031-ee03-3f0826454a0f
   xudp: true
-- client-fingerprint: random
-  name: 🇺🇸US_3|3.5MB/s
+- encryption: none
+  name: 🇺🇸US_2|2.6MB/s
   network: ws
-  port: '8443'
-  server: 154.21.93.106
-  servername: work.evany.de5.net
-  tls: true
+  port: '8880'
+  server: 89.116.180.40
   type: vless
   udp: true
-  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: work.evany.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /proxyip=ProxyIP.US.cmliussss.net
+      Host: vms.lifetime09.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /?ed=2560
   xudp: true
-- name: 🇺🇸US_4|3.5MB/s
+- name: 🇺🇸US_3|1.9MB/s
+  network: ws
+  port: '8880'
+  server: 45.40.151.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_4|2.8MB/s
+  network: ws
+  port: '80'
+  server: 162.159.81.177
+  type: vless
+  udp: true
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  ws-opts:
+    headers:
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /eyJqdW5rIjoibHFUM0pwRHZXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_5|1.9MB/s
+  network: ws
+  port: '8880'
+  server: 80.93.202.40
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇺🇸US_6|2.6MB/s
   password: ''
   port: '9002'
-  server: 138.199.35.219
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_7|3.4MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_8|3.6MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_9|3.3MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
