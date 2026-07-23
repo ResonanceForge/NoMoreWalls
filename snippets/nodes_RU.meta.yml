@@ -1,40 +1,8 @@
 proxies:
 - name: 俄罗斯+V2CROSS.COM
   network: tcp
-  password: KV63147582
-  port: 443
-  server: electric-sturgeon.rooster465.autos
-  sni: electric-sturgeon.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc
-    short-id: '!!str 9b0c1d2e'
-  server: br.muzon.to
-  servername: www.amd.com
-  tls: true
+  port: 2090
+  server: fn.fifapes.monster
+  tls: false
   type: vless
-  udp: true
-  uuid: 2b947013-7551-4a8e-bc4f-470e9e987e88
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 🇷🇺RU_2|2.1MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: '!!str 9e2a6f4c3b7d1e8a'
-  server: ru.moktana.app
-  servername: ru.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
-  xudp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055

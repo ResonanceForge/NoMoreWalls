@@ -1,9 +1,37 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 8443
+  server: sw02.auragg.org
+  skip-cert-verify: true
+  sni: sw02.auragg.org
+  tls: false
+  type: hysteria2
+- name: 美国+宾利大学
+  network: tcp
+  port: 20342
+  server: 141.133.172.222
+  tls: false
+  type: vless
+  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
 - client-fingerprint: chrome
   name: 美国+CloudFlare节点
   network: ws
-  port: 8443
-  server: 172.64.52.134
+  port: 443
+  server: 162.159.141.147
+  servername: rAyAn-007.fOtOn.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+  ws-opts:
+    headers:
+      Host: rAyAn-007.fOtOn.dPdNs.oRg
+    path: /
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 104.21.227.134
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -13,14 +41,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: 美国+V2CROSS.COM
-  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: 8443
-  server: sw02.auragg.org
-  skip-cert-verify: true
-  sni: sw02.auragg.org
-  tls: false
-  type: hysteria2
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -53,95 +73,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_2|2.5MB/s
-  network: ws
-  port: 443
-  server: 104.16.100.66
-  servername: l-jo--hMiTiVPN---MiTiVPN-o.MAQROR.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
-  ws-opts:
-    headers:
-      Host: l-j-v-MiTiVPN---MiTiVPN-o.MAQROR.ir
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=usa
-- name: 🇺🇸US_3|2.0MB/s
-  network: ws
-  port: 2095
-  server: fuckfangbinxing.pusytroller.gq
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckfangbinxing.pusytroller.gq
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_4|2.0MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.16.72.50
-  skip-cert-verify: true
-  sni: win-mitivpn-----mitivpn.Maqror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winde
-- name: 🇺🇸US_5|1.6MB/s
-  network: ws
-  port: 443
-  server: 60.205.5.16
-  servername: vp66.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp66.cc.cd
-    path: /Telegram🇨🇳+@WangCai2
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 🇺🇸US_6|2.0MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: _yzmX8WwaZJD4ddVgOZWJsx6r0lJzhTrTbkQLhwiWXk
-    short-id: '!!str c8540a3e9e1d8136'
-  server: usr.moktana.app
-  servername: usr.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_7|2.2MB/s
+  name: 🇺🇸US_1|1.5MB/s
   network: ws
   port: '443'
   server: ezaccess1-rvg-ezaccess1-a52e.up.railway.app
@@ -153,28 +89,29 @@ proxies:
   ws-opts:
     headers:
       Host: ezaccess1-rvg-ezaccess1-a52e.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /ws/79773255-2235-505f-a009-3bbaeb8a32fc
   xudp: true
 - alpn:
-  - h2
+  - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸US_8|2.2MB/s
+  encryption: none
+  name: 🇺🇸US_2|1.9MB/s
   network: ws
   port: '443'
-  server: marzban-node-production-43c6.up.railway.app
-  servername: marzban-node-production-43c6.up.railway.app
+  server: x4g-production-fe8e2.up.railway.app
+  servername: x4g-production-fe8e2.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 1774cbbd-7021-45f4-9eb6-352b30ef4f3f
+  uuid: 7e092a46-e7c1-cbdc-6dc5-c789c0c85977
   ws-opts:
     headers:
-      Host: marzban-node-production-43c6.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /vless
+      Host: x4g-production-fe8e2.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /ws/7e092a46-e7c1-cbdc-6dc5-c789c0c85977
   xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision

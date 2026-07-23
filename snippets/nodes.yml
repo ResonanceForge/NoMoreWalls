@@ -89,25 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  password: KV63147582
-  port: 443
-  server: electric-sturgeon.rooster465.autos
-  sni: electric-sturgeon.rooster465.autos
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 香港+Amazon数据中心
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19001
-  server: ss.047.node-for-bigairport.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 印度+V2CROSS.COM
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.82
-  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -229,15 +210,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇫🇷FR_1|1.9MB/s
-  password: UZ15382649
-  port: 443
-  server: moral-dolphin.rooster465.autos
-  skip-cert-verify: true
-  sni: moral-dolphin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇸🇬SG_1|2.8MB/s
+- name: 🇸🇬SG_1|4.5MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -249,23 +222,6 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_4|2.0MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.16.72.50
-  skip-cert-verify: true
-  sni: win-mitivpn-----mitivpn.Maqror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winde
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
