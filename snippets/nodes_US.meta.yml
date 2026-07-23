@@ -1,40 +1,17 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  network: tcp
-  port: 2090
-  server: fn.fifapes.monster
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- name: 美国+CloudFlare节点
-  network: ws
+- name: 美国+俄勒冈州波特兰Amazon数据中心
+  password: OD90375861
   port: 443
-  server: 104.21.227.134
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.146.28
-  skip-cert-verify: true
-  sni: www.gossipglove.com
+  server: 54.184.22.123
+  sni: nearby-muskrat.rooster465.autos
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
+  name: 美国+CloudFlare节点
   network: ws
   port: 443
   server: yx.cloudflare.182682.xyz
-  servername: t111.rittbo.kdns.fr
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -42,18 +19,14 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 8880
-  server: 45.40.145.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime35.workers.dev
-    path: /
-- name: '美国+V2CROSS.COM #2'
+- name: '美国+俄勒冈州波特兰Amazon数据中心 #1'
+  network: raw
+  password: OD90375861
+  port: 443
+  server: nearby-muskrat.rooster465.autos
+  sni: nearby-muskrat.rooster465.autos
+  type: trojan
+- name: 美国+V2CROSS.COM
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
   server: 149.104.104.58
@@ -91,41 +64,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|2.1MB/s
-  network: ws
-  port: '443'
-  server: ezaccess1-x4g-ezaccess1-e6b8.up.railway.app
-  servername: ezaccess1-x4g-ezaccess1-e6b8.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4834f2fb-0f56-5fe5-37df-2082896b4f75
-  ws-opts:
-    headers:
-      Host: ezaccess1-x4g-ezaccess1-e6b8.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /ws/4834f2fb-0f56-5fe5-37df-2082896b4f75
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_2|3.1MB/s
-  network: tcp
-  port: '26968'
-  reality-opts:
-    public-key: IwMxv6Qwg6pWExtNPebIfOc6nhG82nNyKYVlKQwOPhI
-    short-id: '!!str edec63'
-  server: doufovh.papstore.xyz
-  servername: images-na.ssl-images-amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 70289a41-983c-43bf-8331-c2c8cfb1ffa0
-  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: US_speednode_0055
