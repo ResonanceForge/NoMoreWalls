@@ -1,8 +1,11 @@
 proxies:
 - name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 2090
-  server: fn.fifapes.monster
+  network: ws
+  port: 4100
+  server: 194.87.161.60
+  servername: live.ok.ru
   tls: false
   type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
+  ws-opts:
+    path: '%2Fv1'
