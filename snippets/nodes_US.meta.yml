@@ -1,17 +1,17 @@
 proxies:
-- name: 美国+俄勒冈州波特兰Amazon数据中心
-  password: OD90375861
-  port: 443
-  server: 54.184.22.123
-  sni: nearby-muskrat.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 美国+宾利大学
+  network: tcp
+  port: 20342
+  server: 141.133.172.222
+  tls: false
+  type: vless
+  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
+- name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: yx.cloudflare.182682.xyz
+  server: 104.21.227.134
   servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -19,13 +19,25 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: '美国+俄勒冈州波特兰Amazon数据中心 #1'
-  network: raw
-  password: OD90375861
+- name: 美国+俄勒冈州波特兰Amazon数据中心
+  password: CF68213490
   port: 443
-  server: nearby-muskrat.rooster465.autos
-  sni: nearby-muskrat.rooster465.autos
+  server: balanced-puma.rooster465.autos
+  sni: balanced-puma.rooster465.autos
   type: trojan
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: nexusmods.com
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - name: 美国+V2CROSS.COM
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443

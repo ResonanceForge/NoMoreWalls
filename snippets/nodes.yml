@@ -89,28 +89,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 荷兰+V2CROSS.COM
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    path: '%2Fin-pdr'
 - name: 美国+俄勒冈州波特兰Amazon数据中心
-  password: OD90375861
+  password: CF68213490
   port: 443
-  server: 54.184.22.123
-  sni: nearby-muskrat.rooster465.autos
-  type: trojan
-- name: '美国+俄勒冈州波特兰Amazon数据中心 #1'
-  network: raw
-  password: OD90375861
-  port: 443
-  server: nearby-muskrat.rooster465.autos
-  sni: nearby-muskrat.rooster465.autos
+  server: balanced-puma.rooster465.autos
+  sni: balanced-puma.rooster465.autos
   type: trojan
 - name: 美国+V2CROSS.COM
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
@@ -239,23 +222,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇸🇬SG_1|3.2MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.4MB/s
+  name: 🇸🇬SG_2|2.7MB/s
   network: ws
   password: MITIVPN
   port: '443'
@@ -266,45 +237,9 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=uss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_4|3.7MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.18.34.13
-  skip-cert-verify: true
-  sni: b-g--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=fls
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_5|4.2MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 172.64.148.84
-  skip-cert-verify: true
-  sni: u--o-MiTiVPN---MiTiVPNj.aPp-cLoud.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=nls
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN

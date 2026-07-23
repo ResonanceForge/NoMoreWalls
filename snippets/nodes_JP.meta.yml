@@ -30,3 +30,21 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_1|3.2MB/s
+  network: ws
+  port: '2087'
+  server: cf7.466688.xyz
+  servername: vpn-6d9.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 725488a6-e5d6-4606-86ca-46a3e7f4a62c
+  ws-opts:
+    headers:
+      Host: vpn-6d9.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /
+  xudp: true
