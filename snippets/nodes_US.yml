@@ -1,13 +1,10 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: www.host-tracker.com
-  sni: www.gossipglove.com
+  server: 149.104.104.58
+  sni: 149.104.104.58
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -32,13 +29,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
-  name: 🇺🇸US_1|1.5MB/s
-  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
-  port: '40031'
-  server: permission_level_01.unclemanco.com
+- cipher: aes-256-cfb
+  name: 🇺🇸US_4|2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.167.54.100
   type: ss
-  udp: true
 - name: US_speednode_0063
   network: ws
   password: Mitivpn
