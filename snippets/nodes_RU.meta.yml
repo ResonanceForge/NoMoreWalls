@@ -1,20 +1,25 @@
 proxies:
 - name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 2200
-  server: 77.222.35.10
+  network: tcp
+  port: 2090
+  server: fn.fifapes.monster
   tls: false
   type: vless
-  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
-  ws-opts:
-    path: '%2Fv1'
-- name: 🎀75@oneclickvpnkeys
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  sni: devideo.h2corp.org
-  tls: false
-  type: hysteria2
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0111
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: ger03.myxasecure.space
+  servername: ger03.myxasecure.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0109
@@ -41,20 +46,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0111
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: ger03.myxasecure.space
-  servername: ger03.myxasecure.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0112

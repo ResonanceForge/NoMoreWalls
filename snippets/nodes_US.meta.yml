@@ -1,4 +1,24 @@
 proxies:
+- name: US_speednode_0122
+  network: tcp
+  port: 20342
+  server: 141.133.172.222
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
+- name: 美国+麻省理工学院
+  network: ws
+  port: 80
+  server: 18.239.134.69
+  tls: false
+  type: vless
+  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
+  ws-opts:
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com
+    path: '%2F'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 美国+V2CROSS.COM
@@ -12,80 +32,23 @@ proxies:
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- alpn:
-  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.127.214
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '美国+V2CROSS.COM #3'
-  password: b42d90fa667942aebc734d60
-  port: 30000
-  server: 161.33.231.22
-  skip-cert-verify: false
-  sni: vpn7.rnmcnm.com
-  tls: false
-  type: hysteria2
 - name: 美国+CloudFlare节点
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
+  port: 2095
+  server: 172.64.146.153
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
+      Host: fangbinxingnmsl.pusytroller.gq
+    path: /
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 🎀68@oneclickvpnkeys
-  password: 76dff95d-a720-4909-8ca6-3d848e786a9c
-  port: 443
-  server: 159.65.178.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 🎀63@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.245.180.117
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 🎀69@oneclickvpnkeys
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: hy2.123266.xyz
-  sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
-- auth: nNS3WyiBOL
-  name: 🇺🇸US_1|1.8MB/s
-  obfs: salamander
-  obfs-password: vwrgaergG
-  password: nNS3WyiBOL
-  port: 19108
-  server: 178.128.65.195
-  skip-cert-verify: true
-  sni: aws.amazon.com
   tls: false
   type: hysteria2
 - name: 美国|@ripaojiedian
@@ -112,6 +75,42 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_2|2.6MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: '20450'
+  server: us3.dexlos.com
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_3|2.7MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: '20378'
+  server: us2.dexlos.com
+  skip-cert-verify: false
+  sni: us2.dexlos.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_4|2.4MB/s
+  obfs: salamander
+  obfs-password: lvy1Hw_j4Hwx8oIL2tEa315Sb4t7QrjF
+  password: hy2_czaawdhc:VwWo0eBZC9jU3xCE0FuTmbX6xmnj33Iq
+  port: '443'
+  server: 2.26.92.136
+  skip-cert-verify: false
+  sni: nl2.cleanersaz.help
+  type: hysteria2
+  up: ''
 - name: US_speednode_0121
   network: ws
   port: 443
@@ -126,14 +125,6 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- name: US_speednode_0122
-  port: 20342
-  server: 141.133.172.222
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
 - name: US_speednode_0123
   network: ws
   port: 80
