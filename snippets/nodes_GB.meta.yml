@@ -1,15 +1,11 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  network: tcp
-  port: 2044
-  server: 5.144.179.113
-  tls: false
-  type: vless
-  uuid: e061b5ef-8a10-4a35-8192-ef4f058f96d5
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: /
+- name: 英国+Technicolor+SA
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20023
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
 - name: 🇬🇧 Telegram = V2RayyNGvpn 🇬🇧
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -20,21 +16,13 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|2.4MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 140.233.160.24
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
-  xudp: true
+- name: 🎀2@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.212
+  sni: grape-turbo-fr.roxa.org
+  tls: false
+  type: hysteria2
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN

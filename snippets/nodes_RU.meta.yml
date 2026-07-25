@@ -1,17 +1,11 @@
 proxies:
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.6MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc
-    short-id: '!!str 9b0c1d2e'
-  server: 62.233.43.34
-  servername: www.amd.com
-  tls: true
+- name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 2090
+  server: fn.fifapes.monster
+  tls: false
   type: vless
-  udp: true
-  uuid: 2b947013-7551-4a8e-bc4f-470e9e987e88
-  xudp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
