@@ -1,4 +1,14 @@
 proxies:
+- name: 英国+V2CROSS.COM
+  network: tcp
+  port: 2090
+  server: fn.fifapes.monster
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
 - name: 🇬🇧 Telegram = V2RayyNGvpn 🇬🇧
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -7,13 +17,6 @@ proxies:
   server: 212.74.39.202
   skip-cert-verify: true
   sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- name: 🎀2@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 205.237.109.212
-  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
