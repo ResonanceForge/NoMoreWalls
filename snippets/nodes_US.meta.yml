@@ -1,4 +1,18 @@
 proxies:
+- name: 美国+俄勒冈州波特兰Amazon数据中心
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  sni: 149.104.104.58
+  type: trojan
 - name: US_speednode_0122
   network: tcp
   port: 20342
@@ -8,41 +22,33 @@ proxies:
   type: vless
   udp: true
   uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-- name: 美国+麻省理工学院
-  network: ws
-  port: 80
-  server: 18.239.134.69
-  tls: false
-  type: vless
-  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com
-    path: '%2F'
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
+  flow: ''
+  name: GB_speednode_0006
   network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  udp: true
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
 - name: 美国+CloudFlare节点
   network: ws
-  port: 2095
-  server: 172.64.146.153
+  port: 8080
+  server: premium-us-ca-01-gthost.efgwf.online
   tls: false
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
   ws-opts:
     headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-    path: /
+      Host: premium-us-ca-01-gthost.efgwf.online
+    path: /ws-6Tta3kYF
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -75,9 +81,42 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_1|1.7MB/s
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: 🇺🇸US_2|2.0MB/s
+  network: http
+  port: 52080
+  server: 154.36.128.61
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_3|2.3MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - down: ''
   fingerprint: ''
-  name: 🇺🇸US_2|2.6MB/s
+  name: 🇺🇸US_5|3.5MB/s
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
@@ -89,7 +128,7 @@ proxies:
   up: ''
 - down: ''
   fingerprint: ''
-  name: 🇺🇸US_3|2.7MB/s
+  name: 🇺🇸US_6|4.8MB/s
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
@@ -99,16 +138,66 @@ proxies:
   sni: us2.dexlos.com
   type: hysteria2
   up: ''
+- cipher: aes-128-gcm
+  name: 🇺🇸US_7|2.2MB/s
+  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
+  port: '40031'
+  server: permission_level_01.unclemanco.com
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_8|2.6MB/s
+  network: tcp
+  port: '40443'
+  reality-opts:
+    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
+    short-id: '!!str '
+  server: 162.33.177.100
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  xudp: true
+- name: 🇺🇸US_9|1.7MB/s
+  password: ''
+  port: '9002'
+  server: 156.146.59.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_10|2.1MB/s
+  password: ''
+  port: '9002'
+  server: 156.146.59.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - down: ''
   fingerprint: ''
-  name: 🇺🇸US_4|2.4MB/s
-  obfs: salamander
-  obfs-password: lvy1Hw_j4Hwx8oIL2tEa315Sb4t7QrjF
-  password: hy2_czaawdhc:VwWo0eBZC9jU3xCE0FuTmbX6xmnj33Iq
+  name: 🇺🇸US_11|3.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: '443'
-  server: 2.26.92.136
+  server: taga7.api3-max.ru
   skip-cert-verify: false
-  sni: nl2.cleanersaz.help
+  sni: taga7.api3-max.ru
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_12|4.7MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: '20378'
+  server: us2.dexlos.com
+  skip-cert-verify: false
+  sni: ''
   type: hysteria2
   up: ''
 - name: US_speednode_0121
