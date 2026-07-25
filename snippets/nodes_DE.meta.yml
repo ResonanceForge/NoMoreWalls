@@ -1,17 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
+- name: 德国+V2CROSS.COM
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
   port: 443
-  reality-opts:
-    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
-    short-id: '!!str 4c5a76834671'
-  server: 185.164.111.48
-  servername: www.cloudflare.com
+  server: prodfr.h2corp.org
+  sni: prodfr.h2corp.org
   tls: false
-  type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+  type: hysteria2
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -31,7 +25,7 @@ proxies:
   tls: false
   type: hysteria2
 - auth: V2RayyNGvpn
-  name: 🇩🇪DE_1|2.5MB/s
+  name: 🇩🇪DE_1|2.6MB/s
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: V2RayyNGvpn
@@ -44,14 +38,14 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.8MB/s
+  name: NL_speednode_0016
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 45.131.212.16
+  server: 45.131.212.21
   servername: de.sellflow.org
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -60,16 +54,29 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.6MB/s
+  name: NL_speednode_0017
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 45.131.212.8
+  server: 45.131.212.22
   servername: de.sellflow.org
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 0108c657-a9bd-4c99-9179-74050cf78889
   xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: DE_speednode_0003
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 194.113.34.160
+  servername: sellflow.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
