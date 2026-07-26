@@ -1,4 +1,25 @@
 proxies:
+- name: 美国+CloudFlare节点
+  network: xhttp
+  password: VPNCUSTOMIZE
+  port: 443
+  server: 104.18.16.56
+  skip-cert-verify: false
+  sni: ww.gameserver.de5.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bvck-oizksj-swin-usje-c-o.gameserver.de5.net
+    path: /config
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
