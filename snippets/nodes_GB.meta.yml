@@ -9,19 +9,17 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|2.1MB/s
-  network: tcp
-  port: '443'
+- client-fingerprint: chrome
+  name: GB_speednode_0003
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: WTCfu0XRIGi93MomsdOxuLOdnjXBkaaVZqaJWpxxYlk
-    short-id: '!!str d8f3a9c2'
-  server: 2.26.84.95
-  servername: api.avito.ru
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: deb9c015-1ffe-4e41-9d21-310eb0422a4c
-  xudp: true
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19

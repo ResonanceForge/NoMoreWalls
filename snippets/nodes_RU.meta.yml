@@ -1,58 +1,12 @@
 proxies:
 - name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: 200
-  server: d.socialxxmedia.com
+  port: 8882
+  server: gr1.fifapes.monster
   tls: false
   type: vless
-  uuid: 6bc19aa1-d94b-488c-9b25-47214d371851
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   ws-opts:
     headers:
-      Host: play.google.com
-    path: /
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|3.4MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: '443'
-  server: usa1.spectrumproxy.shop
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
-  type: hysteria2
-  up: ''
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|2.2MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 147.45.47.32
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|2.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc
-    short-id: '!!str bef240e96a8474a3'
-  server: 45.12.4.103
-  servername: russia.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
-  xudp: true
+      Host: gr1.fifapes.monster
+    path: '%2F'

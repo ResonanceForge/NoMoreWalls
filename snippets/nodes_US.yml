@@ -3,18 +3,23 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: true
+  server: 104.26.14.137
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #1'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 北美地区+V2CROSS.COM
+  network: ws
+  password: humanity
   port: 443
-  server: 149.104.104.58
+  server: 198.62.62.23
   skip-cert-verify: false
-  sni: 149.104.104.58
+  sni: www.calmlunch.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -39,6 +44,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_7|3.3MB/s
+  network: ws
+  port: 2086
+  server: 154.17.234.39
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm
 - name: US_speednode_0090
   network: ws
   password: humanity
