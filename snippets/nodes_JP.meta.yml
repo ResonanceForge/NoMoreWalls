@@ -1,15 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  name: 日本+V2CROSS.COM
-  network: grpc
+- name: 日本+东京Amazon数据中心
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  reality-opts:
-    public-key: dSKIQmSXKkmpXGcB9RCt320PmpuE92omqsVqdH351G8
-  server: 103.27.156.63
-  servername: yahoo.com
+  server: 54.95.225.70
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2F%40oneclickvpnkeys
   tls: false
-  type: vless
-  uuid: 2d7c8eef-49c0-4d89-a74f-591ea805274d
+  type: hysteria2
 - name: JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -41,3 +38,18 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 🇯🇵JP_1|2.0MB/s
+  password: AQ71834695
+  port: 443
+  server: integral-elf.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_2|1.8MB/s
+  password: AQ71834695
+  port: 443
+  server: tops-marlin.rooster465.autos
+  skip-cert-verify: true
+  sni: tops-marlin.rooster465.autos
+  type: trojan
+  udp: true
