@@ -1,69 +1,24 @@
 proxies:
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
-  network: ws
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: 162.159.141.147
-  servername: rAyAn-007.fOtOn.dPdNs.oRg
-  tls: true
-  type: vless
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  ws-opts:
-    headers:
-      Host: rAyAn-007.fOtOn.dPdNs.oRg
-    path: /
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: ip.sb
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 208.103.161.170
+  server: 149.104.104.58
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: 149.104.104.58
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '美国+V2CROSS.COM #1'
-  network: tcp
+  network: raw
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: jdvymxi.cvewfjg.shop
+  server: jdwadgw.cvewfjg.shop
   servername: www.cloudflare.com
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '美国+CloudFlare节点 #2'
-  network: xhttp
-  password: VPNCUSTOMIZE
-  port: 443
-  server: 104.18.16.56
-  skip-cert-verify: false
-  sni: ww.gameserver.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bvck-oizksj-swin-usje-c-o.gameserver.de5.net
-    path: /config
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '美国+V2CROSS.COM #2'
@@ -72,7 +27,7 @@ proxies:
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.236.22
+  server: jdvymxi.cvewfjg.shop
   servername: www.cloudflare.com
   tls: false
   type: vless
@@ -110,26 +65,28 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - auth: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  name: 🇺🇸US_1|2.3MB/s
+  name: 🇺🇸US_1|2.6MB/s
   password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
   port: 8443
   server: 159.223.157.129
   skip-cert-verify: true
   type: hysteria2
-- auth: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
-  name: 🇺🇸US_2|1.8MB/s
-  password: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
-  port: 8881
-  server: uk.xfj123.top
-  skip-cert-verify: true
-  type: hysteria2
 - auth: 28d38ce6-7c79-4e9d-9175-2186da5be395
-  name: 🇺🇸US_3|2.2MB/s
+  name: 🇺🇸US_2|2.2MB/s
   password: 28d38ce6-7c79-4e9d-9175-2186da5be395
   port: 20000
   server: 159.65.79.184
   skip-cert-verify: true
   sni: addons.mozilla.org
+  type: hysteria2
+- auth: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  name: 🇺🇸US_3|3.1MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: 20450
+  server: us3.dexlos.com
+  skip-cert-verify: true
   type: hysteria2
 - name: US_speednode_0085
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
