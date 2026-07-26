@@ -1,11 +1,16 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 美国+CloudFlare节点
+  network: xhttp
+  password: VPNCUSTOMIZE
   port: 443
-  server: 149.104.104.58
+  server: 104.18.16.56
   skip-cert-verify: false
-  sni: 149.104.104.58
+  sni: ww.gameserver.de5.net
   type: trojan
+  ws-opts:
+    headers:
+      Host: bvck-oizksj-swin-usje-c-o.gameserver.de5.net
+    path: /config
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b

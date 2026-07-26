@@ -1,27 +1,59 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 美国+CloudFlare节点
+  network: xhttp
+  password: VPNCUSTOMIZE
   port: 443
-  server: 149.104.104.58
+  server: 104.18.16.56
   skip-cert-verify: false
-  sni: 149.104.104.58
+  sni: ww.gameserver.de5.net
   type: trojan
+  ws-opts:
+    headers:
+      Host: bvck-oizksj-swin-usje-c-o.gameserver.de5.net
+    path: /config
+- name: 美国+宾利大学
+  network: tcp
+  port: 20342
+  server: 141.133.172.222
+  tls: false
+  type: vless
+  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
+- name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.56.7
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+- name: 美国+麻省理工学院
+  network: ws
+  port: 80
+  server: 18.239.134.69
+  tls: false
+  type: vless
+  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
+  ws-opts:
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com
+    path: '%2F'
+- client-fingerprint: chrome
+  name: 美国+V2CROSS.COM
+  network: ws
+  port: 80
+  server: www.true.th
+  tls: false
+  type: vless
+  uuid: f27894bf-349c-44e6-a0ce-4c787e18476f
+  ws-opts:
+    headers:
+      Host: duatoup3wk8q2.cloudfront.net
+    path: '%2FGDkX4xpB%2F'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '美国+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
   network: tcp
   port: 443
   reality-opts:
@@ -32,12 +64,55 @@ proxies:
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: 美国+内华达州拉斯维加斯Versaweb
+  obfs: ''
+  obfs-password: ''
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.213
+  skip-cert-verify: false
+  sni: mercedes-grape.yyuyy.com
+  tls: false
+  type: hysteria2
 - name: 美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 🎴43@oneclickvpnkeys
+  password: 083f9234-76f8-47f4-915e-726a767b7ad5
+  port: 32050
+  server: gc4.22556666.com
+  sni: gc4.22556666.com
+  tls: false
+  type: hysteria2
+- name: 🎴49@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: ed56da70f1614311cbfc1e87
+  password: 72bcd6fe388a12c386a1c40ff55f6c1e
+  port: 8443
+  server: proxy.sailreach.org
+  sni: proxy.sailreach.org
+  tls: false
+  type: hysteria2
+- name: '🇺🇸122668 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: ed56da70f1614311cbfc1e87
+  password: 72bcd6fe388a12c386a1c40ff55f6c1e
+  port: 8443
+  server: soskeynets.sailreach.org
+  sni: proxy.sailreach.org
+  tls: false
+  type: hysteria2
+- name: 🎴48@oneclickvpnkeys
+  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
+  port: 8443
+  server: 159.223.157.129
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: 美国|@ripaojiedian
@@ -64,15 +139,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  name: 🇺🇸US_1|2.6MB/s
-  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  port: 8443
-  server: 159.223.157.129
-  skip-cert-verify: true
-  type: hysteria2
 - auth: 28d38ce6-7c79-4e9d-9175-2186da5be395
-  name: 🇺🇸US_2|2.2MB/s
+  name: 🇺🇸US_1|2.2MB/s
   password: 28d38ce6-7c79-4e9d-9175-2186da5be395
   port: 20000
   server: 159.65.79.184
@@ -80,7 +148,7 @@ proxies:
   sni: addons.mozilla.org
   type: hysteria2
 - auth: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  name: 🇺🇸US_3|3.1MB/s
+  name: 🇺🇸US_2|2.0MB/s
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D

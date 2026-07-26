@@ -1,1 +1,28 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 法国+法国计算机科学大学
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
+    short-id: '!!str a91045bc'
+  server: 163.5.153.153
+  servername: www.samsung.com
+  tls: false
+  type: vless
+  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇫🇷FR_1|1.6MB/s
+  password: dongtaiwang.com
+  port: 33888
+  server: 195.154.41.99
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
