@@ -1,15 +1,4 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  network: tcp
-  port: 6985
-  server: 178.104.225.122
-  tls: false
-  type: vless
-  uuid: e044297a-304f-40a9-a9fb-d17b744fa781
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: '%2F'
 - name: 🇬🇧 Telegram = V2RayyNGvpn 🇬🇧
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -20,33 +9,3 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|2.1MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 140.233.160.24
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|2.2MB/s
-  network: tcp
-  port: '4343'
-  reality-opts:
-    public-key: idAD9lBougKTjO-EoWH03ieKqplNFUQ9lnYwU-USVys
-    short-id: '!!str d8f3a9c2'
-  server: swdh1.redemshenvpn.site
-  servername: metrika.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: deb9c015-1ffe-4e41-9d21-310eb0422a4c
-  xudp: true

@@ -15,7 +15,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
+- name: 🇭🇰HK_3|3.9MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 47867
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: 🇭🇰HK_4|2.8MB/s
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -49,6 +49,54 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 🇭🇰HK_1|1.5MB/s
+  network: grpc
+  port: 10130
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42AD99DB-EC24-47B7-BE3D-8BEE715C2D2B
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇭🇰HK_2|4.4MB/s
+  network: grpc
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42AD99DB-EC24-47B7-BE3D-8BEE715C2D2B
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_5|3.9MB/s
+  network: tcp
+  port: '34819'
+  reality-opts:
+    public-key: 3tM5udzQZi_NFNd27D-YJ03W1nlvpHEm-dUdr7G39gg
+    short-id: '!!str 0178ec03'
+  server: dsm2.473221.xyz
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a15843f-c194-4625-b058-29833674acc0
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: HK_speednode_0004
