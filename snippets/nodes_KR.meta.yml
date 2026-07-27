@@ -1,10 +1,31 @@
 proxies:
-- name: 🇰🇷KR_1|2.5MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_1|5.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: dedcfc46-7f2f-4b9e-a593-f41b8e92053c
+  port: '1443'
+  server: kr.mjhy2.com
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
+  sni: 127.0.0.1
+  type: hysteria2
+  up: ''
