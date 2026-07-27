@@ -1,23 +1,14 @@
 proxies:
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 4334
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: RU_speednode_0067
+  port: 443
   reality-opts:
-    public-key: lIf6IZJ0xInP5l9FFUJRR0gmqkQNWCpXB-inaVhAXTQ
-    short-id: '!!str 1c'
-  server: 31.15.16.220
-  servername: intel.com
-  tls: false
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: ruded1.onlinestreamself.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: c737cf33-0af6-4ce3-9446-b2425d222be5
+  udp: true
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
