@@ -89,32 +89,74 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: WG39087154
+- name: 美国+CloudFlare节点
+  network: xhttp
+  password: VPNCUSTOMIZE
   port: 443
-  server: helpful-possum.rooster465.autos
-  sni: helpful-possum.rooster465.autos
+  server: 104.18.16.56
+  sni: ww.gameserver.de5.net
   type: trojan
+  ws-opts:
+    headers:
+      Host: bvck-oizksj-swin-usje-c-o.gameserver.de5.net
+    path: /config
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.64.105
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel.tirexnet.kdns.fr
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: '美国+V2CROSS.COM #1'
-  password: IQ68037294
+  network: ws
+  password: humanity
   port: 443
-  server: fun-salmon.rooster465.autos
-  sni: fun-salmon.rooster465.autos
+  server: 45.130.125.2
+  sni: Www.cReaTIOnLONG.OrG
   type: trojan
-- name: '美国+V2CROSS.COM #2'
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: meet-doe.rooster465.autos
-  sni: meet-doe.rooster465.autos
-  type: trojan
-- name: '美国+V2CROSS.COM #5'
-  password: IQ68037294
-  port: 443
-  server: 45.135.228.169
-  sni: fun-salmon.rooster465.autos
-  type: trojan
+  ws-opts:
+    headers:
+      Host: Www.cReaTIOnLONG.OrG
+    path: '%2Fassignment'
+- cipher: chacha20-ietf-poly1305
+  name: 乌克兰+V2CROSS.COM
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.54.80.37
+  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -236,58 +278,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_4|2.5MB/s
-  network: ws
-  port: '33208'
-  server: cu2.ainivp.com
-  servername: cu2.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: cu2.ainivp.com
-    path: /ray
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_5|2.0MB/s
-  network: ws
-  port: '33409'
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_6|2.0MB/s
-  network: ws
-  port: '33203'
-  server: cu2.ainivp.com
-  servername: cu2.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: cu2.ainivp.com
-    path: /ray
-  xudp: true
-- name: 🇳🇴NO_1|2.5MB/s
+- name: 🇳🇴NO_1|2.0MB/s
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20085
   server: Hkdcrtc-e.catcat321.com
@@ -297,36 +288,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG_3|2.1MB/s
-  network: ws
-  port: 33402
-  server: cu4.ainivp.com
-  servername: cu4.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: cu4.ainivp.com
-    path: /ray
-- name: 🇹🇼TW_1|2.6MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20025
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: tw.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇺🇦UA_1|2.5MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_2|2.5MB/s
+  name: 🇺🇸US_1|2.4MB/s
   network: ws
   port: 443
   server: 192.204.57.30
@@ -336,64 +298,11 @@ proxies:
   uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
   ws-opts:
     path: /speed
-- client-fingerprint: chrome
-  name: 🇺🇦UA_2|2.4MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20066'
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_2|3.0MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_3|1.9MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇳🇴NO_2|2.4MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇳🇴NO_4|2.0MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20085'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇲🇴MO_1|1.5MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20068'
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
 - alterId: '0'
   cipher: auto
-  name: 🇰🇷KR_4|2.7MB/s
+  name: 🇩🇪DE_1|2.0MB/s
   network: ws
-  port: '33200'
+  port: '33208'
   server: cu2.ainivp.com
   skip-cert-verify: false
   tls: true
@@ -405,8 +314,41 @@ proxies:
       Host: cu2.ainivp.com
     path: /ray
   xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇸🇬SG_1|2.0MB/s
+  network: ws
+  port: '33402'
+  server: cu4.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+  ws-opts:
+    headers:
+      Host: cu4.ainivp.com
+    path: /ray
+  xudp: true
+- name: 🇩🇪DE_2|2.1MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 🇩🇪DE_5|2.6MB/s
+  name: 🇳🇴NO_2|2.3MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20085'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_3|2.1MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: '20041'
