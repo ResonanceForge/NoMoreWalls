@@ -1,4 +1,11 @@
 proxies:
+- name: 香港+Simcentric网络公司
+  network: tcp
+  port: 10000
+  server: 180.178.60.252
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - name: 🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -15,24 +22,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港3|@ripaojiedian
+- name: 香港3|@ripaojiedian
+  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 47867
-  server: 18.166.67.128
+  port: 13118
+  server: 18.163.118.58
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇭🇰 香港4|@ripaojiedian
+- name: 🇭🇰HK_1|3.5MB/s
+  network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 16.162.119.232
+  port: 11035
+  server: 95.40.61.23
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇭🇰 香港5|@ripaojiedian
+- name: 🇭🇰HK_2|2.6MB/s
+  network: tcp
   password: BxceQaOe
-  port: 39412
-  server: 43.198.187.250
+  port: 27161
+  server: 43.199.34.153
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -46,26 +56,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
+- client-fingerprint: chrome
+  name: 🇭🇰HK_3|5.7MB/s
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 13118
-  server: 18.163.118.58
-  sni: www.nintendogames.net
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 95.40.61.23
+  password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
+  port: '32029'
+  server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: pull-flv-q1-admin.douyincdn.com
   type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 43.199.34.153
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK_speednode_0004
+  port: 40118
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: '!!str 5895914d'
+  server: 43.255.156.59
+  servername: www.lamer.com.sg
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
