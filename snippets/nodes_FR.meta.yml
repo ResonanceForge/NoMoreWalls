@@ -1,21 +1,49 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.6MB/s
+- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.85.119.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime56.workers.dev
+- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 66.81.247.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇫🇷 FR 03 TG: @nodpai'
   network: tcp
-  password: JT80563429
-  port: 443
-  server: desired-pony.rooster465.autos
-  skip-cert-verify: false
-  sni: desired-pony.rooster465.autos
-  type: trojan
-  udp: true
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+  security: reality
+  server: 152.89.253.239
+  servername: ya.ru
+  tls: true
+  type: vless
+  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
 - client-fingerprint: chrome
-  name: 🇫🇷FR_2|2.5MB/s
-  network: tcp
-  password: JT80563429
+  name: 🇫🇷FR_1|3.1MB/s
+  network: ws
+  password: humanity
   port: '443'
-  server: 15.237.217.186
-  skip-cert-verify: false
-  sni: desired-pony.rooster465.autos
+  server: 172.64.146.211
+  skip-cert-verify: true
+  sni: www.gossipglove.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
