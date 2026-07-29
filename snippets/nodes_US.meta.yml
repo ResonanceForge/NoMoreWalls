@@ -1,57 +1,30 @@
 proxies:
-- name: 美国+V2CROSS.COM
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 2086
+  server: 172.64.144.52
+  tls: false
+  type: vless
+  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
+  ws-opts:
+    headers:
+      Host: od1kl638.xn--nxa.nyc.mn
+    path: /sub
+- name: '美国+CloudFlare节点 #1'
   network: ws
   port: 80
-  server: 167.82.0.17
+  server: www.speedtest.net
   tls: false
   type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
   ws-opts:
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: 104.17.149.233
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdvymxi.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+      Host: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
+    path: /vl/SjBu4OsqQDFKOlfK2lI9TXXrPWfi
 - name: 美国+麻省理工学院
   network: ws
   port: 80
-  server: 18.244.214.108
+  server: 18.238.109.28
   tls: false
   type: vless
   uuid: f27894bf-349c-44e6-a0ce-4c787e18476f
@@ -59,24 +32,44 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: '%2FGDkX4xpB%2F'
-- client-fingerprint: chrome
-  flow: ''
-  name: '美国+V2CROSS.COM #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
+- name: '美国+麻省理工学院 #1'
+  network: ws
+  port: 80
+  server: 18.238.109.26
   tls: false
   type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  uuid: f27894bf-349c-44e6-a0ce-4c787e18476f
+  ws-opts:
+    headers:
+      Host: duatoup3wk8q2.cloudfront.net
+    path: '%2FGDkX4xpB%2F'
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: '%2F'
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 80
+  server: 199.232.170.246
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: /?Telegram-WangCai2🇨🇳
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
-  server: 16.162.105.149
+  server: 54.46.50.201
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -84,38 +77,37 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
-  server: 16.162.105.149
+  server: 57.183.19.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 95.41.27.1
+  port: 38961
+  server: 18.166.236.71
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alpn:
   - http/1.1
-  client-fingerprint: qq
-  name: 🇺🇸US_1|2.9MB/s
+  name: 🇺🇸US_1|2.6MB/s
   network: ws
-  port: 443
-  server: 104.18.152.246
-  servername: ldggej--MiTiVPN---MiTiVPN-o.KingCloud-1.ir
-  tls: true
-  type: vless
+  password: MiTiVPN
+  port: 2083
+  server: 104.18.7.178
+  skip-cert-verify: true
+  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+  type: trojan
   udp: true
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
   ws-opts:
     headers:
-      Host: l-j-pjj-MiTiVPN---MiTiVPN-o.KingCloud-1.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/De
+      Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸US_2|2.4MB/s
+  name: 🇺🇸US_2|2.1MB/s
   network: ws
   password: MITIVPN
   port: '8443'
@@ -126,14 +118,30 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_3|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str d6816b10d545df54'
+  server: 155.117.137.201
+  servername: cdn2-07.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_3|2.5MB/s
+  name: 🇺🇸US_4|2.7MB/s
   network: ws
   port: '443'
   server: 69.46.46.251
@@ -145,150 +153,206 @@ proxies:
   ws-opts:
     headers:
       Host: x4g-production-5121.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
     path: /ws/9eb665b1-0ebd-9764-a6ad-d940fe82a6c9
-  xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_4|2.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 🇺🇸US_5|2.5MB/s
-  network: ws
-  port: '443'
-  server: 69.46.46.3
-  servername: rvg-production-3100.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5835d646-e713-89be-00a5-5567ec246abc
-  ws-opts:
-    headers:
-      Host: rvg-production-3100.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /ws/5835d646-e713-89be-00a5-5567ec246abc
-  xudp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸US_6|2.6MB/s
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: '857'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸US_7|3.7MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: '911'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸US_8|3.2MB/s
-  password: ay2loud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: '906'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇺🇸US_9|2.7MB/s
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: '812'
-  server: 260323.1.0.l2.unclemanco.com
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 🇺🇸US_10|2.0MB/s
-  network: ws
-  port: '443'
-  server: rvg-production-1176f.up.railway.app
-  servername: rvg-production-1176f.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2fa33163-12a8-f4b2-c3bd-4d5506d97b5d
-  ws-opts:
-    headers:
-      Host: rvg-production-1176f.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /ws/2fa33163-12a8-f4b2-c3bd-4d5506d97b5d
   xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_11|2.0MB/s
+  name: 🇺🇸US_5|2.3MB/s
   network: ws
   port: '443'
-  server: web-production-bc324.up.railway.app
-  servername: web-production-bc324.up.railway.app
+  server: ezaccess1-x4g-ezaccess1-2757.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 819a56fd-8e66-4f04-8343-83c24a0e10ff
+  uuid: 1cfa409c-528e-d3d7-0ebc-250f6b627b62
   ws-opts:
     headers:
-      Host: web-production-bc324.up.railway.app
+      Host: ''
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /ws/819a56fd-8e66-4f04-8343-83c24a0e10ff
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /ws/1cfa409c-528e-d3d7-0ebc-250f6b627b62
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_6|2.2MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.226.105.188
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_7|2.0MB/s
+  network: ws
+  port: '443'
+  server: soskeynets-x4g-ezaccess1-2757.up.railway.app
+  servername: ezaccess1-x4g-ezaccess1-2757.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1cfa409c-528e-d3d7-0ebc-250f6b627b62
+  ws-opts:
+    headers:
+      Host: ezaccess1-x4g-ezaccess1-2757.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /ws/1cfa409c-528e-d3d7-0ebc-250f6b627b62
   xudp: true
 - alpn:
   - http/1.1
-  client-fingerprint: ios
+  client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_12|2.2MB/s
+  name: 🇺🇸US_8|2.1MB/s
   network: ws
   port: '443'
-  server: ezaccess1-x4g-ezaccess1-c619.up.railway.app
-  servername: ezaccess1-x4g-ezaccess1-c619.up.railway.app
+  server: 69.46.46.1
+  servername: rvg-production-2066.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 5a832c52-da28-b23c-ba24-d8a900e3982e
+  uuid: 085350bf-3af2-a06b-3006-9d7ea314475e
   ws-opts:
     headers:
-      Host: ezaccess1-x4g-ezaccess1-c619.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /ws/5a832c52-da28-b23c-ba24-d8a900e3982e
+      Host: rvg-production-2066.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /ws/085350bf-3af2-a06b-3006-9d7ea314475e
   xudp: true
-- name: 🇺🇸US_13|3.7MB/s
-  password: ''
-  port: '9002'
-  server: 138.199.35.196
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_9|1.8MB/s
+  network: tcp
+  port: '17462'
+  reality-opts:
+    public-key: Yl6ip7DyV1H-HWAg5mAGcHHq1cX6yEqC_Avf7B0txXc
+    short-id: '!!str e97a9e58192b0f'
+  server: vip.persiadesign.tr
+  servername: www.yahoo.com
   tls: true
-  type: http
-  username: ''
+  type: vless
+  udp: true
+  uuid: 0b5fc7a9-8316-444f-b715-54a4250c6177
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_10|2.6MB/s
+  network: ws
+  port: '443'
+  server: 69.46.46.2
+  servername: rvg-production-0b99.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: d407e42e-6b35-2992-5e63-edcf5e05fa91
+  ws-opts:
+    headers:
+      Host: rvg-production-0b99.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /ws/d407e42e-6b35-2992-5e63-edcf5e05fa91
+  xudp: true
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_11|3.1MB/s
+  network: ws
+  port: '443'
+  server: 69.46.46.46
+  servername: luffypanel-production-0786.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 025de780-5485-4feb-8b21-fd04107ce8cb
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: luffypanel-production-0786.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    max-early-data: 2048
+    path: /ws/vless/025de780-5485-4feb-8b21-fd04107ce8cb
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_12|3.5MB/s
+  network: none
+  port: '24548'
+  server: dsl081-033-205.lax1.dsl.speakeasy.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ed81c339-eca0-463a-c671-fce729a683b3
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_13|3.1MB/s
+  network: ws
+  port: '80'
+  server: 50.62.90.4
+  type: vless
+  udp: true
+  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
+  ws-opts:
+    headers:
+      Host: raspy-feather-12ec.137-257.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /pyip=Telegram🇨🇳 @WangCai2
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_14|2.0MB/s
+  network: ws
+  port: '8880'
+  server: 45.131.210.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime05.workers.dev
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_15|2.9MB/s
+  network: ws
+  port: '8880'
+  server: 80.93.202.40
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vms.lifetime02.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- name: 🇺🇸US_16|1.6MB/s
+  network: ws
+  port: '8880'
+  server: 154.197.64.2
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /pyip=Telegram🇨🇳 @WangCai2
+  xudp: true
 - name: US_speednode_0027
   network: ws
   password: MITIVPN
