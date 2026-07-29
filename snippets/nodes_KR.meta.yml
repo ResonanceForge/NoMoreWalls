@@ -1,19 +1,36 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_1|2.3MB/s
-  network: tcp
-  port: '20158'
-  reality-opts:
-    public-key: zYijLoutrnnrwLpLXaL9KAIT9siijcdajF8blOfgSxM
-    short-id: '!!str 33f6498052e5cb1a'
-  server: 8mc0z4qk-7n2r-5t9x-0r6p-3a4w8k1d9e2.edge.ccdn3.work
-  servername: www.bilibili.com
+- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 🇰🇷KR_1|1.8MB/s
+  network: ws
+  port: 443
+  server: 129.154.50.159
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
-  xudp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: KR_speednode_0031
