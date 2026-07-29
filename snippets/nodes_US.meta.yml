@@ -1,77 +1,84 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 80
-  server: 167.82.0.4
-  tls: false
-  type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-- flow: ''
-  name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: 172.67.149.60
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /id-tksi
-- name: 美国+宾利大学
-  network: tcp
-  port: 20342
-  server: 141.133.172.222
-  tls: false
-  type: vless
-  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-- name: 美国+Fastly全球Anycast节点
-  network: ws
-  port: 80
-  server: 151.101.193.54
-  tls: false
-  type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 53996
-  reality-opts:
-    public-key: aNMxt5DL5lJSEb_zKQTvGw7GJqpLrOuNQMNUQ8A-BQ8
-    short-id: '!!str 25735c7d0c3dda'
-  server: 134.122.85.126
-  servername: timeline.www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: efc9ffd0-aff8-4f3a-b0f9-1c1777a4e2c4
-- name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.56.7
-  tls: false
-  type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: '%2F'
-- name: '美国+CloudFlare节点 #1'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: www.multiplydose.com
-  sni: www.multiplydose.com
+  server: 104.16.174.36
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: /assignment
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 104.16.75.68
+  servername: germany-2.ariyuz.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
+  ws-opts:
+    headers:
+      Host: germany-2.ariyuz.org
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: '36822'
+  server: sylva51.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: 美国+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.202.211.1
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: '%2Fassignment'
+- name: 🐰48@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: bjmye80g9o99qohl
+  password: 1ecqm05bcdfcckq5
+  port: 59265
+  server: apic.dnso.ccwu.cc
+  skip-cert-verify: true
+  sni: apic.dnso.ccwu.cc
+  tls: false
+  type: hysteria2
+- name: '🇺🇸125599 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: bjmye80g9o99qohl
+  password: 1ecqm05bcdfcckq5
+  port: 59265
+  server: soskeynets.dnso.ccwu.cc
+  skip-cert-verify: true
+  sni: apic.dnso.ccwu.cc
+  tls: false
+  type: hysteria2
+- name: 🇺🇸125595 | ⚡️Telegram = t.me/S...
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: soskeynets.spectrumproxy.shop
+  sni: usa1.spectrumproxy.shop
+  tls: false
+  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -96,29 +103,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.6MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|2.6MB/s
-  network: ws
-  port: 8443
-  server: fast.nanniang.top
-  servername: us-akile.nanniang.top
+- name: US_speednode_0081
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
   skip-cert-verify: true
-  tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  ws-opts:
-    headers:
-      Host: us-akile.nanniang.top
-    path: /
 - client-fingerprint: chrome
   name: US_speednode_0082
   network: ws
