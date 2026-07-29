@@ -1,11 +1,4 @@
 proxies:
-- name: 香港+Simcentric网络公司
-  network: tcp
-  port: 10000
-  server: 180.178.60.252
-  tls: false
-  type: vless
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -23,7 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: US_speednode_0162
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -31,6 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -49,3 +43,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|2.1MB/s
+  network: ws
+  port: 33410
+  server: yd4.ainivp.com
+  servername: yd4.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9301afcd-025e-781f-1abc-c10efabd1211
+  ws-opts:
+    headers:
+      Host: yd4.ainivp.com
+    path: /ray
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_2|4.2MB/s
+  network: tcp
+  port: '796'
+  reality-opts:
+    public-key: TF0cpYzynl9KBdRfExFyNGoQn-l0XHmTkvRMgwf4VV8
+    short-id: '!!str e62d7339ead9eb13'
+  server: hk03.ccdn3.work
+  servername: www.bilibili.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
+  xudp: true

@@ -1,60 +1,163 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2086
-  server: 172.64.144.52
-  tls: false
-  type: vless
-  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
-  ws-opts:
-    headers:
-      Host: od1kl638.xn--nxa.nyc.mn
-    path: /sub
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  tls: false
-  type: vless
-  uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
-  ws-opts:
-    headers:
-      Host: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
-    path: /vl/SjBu4OsqQDFKOlfK2lI9TXXrPWfi
-- name: 美国+麻省理工学院
-  network: ws
-  port: 80
-  server: 18.238.109.28
-  tls: false
-  type: vless
-  uuid: f27894bf-349c-44e6-a0ce-4c787e18476f
-  ws-opts:
-    headers:
-      Host: duatoup3wk8q2.cloudfront.net
-    path: '%2FGDkX4xpB%2F'
-- name: '美国+麻省理工学院 #1'
-  network: ws
-  port: 80
-  server: 18.238.109.26
-  tls: false
-  type: vless
-  uuid: f27894bf-349c-44e6-a0ce-4c787e18476f
-  ws-opts:
-    headers:
-      Host: duatoup3wk8q2.cloudfront.net
-    path: '%2FGDkX4xpB%2F'
 - name: 美国+V2CROSS.COM
   network: ws
-  port: 8880
-  server: 63.141.128.30
+  port: 80
+  server: 199.232.170.106
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
   ws-opts:
     headers:
-      Host: vms.lifetime42.workers.dev
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 2096
+  server: 172.66.3.233
+  servername: vlso3.1d.mom
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso3.1d.mom
+    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
+- name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.56.7
+  servername: 151.101.56.7
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
     path: '%2F'
 - name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 80
+  server: 199.232.170.45
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  port: 80
+  server: 199.232.170.254
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #3'
+  network: ws
+  port: 80
+  server: 199.232.170.182
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #4'
+  network: ws
+  port: 80
+  server: 199.232.170.141
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #5'
+  network: ws
+  port: 80
+  server: 199.232.170.160
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #6'
+  network: ws
+  port: 80
+  server: 167.82.0.1
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: '%2F'
+- name: '美国+V2CROSS.COM #7'
+  network: ws
+  port: 80
+  server: 199.232.170.76
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #8'
+  network: ws
+  port: 80
+  server: 199.232.170.57
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #9'
+  network: ws
+  port: 80
+  server: 199.232.170.49
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #10'
+  network: ws
+  port: 80
+  server: 199.232.170.79
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #11'
+  network: ws
+  port: 80
+  server: 199.232.170.4
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+V2CROSS.COM #12'
   network: ws
   port: 80
   server: 199.232.170.246
@@ -65,7 +168,18 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 美国|@ripaojiedian
+- name: '美国+V2CROSS.COM #13'
+  network: ws
+  port: 80
+  server: 199.232.170.205
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F%3FTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: US_speednode_0163
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -73,6 +187,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -89,9 +204,36 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_1|2.6MB/s
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_1|2.2MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 🇺🇸US_4|1.6MB/s
+  password: ''
+  port: '44499'
+  server: 45.61.188.134
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: US_speednode_0133
+  network: ws
+  port: 80
+  server: 151.101.56.7
+  servername: BankMelat.glObal.ssl.faStly.nEt.
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- name: US_speednode_0134
   network: ws
   password: MiTiVPN
   port: 2083
@@ -104,13 +246,10 @@ proxies:
     headers:
       Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_2|2.1MB/s
+- name: US_speednode_0135
   network: ws
   password: MITIVPN
-  port: '8443'
+  port: 8443
   server: 104.17.148.22
   skip-cert-verify: true
   sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
@@ -118,80 +257,17 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      Host: mehrosaboran---mehrosaboran-7.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_3|2.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str d6816b10d545df54'
-  server: 155.117.137.201
-  servername: cdn2-07.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|2.7MB/s
+  name: US_speednode_0136
   network: ws
-  port: '443'
-  server: 69.46.46.251
-  servername: x4g-production-5121.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9eb665b1-0ebd-9764-a6ad-d940fe82a6c9
-  ws-opts:
-    headers:
-      Host: x4g-production-5121.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /ws/9eb665b1-0ebd-9764-a6ad-d940fe82a6c9
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_5|2.3MB/s
-  network: ws
-  port: '443'
-  server: ezaccess1-x4g-ezaccess1-2757.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1cfa409c-528e-d3d7-0ebc-250f6b627b62
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /ws/1cfa409c-528e-d3d7-0ebc-250f6b627b62
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_6|2.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 54.226.105.188
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_7|2.0MB/s
-  network: ws
-  port: '443'
+  port: 443
   server: soskeynets-x4g-ezaccess1-2757.up.railway.app
   servername: ezaccess1-x4g-ezaccess1-2757.up.railway.app
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -199,210 +275,96 @@ proxies:
   ws-opts:
     headers:
       Host: ezaccess1-x4g-ezaccess1-2757.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
     path: /ws/1cfa409c-528e-d3d7-0ebc-250f6b627b62
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_8|2.1MB/s
-  network: ws
-  port: '443'
-  server: 69.46.46.1
-  servername: rvg-production-2066.up.railway.app
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0137
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str d6816b10d545df54'
+  server: 155.117.137.201
+  servername: cdn2-07.yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 085350bf-3af2-a06b-3006-9d7ea314475e
-  ws-opts:
-    headers:
-      Host: rvg-production-2066.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /ws/085350bf-3af2-a06b-3006-9d7ea314475e
-  xudp: true
+  uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_9|1.8MB/s
+  name: US_speednode_0138
   network: tcp
-  port: '17462'
+  port: 17462
   reality-opts:
     public-key: Yl6ip7DyV1H-HWAg5mAGcHHq1cX6yEqC_Avf7B0txXc
     short-id: '!!str e97a9e58192b0f'
   server: vip.persiadesign.tr
   servername: www.yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 0b5fc7a9-8316-444f-b715-54a4250c6177
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_10|2.6MB/s
+- name: US_speednode_0139
   network: ws
-  port: '443'
-  server: 69.46.46.2
-  servername: rvg-production-0b99.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: d407e42e-6b35-2992-5e63-edcf5e05fa91
-  ws-opts:
-    headers:
-      Host: rvg-production-0b99.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /ws/d407e42e-6b35-2992-5e63-edcf5e05fa91
-  xudp: true
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_11|3.1MB/s
-  network: ws
-  port: '443'
-  server: 69.46.46.46
-  servername: luffypanel-production-0786.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 025de780-5485-4feb-8b21-fd04107ce8cb
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: luffypanel-production-0786.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    max-early-data: 2048
-    path: /ws/vless/025de780-5485-4feb-8b21-fd04107ce8cb
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_12|3.5MB/s
-  network: none
-  port: '24548'
-  server: dsl081-033-205.lax1.dsl.speakeasy.net
+  port: 80
+  server: 50.62.90.4
+  servername: raspy-feather-12ec.137-257.workers.dev
   skip-cert-verify: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: ed81c339-eca0-463a-c671-fce729a683b3
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_13|3.1MB/s
-  network: ws
-  port: '80'
-  server: 50.62.90.4
   type: vless
   udp: true
   uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
   ws-opts:
     headers:
       Host: raspy-feather-12ec.137-257.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /pyip=Telegram🇨🇳 @WangCai2
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_14|2.0MB/s
-  network: ws
-  port: '8880'
-  server: 45.131.210.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime05.workers.dev
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_15|2.9MB/s
-  network: ws
-  port: '8880'
-  server: 80.93.202.40
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vms.lifetime02.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- name: 🇺🇸US_16|1.6MB/s
-  network: ws
-  port: '8880'
-  server: 154.197.64.2
-  type: vless
-  udp: true
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  ws-opts:
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /pyip=Telegram🇨🇳 @WangCai2
-  xudp: true
-- name: US_speednode_0027
-  network: ws
-  password: MITIVPN
-  port: 2053
-  server: 104.17.147.22
-  skip-cert-verify: true
-  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ikk---7-MiTiVPN----o.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
-- name: US_speednode_0028
-  network: ws
-  password: MiTiVPN
-  port: 2087
-  server: 104.18.6.178
-  skip-cert-verify: true
-  sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
-- name: US_speednode_0029
+    path: /pyip=TelegramU0001F1E8U0001F1F3 @WangCai2
+- name: US_speednode_0140
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20056
+  port: 20066
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_speednode_0030
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+- alpn:
+  - http/1.1
+  name: US_speednode_0141
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: Nll-l--sS--Nl.Kingcloud-1.Ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: US_speednode_0031
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20056
-  server: oplosgru-c.catcat321.com
+  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  ws-opts:
+    headers:
+      Host: Nll-l--sS--Aa.Kingcloud-1.Ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nlwin
+- name: US_speednode_0143
+  port: 9002
+  server: 138.199.35.196
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+  tls: true
+  type: http
   udp: true
-- name: US_speednode_0032
+- client-fingerprint: chrome
+  name: US_speednode_0144
+  network: ws
+  port: 443
+  server: fast.cd-tur4.ir
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5576b8c-57b3-40cd-9c09-dba9f3106435
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+- name: US_speednode_0145
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -410,18 +372,284 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- client-fingerprint: edge
+- client-fingerprint: chrome
+  name: US_speednode_0146
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3573a79a-ae0c-41f7-84e5-eb276682af3a
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: US_speednode_0033
+  name: US_speednode_0147
   network: tcp
   port: 443
   reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 140.233.160.24
-  servername: ya.ru
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str 3c9c5d01c6f824dd'
+  server: 155.117.137.201
+  servername: cdn9-33.yahoo.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
+- name: US_speednode_0148
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
+  ws-opts:
+    headers:
+      Host: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
+    path: /vl/SjBu4OsqQDFKOlfK2lI9TXXrPWfi
+- client-fingerprint: chrome
+  name: US_speednode_0149
+  network: ws
+  port: 80
+  server: 151.101.193.54
+  servername: BankMelat.glObal.ssl.faStly.nEt.
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- name: US_speednode_0150
+  network: ws
+  port: 80
+  server: 151.101.193.54
+  servername: BankMelat.glObal.ssl.faStly.nEt.
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6bd7815d-9fb0-41c6-87ef-ffc713bf6b8f
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- name: US_speednode_0151
+  network: ws
+  port: 80
+  server: naseza.tarfiq.ir
+  servername: teranko.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1fe455ab-ef5a-4e51-9015-709f8f019aaf
+  ws-opts:
+    headers:
+      Host: teranko.global.ssl.fastly.net
+    path: /
+- name: US_speednode_0152
+  network: ws
+  port: 80
+  server: 167.82.0.4
+  servername: BankMelat.glObal.ssl.faStly.nEt.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- client-fingerprint: chrome
+  name: US_speednode_0153
+  network: ws
+  port: 80
+  server: 167.82.0.17
+  servername: BankMelat.glObal.ssl.faStly.nEt.
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- name: US_speednode_0154
+  network: ws
+  port: 80
+  server: 167.82.0.17
+  servername: BankMelat.glObal.ssl.faStly.nEt.
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: a69d5300-8101-47b5-9448-6730f228af37
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_speednode_0155
+  network: ws
+  port: 443
+  server: 172.66.40.99
+  servername: l-j-o-MiTiVPN---MiTiVPN-iiio.KingCloud-1.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  ws-opts:
+    headers:
+      Host: l-j--bMiTiVPN---MiTiVPN-mmo.KingCloud-1.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SwS
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_speednode_0156
+  network: ws
+  port: 443
+  server: 104.21.58.74
+  servername: l-jo--hhMiTiVPN---MiTiVPN-o.KingCloud-1.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  ws-opts:
+    headers:
+      Host: l-j-yv-MiTiVPN---MiTiVPN-o.KingCloud-1.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/Usa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_speednode_0157
+  network: ws
+  port: 443
+  server: 104.18.16.56
+  servername: l-j--vMiTiVPN---MiTiVPN-pp-o.KingCloud-1.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  ws-opts:
+    headers:
+      Host: l-j-v-MiTiVPN---MiTiVPN-oo.KingCloud-1.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL
+- name: US_speednode_0158
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d3gxy6d0a9fs18.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ff485c50-b364-4b4f-90be-ea576b949dd3
+  ws-opts:
+    headers:
+      Host: d3gxy6d0a9fs18.cloudfront.net
+    path: /fnetvpn2026
+- name: US_speednode_0159
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
+  ws-opts:
+    headers:
+      Host: pan11.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- name: US_speednode_0160
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
+  ws-opts:
+    headers:
+      Host: pan11.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+- name: US_speednode_0161
+  network: ws
+  port: 8880
+  server: 66.81.247.209
+  servername: cnd.finland2.2.newwaycdn.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
+  ws-opts:
+    headers:
+      Host: cnd.finland2.2.newwaycdn.com
+    path: /cdn/assets/stream
+- name: US_speednode_0164
+  network: ws
+  port: 80
+  server: 50.62.90.4
+  servername: raspy-feather-12ec.137-257.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
+  ws-opts:
+    headers:
+      Host: raspy-feather-12ec.137-257.workers.dev
+    path: /pyip=Telegram🇨🇳 @WangCai2
+- name: US_speednode_0165
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20056
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: US_speednode_0166
+  network: ws
+  port: 80
+  server: 103.133.1.160
+  servername: soft-shadow-1e33.xicav73335.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  ws-opts:
+    headers:
+      Host: soft-shadow-1e33.xicav73335.workers.dev
+    path: /ws
+- name: US_speednode_0167
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true

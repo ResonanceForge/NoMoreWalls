@@ -1,12 +1,4 @@
 proxies:
-- name: 新加坡+Amazon数据中心
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -31,21 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|2.9MB/s
-  network: ws
-  port: '443'
-  server: 172.64.146.86
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /sg-melbi
-  xudp: true
