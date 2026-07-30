@@ -1,4 +1,16 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: ruded2.onlinestreamself.com
+  servername: apple.com
+  tls: false
+  type: vless
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: RU_speednode_0091
