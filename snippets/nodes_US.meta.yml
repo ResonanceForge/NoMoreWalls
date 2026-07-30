@@ -1,27 +1,17 @@
 proxies:
 - client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 53996
-  reality-opts:
-    public-key: aNMxt5DL5lJSEb_zKQTvGw7GJqpLrOuNQMNUQ8A-BQ8
-    short-id: '!!str 25735c7d0c3dda'
-  server: 134.122.85.126
-  servername: timeline.www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: efc9ffd0-aff8-4f3a-b0f9-1c1777a4e2c4
-- name: 美国+Fastly全球Anycast节点
+  name: 美国+CloudFlare节点
   network: ws
-  port: 80
-  server: 151.101.193.54
-  tls: false
+  port: 2083
+  server: fans.liverpool.qzz.io
+  servername: fans.liverpool.qzz.io
+  tls: true
   type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
   ws-opts:
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: '%2F'
+      Host: fans.liverpool.qzz.io
+    path: '%2FeyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D'
 - name: 美国+宾利大学
   network: tcp
   port: 20342
@@ -31,40 +21,54 @@ proxies:
   uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
   ws-opts:
     path: '%2F'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdvymxi.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '美国+V2CROSS.COM #2'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   port: 80
-  server: 167.82.0.4
+  server: 104.16.27.134
   tls: false
   type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  uuid: df301b32-1152-4526-9a63-beedd93d3156
   ws-opts:
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: '%2F'
-- name: 美国|@ripaojiedian
+      Host: vl.dalazhi.cloudns.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: '36822'
+  server: sylva51.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: icook.hk
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip
+- name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 17005
-  server: 54.46.50.201
+  port: 49277
+  server: 18.181.205.36
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 美国2|@ripaojiedian
-  network: tcp
+- name: 🇺🇸 美国2|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
   server: 57.183.19.130
@@ -74,48 +78,193 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38961
-  server: 18.166.236.71
+  port: 15775
+  server: 54.46.46.228
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.7MB/s
-  network: tcp
-  port: '443'
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 🇺🇸US_1|3.2MB/s
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga2.api3-max.ru
+  skip-cert-verify: true
+  sni: taga2.api3-max.ru
+  type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇺🇸US_2|2.4MB/s
+  network: grpc
+  port: 16923
   reality-opts:
-    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
-    short-id: '!!str 0990d22f'
-  server: 167.17.69.171
-  servername: www.cloudflare.com
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 152.53.169.29
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 00144519-7e0d-476b-8d28-435576af9262
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_2|2.1MB/s
-  network: ws
-  port: '80'
-  server: 18.239.134.69
+  uuid: d5e6daf4-b11c-42fa-9e2d-ae1d3f5c70d3
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇺🇸US_3|2.1MB/s
+  network: grpc
+  port: '16923'
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 152.53.169.29
+  servername: api-maps.yandex.ru
+  tls: true
   type: vless
   udp: true
-  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    path: /
+  uuid: 1324e49f-18f6-4b10-bc3a-03e60785105f
   xudp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_4|2.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.226.105.188
+  type: ss
+  udp: true
+- name: 🇺🇸US_5|3.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_6|2.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_7|3.2MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|1.8MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_9|2.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|3.7MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_11|3.2MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_13|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_14|2.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_15|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_16|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_17|4.5MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 🇺🇸US_18|2.1MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_19|2.1MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_20|2.5MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_3|1.6MB/s
+  name: 🇺🇸US_21|2.5MB/s
   network: xhttp
   port: '443'
   server: x4g-production-9068d.up.railway.app
@@ -131,114 +280,43 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: neurex
-  name: 🇺🇸US_4|2.1MB/s
-  network: grpc
-  port: '16923'
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 152.53.169.29
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2702228d-880f-410a-bf39-bdbe26228ead
-  xudp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_5|2.1MB/s
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸US_6|2.5MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|3.0MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_8|2.5MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_9|3.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 🇺🇸US_10|2.1MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|2.1MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.8
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|2.5MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_13|3.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76dff95d-a720-4909-8ca6-3d848e786a9c
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_22|1.8MB/s
+  network: tcp
   port: '443'
-  server: 159.65.178.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇺🇸US_14|2.0MB/s
-  network: raw
-  port: '2053'
   reality-opts:
-    public-key: SZNBUj0YVHSGrLNr_1G11ezb5SShqv0_8bDbNGbVJTo
-    short-id: '!!str 905d014aef48adf6'
-  server: 198.251.78.29
-  servername: www.apple.com
+    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
+    short-id: '!!str 998432bc'
+  server: 152.53.55.155
+  servername: cnn.com
   tls: true
   type: vless
   udp: true
-  uuid: 4486dc5a-823c-4507-840f-df9ce6c696fb
+  uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_23|1.6MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: cFOObXBY1O7-LqMqwQ4qDbRdH104xyMb6XwrNHuCkho
+    short-id: '!!str '
+  server: 154.17.239.145
+  servername: learn.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5692768-5288-43c6-8cef-341dde6344a5
+  xudp: true
+- name: US_speednode_0081
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: US_speednode_0082
   network: ws
