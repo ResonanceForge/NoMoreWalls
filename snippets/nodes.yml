@@ -89,48 +89,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.25.173
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.202.211.1
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.6
+- name: 英国+Technicolor+SA
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
+  server: oplosgru-c.catcat321.com
   skip-cert-verify: true
-  sni: www.calmloud.com
+  sni: hk.catxstar.com
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+RF+Engineering
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.21
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05

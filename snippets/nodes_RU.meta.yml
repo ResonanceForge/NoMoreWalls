@@ -1,30 +1,17 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
-  server: ruded2.onlinestreamself.com
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: RU_speednode_0091
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.189
-  servername: apple.com
-  skip-cert-verify: true
+  network: ws
+  port: 2053
+  server: 188.227.86.123
+  servername: forfreeuse.sub-flow.online
   tls: true
   type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: RU_speednode_0086
@@ -81,6 +68,20 @@ proxies:
   type: vless
   udp: true
   uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: RU_speednode_0091
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.189
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0092
