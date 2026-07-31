@@ -12,10 +12,6 @@ proxies:
   tls: false
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  ws-opts:
-    headers:
-      Host: www.lamer.com.sg
-    path: '%2F'
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -24,7 +20,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
+- client-fingerprint: chrome
+  name: JP_speednode_0018
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -32,7 +29,9 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_1|5.4MB/s
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|1.9MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -40,3 +39,4 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
