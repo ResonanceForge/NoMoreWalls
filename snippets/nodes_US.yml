@@ -1,4 +1,29 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 Microsoft数据中心
+  network: ws
+  port: '36803'
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: '%2F%3Fproxyip%3Dts.hpc.tw'
 - name: HK_speednode_0006
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b

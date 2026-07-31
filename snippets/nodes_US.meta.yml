@@ -20,33 +20,7 @@ proxies:
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
-  ws-opts:
-    headers:
-      Host: pan11.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.236.22
+  server: jdvymxi.cvewfjg.shop
   servername: www.cloudflare.com
   tls: false
   type: vless
@@ -54,67 +28,62 @@ proxies:
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 8443
-  server: 172.64.153.235
-  servername: socks5.revil-time3.workers.dev
+  port: 2087
+  server: 172.64.146.59
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
-      Host: socks5.revil-time3.workers.dev
-    path: /socks5://128.140.46.169:13482
-- client-fingerprint: chrome
-  flow: ''
-  name: '美国+V2CROSS.COM #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  tls: false
-  type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- name: 美国+爱荷华州得梅因Microsoft数据中心
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 23.95.75.151
-  skip-cert-verify: false
-  sni: hopp-us.yyuyy.com
-  tls: false
-  type: hysteria2
+      Host: learn00.evany.de5.net
+    path: /fdip
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 443
-  server: 162.159.38.78
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
+  port: 8443
+  server: ad-013.milo1fmyz.info
+  servername: ad-013.milo1fmyz.info
   tls: true
   type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
   ws-opts:
     headers:
-      Host: learn00.evany.de5.net
-    path: '%2Ffdip'
+      Host: ad-013.milo1fmyz.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 Microsoft数据中心
+  network: ws
+  port: '36803'
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: 152.53.127.214
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #3'
   network: ws
-  port: 8443
-  server: ad-020.orbitqgr7v.info
-  servername: ad-020.orbitqgr7v.info
-  tls: true
-  type: vless
-  uuid: 1ad37675-b4cf-42fa-9dc5-83fd35cd63cb
-  ws-opts:
-    path: /
-- client-fingerprint: random
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 8443
-  server: 172.64.153.57
+  port: 443
+  server: 162.159.2.40
   servername: learn00.evany.de5.net
   tls: true
   type: vless
@@ -122,7 +91,29 @@ proxies:
   ws-opts:
     headers:
       Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
+    path: /fdip=tw.william.us.ci!txt?ed=2560fp=random
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: '%2F%3Fproxyip%3Dts.hpc.tw'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8080
+  server: 172.67.69.63
+  tls: false
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
+  ws-opts:
+    headers:
+      Host: premium-us-ca-01-gthost.efgwf.online
+    path: /ws-6Tta3kYF
 - name: HK_speednode_0006
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
