@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
-    short-id: '!!str 4c5a76834671'
-  server: 185.164.111.48
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -100,60 +87,17 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇩🇪DE_1|2.4MB/s
-  network: xhttp
-  port: 443
-  server: nl29.abvpn.net
-  servername: nl29.abvpn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xhttp-opts:
-    host: nl29.abvpn.net
-    mode: auto
-    path: /xhttp/
-- client-fingerprint: chrome
-  name: 🇩🇪DE_2|1.7MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.4MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
-    short-id: '!!str 998432bc'
-  server: 103.88.241.176
-  servername: userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
-  xudp: true
-- client-fingerprint: chrome
-  name: DE_speednode_0006
+- name: DE_speednode_0004
   network: ws
-  port: 2053
-  server: 51.89.23.94
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
+  port: 8880
+  server: 45.80.111.175
+  servername: cnd.poland.myfilecdn.com
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
   ws-opts:
     headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
+      Host: cnd.poland.myfilecdn.com
+    path: /cdn/assets/stream
