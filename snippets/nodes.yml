@@ -91,10 +91,20 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 美国 Microsoft数据中心
+  name: 伊朗 V2CROSS.COM
+  network: tcp
+  port: 2078
+  server: tun1.wizardx1.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
   network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
+  port: '36801'
+  server: cindy50.ceoiii.com
   servername: ''
   tls: false
   type: vmess
@@ -103,17 +113,6 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: '%2F%3Fproxyip%3Dts.hpc.tw'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -238,3 +237,46 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 🇹🇼TW_1|1010KB/s
+  network: tcp
+  password: i99Cef
+  port: '28101'
+  server: 209.248.32.115
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰HK_1|1.6MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '8001'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇨SC_1|1.9MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '835'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_1|2.2MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '914'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
