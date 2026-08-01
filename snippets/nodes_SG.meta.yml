@@ -23,15 +23,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- auth: 4861843a-3187-4885-83d9-2f69fed13fc9
+- client-fingerprint: chrome
+  encryption: none
   name: 🇸🇬SG_1|2.0MB/s
-  password: 4861843a-3187-4885-83d9-2f69fed13fc9
-  port: 20008
-  server: hkt2.nekohub.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  network: ws
+  port: '2096'
+  server: news.zoom.us
+  servername: primelinelk.me
+  tls: true
+  type: vless
   udp: true
+  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /xprolk-primeline
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: SG_speednode_0147
@@ -47,4 +56,3 @@ proxies:
   type: vless
   udp: true
   uuid: 6b5a9259-c7de-45f0-b4de-e89db7850d0c
-  xudp: true
