@@ -1,47 +1,44 @@
 proxies:
-- name: HK_speednode_0005
+- name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  skip-cert-verify: false
+  port: 45744
+  server: 188.163.100.58
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.167.20.3
+  port: 32434
+  server: 18.166.178.12
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 43.198.187.59
+  port: 45744
+  server: 43.198.98.22
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|3.2MB/s
-  network: ws
-  port: '443'
-  server: 172.64.146.86
-  servername: support.zoom.us.yxls.eu.cc
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: 🇸🇬SG_1|1021KB/s
+  network: xhttp
+  port: 443
+  server: sg.ethicsdinnerpave.online
+  servername: sg.ethicsdinnerpave.online
   tls: true
   type: vless
   udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /sg-melbi
-  xudp: true
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: sg.ethicsdinnerpave.online
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
 - client-fingerprint: firefox
   name: SG_speednode_0086
   network: ws
