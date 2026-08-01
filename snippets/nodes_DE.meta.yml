@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国+V2CROSS.COM
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
+    short-id: '!!str 4c5a76834671'
+  server: 185.164.111.48
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -78,47 +91,89 @@ proxies:
   tls: false
   type: hysteria2
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪DE_2|2.6MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- alpn:
   - h2
-  client-fingerprint: qq
-  encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇩🇪DE_4|1.5MB/s
-  network: xhttp
-  port: '443'
-  server: 167.82.76.31
-  servername: speedtest.net
+  client-fingerprint: chrome
+  name: 🇩🇪DE_1|1003KB/s
+  network: ws
+  port: 443
+  server: 104.26.12.41
+  servername: pinalo.zenvorix.ir
   tls: true
   type: vless
   udp: true
-  uuid: 8ba5361f-2d12-40fe-9f33-eca6847f1475
-  xhttp-opts:
-    host: wizardali.global.ssl.fastly.net
-    mode: packet-up
-    path: /mammadalifsx
-  xudp: true
-- name: DE_speednode_0004
-  network: ws
-  port: 8880
-  server: 45.80.111.175
-  servername: cnd.poland.myfilecdn.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
+  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
   ws-opts:
     headers:
-      Host: cnd.poland.myfilecdn.com
-    path: /cdn/assets/stream
+      Host: pinalo.zenvorix.ir
+    path: /nova-geo-psiphon-de
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-direct
+  name: 🇩🇪DE_2|3.2MB/s
+  network: grpc
+  port: '2053'
+  reality-opts:
+    public-key: WOf2IaQzzj3Kx0uIVKMu0njVKXyVJN-KDQ9ZFtOIcis
+    short-id: '!!str d6381024c55afb14'
+  server: 217.199.254.135
+  servername: cam-msk-3.videomonitor.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a1afeba-642f-11f1-9ca8-da0cb7a547ac
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_4|1.5MB/s
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: '59924'
+  server: 130.61.33.205
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_5|2.0MB/s
+  network: xhttp
+  port: '8443'
+  server: 162.159.38.119
+  servername: argentinavsspain.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: argentinavsspain.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: DE_speednode_0009
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str d08bb54b5b94b2fc'
+  server: 109.163.239.60
+  servername: cdn5-89.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: DE_speednode_0010
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str 3c9c5d01c6f824dd'
+  server: 109.163.239.208
+  servername: cdn9-78.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef

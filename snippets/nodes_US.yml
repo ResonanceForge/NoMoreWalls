@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 美国 V2CROSS.COM
   network: ws
-  port: '36801'
+  port: 36801
   server: cindy50.ceoiii.com
   servername: ''
   tls: false
@@ -13,6 +13,12 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: 美国+华盛顿Cogent通信公司
+  password: ljqdalu13..
+  port: 8316
+  server: 38.180.135.39
+  type: ss
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -21,7 +27,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: HK_speednode_0007
+- name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -29,8 +35,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: 美国3|@ripaojiedian
+- name: HK_speednode_0023
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -38,3 +43,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_5|1.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 100.59.198.171
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: HK_speednode_0024
+  password: BxceQaOe
+  port: 35966
+  server: 43.198.98.22
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true

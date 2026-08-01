@@ -1,32 +1,16 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: RU_speednode_0084
-  network: tcp
-  port: 9893
-  reality-opts:
-    public-key: GVNhQWxHlpnqLnhlOeFpagU1QLVVHBepBQN0YcPjXVg
-  server: 46.253.132.41
-  servername: www.io.ozone.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: RU_speednode_0085
+- name: SK_speednode_0172
   network: ws
-  port: 443
-  server: 77.105.163.46
-  servername: ov186.ochmaybrooooo.online
+  port: 8880
+  server: 8.47.69.0
+  servername: rutube.ummapeople.online
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 0e192bd1-8f19-4184-9fff-6d67e4f738bd
+  uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
   ws-opts:
     headers:
-      Host: ov186.ochmaybrooooo.online
-    path: /
+      Host: rutube.ummapeople.online
+    path: /rutube
+  xudp: true

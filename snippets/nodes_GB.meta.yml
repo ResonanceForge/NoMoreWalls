@@ -1,12 +1,4 @@
 proxies:
-- name: 英国+Technicolor+SA
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -15,19 +7,93 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇬🇧GB_1|3.9MB/s
+- alpn:
+  - h3
+  auth: c2948c84-748f-47f6-bc7a-b949ef279f85
+  name: 🇬🇧GB_2|2.4MB/s
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 8443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB_3|2.0MB/s
+  obfs: ''
+  obfs-password: ''
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: wopa8.api3-max.ru
-  skip-cert-verify: true
-  sni: wopa8.api3-max.ru
+  server: taga4.api3-max.ru
+  skip-cert-verify: false
+  sni: taga4.api3-max.ru
   type: hysteria2
-- name: 🇬🇧GB_2|2.3MB/s
+  up: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0015
   network: tcp
-  port: '2550'
-  server: 194.242.129.183
+  port: 443
+  reality-opts:
+    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
+    short-id: '!!str 5a8e1a04f3d92b67'
+  server: 2.26.129.68
+  servername: ukrop.mycdn-me.ru
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-  xudp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0017
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg
+    short-id: '!!str 1b40e7c2a1d8f635'
+  server: 2.26.128.73
+  servername: wombat.mycdn-me.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0018
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -qRasoN1QIcSdRL937b6s-Y2qOb-9OFmlaHBi7UcOSM
+    short-id: '!!str e17b4d9a8c1f3526'
+  server: 2.26.139.184
+  servername: kukuruza.mycdn-me.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+- name: GB_speednode_0019
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: GB_speednode_0020
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: rt.tunnelpoint.space
+  servername: rt.tunnelpoint.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
