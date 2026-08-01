@@ -1,126 +1,93 @@
 proxies:
-- name: 美国+加州
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga3.api3-max.ru
-  skip-cert-verify: false
-  sni: taga3.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: US_speednode_0174
-  network: ws
-  port: 80
-  server: www.true.th
-  servername: d7iwyzy9wpvuu.cloudfront.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
-  ws-opts:
-    headers:
-      Host: d7iwyzy9wpvuu.cloudfront.net
-    path: /knl8
-- client-fingerprint: chrome
+- client-fingerprint: random
   name: 美国+CloudFlare节点
   network: ws
-  port: 443
-  server: 104.21.90.146
-  servername: node-dispatch-c8-2.e20260720.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
-  ws-opts:
-    headers:
-      Host: node-dispatch-c8-2.e20260720.kdns.fr
-    path: '%2FWvf67jc5MgASmsb9Qsr0'
-- name: 美国+Krypt机房
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga4.api3-max.ru
-  sni: taga4.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 美国+爱荷华州得梅因Microsoft数据中心
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 23.95.75.151
-  sni: hopp-us.yyuyy.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 162.159.38.78
+  port: 8443
+  server: 172.64.153.57
   servername: learn00.evany.de5.net
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
       Host: learn00.evany.de5.net
-    path: '%2Ffdip'
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #1'
+    path: /fdip=tw.william.us.ci!txt
+- alterId: 0
+  cipher: auto
+  name: 美国 Microsoft数据中心
+  network: ws
+  port: 36803
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- client-fingerprint: random
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 170.114.46.6
-  servername: support.zoom.us.yxls.eu.cc
+  server: cmcc.877774.xyz
+  servername: learn00.evany.de5.net
   tls: true
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: '美国+CloudFlare节点 #2'
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
   network: ws
-  port: 8880
-  server: 172.66.200.130
+  port: '36801'
+  server: cindy50.ceoiii.com
+  servername: ''
   tls: false
-  type: vless
-  uuid: 4c37df21-0a34-41bf-8bc7-78efd823c03b
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
   ws-opts:
     headers:
-      Host: shiny-salad-e491.479.workers.dev
-    path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
-- name: '美国+V2CROSS.COM #2'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇺🇸US_1|1.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: wopa8.api3-max.ru
-  skip-cert-verify: false
-  sni: wopa8.api3-max.ru
+  server: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
   tls: false
   type: hysteria2
+- client-fingerprint: random
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 8443
+  server: 162.159.44.58
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #3'
-  network: tcp
+  name: 美国+V2CROSS.COM
+  network: raw
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
+  server: 152.53.239.182
   servername: www.cloudflare.com
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: random
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 104.17.144.235
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -146,19 +113,48 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- encryption: none
-  name: 🇺🇸US_1|1010KB/s
-  network: xhttp
-  port: '6110'
-  server: sibche.torexa.ir
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|1009KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: '!!str 051f20c2344a2dfd'
+  server: 174.137.57.155
+  servername: portal.citygrainla.com
+  tls: true
   type: vless
   udp: true
-  uuid: eb3e31c5-d423-4bf1-b104-4f6d3fe94a8a
-  xhttp-opts:
-    host: play.google.com
-    mode: auto
-    path: /
-  xudp: true
+  uuid: de0ccac7-408f-4380-ab16-b9a57ca89338
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|1.8MB/s
+  password: amazonskr05
+  port: '443'
+  server: 98.81.132.97
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_4|1.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.226.30.144
+  type: ss
+  udp: true
+- name: US_speednode_0174
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d7iwyzy9wpvuu.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
+  ws-opts:
+    headers:
+      Host: d7iwyzy9wpvuu.cloudfront.net
+    path: /knl8
 - name: US_speednode_0175
   port: 9002
   server: 138.199.35.196
@@ -186,6 +182,12 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
+- name: US_speednode_0179
+  port: 50161
+  server: 168.107.13.220
+  tls: false
+  type: socks5
   udp: true
 - name: US_speednode_0181
   port: 9002
