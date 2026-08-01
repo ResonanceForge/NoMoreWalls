@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 英国+V2CROSS.COM
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  type: ss
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -48,21 +42,6 @@ proxies:
   sni: wopa5.api3-max.ru
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: GB_speednode_0015
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
-    short-id: '!!str 5a8e1a04f3d92b67'
-  server: 2.26.129.68
-  servername: ukrop.mycdn-me.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055899d-026b-49b5-88ed-0227795082da
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: GB_speednode_0017

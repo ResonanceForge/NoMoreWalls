@@ -1,54 +1,73 @@
 proxies:
+- name: 美国+加州
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga3.api3-max.ru
+  skip-cert-verify: false
+  sni: taga3.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: US_speednode_0174
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d7iwyzy9wpvuu.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
+  ws-opts:
+    headers:
+      Host: d7iwyzy9wpvuu.cloudfront.net
+    path: /knl8
 - client-fingerprint: chrome
   name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.21.2.192
-  servername: support.zoom.us.yxls.eu.cc
+  server: 104.21.90.146
+  servername: node-dispatch-c8-2.e20260720.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
+      Host: node-dispatch-c8-2.e20260720.kdns.fr
+    path: '%2FWvf67jc5MgASmsb9Qsr0'
+- name: 美国+Krypt机房
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga4.api3-max.ru
+  sni: taga4.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: 美国+爱荷华州得梅因Microsoft数据中心
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8080
+  server: 23.95.75.151
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 8443
-  server: 172.64.35.32
+  port: 443
+  server: 162.159.38.78
   servername: learn00.evany.de5.net
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
       Host: learn00.evany.de5.net
-    path: /fdip
-- name: 美国+V2CROSS.COM
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa8.api3-max.ru
-  sni: wopa8.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 美国+Amazon数据中心
-  network: ws
-  port: 80
-  server: dtac.exp.dog
-  servername: duatoup3wk8q2.cloudfront.net
-  tls: false
-  type: vless
-  uuid: 19668b6f-e215-41e6-8102-b8d29fb5b8ae
-  ws-opts:
-    headers:
-      Host: duatoup3wk8q2.cloudfront.net
-    path: /fnet50
+    path: '%2Ffdip'
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
+  name: '美国+V2CROSS.COM #1'
   network: ws
   port: 443
-  server: 198.41.209.43
+  server: 170.114.46.6
   servername: support.zoom.us.yxls.eu.cc
   tls: true
   type: vless
@@ -57,63 +76,51 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- name: 美国+爱荷华州得梅因Microsoft数据中心
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 23.95.75.151
-  skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_1|1.9MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga4.api3-max.ru
-  skip-cert-verify: false
-  sni: taga4.api3-max.ru
-  tls: false
-  type: hysteria2
-  up: ''
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   port: 8880
-  server: www.glassdoor.com
+  server: 172.66.200.130
   tls: false
   type: vless
-  uuid: 3bf2781f-63a2-4c38-ad02-2cc337c2f7fa
+  uuid: 4c37df21-0a34-41bf-8bc7-78efd823c03b
   ws-opts:
     headers:
-      Host: silent-heart-175f.325-a85.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      Host: shiny-salad-e491.479.workers.dev
+    path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
+- name: '美国+V2CROSS.COM #2'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa8.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa8.api3-max.ru
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
+  name: '美国+V2CROSS.COM #3'
   network: tcp
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.127.214
+  server: jdwadgw.cvewfjg.shop
   servername: www.cloudflare.com
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: firefox
-  name: '美国+V2CROSS.COM #2'
-  network: tcp
+- client-fingerprint: random
+  name: '美国+CloudFlare节点 #3'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  tls: false
+  server: 104.17.144.235
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
   type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -139,80 +146,19 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 🇺🇸US_1|3.3MB/s
-  password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_2|3.1MB/s
-  network: ws
-  port: '24187'
-  server: 23.236.69.39
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
-- name: HK_speednode_0024
-  password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_5|1.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: 🇺🇸US_6|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: c2948c84-748f-47f6-bc7a-b949ef279f85
-  port: '443'
-  server: 78.159.240.215
-  skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  type: hysteria2
-  up: ''
-- name: 🇺🇸US_7|1.0MB/s
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 5443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: US_speednode_0174
-  network: ws
-  port: 80
-  server: www.true.th
-  servername: d7iwyzy9wpvuu.cloudfront.net
-  skip-cert-verify: false
-  tls: false
+- encryption: none
+  name: 🇺🇸US_1|1010KB/s
+  network: xhttp
+  port: '6110'
+  server: sibche.torexa.ir
   type: vless
   udp: true
-  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
-  ws-opts:
-    headers:
-      Host: d7iwyzy9wpvuu.cloudfront.net
-    path: /knl8
+  uuid: eb3e31c5-d423-4bf1-b104-4f6d3fe94a8a
+  xhttp-opts:
+    host: play.google.com
+    mode: auto
+    path: /
+  xudp: true
 - name: US_speednode_0175
   port: 9002
   server: 138.199.35.196
@@ -241,20 +187,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0212
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  server: 88.218.44.4
-  servername: swcdn.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - name: US_speednode_0181
   port: 9002
   server: 138.199.35.207
