@@ -1,93 +1,94 @@
 proxies:
+- name: 美国+Amazon数据中心
+  network: ws
+  port: 80
+  server: dtac.exp.dog
+  servername: duatoup3wk8q2.cloudfront.net
+  tls: false
+  type: vless
+  uuid: 19668b6f-e215-41e6-8102-b8d29fb5b8ae
+  ws-opts:
+    headers:
+      Host: duatoup3wk8q2.cloudfront.net
+    path: /fnet50
 - client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+  name: 美国+V2CROSS.COM
   network: ws
   port: 443
-  server: 104.26.13.31
-  servername: learn00.evany.de5.net
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  uuid: 0c0b895d-b954-4bec-94e6-5770677e7925
   ws-opts:
     headers:
-      Host: learn00.evany.de5.net
-    path: /fdip
-- client-fingerprint: chrome
-  flow: ''
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2087
-  server: cf.9999669.xyz
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
+      Host: pan1.global.ssl.fastly.neT
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
+  name: '美国+V2CROSS.COM #1'
   network: tcp
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.239.182
+  server: jdwadgw.cvewfjg.shop
   servername: www.cloudflare.com
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: firefox
-  name: GB_speednode_0010
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.16.253.69
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 108.162.198.201
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #2'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  skip-cert-verify: true
-  tls: true
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
   type: vless
-  udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 104.21.90.146
-  servername: node-dispatch-c8-2.e20260720.kdns.fr
-  tls: true
-  type: vless
-  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
-  ws-opts:
-    headers:
-      Host: node-dispatch-c8-2.e20260720.kdns.fr
-    path: /Wvf67jc5MgASmsb9Qsr0
-- name: '美国+V2CROSS.COM #2'
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: '美国+V2CROSS.COM #3'
   network: ws
   port: 80
   server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
+  servername: d7iwyzy9wpvuu.cloudfront.net
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
   ws-opts:
     headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: /
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.113
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+      Host: d7iwyzy9wpvuu.cloudfront.net
+    path: /knl8
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -112,24 +113,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.3MB/s
-  network: tcp
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: 🇺🇸US_1|1.6MB/s
+  network: ws
   port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: dednd.skorostnet.space
-  servername: dednd.skorostnet.space
+  server: tme-freevpnf35-production.up.railway.app
+  servername: tme-freevpnf35-production.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  uuid: 8988b7e6-8778-abd0-8861-8bb3f7d1532b
+  ws-opts:
+    headers:
+      Host: tme-freevpnf35-production.up.railway.app
+    path: /ws/8988b7e6-8778-abd0-8861-8bb3f7d1532b
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: 🇺🇸US_2|1.1MB/s
+  name: 🇺🇸US_2|1.4MB/s
   network: xhttp
   port: 443
   server: russia2.ethicsdinnerpave.online
@@ -145,10 +148,11 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸US_3|1.0MB/s
+  name: 🇺🇸US_3|3.0MB/s
   network: ws
   port: 443
-  server: ezaccess1-luffy-ezaccess1-4f1e.up.railway.app
+  server: soskeynets-luffy-ezaccess1-4f1e.up.railway.app
+  servername: ezaccess1-luffy-ezaccess1-4f1e.up.railway.app
   tls: true
   type: vless
   udp: true
@@ -157,117 +161,146 @@ proxies:
     headers:
       Host: ezaccess1-luffy-ezaccess1-4f1e.up.railway.app
     path: /ws/vless/e7548057-5acb-4681-90c2-2e8b9fbf16e6?ed=2048
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_4|3.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_5|2.5MB/s
-  network: ws
-  port: 443
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
-  ws-opts:
-    headers:
-      Host: cg1c02.waimaojd.com
-    path: /api/v1/graphql
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇺🇸US_6|1.6MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: XI4UUmMnY3R3Wintseg5Kl354f8DBT38p_klhZq1dnk
-    short-id: '!!str 388ea76c5bdddeeb'
-  server: glen.quietgrove.forum
-  servername: glen.quietgrove.forum
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe1119fe-6bcf-441c-bd1a-dbf90a9f7f54
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_7|1.3MB/s
+  name: 🇺🇸US_4|2.1MB/s
   network: ws
   port: '443'
-  server: x4g-production-969a.up.railway.app
-  servername: x4g-production-969a.up.railway.app
+  server: 69.46.46.12
+  servername: rvg-production-be3b.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 619503ff-0b97-fcea-d362-27bb3f20086b
+  uuid: e7a0ba3b-8d70-afdb-ceda-5d446e32a506
   ws-opts:
     headers:
-      Host: x4g-production-969a.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /ws/619503ff-0b97-fcea-d362-27bb3f20086b
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_8|3.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_9|1.0MB/s
-  network: ws
-  port: '443'
-  server: x4g-production-969a.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3dc42bc1-353d-2a8a-71df-0d8ffc27efd2
-  ws-opts:
-    headers:
-      Host: ''
+      Host: rvg-production-be3b.up.railway.app
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /ws/3dc42bc1-353d-2a8a-71df-0d8ffc27efd2
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /ws/e7a0ba3b-8d70-afdb-ceda-5d446e32a506
   xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_10|2.4MB/s
+  name: 🇺🇸US_5|1.9MB/s
   network: ws
   port: '443'
-  server: x4g-production-969a.up.railway.app
+  server: 69.46.46.11
+  servername: rvg-production-bbc3.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 619503ff-0b97-fcea-d362-27bb3f20086b
+  uuid: cd68a931-c8d4-c0d5-a3b3-5b5a9165a0d6
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /ws/619503ff-0b97-fcea-d362-27bb3f20086b
+      Host: rvg-production-bbc3.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /ws/cd68a931-c8d4-c0d5-a3b3-5b5a9165a0d6
   xudp: true
+- name: US_speednode_0156
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0158
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0160
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0171
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0172
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0174
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0182
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0184
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0185
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0187
+  password: 'null'
+  port: 9002
+  server: 156.146.59.41
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: US_speednode_0188
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0198
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_18|3.4MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: US_speednode_0150
+  port: 50161
+  server: 168.107.13.220
+  tls: false
+  type: socks5
+  udp: true
 - name: US_speednode_0151
   port: 9002
   server: 138.199.35.204
@@ -310,13 +343,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: US_speednode_0156
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0157
   port: 9002
   server: 138.199.35.209
@@ -324,23 +350,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0158
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0159
   port: 9002
   server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0160
-  port: 9002
-  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
@@ -412,30 +424,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0171
-  port: 9002
-  server: 156.146.59.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0172
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0173
   port: 9002
   server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0174
-  port: 9002
-  server: 156.146.59.21
   skip-cert-verify: true
   tls: true
   type: http
@@ -504,13 +495,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0182
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0183
   port: 9002
   server: 156.146.59.43
@@ -518,39 +502,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0184
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0185
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0186
   port: 9002
   server: 156.146.59.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0187
-  password: 'null'
-  port: 9002
-  server: 156.146.59.41
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: US_speednode_0188
-  port: 9002
-  server: 156.146.59.49
   skip-cert-verify: true
   tls: true
   type: http
@@ -633,13 +587,6 @@ proxies:
     headers:
       Host: pan11.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- name: US_speednode_0198
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0199
   password: None
   port: 9002

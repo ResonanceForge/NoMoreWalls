@@ -1,17 +1,21 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+莫斯科TransTeleCom公司
-  network: tcp
-  port: 7098
+- client-fingerprint: random
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-bridge
+  name: 🇷🇺RU_1|3.6MB/s
+  network: grpc
+  port: '443'
   reality-opts:
-    public-key: BjJOlYcS3QvqafeDIHyfG1xBUiK_Zs3eYKjMCs2DWQo
-    short-id: '!!str 1488'
-  server: 188.43.105.233
-  servername: static.vk.com
-  tls: false
+    public-key: r56dFeS4wmgOeIjjeh-LGPDR47N0PTy1E88P6ZaAAlc
+    short-id: '!!str ffabe9630d256ce6'
+  server: valley.wildgarden.digital
+  servername: valley.wildgarden.digital
+  tls: true
   type: vless
-  uuid: 152003f4-7659-43eb-88b3-da1dfad2a223
+  udp: true
+  uuid: fe1119fe-6bcf-441c-bd1a-dbf90a9f7f54
+  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: RU_speednode_0137
