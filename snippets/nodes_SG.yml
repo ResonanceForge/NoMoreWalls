@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 新加坡 腾讯云
+  network: ws
+  port: '36822'
+  server: sylva51.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
