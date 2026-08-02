@@ -1,24 +1,12 @@
 proxies:
-- name: 🇺🇸US
+- name: 俄罗斯+V2CROSS.COM
   password: c2948c84-748f-47f6-bc7a-b949ef279f85
-  port: 443
+  port: 8443
   server: 78.159.240.215
   skip-cert-verify: true
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
-  server: ruded2.onlinestreamself.com
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
 - client-fingerprint: chrome
   name: RU_speednode_0231
   network: ws
