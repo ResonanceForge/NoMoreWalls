@@ -1,25 +1,4 @@
 proxies:
-- name: 🇸🇬 新加坡|@ripaojiedian
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 45744
-  server: 188.163.100.58
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 32434
-  server: 18.166.178.12
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 45744
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -33,6 +12,7 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
   server: 95.40.107.76
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
@@ -43,25 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_1|4.1MB/s
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: '56927'
-  server: 161.118.224.85
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: SG_speednode_0147
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '!!str 04d59340'
-  server: 1sg001.344211.cc
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6b5a9259-c7de-45f0-b4de-e89db7850d0c
