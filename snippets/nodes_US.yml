@@ -1,25 +1,61 @@
 proxies:
-- name: 美国|@ripaojiedian
-  network: tcp
+- cipher: chacha20-ietf-poly1305
+  name: 美国+麻省理工学院
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19000
+  server: ss.049.node-for-bigairport.win
+  type: ss
+- name: 美国+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇺🇸 美国|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 12680
   server: 18.163.100.58
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 美国2|@ripaojiedian
-  network: tcp
+- name: 🇺🇸 美国2|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
   server: 18.167.20.3
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
-  network: tcp
+- name: 🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 35966
   server: 43.198.98.22
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 34039
+  server: 95.40.107.76
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 53001
+  server: 18.163.100.58
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 29085
+  server: 18.163.90.221
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
