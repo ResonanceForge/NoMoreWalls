@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 Microsoft数据中心
-  network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -36,6 +22,16 @@ proxies:
   server: 18.163.90.221
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|2.1MB/s
+  network: tcp
+  password: i99Cef
+  port: '28124'
+  server: 209.248.32.115
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
   type: trojan
   udp: true
 - name: US_speednode_0243

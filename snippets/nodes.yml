@@ -91,18 +91,40 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 美国 Microsoft数据中心
-  network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
+  name: 伊朗 V2CROSS.COM
+  network: tcp
+  port: 2078
+  server: 94.182.88.61
   servername: ''
   tls: false
   type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
+- alterId: 0
+  cipher: auto
+  name: 香港 阿里云
+  network: ws
+  port: '443'
+  server: u2frxj0g13vdi0wo.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+    path: /ws-vmess
+- name: 英国+Technicolor+SA
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 日本+V2CROSS.COM
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19000
+  server: ss.045.node-for-bigairport.win
+  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -226,15 +248,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0034
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|2.1MB/s
+  network: tcp
+  password: i99Cef
+  port: '28124'
+  server: 209.248.32.115
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
   type: trojan
   udp: true
 - grpc-opts:
@@ -245,6 +266,17 @@ proxies:
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: GB_speednode_0034
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:

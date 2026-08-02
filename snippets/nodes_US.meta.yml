@@ -1,6 +1,19 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 美国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: 152.53.236.22
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  name: '美国+V2CROSS.COM #1'
   network: tcp
   port: 443
   reality-opts:
@@ -13,82 +26,43 @@ proxies:
   type: vless
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
   name: 美国+CloudFlare节点
   network: ws
-  port: 8443
-  server: 172.64.80.1
-  servername: ad-013.fluxmxd18.info
+  port: 443
+  server: 172.67.169.143
+  servername: infra-services-c8-2.21491204-f13b-4977-9cc9-5275edd68fd8.kdns.fr
   tls: true
   type: vless
-  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
   ws-opts:
     headers:
-      Host: ad-013.fluxmxd18.info
-    path: /
+      Host: infra-services-c8-2.21491204-f13b-4977-9cc9-5275edd68fd8.kdns.fr
+    path: /Wvf67jc5MgASmsb9Qsr0
 - name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 8880
-  server: cf3.466688.xyz
+  port: 80
+  server: 104.16.72.41
   tls: false
   type: vless
-  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
+  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
   ws-opts:
     headers:
-      Host: nameless-tree-08b8.352.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- client-fingerprint: random
+      Host: de.vpnbase.net
+    path: '%2Fhttp'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 2087
-  server: 172.64.146.59
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
+  port: 443
+  server: 104.16.75.78
+  servername: germany-1.ariyuz.org
   tls: true
   type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
   ws-opts:
     headers:
-      Host: learn00.evany.de5.net
-    path: '%2Ffdip'
-- alterId: 0
-  cipher: auto
-  name: 美国 Microsoft数据中心
-  network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 2087
-  server: 172.64.144.66
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: germany-1.ariyuz.org
     path: /
 - name: 美国|@ripaojiedian
   network: tcp
@@ -117,36 +91,23 @@ proxies:
   udp: true
 - auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
   down: 1000
-  name: 🇺🇸US_1|4.1MB/s
+  name: 🇺🇸US_1|4.0MB/s
   password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
   port: 18387
   server: us1.ktmhyld.com
   skip-cert-verify: true
   type: hysteria2
   up: 1000
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_2|1.0MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: US_speednode_0312
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|2.1MB/s
   network: tcp
-  port: 993
-  reality-opts:
-    public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
-  server: 64.49.38.6
-  servername: download.nvidia.com
+  password: i99Cef
+  port: '28124'
+  server: 209.248.32.115
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: ctldl.windowsupdate.com
+  type: trojan
   udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-  xudp: true
 - name: US_speednode_0243
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -397,6 +358,34 @@ proxies:
   type: vless
   udp: true
   uuid: 5cd8fc43-878f-11f1-8c93-54db13ea7d40
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0283
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_speednode_0312
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
+  server: 64.49.38.6
+  servername: download.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: US_speednode_0281

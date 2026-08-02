@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 日本+V2CROSS.COM
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19000
+  server: ss.045.node-for-bigairport.win
+  type: ss
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -25,7 +31,7 @@ proxies:
   type: trojan
 - auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
   down: 1000
-  name: 🇯🇵JP_1|5.9MB/s
+  name: 🇯🇵JP_1|5.2MB/s
   password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
   port: 18385
   server: jp1.ktmhyld.com
