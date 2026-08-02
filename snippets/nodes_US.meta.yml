@@ -1,35 +1,36 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 Microsoft数据中心
+  network: ws
+  port: '36803'
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - client-fingerprint: chrome
   name: 美国+CloudFlare节点
   network: ws
   port: 2087
-  server: 162.159.44.100
-  servername: fu.baiproxy.us.ci
+  server: cf.9999669.xyz
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: fu.baiproxy.us.ci
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwabxe.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: '%2F'
+- client-fingerprint: random
   name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 443
-  server: 172.66.44.97
+  port: 8443
+  server: 162.159.11.220
   servername: learn00.evany.de5.net
   tls: true
   type: vless
@@ -37,91 +38,7 @@ proxies:
   ws-opts:
     headers:
       Host: learn00.evany.de5.net
-    path: /sg-melbi
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: free77-sg1.node2.top
-  servername: sie704.pages.dev
-  tls: true
-  type: vless
-  uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
-  ws-opts:
-    headers:
-      Host: sie704.pages.dev
-    path: /XFJVPNfp=chrome
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
-  skip-cert-verify: false
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  ws-opts:
-    path: '%2Fbkdicj'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 8443
-  server: singapore.com
-  servername: c7dabe95.proxy-978.pages.dev
-  tls: true
-  type: vless
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  ws-opts:
-    headers:
-      Host: c7dabe95.proxy-978.pages.dev
-    path: /
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 8880
-  server: download.yunzhongzhuan.com
-  tls: false
-  type: vless
-  uuid: e9d9f06f-d5dd-460a-998f-52efc4732636
-  ws-opts:
-    headers:
-      Host: bitter-meadow-1d60.313-0f9.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  port: 8880
-  server: cf8.466688.xyz
-  tls: false
-  type: vless
-  uuid: 1a5e2e63-64e2-4737-95b6-c2ee60c979a1
-  ws-opts:
-    headers:
-      Host: wild-mode-4ca6.234-8f6.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 443
-  server: 104.20.39.109
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: '%2Fsg-melbi'
-- alpn:
-  - h3
-  name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: db0857e9-7f60-4f27-a7c8-3622957e9938
-  port: 443
-  server: 69.46.46.250
-  sni: ezaccess1-luffy-ezaccess1-154b.up.railway.app
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ezaccess1-luffy-ezaccess1-154b.up.railway.app
-    path: '%2Fws%2Ftrojan%2Fdb0857e9-7f60-4f27-a7c8-3622957e9938'
+    path: /fdip=tw.william.us.ci!txt
 - alterId: 0
   cipher: auto
   name: 美国 V2CROSS.COM
@@ -136,6 +53,91 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 2095
+  server: itarmy.com.ua
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /fp=randomized
+- flow: ''
+  name: 美国+V2CROSS.COM
+  network: ws
+  port: 80
+  server: www.true.th
+  tls: false
+  type: vless
+  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
+  ws-opts:
+    headers:
+      Host: d7iwyzy9wpvuu.cloudfront.net
+    path: /knl8
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: 104.25.245.126
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8880
+  server: cf3.466688.xyz
+  tls: false
+  type: vless
+  uuid: c6c5ad2f-b4d5-450f-862f-341cebb7f9b5
+  ws-opts:
+    headers:
+      Host: empty-rain-1df4.332-633.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 443
+  server: 104.16.72.70
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 8880
+  server: www.glassdoor.com
+  tls: false
+  type: vless
+  uuid: 3bf2781f-63a2-4c38-ad02-2cc337c2f7fa
+  ws-opts:
+    headers:
+      Host: silent-heart-175f.325-a85.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -161,36 +163,36 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|1.9MB/s
-  network: ws
-  port: 8443
-  server: 104.16.248.27
-  servername: sni.ehb.cc.cd
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_speednode_0312
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
+  server: 64.49.38.6
+  servername: download.nvidia.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
 - client-fingerprint: chrome
-  name: 🇺🇸US_3|1.9MB/s
-  network: ws
-  port: 2096
-  server: 104.19.70.167
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: api.v1.telemetry.EventStream
+  name: 🇺🇸US_2|1.6MB/s
+  network: grpc
+  port: '8443'
+  reality-opts:
+    public-key: BLEVlyhgrYYDwsqJjm5wi1yUC7z6MBH_eM6vvYUdUQY
+    short-id: '!!str 530db35e324c3aa5'
+  server: 98.142.251.31
+  servername: addons.mozilla.org
   tls: true
   type: vless
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  uuid: f50822b7-02ec-4611-83bd-ff29411e0e10
+  xudp: true
 - name: US_speednode_0243
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -441,20 +443,20 @@ proxies:
   type: vless
   udp: true
   uuid: 5cd8fc43-878f-11f1-8c93-54db13ea7d40
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0312
+  name: US_speednode_0283
   network: tcp
   port: 993
   reality-opts:
-    public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
-  server: 64.49.38.6
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
   servername: download.nvidia.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: US_speednode_0281
@@ -558,21 +560,6 @@ proxies:
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
 - client-fingerprint: chrome
-  name: US_speednode_0291
-  network: ws
-  port: 443
-  server: 108.162.198.113
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
   name: US_speednode_0292
   network: ws
   port: 443
@@ -633,36 +620,6 @@ proxies:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
 - client-fingerprint: chrome
-  name: US_speednode_0296
-  network: ws
-  port: 2087
-  server: 162.159.45.38
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: US_speednode_0297
-  network: ws
-  port: 2096
-  server: 162.159.38.181
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
   name: US_speednode_0298
   network: ws
   port: 2083
@@ -678,70 +635,10 @@ proxies:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
 - client-fingerprint: chrome
-  name: US_speednode_0299
-  network: ws
-  port: 2096
-  server: 162.159.45.38
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: US_speednode_0300
-  network: ws
-  port: 2083
-  server: 172.64.52.117
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: US_speednode_0301
-  network: ws
-  port: 8443
-  server: 108.162.198.76
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
   name: US_speednode_0302
   network: ws
   port: 2087
   server: 172.64.229.179
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: US_speednode_0303
-  network: ws
-  port: 2087
-  server: 162.159.44.227
   servername: sni.ehb.cc.cd
   skip-cert-verify: true
   tls: true

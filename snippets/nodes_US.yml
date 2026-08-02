@@ -1,27 +1,18 @@
 proxies:
-- name: '美国+CloudFlare节点 #3'
+- alterId: 0
+  cipher: auto
+  name: 美国 Microsoft数据中心
   network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
-  skip-cert-verify: false
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  ws-opts:
-    path: '%2Fbkdicj'
-- alpn:
-  - h3
-  name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: db0857e9-7f60-4f27-a7c8-3622957e9938
-  port: 443
-  server: 69.46.46.250
-  sni: ezaccess1-luffy-ezaccess1-154b.up.railway.app
-  type: trojan
+  port: '36803'
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
   ws-opts:
     headers:
-      Host: ezaccess1-luffy-ezaccess1-154b.up.railway.app
-    path: '%2Fws%2Ftrojan%2Fdb0857e9-7f60-4f27-a7c8-3622957e9938'
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
   name: 美国 V2CROSS.COM

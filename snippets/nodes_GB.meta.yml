@@ -1,10 +1,4 @@
 proxies:
-- name: 英国+Technicolor+SA
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -16,7 +10,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: random
-  name: 🇬🇧GB_1|2.3MB/s
+  name: 🇬🇧GB_1|1.2MB/s
   network: xhttp
   port: 443
   server: 188.72.103.3
@@ -24,7 +18,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 44be17d7-8295-4d56-8623-4ae675a9cf9b
+  uuid: 6dd3c737-9755-4c2b-9d63-911f6d6b6e6b
   xhttp-opts:
     host: g43g324.whit3.net
     mode: packet-up
@@ -41,16 +35,6 @@ proxies:
     x-padding-placement: query
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0033
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
   name: GB_speednode_0034
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
@@ -62,13 +46,12 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0035
+  name: GB_speednode_0036
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:
