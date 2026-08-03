@@ -1,27 +1,44 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇰🇷KR_1|5.4MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 🇰🇷KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: '20801'
+  port: 20801
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-  up: ''
-- name: 🇰🇷韩国家宽|高速01
+- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
+  name: 🇰🇷KR_2|4.5MB/s
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_1|1.7MB/s
+  network: tcp
+  port: 8899
+  reality-opts:
+    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
+    short-id: '!!str 11d27eb4'
+  server: 152.67.211.233
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: d95e62f8-b961-4362-bb07-e1e421b02274
+- name: 🇰🇷KR_3|2.6MB/s
+  password: ''
+  port: '1080'
+  server: 43.164.136.189
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - down: ''
   fingerprint: ''
-  name: 🇰🇷KR_2|5.2MB/s
+  name: 🇰🇷KR_5|5.8MB/s
   obfs: ''
   obfs-password: ''
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
@@ -31,33 +48,6 @@ proxies:
   sni: ''
   type: hysteria2
   up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇰🇷KR_3|3.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: '20801'
-  server: 222.238.227.54
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_5|3.3MB/s
-  network: tcp
-  port: '39215'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: v2.cdn.yye837u1f6xg.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
 - client-fingerprint: chrome
   name: KR_speednode_0069
   network: ws
