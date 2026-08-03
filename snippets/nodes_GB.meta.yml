@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 英国+V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 5.178.106.61
-  servername: forfreeuse.sub-flow.online
-  tls: true
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -21,55 +8,14 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 🇬🇧GB_1|3.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-it.emrata.top
-  servername: pro-it.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
-- client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|2.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0
-    short-id: '!!str '
-  server: 31.76.253.3
-  servername: pro-us.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇬🇧GB_3|3.1MB/s
+  name: 🇬🇧GB_1|1.9MB/s
   network: tcp
   port: '22012'
   reality-opts:
     public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
     short-id: '!!str c6e19c434dc87df7'
   server: 78.47.104.140
-  servername: login.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇬🇧GB_4|1.0MB/s
-  network: tcp
-  port: '22012'
-  reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: '!!str c6e19c434dc87df7'
-  server: 91.99.119.155
   servername: login.yahoo.com
   tls: true
   type: vless

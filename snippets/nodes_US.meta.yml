@@ -2,28 +2,54 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 美国+V2CROSS.COM
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdwabxe.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  tls: false
+  type: vless
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: '%2F'
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #2'
   network: tcp
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
+  server: 152.53.236.22
   servername: www.cloudflare.com
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: 美国+Muskingum+College
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga10.api3-max.ru
-  skip-cert-verify: true
-  sni: taga10.api3-max.ru
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: tcp
+  name: '美国+V2CROSS.COM #3'
+  network: raw
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
@@ -33,89 +59,60 @@ proxies:
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- alterId: 0
-  cipher: auto
-  name: 美国 Microsoft数据中心
-  network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: cf3.466688.xyz
-  tls: false
-  type: vless
-  uuid: 1a5e2e63-64e2-4737-95b6-c2ee60c979a1
-  ws-opts:
-    headers:
-      Host: wild-mode-4ca6.234-8f6.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
 - name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 104.26.12.31
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip
+- client-fingerprint: chrome
+  name: 美国+CloudFlare
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt?ed=2560fp=random
+- name: '美国+V2CROSS.COM #4'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.212
+  sni: grape-turbo-fr.roxa.org
+  tls: false
+  type: hysteria2
+- name: '美国+CloudFlare节点 #2'
   network: ws
   port: 8880
   server: deepl.com
   tls: false
   type: vless
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
+  uuid: f15a5586-23f6-453f-97f5-c301b949e699
   ws-opts:
     headers:
-      Host: super-feather-91c4.267.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 2095
-  server: 104.18.42.163
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: download.pusytroller.gq
-    path: '%2F'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 172.66.47.45
-  servername: EZAcCESS-pROjECt-F62c30.PAGES.dEv
-  tls: true
-  type: vless
-  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
-  ws-opts:
-    headers:
-      Host: ezaccess-project-f62c30.pages.dev
-    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+      Host: mute-sunset-0849.40-aeb.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - name: 🇺🇸US
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  port: 14101
+  server: usaw2.awo-link.com
+  sni: usaw2.awo-link.com
+  tls: false
+  type: hysteria2
+- name: '🇺🇸US #1'
   password: c2948c84-748f-47f6-bc7a-b949ef279f85
   port: 443
   server: 78.159.240.215
@@ -147,148 +144,64 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: rg_sl-tQIau_CXdjpo-BvLmlZMmlbq2KMrH5K4kdyCY
-    short-id: '!!str '
-  server: 31.56.178.59
-  servername: us.boxypn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
-  xudp: true
-- name: 🇺🇸US_2|2.8MB/s
-  password: test123
-  port: '1080'
-  server: 185.145.99.41
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 🇺🇸US_1|1.9MB/s
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga10.api3-max.ru
   skip-cert-verify: true
-  type: socks5
-  username: test123
-- name: US_speednode_0250
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0256
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0260
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0261
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0268
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0271
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0284
-  password: None
-  port: 9002
-  server: 156.146.59.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: US_speednode_0312
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
-  server: 64.49.38.6
-  servername: download.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_11|1.4MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.16.239.120
-  skip-cert-verify: true
-  sni: Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  sni: taga10.api3-max.ru
+  type: hysteria2
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_12|2.7MB/s
+  name: 🇺🇸US_2|4.2MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 🇺🇸US_13|3.1MB/s
-  port: 9002
-  server: 156.146.59.49
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_14|3.0MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_15|2.3MB/s
+  name: 🇺🇸US_3|1.2MB/s
+  network: xhttp
+  port: '37789'
+  reality-opts:
+    public-key: UkvgTlCFgSf2A2FtCJISg8r3hhRQbbfJIpQ6mSlL71k
+    short-id: '!!str 0dadb8f893'
+  server: second.shadydomain.qzz.io
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    mode: auto
+    path: /shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@
+    x-padding-bytes: 1-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_4|1007KB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
     short-id: '!!str '
-  server: 2.26.79.64
+  server: 2.26.79.32
   servername: pro-se.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
+  uuid: fdac0300-5963-4e68-adb6-fc89a2de99a2
   xudp: true
+- name: US_speednode_0243
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
 - name: US_speednode_0244
   port: 9002
   server: 138.199.35.209
@@ -331,6 +244,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: US_speednode_0250
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0251
   port: 9002
   server: 138.199.35.202
@@ -360,6 +280,14 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: US_speednode_0256
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0257
   port: 9002
   server: 138.199.35.195
@@ -373,6 +301,28 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
+- name: US_speednode_0260
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0261
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0262
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
   udp: true
 - name: US_speednode_0263
   port: 9002
@@ -402,6 +352,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: US_speednode_0268
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0269
   port: 9002
   server: 138.199.35.216
@@ -412,6 +369,13 @@ proxies:
 - name: US_speednode_0270
   port: 9002
   server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0271
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
@@ -458,6 +422,14 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: US_speednode_0277
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: US_speednode_0278
@@ -472,6 +444,34 @@ proxies:
   type: vless
   udp: true
   uuid: 5cd8fc43-878f-11f1-8c93-54db13ea7d40
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0283
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_speednode_0312
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
+  server: 64.49.38.6
+  servername: download.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: US_speednode_0281
@@ -486,6 +486,14 @@ proxies:
   type: vless
   udp: true
   uuid: 767a17d0-0579-4d98-ae13-413198f44752
+- name: US_speednode_0284
+  password: None
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0285
   port: 9002
   server: 156.146.59.23
