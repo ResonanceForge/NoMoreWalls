@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: ios
+  name: 瑞典+V2CROSS.COM
+  network: tcp
+  port: 1000
+  reality-opts:
+    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
+    short-id: '!!str a62d513cd709744a'
+  server: teain.org
+  servername: knox.cdn-apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 6f436a44-f703-93da-7e45-615824a39d3b

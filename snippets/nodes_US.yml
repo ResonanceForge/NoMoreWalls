@@ -1,24 +1,24 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.9
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+V2CROSS.COM
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
   server: 149.104.104.58
-  sni: 149.104.104.58
+  sni: ''
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 佐治亚州亚特兰大市BellSouth公司
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -43,35 +43,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_7|3.0MB/s
+- name: 🇺🇸US_1|1.4MB/s
   network: ws
-  password: MiTiVPN
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 104.18.36.192
+  server: 162.159.82.246
   skip-cert-verify: true
-  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  sni: yks-dd9.pages.dev
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_8|1.9MB/s
-  port: 9028
-  server: select-us.ddnskunlun.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- cipher: aes-256-cfb
-  name: 🇺🇸US_10|2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 98.93.33.57
-  type: ss
-  udp: true
+      Host: yks-dd9.pages.dev
+    path: /
