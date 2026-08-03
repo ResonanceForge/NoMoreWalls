@@ -1,7 +1,20 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 2053
+  server: 147.45.197.233
+  servername: forfreeuse.sub-flow.online
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
   network: tcp
   port: 2083
   reality-opts:
@@ -12,33 +25,3 @@ proxies:
   tls: false
   type: vless
   uuid: ac1110a3-5082-47f0-8191-31c2b6a81aa0
-- client-fingerprint: chrome
-  name: RU_speednode_0231
-  network: ws
-  port: 443
-  server: 109.172.94.240
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: RU_speednode_0234
-  network: ws
-  port: 443
-  server: 94.159.101.193
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net

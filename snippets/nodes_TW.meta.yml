@@ -1,9 +1,11 @@
 proxies:
-- name: TW_speednode_0240
-  port: 10000
-  server: 60.249.101.14
-  skip-cert-verify: false
+- alterId: 0
+  cipher: auto
+  name: 台湾省 中华电信(HiNet)数据中心
+  network: tcp
+  port: '51360'
+  server: lt.badns.help
+  servername: ''
   tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
