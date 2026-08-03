@@ -1,27 +1,43 @@
 proxies:
 - client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 147.45.197.233
-  servername: forfreeuse.sub-flow.online
+  name: 🇷🇺RU_1|3.3MB/s
+  network: xhttp
+  port: 443
+  server: ru.node.sillyvpn.cc
+  servername: ru.node.sillyvpn.cc
   tls: true
   type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 2083
+  udp: true
+  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
+  xhttp-opts:
+    host: ru.node.sillyvpn.cc
+    mode: packet-up
+    path: /api/burmalda.json
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU_2|1.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: '443'
+  server: usa1.spectrumproxy.shop
+  skip-cert-verify: false
+  sni: usa1.spectrumproxy.shop
+  type: hysteria2
+  up: ''
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_3|1.4MB/s
+  network: grpc
+  port: '7443'
   reality-opts:
-    public-key: pO_QaG_aSWCly8o_a3py50xraUYgek8d71glro05ymk
-    short-id: '!!str 18e13283e9e781'
-  server: 91.107.167.7
-  servername: aws-us-east-1.amazon.com
-  tls: false
+    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
+    short-id: '!!str 89136b6e'
+  server: 193.233.74.57
+  servername: www.telekom.de
+  tls: true
   type: vless
-  uuid: ac1110a3-5082-47f0-8191-31c2b6a81aa0
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true

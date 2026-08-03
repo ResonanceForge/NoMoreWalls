@@ -1,31 +1,21 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 190.93.246.202
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
+  servername: download.nvidia.com
+  tls: false
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
+  name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: cu.877774.xyz
+  server: 172.64.145.0
   servername: learn00.evany.de5.net
   skip-cert-verify: false
   tls: true
@@ -35,78 +25,52 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip
-- name: '美国+V2CROSS.COM #3'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 205.237.109.212
-  sni: grape-turbo-fr.roxa.org
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #1'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 208.103.161.206
-  servername: forfreeuse.sub-flow.online
+  server: 104.21.90.146
+  servername: node-dispatch-c8-2.e20260720.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
   ws-opts:
     headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
+      Host: node-dispatch-c8-2.e20260720.kdns.fr
+    path: '%2FWvf67jc5MgASmsb9Qsr0'
 - alpn:
-  - h3
-  - h2
   - http/1.1
-  client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: time.is
-  servername: azadnet-826.pages.Dev
-  tls: true
-  type: vless
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-  ws-opts:
-    headers:
-      Host: azadnet-826.pages.Dev
-    path: /
-- name: '美国+CloudFlare节点 #4'
+  name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.97
-  sni: www.ignitelimit.com
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      Host: www.calmlunch.com
     path: '%2Fassignment'
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwabxe.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '美国+V2CROSS.COM #4'
+  name: '美国+CloudFlare节点 #3'
   network: ws
-  port: 80
-  server: 45.131.4.192
-  tls: false
+  port: 443
+  server: 104.16.72.251
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
   type: vless
-  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: silent-paper-fa57.fipiyag989.workers.dev
+      Host: hhlfy.twiladaphne.ndjp.net
     path: /
+- name: '美国+V2CROSS.COM #1'
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  sni: 149.104.104.58
+  type: trojan
 - name: 🇺🇸US
   obfs: salamander
   obfs-password: XBvVbvzQCq6Ovbnh
@@ -148,22 +112,278 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇺🇸US_1|2.3MB/s
+  network: ws
+  port: 443
+  server: 69.46.46.46
+  servername: web-production-d44e1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 892438bf-07eb-406b-9ba9-dad35c3e7953
+  ws-opts:
+    headers:
+      Host: web-production-d44e1.up.railway.app
+    path: /ws/vless/892438bf-07eb-406b-9ba9-dad35c3e7953?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: 🇺🇸US_2|1.2MB/s
+  network: ws
+  port: 443
+  server: 69.46.46.67
+  servername: web-production-d44e1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: b91b794a-3af9-4f8f-9803-2a60a2c4bceb
+  ws-opts:
+    headers:
+      Host: web-production-d44e1.up.railway.app
+    path: /ws/vless/b91b794a-3af9-4f8f-9803-2a60a2c4bceb?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇺🇸US_3|1015KB/s
+  network: ws
+  port: 443
+  server: 69.46.46.67
+  servername: web-production-d44e1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 892438bf-07eb-406b-9ba9-dad35c3e7953
+  ws-opts:
+    headers:
+      Host: web-production-d44e1.up.railway.app
+    path: /ws/vless/892438bf-07eb-406b-9ba9-dad35c3e7953?ed=2048
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_4|1.9MB/s
+  network: ws
+  port: 443
+  server: 69.46.46.67
+  servername: web-production-d44e1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1677c228-186d-4bf0-a0a7-9d4fb9b7efb4
+  ws-opts:
+    headers:
+      Host: web-production-d44e1.up.railway.app
+    path: /ws/vless/1677c228-186d-4bf0-a0a7-9d4fb9b7efb4?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: 🇺🇸US_5|1.6MB/s
+  network: ws
+  port: 443
+  server: 69.46.46.46
+  servername: web-production-d44e1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: b91b794a-3af9-4f8f-9803-2a60a2c4bceb
+  ws-opts:
+    headers:
+      Host: web-production-d44e1.up.railway.app
+    path: /ws/vless/b91b794a-3af9-4f8f-9803-2a60a2c4bceb?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_6|3.4MB/s
+  network: ws
+  port: 443
+  server: 69.46.46.46
+  servername: web-production-d44e1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: f662c502-58ab-4271-a971-1eef118c61e0
+  ws-opts:
+    headers:
+      Host: web-production-d44e1.up.railway.app
+    path: /ws/vless/f662c502-58ab-4271-a971-1eef118c61e0?ed=2048
+- alpn:
+  - http/1.1
+  name: 🇺🇸US_7|3.0MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  skip-cert-verify: true
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_8|1.9MB/s
+  port: 9028
+  server: select-us.ddnskunlun.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - cipher: auto
-  name: 🇺🇸US_1|3.9MB/s
+  name: 🇺🇸US_9|1.4MB/s
   network: none
   port: 12012
   server: 154.36.135.84
   tls: false
   type: vless
   uuid: d4ed01b4-bdaf-4909-d41e-5e6f8f6b5593
+- cipher: aes-256-cfb
+  name: 🇺🇸US_10|2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 98.93.33.57
+  type: ss
+  udp: true
+- name: 🇺🇸US_11|1.1MB/s
+  password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+  port: 443
+  server: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
+  sni: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
+  tls: true
+  type: http
+  username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_2|1.1MB/s
+  name: 🇺🇸US_12|1.3MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_13|1.1MB/s
+  network: ws
+  port: '443'
+  server: 69.46.46.24
+  servername: web-production-d44e1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1677c228-186d-4bf0-a0a7-9d4fb9b7efb4
+  ws-opts:
+    headers:
+      Host: web-production-d44e1.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /ws/vless/1677c228-186d-4bf0-a0a7-9d4fb9b7efb4?ed=2048
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_14|1.7MB/s
+  network: ws
+  port: '443'
+  server: 69.46.46.46
+  servername: web-production-d44e1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1677c228-186d-4bf0-a0a7-9d4fb9b7efb4
+  ws-opts:
+    headers:
+      Host: web-production-d44e1.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /ws/vless/1677c228-186d-4bf0-a0a7-9d4fb9b7efb4?ed=2048
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_15|1.4MB/s
+  network: ws
+  port: '443'
+  server: line-vpn-production.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0937cc7-fac6-efe4-f6fc-4b7564fc9065
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /ws/d0937cc7-fac6-efe4-f6fc-4b7564fc9065
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_16|1.2MB/s
+  network: ws
+  port: '443'
+  server: 69.46.46.67
+  servername: web-production-d44e1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: f662c502-58ab-4271-a971-1eef118c61e0
+  ws-opts:
+    headers:
+      Host: web-production-d44e1.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /ws/vless/f662c502-58ab-4271-a971-1eef118c61e0?ed=2048
+  xudp: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - telewebion.ir
+    path:
+    - /
+  name: 🇺🇸US_17|1.3MB/s
+  network: http
+  port: '25239'
+  server: u.cafeplusserver.ir
+  type: vless
+  udp: true
+  uuid: c998b565-38c7-4bee-a833-d8b479bf5180
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_18|1.0MB/s
+  network: xhttp
+  port: '37789'
+  reality-opts:
+    public-key: UkvgTlCFgSf2A2FtCJISg8r3hhRQbbfJIpQ6mSlL71k
+    short-id: '!!str 0dadb8f893'
+  server: second.shadydomain.qzz.io
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    mode: auto
+    path: /shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@
+    x-padding-bytes: 1-1000
+  xudp: true
 - name: US_speednode_0086
   port: 9002
   server: 138.199.35.218
