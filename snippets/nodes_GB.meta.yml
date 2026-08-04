@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 英国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  servername: 31.76.11.46.cdn-one.org
-  tls: true
-  type: vless
-  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
-  ws-opts:
-    headers:
-      Host: 31.76.11.46.cdn-one.org
-    path: /52872/BNzG4FvIAr
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -20,10 +7,16 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
+- name: 🇬🇧GB_1|3.0MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|2.4MB/s
+  name: 🇬🇧GB_2|2.4MB/s
   network: tcp
   port: '443'
   reality-opts:
@@ -36,10 +29,3 @@ proxies:
   udp: true
   uuid: 0c0a91de-5250-4d6c-9922-f3594d99f096
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_2|1.4MB/s
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 144.24.231.192
-  type: ss
-  udp: true

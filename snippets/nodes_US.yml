@@ -1,57 +1,45 @@
 proxies:
-- name: 美国+V2CROSS.COM
+- name: '美国+V2CROSS.COM #1'
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
   server: 149.104.104.58
-  sni: ''
+  sni: 149.104.104.58
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 佐治亚州亚特兰大市BellSouth公司
-  network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 18.163.100.58
+  port: 39024
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 95.40.107.76
+  port: 39024
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 16.162.164.238
+  port: 15775
+  server: 18.163.193.0
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.4MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|2.5MB/s
+  password: amazonskr05
   port: 443
-  server: 162.159.82.246
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
+  server: 98.93.33.57
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.163.196.142
+  type: ss
+  udp: true

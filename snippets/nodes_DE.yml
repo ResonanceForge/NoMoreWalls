@@ -1,30 +1,14 @@
 proxies:
-- name: 🇩🇪DE_1|2.8MB/s
+- name: 🇩🇪DE_1|2.3MB/s
   network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
   port: 443
-  server: 104.25.242.132
+  server: 172.67.78.22
   skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_3|3.0MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.26.2.173
-  skip-cert-verify: false
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  sni: kamonka.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: kamonka.eu.org
+    path: /

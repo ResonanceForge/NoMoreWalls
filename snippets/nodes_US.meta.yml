@@ -1,42 +1,8 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: ''
-  type: trojan
-- name: 美国+科罗拉多州布隆菲尔德市Level+3通信股份有限公司
+- name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: d.mygoldiran.com
-  servername: usa_multi.mygoldiran.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 76792e97-ee95-4d29-86da-347362d491f2
-  ws-opts:
-    headers:
-      Host: usa_multi.mygoldiran.com
-    path: /idea
-- alterId: 0
-  cipher: auto
-  name: 美国 佐治亚州亚特兰大市BellSouth公司
-  network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- client-fingerprint: random
-  name: 美国+CloudFlare节点
-  network: ws
-  port: 8443
-  server: 104.18.42.68
+  server: 104.18.40.56
   servername: learn00.evany.de5.net
   skip-cert-verify: false
   tls: true
@@ -45,37 +11,35 @@ proxies:
   ws-opts:
     headers:
       Host: learn00.evany.de5.net
+    path: /fdip
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 104.18.237.216
+  tls: false
+  type: vless
+  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
+  ws-opts:
+    headers:
+      Host: sfsl.ardomains1.dpdns.org
     path: '%2F'
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
+  name: 美国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: 9TVBSrIwHDFDjmejiKSNYHxHg6Nc0HEJGOiKLv8od1k
-  server: 144.31.91.102
-  servername: nl.boxypn.com
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
   tls: false
   type: vless
-  uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.26.9.48
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #2'
   network: ws
   port: 443
-  server: 104.25.244.217
+  server: 198.41.209.80
   servername: support.zoom.us.yxls.eu.cc
   tls: true
   type: vless
@@ -83,20 +47,49 @@ proxies:
   ws-opts:
     headers:
       Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.239.182
-  servername: www.cloudflare.com
+    path: '%2Fsg-melbi'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: deepl.com
   tls: false
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
+  ws-opts:
+    headers:
+      Host: young-wind-3c58.240-2ce.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 443
+  server: 104.16.75.68
+  servername: germany-2.ariyuz.org
+  tls: true
+  type: vless
+  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
+  ws-opts:
+    headers:
+      Host: germany-2.ariyuz.org
+    path: '%2F%3F%2F%3FBIA_TELEGRAM%40vless_socks_vless_socks_vless_socks_vless_sosks%3Fed%3D2560'
+- name: '美国+V2CROSS.COM #1'
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  sni: 149.104.104.58
+  type: trojan
+- name: 美国弗吉尼亚州阿什本+CloudFlare节点
+  network: ws
+  port: 2086
+  server: 173.245.49.114
+  tls: false
+  type: vless
+  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
+  ws-opts:
+    headers:
+      Host: misty-bread-fd96.salehinezhadali.workers.dev
+    path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==
 - name: 🇺🇸US
   obfs: salamander
   obfs-password: XBvVbvzQCq6Ovbnh
@@ -140,73 +133,87 @@ proxies:
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 18.163.100.58
+  port: 39024
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 95.40.107.76
+  port: 39024
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 16.162.164.238
+  port: 15775
+  server: 18.163.193.0
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.4MB/s
+- encryption: none
+  name: 🇺🇸US_1|1.8MB/s
   network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 162.159.82.246
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
+  port: '2095'
+  server: 172.66.1.242
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: yks-dd9.pages.dev
+      Host: cnmfangbinxing.cnmfangbinxing-q.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
     path: /
-- name: 🇺🇸US_2|4.1MB/s
-  network: ws
-  port: 57878
-  server: 38.246.226.240
-  tls: false
-  type: vless
-  uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
-  ws-opts:
-    path: /535f0e03
-- name: US_speednode_0092
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 98.93.33.57
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.163.196.142
+  type: ss
+  udp: true
+- name: 🇺🇸US_4|2.8MB/s
   password: None
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_5|3.8MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 🇺🇸US_6|3.9MB/s
+  port: 9002
+  server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: null
-- name: 🇺🇸US_4|1.5MB/s
+- name: 🇺🇸US_7|4.5MB/s
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_5|2.5MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|1.1MB/s
+- name: 🇺🇸US_8|2.0MB/s
   password: None
   port: 9002
   server: 138.199.35.209
@@ -214,38 +221,81 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_7|3.0MB/s
+- name: 🇺🇸US_9|1.9MB/s
   port: 9002
-  server: 138.199.35.202
+  server: 156.146.59.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|3.3MB/s
+  port: 9002
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_8|1.3MB/s
+- name: 🇺🇸US_11|2.2MB/s
   password: None
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_9|1.4MB/s
+- name: 🇺🇸US_12|3.3MB/s
+  password: None
   port: 9002
-  server: 156.146.59.39
+  server: 156.146.59.16
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_10|1.9MB/s
+  username: null
+- name: 🇺🇸US_13|3.0MB/s
   port: 9002
   server: 156.146.59.7
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_11|1.8MB/s
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
+- name: 🇺🇸US_14|2.2MB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_15|1019KB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
+    short-id: '!!str '
+  server: 2.26.94.15
+  servername: pro-tr.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c0a91de-5250-4d6c-9922-f3594d99f096
+  xudp: true
+- name: 🇺🇸US_16|1.2MB/s
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: '443'
+  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: 🇺🇸US_17|3.3MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: US_speednode_0086
   port: 9002
   server: 138.199.35.218
@@ -278,6 +328,14 @@ proxies:
 - name: US_speednode_0089
   port: 9002
   server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0092
+  password: None
+  port: 9002
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
