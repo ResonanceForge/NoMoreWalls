@@ -9,11 +9,12 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🤖41@oneclickvpnkeys
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.214
-  sni: mercedes-grape.yyuyy.com
+- name: 🇩🇪133038 | ⚡️Telegram = t.me/S...
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: 83.243.86.80
+  skip-cert-verify: false
+  sni: prodfr.h2corp.org
   tls: false
   type: hysteria2
 - name: '@Daily_Configs'
@@ -26,3 +27,32 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇩🇪DE_1|1.1MB/s
+  port: 26691
+  protocol: udp
+  server: 5.83.129.143
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪DE_2|1.0MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78b58296-16a0-47ac-ba3f-8fe64425457f
