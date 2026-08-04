@@ -21,25 +21,3 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇭CH_1|1.1MB/s
-  network: ws
-  port: '2083'
-  server: 162.159.38.119
-  servername: sw.shadowsinner.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6d60d9a8-401a-4f99-968e-ccae68a6c2f4
-  ws-opts:
-    headers:
-      Host: sw.shadowsinner.fun
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /
-  xudp: true
