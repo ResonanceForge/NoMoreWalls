@@ -1,10 +1,13 @@
 proxies:
-- name: '美国+V2CROSS.COM #1'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
   type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -21,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- name: 🇺🇸US_22|3.1MB/s
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -30,16 +33,16 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇺🇸US_2|2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 98.93.33.57
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_3|3.5MB/s
+  name: 🇺🇸US_8|4.1MB/s
   password: amazonskr05
   port: 443
   server: 54.163.196.142
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_9|2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.85.61.177
   type: ss
   udp: true

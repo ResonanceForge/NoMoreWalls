@@ -23,35 +23,45 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|3.3MB/s
+- alpn:
+  - http/1.1
+  name: 🇸🇬SG_1|3.4MB/s
   network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  skip-cert-verify: true
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬SG_2|1.0MB/s
+  password: '!!str 111'
+  port: 20000
+  server: 101.33.74.115
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: '111'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_3|3.9MB/s
+  network: xhttp
   port: '443'
-  server: 172.64.146.86
-  servername: support.zoom.us.yxls.eu.cc
+  server: mfa.gov.ua
+  servername: xhttp7.azadnet5000.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /sg-melbi
-  xudp: true
-- name: 🇸🇬SG_2|3.5MB/s
-  network: ws
-  port: '8880'
-  server: www.glassdoor.com
-  type: vless
-  udp: true
-  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
-  ws-opts:
-    headers:
-      Host: red-disk-58df.153-2ce.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  xhttp-opts:
+    host: xhttp7.azadnet5000.dpdns.org
+    mode: stream-one
+    path: /
   xudp: true

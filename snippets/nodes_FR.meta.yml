@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 65T6l7e51lwKu1rzQ4FgqVPe-JyG43IqPLw6r9U2v10
+    short-id: '!!str 0befa76540b5db79'
+  server: 193.177.0.251
+  servername: fr.bvps.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
 - name: FR_speednode_0006
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
