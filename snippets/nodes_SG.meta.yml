@@ -23,45 +23,49 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: 🇸🇬SG_1|3.4MB/s
+- name: 🇸🇬SG_1|4.2MB/s
   network: ws
-  password: MiTiVPN
   port: 443
-  server: 104.18.36.192
+  server: 162.159.49.14
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
   skip-cert-verify: true
-  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇸🇬SG_2|1.0MB/s
-  password: '!!str 111'
-  port: 20000
-  server: 101.33.74.115
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: '111'
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    path: /?ed=2560
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬SG_3|3.9MB/s
-  network: xhttp
+  name: 🇸🇬SG_2|1.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: 104.17.70.206
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|1.2MB/s
+  network: tcp
   port: '443'
-  server: mfa.gov.ua
-  servername: xhttp7.azadnet5000.dpdns.org
+  reality-opts:
+    public-key: ZTo_XhHaaXEJnDZFZ7S8-BYBS_fbk2F2IADoHdmU7W8
+    short-id: '!!str 3cf84632f6dd14c7'
+  server: 34.126.158.226
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  xhttp-opts:
-    host: xhttp7.azadnet5000.dpdns.org
-    mode: stream-one
-    path: /
+  uuid: 7f7031b3-cd5c-4ba6-9627-91a9cc702941
   xudp: true

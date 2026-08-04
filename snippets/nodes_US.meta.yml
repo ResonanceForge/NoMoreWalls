@@ -1,17 +1,8 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 美国+V2CROSS.COM
-  network: tcp
+  network: raw
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
@@ -21,91 +12,7 @@ proxies:
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 8880
-  server: 172.67.81.7
-  tls: false
-  type: vless
-  uuid: 2ced390a-4252-4541-8985-730f7a06bb45
-  ws-opts:
-    headers:
-      Host: flat-butterfly-d503.411-d1e.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 104.17.112.113
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  server: 170.168.97.3
-  servername: download.nvidia.com
-  tls: false
-  type: vless
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- name: '美国+V2CROSS.COM #2'
-  network: httpupgrade
-  port: 17870
-  server: vip.pro2.website
-  tls: false
-  type: vless
-  uuid: a6a065c6-60f4-4bde-b8b9-3f5072b3ca0b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  name: '美国+V2CROSS.COM #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  tls: false
-  type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 2087
-  server: 172.64.144.66
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 2095
-  server: 172.64.146.66
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
-    path: /
-- name: '美国+V2CROSS.COM #4'
+- name: '美国+V2CROSS.COM #1'
   network: ws
   port: 8880
   server: 45.142.120.40
@@ -115,22 +22,110 @@ proxies:
   ws-opts:
     headers:
       Host: vms.lifetime08.workers.dev
-    path: '%2F'
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #5'
+    path: /?ed=2560
+- name: '美国+V2CROSS.COM #2'
   network: ws
-  port: 8443
-  server: france.io-com-de-dev.org
-  servername: france.io-com-de-dev.org
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
-  uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a
+  uuid: aa9dfeec-9933-4b41-9154-daae02003c3d
   ws-opts:
     headers:
-      Host: france.io-com-de-dev.org
-    path: /api/voip/updates/static/x9i2
+      Host: BankMelat.glObal.ssl.faStly.nEt
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.16.149.6
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip
+- alterId: 0
+  cipher: auto
+  name: 美国 Akamai科技公司CDN网络节点
+  network: ws
+  port: '2053'
+  server: deapp.jisuyun.top
+  servername: deapp.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
+- client-fingerprint: chrome
+  name: 美国+科罗拉多州布隆菲尔德市Level+3通信股份有限公司
+  network: ws
+  port: 443
+  server: d.mygoldiran.com
+  servername: usa_multi.mygoldiran.com
+  tls: true
+  type: vless
+  uuid: 76792e97-ee95-4d29-86da-347362d491f2
+  ws-opts:
+    headers:
+      Host: usa_multi.mygoldiran.com
+    path: /idea
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 104.17.136.118
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: random
+  name: 美国+CloudFlare
+  network: ws
+  port: 2087
+  server: 162.159.18.228
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 2087
+  server: 104.18.36.192
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: '%2Ffdip'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #3'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdwabxe.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - name: 🇺🇸US
   obfs: salamander
   obfs-password: XBvVbvzQCq6Ovbnh
@@ -164,7 +159,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸US_22|3.1MB/s
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -172,212 +167,36 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.27S9yUTrCxQh_iReHwg8pDW4OPhj1cZYfMP9Tkj2xwo
-  name: 🇺🇸US_1|2.1MB/s
-  network: xhttp
-  port: 443
-  server: 69.46.46.158
-  servername: 3x-ui-upgrade2-production-8a8e.up.railway.app
-  tls: true
+- name: 🇺🇸US_1|2.4MB/s
+  network: ws
+  port: '2095'
+  server: 104.18.42.98
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: 3x-ui-upgrade2-production-8a8e.up.railway.app
-    mode: auto
-    path: /user
-    x-padding-bytes: 100-1000
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_2|1.5MB/s
-  network: tcp
-  port: 10004
-  reality-opts:
-    public-key: YoLRlSFCOiQjky1hQVHuSkiaPER4pro1uDyCTHVSfwY
-    short-id: '!!str df52dd28ff'
-  server: family.bucket.3.kfc-520.com
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|1.5MB/s
-  network: xhttp
-  port: '37789'
-  reality-opts:
-    public-key: UkvgTlCFgSf2A2FtCJISg8r3hhRQbbfJIpQ6mSlL71k
-    short-id: '!!str 0dadb8f893'
-  server: second.shadydomain.qzz.io
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    mode: auto
-    path: /shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@
-    x-padding-bytes: 1-1000
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_4|2.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: '443'
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  type: hysteria2
-  up: ''
-- name: US_speednode_0089
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0092
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: null
-- cipher: aes-256-cfb
-  name: 🇺🇸US_8|4.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.163.196.142
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_9|2.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.85.61.177
-  type: ss
-  udp: true
-- name: 🇺🇸US_24|1.2MB/s
+- name: 🇺🇸US_2|1.1MB/s
   password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  port: '443'
+  port: 443
   server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
-  skip-cert-verify: true
   sni: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
   tls: true
   type: http
   username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-- name: 🇺🇸US_11|1.6MB/s
-  port: 1080
-  server: 141.148.158.143
-  type: socks5
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_12|2.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_13|1.0MB/s
-  port: 39999
-  reality-opts:
-    public-key: rBLgYxDPw9nmzppUc_8Hr-puEW7lkpN1zoRDRcA-Ywo
-    short-id: '!!str 5f7b'
-  server: direct-us-astound-03.inetsnode.de
-  servername: swdist.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
-- name: 🇺🇸US_14|2.1MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.49
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇺🇸US_15|3.3MB/s
-  network: tcp
+- name: 🇺🇸US_3|1.1MB/s
+  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
   port: 443
-  reality-opts:
-    public-key: itfYOjWaEZ8FSD730zUvrhCbbzWgSWFDXjnAWCj23Rc
-    short-id: '!!str e371d988'
-  server: 161.104.90.17
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- name: 🇺🇸US_16|3.6MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
+  server: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
+  sni: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
   tls: true
   type: http
-  username: ''
-- name: 🇺🇸US_18|1.4MB/s
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_19|3.3MB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_20|2.2MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.7
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_21|3.6MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_23|1.1MB/s
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_25|4.4MB/s
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
 - name: US_speednode_0086
   port: 9002
   server: 138.199.35.218
@@ -393,17 +212,18 @@ proxies:
   type: vless
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0091
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: false
+- name: US_speednode_0089
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- name: US_speednode_0092
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

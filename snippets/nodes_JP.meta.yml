@@ -23,100 +23,22 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_1|1.7MB/s
-  password: f8744af0-8406-440f-9f90-45a4d004f3e9
-  port: 40102
-  server: cm1.kaochangcn.org
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_2|1.2MB/s
-  network: tcp
-  port: 443
+  name: 🇯🇵JP_1|1.3MB/s
+  port: 32326
   reality-opts:
-    public-key: kPWsR7ZqLC1gADJKZCEJYMUI3_wgWGcZYbLJvTvRMB4
-    short-id: '!!str d61bf3ec8054f8de'
-  server: 45.202.254.53
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
-- auth: vha1.eyJ2IjoxLCJ1aWQiOiIwZDZiNWQyNS04MTQ2LTQ5MzgtOGQ4Ny1lZmVhNTY0NWQxZGEiLCJ1dWlkIjoiZTA4YzBmNGEtOWYxNC00YWI4LWJjZjQtZjc5NTM4ZDY1ZWJjIiwiaWF0IjoxNzg1NTQ5NjkzLCJleHAiOjE3ODU1NzEyOTN9.6DpvhjeSfyXvcXN7iEuWEmk7VQGn9AY3KzV8XWdCEms
-  name: 🇯🇵JP_3|1.9MB/s
-  obfs: salamander
-  obfs-password: vtxobfs_4fb1b902428602984b523d6339abce6c
-  password: vha1.eyJ2IjoxLCJ1aWQiOiIwZDZiNWQyNS04MTQ2LTQ5MzgtOGQ4Ny1lZmVhNTY0NWQxZGEiLCJ1dWlkIjoiZTA4YzBmNGEtOWYxNC00YWI4LWJjZjQtZjc5NTM4ZDY1ZWJjIiwiaWF0IjoxNzg1NTQ5NjkzLCJleHAiOjE3ODU1NzEyOTN9.6DpvhjeSfyXvcXN7iEuWEmk7VQGn9AY3KzV8XWdCEms
-  port: 443
-  server: 45.202.254.53
+    public-key: yQCIXuOIYIxJ6BeQ1I-pvdfZDkrqv25oy7oU25424HA
+    short-id: '!!str bc41498a'
+  server: jpvl.xinchenone.world
+  servername: www.mozilla.org
   skip-cert-verify: true
-  sni: jp3-hy2.vortexio.cc
-  type: hysteria2
-- encryption: none
-  name: 🇯🇵JP_4|3.6MB/s
-  network: ws
-  port: '8880'
-  server: cf1.466688.xyz
+  tls: true
   type: vless
   udp: true
-  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
-  ws-opts:
-    headers:
-      Host: late-mountain-6801.355.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
-  xudp: true
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_5|6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.162.164
-  type: ss
-  udp: true
-- client-fingerprint: ios
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_6|1.6MB/s
-  network: tcp
-  port: 42299
-  reality-opts:
-    public-key: 01k0Q8IXj0YVEHXa1hWyCNl-CiFRjL01jD66MJQuyEI
-    short-id: '!!str 48495f'
-  server: direct-jp-mixed-02.mix.inetsnode.de
-  servername: swdist.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
-  xudp: true
-- client-fingerprint: ios
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_7|4.0MB/s
-  network: tcp
-  port: 43399
-  reality-opts:
-    public-key: 01k0Q8IXj0YVEHXa1hWyCNl-CiFRjL01jD66MJQuyEI
-    short-id: '!!str 48495f'
-  server: direct-jp-mixed-03.mix.inetsnode.de
-  servername: swdist.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
-  xudp: true
-- name: 🇯🇵JP_8|1019KB/s
-  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
-  port: 443
-  server: 437392bf-tcz8g0-tfpsin-1q3dm.jp.oshuawei.com
-  sni: 437392bf-tcz8g0-tfpsin-1q3dm.jp.oshuawei.com
-  tls: true
-  type: http
-  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_9|5.3MB/s
+  name: 🇯🇵JP_2|5.7MB/s
   password: amazonskr05
   port: 443
   server: 13.231.179.245

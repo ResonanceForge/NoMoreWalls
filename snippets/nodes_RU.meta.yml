@@ -1,45 +1,9 @@
 proxies:
 - name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 176.124.223.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-    path: /
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_5|2.9MB/s
-  obfs: ''
-  obfs-password: ''
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: '443'
+  port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  sni: 91.196.32.163
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-  up: ''
-- cipher: aes-256-gcm
-  name: '俄罗斯+V2CROSS.COM #2'
-  password: 81a20429165df87e
-  port: 10991
-  server: 195.133.23.200
-  type: ss
-- client-fingerprint: chrome
-  name: 🇷🇺RU_1|3.4MB/s
-  network: xhttp
-  port: 443
-  server: 155.212.222.251
-  servername: ru.node.sillyvpn.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
-  xhttp-opts:
-    host: ru.node.sillyvpn.cc
-    mode: packet-up
-    path: /api/burmalda.json
