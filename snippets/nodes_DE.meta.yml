@@ -1,23 +1,4 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  server: 179.61.138.177
-  servername: u695099u818690d8s71.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 818690d8s71.gogocs.xyz
-    path: ''
 - name: 德国
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   port: 443
@@ -90,20 +71,42 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- client-fingerprint: qq
+- client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: 🇩🇪DE_1|1.2MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
+  name: 🇩🇪DE_1|2.9MB/s
+  network: ws
+  port: '2087'
+  server: 104.18.19.39
+  servername: ftp.skylinknet.ir
   tls: true
   type: vless
   udp: true
-  uuid: 7c160962-7cfc-4c4d-ad14-d25a79b955af
+  uuid: 78bb684e-0c43-45f7-aefb-e16368228948
+  ws-opts:
+    headers:
+      Host: ftp.skylinknet.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - rubika.ir
+    path:
+    - /filimo-video/177430809054030600/1774365690/cb857b0770767a2b38b3ebc9d4c44d7fc5630fdd/196328x264new1-1080p.mp4/s-20-v1-a1.ts
+  name: 🇩🇪DE_3|1.8MB/s
+  network: http
+  port: '61885'
+  reality-opts:
+    public-key: zhx1Hs2m5-qHm6S6FqKJVBbAkoEtU5Xzh7d9S1unfBI
+    short-id: '!!str 64b02fb5e0ccd03b'
+  server: grmanvip.jahwuw.neninet.ir
+  servername: skyroom.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 727fea7a-67d7-4781-9662-661ae14ac949
   xudp: true
