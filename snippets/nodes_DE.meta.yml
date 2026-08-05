@@ -1,11 +1,17 @@
 proxies:
-- name: 德国
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_3|3.2MB/s
+  obfs: ''
+  obfs-password: ''
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   port: 443
   server: node-degame.bangboonet.ru
+  skip-cert-verify: false
   sni: node-degame.bangboonet.ru
   tls: false
   type: hysteria2
+  up: ''
 - name: 🇩🇪德国
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -13,10 +19,12 @@ proxies:
   sni: taga8.api3-max.ru
   tls: false
   type: hysteria2
-- name: '德国 #1'
+- auth: 71cada65-d23e-418c-88e4-a06188d14689
+  name: 🇩🇪DE_4|2.0MB/s
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
+  skip-cert-verify: true
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
@@ -73,40 +81,27 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_1|2.9MB/s
-  network: ws
-  port: '2087'
-  server: 104.18.19.39
-  servername: ftp.skylinknet.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 78bb684e-0c43-45f7-aefb-e16368228948
-  ws-opts:
-    headers:
-      Host: ftp.skylinknet.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers:
-      Host:
-      - rubika.ir
-    path:
-    - /filimo-video/177430809054030600/1774365690/cb857b0770767a2b38b3ebc9d4c44d7fc5630fdd/196328x264new1-1080p.mp4/s-20-v1-a1.ts
-  name: 🇩🇪DE_3|1.8MB/s
-  network: http
-  port: '61885'
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|2.7MB/s
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: zhx1Hs2m5-qHm6S6FqKJVBbAkoEtU5Xzh7d9S1unfBI
-    short-id: '!!str 64b02fb5e0ccd03b'
-  server: grmanvip.jahwuw.neninet.ir
-  servername: skyroom.online
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: node20.mxvpn.dev
+  servername: node20.mxvpn.dev
   tls: true
   type: vless
   udp: true
-  uuid: 727fea7a-67d7-4781-9662-661ae14ac949
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
   xudp: true
+- client-fingerprint: firefox
+  name: 🇩🇪DE_2|1.0MB/s
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
