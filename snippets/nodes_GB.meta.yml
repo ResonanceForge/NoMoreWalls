@@ -1,37 +1,32 @@
 proxies:
-- name: 英国+Technicolor+SA
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: 英国+V2CROSS.COM
-  network: tcp
-  port: 2550
-  server: 217.79.125.105
-  tls: false
-  type: vless
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: '英国+Technicolor+SA #1'
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20034
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
 - client-fingerprint: chrome
-  flow: ''
-  name: '英国+V2CROSS.COM #1'
+  name: 英国+V2CROSS.COM
   network: ws
   port: 443
   server: 31.76.11.46.cdn-one.org
   servername: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
   ws-opts:
     headers:
       Host: 31.76.11.46.cdn-one.org
-    path: /52872/BNzG4FvIAr
+    path: '%2F52872%2FBNzG4FvIAr'
+- name: 英国+Technicolor+SA
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- name: '英国+Technicolor+SA #1'
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
 - name: 🇬🇧英国
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443

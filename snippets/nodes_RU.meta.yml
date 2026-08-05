@@ -1,10 +1,17 @@
 proxies:
-- cipher: aes-256-gcm
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: 62.76.234.75
-  type: ss
+  network: tcp
+  port: 33729
+  reality-opts:
+    public-key: b5vvvll6WHFXYBOc-P4iEYNFw_uVALgypTESN0Nup2s
+    short-id: '!!str 0bd4698a48'
+  server: kino.memhd.store
+  servername: ymail.com
+  tls: false
+  type: vless
+  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
 - name: 🇷🇺俄罗斯
   password: 3f3da036-ab8f-405e-a5fd-e7223cb39866
   port: 443
