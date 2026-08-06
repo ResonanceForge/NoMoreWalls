@@ -1,26 +1,25 @@
 proxies:
-- name: '美国+CloudFlare节点 #7'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.37
-  skip-cert-verify: true
+  server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #4'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 45.130.125.126
-  sni: www.calmlunch.com
+  server: 104.18.152.208
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
     path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
@@ -46,15 +45,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_1|3.6MB/s
+- client-fingerprint: chrome
+  name: 🇺🇸US_4|2.5MB/s
   network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '53199'
+  server: speed-01.aliyun-web-tracker.cn
+  skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
