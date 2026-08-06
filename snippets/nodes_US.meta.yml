@@ -1,61 +1,21 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: support.zoom.us
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - name: 美国+CloudFlare节点
   network: ws
   port: 8880
-  server: 172.66.200.130
+  server: 104.26.13.40
   tls: false
   type: vless
-  uuid: a51d8a82-faec-44f4-8882-441a2e7f0ce4
+  uuid: 2b2ed3be-36bd-486d-9d04-ebf5b4be7ae9
   ws-opts:
     headers:
-      Host: spring-math-5c8c.434.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: 美国+宾夕法尼亚州Coudersport
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: ln4.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ln4.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 172.64.32.6
-  servername: soucuovls.pages.dev
-  tls: true
-  type: vless
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-  ws-opts:
-    headers:
-      Host: soucuovls.pages.dev
-    path: /pyip=proxyip.cmliussss.net
+      Host: twilight-heart-dbd6.220-2bd.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
+  name: 美国 Microsoft数据中心
   network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
+  port: '36803'
+  server: cindy52.ceoiii.com
   servername: ''
   tls: false
   type: vmess
@@ -64,54 +24,90 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  name: '美国+CloudFlare节点 #2'
+- name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8443
+  server: 172.245.233.237
+  skip-cert-verify: true
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 198.41.223.96
+  server: 104.18.152.152
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: 104.16.106.213
-  tls: false
-  type: vless
-  uuid: b4a18856-301d-4bb2-b729-6afcb700faf5
-  ws-opts:
-    headers:
-      Host: red-flower-a2bf.363.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #2'
-  network: ws
-  port: 2053
-  server: 45.130.125.200
-  servername: po.fastbrokencompony.com
-  skip-cert-verify: false
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 美国+加利福尼亚州洛杉矶
+  network: tcp
+  port: 443
+  server: 185.106.96.231
+  servername: u695099u84547b91s848.gogocs.xyz
   tls: true
   type: vless
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-  ws-opts:
-    path: '%2F'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: 84547b91s848.gogocs.xyz
+    path: ''
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.82.246
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2048'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.242.132
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2048'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 443
+  server: 104.17.3.81
+  servername: soucuovls.pages.dev
+  tls: true
+  type: vless
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  port: 2053
+  server: cf.130209.xyz
+  sni: v4.ipsb.us.ci
+  type: trojan
+  ws-opts:
+    path: '%2Fapi%2Fv2%2Fcheck_update'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 443
+  server: 104.16.72.251
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
 - name: 🤖45@oneclickvpnkeys
   password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
   port: 30001
@@ -167,37 +163,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- fingerprint: ''
-  name: 🇺🇸US_1|3.6MB/s
+- name: 🇺🇸US_1|2.4MB/s
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: '17963'
+  port: 17963
   server: jjz.jjznodenode.top
   skip-cert-verify: true
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_2|1.1MB/s
-  network: ws
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_2|2.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: '443'
-  server: 104.18.152.229
-  servername: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
-  tls: true
-  type: vless
-  udp: true
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  ws-opts:
-    headers:
-      Host: Hk-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-  xudp: true
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0021
