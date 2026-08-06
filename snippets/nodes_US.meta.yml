@@ -1,33 +1,9 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.149.60
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  server: 170.168.97.3
-  servername: download.nvidia.com
-  tls: false
-  type: vless
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
+  name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.25.244.217
+  server: 104.21.77.94
   servername: support.zoom.us.yxls.eu.cc
   tls: true
   type: vless
@@ -36,24 +12,22 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwabxe.cvewfjg.shop
-  servername: www.cloudflare.com
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 45.40.149.50
   tls: false
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: '%2F'
+- client-fingerprint: random
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 104.16.72.251
+  server: 104.17.144.235
   servername: hhlfy.twiladaphne.ndjp.net
   tls: true
   type: vless
@@ -62,20 +36,155 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 Microsoft数据中心
-  network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
-  servername: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: 152.53.127.214
+  servername: www.cloudflare.com
   tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 104.26.12.41
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   ws-opts:
     headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: download.yunzhongzhuan.com
+  tls: false
+  type: vless
+  uuid: c6d29888-78d5-446a-b2f0-f3968e6d1634
+  ws-opts:
+    headers:
+      Host: lingering-cherry-5f41.42-08a.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8443
+  server: singapore.com
+  servername: c7dabe95.proxy-978.pages.dev
+  tls: true
+  type: vless
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  ws-opts:
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+    path: /
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 443
+  server: 172.66.44.97
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: '%2Fsg-melbi'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 443
+  server: 173.245.58.75
+  servername: terazhediii.info
+  tls: true
+  type: vless
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  ws-opts:
+    headers:
+      Host: terazhediii.info
+    path: /hdgrbws
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #8'
+  network: ws
+  port: 443
+  server: 108.162.192.4
+  servername: soucuovls.pages.dev
+  tls: true
+  type: vless
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  ws-opts:
+    headers:
+      Host: soucuovls.pages.dev
+    path: pyip=proxyip.cmliussss.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  port: 8080
+  server: 173.245.58.115
+  tls: false
+  type: vless
+  uuid: 8e32697d-c23c-4b6b-9790-f46a7b94958d
+  ws-opts:
+    headers:
+      Host: oxinpanel.cloudfaler90.workers.dev
+    path: /eyJqdW5rIjoidmlraUhybDdxT0siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #3'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: 152.53.236.22
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: '美国+V2CROSS.COM #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.126
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
 - name: 🤖45@oneclickvpnkeys
   password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
   port: 30001
@@ -115,13 +224,6 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- name: 🇺🇸134686 | ⚡️Telegram = t.me/S...
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: soskeynets.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -148,7 +250,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 🇺🇸US_1|4.2MB/s
+  name: 🇺🇸US_1|3.6MB/s
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -158,71 +260,84 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|2.7MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 53199
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
-  type: trojan
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - telewebion.ir
+    path:
+    - /
+  name: 🇺🇸US_2|2.1MB/s
+  network: http
+  port: '25239'
+  server: u.cafeplusserver.ir
+  type: vless
   udp: true
+  uuid: c998b565-38c7-4bee-a833-d8b479bf5180
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|2.2MB/s
+  network: xhttp
+  port: '40904'
+  reality-opts:
+    public-key: Db-jocGNp1JEGSESSw52u37-6-eC2LRwyBMigrKwSSY
+    short-id: '!!str 1393fbc2'
+  server: interchange.proxy.rlwy.net
+  servername: is1-ssl.mzstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: 🇺🇸US_4|2.2MB/s
+  password: ''
+  port: '38182'
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  name: 🇺🇸US_3|3.8MB/s
+  name: 🇺🇸US_5|4.5MB/s
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 172.245.233.237
   skip-cert-verify: true
   sni: hopp-us.yyuyy.com
   type: hysteria2
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_4|2.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 🇺🇸US_5|2.7MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_6|2.7MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|3.1MB/s
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_8|1.6MB/s
+- name: 🇺🇸US_6|2.9MB/s
   port: 9002
   server: 156.146.59.23
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_9|4.1MB/s
+- name: 🇺🇸US_7|3.0MB/s
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_8|1.4MB/s
   password: None
   port: 9002
-  server: 138.199.35.212
+  server: 156.146.59.43
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_10|1.7MB/s
+- name: 🇺🇸US_9|1.1MB/s
+  port: 9002
+  server: 156.146.59.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|1.3MB/s
   password: ''
   port: 9002
   server: 156.146.59.34
@@ -231,113 +346,35 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 🇺🇸US_11|2.4MB/s
+- name: 🇺🇸US_11|3.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|3.3MB/s
   port: 9002
   server: 156.146.59.9
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_12|2.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|3.9MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  name: 🇺🇸US_14|1.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-    short-id: '!!str '
-  server: pro-se.emrata.top
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_15|2.2MB/s
+  name: 🇺🇸US_13|1.7MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
     short-id: '!!str bbc68cec8bb8d2e3'
-  server: node18.mxvpn.dev
-  servername: node18.mxvpn.dev
+  server: node17.mxvpn.dev
+  servername: node17.mxvpn.dev
   tls: true
   type: vless
   udp: true
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇺🇸US_16|2.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: pro-de.emrata.top
-  servername: pro-de.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57b575f7-f738-0032-8151-e6bacc8c6717
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇺🇸US_17|2.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-    short-id: '!!str '
-  server: pro-se.emrata.top
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57b575f7-f738-42c3-8151-e6bacc8c6717
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇺🇸US_18|3.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: pro-de.emrata.top
-  servername: pro-de.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95f50108-2bae-0032-948c-b22e01ae3133
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇺🇸US_19|1.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: pro-de.emrata.top
-  servername: pro-de.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
