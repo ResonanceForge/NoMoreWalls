@@ -1,17 +1,12 @@
 proxies:
-- client-fingerprint: firefox
-  name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 77.105.163.46
-  servername: ov186.ochmaybrooooo.online
-  tls: true
-  type: vless
-  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
-  ws-opts:
-    headers:
-      Host: ov186.ochmaybrooooo.online
-    path: '%2F'
+- name: 新加坡
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: '🇹🇷土耳其 #1'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -34,19 +29,3 @@ proxies:
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.0MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: Rpc9MCEogqr44HkgduXGcJqCOGnNiaGyjCb4PDPRVQw
-    short-id: '!!str e8c3ff51'
-  server: 31.200.250.162
-  servername: api.max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: bed8856b-3b0e-4c4c-8fe0-25b7824a88b2
-  xudp: true
