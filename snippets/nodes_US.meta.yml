@@ -1,20 +1,22 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: 104.26.13.40
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: 152.53.127.214
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: 2b2ed3be-36bd-486d-9d04-ebf5b4be7ae9
-  ws-opts:
-    headers:
-      Host: twilight-heart-dbd6.220-2bd.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - alterId: 0
   cipher: auto
   name: 美国 Microsoft数据中心
   network: ws
-  port: '36803'
+  port: 36803
   server: cindy52.ceoiii.com
   servername: ''
   tls: false
@@ -24,90 +26,62 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 172.245.233.237
+- name: 美国+宾夕法尼亚州Coudersport
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: ln4.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
+  sni: ln4.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '美国+CloudFlare节点 #1'
+- name: 美国+CloudFlare
   network: ws
-  password: humanity
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 104.18.152.152
-  sni: www.ignitelimit.com
+  server: 162.159.24.245
+  sni: yks-dd9.pages.dev
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
+    path: '%2F%3Fed%3D2048'
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: '%2Fsg-melbi'
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+加利福尼亚州洛杉矶
+  name: '美国+V2CROSS.COM #1'
   network: tcp
   port: 443
-  server: 185.106.96.231
-  servername: u695099u84547b91s848.gogocs.xyz
-  tls: true
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdwadgw.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
   type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 84547b91s848.gogocs.xyz
-    path: ''
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 162.159.82.246
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2048'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2048'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 104.17.3.81
-  servername: soucuovls.pages.dev
-  tls: true
-  type: vless
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  port: 2053
-  server: cf.130209.xyz
-  sni: v4.ipsb.us.ci
-  type: trojan
-  ws-opts:
-    path: '%2Fapi%2Fv2%2Fcheck_update'
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #6'
+  name: '美国+V2CROSS.COM #2'
   network: ws
   port: 443
-  server: 104.16.72.251
-  servername: hhlfy.twiladaphne.ndjp.net
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 82880171-779d-4c28-8a38-59f2769dccfa
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
+      Host: pan11.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
 - name: 🤖45@oneclickvpnkeys
   password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
   port: 30001
@@ -139,6 +113,13 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
+- name: '美国 #1'
+  password: f64c72a1-7e1f-4dd1-8929-7e41682542e2
+  port: 443
+  server: us4.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -163,7 +144,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|2.4MB/s
+- name: 🇺🇸US_1|4.2MB/s
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17963
   server: jjz.jjznodenode.top
@@ -171,18 +152,169 @@ proxies:
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_2|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_2|3.1MB/s
+  network: ws
   port: '443'
-  server: vpn-us-004.fastervpn.world
+  server: jgngnjg-production-f22e.up.railway.app
+  servername: jgngnjg-production-f22e.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55e956a8-4cbe-1548-c163-72631573e66f
+  ws-opts:
+    headers:
+      Host: jgngnjg-production-f22e.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /ws/55e956a8-4cbe-1548-c163-72631573e66f
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|2.2MB/s
+  network: ws
+  port: '443'
+  server: rvg-production-uyh4l.up.railway.app
+  servername: rvg-production-uyh4l.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: d078f73a-41cc-7717-8d06-9d3c4ced5ec6
+  ws-opts:
+    headers:
+      Host: rvg-production-uyh4l.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /ws/d078f73a-41cc-7717-8d06-9d3c4ced5ec6
+  xudp: true
+- name: 🇺🇸US_4|1.3MB/s
+  port: 9002
+  server: 138.199.35.198
   skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  up: ''
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_5|3.8MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_6|1.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_7|1.3MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_8|1.0MB/s
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_9|1.9MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_10|4.2MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_11|1.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|3.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_13|2.4MB/s
+  port: 9002
+  server: 156.146.59.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|3.2MB/s
+  port: 9002
+  server: 156.146.59.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|2.0MB/s
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_16|2.7MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_17|2.5MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_18|3.4MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 🇺🇸US_19|2.3MB/s
+  port: 9002
+  server: 156.146.59.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_20|3.2MB/s
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0021
