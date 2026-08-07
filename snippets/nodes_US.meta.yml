@@ -1,95 +1,77 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 美国+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 993
   reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.236.22
-  servername: www.cloudflare.com
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
+  servername: download.nvidia.com
   tls: false
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
   ws-opts:
     headers:
-      Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
-    path: /fp=randomized
-- name: 🇩🇪135884 | ⚡️Telegram = t.me/S...
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: de-two.quiet-rogue.site
-  skip-cert-verify: true
-  sni: de-two.quiet-rogue.site
-  tls: false
-  type: hysteria2
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: 美国+Datability
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4466
-  server: sg3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg3.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 8880
-  server: deepl.com
-  tls: false
-  type: vless
-  uuid: 6d73dc1e-1627-4b16-b471-53e63aa16c78
-  ws-opts:
-    headers:
-      Host: sweet-truth-ccdb.134-7e9.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      Host: download.nvidia.com
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #3'
+  flow: ''
+  name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: www.true.th
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: /
+- name: 美国+阿里云
   network: tcp
+  port: 40480
+  server: 47.236.106.241
+  tls: false
+  type: vless
+  uuid: 0c97c970-41be-47dd-80d6-06c9a5c9c458
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 162.159.152.129
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #2'
+  network: raw
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.127.214
+  server: 152.53.239.182
   servername: www.cloudflare.com
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- alterId: 0
-  cipher: auto
-  name: 美国 Microsoft数据中心
-  network: ws
-  port: 36803
-  server: cindy52.ceoiii.com
-  servername: ''
+- name: '美国+V2CROSS.COM #3'
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
   tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #5'
+  name: '美国+V2CROSS.COM #4'
   network: raw
   port: 443
   reality-opts:
@@ -101,79 +83,18 @@ proxies:
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 172.66.213.113
-  servername: support.zoom.us.yxls.eu.cc
+  server: 162.159.141.147
+  servername: rAyAn-007.fOtOn.dPdNs.oRg
   tls: true
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: 19877587-ed94-4033-88cd-4ac50a5e8718
-  port: 443
-  server: 104.16.148.5
-  skip-cert-verify: false
-  sni: dimskiee.biz.id
-  type: trojan
-  ws-opts:
-    path: '%2FWangCai-8'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #6'
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-    short-id: '!!str '
-  server: 170.168.97.3
-  servername: download.nvidia.com
-  tls: false
-  type: vless
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- client-fingerprint: chrome
-  flow: ''
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 162.159.137.54
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- flow: ''
-  name: 美国+洛杉矶
-  network: ws
-  port: 8880
-  server: 66.81.247.209
-  tls: false
-  type: vless
-  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
-  ws-opts:
-    headers:
-      Host: cnd.finland2.2.newwaycdn.com
-    path: /cdn/assets/stream
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: '%2F'
+      Host: rAyAn-007.fOtOn.dPdNs.oRg
+    path: /
 - name: 🇺🇸美国
   password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
   port: 30001
@@ -210,14 +131,6 @@ proxies:
   port: 443
   server: us4.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 🇺🇸135853 | ⚡️Telegram = t.me/S...
-  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  port: 8443
-  server: 159.223.157.129
-  skip-cert-verify: true
-  sni: 159.223.157.129
   tls: false
   type: hysteria2
 - name: 美国|@ripaojiedian
