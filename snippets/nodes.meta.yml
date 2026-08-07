@@ -89,90 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 荷兰+德龙滕LiteServer
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: hl1.mangshe.xyz
-  skip-cert-verify: true
-  sni: hl1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  port: 443
-  server: 188.114.98.66
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: 英国+Technicolor+SA
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20068
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 乌克兰+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
-  server: 31.43.191.39
-  servername: luminous-vortex.cdn.cachefleet.com
-  tls: false
-  type: vless
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- name: 美国+纽约市DigitalOcean云公司
-  port: 443
-  server: 138.68.53.88
-  tls: false
-  type: vless
-  uuid: 413a66e9-b05b-4ae6-a9eb-6d28204a28f4
-- name: 韩国
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.36.89.239
-  skip-cert-verify: true
-  sni: vpn-kr-003.fastervpn.world
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '7a76f3c4b9dd'
-  server: 152.53.239.182
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '英国+Technicolor+SA #1'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- client-fingerprint: firefox
-  name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  tls: false
-  type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 荷兰+V2CROSS.COM
@@ -185,22 +101,115 @@ proxies:
   tls: false
   type: vless
   uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- name: 南非+V2CROSS.COM
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: xg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: hdlb1.mangshe.xyz
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
+  server: 45.143.201.8
+  servername: hasty-dolphin.cdn.cachefleet.com
   tls: false
-  type: hysteria2
-- name: '美国+V2CROSS.COM #2'
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
+  type: vless
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '7a76f3c4b9dd'
+  server: 152.53.127.214
+  servername: www.cloudflare.com
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 加拿大+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
+    short-id: '250b5976473a'
+  server: 167.17.68.205
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qY222OdlPFi9DvfoHZNgp0UHLubudtKLLF_KMuDy-Ho
+    short-id: '9795f83547c168d3'
+  server: 89.23.103.121
+  servername: www.debian.org
+  tls: false
+  type: vless
+  uuid: 7596b721-f311-4194-96e6-b7b407cd6083
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 保加利亚+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dGF9csm2FGTtmgL5ZOxfU_wOMVilKOVq60lwD7F-MVw
+  server: 185.246.223.158
+  servername: germanag.online
+  tls: false
+  type: vless
+  uuid: dd8b69d3-5ef6-418c-a94c-2f4f37d88a7f
+- client-fingerprint: chrome
+  flow: ''
+  name: 美国+麻省理工学院
+  network: ws
+  port: 443
+  server: www.true.th
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #2'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '7a76f3c4b9dd'
+  server: 152.53.239.182
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #3'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '7a76f3c4b9dd'
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: '美国+V2CROSS.COM #4'
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  sni: ''
+  type: trojan
 - name: 西班牙
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
@@ -464,6 +473,14 @@ proxies:
   server: 202.146.222.29
   skip-cert-verify: true
   sni: 202.146.222.29
+  tls: false
+  type: hysteria2
+- name: 韩国
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.36.89.239
+  skip-cert-verify: true
+  sni: vpn-kr-003.fastervpn.world
   tls: false
   type: hysteria2
 - name: 🧅42@oneclickvpnkeys
