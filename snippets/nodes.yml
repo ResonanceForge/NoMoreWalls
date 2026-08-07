@@ -89,28 +89,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 英国+Technicolor+SA
-  network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
-  port: '36801'
-  server: cindy50.ceoiii.com
+  name: 台湾省 中华电信(HiNet)数据中心
+  network: tcp
+  port: '51360'
+  server: lt.badns.help
   servername: ''
   tls: false
   type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
