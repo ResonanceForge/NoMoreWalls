@@ -1,4 +1,14 @@
 proxies:
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: 美国 Microsoft数据中心
@@ -13,15 +23,27 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- name: 美国+CloudFlare
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  port: 443
+  server: 104.16.148.5
+  skip-cert-verify: false
+  sni: dimskiee.biz.id
+  type: trojan
+  ws-opts:
+    path: '%2FWangCai-8'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 162.159.24.245
+  server: 104.25.242.132
   sni: yks-dd9.pages.dev
   type: trojan
   ws-opts:
-    path: '%2F%3Fed%3D2048'
+    headers:
+      Host: yks-dd9.pages.dev
+    path: '%2F'
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -41,8 +63,8 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 16.162.3.64
+  port: 34039
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

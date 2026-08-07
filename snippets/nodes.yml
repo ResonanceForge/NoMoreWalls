@@ -89,6 +89,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: 美国 Microsoft数据中心
@@ -103,42 +113,27 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- name: 英国+Technicolor+SA
-  network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  port: 443
+  server: 104.16.148.5
   skip-cert-verify: false
-  sni: hk.catxstar.com
+  sni: dimskiee.biz.id
   type: trojan
-- name: 美国+CloudFlare
+  ws-opts:
+    path: '%2FWangCai-8'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 162.159.24.245
+  server: 104.25.242.132
   sni: yks-dd9.pages.dev
   type: trojan
   ws-opts:
-    path: '%2F%3Fed%3D2048'
-- name: '英国+Technicolor+SA #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 芬兰 赫尔辛基Hetzner数据中心
-  network: tcp
-  port: '80'
-  server: y.telewebion.ir.varzesh3.com.de
-  servername: status.play.google.com
-  tls: false
-  type: vmess
-  uuid: 524646b7-fe8f-42ee-8b73-e1ccc6855773
+    headers:
+      Host: yks-dd9.pages.dev
+    path: '%2F'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -157,32 +152,32 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 17111
-  server: 18.163.100.58
+  port: 5077
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50115
-  server: 16.162.3.64
+  port: 27161
+  server: 43.198.209.68
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 16.162.3.64
+  port: 29444
+  server: 16.162.161.131
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 16.162.3.64
+  port: 9408
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -221,8 +216,8 @@ proxies:
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 26704
-  server: 95.40.205.94
+  port: 41421
+  server: 43.198.209.68
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -245,8 +240,8 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 16.162.3.64
+  port: 34039
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
