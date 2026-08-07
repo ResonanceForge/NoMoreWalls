@@ -1,4 +1,12 @@
 proxies:
+- name: 荷兰+德龙滕LiteServer
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: hl1.mangshe.xyz
+  skip-cert-verify: true
+  sni: hl1.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: 🪁50@oneclickvpnkeys
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   port: 443
@@ -11,13 +19,6 @@ proxies:
   port: 443
   server: taga8.api3-max.ru
   sni: taga8.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 5🪁@oneclickvpnkeys
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: de-two.quiet-rogue.site
-  sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
 - name: '德国 #2'
