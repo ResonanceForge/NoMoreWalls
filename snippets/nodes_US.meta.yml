@@ -1,87 +1,47 @@
 proxies:
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  network: ws
+- name: '德国 #2'
+  password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
-  server: www.true.th
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
+  server: de-two.quiet-rogue.site
+  sni: de-two.quiet-rogue.site
+  tls: false
+  type: hysteria2
+- auth: 71cada65-d23e-418c-88e4-a06188d14689
+  name: 🇩🇪DE_1|1.5MB/s
+  password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
-  server: www.speedtest.org
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+  server: 144.31.166.91
+  skip-cert-verify: true
+  sni: de-two.quiet-rogue.site
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
+  name: '美国+V2CROSS.COM #2'
   network: raw
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.127.214
+  server: 152.53.239.182
   servername: www.cloudflare.com
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.26.3.138
-  servername: vltj.qzz.io
-  tls: true
-  type: vless
-  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
-  ws-opts:
-    headers:
-      Host: vltj.qzz.io
-    path: /id-pusat
-- name: '美国+V2CROSS.COM #2'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  type: trojan
-- client-fingerprint: chrome
-  name: 美国+麻省理工学院
-  network: ws
-  port: 443
-  server: 18.239.83.52
-  servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+- name: 罗马尼亚
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.217
+  skip-cert-verify: true
+  sni: mercedes-grape.yyuyy.com
+  tls: false
+  type: hysteria2
 - name: 美国
   password: 571e40e5-d597-4618-9204-535c94dca771
   port: 36253
   server: uswx3.wxgqlfx.vip
   skip-cert-verify: true
   sni: 144.225.187.184#美国3@wxgqlfx
-  tls: false
-  type: hysteria2
-- name: 🇺🇸美国
-  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
-  port: 30001
-  server: 155.117.19.221
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '🇺🇸美国 #1'
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 23.95.75.151
-  sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
 - name: '美国 #1'
@@ -140,106 +100,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_1|1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 98.89.48.191
-  type: ss
-- client-fingerprint: random
-  name: 🇺🇸US_2|3.6MB/s
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: us-lax.862400.xyz
-  tls: true
-  type: vless
-  uuid: e4281fbe-7729-4ef1-ad3b-f33aca54e339
-  ws-opts:
-    headers:
-      Host: us-lax.862400.xyz
-    path: /announcement
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_3|3.4MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 🇺🇸US_4|4.6MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17963
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_5|1.7MB/s
-  network: ws
-  port: 2053
-  server: www.visa.cn
-  servername: ccsus11-cdn-cdn.nekohub.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7bd30627-8487-4506-bc42-b07722b24633
-  ws-opts:
-    headers:
-      Host: ccsus11-cdn.nekohub.xyz
-    path: /vless_ws?ed=4096
-- client-fingerprint: chrome
-  name: 🇺🇸US_6|2.9MB/s
-  network: ws
-  port: 2053
-  server: www.shopify.com
-  servername: ccsus11-cdn-cdn.nekohub.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: dabe89a7-a182-4b2b-aee6-9b98c8c53170
-  ws-opts:
-    headers:
-      Host: ccsus11-cdn.nekohub.xyz
-    path: /vless_ws?ed=4096
-- name: 🇺🇸US_7|1.8MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_8|3.4MB/s
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.9MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_10|1.8MB/s
-  port: 9002
-  server: 156.146.59.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇺🇸US_11|3.6MB/s
+  name: 🇺🇸US_1|2.3MB/s
   network: ws
-  port: 41963
+  port: '41963'
   server: us.klxiaogou.com
-  servername: us.klxiaogou.com
   skip-cert-verify: false
   tls: true
   type: vmess
