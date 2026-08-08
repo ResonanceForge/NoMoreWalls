@@ -1,11 +1,13 @@
 proxies:
-- name: '美国+V2CROSS.COM #1'
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 美国+CloudFlare节点
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 162.159.82.246
+  sni: yks-dd9.pages.dev
   type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2048'
 - name: 美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
