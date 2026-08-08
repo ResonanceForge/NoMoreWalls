@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 2053
+  server: 91.193.58.217
+  servername: vlso200.1d.mom
+  tls: true
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso200.1d.mom
+    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
 - name: 🇹🇷土耳其
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -28,12 +41,14 @@ proxies:
   sni: www.linux.com
   tls: false
   type: hysteria2
-- client-fingerprint: edge
-  encryption: none
-  name: 🇷🇺RU_1|1.0MB/s
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: 🇷🇺RU_1|2.9MB/s
   network: xhttp
-  port: '443'
-  server: 135.106.140.23
+  port: 443
+  server: qwesd.rutendingaltos.top
   servername: qwesd.rutendingaltos.top
   tls: true
   type: vless
@@ -42,4 +57,3 @@ proxies:
   xhttp-opts:
     host: qwesd.rutendingaltos.top
     path: /assets/build/_app/immutable/chunks/stream-one/
-  xudp: true

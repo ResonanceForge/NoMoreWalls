@@ -1,88 +1,86 @@
 proxies:
+- client-fingerprint: chrome
+  name: 美国+麻省理工学院
+  network: ws
+  port: 443
+  server: www.true.th
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- name: '德国 #1'
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: 144.31.166.91
+  sni: de-two.quiet-rogue.site
+  tls: false
+  type: hysteria2
 - name: 美国+CloudFlare节点
   network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: cf.090227.xyz
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2048'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
   port: 8880
-  server: cf2.466688.xyz
+  server: www.glassdoor.com
+  servername: www.glassdoor.com
   tls: false
   type: vless
-  uuid: 50c91104-c1fc-471e-914f-3ad252a0a34c
+  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
   ws-opts:
     headers:
-      Host: quiet-snowflake-e1dd.374-ac3.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net@https://t.me/QiangLieTuiJian
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8080
-  server: 104.26.1.195
-  tls: false
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-  ws-opts:
-    headers:
-      Host: premium-us-ca-01-gthost.efgwf.online
-    path: /ws-6Tta3kYF
-- name: 美国+V2CROSS.COM
-  network: tcp
-  port: 47063
-  server: 209.38.167.200
-  tls: false
-  type: vless
-  uuid: d550a7cb-3a70-4b1a-8321-79347439f2a3
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: 美国 Microsoft数据中心
-  network: ws
-  port: 36803
-  server: cindy52.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 美国+乔治亚洲亚特兰大Fastly节点
+      Host: yellow-sky-38b3.154-d73.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: i3.cloud--vpn.site
+  server: 104.26.2.173
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 140.248.186.45
   servername: ssl.fastly.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: f04c31f7-cfab-4824-d167-4137d836ea82
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: c12.com
+      Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: '美国+V2CROSS.COM #1'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  type: trojan
-- name: 5🪁@oneclickvpnkeys
+- name: '德国 #2'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
+  skip-cert-verify: false
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #4'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - name: 美国
   password: 571e40e5-d597-4618-9204-535c94dca771
   port: 36253
@@ -161,55 +159,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: random
-  name: 🇺🇸US_1|3.8MB/s
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: us-lax.862400.xyz
-  tls: true
-  type: vless
-  uuid: e4281fbe-7729-4ef1-ad3b-f33aca54e339
-  ws-opts:
-    headers:
-      Host: us-lax.862400.xyz
-    path: /announcement
-- name: 🇺🇸US_2|3.0MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17963
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- name: 🇺🇸US_3|4.1MB/s
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_1|1006KB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 🇺🇸US_2|4.4MB/s
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
   sni: fan.365747.xyz
   tls: true
   type: http
-- client-fingerprint: qq
-  encryption: none
-  name: 🇺🇸US_4|1.0MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-    short-id: '!!str c1cdebeccbb470ae'
-  server: sa-84018978331c4eaf.sr-37f423695609b2ef.r.vpvpn.club
-  servername: obrienteamnissan.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c7ac0ea-b1e4-4c20-bc16-1437559f3ac4
-  xhttp-opts:
-    mode: auto
-    path: /
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0021

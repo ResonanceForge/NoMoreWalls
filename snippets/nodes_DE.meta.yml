@@ -6,13 +6,6 @@ proxies:
   sni: node-degame.bangboonet.ru
   tls: false
   type: hysteria2
-- name: '德国 #1'
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: 144.31.166.91
-  sni: de-two.quiet-rogue.site
-  tls: false
-  type: hysteria2
 - name: '德国 #3'
   password: 8645697d-51c1-4e90-aca5-ba63a0392f11
   port: 443
@@ -64,6 +57,16 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
+- name: 🤴‼️ TELEGRAM@SHAHSERVER1🪽
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNJey
+  port: 37003
+  server: 179.61.251.253
+  skip-cert-verify: false
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -76,31 +79,3 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.1MB/s
-  network: ws
-  password: chrysanthemum
-  port: 443
-  server: 104.20.48.11
-  skip-cert-verify: true
-  sni: cmee.ezbiz.dynv6.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cmee.ezbiz.dynv6.net
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
-    short-id: '!!str 5a9ab320'
-  server: de2.miyazono-kaori.com
-  servername: www.siemens.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d36b40ec-5328-48e7-b8c1-ce9f1cfa0430
-  xudp: true
