@@ -1,12 +1,24 @@
 proxies:
 - name: 英国+Technicolor+SA
-  network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20088
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
   server: oplosgru-c.catcat321.com
-  skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
+- client-fingerprint: chrome
+  name: 英国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+    path: '%2F10336%2F2GCOqG7bvA'
 - name: 英国
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
@@ -29,18 +41,6 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_2|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: FPSfGfmZs5rjz5dlqreuDK7B
-  port: '62202'
-  server: 37.120.189.107
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''
 - name: GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
