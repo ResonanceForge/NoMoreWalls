@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qY222OdlPFi9DvfoHZNgp0UHLubudtKLLF_KMuDy-Ho
-    short-id: '!!str 9795f83547c168d3'
-  server: 89.23.103.121
-  servername: www.debian.org
-  tls: false
-  type: vless
-  uuid: 7596b721-f311-4194-96e6-b7b407cd6083
 - name: 🇹🇷土耳其
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -48,4 +35,12 @@ proxies:
   skip-cert-verify: true
   sni: www.linux.com
   tls: false
+  type: hysteria2
+- auth: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+  name: 🇷🇺RU_1|4.3MB/s
+  password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+  port: 443
+  server: gm.serviceoda.ru
+  skip-cert-verify: true
+  sni: gm.serviceoda.ru
   type: hysteria2
