@@ -1,18 +1,4 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: db1.mangshe.xyz
-  skip-cert-verify: true
-  sni: db1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 英国+Technicolor+SA
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
 - name: 英国
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
@@ -35,37 +21,18 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str abe4a59b9f2407e3'
-  server: 5.254.14.165
-  servername: cdn4-81.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 408e08b4-4e08-4819-9eb6-0e660ec87530
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_2|3.0MB/s
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 129.151.81.122
-  type: ss
-  udp: true
-- name: 🇬🇧GB_3|1.2MB/s
-  password: None
-  port: 443
-  server: 193.36.118.210
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB_2|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: FPSfGfmZs5rjz5dlqreuDK7B
+  port: '62202'
+  server: 37.120.189.107
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  sni: ''
+  type: hysteria2
+  up: ''
 - name: GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
