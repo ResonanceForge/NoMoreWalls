@@ -1,138 +1,167 @@
 proxies:
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: 104.18.0.1
-  servername: all.speedtest03.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  ws-opts:
-    headers:
-      Host: all.speedtest03.ccwu.cc
-    path: /
-- name: '美国+CloudFlare节点 #1'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.207
+  server: 104.16.7.70
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 美国+乔治亚洲亚特兰大Fastly节点
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 443
-  server: 151.101.56.6
-  servername: ssl.fastly.com
-  tls: true
+  port: 8880
+  server: 104.17.170.132
+  tls: false
   type: vless
-  uuid: f04c31f7-cfab-4824-d167-4137d836ea82
+  uuid: 49a9aa25-443b-4fab-9a85-066dd5396c57
   ws-opts:
     headers:
-      Host: c12.com
-    path: /
+      Host: mute-river-6aee.421-bd7.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.26.14.137
+  server: 104.16.174.72
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: ''
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  tls: false
+  type: vless
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.225
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: 美国 Microsoft数据中心
-  network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.159
+  server: 104.16.174.121
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: 1.rmgyvpn.rest
-  tls: true
-  type: vless
-  uuid: 98262dbd-3606-437b-b12e-3f38ca62522f
-  ws-opts:
-    headers:
-      Host: 1.rmgyvpn.rest
-    path: /ws-cdn
-- name: '美国+CloudFlare节点 #5'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.152
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- name: '美国+CloudFlare节点 #8'
   network: ws
-  password: bpb-trojan
+  password: humanity
   port: 443
-  server: vless.herogoing.top
-  sni: vless.herogoing.top
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Ftr%3Fed%3D2560'
+    path: '%2Fassignment'
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #7'
+  name: 美国+麻省理工学院
   network: ws
   port: 443
-  server: 104.17.28.89
-  servername: workspace.evan00.dpdns.org
+  server: 18.239.83.52
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 1078d418-b4e0-4668-9018-dc90c2042d61
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: workspace.evan00.dpdns.org
-    path: /
-- name: 美国+宾夕法尼亚州Coudersport
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: ln4.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ln4.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #11'
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #12'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
+  name: '美国+V2CROSS.COM #1'
+  network: raw
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
+  server: 152.53.236.22
   servername: www.cloudflare.com
   tls: false
   type: vless
@@ -200,18 +229,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇺🇸US_2|1.8MB/s
-  network: grpc
+  name: 🇺🇸US_1|1.3MB/s
+  network: ws
+  port: '443'
+  server: api.connectix.uk
+  servername: unitedstates.havray2025.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: f3a436a8-45c3-4c5d-bf97-b1ff6e9ced38
+  ws-opts:
+    headers:
+      Host: unitedstates.havray2025.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: ''
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇺🇸US_2|1.7MB/s
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: iUc9JqWjFemnQo8R5fgiwssCjEdWmixB4X-mRJkx2VE
-    short-id: '!!str 3182f9ae'
-  server: 193.233.205.117
-  servername: media3.abvphelp.cc
+    public-key: O4of5fbG7Ns3fBdBF0bDU8Fa8q-mdk7YLgOgvAWPeF8
+    short-id: '!!str f85aebea'
+  server: 162.35.231.6
+  servername: media2.tcpdoor.net
   tls: true
   type: vless
   udp: true
