@@ -1,4 +1,30 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
+    short-id: '!!str 4c5a76834671'
+  server: kzbkjum.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '德国+V2CROSS.COM #1'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
+    short-id: '!!str 4c5a76834671'
+  server: 185.164.111.48
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - name: 德国
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   port: 443
@@ -83,22 +109,3 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.6MB/s
-  network: ws
-  port: 443
-  server: 162.159.128.253
-  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-    max-early-data: 2560
-    path: /
-  xudp: true
