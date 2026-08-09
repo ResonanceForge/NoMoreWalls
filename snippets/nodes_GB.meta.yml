@@ -1,4 +1,12 @@
 proxies:
+- name: 英国+V2CROSS.COM
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: db1.mangshe.xyz
+  skip-cert-verify: true
+  sni: db1.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: 英国
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
@@ -21,18 +29,6 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_2|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: FPSfGfmZs5rjz5dlqreuDK7B
-  port: '62202'
-  server: 37.120.189.107
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''
 - name: GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
