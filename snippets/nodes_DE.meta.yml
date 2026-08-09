@@ -20,13 +20,6 @@ proxies:
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: '德国 #3'
-  password: 8645697d-51c1-4e90-aca5-ba63a0392f11
-  port: 443
-  server: cze-01.node.lumixnet.com
-  sni: cze-01.node.lumixnet.com
-  tls: false
-  type: hysteria2
 - name: 🇩🇪DE
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
@@ -35,7 +28,7 @@ proxies:
   sni: dg1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '德国 #4'
+- name: '德国 #3'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.120
@@ -52,7 +45,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '德国 #5'
+- name: '德国 #4'
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
   server: bel-03.node.lumixnet.com
@@ -90,23 +83,22 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|1.0MB/s
-  network: xhttp
-  port: '2087'
-  server: 104.16.6.70
-  servername: ip.xn--fjqyexxidv2znoe9rk1n8ada0532g6usa.com
+- client-fingerprint: chrome
+  name: 🇩🇪DE_1|2.6MB/s
+  network: ws
+  port: 443
+  server: 162.159.128.253
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 60cb13f0-4e85-4e10-b7f1-86a7a73afad9
-  xhttp-opts:
-    host: full.xn--fjqyexxidv2znoe9rk1n8ada0532g6usa.com
-    mode: auto
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    max-early-data: 2560
     path: /
   xudp: true
