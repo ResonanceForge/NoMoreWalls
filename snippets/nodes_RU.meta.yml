@@ -28,16 +28,53 @@ proxies:
   sni: www.linux.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.7MB/s
-  port: 993
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  server: 88.218.44.4
-  servername: swcdn.apple.com
-  skip-cert-verify: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇷🇺RU_1|2.4MB/s
+  network: xhttp
+  port: 443
+  server: 135.106.140.23
+  servername: qwesd.rutendingaltos.top
   tls: true
   type: vless
   udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: qwesd.rutendingaltos.top
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇷🇺RU_2|1.5MB/s
+  network: xhttp
+  port: 443
+  server: wqeds.denverpresents.top
+  servername: wqeds.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: wqeds.denverpresents.top
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- name: 🇷🇺RU_3|1.7MB/s
+  port: 1080
+  server: 193.233.218.213
+  type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU_4|1.3MB/s
+  network: xhttp
+  port: '443'
+  server: 178.72.162.73
+  servername: wqeds.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    path: /assets/build/_app/immutable/chunks/stream-one/
+  xudp: true
