@@ -89,115 +89,86 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.108
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 172.67.149.60
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /id-tksi
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.143
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
+  name: 美国+CloudFlare节点
   network: ws
   port: 2087
-  server: mfa.gov.ua
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     path: /
-- flow: ''
-  name: 美国+麻省理工学院
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 80
-  server: 18.239.134.69
-  tls: false
-  type: vless
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-    path: /
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.159
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.121
+  server: 104.17.111.4
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 挪威+V2CROSS.COM
+  network: tcp
+  port: 13868
+  reality-opts:
+    public-key: W24D31y_1ZaASX1bq3d85DQaQd_3NcJQCvg1wmCn-Uo
+    short-id: 'e852dc'
+  server: 138.124.181.51
+  servername: www.ea.com
+  tls: false
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '7a76f3c4b9dd'
+  server: jdwabxe.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: ip.myip2.qzz.io
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.72
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.149.60
+  server: 104.18.152.225
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -205,19 +176,62 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #10'
+- name: '美国+CloudFlare节点 #6'
   network: ws
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   port: 443
-  server: 104.17.182.11
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  sni: _acme-challenge.sb.cloudns.biz
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- alpn:
+  - http/1.1
+  name: 美国+加州
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 韩国+首尔Amazon数据中心
+  password: ND91608427
+  port: 443
+  server: upward-puma.rooster465.autos
+  sni: upward-puma.rooster465.autos
+  type: trojan
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.155
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 俄罗斯+V2CROSS.COM
   password: 7836b28e-8451-4596-ad3e-e3601b2335ba
   port: 8443
@@ -226,81 +240,59 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '7a76f3c4b9dd'
+  server: 152.53.236.22
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 英国+Technicolor+SA
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  port: 443
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 255f9bd5-670f-4b34-9429-9e4388594160
+  ws-opts:
+    headers:
+      Host: pane3.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
 - name: '美国+CloudFlare节点 #11'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.208
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #12'
-  network: ws
-  port: 2053
-  server: 104.21.36.164
-  servername: ger-full.deepinsane.com
-  tls: true
-  type: vless
-  uuid: 42f3c6bc-fdc3-4d4e-b95d-f84f9e6bf27f
-  ws-opts:
-    headers:
-      Host: ger-full.deepinsane.com
-    path: /api/vote/number/row/n1
-- name: '美国+CloudFlare节点 #13'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #14'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
+  server: 104.16.174.37
+  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 法国巴黎+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #15'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.50
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #16'
-  network: ws
-  port: 443
-  server: 104.17.28.89
-  servername: workspace.evan00.dpdns.org
-  tls: true
-  type: vless
-  uuid: 1078d418-b4e0-4668-9018-dc90c2042d61
-  ws-opts:
-    headers:
-      Host: workspace.evan00.dpdns.org
-    path: /
 - name: 荷兰
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
@@ -570,6 +562,13 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
+- name: 🪢53@oneclickvpnkeys
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 93.114.194.122
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  tls: false
+  type: hysteria2
 - name: 🇳🇱
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
@@ -618,7 +617,7 @@ proxies:
   sni: www.intel.com
   tls: false
   type: hysteria2
-- name: '美国 #1'
+- name: '美国 #2'
   password: a000fb47-5dfd-4a6b-9739-2878883d6969
   port: 36253
   server: uswx4.wxgqlfx.vip
@@ -645,6 +644,13 @@ proxies:
   sni: usaw2.awo-link.com
   tls: false
   type: hysteria2
+- name: '德国 #4'
+  password: c175d956-d1f4-4c53-b2b1-8493bf8529c6
+  port: 443
+  server: 87.120.84.189
+  sni: de1.apexvpn.space
+  tls: false
+  type: hysteria2
 - name: '🇺🇸US #1'
   password: c2948c84-748f-47f6-bc7a-b949ef279f85
   port: 443
@@ -653,7 +659,7 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- name: '德国 #4'
+- name: '德国 #5'
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
   server: bel-03.node.lumixnet.com
@@ -665,6 +671,13 @@ proxies:
   port: 55443
   server: host-vds2-fr.kvncococ.org
   sni: host-vds2-fr.kvncococ.org
+  tls: false
+  type: hysteria2
+- name: '波兰 #1'
+  password: df489ab2-2242-4952-a774-1074a3a31f41
+  port: 8443
+  server: eh-spl1.craft-supply.org
+  sni: eh-spl1.craft-supply.org
   tls: false
   type: hysteria2
 - name: 🇧🇷BR
@@ -752,10 +765,25 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
+- name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.213.89.22
+  skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
 - name: '荷兰 #8'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.216
+  sni: grape-turbo-fr.roxa.org
+  tls: false
+  type: hysteria2
+- name: '荷兰 #9'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.219
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
@@ -791,13 +819,6 @@ proxies:
   server: hystry.accuratenetworkchecker.ir
   skip-cert-verify: false
   sni: vhd.nth.gelzaro.ir
-  tls: false
-  type: hysteria2
-- name: 🪢53@oneclickvpnkeys
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 93.114.194.122
-  sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
@@ -904,15 +925,6 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- name: ZOHAL-SVERVER-1
-  obfs: salamander
-  obfs-password: Jdb392b3j838dkdn3j$$ueh
-  password: gLkkfesaSD
-  port: 40308
-  server: 156.226.175.33
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 🪢30@oneclickvpnkeys
   password: gf1
   port: 443
@@ -965,13 +977,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '@meliproxyy'
-  password: kjq3gpn1xom1ted9
-  port: 52086
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: '@v2rayng_Fast'
   obfs: salamander
   obfs-password: dscbu47eev49tv84
@@ -979,13 +984,6 @@ proxies:
   port: 52086
   server: assets.gateway-stream.com
   skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '@meliproxyy #1'
-  password: kjq3gpn1xom1ted9
-  port: 52087
-  server: assets.gateway-stream.com
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
