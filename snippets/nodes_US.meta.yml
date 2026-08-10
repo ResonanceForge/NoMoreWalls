@@ -1,107 +1,81 @@
 proxies:
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 美国+CloudFlare节点
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.207
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 2053
+  server: 104.21.36.164
+  servername: ger-full.deepinsane.com
+  tls: true
+  type: vless
+  uuid: 42f3c6bc-fdc3-4d4e-b95d-f84f9e6bf27f
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: ger-full.deepinsane.com
+    path: /api/vote/number/row/n1
 - name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.46
+  server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #2'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.121
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 8443
+  server: 104.17.167.149
+  servername: free-7f1.pages.dev
+  tls: true
+  type: vless
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: free-7f1.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 北美地区+V2CROSS.COM
+  network: tcp
+  port: 42282
+  reality-opts:
+    public-key: CiKtn_6x0VptZJdHbe7wW_9yetDMfZ6RhqRVTsfP1Bg
+    short-id: '!!str 9ff38a'
+  server: 104.252.53.195
+  servername: g.co
+  tls: false
+  type: vless
+  uuid: e3a1a6f5-2491-42e8-b2e1-7c84f0c547e8
 - name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: true
+  server: 104.16.174.44
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwabxe.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.236.22
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #2'
-  network: ws
-  port: 443
-  server: www.true.th
-  servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
     headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #4'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 8880
+  server: deepl.com
+  tls: false
+  type: vless
+  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: young-wind-3c58.240-2ce.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
 - name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.175
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
+  server: 104.18.152.133
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -109,62 +83,63 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 美国+加利福尼亚
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: P2MV0I11JvKg-G3wfg64YVGUEh0Wvy6C4MTVsMPWdyQ
+    short-id: '!!str 7b1c7d9a3f2a'
+  server: 64.188.82.57
+  servername: ee-download.spectrum.vu
+  tls: false
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
-  server: 8.6.112.0
+  server: render.com
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 美国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 45.130.125.207
+  servername: terazhediii.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  ws-opts:
+    headers:
+      Host: terazhediii.info
+    path: /hdgrbws
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2F%2Fassignment'
 - name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.12.149
+  server: www.speedtest.org
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.103
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #3'
-  network: ws
-  port: 80
-  server: www.true.th
-  tls: false
-  type: vless
-  uuid: 63ae5b68-f6f8-432e-b440-d975053cfbc2
-  ws-opts:
-    headers:
-      Host: d16l6nb4do0zu4.cloudfront.net
-    path: /than
 - name: 美国
   password: 571e40e5-d597-4618-9204-535c94dca771
   port: 36253
