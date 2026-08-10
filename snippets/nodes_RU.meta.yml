@@ -1,12 +1,10 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  port: 8443
-  server: 78.159.240.69
-  skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  tls: false
-  type: hysteria2
+- cipher: aes-256-gcm
+  name: 俄罗斯+V2CROSS.COM
+  password: d1fa2f4b98a38bc8
+  port: 10901
+  server: 62.76.234.188
+  type: ss
 - name: 俄罗斯
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
@@ -20,5 +18,13 @@ proxies:
   server: 5.129.235.85
   skip-cert-verify: true
   sni: www.linux.com
+  tls: false
+  type: hysteria2
+- name: 🇷🇺140009 | ⚡️Telegram = t.me/S...
+  password: 95c61940-2823-4665-a033-d4f2218329b6
+  port: 443
+  server: 46.8.210.209
+  skip-cert-verify: false
+  sni: ru3.kinotorg.net
   tls: false
   type: hysteria2
