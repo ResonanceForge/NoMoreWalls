@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
-    short-id: '!!str 4c5a76834671'
-  server: kzbkjum.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - name: 德国
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   port: 443
@@ -65,13 +52,6 @@ proxies:
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: '德国 #5'
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
-  port: 443
-  server: bel-03.node.lumixnet.com
-  sni: bel-03.node.lumixnet.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -96,3 +76,25 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+  server: 94.249.225.83
+  servername: plucky-kestrel.cdn.cachefleet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+- name: DE_speednode_0001
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: testuser1
