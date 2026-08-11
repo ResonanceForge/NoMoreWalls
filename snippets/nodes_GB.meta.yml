@@ -1,4 +1,30 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: node19.mxvpn.dev
+  servername: node19.mxvpn.dev
+  tls: false
+  type: vless
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: 77.239.123.219
+  servername: node19.mxvpn.dev
+  tls: false
+  type: vless
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - name: 英国
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
@@ -19,6 +45,13 @@ proxies:
   server: 5.183.102.113
   skip-cert-verify: true
   sni: iosapps.itunes.apple.com
+  tls: false
+  type: hysteria2
+- name: '英国 #2'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.221
+  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
 - name: GB_speednode_0003
