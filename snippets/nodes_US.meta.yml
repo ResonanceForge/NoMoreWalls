@@ -3,8 +3,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.4
-  skip-cert-verify: false
+  server: www.speedtest.org
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -13,12 +12,56 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.207
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.144
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8080
+  server: premium-us-az-01-hostinger.efgwf.online
+  tls: false
+  type: vless
+  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+  ws-opts:
+    headers:
+      Host: premium-us-az-01-hostinger.efgwf.online
+    path: /ws-hTopcF3L
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel.tirexnet.kdns.fr
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.155
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -28,26 +71,100 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.46
+  server: 104.18.152.143
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #8'
+  network: ws
+  port: 443
+  server: da.mfa.gov.ua
+  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 美国+麻省理工学院
+  network: ws
+  port: 443
+  server: 18.239.83.52
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
+  server: 104.16.174.121
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: '美国+CloudFlare节点 #11'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #12'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #13'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #14'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #15'
   network: ws
   password: humanity
   port: 443
@@ -56,81 +173,19 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.246
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  port: 443
-  server: 151.101.56.7
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 255f9bd5-670f-4b34-9429-9e4388594160
-  ws-opts:
-    headers:
-      Host: pane3.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #7'
+  name: '美国+CloudFlare节点 #16'
   network: ws
-  port: 443
-  server: 172.64.150.28
-  servername: hhlfy.twiladaphne.ndjp.net
+  port: 2087
+  server: 172.64.53.140
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.113
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
 - name: 美国
   password: 571e40e5-d597-4618-9204-535c94dca771
   port: 36253
@@ -185,14 +240,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🇺🇸140322 | ⚡️Telegram = t.me/S...
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 44.251.47.95
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -217,23 +264,63 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|2.1MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|1.6MB/s
+  network: ws
+  port: '443'
+  server: ansooyefilter-hhh.up.railway.app
+  servername: ansooyefilter-hhh.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e637c2-f9c0-0bce-75f9-f1f4e44d1553
+  ws-opts:
+    headers:
+      Host: ansooyefilter-hhh.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /ws/f4e637c2-f9c0-0bce-75f9-f1f4e44d1553
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_2|1.7MB/s
+  network: ws
+  port: '443'
+  server: 69.46.46.12
+  servername: rvg-production-1ff1.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: b07f0c03-a875-ec14-18b3-41298277bb25
+  ws-opts:
+    headers:
+      Host: rvg-production-1ff1.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /ws/b07f0c03-a875-ec14-18b3-41298277bb25
+  xudp: true
+- name: US_speednode_0126
+  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
   port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
+  server: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
   tls: true
   type: http
-- auth: 53b59cb5-c741-3399-9065-93dc34685f5b
-  name: 🇺🇸US_2|2.7MB/s
-  obfs: salamander
-  obfs-password: XBvVbvzQCq6Ovbnh
-  password: 53b59cb5-c741-3399-9065-93dc34685f5b
-  port: 14101
-  server: usaw2.awo-link.com
-  sni: usaw2.awo-link.com
-  type: hysteria2
   udp: true
+  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- name: 🇺🇸US_5|3.0MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - client-fingerprint: firefox
   name: US_speednode_0117
   network: tcp
@@ -305,6 +392,21 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0123
+  network: tcp
+  port: 31877
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
 - name: US_speednode_0124
   port: 9002
   server: 138.199.35.210
@@ -312,14 +414,37 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US_speednode_0126
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  port: 443
-  server: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0125
+  network: tcp
+  port: 39395
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0127
+  network: tcp
+  packet-encoding: xudp
+  port: 9713
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
 - name: US_speednode_0128
   port: 9002
   server: 138.199.35.212
