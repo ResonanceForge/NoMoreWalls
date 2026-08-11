@@ -1,18 +1,16 @@
 proxies:
-- client-fingerprint: chrome
+- name: 英国+Technicolor+SA
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
   name: 英国+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 82.40.42.204
-  servername: rubifen.adaspoloandco.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: '%2FGOrbEh'
+  password: LHZzf4y0j2WQlZsTh0NzPxVmTYufR-TA
+  port: 1080
+  server: sub.almavpn.shop
+  type: ss
 - name: 英国
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
