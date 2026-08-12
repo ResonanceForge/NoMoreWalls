@@ -76,13 +76,56 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|5.2MB/s
-  password: amazonskr05
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|4.2MB/s
+  network: tcp
   port: 443
-  server: 51.102.205.132
-  type: ss
+  reality-opts:
+    public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
+  server: 152.53.173.90
+  servername: fastsync.xyz
+  tls: true
+  type: vless
   udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+- name: 🇩🇪DE_2|1.2MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vs39cITZN6jMHKslRMmvkwXupHXUbyKNX1MQsWRWKlg
+    short-id: '!!str 3f40efc7'
+  server: germany1.banovano.space
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 20717e25-8cea-4634-b9ab-9c9bc9ca0620
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_4|3.2MB/s
+  network: ws
+  port: '443'
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c7fd652-42a0-4f77-85a3-dfb0dec40d97
+  ws-opts:
+    headers:
+      Host: SvnTeamChannel.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443
