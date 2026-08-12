@@ -255,7 +255,7 @@ rules:
   - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,❓ 疑似国内 # Google Play 纯国内 服务器，似乎没啥卵用？
   - DOMAIN-SUFFIX,gvt1-cn.com,DIRECT
   - DOMAIN,redirector.gvt1.com,DIRECT # 会解析到你使用的运营商
-  - DOMAIN,fonts.googleapis.com,DIRECT
+  # - DOMAIN,fonts.googleapis.com,DIRECT
   - GEOSITE,googlefcm,❓ 疑似国内
   # gvt1.com 不加任何规则，根据 GEOIP 判断是否走代理
   
