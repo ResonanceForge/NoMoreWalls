@@ -146,20 +146,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 🇺🇸 美国2|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 34039
-  server: 18.163.100.58
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 39024
-  server: 18.166.226.204
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -185,23 +171,31 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - alpn:
-  - h3
-  - ' h2'
-  - ' http/1.1'
-  client-fingerprint: chrome
-  name: 🇺🇸US_2|2.2MB/s
-  network: tcp
-  password: 08QNE5JBq7kTV6b9Dd6e_w-y4WhjMLS9
-  port: '8443'
-  server: ru.federal-usa.com
-  skip-cert-verify: false
-  sni: ru.federal-usa.com
+  - http/1.1
+  name: 🇺🇸US_1|2.2MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: gb-ss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_16|4.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.219.164.184
-  type: ss
+  ws-opts:
+    headers:
+      Host: gb-ss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_13|2.1MB/s
+  network: tcp
+  port: '53168'
+  server: lt.badns.help
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  xudp: true

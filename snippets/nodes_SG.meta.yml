@@ -15,27 +15,6 @@ proxies:
   sni: sg3.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 🇸🇬 新加坡|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 45747
-  server: 57.183.7.187
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 45744
-  server: 18.166.178.12
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 41421
-  server: 95.40.53.193
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -49,6 +28,7 @@ proxies:
   password: 6ec301428255a78a1d826988d86cc87e
   port: 45744
   server: 16.162.192.182
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
@@ -59,3 +39,33 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|5.0MB/s
+  network: ws
+  port: 2083
+  server: 8.39.125.209
+  servername: pphmsubs.911388.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c029086-e4b3-4f22-82d8-b84dd70f243c
+  ws-opts:
+    headers:
+      Host: pphmsubs.911388.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬SG_2|4.4MB/s
+  network: ws
+  port: 2083
+  server: 188.164.248.72
+  servername: jcxjcnasvip.jcdenas.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
+  ws-opts:
+    headers:
+      Host: jcxjcnasvip.jcdenas.top
+    path: /

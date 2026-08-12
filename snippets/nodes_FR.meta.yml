@@ -42,11 +42,91 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.8MB/s
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.7MB/s
+  network: tcp
+  port: 443
+  server: fr76.mechvpn.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|1.2MB/s
+  network: tcp
+  port: 443
+  server: fr15.mechvpn.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.4MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.18.152.208
+  server: 104.16.174.12
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|2.9MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.21.46.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_5|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_6|1.8MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 8.6.112.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_7|2.4MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.20.6.134
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -54,61 +134,8 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /assignment
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 🇫🇷FR_2|2.3MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: ns.o11111o.club
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-  xudp: true
-- name: 🇫🇷FR_3|1.1MB/s
-  port: 443
-  server: 103.82.101.43
-  skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇫🇷FR_4|1.9MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.230
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_5|2.1MB/s
-  network: raw
-  port: '20513'
-  reality-opts:
-    public-key: CTfSuRE6fUPYVBJGsmOYnP3UketmmTJSQP45OcoGI2k
-    short-id: '!!str 285db1978fd0d8c1'
-  server: 45.13.119.221
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4dd107cd-c388-403f-aedc-77a76bb9bc93
-  xudp: true
 - name: FR_speednode_0002
   port: 23856
   server: 51.159.225.196

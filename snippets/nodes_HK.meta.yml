@@ -23,38 +23,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港3|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 57.183.7.187
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: HK_speednode_0013
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 29444
-  server: 18.162.120.21
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -79,11 +47,43 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|2.0MB/s
+  network: tcp
+  port: 20243
+  reality-opts:
+    public-key: fB0gzruxHdrID18WQclmC5QGVCrHTqOwnqFosxh2TnY
+    short-id: '!!str 214dd1031b8a'
+  server: 34.124.166.13
+  servername: www.spotify.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
   skip-cert-verify: true
   sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK_speednode_0013
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
