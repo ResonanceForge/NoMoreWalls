@@ -1,4 +1,11 @@
 proxies:
+- name: 香港+Simcentric网络公司
+  network: tcp
+  port: 10000
+  server: 180.178.60.253
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - name: 🇭🇰HK
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -23,14 +30,16 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: 🇭🇰HK_1|1.1MB/s
   network: tcp
   password: BxceQaOe
   port: 11035
   server: 18.162.244.203
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tls: true
   type: trojan
+  udp: true
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -49,14 +58,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: 16b3793b-3335-4832-b1fd-877b2c5e15d6
-  name: 🇭🇰HK_1|1.2MB/s
-  password: 16b3793b-3335-4832-b1fd-877b2c5e15d6
-  port: 8443
-  server: 42.200.231.126
-  skip-cert-verify: true
-  sni: store.nintendo.com.hk
-  type: hysteria2
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161
