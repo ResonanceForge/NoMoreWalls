@@ -1,4 +1,42 @@
 proxies:
+- name: 俄罗斯(yudou789.top 玉豆免费节点)
+  network: ws
+  password: cd5637fd-f992-423a-8be0-5b80360f26fc
+  port: 443
+  server: aeryy5gfrp630ww1.lovebaipiao.net
+  skip-cert-verify: false
+  sni: aeryy5gfrp630ww1.lovebaipiao.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aeryy5gfrp630ww1.lovebaipiao.net
+    path: '%2Fimages'
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '俄罗斯(yudou789.top 玉豆免费节点) #1'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
+    short-id: '!!str fa1a12cf'
+  server: 161.104.32.106
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '俄罗斯(yudou789.top 玉豆免费节点) #2'
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
+    short-id: '!!str fa1a12cf'
+  server: 161.104.32.106
+  servername: eh.vk.com
+  tls: false
+  type: vless
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
 - name: 俄罗斯
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443

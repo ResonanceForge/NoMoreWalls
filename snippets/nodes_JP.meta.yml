@@ -1,4 +1,18 @@
 proxies:
+- name: 日本(yudou789.top 玉豆免费节点)
+  port: 10808
+  server: 101.36.104.239
+  tls: false
+  type: socks5
+  username: Og
+- name: 'JP日本(mibei77.com 米贝节点分享) #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
 - name: 🇯🇵JP
   password: 0c3bd8c8-53db-4126-a98f-d12d908d5301
   port: 11000

@@ -1,4 +1,46 @@
 proxies:
+- name: FR法国(mibei77.com 米贝节点分享)
+  network: ws
+  port: 2200
+  server: 194.26.229.207
+  servername: rzd.ru
+  tls: false
+  type: vless
+  uuid: f2d2907c-1d74-43eb-8fd2-fc55dfd92427
+  ws-opts:
+    path: '%2Fv1'
+- name: 'FR法国(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: 2200
+  server: 104.171.137.176
+  tls: false
+  type: vless
+  uuid: 43874ef1-1f74-4b8b-bc84-1d13caabd71b
+  ws-opts:
+    path: '%2Fv1'
+- client-fingerprint: chrome
+  name: 'FR法国(mibei77.com 米贝节点分享) #3'
+  network: xhttp
+  port: 65513
+  reality-opts:
+    public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
+    short-id: '!!str 21569dd6'
+  server: 2001:bc8:32d7:302::10
+  servername: www.yahoo.com
+  tls: false
+  type: vless
+  uuid: 2567e2e0-8d4c-4c51-aee9-5d1f36024472
+  ws-opts:
+    path: '%2F6eg3r4an'
+- name: 法国巴黎+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 法国
   password: 5bc8aea0-04a6-4fcf-9a04-1a51518396a8
   port: 35000

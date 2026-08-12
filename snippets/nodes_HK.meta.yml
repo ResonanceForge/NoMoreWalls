@@ -1,4 +1,22 @@
 proxies:
+- name: '香港(yudou789.top 玉豆免费节点) #1'
+  port: 20000
+  server: 59.38.113.185
+  tls: false
+  type: socks5
+  username: Og
+- flow: xtls-rprx-vision
+  name: 'HK香港(mibei77.com 米贝节点分享) #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: P2MV0I11JvKg-G3wfg64YVGUEh0Wvy6C4MTVsMPWdyQ
+    short-id: '!!str 7b1c7d9a3f2a'
+  server: 64.188.82.57
+  servername: ee-download.spectrum.vu
+  tls: false
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
 - name: 🇭🇰HK
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
