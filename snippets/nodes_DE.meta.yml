@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
-    short-id: '!!str 4c5a76834671'
-  server: 185.164.111.48
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - name: 德国
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   port: 443
@@ -65,29 +52,14 @@ proxies:
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: 🎗️41@oneclickvpnkeys
+- name: 🇩🇪140846 | ⚡️Telegram = t.me/S...
   obfs: salamander
-  obfs-password: 816ys5fceofhpwft
-  password: 22j0d00lev7mq0yv
-  port: 1935
-  server: ipaste.4ippi.ru
-  sni: ipaste.4ippi.ru
-  tls: false
-  type: hysteria2
-- name: 🎗️44@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: 22j0d00lev7mq0yv
-  port: 443
-  server: social.klipp.su
-  sni: social.klipp.su
-  tls: false
-  type: hysteria2
-- name: 🎗️40@oneclickvpnkeys
-  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
-  port: 443
-  server: 103.27.156.125
-  sni: node-degame.bangboonet.ru
+  obfs-password: AIbOe_791iQ4k6kPUgdsO7B9
+  password: 9cc2113e-6b5b-4ced-9c46-70cf78d2c599
+  port: 2082
+  server: dns.tokyoservice.ir
+  skip-cert-verify: false
+  sni: hy2.tokyoservice.ir
   tls: false
   type: hysteria2
 - alpn:
