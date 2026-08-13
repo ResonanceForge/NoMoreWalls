@@ -1,16 +1,14 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇨🇦CA_1|2.8MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 加拿大+V2CROSS.COM
   network: tcp
-  port: '2053'
+  port: 443
   reality-opts:
-    public-key: 0KeXfLKnfTgIL7U-hSEn284rsECLiru0s0Rd11XzyzQ
-    short-id: '!!str d823e50b944daee4'
-  server: 66.70.179.198
-  servername: www.apple.com
-  tls: true
+    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
+    short-id: '!!str 250b5976473a'
+  server: 167.17.68.205
+  servername: www.cloudflare.com
+  tls: false
   type: vless
-  udp: true
-  uuid: 339db138-41ff-44e9-a323-46da89fbf1a7
-  xudp: true
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
