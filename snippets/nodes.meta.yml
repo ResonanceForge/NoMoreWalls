@@ -405,6 +405,56 @@ proxies:
     headers:
       Host: xvh.andishehparenting.com
     path: '%2F'
+- name: 伊朗+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 40443
+  server: 2.144.21.112
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.179
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 加拿大+V2CROSS.COM
@@ -413,141 +463,12 @@ proxies:
   reality-opts:
     public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
     short-id: '250b5976473a'
-  server: jyvlryz.cvewfjg.shop
+  server: 167.17.68.205
   servername: www.cloudflare.com
   tls: false
   type: vless
   uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 伊朗+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 2000
-  server: 2.144.21.150
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
-  network: tcp
-  port: 13868
-  reality-opts:
-    public-key: 8SX8GXMe3lXOyY_acO4HFXXYJn_rOOf4zkYFrifV1Tk
-    short-id: 'e852dc'
-  server: 78.17.112.103
-  servername: www.epicgames.com
-  tls: false
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  ws-opts:
-    headers:
-      Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2086
-  server: 104.21.4.10
-  tls: false
-  type: vless
-  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
-  ws-opts:
-    headers:
-      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
-    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 🎗️20@oneclickvpnkeys
-  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
-  port: 8443
-  server: iq5ny.pleiades.codes
-  skip-cert-verify: true
-  sni: iq5ny.pleiades.codes
-  tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.246
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 8880
-  server: cf3.466688.xyz
-  tls: false
-  type: vless
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
-  ws-opts:
-    headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 443
-  server: 172.67.69.106
-  servername: zero.csmaster.ggff.net
-  tls: true
-  type: vless
-  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
-  ws-opts:
-    headers:
-      Host: zero.csmaster.ggff.net
-    path: /
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
@@ -559,54 +480,118 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: '美国+CloudFlare节点 #10'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 保加利亚+V2CROSS.COM
+  network: tcp
+  port: 443
+  server: s544.ccgfw.online
+  servername: u643766u7fa15b34s542.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  ws-opts:
+    headers:
+      Host: 7fa15b34s542.gogocs.xyz
+    path: ''
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 104.18.152.187
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 2096
-  server: 91.193.58.131
-  servername: free-server.techsonic.dev
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 荷兰+V2CROSS.COM
+  network: tcp
+  port: 443
+  server: 88.151.33.158
+  servername: u643766u8e236674s502.gogocs.xyz
   tls: true
   type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
   ws-opts:
     headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '加拿大+V2CROSS.COM #1'
-  network: tcp
+      Host: 8e236674s502.gogocs.xyz
+    path: ''
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
-    short-id: '250b5976473a'
-  server: 167.17.68.205
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
+  server: 104.18.152.108
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
-    short-id: '4c5a76834671'
-  server: 185.164.111.48
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+  server: 104.16.174.46
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 199.232.78.150
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s4z-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 法国巴黎+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - alpn:
   - http/1.1
   name: '美国+V2CROSS.COM #1'
@@ -621,6 +606,43 @@ proxies:
     headers:
       Host: s2z-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  port: 443
+  server: s3.cloud--vpn.site
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: beaa03e1-b66f-4a38-88a7-705afff3f8aa
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /
+- name: '美国+CloudFlare节点 #11'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 荷兰
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
@@ -719,6 +741,14 @@ proxies:
   sni: j47lq.pleiades.codes
   tls: false
   type: hysteria2
+- name: 🎗️20@oneclickvpnkeys
+  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  port: 8443
+  server: iq5ny.pleiades.codes
+  skip-cert-verify: true
+  sni: iq5ny.pleiades.codes
+  tls: false
+  type: hysteria2
 - name: '荷兰 #3'
   password: 99800091-8337-4112-8756-8cc60eb1ffa8
   port: 10808
@@ -764,6 +794,14 @@ proxies:
   sni: vpn-kr-003.fastervpn.world
   tls: false
   type: hysteria2
+- name: 🇰🇷141444 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.36.93.74
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
 - name: '罗马尼亚 #2'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
@@ -786,7 +824,7 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: 🎗️21@oneclickvpnkeys
+- name: 🛗10@oneclickvpnkeys
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 86.107.178.66
@@ -794,7 +832,7 @@ proxies:
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-- name: 🎗️25@oneclickvpnkeys
+- name: 🛗8@oneclickvpnkeys
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 86.107.178.68
@@ -974,6 +1012,14 @@ proxies:
   sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
+- name: 🛗21@oneclickvpnkeys
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: 193.23.194.78
+  skip-cert-verify: true
+  sni: nl1.noesissite.ru
+  tls: false
+  type: hysteria2
 - name: '@confiig_hub'
   obfs: salamander
   obfs-password: dnwx30hvcobf7xcf
@@ -1014,7 +1060,7 @@ proxies:
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
-- name: 🎗️44@oneclickvpnkeys
+- name: 🛗52@oneclickvpnkeys
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
   password: 22j0d00lev7mq0yv
@@ -1023,13 +1069,12 @@ proxies:
   sni: social.klipp.su
   tls: false
   type: hysteria2
-- name: 🇵🇱PL-🚀@VPNine1
+- name: 🇵🇱141447 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: 1yvnm8sv41
   password: 2b5f7fc3d38f4798a0f62d4ef8876528
   port: 443
   server: 82.22.41.125
-  skip-cert-verify: true
   sni: pl6.lckdwn.ru
   tls: false
   type: hysteria2
@@ -1255,14 +1300,6 @@ proxies:
   sni: ftp.debian.org
   tls: false
   type: hysteria2
-- name: 1🔖@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
@@ -1359,25 +1396,21 @@ proxies:
   sni: nl2.sferavpn.pro
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_5|3.5MB/s
+- name: 🇩🇪DE-🚀@VPNine1
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
-  port: '443'
-  server: de2.sferavpn.pro
-  skip-cert-verify: false
-  sni: de2.sferavpn.pro
+  port: 443
+  server: de1.sferavpn.pro
+  sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-  up: ''
-- name: 🇷🇴141288 | ⚡️Telegram = t.me/S...
-  password: gf1
-  port: 443
-  server: 185.156.44.99
+- name: 🛗35@oneclickvpnkeys
+  password: d1a0857bc1eb833a9edf96be4c1f999e
+  port: 55443
+  server: 94.183.188.132
   skip-cert-verify: true
-  sni: 185.156.44.99
+  sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
 - name: 🎗️49@oneclickvpnkeys
@@ -1419,6 +1452,16 @@ proxies:
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: Tunnel  germany ² 🇩🇪-@vpnserve...
+  obfs: salamander
+  obfs-password: w086cefx0803sepr
+  password: o8qxh96m6i335s6k
+  port: 46918
+  server: gr.nexovip.cyou
+  skip-cert-verify: false
+  sni: gr.nexovip.cyou
   tls: false
   type: hysteria2
 - name: '✅  @vistav2ray  👈👈کانال ما ✅ #2'
@@ -1864,6 +1907,18 @@ proxies:
   type: http
   udp: true
   username: ''
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_5|3.5MB/s
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: '443'
+  server: de2.sferavpn.pro
+  skip-cert-verify: false
+  sni: de2.sferavpn.pro
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   name: 🇭🇰HK_4|4.7MB/s
   password: BxceQaOe

@@ -25,19 +25,6 @@ proxies:
     headers:
       Host: eu-central.862400.xyz
     path: '%2Fannouncement'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
-    short-id: '!!str 4c5a76834671'
-  server: 185.164.111.48
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - name: 德国
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
@@ -136,19 +123,25 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_5|3.5MB/s
+- name: 🇩🇪DE-🚀@VPNine1
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
-  port: '443'
-  server: de2.sferavpn.pro
-  skip-cert-verify: false
-  sni: de2.sferavpn.pro
+  port: 443
+  server: de1.sferavpn.pro
+  sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-  up: ''
+- name: Tunnel  germany ² 🇩🇪-@vpnserve...
+  obfs: salamander
+  obfs-password: w086cefx0803sepr
+  password: o8qxh96m6i335s6k
+  port: 46918
+  server: gr.nexovip.cyou
+  skip-cert-verify: false
+  sni: gr.nexovip.cyou
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -200,6 +193,18 @@ proxies:
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
   type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_5|3.5MB/s
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: '443'
+  server: de2.sferavpn.pro
+  skip-cert-verify: false
+  sni: de2.sferavpn.pro
+  type: hysteria2
+  up: ''
 - client-fingerprint: qq
   encryption: none
   grpc-opts:
