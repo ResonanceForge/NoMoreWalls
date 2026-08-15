@@ -143,12 +143,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-- cipher: aes-256-gcm
-  name: 亚太地区+V2CROSS.COM
-  password: g9SlRBOf9Dy9Xjf0
-  port: 8388
-  server: 103.115.18.48
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '80'
+  server: ar.paydar.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00104263-5b99-491f-85bd-5f296d8447df
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05

@@ -15,35 +15,16 @@ proxies:
   sni: ro.h2corp.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 英国+V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 185.109.48.13
-  servername: forfreeuse.rtqa.ru
-  tls: true
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
-- name: '英国+V2CROSS.COM #1'
-  password: dbab9df7-5c0a-4726-8574-11e34972b67d
-  port: 33015
-  server: 86.53.105.117
-  skip-cert-verify: true
-  sni: www.bing.com
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '80'
+  server: ar.paydar.site
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '英国+V2CROSS.COM #2'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: db1.mangshe.xyz
-  skip-cert-verify: true
-  sni: db1.mangshe.xyz
-  tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 00104263-5b99-491f-85bd-5f296d8447df
 - name: 🇬🇧GB
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056

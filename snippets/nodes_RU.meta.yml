@@ -37,14 +37,19 @@ proxies:
   tls: false
   type: vless
   uuid: 501b6afa-f955-473f-8440-1010110a1548
-- name: 俄罗斯+V2CROSS.COM
-  password: 130e6aab-9eba-441e-9021-22cbccc72832
-  port: 8443
-  server: srvhy1.ezcon24.online
-  skip-cert-verify: false
-  sni: srvhy1.ezcon24.online
-  tls: false
-  type: hysteria2
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 2096
+  server: 91.193.58.218
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
 - name: 俄罗斯
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
