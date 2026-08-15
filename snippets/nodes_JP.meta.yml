@@ -13,6 +13,14 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
+- name: 日本+V2CROSS.COM
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
 - name: 🇯🇵JP
   password: 53f193c4-6482-45fb-8e00-60e0baf016ee
   port: 48920
@@ -46,11 +54,10 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 🇯🇵JP_1|1.1MB/s
-  network: tcp
+  name: 🇯🇵JP_1|3.6MB/s
   password: FH72359861
   port: '443'
-  server: great-wasp.rooster465.autos
+  server: trusting-elf.rooster465.autos
   skip-cert-verify: false
   type: trojan
   udp: true
