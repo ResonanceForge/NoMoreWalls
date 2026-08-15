@@ -17,14 +17,6 @@ proxies:
   tls: false
   type: vless
   uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-- name: 香港+特别行政区
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.89
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2Fclashv8%F0%9F%87%A8%F0%9F%87%B3
-  tls: false
-  type: hysteria2
 - name: 🇭🇰HK
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -86,7 +78,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇭🇰HK_1|2.5MB/s
+  name: 🇭🇰HK_1|4.0MB/s
   network: grpc
   port: 10126
   reality-opts:
@@ -97,6 +89,16 @@ proxies:
   tls: true
   type: vless
   uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
+- fingerprint: ''
+  name: 🇭🇰HK_2|5.1MB/s
+  password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
+  port: '448'
+  server: 119.147.134.47
+  skip-cert-verify: true
+  sni: ssp.vivo.com.cn
+  type: anytls
+  udp: true
+  username: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161
