@@ -56,36 +56,19 @@ proxies:
     headers:
       Host: xvh.andishehparenting.com
     path: '%2F'
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
+- name: 美国+V2CROSS.COM
+  password: ce24c43947331f36746c1f692c3812e0
+  port: 50160
+  server: 129-150-54-169.liao.kdns.fr
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  uuid: 79c9514e-aa3c-4cd0-bf0d-dd6df42039f6
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
+  sni: 129-150-54-169.liao.kdns.fr
+  tls: false
+  type: hysteria2
 - alpn:
   - http/1.1
   client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
+  name: '美国+V2CROSS.COM #1'
   network: tcp
   port: 443
   reality-opts:
@@ -96,32 +79,57 @@ proxies:
   tls: false
   type: vless
   uuid: 82e209b2-97a6-4d67-a10b-72627b9f6702
-- name: '美国+CloudFlare节点 #1'
+- client-fingerprint: chrome
+  name: 美国+麻省理工学院
+  network: ws
+  port: 443
+  server: 18.244.214.27
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: US_speednode_0120
+  network: ws
+  port: 443
+  server: www.true.th
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: /
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.26.14.137
-  skip-cert-verify: false
+  server: 104.26.15.137
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 13868
-  reality-opts:
-    public-key: xbCFPD2Gk3HP6EwfFT_0W3D_-biFaz10wlPc2h3y6QQ
-    short-id: '!!str e852dc'
-  server: 45.155.68.164
-  servername: yoox.com
-  tls: false
+- name: '美国+V2CROSS.COM #3'
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  uuid: be42674a-296a-43d8-bf04-b8314d65ff63
   ws-opts:
     headers:
-      Host: v2rayNplus--v2rayNplus--v2rayNplus
+      Host: pane2.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
 - name: 🇺🇸US
   password: 553e3253-c454-431d-a7e6-42bc06ea5e14
   port: 8443
@@ -194,20 +202,61 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: b41ad7f941ffce755cb8601bfd0f02ca
-  name: 🇺🇸US_1|1.0MB/s
-  password: b41ad7f941ffce755cb8601bfd0f02ca
-  port: 50160
-  server: 35-209-199-239.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 35-209-199-239.liao.kdns.fr
-  type: hysteria2
-- name: 🇺🇸US_2|1.3MB/s
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_1|1.9MB/s
+  network: tcp
+  port: 50159
+  reality-opts:
+    public-key: qGUBbKjlanqEx7El13jH_mBmDWHZ1a-PmxnwETB-9lM
+    short-id: '!!str 2bad4cafb9965963'
+  server: 154.17.0.91
+  servername: www.cloudflare.com
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
+- cipher: chacha20-ietf
+  name: 🇺🇸US_2|1.9MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
+- client-fingerprint: chrome
+  name: 🇺🇸US_3|4.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7VxTJ07mi8LjFwq6js_slff3Y3YgEzGzR7x9SeT5N3U
+    short-id: '!!str 660d5a6915710e6e'
+  server: 38.47.113.204
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_4|1023KB/s
+  network: ws
+  port: '443'
+  server: mina-production-f048.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c27fd46-708c-1af6-8a69-136a2bf8c847
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /ws/4c27fd46-708c-1af6-8a69-136a2bf8c847
+  xudp: true
 - client-fingerprint: firefox
   name: US_speednode_0117
   network: tcp
@@ -243,21 +292,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: US_speednode_0120
-  network: ws
-  port: 443
-  server: www.true.th
-  servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: /
 - name: US_speednode_0121
   port: 9002
   server: 138.199.35.215
