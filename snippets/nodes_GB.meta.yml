@@ -28,6 +28,22 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: /
+- name: '英国+V2CROSS.COM #1'
+  password: dbab9df7-5c0a-4726-8574-11e34972b67d
+  port: 33015
+  server: 86.53.105.117
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '英国+V2CROSS.COM #2'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: db1.mangshe.xyz
+  skip-cert-verify: true
+  sni: db1.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: 🇬🇧GB
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056

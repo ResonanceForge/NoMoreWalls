@@ -56,35 +56,64 @@ proxies:
     headers:
       Host: xvh.andishehparenting.com
     path: '%2F'
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 美国+乔治亚洲亚特兰大Fastly节点
+- name: 美国+俄勒冈州波特兰Amazon数据中心
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-006.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-006.fastervpn.world
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 美国+Amazon数据中心
   network: ws
   port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  skip-cert-verify: false
+  server: 52.84.199.28
+  servername: d1yxsk0zprgivr.cloudfront.net
   tls: true
   type: vless
-  uuid: 79c9514e-aa3c-4cd0-bf0d-dd6df42039f6
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
     headers:
-      Host: c12.com
-    path: /
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- client-fingerprint: edge
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 2053
+  server: www.wto.org
+  servername: usa.105794.xyz
+  tls: true
+  type: vless
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: usa.105794.xyz
+    path: '%2Fdownload%2Fv3%2Finstaller-x64.bin'
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
+  name: '美国+CloudFlare节点 #1'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 8zJkTehTmhmgKWUIj-CyJP4gtMjNxLgBxPjHC1wwW3A
-    short-id: '!!str 61'
-  server: 66.78.40.202
-  servername: www.samsung.com
+  server: 104.20.17.127
+  servername: trex-panel-nubj0s.samifakor.workers.dev
+  tls: true
+  type: vless
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  ws-opts:
+    headers:
+      Host: trex-panel-nubj0s.samifakor.workers.dev
+    path: /stream/TrexBridge/ef859652a80e
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 8880
+  server: cf2.466688.xyz
   tls: false
   type: vless
-  uuid: 302c2e89-6f2d-4500-90ce-26d075c7e84f
+  uuid: 11046a7c-fa1b-4653-ab87-400feb465540
+  ws-opts:
+    headers:
+      Host: nameless-poetry-12fb.8-0a2.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
 - name: 美国
   password: 571e40e5-d597-4618-9204-535c94dca771
   port: 36253
