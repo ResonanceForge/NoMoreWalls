@@ -37,6 +37,19 @@ proxies:
   tls: false
   type: vless
   uuid: 501b6afa-f955-473f-8440-1010110a1548
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 13868
+  reality-opts:
+    public-key: sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk
+    short-id: '!!str e852dc'
+  server: nd14.skorostnet.space
+  servername: booking.com
+  tls: false
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - name: 俄罗斯
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
@@ -52,20 +65,20 @@ proxies:
   sni: www.linux.com
   tls: false
   type: hysteria2
-- client-fingerprint: safari
+- alpn:
+  - h3
+  client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-reality
-  name: 🇷🇺RU_1|2.0MB/s
-  network: grpc
-  port: '9001'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 194.55.239.211
-  servername: api-maps.yandex.ru
+  name: 🇷🇺RU_1|4.2MB/s
+  network: xhttp
+  port: '443'
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
   tls: true
   type: vless
   udp: true
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+  xhttp-opts:
+    mode: auto
+    path: /
   xudp: true

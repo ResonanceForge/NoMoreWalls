@@ -11,16 +11,16 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 17111
-  server: 18.163.126.92
+  port: 1138
+  server: 43.198.107.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 95.40.111.110
+  port: 11035
+  server: 43.198.248.121
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -28,7 +28,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 27161
-  server: 95.40.95.57
+  server: 18.163.122.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -43,14 +43,44 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf
-  name: 🇭🇰HK_3|4.9MB/s
+  name: 🇭🇰HK_3|1.9MB/s
   password: passwd
   plugin: obfs
   plugin-opts:
     host: 43309-nIao34iu.download.microsoft.com
     mode: http
-  port: 8103
+  port: 8110
+  server: cn02.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: 🇭🇰HK_4|4.0MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8115
+  server: cn03.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: 🇭🇰HK_6|4.2MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8102
   server: cn01.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: 🇭🇰HK_7|3.8MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8106
+  server: cn02.somethingstranges.com
   type: ss
 - name: HK_speednode_0012
   password: BxceQaOe
