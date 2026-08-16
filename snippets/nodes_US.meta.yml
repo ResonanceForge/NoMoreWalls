@@ -60,7 +60,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.3
+  server: 104.18.152.208
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -69,7 +69,17 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.50
+  server: 104.18.152.140
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.6
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -78,37 +88,39 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.12.149
+  server: 104.16.7.70
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.225
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '443'
-  server: tst00.paydar.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8f48fcdb-66d8-4966-a185-04dd6c95041c
-- name: '美国+CloudFlare节点 #3'
-  network: ws
+- name: 美国+麻省理工学院
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 104.16.89.120
-  servername: josni.hoyes.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /musiclovers85?ed
-- name: '美国+CloudFlare节点 #4'
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
@@ -117,44 +129,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 8880
-  server: cf7.466688.xyz
-  tls: false
-  type: vless
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
-  ws-opts:
-    headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- name: 美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 108.138.26.70
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
 - name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.103
+  server: 104.18.152.210
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -163,38 +143,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.187
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #8'
-  network: ws
-  port: 2087
-  server: 172.64.53.215
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- name: '美国+CloudFlare节点 #9'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
+  server: 104.18.152.159
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -202,24 +151,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 美国+麻省理工学院
-  network: ws
-  port: 443
-  server: 18.238.109.26
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
-- name: '美国+CloudFlare节点 #11'
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.22
+  server: render.com
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -227,16 +163,68 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: '美国+CloudFlare节点 #12'
+- alpn:
+  - http/1.1
+  name: '美国+加州 #1'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.6
+  server: 216.24.57.7
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #8'
+  network: ws
+  port: 443
+  server: free77-sg1.node2.top
+  servername: sie704.pages.dev
+  tls: true
+  type: vless
+  uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
+  ws-opts:
+    headers:
+      Host: sie704.pages.dev
+    path: /XFJVPNfp=chrome
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: 美国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 45.130.125.207
+  servername: terazhediii.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  ws-opts:
+    headers:
+      Host: terazhediii.info
+    path: /hdgrbws
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  port: 8443
+  server: 172.67.75.194
+  servername: c7dabe95.proxy-978.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  ws-opts:
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+    path: '%2F'
 - name: 🇺🇸US
   password: 553e3253-c454-431d-a7e6-42bc06ea5e14
   port: 8443
@@ -277,19 +265,14 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_3|2.7MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 🇺🇸|US|@wxgqlfx|16
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
+  port: 443
   server: 18.226.172.222
   skip-cert-verify: true
   sni: vpn-us-003.fastervpn.world
   tls: false
   type: hysteria2
-  up: ''
 - name: 🇺🇸|US|@wxgqlfx|219
   password: b41ad7f941ffce755cb8601bfd0f02ca
   port: 50160
@@ -332,39 +315,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|1010KB/s
-  network: xhttp
-  port: '443'
-  server: rvg-production-8c74.up.railway.app
-  servername: rvg-production-8c74.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19f13499-842e-e495-73cf-f52b10816e6e
-  xhttp-opts:
-    host: rvg-production-8c74.up.railway.app
-    mode: stream-up
-    path: /xhttp-siz10/stream-up/19f13499-842e-e495-73cf-f52b10816e6e
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_2|2.7MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  type: hysteria2
-  up: ''
 - cipher: chacha20-ietf
-  name: 🇺🇸US_4|3.5MB/s
+  name: 🇺🇸US_1|2.5MB/s
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -373,18 +325,14 @@ proxies:
   port: 8629
   server: cn18.somethingstranges.com
   type: ss
-- name: 🇺🇸US_5|1.4MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- name: 🇺🇸US_6|1.7MB/s
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
-  tls: true
-  type: http
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_2|1007KB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - client-fingerprint: firefox
   name: US_speednode_0117
   network: tcp
