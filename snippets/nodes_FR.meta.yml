@@ -32,44 +32,21 @@ proxies:
   uuid: 2567e2e0-8d4c-4c51-aee9-5d1f36024472
   ws-opts:
     path: '%2F6eg3r4an'
-- name: 法国巴黎+CloudFlare节点
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|1.8MB/s
   network: ws
   password: humanity
-  port: 443
-  server: 141.101.90.101
+  port: '443'
+  server: 104.17.111.8
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
+  udp: true
   ws-opts:
-    path: '%2Fassignment'
-- name: 法国
-  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
-  port: 8443
-  server: iq5ny.pleiades.codes
-  sni: iq5ny.pleiades.codes
-  tls: false
-  type: hysteria2
-- name: '法国 #1'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: fr.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '法国 #2'
-  password: d1a0857bc1eb833a9edf96be4c1f999e
-  port: 55443
-  server: host-vds2-fr.kvncococ.org
-  sni: host-vds2-fr.kvncococ.org
-  tls: false
-  type: hysteria2
-- name: 🇫🇷FR_1|1.3MB/s
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: flkf3.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  type: hysteria2
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /assignment
 - name: FR_speednode_0002
   port: 23856
   server: 51.159.225.196
