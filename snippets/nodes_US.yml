@@ -1,41 +1,43 @@
 proxies:
+- name: '美国(yudou789.top 玉豆免费节点) #1'
+  network: ws
+  password: cd5637fd-f992-423a-8be0-5b80360f26fc
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: false
+  sni: ehofhoe.bpuk2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ehofhoe.bpuk2026.top
+    path: '%2Fimages'
 - name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: www.speedtest.org
-  skip-cert-verify: false
+  server: 104.26.15.137
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 🇺🇸 美国|@ripaojiedian
+- name: 美国|@ripaojiedian
+  network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
   server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
+- name: 美国2|@ripaojiedian
+  network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
   server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
+- name: 美国3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 39024
   server: 16.163.144.245

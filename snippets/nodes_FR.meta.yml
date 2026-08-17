@@ -1,4 +1,37 @@
 proxies:
+- name: FR法国(mibei77.com 米贝节点分享)
+  network: ws
+  port: 2200
+  server: 194.26.229.207
+  servername: rzd.ru
+  tls: false
+  type: vless
+  uuid: f2d2907c-1d74-43eb-8fd2-fc55dfd92427
+  ws-opts:
+    path: '%2Fv1'
+- name: 'FR法国(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: 2200
+  server: 104.171.137.176
+  tls: false
+  type: vless
+  uuid: 43874ef1-1f74-4b8b-bc84-1d13caabd71b
+  ws-opts:
+    path: '%2Fv1'
+- client-fingerprint: chrome
+  name: 'FR法国(mibei77.com 米贝节点分享) #3'
+  network: xhttp
+  port: 65513
+  reality-opts:
+    public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
+    short-id: '!!str 21569dd6'
+  server: 2001:bc8:32d7:302::10
+  servername: www.yahoo.com
+  tls: false
+  type: vless
+  uuid: 2567e2e0-8d4c-4c51-aee9-5d1f36024472
+  ws-opts:
+    path: '%2F6eg3r4an'
 - name: 法国
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
@@ -21,21 +54,44 @@ proxies:
   sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
+- name: 🇫🇷145276 | ⚡️Telegram = t.me/S...
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: 'off'
+  tls: false
+  type: hysteria2
+- down: null
+  name: 🇫🇷FR_1|3.6MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: null
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.3MB/s
+  name: 🇫🇷FR_2|1.2MB/s
   network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.77
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
+  port: 8443
+  server: 31.59.121.155
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /assignment
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.3MB/s
+  password: PQ05174892
+  port: '443'
+  server: lucky-marmot.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: FR_speednode_0002
   port: 23856
   server: 51.159.225.196
