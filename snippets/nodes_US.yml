@@ -15,31 +15,17 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.23.63
+  server: 104.18.152.175
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+新泽西州(Merck公司)
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  sni: www.nintendogames.net
-  type: trojan
 - name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.204
+  server: 104.18.152.225
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -48,7 +34,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.113
+  server: www.speedtest.org
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -57,7 +43,18 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
+  server: 104.18.152.50
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -66,7 +63,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.18.152.113
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -75,17 +72,8 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: www.ignitelimit.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
+  server: 104.16.7.70
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -94,7 +82,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.177.143
+  server: 104.16.174.36
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -103,7 +91,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.21.46.3
+  server: 104.18.152.246
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -113,8 +101,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.155
-  skip-cert-verify: false
+  server: 104.18.152.103
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -123,12 +110,12 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.19.229.21
+  server: 104.18.152.97
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: assignment
+    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #10'
   network: ws
   password: humanity
@@ -139,39 +126,58 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 🇺🇸 美国|@ripaojiedian
+- name: '美国+CloudFlare节点 #11'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.14
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国+CloudFlare节点 #12'
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel.tirexnet.kdns.fr
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #13'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 美国|@ripaojiedian
+  network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
   server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
+- name: 美国2|@ripaojiedian
+  network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
   server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
+- name: 美国3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 10418
   server: 95.40.29.163
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸US_19|2.8MB/s
-  network: ws
-  password: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  port: 2053
-  server: cf.130209.xyz
-  skip-cert-verify: false
-  sni: v4.ipsb.us.ci
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /api/v2/check_update

@@ -15,6 +15,19 @@ proxies:
   sni: ro.h2corp.org
   tls: false
   type: hysteria2
+- name: 英国
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.221
+  sni: grape-turbo-fr.roxa.org
+  tls: false
+  type: hysteria2
+- name: 🇬🇧GB_1|2.2MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
