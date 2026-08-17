@@ -56,11 +56,36 @@ proxies:
     headers:
       Host: xvh.andishehparenting.com
     path: '%2F'
-- client-fingerprint: chrome
-  name: 美国+Amazon数据中心
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: '80'
+  server: www.true.th
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
+  ws-opts:
+    headers:
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8880
+  server: www.glassdoor.com
+  servername: www.glassdoor.com
+  tls: false
+  type: vless
+  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
+  ws-opts:
+    headers:
+      Host: yellow-sky-38b3.154-d73.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- name: 美国+V2CROSS.COM
   network: ws
   port: 443
-  server: 18.154.132.111
+  server: 108.138.26.70
   servername: d1yxsk0zprgivr.cloudfront.net
   skip-cert-verify: false
   tls: true
@@ -70,80 +95,21 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 🇺🇸|US|@wxgqlfx|16
-  password: 90af65ff00ef2ff089d28d6a11fc10de
-  port: 50160
-  server: 23-19-231-152.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 23-19-231-152.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+V2CROSS.COM
-  password: 2630a66444286f47ce591752f28adf5e
-  port: 50160
-  server: 154-49-127-140.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 154-49-127-140.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.14.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fe4ca690-6fd9-4471-9a9f-94528084d180
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: '%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed%3D2053'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: 🇺🇸US
   password: 553e3253-c454-431d-a7e6-42bc06ea5e14
   port: 8443
   server: srvhy1.ezcon24.online
   skip-cert-verify: true
   sni: srvhy1.ezcon24.online
+  tls: false
+  type: hysteria2
+- auth: 90af65ff00ef2ff089d28d6a11fc10de
+  name: 🇺🇸US_1|2.3MB/s
+  password: 90af65ff00ef2ff089d28d6a11fc10de
+  port: 50160
+  server: 23-19-231-152.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
 - name: 美国
@@ -194,19 +160,14 @@ proxies:
   sni: 35-209-199-239.liao.kdns.fr
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_14|2.1MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 🇺🇸|US|@wxgqlfx|20
   password: ed77b662dbdf1a817d5eb75ae940cac4
-  port: '50160'
+  port: 50160
   server: 198-46-188-116.liao.kdns.fr
   skip-cert-verify: true
   sni: 198-46-188-116.liao.kdns.fr
   tls: false
   type: hysteria2
-  up: ''
 - alpn:
   - h3
   name: 🇺🇸|US|@wxgqlfx|212
@@ -241,146 +202,62 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 🇺🇸US_1|2.6MB/s
-  network: grpc
-  port: 10239
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: us2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-- name: US_speednode_0138
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0139
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_4|3.0MB/s
+- client-fingerprint: edge
+  name: 🇺🇸US_2|3.4MB/s
+  network: ws
   port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.89
-  servername: yahoo.com
-  skip-cert-verify: true
+  server: xmmct.130209.xyz
+  servername: usa.811350.xyz
   tls: true
   type: vless
   udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 🇺🇸US_5|2.4MB/s
-  password: None
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: usa.811350.xyz
+    path: /cdn/packages/runtime-core.tar.gz
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_3|1.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 2630a66444286f47ce591752f28adf5e
+  port: '50160'
+  server: 154-49-127-140.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 154-49-127-140.liao.kdns.fr
+  type: hysteria2
+  up: ''
+- name: 🇺🇸US_4|2.0MB/s
   port: 443
-  server: purecambogiasl.live
+  server: efr-marktplatz.club
+  sni: efr-marktplatz.club
+  tls: true
+  type: http
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_5|2.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 76c1579d-e996-473c-b23f-2c8301082602
+  port: '11683'
+  server: 40t1.wxgqlfx.vip
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|1.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.202
+  sni: 204.44.74.220
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_7|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 76c1579d-e996-473c-b23f-2c8301082602
+  port: '11683'
+  server: 40t1.wxgqlfx.vip
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|1.3MB/s
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_8|1.5MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|3.0MB/s
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_11|3.2MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_12|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.229
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_13|1.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.35
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_15|2.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_16|1.0MB/s
-  network: tcp
-  port: '2053'
-  reality-opts:
-    public-key: -kufFTYujloklhezgpSBgYFOxj6xD0sTifgCZ3gkZig
-    short-id: '!!str a1b2c3d4e5f60708'
-  server: 38.244.6.122
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd1c5fdd-3c31-4379-9b44-ef0caef384ae
-  xudp: true
+  sni: ''
+  type: hysteria2
+  up: ''
 - client-fingerprint: firefox
   name: US_speednode_0117
   network: tcp
@@ -594,6 +471,20 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: US_speednode_0138
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0139
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0140
   port: 9002
   server: 138.199.35.213
