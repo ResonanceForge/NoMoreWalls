@@ -1,30 +1,22 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 瑞士+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.231
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '瑞士+V2CROSS.COM #1'
+  name: 🇺🇸US_8|3.2MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: '!!str c39cc7310a'
-  server: 169.40.42.35
+  server: 169.40.42.229
   servername: yahoo.com
-  tls: false
+  skip-cert-verify: true
+  tls: true
   type: vless
+  udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  ws-opts:
+    headers:
+      Host: yahoo.com
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
