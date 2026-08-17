@@ -37,19 +37,6 @@ proxies:
   tls: false
   type: vless
   uuid: 501b6afa-f955-473f-8440-1010110a1548
-- client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 91.193.58.125
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
 - name: 俄罗斯
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
@@ -65,19 +52,16 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: bridge-akenai-grpc-max
-  name: 🇷🇺RU_1|2.2MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: dg-XAKwtCTyYz0HN94sbNCM8xLwY4lBHkUa883nTFn8
-    short-id: '!!str be7d4026'
-  server: 213.178.155.239
-  servername: max.ru
+- client-fingerprint: firefox
+  name: 🇷🇺RU_1|1.3MB/s
+  network: xhttp
+  port: 443
+  server: 135.106.140.18
+  servername: russia1.denverpresents.top
   tls: true
   type: vless
   udp: true
-  uuid: 87b320fe-2329-498d-997b-7b956a99eecb
-  xudp: true
+  uuid: 497442f4-af45-4b75-97b1-63fe3726e8a1
+  xhttp-opts:
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
