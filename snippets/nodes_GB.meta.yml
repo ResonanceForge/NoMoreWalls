@@ -1,20 +1,4 @@
 proxies:
-- name: GB英国(mibei77.com 米贝节点分享)
-  password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r
-  port: 443
-  server: ro.h2corp.org
-  skip-cert-verify: false
-  sni: ro.h2corp.org
-  tls: false
-  type: hysteria2
-- name: 'GB英国(mibei77.com 米贝节点分享) #1'
-  password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r
-  port: 443
-  server: 185.225.19.39
-  skip-cert-verify: false
-  sni: ro.h2corp.org
-  tls: false
-  type: hysteria2
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
@@ -44,6 +28,22 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1004KB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+    short-id: '!!str f63805c3ecc7a483'
+  server: 195.184.247.232
+  servername: savesafe.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xudp: true
 - name: GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
