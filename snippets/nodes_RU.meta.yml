@@ -37,17 +37,14 @@ proxies:
   sni: 130-17-10-202.sslip.io
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: tcp
-  port: '28110'
-  server: 91.107.255.181
-  servername: ''
+- name: 俄罗斯
+  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  port: 8443
+  server: 176.124.222.180
+  sni: j47lq.pleiades.codes
   tls: false
-  type: vmess
-  uuid: 9b4cf5b4-7fd9-436b-a441-6e9dfe601bf9
-- name: рҹҮ·рҹҮә|RU|@wxgqlfx|229
+  type: hysteria2
+- name: 🇷🇺|RU|@wxgqlfx|229
   password: 921db318-1694-4408-9cc7-c93df39f7f8e
   port: 443
   server: ru-i-2.monkeyisland.xyz
