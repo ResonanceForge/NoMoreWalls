@@ -1,72 +1,17 @@
 proxies:
-- client-fingerprint: ios
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 'DE德国(mibei77.com 米贝节点分享) #4'
+  name: DE - zhuhai.uk
   network: tcp
-  port: 443
+  port: 13443
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.74
-  servername: yahoo.com
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 31.77.141.65
+  servername: auto.cendora.ru
   tls: false
   type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
-    path: '%2F'
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 'DE德国(mibei77.com 米贝节点分享) #8'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.89
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
-    path: '%2F'
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 'DE德国(mibei77.com 米贝节点分享) #9'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.104
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
-    path: '%2F'
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 'DE德国(mibei77.com 米贝节点分享) #10'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.35
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
-    path: '%2F'
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -107,14 +52,19 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 🇩🇪|DE|@wxgqlfx|22
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_1|1.9MB/s
+  obfs: ''
+  obfs-password: ''
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
+  port: '2056'
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
+  up: ''
 - name: 🇩🇪|DE|@wxgqlfx|220
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
@@ -174,21 +124,30 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇩🇪DE_1|1.1MB/s
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  reduce-rtt: false
-  request-timeout: 0
-  server: 89.144.35.232
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_2|3.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: '2056'
+  server: mg2.mangshe.xyz
   skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  sni: 127.0.0.1
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_3|3.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: '2056'
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443

@@ -1,21 +1,50 @@
 proxies:
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 'DE德国(mibei77.com 米贝节点分享) #5'
-  network: tcp
+- name: 'JP日本(mibei77.com 米贝节点分享) #1'
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.231
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: yahoo.com
-    path: '%2F'
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: JP - zhuhai.uk
+  network: tcp
+  password: HC04361579
+  port: 443
+  server: pet-albacore.rooster465.autos
+  sni: pet-albacore.rooster465.autos
+  type: trojan
+- name: JP - zhuhai.uk 02
+  network: tcp
+  password: HC04361579
+  port: 443
+  server: settling-shad.rooster465.autos
+  sni: settling-shad.rooster465.autos
+  type: trojan
+- name: JP - zhuhai.uk 01
+  network: tcp
+  password: HC04361579
+  port: 443
+  server: accepted-starling.rooster465.autos
+  skip-cert-verify: true
+  sni: accepted-starling.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'JP - zhuhai.uk 02 #1'
+  network: tcp
+  port: 39411
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: false
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - name: 🇯🇵|JP|@wxgqlfx|15
   password: bc751c4c5c80f17dfbc05785c368b613
   port: 50160
@@ -48,43 +77,19 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_1|2.9MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21109'
-  server: 211.91.158.24
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_2|2.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21119'
-  server: 211.91.158.24
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_3|4.7MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21109'
-  server: 211.91.158.27
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_4|2.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21119'
-  server: 211.91.158.27
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_5|4.9MB/s
-  network: tcp
+- name: 🇯🇵JP_1|5.5MB/s
   password: HC04361579
-  port: '443'
-  server: driven-doberman.rooster465.autos
-  skip-cert-verify: false
-  sni: driven-doberman.rooster465.autos
+  port: 443
+  server: legible-ocelot.rooster465.autos
+  skip-cert-verify: true
+  sni: legible-ocelot.rooster465.autos
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP_2|2.8MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21119'
+  server: 211.91.158.27
+  type: ss
   udp: true
 - name: JP_speednode_0014
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
