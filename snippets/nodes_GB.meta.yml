@@ -1,17 +1,16 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 英国+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 6243
   reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: '!!str 4a46213c935e2ee4'
-  server: 31.76.70.31
-  servername: baltic.cendora.ru
+    public-key: B55CpLIn63ajsDxoRe9icE2qa-rXcEiQXLpqfhHp2B0
+    short-id: '!!str 0dabc5964c'
+  server: 31.77.57.112
+  servername: github.com
   tls: false
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: 003c712d-daa1-4c3f-bed2-658e7787d04c
 - name: 英国
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
@@ -27,6 +26,40 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.dT8d0dD1YGkdlMpUvecNonD7F5POG3Pmiv2g5lnRum8
+  name: 🇬🇧GB_1|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 24151
+  server: ig0wuyifeefa.dop99.com
+  servername: ig0wuyifeefa.dop99.com
+  tls: true
+  type: vless
+  uuid: 6364f692-a1ed-45e2-ab16-acbc19481ca1
+  ws-opts:
+    headers:
+      Host: ig0wuyifeefa.dop99.com
+    path: /iuygttfrt6de
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|1.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+    short-id: '!!str f63805c3ecc7a483'
+  server: 195.184.247.225
+  servername: savesafe.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xudp: true
 - name: GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
