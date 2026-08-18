@@ -1,18 +1,24 @@
 proxies:
-- name: 日本(yudou789.top 玉豆免费节点)
-  port: 10808
-  server: 101.36.104.239
-  tls: false
-  type: socks5
-  username: Og
-- name: 'JP日本(mibei77.com 米贝节点分享) #1'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_6|1.9MB/s
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
+  port: '443'
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.231
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  ws-opts:
+    headers:
+      Host: yahoo.com
+    path: '%2F'
+  xudp: true
 - name: 🇯🇵|JP|@wxgqlfx|15
   password: bc751c4c5c80f17dfbc05785c368b613
   port: 50160

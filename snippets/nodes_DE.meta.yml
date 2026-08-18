@@ -1,30 +1,76 @@
 proxies:
-- name: 德国(yudou789.top 玉豆免费节点)
-  network: ws
-  password: MiTiVPN
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 'DE德国(mibei77.com 米贝节点分享) #4'
+  network: tcp
   port: 443
-  server: 151.101.56.7
-  skip-cert-verify: false
-  sni: default.fastly.com
-  type: trojan
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.74
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   ws-opts:
     headers:
-      Host: s1a-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fdde---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- client-fingerprint: random
-  name: DE - zhuhai.uk
-  network: ws
+      Host: yahoo.com
+    path: '%2F'
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_1|2.2MB/s
+  network: tcp
   port: 443
-  server: ct.877774.xyz
-  servername: eu-central.862400.xyz
-  skip-cert-verify: false
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.89
+  servername: yahoo.com
   tls: true
   type: vless
-  uuid: e30df0c8-d1f1-4ede-a6e6-9ec050decd2f
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   ws-opts:
     headers:
-      Host: eu-central.862400.xyz
-    path: '%2Fannouncement'
+      Host: yahoo.com
+    path: '%2F'
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_17|3.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.104
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  ws-opts:
+    headers:
+      Host: yahoo.com
+    path: '%2F'
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_27|3.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.35
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  ws-opts:
+    headers:
+      Host: yahoo.com
+    path: '%2F'
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
