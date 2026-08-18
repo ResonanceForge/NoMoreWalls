@@ -37,27 +37,17 @@ proxies:
   sni: 130-17-10-202.sslip.io
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 V2CROSS.COM
   network: tcp
-  port: 554
-  reality-opts:
-    public-key: E8r9n9A0VyyYV6VE_94xo5UsZMvssa5Ub8kYudvCPCk
-    short-id: '!!str ab1da24b10d4c1'
-  server: 94.159.108.239
-  servername: api-maps.yandex.ru
+  port: '28110'
+  server: 91.107.255.181
+  servername: ''
   tls: false
-  type: vless
-  uuid: 48c622d6-3cdd-47d5-8cd8-29855f7716d1
-- name: 俄罗斯
-  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
-  port: 8443
-  server: 176.124.222.180
-  sni: j47lq.pleiades.codes
-  tls: false
-  type: hysteria2
-- name: 🇷🇺|RU|@wxgqlfx|229
+  type: vmess
+  uuid: 9b4cf5b4-7fd9-436b-a441-6e9dfe601bf9
+- name: рҹҮ·рҹҮә|RU|@wxgqlfx|229
   password: 921db318-1694-4408-9cc7-c93df39f7f8e
   port: 443
   server: ru-i-2.monkeyisland.xyz
