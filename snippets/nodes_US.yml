@@ -54,11 +54,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #15'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
   server: 104.20.6.134
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -105,7 +106,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: '美国(yudou789.top 玉豆免费节点) #116'
   network: ws
   password: humanity
   port: 443
@@ -114,11 +115,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #13'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
   server: 104.26.14.137
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -304,12 +306,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: 'US美国(mibei77.com 米贝节点分享) #19'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.46
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -408,11 +409,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'JP日本(mibei77.com 米贝节点分享) #2'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.97
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -455,22 +457,20 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国+CloudFlare节点 #8'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.103
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- name: 'JP日本(mibei77.com 米贝节点分享) #3'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.225
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -513,11 +513,12 @@ proxies:
   type: trojan
   ws-opts:
     path: assignment
-- name: '美国(yudou789.top 玉豆免费节点) #120'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.37
+  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -648,12 +649,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2F%2Fassignment'
-- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+- name: 'HK香港(mibei77.com 米贝节点分享) #13'
   network: ws
   password: humanity
   port: 443
   server: 8.6.112.0
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -718,7 +718,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #37'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -749,12 +749,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 'FR法国(mibei77.com 米贝节点分享) #22'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.207
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -861,7 +860,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #48'
+- name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
@@ -1018,7 +1017,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+加州
+- name: 'US美国(mibei77.com 米贝节点分享) #49'
   network: ws
   password: humanity
   port: 443
@@ -1027,11 +1026,27 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.233
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- cipher: aes-256-gcm
+  name: 美国+新泽西州爱迪生IT7网络
+  password: Proxy2024
+  port: 54321
+  server: 23.252.104.131
+  type: ss
 - name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: www.speedtest.org
+  server: 104.18.152.113
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:

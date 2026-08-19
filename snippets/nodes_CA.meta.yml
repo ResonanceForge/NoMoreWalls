@@ -85,35 +85,22 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- encryption: mlkem768x25519plus.random.0rtt.swY_aKEuuHUHKO0BHVV2uot-UFbtrXpLWr7g8uZk0xk
-  http-opts:
-    headers:
-      Host:
-      - mangaarabics.com
-    method: GET
-    path:
-    - /
-  name: 🇨🇦CA_1|4.4MB/s
-  network: http
-  port: 42538
-  server: 38.128.251.24
+- client-fingerprint: chrome
+  name: 加拿大+V2CROSS.COM
+  network: tcp
+  port: 8080
+  reality-opts:
+    public-key: '%2DVtnfXlmc08__zvH-U0G5iiiJaJJOCXsBToMqfL2Pzg'
+    short-id: '!!str ff06f965f5'
+  server: sb.btwanten.com
+  servername: hdprogressive.3dvisionlive.com
   tls: false
   type: vless
-  udp: true
-  uuid: 5d07b438-63c1-43fa-aa45-b6810de6d030
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇦CA_2|1.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
-    short-id: '!!str b91a73752053b039'
-  server: 184.107.141.174
-  servername: ca.servers.gracevpnbuy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bb05f9d7-a3d1-4b81-a790-f6dba0301907
-  xudp: true
+  uuid: 485e6932-2913-42c9-a605-7ccf03836d55
+- name: '加拿大+V2CROSS.COM #1'
+  network: raw
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  sni: www.nintendogames.net
+  type: trojan
