@@ -11,3 +11,19 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇨🇭CH_1|3.2MB/s
+  network: grpc
+  port: '2054'
+  reality-opts:
+    public-key: JFzd2AbfzZSnMefyKEXNIae_QEZAo5o239pmuHHZsAY
+    short-id: '!!str 0c25988a'
+  server: 132.243.174.112
+  servername: www.swisscom.ch
+  tls: true
+  type: vless
+  udp: true
+  uuid: f6da8274-44be-4599-a8d8-66929c980677
+  xudp: true

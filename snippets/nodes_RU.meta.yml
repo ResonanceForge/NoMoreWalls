@@ -25,6 +25,19 @@ proxies:
   tls: false
   type: vless
   uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬SG_1|1.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: '1935'
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+  up: ''
 - name: 俄罗斯
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
@@ -40,3 +53,37 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
+    short-id: '!!str 5e6f7a8b'
+  server: 92.255.78.9
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f6da8274-44be-4599-a8d8-66929c980677
+  xudp: true
+- client-fingerprint: android
+  encryption: none
+  name: 🇷🇺RU_2|2.4MB/s
+  network: ws
+  port: '2053'
+  server: 72.56.236.219
+  servername: usa1.wba-pn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd3ff7be-f277-494b-a651-c210b93f2c19
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: ''
+  xudp: true
