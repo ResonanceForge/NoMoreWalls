@@ -1,13 +1,38 @@
 proxies:
-- name: рҹҮ«рҹҮ®|FI|@wxgqlfx|217
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
   port: 443
-  server: fast.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fast.wwwinternetvideo.click
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: '!!str 4a46213c935e2ee4'
+  server: 31.76.70.31
+  servername: baltic.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
+    short-id: '!!str 635a76c25a4b1820'
+  server: 2.27.40.190
+  servername: www.amd.com
+  tls: false
+  type: vless
+  uuid: 682102a3-9731-4562-ad28-04dc62bc8dee
+- name: 英国
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.221
+  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: рҹҮ¬рҹҮ§|GB|@wxgqlfx|19
+- name: 🇬🇧|GB|@wxgqlfx|19
   password: 725bc0b69e720cd5a2cd209252507c6e
   port: 50160
   server: 94-229-64-108.liao.kdns.fr
@@ -15,6 +40,30 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
+- name: 🇬🇧GB_1|1.7MB/s
+  password: None
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|2.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
+    short-id: '!!str b91a73752053b039'
+  server: 23.81.34.120
+  servername: gb.servers.gracevpnbuy.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bb05f9d7-a3d1-4b81-a790-f6dba0301907
+  xudp: true
 - name: GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
