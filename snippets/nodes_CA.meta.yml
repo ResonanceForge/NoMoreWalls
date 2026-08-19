@@ -45,11 +45,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '加拿大(yudou789.top 玉豆免费节点) #4'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.71
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:

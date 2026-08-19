@@ -12,30 +12,48 @@ proxies:
   uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
   ws-opts:
     path: '%2F'
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: DE - zhuhai.uk 03
+  name: 俄罗斯+V2CROSS.COM
   network: tcp
   port: 2027
   reality-opts:
     public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str 8d3293f0066e129a'
+    short-id: '!!str dc8109baf0f607ea'
   server: 78.159.247.253
   servername: storage.yandex.net
   tls: false
   type: vless
   uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- name: 🇸🇬SG
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 1935
-  server: sg2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg2.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- cipher: aes-256-gcm
-  name: 俄罗斯+新西伯利亚justhost
-  password: 1eadd4e4a37b6601
-  port: 10801
-  server: 45.8.158.176
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 6J829WZ6hhEtCmz8CfBBBP69ikMDlYPF2Lumyel6XTI
+    short-id: '!!str d484643ca8396614'
+  server: 5.129.253.177
+  servername: yt.chick-team.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe0138b5-ca60-4a67-91aa-b5a49266eeb5
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 6J829WZ6hhEtCmz8CfBBBP69ikMDlYPF2Lumyel6XTI
+    short-id: '!!str d484643ca8396614'
+  server: 212.67.17.204
+  servername: yt.chick-team.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe0138b5-ca60-4a67-91aa-b5a49266eeb5
+  xudp: true
