@@ -12,19 +12,6 @@ proxies:
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: raw
-  port: 40443
-  reality-opts:
-    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
-    short-id: '!!str 68a8'
-  server: 5.253.42.164
-  servername: deepl.com
-  tls: false
-  type: vless
-  uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -90,26 +77,6 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 🇩🇪|DE|@wxgqlfx|223
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: fr131.mechvpn.online
-  skip-cert-verify: true
-  sni: fr131.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: 🇩🇪146484 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-  password: Telegram@vpnjey
-  port: 37009
-  server: 31.76.27.23
-  skip-cert-verify: true
-  sni: de.vpnjey.store
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
   client-fingerprint: chrome
   name: Telegram@VPNjey🇩🇪🇩🇪
   obfs: salamander
@@ -132,9 +99,17 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
+- name: 🇩🇪DE-🚀@VPNine1
+  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+  port: 443
+  server: 5.83.129.11
+  skip-cert-verify: true
+  sni: germany1.h2corp.local
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: 🇩🇪|DE|@wxgqlfx|213
+  name: 🇩🇪146554 | ⚡️Telegram = t.me/S...
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: de.1.22.washing.help
@@ -143,67 +118,83 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_1|1.8MB/s
-  network: grpc
-  port: 18443
-  reality-opts:
-    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
-    short-id: '!!str 5c766813929a1fdd'
-  server: 104.167.24.227
-  servername: gp1.steptofsvo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1c20357e-be52-4e5e-8eb6-6434adcb4b71
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|2.9MB/s
-  network: tcp
-  port: '8086'
-  reality-opts:
-    public-key: nnq5J3zXFDHUGvCza7e5CMa34oexEcXUqAfqz_YY7yo
-    short-id: '!!str 64523ae2'
-  server: record.sinafc.ir
-  servername: explore.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98586561-43ac-435d-9bfd-b5780eb9e771
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: mygrpc
-  name: 🇩🇪DE_3|2.6MB/s
-  network: grpc
-  port: '2096'
-  server: 46.182.24.112
-  servername: v1.api2.ttpservers.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 163dc809-7970-4ff8-a7e5-8080ad53e7bb
-  xudp: true
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|4.0MB/s
+  name: 🇩🇪DE_2|1.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM
+    short-id: '!!str 2b8c5e91'
+  server: 2.26.71.73
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e843ed6-09e7-4be5-bd52-a1dc46568aeb
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|1.8MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8
+    short-id: '!!str 62b6d6e64d461d78'
+  server: 103.109.234.113
+  servername: api.getsavesafe.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts: {}
+  xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.inAciB3I53AnkMDoEg-e2KjU3YxOk0_5B71RhhgIv2k
+  name: 🇩🇪DE_4|2.3MB/s
+  network: ws
+  port: '443'
+  server: mahdroo.ir
+  servername: arvan2.dearhossein-taktaz.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37759a91-6fba-4816-8e7e-baae8f812313
+  ws-opts:
+    headers:
+      Host: arvan2.dearhossein-taktaz.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|1.1MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: KdveJDEjZkGpf3Ymw3Ptu0cjDQ9geOY3ueMniWuWa2E
-    short-id: '!!str 2694d28edfdd2c38'
-  server: jwut-19a9lvb.univanta.top
-  servername: www.bing.com
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+    short-id: '!!str '
+  server: 94.249.225.82
+  servername: warm-gazelle.cdn.cachefleet.com
   tls: true
   type: vless
   udp: true
-  uuid: 56971dae-1974-4ebe-a903-00e310828dd5
+  uuid: be3960db-f339-479a-be7b-c1a130601141
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|3.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 4Al0xAzgmDer_tEDUj7kx5SJ6A2a4FRi1S5oa0WBMR8
+    short-id: '!!str 953e8078'
+  server: 45.12.254.86
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6bc8627-ab12-457b-b143-0ea0de51b1ed
   xudp: true
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519

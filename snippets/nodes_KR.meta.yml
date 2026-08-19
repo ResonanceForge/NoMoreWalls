@@ -15,40 +15,44 @@ proxies:
   sni: 152-67-200-82.liao.kdns.fr
   tls: false
   type: hysteria2
-- auth: NjpqMyHOlMjWTcjE
-  name: 🇰🇷KR_1|4.0MB/s
-  password: NjpqMyHOlMjWTcjE
-  port: 56001
-  server: 3.39.237.40
+- name: 🇰🇷146687 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.125.214.225
   skip-cert-verify: true
-  sni: kor-ls-6.nebulacloud.win
+  sni: css.rbxcdn.com
+  tls: false
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇰🇷KR_2|3.3MB/s
+  name: 🇰🇷KR_1|2.2MB/s
   network: tcp
-  port: 38551
+  port: 39217
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: '!!str bc8e3658db7d1323'
-  server: 188.253.123.164
+  server: 155.117.199.13
   servername: cdnjs.cloudflare.com
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷KR_3|4.2MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21107'
-  server: 211.91.158.27
-  type: ss
+- client-fingerprint: chrome
+  name: 🇰🇷KR_2|3.4MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: 3.36.124.155
+  skip-cert-verify: false
+  sni: novel-kodiak.rooster465.autos
+  type: trojan
   udp: true
-- name: 🇰🇷KR_4|1.7MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
+- client-fingerprint: chrome
+  name: 🇰🇷KR_5|2.8MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: novel-kodiak.rooster465.autos
+  skip-cert-verify: false
+  sni: novel-kodiak.rooster465.autos
+  type: trojan
   udp: true
-  username: test

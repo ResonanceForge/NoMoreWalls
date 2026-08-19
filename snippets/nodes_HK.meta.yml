@@ -80,12 +80,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 立陶宛+V2CROSS.COM
+- name: '美国(yudou789.top 玉豆免费节点) #118'
   network: ws
   password: humanity
   port: 443
   server: 86.38.214.205
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -98,14 +97,6 @@ proxies:
   tls: false
   type: socks5
   username: Og
-- name: 🇭🇰|HK|@wxgqlfx|222
-  password: d325f389-7bc9-4d6a-8a2b-7dd4f7ab6e9f
-  port: 443
-  server: ru.h.topbelka.ru
-  skip-cert-verify: true
-  sni: ru.h.topbelka.ru
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -149,49 +140,57 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|3.8MB/s
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b655fa09-40b8-4317-a713-87a793dde9d0
+  ws-opts:
+    headers:
+      Host: 883147dc12db58e094e3f13e202fe20c.mobgslb.tbcache.com
+    path: /
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  name: 🇭🇰HK_2|1.8MB/s
+  name: 🇭🇰HK_2|2.0MB/s
   network: ws
-  port: 16632
+  port: '16632'
   server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
   ws-opts:
     headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
   xudp: true
-- name: 🇭🇰HK_4|3.5MB/s
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇭🇰HK_5|2.4MB/s
+  name: 🇭🇰HK_3|2.1MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: 4vnK2LLhfy9-plqFrSE3Di9fqTXlajXtll7NoYZYQ28
-    short-id: '!!str 05ac92984da91336'
-  server: cr36-zili01.infraix.top
-  servername: www.bing.com
+    public-key: Z41OxiwFrf0VAEv7_qXoEMKSmLJPjEPPJzXpP1s6gGk
+    short-id: '!!str 977a84fa5512be5a'
+  server: 128.1.12.164
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 86ff5721-87f2-4682-9bc2-b1b34a8ca91f
+  uuid: e01b5875-0b0b-4056-bbf5-0b0ecdc97937
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_6|5.7MB/s
+  name: 🇭🇰HK_4|2.6MB/s
   network: ws
   port: 16622
   server: t.cnmjcn.cyou
@@ -199,10 +198,10 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8693fed9-62e2-48ba-9819-380acb01923d
+  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
   ws-opts:
     headers:
-      Host: 5dcc4161bbb1a6ad65f913e6d5725639.mobgslb.tbcache.com
+      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
     path: /
   xudp: true
 - name: HK_speednode_0012
