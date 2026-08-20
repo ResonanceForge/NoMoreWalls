@@ -5,52 +5,16 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
-    short-id: '!!str 9e4eced6e98ed4d4'
-  server: 31.76.119.117
-  servername: de.orpheous.ru
-  tls: false
-  type: vless
-  uuid: 7d2bac5e-6ff9-45c9-844e-6bfc5a384a42
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: '!!str a7f3c91b2e6d84c0'
-  server: 31.76.5.26
-  servername: auto.cendora.ru
-  tls: false
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: '!!str 2186a755ed67b034'
-  server: 31.76.5.26
-  servername: nordic.cendora.ru
-  tls: false
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #3'
-  network: tcp
-  port: 443
-  reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
     short-id: '!!str 4a46213c935e2ee4'
-  server: 31.76.70.31
+  server: 31.76.70.32
   servername: baltic.cendora.ru
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  ws-opts:
+    headers:
+      Host: '%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI'
 - name: 英国
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
@@ -66,3 +30,42 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_1|3.0MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8
+    short-id: '!!str 62b6d6e64d461d78'
+  server: api.getsavesafe.space
+  servername: api.getsavesafe.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    mode: auto
+  xudp: true
+- name: 🇬🇧GB_2|2.2MB/s
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|3.1MB/s
+  network: tcp
+  port: '445'
+  reality-opts:
+    public-key: Ku60WZ3HEdE07DoEBJ5I9o_fjcN_bhdK8bTW3RJjBmM
+    short-id: '!!str c226283c4de5b1ad'
+  server: 2.26.100.192
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40205ae5-d30f-4216-b2e0-0506dbbd382e
+  xudp: true
