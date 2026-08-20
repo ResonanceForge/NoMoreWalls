@@ -8,7 +8,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: 'HK香港(mibei77.com 米贝节点分享) #10'
   network: ws
   password: humanity
   port: 443
@@ -46,11 +46,12 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: '法国(yudou789.top 玉豆免费节点) #2'
+  name: 美国+加州
   network: ws
   password: humanity
   port: 443
   server: 216.24.57.7
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -73,16 +74,17 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #151'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.207
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '立陶宛+V2CROSS.COM #1'
+- name: 'US美国(mibei77.com 米贝节点分享) #68'
   network: ws
   password: humanity
   port: 443
@@ -91,12 +93,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- name: 'US美国(mibei77.com 米贝节点分享) #93'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.12
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -110,24 +111,64 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #109'
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.6
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: 法国巴黎+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - cipher: aes-256-cfb
-  name: 🇫🇷FR_1|2.5MB/s
+  name: 🇫🇷FR_1|3.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.38.46.203
+  type: ss
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|1001KB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.204
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_3|2.8MB/s
   password: amazonskr05
   port: 443
   server: 51.44.167.151
   type: ss
 - cipher: aes-256-cfb
-  name: 🇫🇷FR_2|1.6MB/s
+  name: 🇫🇷FR_5|1.4MB/s
   password: amazonskr05
   port: 443
-  server: 13.37.226.110
+  server: 13.38.78.128
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_6|3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 51.44.170.194
   type: ss
