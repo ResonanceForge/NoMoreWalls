@@ -308,7 +308,7 @@ proxies:
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -490,19 +490,18 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: 'CA加拿大(mibei77.com 米贝节点分享) #4'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.12
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- name: 'HK香港(mibei77.com 米贝节点分享) #4'
   network: ws
   password: humanity
   port: 443
@@ -587,12 +586,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: 'FR法国(mibei77.com 米贝节点分享) #10'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.117
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -615,7 +613,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #8'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -682,11 +680,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #21'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.72
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -893,12 +892,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
+- name: 'US美国(mibei77.com 米贝节点分享) #25'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.22
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -934,11 +932,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #128'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.246
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1439,58 +1438,45 @@ proxies:
   skip-cert-verify: true
   sni: accepted-starling.rooster465.autos
   type: trojan
-- name: '美国+CloudFlare节点 #1'
+- name: 德国+V2CROSS.COM
+  password: AE62539071
+  port: 443
+  server: 194.99.79.189
+  sni: humorous-parakeet.rooster465.autos
+  type: trojan
+- cipher: aes-256-gcm
+  name: 俄罗斯+新西伯利亚justhost
+  password: 1eadd4e4a37b6601
+  port: 10801
+  server: 45.8.158.176
+  type: ss
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.208
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 日本+东京都亚马逊(Amazon)公司数据中心
-  password: AE62539071
-  port: 443
-  server: outgoing-ladybird.rooster465.autos
-  sni: outgoing-ladybird.rooster465.autos
-  type: trojan
-- name: 日本+东京都Amazon数据中心
-  network: tcp
-  password: PQ05174892
-  port: 443
-  server: 18.183.109.172
-  sni: well-jennet.rooster465.autos
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 140.248.185.253
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '美国+CloudFlare节点 #4'
+- name: 伊朗+V2CROSS.COM
   network: ws
   password: humanity
-  port: 443
-  server: 104.18.152.233
+  port: 40443
+  server: 2.144.21.112
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '日本+东京都亚马逊(Amazon)公司数据中心 #1'
-  network: tcp
-  password: AE62539071
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
   port: 443
-  server: 54.249.33.71
-  sni: outgoing-ladybird.rooster465.autos
+  server: 104.18.152.113
+  sni: www.ignitelimit.com
   type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1613,12 +1599,63 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇯🇵JP_1|4.1MB/s
+  name: 🇯🇵JP_1|6.0MB/s
   network: tcp
-  password: AE62539071
+  password: PQ05174892
   port: '443'
-  server: game-thrush.rooster465.autos
+  server: ideal-phoenix.rooster465.autos
   skip-cert-verify: false
-  sni: game-thrush.rooster465.autos
+  sni: ideal-phoenix.rooster465.autos
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_2|2.8MB/s
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: resolution-secretary-presence-amazing.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3d69d9bc-eaae-42bd-828f-6894c7d7edbf
+  ws-opts:
+    headers:
+      Host: resolution-secretary-presence-amazing.trycloudflare.com
+    path: /3d69d9bc-eaae-42bd-828f-6894c7d7edbf-vm
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_3|2.6MB/s
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: willing-relative-las-legislative.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3e1c7cc6-6324-48bf-9855-05c8afae90b3
+  ws-opts:
+    headers:
+      Host: willing-relative-las-legislative.trycloudflare.com
+    path: /3e1c7cc6-6324-48bf-9855-05c8afae90b3-vm
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_5|1.9MB/s
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: pas-seo-delays-safe.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 20a16a21-6468-4e63-96e1-d9cecf0035ce
+  ws-opts:
+    headers:
+      Host: pas-seo-delays-safe.trycloudflare.com
+    path: /20a16a21-6468-4e63-96e1-d9cecf0035ce-vm
+  xudp: true

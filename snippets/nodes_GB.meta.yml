@@ -1,31 +1,17 @@
 proxies:
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: '!!str a7f3c91b2e6d84c0'
-  server: 31.76.5.26
-  servername: auto.cendora.ru
-  tls: false
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: chrome
-  name: '英国+V2CROSS.COM #1'
+- name: 英国+V2CROSS.COM
   network: ws
-  port: 8443
-  server: 91.110.174.210
-  servername: rubifen.adaspoloandco.com
+  port: 443
+  server: 194.154.30.154
+  servername: forfreeuse.rtqa.ru
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: rubifen.adaspoloandco.com
-    path: '%2FGOrbEh'
+      Host: forfreeuse.rtqa.ru
+    path: /
 - name: 英国
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443

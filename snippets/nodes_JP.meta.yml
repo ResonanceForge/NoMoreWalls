@@ -45,26 +45,6 @@ proxies:
   tls: false
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 日本+东京都亚马逊(Amazon)公司数据中心
-  password: AE62539071
-  port: 443
-  server: outgoing-ladybird.rooster465.autos
-  sni: outgoing-ladybird.rooster465.autos
-  type: trojan
-- name: 日本+东京都Amazon数据中心
-  network: tcp
-  password: PQ05174892
-  port: 443
-  server: 18.183.109.172
-  sni: well-jennet.rooster465.autos
-  type: trojan
-- name: '日本+东京都亚马逊(Amazon)公司数据中心 #1'
-  network: tcp
-  password: AE62539071
-  port: 443
-  server: 54.249.33.71
-  sni: outgoing-ladybird.rooster465.autos
-  type: trojan
 - name: JP
   password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
   port: 32135
@@ -106,12 +86,12 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 🇯🇵JP_1|4.1MB/s
+  name: 🇯🇵JP_1|6.0MB/s
   network: tcp
-  password: AE62539071
+  password: PQ05174892
   port: '443'
-  server: game-thrush.rooster465.autos
+  server: ideal-phoenix.rooster465.autos
   skip-cert-verify: false
-  sni: game-thrush.rooster465.autos
+  sni: ideal-phoenix.rooster465.autos
   type: trojan
   udp: true
