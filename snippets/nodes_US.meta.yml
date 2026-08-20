@@ -156,12 +156,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
+- name: 'US美国(mibei77.com 米贝节点分享) #44'
   network: ws
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -223,7 +222,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #24'
+- name: 加拿大+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
@@ -296,7 +295,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #98'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -332,7 +331,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #33'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -426,7 +425,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 'FR法国(mibei77.com 米贝节点分享) #8'
   network: ws
   password: humanity
   port: 443
@@ -473,12 +472,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- name: 'FR法国(mibei77.com 米贝节点分享) #21'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.72
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -667,12 +665,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国(yudou789.top 玉豆免费节点) #128'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.246
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -757,11 +754,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #124'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.143
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1076,17 +1074,44 @@ proxies:
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 美国+CloudFlare节点
+- name: 美国+Amazon数据中心
   network: ws
-  port: 8880
-  server: www.glassdoor.com
-  tls: false
+  port: 443
+  server: 18.154.132.111
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
     headers:
-      Host: red-disk-58df.153-2ce.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: '!!str 2d6d073dc88f22a8'
+  server: 132.243.231.94
+  servername: se1.se-cdn.ru
+  tls: false
+  type: vless
+  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
 - alpn:
   - h2
   - http/1.1
@@ -1094,61 +1119,38 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: 美国+V2CROSS.COM
+  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
   network: tcp
   port: 443
-  server: s881.wagahaha.xyz
-  servername: u643766u0660a077s79.gogocs.xyz
+  server: 192.227.169.125
+  servername: u643766u34a1d2ebs478.gogocs.xyz
   tls: true
   type: vless
   uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
   ws-opts:
     headers:
-      Host: 0660a077s79.gogocs.xyz
+      Host: 34a1d2ebs478.gogocs.xyz
     path: ''
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG_1|2.7MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: '4466'
-  server: 140.99.130.34
-  skip-cert-verify: true
-  sni: sg3.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-  up: ''
-- name: '美国+CloudFlare节点 #2'
+- name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  network: tcp
+  password: AE62539071
+  port: 443
+  server: frank-frog.rooster465.autos
+  sni: frank-frog.rooster465.autos
+  type: trojan
+- name: 北美地区+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  sni: www.ignitelimit.com
+  server: 198.62.62.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 8880
-  server: 172.64.151.134
-  tls: false
-  type: vless
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
   ws-opts:
     headers:
-      Host: super-feather-91c4.267.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.113
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 🇩🇪|DE|@wxgqlfx|22
+      Host: www.calmlunch.com
+    path: /assignment
+- name: рҹҮ©рҹҮӘ|DE|@wxgqlfx|22
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
@@ -1156,48 +1158,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 美国
-  password: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t
-  port: 1443
-  server: pg-usa2-hy2.gigatapbot.top
-  skip-cert-verify: true
-  sni: pg-usa2-hy2.gigatapbot.top
-  tls: false
-  type: hysteria2
-- name: '美国 #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 18.226.172.222
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 2🍏@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: node1.sferavpn.pro
-  sni: node1.sferavpn.pro
-  tls: false
-  type: hysteria2
-- name: '美国 #3'
-  password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
-  port: 11683
-  server: uswx4.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.153
-  tls: false
-  type: hysteria2
-- name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.213.89.22
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
-- name: 🇺🇸|US|@wxgqlfx|251
+- name: рҹҮәрҹҮё|US|@wxgqlfx|251
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
   server: node3.vpnushka.lol
@@ -1205,7 +1166,7 @@ proxies:
   sni: node3.vpnushka.lol
   tls: false
   type: hysteria2
-- name: 🇺🇸|US|@wxgqlfx|16
+- name: рҹҮәрҹҮё|US|@wxgqlfx|16
   password: 90af65ff00ef2ff089d28d6a11fc10de
   port: 50160
   server: 23-19-231-152.liao.kdns.fr
@@ -1213,7 +1174,7 @@ proxies:
   sni: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 🇺🇸|US|@wxgqlfx|20
+- name: рҹҮәрҹҮё|US|@wxgqlfx|20
   password: ed77b662dbdf1a817d5eb75ae940cac4
   port: 50160
   server: 198-46-188-116.liao.kdns.fr
@@ -1245,56 +1206,46 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tOWJAWnCPaJZvqorglX2JAuT5mDrSSA9VPCd90DSZRY
-    short-id: '!!str 241c2a5b9073f934'
-  server: 38.125.120.76
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 085c75ad-c00b-43fb-8fea-fa0caefa0a60
-- name: 🇺🇸US_2|1.2MB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_4|1.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: s8LsdrKbLX2USYl-t9Olxo4yYUlJXjmbbjBh1OONTCE
-    short-id: '!!str f210a210add58f09'
-  server: 38.244.20.98
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05a582ec-e74b-46fe-b131-6e9e5575a836
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_5|1.9MB/s
+  name: 🇺🇸US_2|2.8MB/s
   network: ws
   port: 443
   server: node.socks5.kdns.fr
-  servername: pas-seo-delays-safe.trycloudflare.com
-  skip-cert-verify: false
+  servername: chest-own-llp-collections.trycloudflare.com
+  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: 20a16a21-6468-4e63-96e1-d9cecf0035ce
+  uuid: e1ed0569-bfe4-468f-aa9a-63819e8229ef
   ws-opts:
     headers:
-      Host: pas-seo-delays-safe.trycloudflare.com
-    path: /20a16a21-6468-4e63-96e1-d9cecf0035ce-vm
+      Host: chest-own-llp-collections.trycloudflare.com
+    path: /e1ed0569-bfe4-468f-aa9a-63819e8229ef-vm
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_3|1.0MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_4|3.2MB/s
+  network: ws
+  port: '16648'
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b5f7ad86-9e40-4684-98f9-83f8136a1054
+  ws-opts:
+    headers:
+      Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
+    path: /
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
