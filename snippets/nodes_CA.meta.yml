@@ -1,5 +1,5 @@
 proxies:
-- name: 加拿大(yudou789.top 玉豆免费节点)
+- name: '美国(yudou789.top 玉豆免费节点) #118'
   network: ws
   password: humanity
   port: 443
@@ -14,7 +14,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '美国(yudou789.top 玉豆免费节点) #24'
+  name: '美国(yudou789.top 玉豆免费节点) #165'
   network: ws
   password: humanity
   port: 443
@@ -23,18 +23,36 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '加拿大(yudou789.top 玉豆免费节点) #5'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.72
+  server: 104.16.174.34
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'HK香港(mibei77.com 米贝节点分享) #15'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.14
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '加拿大(yudou789.top 玉豆免费节点) #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #4'
+- name: '加拿大(yudou789.top 玉豆免费节点) #3'
   network: ws
   password: humanity
   port: 443
@@ -45,27 +63,16 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '加拿大(yudou789.top 玉豆免费节点) #4'
+- name: '美国(yudou789.top 玉豆免费节点) #156'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '加拿大(yudou789.top 玉豆免费节点) #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.73
+  server: 104.17.111.8
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #3'
+- name: 'CA加拿大(mibei77.com 米贝节点分享) #7'
   network: ws
   password: humanity
   port: 443
@@ -76,12 +83,24 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #131'
+- name: '加拿大(yudou789.top 玉豆免费节点) #6'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.14
+  server: 104.16.174.72
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
+- name: 🇨🇦148095 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: hmvyfx1tpnz6pp3k
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  skip-cert-verify: false
+  sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2

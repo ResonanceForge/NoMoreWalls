@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: TW - zhuhai.uk
+  network: ws
+  port: '443'
+  server: node.socks5.kdns.fr
+  servername: charge-cheaper-school-hence.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 7ffc70e7-c8fb-4754-b31f-b65950dd524f
+  ws-opts:
+    headers:
+      Host: charge-cheaper-school-hence.trycloudflare.com
+    path: /7ffc70e7-c8fb-4754-b31f-b65950dd524f-vm
+- name: 台湾
+  password: 85a88b70b5f2f73d0dcac92bd3934a5e
+  port: 50160
+  server: 211.22.154.26
+  sni: 211-22-154-26.liao.kdns.fr
+  tls: false
+  type: hysteria2

@@ -1,5 +1,5 @@
 proxies:
-- name: 'JP日本(mibei77.com 米贝节点分享) #1'
+- name: JP日本(mibei77.com 米贝节点分享)
   network: ws
   password: humanity
   port: 443
@@ -10,77 +10,6 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: JP - zhuhai.uk
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: pet-albacore.rooster465.autos
-  sni: pet-albacore.rooster465.autos
-  type: trojan
-- name: JP - zhuhai.uk 02
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: settling-shad.rooster465.autos
-  sni: settling-shad.rooster465.autos
-  type: trojan
-- name: JP - zhuhai.uk 01
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: accepted-starling.rooster465.autos
-  skip-cert-verify: true
-  sni: accepted-starling.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'JP - zhuhai.uk 02 #1'
-  network: tcp
-  port: 39411
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: false
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 日本+东京Amazon数据中心
-  password: AE62539071
-  port: 443
-  server: 13.230.97.36
-  sni: known-albacore.rooster465.autos
-  type: trojan
-- name: 日本+东京都Amazon数据中心
-  network: tcp
-  password: AE62539071
-  port: 443
-  server: 18.183.140.61
-  sni: harmless-imp.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵JP_5|5.2MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 18.183.178.158
-  skip-cert-verify: false
-  sni: inviting-burro.rooster465.autos
-  type: trojan
-  udp: true
-- name: '日本+东京都Amazon数据中心 #2'
-  network: tcp
-  password: AE62539071
-  port: 443
-  server: inviting-burro.rooster465.autos
-  sni: inviting-burro.rooster465.autos
-  type: trojan
-- name: '日本+东京Amazon数据中心 #1'
-  password: AE62539071
-  port: 443
-  server: 13.113.89.229
-  sni: coherent-newt.rooster465.autos
-  type: trojan
 - name: JP
   password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
   port: 32135
@@ -89,7 +18,7 @@ proxies:
   sni: vip-jp-4.hkd4fwmg.vip
   tls: false
   type: hysteria2
-- name: рҹҮҜрҹҮө|JP|@wxgqlfx|15
+- name: 🇯🇵|JP|@wxgqlfx|15
   password: bc751c4c5c80f17dfbc05785c368b613
   port: 50160
   server: 154.31.115.179
@@ -121,94 +50,17 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_1|2.0MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.136
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_2|5.9MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: climbing-frog.rooster465.autos
-  skip-cert-verify: false
-  sni: climbing-frog.rooster465.autos
-  type: trojan
+  name: 🇯🇵JP_1|1.1MB/s
+  network: ws
+  port: 443
+  server: cfyes.ziyoufly.xyz
+  servername: cf-uh-jp01.23523463.xyz
+  tls: true
+  type: vless
   udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_3|5.0MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: relevant-cicada.rooster465.autos
-  skip-cert-verify: false
-  sni: relevant-cicada.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_4|5.8MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 54.250.97.109
-  skip-cert-verify: false
-  sni: current-barnacle.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_6|4.4MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 57.181.88.104
-  skip-cert-verify: false
-  sni: climbing-frog.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_7|4.4MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 54.249.32.173
-  skip-cert-verify: false
-  sni: eager-camel.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_8|5.3MB/s
-  password: AE62539071
-  port: '443'
-  server: climbing-frog.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_9|1.1MB/s
-  password: AE62539071
-  port: '443'
-  server: easy-barnacle.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_10|4.3MB/s
-  password: AE62539071
-  port: '443'
-  server: inviting-burro.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_11|5.4MB/s
-  network: tcp
-  password: AE62539071
-  port: '443'
-  server: 13.231.24.177
-  skip-cert-verify: false
-  sni: easy-barnacle.rooster465.autos
-  type: trojan
-  udp: true
+  uuid: fae482df-d9f1-491f-9f9e-1ee522d4560c
+  ws-opts:
+    headers:
+      Host: cf-uh-jp01.23523463.xyz
+    path: /ziyou

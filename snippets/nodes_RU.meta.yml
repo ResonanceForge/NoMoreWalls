@@ -1,46 +1,14 @@
 proxies:
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: '俄罗斯(yudou789.top 玉豆免费节点) #2'
-  network: xhttp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  tls: true
-  type: vless
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-  ws-opts:
-    path: '%2F'
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: DE - zhuhai.uk 03
-  network: tcp
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str 8d3293f0066e129a'
-  server: 78.159.247.253
-  servername: storage.yandex.net
-  tls: false
-  type: vless
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  server: s299.sspcccdn.xyz
-  servername: u643766uccbf75e5s298.wagahaha.xyz
+  name: 'RU俄罗斯(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: 8443
+  server: 51.250.4.141
+  servername: cloudflare.vhub.pro
   tls: true
   type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
   ws-opts:
     headers:
-      Host: ccbf75e5s298.wagahaha.xyz
-    path: ''
+      Host: cloudflare.vhub.pro
+    path: '%2Fwebsocket%3Fed%3D2560'
