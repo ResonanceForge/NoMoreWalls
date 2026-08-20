@@ -1,17 +1,31 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
+  name: 英国+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 13443
   reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: '!!str 4a46213c935e2ee4'
-  server: 31.76.70.31
-  servername: baltic.cendora.ru
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 31.76.5.26
+  servername: auto.cendora.ru
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: chrome
+  name: '英国+V2CROSS.COM #1'
+  network: ws
+  port: 8443
+  server: 91.110.174.210
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
 - name: 英国
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
@@ -27,48 +41,3 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇬🇧GB_1|3.7MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8
-    short-id: '!!str 62b6d6e64d461d78'
-  server: api.getsavesafe.space
-  servername: api.getsavesafe.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api.getsavesafe.space
-    mode: auto
-    path: /
-- name: 🇬🇧GB_2|1.4MB/s
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.1MB/s
-  port: 443
-  server: 193.36.118.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇬🇧GB_4|1.2MB/s
-  network: grpc
-  port: '2087'
-  reality-opts:
-    public-key: -ZTJcZ_UcqAB7LHgkUqhnlJsQs_oBafRgjsFtWZElmM
-    short-id: '!!str c226283c4de5b1ad'
-  server: 31.76.91.72
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 524e00ce-ed89-481d-b4a4-6d7017f884e3
-  xudp: true
