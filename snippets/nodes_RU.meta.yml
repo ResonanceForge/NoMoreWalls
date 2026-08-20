@@ -25,19 +25,22 @@ proxies:
   tls: false
   type: vless
   uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- client-fingerprint: firefox
-  encryption: none
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.7MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: NBiCX_Tj3BeMAyG-GbLLKpGjW_qacm3A2Mz5mN8v3Xk
-    short-id: '!!str ab532d3308daa67b'
-  server: 212.233.99.132
-  servername: ru.chick-team.ru
+  grpc-opts:
+    grpc-service-name: ''
+  name: 俄罗斯+新西伯利亚ADMAN网络
+  network: tcp
+  port: 443
+  server: s462.wagahaha.xyz
+  servername: u643766uaf472521s394.csgfw.top
   tls: true
   type: vless
-  udp: true
-  uuid: fe0138b5-ca60-4a67-91aa-b5a49266eeb5
-  xudp: true
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  ws-opts:
+    headers:
+      Host: af472521s394.csgfw.top
+    path: ''

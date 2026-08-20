@@ -114,7 +114,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #13'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -123,12 +123,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: '美国(yudou789.top 玉豆免费节点) #14'
   network: ws
   password: humanity
   port: 443
   server: www.speedtest.org
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -305,12 +304,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
+- name: 'US美国(mibei77.com 米贝节点分享) #19'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.46
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -447,7 +445,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: 'US美国(mibei77.com 米贝节点分享) #16'
   network: ws
   password: humanity
   port: 443
@@ -474,7 +472,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
+- name: 'FR法国(mibei77.com 米贝节点分享) #21'
   network: ws
   password: humanity
   port: 443
@@ -543,7 +541,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #31'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -747,12 +745,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
+- name: 'FR法国(mibei77.com 米贝节点分享) #22'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.207
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -797,7 +794,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #39'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
@@ -859,7 +856,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: 'US美国(mibei77.com 米贝节点分享) #48'
   network: ws
   password: humanity
   port: 443
@@ -963,12 +960,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+加州
+- name: 'US美国(mibei77.com 米贝节点分享) #40'
   network: ws
   password: humanity
   port: 443
   server: 216.24.57.1
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1026,73 +1022,57 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国+CloudFlare节点 #2'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
+  server: 104.16.174.33
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.72.2
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
     path: /assignment
-- name: '美国+CloudFlare节点 #11'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.208
+  server: 104.19.229.21
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
-  server: 16.162.192.182
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 16.162.100.124
+  port: 28051
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 16.162.103.28
+  port: 10418
+  server: 18.163.74.15
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.145.35.194
+  type: ss
