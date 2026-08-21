@@ -29,6 +29,22 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: '!!str 4a46213c935e2ee4'
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  ws-opts:
+    headers:
+      Host: '%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
     public-key: IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs
     short-id: '!!str 1aa9f3c9021280c0'
   server: 5.152.223.97
@@ -36,7 +52,22 @@ proxies:
   tls: false
   type: vless
   uuid: be5b6ad6-8184-4b63-82ac-3bc00c09c98c
+- name: '英国+V2CROSS.COM #2'
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  port: 443
+  server: fast.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fast.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
 - name: 英国
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 138.124.0.168
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: '英国 #1'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 222.167.212.81
@@ -45,65 +76,16 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_1|4.6MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21117'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_2|4.2MB/s
+  name: 🇬🇧GB_1|1.5MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21104'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_3|4.4MB/s
+  name: 🇬🇧GB_2|1.0MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21117'
   server: 211.91.158.44
   type: ss
   udp: true
-- name: 🇬🇧GB_4|1.0MB/s
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_5|2.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: '!!str fd55b698ee8c3629'
-  server: 5.152.223.193
-  servername: strapi.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: f09a0e10-a32f-4c77-9cb6-63b0823b5ad7
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Rj5Jm-uPO7iwO9TJV7j4zgDKBpEvUNxDQafm_8zRND4
-  name: 🇬🇧GB_6|1.2MB/s
-  network: xhttp
-  port: '443'
-  server: 188.114.97.8
-  servername: allineedradiohead.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: allineedradiohead.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true

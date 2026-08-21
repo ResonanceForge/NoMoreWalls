@@ -416,7 +416,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+加州
+- name: 'US美国(mibei77.com 米贝节点分享) #18'
   network: ws
   password: humanity
   port: 443
@@ -1347,7 +1347,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
+  name: 俄罗斯+V2CROSS.COM
   network: raw
   port: 2027
   reality-opts:
@@ -1369,78 +1369,45 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+科罗拉多州NTT(美国)通信公司
+- name: 美国+V2CROSS.COM
   network: ws
-  port: 41834
-  server: 157.238.208.110
-  tls: false
-  type: vless
-  uuid: 5adeccb9-dfca-41de-cdf7-4d901f2e70f5
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    path: /5adeccb9
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 192.169.222.7
-  servername: speed.dulacloud.store
-  tls: true
-  type: vless
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  ws-opts:
-    headers:
-      Host: speed.dulacloud.store
-    path: /dula?Telegram-WangCai2
-- name: 美国+加利福尼亚州洛杉矶QuadraNet数据中心
-  obfs: ''
-  obfs-password: ''
-  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
-  port: 35193
-  server: 40t2.wxgqlfx.vip
+    path: /assignment
+- name: 🍥80@oneclickvpnkeys
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
+  port: 443
+  server: player.wwwinternetvideo.click
   skip-cert-verify: true
-  sni: 40t2.wxgqlfx.vip
+  sni: player.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 159.112.235.52
+  server: 104.18.28.234
   servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   ws-opts:
     headers:
       Host: josni.hoyes.cloudns.ch
-    path: '%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI%3Fed%3D512'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+FDC芝加哥机房
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: AYL1z7PNyo6LqYLeZpXa50FnK9eEu7o18KHRhOlST1w
-    short-id: '!!str bd72'
-  server: 50.7.41.142
-  servername: deepl.com
-  tls: false
-  type: vless
-  uuid: b8794f67-80d9-4124-8fc5-2d2ce5516573
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '443'
-  server: rush-w1niu.teeopp.online
-  servername: rush-w1niu.teeopp.online
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-w1niu.teeopp.online
-    path: /video/v4sx3q/zxzrurkc.m3u8
+    path: /sg-melbi
 - name: 🍥33@oneclickvpnkeys
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
@@ -1514,55 +1481,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.6MB/s
-  network: tcp
-  port: 10004
-  reality-opts:
-    public-key: YoLRlSFCOiQjky1hQVHuSkiaPER4pro1uDyCTHVSfwY
-    short-id: '!!str df52dd28ff'
-  server: family.bucket.3.kfc-520.com
-  servername: www.intel.com
-  tls: true
-  type: vless
+- name: 🇺🇸US_2|1.1MB/s
+  password: ea6cb13b-f556-4512-9f02-fb0a598766f4
+  port: 40991
+  server: umoso-eo669-zhse.clodom.com
+  skip-cert-verify: true
+  sni: us1.clodom.top
+  type: anytls
   udp: true
-  uuid: 3979cfac-7f7b-3dcf-a4e4-513eb8d125a7
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_2|4.7MB/s
+  name: 🇺🇸US_3|4.3MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21105'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_3|3.9MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21105'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_4|4.0MB/s
+  name: 🇺🇸US_4|4.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21108'
   server: 211.91.158.44
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_5|4.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: yS0gQc7yJKYrbltuoBzOSxFH1eJmQPghTVgGXyka6Rw
-    short-id: '!!str df9ee61607c20c0f'
-  server: 38.64.62.238
-  servername: speed.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89323a6b-edf6-402b-a72f-e1a7863794ad
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130

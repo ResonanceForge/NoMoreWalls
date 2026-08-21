@@ -363,7 +363,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+加州
+- name: 'US美国(mibei77.com 米贝节点分享) #18'
   network: ws
   password: humanity
   port: 443
@@ -1226,20 +1226,24 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
+- name: 美国+V2CROSS.COM
   network: ws
-  port: '443'
-  server: rush-w1niu.teeopp.online
-  servername: rush-w1niu.teeopp.online
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: rush-w1niu.teeopp.online
-    path: /video/v4sx3q/zxzrurkc.m3u8
+    path: /assignment
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
@@ -1265,21 +1269,14 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_2|4.7MB/s
+  name: 🇺🇸US_3|4.3MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21105'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_3|3.9MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21105'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_4|4.0MB/s
+  name: 🇺🇸US_4|4.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21108'
   server: 211.91.158.44

@@ -12,24 +12,3 @@ proxies:
     headers:
       Host: cloudflare.vhub.pro
     path: '%2Fwebsocket%3Fed%3D2560'
-- client-fingerprint: firefox
-  name: 俄罗斯+V2CROSS.COM
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: xXxqDpB8gQjBddOHSOFb52xVS2Odmb63z1PYhMqe0Uo
-    short-id: '!!str 1a55b8fd25417fbf'
-  server: 188.130.234.239
-  servername: kz.node.goidanet.com
-  tls: false
-  type: vless
-  uuid: 308cf8e0-e922-49bb-9b68-203e5aafcc97
-- name: '俄罗斯+V2CROSS.COM #2'
-  network: ws
-  port: 2200
-  server: 5.42.103.91
-  tls: false
-  type: vless
-  uuid: 7b2ce6b0-6d2b-4926-b7bf-6247eb1a0050
-  ws-opts:
-    path: /v1
