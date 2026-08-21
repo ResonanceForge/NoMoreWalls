@@ -52,12 +52,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
+- name: '加拿大(yudou789.top 玉豆免费节点) #3'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.12
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -95,13 +94,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 🇨🇦CA_1|2.0MB/s
-  network: ws
-  port: 22819
-  server: 216.128.176.166
+- name: 加拿大+魁北克省蒙特利尔Amazon数据中心
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-ca-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-ca-001.fastervpn.world
   tls: false
-  type: vless
-  udp: true
-  uuid: f60ed982-1ec8-426a-d74e-a675685d6dc8
-  ws-opts:
-    path: /f60ed982-1ec8-426a-d74e-a675685d6dc8
+  type: hysteria2
