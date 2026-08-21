@@ -8,11 +8,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #1'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
   server: 104.26.14.137
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -41,7 +42,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+- name: 'FR法国(mibei77.com 米贝节点分享) #23'
   network: ws
   password: humanity
   port: 443
@@ -107,6 +108,14 @@ proxies:
     headers:
       Host: dey.lnmarketplace.net
     path: '%2Fkavir'
+- name: JP
+  password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
+  port: 32135
+  server: vip-jp-4.hkd4fwmg.vip
+  skip-cert-verify: true
+  sni: vip-jp-4.hkd4fwmg.vip
+  tls: false
+  type: hysteria2
 - name: 香港
   password: 1427eb10-7529-4d38-a6a2-01b337868b37
   port: 4433
@@ -177,19 +186,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_1|1.5MB/s
-  password: 4654939b-06de-49b7-9be8-768ede6bd97d
-  port: 45993
+- name: 🇭🇰HK_1|1.3MB/s
+  password: ea6cb13b-f556-4512-9f02-fb0a598766f4
+  port: 16833
   server: umoso-eo669-zhse.clodom.com
   skip-cert-verify: true
-  sni: hk3.clodom.top
-  type: anytls
-  udp: true
-- name: 🇭🇰HK_2|1.6MB/s
-  password: 4654939b-06de-49b7-9be8-768ede6bd97d
-  port: 23091
-  server: umoso-eo669-zhse.clodom.com
-  skip-cert-verify: true
-  sni: hk1.clodom.top
+  sni: hk5.clodom.top
   type: anytls
   udp: true
