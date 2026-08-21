@@ -135,19 +135,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|5.0MB/s
+  name: 🇭🇰HK_1|3.1MB/s
   network: ws
-  port: '16622'
-  server: planb.mojcn.com.linuxlh.xin
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: suspected-confirmed-origin-pocket.trycloudflare.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
+  uuid: 3d6fb203-616e-4bb2-851b-e37a0903a4bc
   ws-opts:
     headers:
-      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
-    path: /
+      Host: suspected-confirmed-origin-pocket.trycloudflare.com
+    path: /3d6fb203-616e-4bb2-851b-e37a0903a4bc-vm
   xudp: true

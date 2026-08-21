@@ -12,11 +12,11 @@ proxies:
     headers:
       Host: cloudflare.vhub.pro
     path: '%2Fwebsocket%3Fed%3D2560'
-- name: 俄罗斯+V2CROSS.COM
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
+- name: 🇷🇺RU_1|1.8MB/s
+  network: tcp
+  port: '443'
+  server: 89.19.223.136
+  type: vless
+  udp: true
+  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
+  xudp: true
