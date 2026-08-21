@@ -363,11 +363,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #18'
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
   server: render.com
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -403,7 +404,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -675,12 +676,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+加州
+- name: 'US美国(mibei77.com 米贝节点分享) #82'
   network: ws
   password: humanity
   port: 443
   server: 216.24.57.7
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1065,12 +1065,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国(yudou789.top 玉豆免费节点) #154'
   network: ws
   password: humanity
   port: 443
   server: 104.18.23.63
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1152,11 +1151,12 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: '美国(yudou789.top 玉豆免费节点) #127'
+  name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
   server: 104.18.23.63
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1253,3 +1253,41 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_5|4.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21105'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_6|3.5MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21105'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_7|4.3MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21108'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_8|1.0MB/s
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 45.205.0.6
+  skip-cert-verify: true
+  sni: 333-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/u-s@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
