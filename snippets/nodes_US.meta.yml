@@ -421,7 +421,6 @@ proxies:
   password: humanity
   port: 443
   server: render.com
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -457,12 +456,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国(yudou789.top 玉豆免费节点) #34'
   network: ws
   password: humanity
   port: 443
   server: 104.26.15.137
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1255,12 +1253,11 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: '美国+CloudFlare节点 #2'
+  name: '美国(yudou789.top 玉豆免费节点) #127'
   network: ws
   password: humanity
   port: 443
   server: 104.18.23.63
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1350,7 +1347,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
+  name: '俄罗斯+V2CROSS.COM #1'
   network: raw
   port: 2027
   reality-opts:
@@ -1372,50 +1369,20 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
+- name: 美国+科罗拉多州NTT(美国)通信公司
   network: ws
-  port: 2087
-  server: 172.64.145.93
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str 8d3293f0066e129a'
-  server: 154.222.9.98
-  servername: storage.yandex.net
+  port: 41834
+  server: 157.238.208.110
   tls: false
   type: vless
-  uuid: b55dd203-630d-46a3-b506-c52ebcafa77c
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 208.103.161.32
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: 5adeccb9-dfca-41de-cdf7-4d901f2e70f5
   ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi
+    path: /5adeccb9
 - client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #2'
+  name: 美国+V2CROSS.COM
   network: ws
   port: 8443
-  server: 45.131.6.7
+  server: 192.169.222.7
   servername: speed.dulacloud.store
   tls: true
   type: vless
@@ -1424,31 +1391,56 @@ proxies:
     headers:
       Host: speed.dulacloud.store
     path: /dula?Telegram-WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: KmD_j9AlbGLqnGD611c_j_OB8yjRO_5009SaEsZUByg
-    short-id: '!!str 39297e26a17a2208'
-  server: 172.236.210.140
-  servername: www.cloudflare.com
+- name: 美国+加利福尼亚州洛杉矶QuadraNet数据中心
+  obfs: ''
+  obfs-password: ''
+  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
+  port: 35193
+  server: 40t2.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 40t2.wxgqlfx.vip
   tls: false
-  type: vless
-  uuid: 32626a62-8ca5-4b36-bef0-f771df8805ab
-- name: '美国+CloudFlare节点 #3'
+  type: hysteria2
+- name: '美国+V2CROSS.COM #1'
   network: ws
-  port: 8880
-  server: www.glassdoor.com
-  servername: www.glassdoor.com
-  tls: false
+  port: 443
+  server: 159.112.235.52
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   ws-opts:
     headers:
-      Host: yellow-sky-38b3.154-d73.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      Host: josni.hoyes.cloudns.ch
+    path: '%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI%3Fed%3D512'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+FDC芝加哥机房
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: AYL1z7PNyo6LqYLeZpXa50FnK9eEu7o18KHRhOlST1w
+    short-id: '!!str bd72'
+  server: 50.7.41.142
+  servername: deepl.com
+  tls: false
+  type: vless
+  uuid: b8794f67-80d9-4124-8fc5-2d2ce5516573
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: rush-w1niu.teeopp.online
+  servername: rush-w1niu.teeopp.online
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-w1niu.teeopp.online
+    path: /video/v4sx3q/zxzrurkc.m3u8
 - name: 🍥33@oneclickvpnkeys
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
@@ -1522,67 +1514,55 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.7MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_1|1.6MB/s
+  network: tcp
+  port: 10004
+  reality-opts:
+    public-key: YoLRlSFCOiQjky1hQVHuSkiaPER4pro1uDyCTHVSfwY
+    short-id: '!!str df52dd28ff'
+  server: family.bucket.3.kfc-520.com
+  servername: www.intel.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  udp: true
-  username: null
+  uuid: 3979cfac-7f7b-3dcf-a4e4-513eb8d125a7
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_5|4.2MB/s
+  name: 🇺🇸US_2|4.7MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21105'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_6|3.5MB/s
+  name: 🇺🇸US_3|3.9MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21105'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_7|4.3MB/s
+  name: 🇺🇸US_4|4.0MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21108'
   server: 211.91.158.44
   type: ss
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_8|1.0MB/s
-  network: ws
-  password: mitivpn
+- client-fingerprint: chrome
+  name: 🇺🇸US_5|4.0MB/s
+  network: tcp
   port: '443'
-  server: 45.205.0.6
-  skip-cert-verify: true
-  sni: 333-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
+  reality-opts:
+    public-key: yS0gQc7yJKYrbltuoBzOSxFH1eJmQPghTVgGXyka6Rw
+    short-id: '!!str df9ee61607c20c0f'
+  server: 38.64.62.238
+  servername: speed.cloudflare.com
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/u-s@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  uuid: 89323a6b-edf6-402b-a72f-e1a7863794ad
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -1626,6 +1606,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -1704,6 +1690,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0141
   port: 443
   server: 38.28.193.188
