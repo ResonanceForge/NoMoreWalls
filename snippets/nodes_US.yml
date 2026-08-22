@@ -107,12 +107,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: 'HK香港(mibei77.com 米贝节点分享) #2'
   network: ws
   password: humanity
   port: 443
   server: 104.26.15.137
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -139,12 +138,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 巴西圣保罗+CloudFlare节点
+- name: '美国(yudou789.top 玉豆免费节点) #166'
   network: ws
   password: humanity
   port: 443
   server: 188.114.97.7
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1109,11 +1107,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #133'
+- name: 法国巴黎+CloudFlare节点
   network: ws
   password: humanity
   port: 443
   server: 141.101.90.101
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1177,12 +1176,11 @@ proxies:
   - http/1.1
   - h2
   - h3
-  name: 美国+CloudFlare节点
+  name: 'US美国(mibei77.com 米贝节点分享) #89'
   network: ws
   password: humanity
   port: 443
   server: 198.41.223.96
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1254,9 +1252,16 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_4|3.8MB/s
+  name: 🇺🇸US_1|2.8MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21108'
+  port: '21105'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_4|1.8MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21105'
   server: 211.91.158.44
   type: ss
   udp: true
