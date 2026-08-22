@@ -12,13 +12,16 @@ proxies:
     headers:
       Host: cloudflare.vhub.pro
     path: '%2Fwebsocket%3Fed%3D2560'
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 80
+  reality-opts:
+    public-key: CMlXrhikqsy7lZl3kfLuiwrgdHn4hm3Jgr8gf_ZnYRM
+    short-id: '!!str d3fb'
+  server: 95.182.96.120
+  servername: console.hetzner.com
+  tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
+  uuid: 88888888-8888-8888-8888-888888888888
