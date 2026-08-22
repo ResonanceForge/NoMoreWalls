@@ -23,40 +23,53 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: firefox
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_2|2.5MB/s
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
   network: tcp
-  port: 13443
+  port: 443
   reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: '!!str a7f3c91b2e6d84c0'
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: '!!str 2186a755ed67b034'
   server: 31.76.5.26
-  servername: auto.cendora.ru
+  servername: nordic.cendora.ru
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
-  network: tcp
+- name: '英国+V2CROSS.COM #1'
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
   port: 443
-  reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: '!!str 635a76c25a4b1820'
-  server: 2.27.201.184
-  servername: www.amd.com
+  server: fast.wwwinternetvideo.click
+  skip-cert-verify: false
+  sni: fast.wwwinternetvideo.click
   tls: false
-  type: vless
-  uuid: 15e83ced-7544-422e-863d-deafe29a1dbe
+  type: hysteria2
 - name: 英国
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: uk196.mechvpn.online
   tls: false
   type: hysteria2
-- auth: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  name: 🇺🇦UA_1|3.4MB/s
+- name: 🇺🇦UKraine
   password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
   port: 8443
   server: hy2-germany.unlimited-access.ru
@@ -64,6 +77,19 @@ proxies:
   sni: hy2-germany.unlimited-access.ru
   tls: false
   type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 🇬🇱GL_1|1.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: '8080'
+  server: 138.124.0.168
+  skip-cert-verify: false
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+  up: ''
 - name: '英国 #3'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
@@ -72,21 +98,10 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|2.8MB/s
-  password: None
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- alpn:
-  - h3
-  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  name: 🇬🇧GB_2|3.3MB/s
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: uk196.mechvpn.online
-  skip-cert-verify: true
-  sni: uk196.mechvpn.online
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_1|4.1MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.26
+  type: ss
+  udp: true

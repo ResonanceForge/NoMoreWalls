@@ -202,12 +202,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: '美国(yudou789.top 玉豆免费节点) #9'
   network: ws
   password: humanity
   port: 443
   server: join-telegram-channel.tirexnet.kdns.fr
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -227,11 +226,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #2'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
   server: 104.26.15.137
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -282,11 +282,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #166'
+- name: 巴西圣保罗+CloudFlare节点
   network: ws
   password: humanity
   port: 443
   server: 188.114.97.7
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -566,12 +567,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+加州
+- name: 'US美国(mibei77.com 米贝节点分享) #18'
   network: ws
   password: humanity
   port: 443
   server: render.com
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -960,7 +960,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+- name: 'FR法国(mibei77.com 米贝节点分享) #23'
   network: ws
   password: humanity
   port: 443
@@ -1208,29 +1208,24 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #68'
+- name: 立陶宛+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
   server: 86.38.214.205
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.9MB/s
+- name: 'US美国(mibei77.com 米贝节点分享) #52'
   network: ws
   password: humanity
-  port: '443'
+  port: 443
   server: 104.19.229.21
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: assignment
 - name: '美国(yudou789.top 玉豆免费节点) #77'
   network: ws
@@ -1605,11 +1600,12 @@ proxies:
   - http/1.1
   - h2
   - h3
-  name: 'US美国(mibei77.com 米贝节点分享) #89'
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
   server: 198.41.223.96
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1667,15 +1663,58 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- cipher: chacha20-ietf-poly1305
+  name: 湖北省宜昌市+联通
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.26
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_2|2.5MB/s
   network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
-  sni: www.ignitelimit.com
-  type: trojan
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_2|2.3MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '湖北省宜昌市+联通 #2'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21113
+  server: 211.91.158.44
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_1|3.9MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21121'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷KR_2|5.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21107'
+  server: 211.91.158.26
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1798,101 +1837,29 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_1|2.8MB/s
+  name: 🇰🇷KR_1|4.6MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_1|3.2MB/s
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: hawaiian-bald-shed-goes.trycloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de2b04aa-cc4d-4bc8-86e2-eca350671ea8
-  ws-opts:
-    headers:
-      Host: hawaiian-bald-shed-goes.trycloudflare.com
-    path: /de2b04aa-cc4d-4bc8-86e2-eca350671ea8-vm
-- cipher: aes-256-gcm
-  name: 🇭🇰HK_1|2.9MB/s
-  password: Butterfly123@qwe9527
-  port: '10006'
-  server: 36.33.35.105
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP_1|4.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21109'
+  server: 211.91.158.26
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_2|5.6MB/s
-  network: ws
-  port: '16622'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_1|4.1MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.26
+  type: ss
   udp: true
-  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
-  ws-opts:
-    headers:
-      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇳🇱NL_1|2.6MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: 3865895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_3|5.7MB/s
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇺🇸US_2|3.5MB/s
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  tls: false
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- cipher: aes-256-cfb
-  name: 🇨🇦CA_1|1.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.96.158.76
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_4|3.8MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21108'
+  server: 211.91.158.44
   type: ss
   udp: true
