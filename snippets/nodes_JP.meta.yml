@@ -10,12 +10,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 日本+V2CROSS.COM
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- name: 日本+东京Choopa数据中心
+  password: 1e3a5c5fde1da9dd1358b4adeb0c4ca1
   port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: 127.0.0.1
+  server: 45.32.252.144
+  sni: vps.vpsv.cc
   tls: false
   type: hysteria2
 - name: 日本

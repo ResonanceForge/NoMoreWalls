@@ -83,11 +83,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #9'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
   server: join-telegram-channel.tirexnet.kdns.fr
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -363,11 +364,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #18'
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
   server: render.com
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -403,12 +405,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: '美国(yudou789.top 玉豆免费节点) #34'
   network: ws
   password: humanity
   port: 443
   server: 104.26.15.137
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -876,14 +877,20 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #52'
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|1.9MB/s
   network: ws
   password: humanity
-  port: 443
+  port: '443'
   server: 104.19.229.21
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
+  udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: assignment
 - name: '美国(yudou789.top 玉豆免费节点) #77'
   network: ws
@@ -1139,7 +1146,7 @@ proxies:
   - http/1.1
   - h2
   - h3
-  name: 美国+CloudFlare节点
+  name: '美国(yudou789.top 玉豆免费节点) #135'
   network: ws
   password: humanity
   port: 443
@@ -1227,12 +1234,15 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- cipher: aes-256-gcm
-  name: 美国+华盛顿Cogent通信公司
-  password: 7w9x5m4kNWNFgKuDXFUxu68x-26wbWwg
-  port: 8388
-  server: 38.64.58.242
-  type: ss
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.74.2
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
@@ -1257,28 +1267,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_3|2.3MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_1|3.2MB/s
   network: ws
-  password: MiTiVPN
   port: 443
-  server: 188.42.145.180
+  server: node.socks5.kdns.fr
+  servername: hawaiian-bald-shed-goes.trycloudflare.com
   skip-cert-verify: true
-  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: de2b04aa-cc4d-4bc8-86e2-eca350671ea8
   ws-opts:
     headers:
-      Host: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: hawaiian-bald-shed-goes.trycloudflare.com
+    path: /de2b04aa-cc4d-4bc8-86e2-eca350671ea8-vm
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 🇺🇸US_7|2.0MB/s
+  name: 🇺🇸US_2|3.5MB/s
   network: http
   port: 52080
   server: 38.246.226.240
