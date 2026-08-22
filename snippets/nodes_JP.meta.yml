@@ -10,13 +10,6 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 日本+东京Choopa数据中心
-  password: 1e3a5c5fde1da9dd1358b4adeb0c4ca1
-  port: 443
-  server: 45.32.252.144
-  sni: vps.vpsv.cc
-  tls: false
-  type: hysteria2
 - name: 日本
   password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
   port: 8443
@@ -65,10 +58,9 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_1|4.0MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.136
-  type: ss
-  udp: true
+- name: 🇯🇵JP_1|4.6MB/s
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'

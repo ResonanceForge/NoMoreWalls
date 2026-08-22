@@ -118,16 +118,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 🇫🇷FR_1|3.5MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-  udp: true
 - name: 法国
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
@@ -143,3 +133,12 @@ proxies:
   sni: www.cloudflare.com
   tls: false
   type: hysteria2
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷FR_1|1.3MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true

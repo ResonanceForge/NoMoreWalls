@@ -49,7 +49,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -76,12 +76,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
+- name: '美国(yudou789.top 玉豆免费节点) #162'
   network: ws
   password: humanity
   port: 443
   server: 104.26.14.137
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -134,21 +133,21 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 'HK香港(mibei77.com 米贝节点分享) #2'
   network: ws
   password: humanity
   port: 443
   server: 104.26.15.137
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #11'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
   server: join-telegram-channel.tirexnet.kdns.fr
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -729,7 +728,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #82'
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
@@ -815,11 +814,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #62'
+- name: 立陶宛+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
   server: 86.38.214.205
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1371,19 +1371,15 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
+  password: humanity
   port: 443
-  server: 172.67.185.178
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 172.67.74.2
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
+    path: '%2Fassignment'
 - name: 美国+加利福尼亚州洛杉矶QuadraNet数据中心
   password: 57ec0f01-0c00-4a69-ad67-937b4735640b
   port: 35193
@@ -1392,39 +1388,21 @@ proxies:
   sni: 40t2.wxgqlfx.vip
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 172.67.69.106
-  servername: zero.csmaster.ggff.net
-  tls: true
-  type: vless
-  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
-  ws-opts:
-    headers:
-      Host: zero.csmaster.ggff.net
-    path: /
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_1|4.3MB/s
+  - http/1.1
+  name: 美国+V2CROSS.COM
   network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+  password: MiTiVPN
+  port: 443
+  server: 140.248.185.253
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  sni: ssl.fastly.com
+  type: trojan
   ws-opts:
     headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- name: 🇺🇸US
+      Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🧮78@oneclickvpnkeys
   password: 17aVvwmiSU
   port: 10929
   server: do.aigh.store
@@ -1512,34 +1490,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.6MB/s
-  network: tcp
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 64.186.226.124
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- auth: 099830134df5ac3a04a4b21d39b8c395
+- auth: c85bd762dc136495ddc02b30b0b7c5c5
   name: 🇺🇸US_2|2.9MB/s
-  password: 099830134df5ac3a04a4b21d39b8c395
+  password: c85bd762dc136495ddc02b30b0b7c5c5
   port: 50160
-  server: 163.192.14.135
-  skip-cert-verify: true
-  sni: www.bing.com
+  server: 107-172-212-12.liao.kdns.fr
+  sni: 107-172-212-12.liao.kdns.fr
   type: hysteria2
-- name: 🇺🇸US_3|2.5MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
+  udp: true
+- auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  name: 🇺🇸US_3|1.6MB/s
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 222.167.212.82
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
