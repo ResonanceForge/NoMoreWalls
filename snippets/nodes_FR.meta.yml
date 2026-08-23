@@ -94,26 +94,39 @@ proxies:
   sni: www.cloudflare.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|2.3MB/s
-  network: tcp
-  port: 443
-  server: 88.218.196.178
-  servername: lapa4.api3-max.ru
-  tls: true
-  type: vless
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷FR_1|2.8MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
   udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_2|1.5MB/s
-  network: tcp
-  port: '443'
-  server: 88.218.196.243
-  servername: lapa10.api3-max.ru
-  tls: true
-  type: vless
+- name: 🇫🇷FR_2|1.0MB/s
+  password: None
+  port: 5060
+  server: 145.239.41.4
+  type: http
+  username: null
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_3|1.3MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21126'
+  server: 211.91.158.44
+  type: ss
   udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_4|2.1MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21126'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_5|1.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21122'
+  server: 211.91.158.44
+  type: ss
+  udp: true

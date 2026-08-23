@@ -1,5 +1,5 @@
 proxies:
-- name: 🍥16@oneclickvpnkeys
+- name: 德国
   password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
   port: 443
   server: pixelcast.wwwinternetvideo.click
@@ -96,19 +96,46 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.1MB/s
-  network: tcp
-  port: '1234'
-  reality-opts:
-    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
-    short-id: '!!str 4844fb0c077b20b7'
-  server: store16.vevluma.ir
-  servername: updates.cdn-apple.com
+- auth: e5gqbtu97umt992j
+  name: 🇩🇪DE_1|1.7MB/s
+  password: e5gqbtu97umt992j
+  port: 9443
+  server: 185.230.44.170
+  sni: 185.230.44.170
+  type: hysteria2
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.8mYSI2mSW-DbxDiXo3Lc0pB-C1nwW6HgSQVebc0SWTs
+  name: 🇩🇪DE_2|1.0MB/s
+  network: xhttp
+  port: '443'
+  server: 172.67.156.192
+  servername: daaailycoooonfigs.dodfun.ir
   tls: true
   type: vless
   udp: true
-  uuid: da6ece67-aff5-4f94-94f3-08e87ca8cd51
+  uuid: 1ab3d304-568e-4d0b-b347-24038012fc10
+  xhttp-opts:
+    host: daaailycoooonfigs.dodfun.ir.
+    mode: auto
+    path: /engineering/465426-self-healing-roman-concrete-featured
+    x-padding-bytes: 100-1000
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_3|2.3MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21118'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_4|4.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21118'
+  server: 211.91.158.44
+  type: ss
+  udp: true

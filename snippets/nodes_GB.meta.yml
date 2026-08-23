@@ -1,9 +1,9 @@
 proxies:
-- name: 英国+V2CROSS.COM
+- name: 英国(yudou789.top 玉豆免费节点)
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8080
   server: 82.39.214.95
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
@@ -18,6 +18,35 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+伦敦Virgin+Media
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FYKh5rWtirmY23OjNuhNlQFJb7DI5J79E7T-gkyYNHo
+    short-id: '!!str 80bfd8cae4850bc9'
+  server: 82.26.94.13
+  servername: mywebsite.whit3.net
+  tls: false
+  type: vless
+  uuid: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: '!!str 2186a755ed67b034'
+  server: 31.76.5.26
+  servername: nordic.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  ws-opts:
+    headers:
+      Host: nordic.cendora.ru
 - name: 英国
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
@@ -40,11 +69,55 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|1.1MB/s
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.135.252.176
+  type: ss
+  udp: true
+- name: 🇬🇧GB_2|1.6MB/s
   password: None
   port: 443
-  server: 37.120.233.18
+  server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_3|3.6MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB_4|1.1MB/s
+  network: grpc
+  port: '2054'
+  reality-opts:
+    public-key: Re5uQKjLVnOpmsyTQKCiqh8LLJ-UAyZy0s3KO6PRtEY
+    short-id: '!!str 300580005a374a9f'
+  server: 85.137.249.157
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_5|3.7MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_6|1.9MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21104'
+  server: 211.91.158.44
+  type: ss
+  udp: true
