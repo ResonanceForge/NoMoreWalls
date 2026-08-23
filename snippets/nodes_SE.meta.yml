@@ -12,17 +12,9 @@ proxies:
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 瑞典
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 8443
-  server: swe.frkn.org
-  sni: swe.frkn.org
-  tls: false
-  type: hysteria2
-- name: '瑞典 #1'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- name: 🇸🇪SE_1|2.7MB/s
   port: 443
-  server: us54.mechvpn.online
-  sni: us54.mechvpn.online
-  tls: false
-  type: hysteria2
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http

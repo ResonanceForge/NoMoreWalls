@@ -79,52 +79,28 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 法国
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|1.0MB/s
+  network: tcp
   port: 443
-  server: fr194.mechvpn.online
-  sni: fr194.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '法国 #1'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: fr.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 🇫🇷FR_1|2.8MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.131.212.41
+  servername: gb.sellflow.org
+  tls: true
+  type: vless
   udp: true
-- name: 🇫🇷FR_2|1.0MB/s
-  password: None
-  port: 5060
-  server: 145.239.41.4
-  type: http
-  username: null
+  uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
 - cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_3|1.3MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21126'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_4|2.1MB/s
+  name: 🇫🇷FR_2|1.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21126'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_5|1.4MB/s
+  name: 🇫🇷FR_3|1.8MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21122'
   server: 211.91.158.44
