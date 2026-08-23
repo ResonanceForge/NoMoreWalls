@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: SE - zhuhai.uk
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: '!!str 2186a755ed67b034'
+  server: 31.76.3.54
+  servername: nordic.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - name: 瑞典
   password: 3b8c82ed-fe66-472d-915e-034ccb57103f
   port: 8443
@@ -13,9 +26,20 @@ proxies:
   sni: us54.mechvpn.online
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|1.6MB/s
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  name: 🇸🇪SE_1|2.6MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: '!!str 9e2a6f4c3b7d1e8a'
+  server: se.moktana.app
+  servername: se.moktana.app
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+  xudp: true
