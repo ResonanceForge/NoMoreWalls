@@ -8,11 +8,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #1'
+- name: '美国+CloudFlare节点 #8'
   network: ws
   password: humanity
   port: 443
   server: 104.26.14.137
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -107,7 +108,15 @@ proxies:
     headers:
       Host: dey.lnmarketplace.net
     path: '%2Fkavir'
-- name: рҹҮӯрҹҮ°HK
+- name: 香港
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: hk2.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 🇭🇰HK
   obfs: salamander
   obfs-password: 1ol3tasb90
   password: 1dcc3b89-0b45-3908-9120-19741361d55d
@@ -126,7 +135,7 @@ proxies:
   sni: xk7qhk307.ckpfef.top
   tls: false
   type: hysteria2
-- name: 'рҹҮӯрҹҮ°HK #1'
+- name: '🇭🇰HK #1'
   password: 9q3Mb0IzSVbnwaqK
   port: 16001
   server: 18.162.42.61

@@ -23,45 +23,37 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: '!!str a7f3c91b2e6d84c0'
-  server: 31.76.5.26
-  servername: auto.cendora.ru
-  tls: false
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  ws-opts:
-    headers:
-      Host: auto.cendora.ru
-    path: '%2F'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
-  network: tcp
+- name: 英国
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
-  reality-opts:
-    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: '!!str 2186a755ed67b034'
-  server: 31.76.5.26
-  servername: nordic.cendora.ru
+  server: uk196.mechvpn.online
   tls: false
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 🇬🇧GB_1|3.4MB/s
-  password: 5040a6b0-92be-42bc-a8ab-7f8c1d02866c
-  port: 53991
-  server: yazhouany02.downapptwo.cc
+  type: hysteria2
+- name: 🧮25@oneclickvpnkeys
+  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
+  port: 8443
+  server: hy2-germany.unlimited-access.ru
   skip-cert-verify: true
-  sni: jp03.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇬🇧GB_3|2.3MB/s
+  sni: hy2-germany.unlimited-access.ru
+  tls: false
+  type: hysteria2
+- name: 🧮60@oneclickvpnkeys
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 138.124.0.168
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: '英国 #3'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 222.167.212.81
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: 🇬🇧GB_1|3.8MB/s
   password: None
   port: 443
   server: 185.235.0.66
@@ -69,7 +61,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_4|1.1MB/s
+- name: 🇬🇧GB_2|2.2MB/s
   password: None
   port: 443
   server: 37.120.233.18

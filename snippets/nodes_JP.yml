@@ -1,9 +1,10 @@
 proxies:
-- name: JP日本(mibei77.com 米贝节点分享)
+- name: '美国+CloudFlare节点 #12'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.44
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -34,18 +35,10 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|5.4MB/s
-  network: ws
-  password: 8978b84c-6b95-4494-beb6-5246ec82e9ad
-  port: '443'
-  server: cdn3.bpcdn.cc
-  skip-cert-verify: false
-  sni: baijofe6666.bpjp2027.top
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_1|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.136
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /images
