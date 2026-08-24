@@ -18,27 +18,20 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
+- name: 英国+V2CROSS.COM
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: '!!str 4a46213c935e2ee4'
-  server: 31.76.70.31
-  servername: baltic.cendora.ru
-  tls: false
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  server: 176.97.66.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: baltic.cendora.ru
+    path: '%2Fassignment'
 - name: '英国+V2CROSS.COM #1'
   password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
   port: 443
   server: fast.wwwinternetvideo.click
-  skip-cert-verify: true
   sni: fast.wwwinternetvideo.click
   tls: false
   type: hysteria2
@@ -64,7 +57,70 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|1.4MB/s
-  port: 5002
-  server: 92.48.125.152
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.135.73.177
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_2|2.0MB/s
+  network: tcp
+  port: '46142'
+  reality-opts:
+    public-key: l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk
+    short-id: '!!str 39feeba3085c'
+  server: birmengham.surup.shop
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 255386a8-aec5-4425-bfe7-ca49b7448deb
+  xudp: true
+- name: 🇬🇧GB_3|3.3MB/s
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
   type: http
+- name: 🇬🇧GB_4|2.5MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_5|1.4MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_6|2.3MB/s
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_7|3.2MB/s
+  password: None
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_8|1021KB/s
+  password: None
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

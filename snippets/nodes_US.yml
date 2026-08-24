@@ -44,12 +44,11 @@ proxies:
     headers:
       Host: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fs-g%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: 巴西圣保罗+CloudFlare节点
+- name: '美国(yudou789.top 玉豆免费节点) #68'
   network: ws
   password: humanity
   port: 443
   server: 188.114.97.7
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -225,7 +224,7 @@ proxies:
   - http/1.1
   - h2
   - h3
-  name: '美国(yudou789.top 玉豆免费节点) #50'
+  name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -276,11 +275,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #72'
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
   server: 104.20.6.134
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -346,11 +346,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #5'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
   server: 104.26.14.137
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -462,11 +463,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #172'
+- name: '美国+CloudFlare节点 #8'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.207
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -522,12 +524,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: 'US美国(mibei77.com 米贝节点分享) #36'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.101
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -769,7 +770,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: '美国(yudou789.top 玉豆免费节点) #273'
   network: ws
   password: humanity
   port: 443
@@ -958,12 +959,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: 'JP日本(mibei77.com 米贝节点分享) #3'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.44
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -990,11 +990,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #138'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.161
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1234,12 +1235,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
+- name: 'FR法国(mibei77.com 米贝节点分享) #40'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.207
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1346,7 +1346,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
+- name: 'US美国(mibei77.com 米贝节点分享) #182'
   network: ws
   password: humanity
   port: 443
@@ -1397,7 +1397,7 @@ proxies:
   type: trojan
   ws-opts:
     path: assignment
-- name: '美国(yudou789.top 玉豆免费节点) #321'
+- name: 法国巴黎+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -1417,99 +1417,41 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.124
+  server: 104.16.174.148
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 140.248.185.253
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '美国+CloudFlare节点 #9'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.149
+  server: 104.16.174.143
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 🇺🇸 美国|@ripaojiedian
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 34039
-  server: 43.199.143.104
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 39024
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 39024
-  server: 43.199.155.17
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   name: 美国2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 3kCf86Ufi0U5xBDA.v.3dns.vip
-  servername: 3kCf86Ufi0U5xBDA.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 3kCf86Ufi0U5xBDA.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 美国|@ripaojiedian
-  network: ws
-  port: '443'
-  server: lL0GIaPVZ6Zxkd94.v.3dns.vip
-  servername: lL0GIaPVZ6Zxkd94.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lL0GIaPVZ6Zxkd94.v.3dns.vip
-    path: /ws-vmess
+  password: Butterfly123@qwe9527
+  port: 50003
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US_3|1.6MB/s
+  password: Butterfly123@qwe9527
+  port: 50001
+  server: 103.236.66.4
+  type: ss
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39024
-  server: 54.46.3.138
+  port: 34039
+  server: 54.179.227.94
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_4|2.6MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21108'
-  server: 211.91.158.44
-  type: ss
-  udp: true

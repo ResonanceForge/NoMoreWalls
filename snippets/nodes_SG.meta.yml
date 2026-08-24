@@ -65,76 +65,35 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 🇸🇬 新加坡|@ripaojiedian
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 51396
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 32434
-  server: 16.162.192.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 32434
-  server: 43.199.155.17
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 新加坡|@ripaojiedian
-  network: ws
-  port: '443'
-  server: Aim7HqTuvNOofcsx.v.3dns.vip
-  servername: Aim7HqTuvNOofcsx.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Aim7HqTuvNOofcsx.v.3dns.vip
-    path: /ws-vmess
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
-  server: 35.78.187.63
+  server: 18.183.103.86
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: ❓Other_1|1.1MB/s
-  network: raw
-  port: '13779'
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 166.108.235.162
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|1.1MB/s
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|4.5MB/s
   network: tcp
-  port: '8686'
+  port: '64294'
   reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 13.212.162.249
-  servername: www.apple.com
+    public-key: KmcS-yU6kDycbSojXgUYU1-fHwXmF1oBk_ke0gbGUy0
+    short-id: '!!str 7083'
+  server: jpaws.ccwink.photos
+  servername: docs.aws.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
   xudp: true
+- name: 🇸🇬SG_2|3.8MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 28749
+  server: dd1d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.sgj1.cat.bilibili.com
+  type: trojan
