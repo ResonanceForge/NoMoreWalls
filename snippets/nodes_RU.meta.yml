@@ -1,16 +1,22 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: d532115bea
-  port: 11592
-  server: srv-0dc9de.21freedom.net
+- name: 俄罗斯+莫斯科justhost.ru
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
   skip-cert-verify: true
-  sni: srv-0dc9de.21freedom.net
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺RU_1|1.1MB/s
-  password: MTFlN
-  port: '8388'
-  server: 194.147.35.56
-  type: ss
-  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
+    short-id: '!!str a1b2c3d4'
+  server: 46.29.235.9
+  servername: telegraf.lv
+  tls: false
+  type: vless
+  uuid: d67af820-f54c-48ab-862c-19086357f276
