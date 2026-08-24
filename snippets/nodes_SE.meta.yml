@@ -12,6 +12,19 @@ proxies:
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 瑞典+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: '!!str ff776ff77be48b88'
+  server: 185.186.78.111
+  servername: swed2.freeinternat.com
+  tls: false
+  type: vless
+  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
 - name: 瑞典
   password: 3b8c82ed-fe66-472d-915e-034ccb57103f
   port: 8443
