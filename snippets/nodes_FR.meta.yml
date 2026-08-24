@@ -79,6 +79,14 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
+- name: 法国+ONLINE+S.A.S.数据中心
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: 法国
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
@@ -110,3 +118,13 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
+- name: 🇫🇷FR_1|1.2MB/s
+  port: 1972
+  server: 51.210.241.123
+  type: http
+- name: 🇫🇷FR_2|1.5MB/s
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http

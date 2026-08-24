@@ -18,6 +18,35 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 31.76.60.91
+  servername: auto.cendora.ru
+  tls: false
+  type: vless
+  uuid: b80b392c-0cf4-42f9-ae54-9f862e3ba276
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 31.76.5.26
+  servername: auto.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  ws-opts:
+    headers:
+      Host: auto.cendora.ru
 - name: 🏓33@oneclickvpnkeys
   password: 0bacdaea-099b-462b-b625-d7d44c89aace
   port: 55000
@@ -56,11 +85,25 @@ proxies:
   sni: iq5ny.pleiades.codes
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|5.0MB/s
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 53991
-  server: yazhouany02.downapptwo.cc
+- name: 🇬🇧GB_1|1.1MB/s
+  password: None
+  port: 443
+  server: 185.235.0.34
   skip-cert-verify: true
-  sni: jp03.pulsarcore.site
-  type: anytls
-  udp: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_2|1.4MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|1003KB/s
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
