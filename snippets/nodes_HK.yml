@@ -1,5 +1,5 @@
 proxies:
-- name: '美国+CloudFlare节点 #8'
+- name: 'CA加拿大(mibei77.com 米贝节点分享) #10'
   network: ws
   password: humanity
   port: 443
@@ -8,7 +8,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #65'
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
@@ -50,11 +50,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #16'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.152
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -93,12 +94,11 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: 🇭🇰HK_1|1.2MB/s
+  name: 香港2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 香港3|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -131,9 +131,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-128-gcm
-  name: 🇭🇰HK_2|4.0MB/s
-  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
-  port: 10920
-  server: mn.qwer-cn.org
-  type: ss
