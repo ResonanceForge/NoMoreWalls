@@ -30,11 +30,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #42'
+- name: '美国+V2CROSS.COM #4'
   network: ws
   password: humanity
   port: 443
   server: 165.215.250.14
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -59,12 +60,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 加拿大+V2CROSS.COM
+- name: '美国(yudou789.top 玉豆免费节点) #325'
   network: ws
   password: humanity
   port: 443
   server: 130.250.137.171
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -80,6 +80,14 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
+- name: 法国+ONLINE+S.A.S.数据中心
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: 法国
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
@@ -87,3 +95,24 @@ proxies:
   sni: fr194.mechvpn.online
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|1.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str 364994a6f61fc955'
+  server: 45.192.2.72
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
+- name: 🇫🇷FR_2|4.4MB/s
+  password: 752a9aac-91a7-4284-9d6e-234efae318b6
+  port: 17965
+  server: jjz.jjznodenode.top
+  sni: uk.jjznodenode.top
+  type: anytls
+  udp: true
