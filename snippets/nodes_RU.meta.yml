@@ -1,17 +1,20 @@
 proxies:
-- cipher: aes-256-gcm
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: 62.76.234.92
-  type: ss
-- grpc-opts:
-    grpc-service-name: zuugrpc
-  name: 🇷🇺RU_1|1.6MB/s
-  network: grpc
-  port: '27700'
-  server: 46.149.66.9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '!!str a9c4f17e3b62d8'
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
+  tls: false
   type: vless
-  udp: true
-  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
-  xudp: true
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+- name: 🇷🇺RU_1|1.9MB/s
+  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2

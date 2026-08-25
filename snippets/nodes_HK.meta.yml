@@ -144,15 +144,17 @@ proxies:
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: 🇭🇰HK_2|4.2MB/s
+- name: 🇭🇰HK_1|4.2MB/s
   network: tcp
   password: BxceQaOe
   port: 2944
   server: 18.181.83.46
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tls: true
   type: trojan
-- name: 🇭🇰HK_1|1.4MB/s
+  udp: true
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1103
