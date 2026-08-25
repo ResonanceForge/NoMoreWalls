@@ -18,14 +18,6 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国 #3'
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: faq.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: cabinet.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
 - name: 🏓33@oneclickvpnkeys
   password: 0bacdaea-099b-462b-b625-d7d44c89aace
   port: 55000
@@ -56,3 +48,38 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
+- name: 🇬🇧GB_1|2.5MB/s
+  password: None
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_2|3.1MB/s
+  port: 5002
+  server: 94.76.224.104
+  type: http
+- name: 🇬🇧GB_3|3.1MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|3.0MB/s
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: none
+  name: 🇬🇧GB_5|1.6MB/s
+  network: tcp
+  port: '1041'
+  server: 45.140.36.118
+  type: vless
+  udp: true
+  uuid: d8b42cd5-b149-4356-9e61-111111111111
+  xudp: true
