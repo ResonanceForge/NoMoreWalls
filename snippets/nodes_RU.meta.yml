@@ -1,29 +1,17 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.5MB/s
-  network: tcp
-  port: 8443
-  server: 185.147.27.165
-  servername: user-6a8c51f9.noooo.win
-  tls: true
+- cipher: aes-256-gcm
+  name: 俄罗斯+V2CROSS.COM
+  password: d1fa2f4b98a38bc8
+  port: 10901
+  server: 62.76.234.92
+  type: ss
+- grpc-opts:
+    grpc-service-name: zuugrpc
+  name: 🇷🇺RU_1|1.6MB/s
+  network: grpc
+  port: '27700'
+  server: 46.149.66.9
   type: vless
   udp: true
-  uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|1.2MB/s
-  network: tcp
-  port: '8443'
-  server: 66.90.90.13
-  servername: ai-6a8c51f9.noooo.win
-  tls: true
-  type: vless
-  udp: true
-  uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
+  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
   xudp: true

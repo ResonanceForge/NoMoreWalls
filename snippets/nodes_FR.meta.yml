@@ -79,20 +79,6 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: 法国 ONLINE S.A.S.数据中心
-  network: ws
-  port: '23388'
-  server: 62.210.127.120
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-  ws-opts:
-    headers:
-      Host: engage.cloudflareclient.com
-    path: /github.com/Alvin9999-newpac/fanqiang
 - name: 法国
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
@@ -116,29 +102,53 @@ proxies:
   sni: dora4.api3-max.ru
   tls: false
   type: hysteria2
-- name: 🇫🇷FR_1|1.8MB/s
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17966
-  server: jjz.jjznodenode.top
-  sni: jjz.jjznodenode.top
-  type: anytls
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|2.7MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-- name: 🇫🇷FR_2|2.6MB/s
-  port: 40000
-  server: 194.163.175.167
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|1.3MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_3|3.9MB/s
+  port: 1972
+  server: 51.210.241.123
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇫🇷FR_3|2.8MB/s
-  network: tcp
-  port: '17780'
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: '!!str a0fbc54d937aaccb'
-  server: fr1.milkabebar.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷FR_4|2.6MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
   udp: true
-  uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
-  xudp: true
+- name: 🇫🇷FR_5|1.6MB/s
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: mg3.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg3.mangshe.xyz
+  type: hysteria2

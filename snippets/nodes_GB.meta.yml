@@ -26,40 +26,9 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: '英国+V2CROSS.COM #1'
-  network: ws
-  port: 8443
-  server: 91.110.174.210
-  servername: rubifen.adaspoloandco.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: '%2FGOrbEh'
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: '!!str 4a46213c935e2ee4'
-  server: 31.76.70.31
-  servername: baltic.cendora.ru
-  tls: false
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  ws-opts:
-    headers:
-      Host: baltic.cendora.ru
-    path: '%2F'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #3'
   network: tcp
   port: 443
   reality-opts:
@@ -70,6 +39,58 @@ proxies:
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #2'
+  network: tcp
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 31.76.60.91
+  servername: auto.cendora.ru
+  tls: false
+  type: vless
+  uuid: b80b392c-0cf4-42f9-ae54-9f862e3ba276
+- name: '英国+V2CROSS.COM #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 176.97.66.175
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.9MB/s
+  network: tcp
+  port: 7777
+  reality-opts:
+    public-key: 4iWZChsH0rnqtn89xiB1evDLkFjmgh-3WYjx8cknZC0
+    short-id: '!!str a8b9c0d1e2f34567'
+  server: 31.76.111.113
+  servername: console.cloud.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_7|4.2MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: djzfpNmvwYjCaOUUOHU_k0kl92HXIGIurq2i0p5UyDo
+    short-id: '!!str 1dc6d8a2045a7c9d'
+  server: 109.169.85.141
+  servername: slashdot.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbc164a1-b246-456b-aefd-95c5e5f877d4
+  xudp: true
 - name: 🏓33@oneclickvpnkeys
   password: 0bacdaea-099b-462b-b625-d7d44c89aace
   port: 55000
@@ -100,55 +121,73 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_1|4.3MB/s
-  password: amazonskr05
+- name: 🇬🇧GB_3|1.5MB/s
+  password: None
   port: 443
-  server: 35.177.76.120
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 🇬🇧GB_2|1022KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-  server: 104.171.128.225
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 80d02a71-54a5-4c5b-976d-5ee573c502af
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_3|2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.175.227.220
+  server: 185.235.0.2
   skip-cert-verify: true
-  type: ss
-  udp: true
-- name: 🇬🇧GB_4|3.8MB/s
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|3.5MB/s
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|1.9MB/s
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_5|1.7MB/s
-  network: tcp
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇬🇧GB_6|1.9MB/s
+  network: grpc
   port: '443'
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: '!!str fd55b698ee8c3629'
-  server: 95.154.237.50
-  servername: lanacion.com.ar
+    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
+    short-id: '!!str '
+  server: 104.171.128.225
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 7e13b8d7-ca30-4441-9b43-65ebf3de6c37
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇬🇧GB_8|3.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
+    short-id: '!!str '
+  server: 104.171.128.225
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
+  xudp: true
+- client-fingerprint: safari
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇬🇧GB_9|1.1MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
+    short-id: '!!str '
+  server: 104.171.128.225
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
   xudp: true

@@ -24,6 +24,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '德国 #3'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.174
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: '德国 #4'
   password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
   port: 443
   server: ndge4.whit3.net
@@ -41,7 +49,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '德国 #4'
+- name: '德国 #5'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.104
@@ -49,20 +57,12 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '德国 #5'
+- name: '德国 #6'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.97
   skip-cert-verify: true
   sni: keyhop-offshore.roxa.org
-  tls: false
-  type: hysteria2
-- name: '德国 #6'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: de.1.23.h2corp.org
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - alpn:
@@ -90,22 +90,9 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.9MB/s
-  network: tcp
-  port: 22216
-  reality-opts:
-    public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
-    short-id: '!!str 0f4412d42129f080'
-  server: gernoad.whooisthebest.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.8MB/s
+  name: 🇩🇪DE_2|3.1MB/s
   network: tcp
   port: '443'
   reality-opts:
@@ -118,64 +105,11 @@ proxies:
   udp: true
   uuid: 85cc845e-644c-4148-8288-f0c03c83c1ec
   xudp: true
-- name: 🇩🇪DE_3|1.8MB/s
-  password: None
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|1.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|2.3MB/s
-  port: 9870
-  server: 195.201.35.63
-  type: http
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪DE_7|3.6MB/s
-  network: grpc
-  port: '9892'
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: '!!str aa'
-  server: 200.165.235.98
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-reality
-  name: 🇩🇪DE_8|3.4MB/s
-  network: grpc
-  port: '8444'
-  reality-opts:
-    public-key: Ng71fIN6Rqh8dWkwWgoCUN6Qmsl4vkCjNZNLXT3_YHA
-    short-id: '!!str bd4a2659'
-  server: 178.250.242.219
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 84e3de56-4917-4a35-a7db-9c3464e25a5a
-  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|2.4MB/s
+  name: 🇩🇪DE_5|2.1MB/s
   network: tcp
-  port: '3444'
+  port: 3444
   reality-opts:
     public-key: FbVQL4BtNGLa_0gFjedYc1caA7Ouvygbn4VCHj5uSQk
     short-id: '!!str 274c4ebf488820b1'
@@ -184,21 +118,74 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
+  uuid: 43f45b5a-a514-423a-b610-7660e62741a9
   xudp: true
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: vless
-  name: 🇩🇪DE_10|4.2MB/s
-  network: grpc
-  port: '7443'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|2.3MB/s
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: fYyYNkbi8gAi12cu0bLDPzatCm8taK4dpBG86o6Ggxk
-    short-id: '!!str a1b2c3d4e5f60708'
-  server: 89.39.121.186
-  servername: www.bing.com
+    public-key: JceeRYV6A6gZp0wyPP6ddvwOUGlOYpCzNiw47KeFn0k
+  server: 185.136.12.28
+  servername: gimba.shhflow.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2f919a1e-f00e-4538-b0a9-cf190721d578
+- name: 🇩🇪DE_7|1.5MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_8|1.7MB/s
+  obfs: salamander
+  obfs-password: Xydh1mcz51VQHbbJ
+  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
+  port: 443
+  server: 157.228.137.81
+  skip-cert-verify: true
+  sni: msk2.nebuchadnezzar.ink
+  type: hysteria2
+  up: ''
+- encryption: none
+  name: 🇩🇪DE_9|1.4MB/s
+  network: ws
+  port: '2052'
+  server: cctvhikvision.center
+  type: vless
+  udp: true
+  uuid: b3a9b22a-bf5c-476f-9eb7-224c42294fcf
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /@BlueKnight_net--@BlueKnight_net
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_10|1.6MB/s
+  network: ws
+  port: '2053'
+  server: freesocks.work
+  servername: uwu.blueknightnet.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
+  uuid: b3a9b22a-bf5c-476f-9eb7-224c42294fcf
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
   xudp: true
