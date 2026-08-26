@@ -1,15 +1,13 @@
 proxies:
-- name: 俄罗斯+莫斯科justhost.ru
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: els1.mangshe.xyz
-  skip-cert-verify: true
-  sni: els1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 🇷🇺RU_1|1.3MB/s
-  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
-  port: 4433
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 8443
+  server: 217.78.239.142
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173fp=chrome
