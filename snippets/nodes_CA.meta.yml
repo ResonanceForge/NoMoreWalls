@@ -23,17 +23,16 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: 'CA加拿大(mibei77.com 米贝节点分享) #12'
   network: ws
   password: humanity
   port: 443
   server: 104.16.174.34
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
+- name: '加拿大(yudou789.top 玉豆免费节点) #13'
   network: ws
   password: humanity
   port: 443
@@ -75,14 +74,6 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 加拿大+V2CROSS.COM
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 47.129.144.53
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: 加拿大
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -92,9 +83,8 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 🇨🇦CA_1|4.2MB/s
+  name: 🇨🇦CA_1|1.3MB/s
   password: amazonskr05
-  port: '443'
-  server: 35.182.226.235
+  port: 443
+  server: 16.52.90.213
   type: ss
-  udp: true
