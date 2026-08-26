@@ -1,12 +1,28 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
-  port: 4433
-  server: ru.xiaoliyu.cyou
+- name: 俄罗斯+鞑靼斯坦喀山justhost
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: els.mangshe.xyz
   skip-cert-verify: true
-  sni: ru.xiaoliyu.cyou
+  sni: els.mangshe.xyz
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '!!str a9c4f17e3b62d8'
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+  ws-opts:
+    headers:
+      Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI
 - down: ''
   fingerprint: ''
   name: 🇷🇺RU_1|1.5MB/s
@@ -17,5 +33,6 @@ proxies:
   server: giftcard.gisora.ir
   skip-cert-verify: false
   sni: giftcard.gisora.ir
+  tls: false
   type: hysteria2
   up: ''
