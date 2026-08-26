@@ -59,7 +59,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 加拿大+V2CROSS.COM
+- name: '美国(yudou789.top 玉豆免费节点) #325'
   network: ws
   password: humanity
   port: 443
@@ -103,24 +103,10 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.3MB/s
+  name: 🇫🇷FR_1|2.9MB/s
   network: ws
-  port: 2053
-  server: 95.182.116.192
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: 🇫🇷FR_2|4.0MB/s
-  network: ws
-  port: 2053
-  server: 217.60.5.81
+  port: 443
+  server: 104.253.79.6
   servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -130,68 +116,99 @@ proxies:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_9|1.9MB/s
-  network: tcp
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|1.9MB/s
+  network: ws
+  port: 2053
+  server: 217.60.63.209
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.6MB/s
+  network: ws
+  password: humanity
   port: '443'
+  server: 104.16.174.34
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|1.7MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.244
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_5|2.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 176.97.66.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /assignment
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_6|3.9MB/s
+  network: tcp
+  port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 185.24.151.36
-  servername: us.jobinvest.ru
-  skip-cert-verify: true
-  tfo: false
+  server: nl-ams-ovh-02.fuck-rkn.dev
+  servername: jobinvest.ru
   tls: true
   type: vless
   udp: true
   uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-  xudp: true
-- name: 🇫🇷FR_4|3.1MB/s
+- name: 🇫🇷FR_7|2.8MB/s
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_5|3.6MB/s
+- name: 🇫🇷FR_8|3.6MB/s
   port: 49153
   server: 37.187.57.177
   type: socks5
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_16|3.9MB/s
+  name: 🇫🇷FR_9|3.5MB/s
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 185.24.151.32
-  servername: jobinvest.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-  xudp: true
-- name: 🇫🇷FR_7|1.2MB/s
   port: 443
-  server: 141.94.16.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_8|4.6MB/s
-  network: tcp
-  port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
-  server: 185.24.151.33
+  server: 185.24.151.31
   servername: jobinvest.ru
   tls: true
   type: vless
@@ -201,14 +218,46 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_14|4.3MB/s
+  name: 🇫🇷FR_10|3.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 185.24.151.242
+  servername: jobinvest.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_13|1.4MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
   server: 185.24.151.37
-  servername: us.jobinvest.ru
+  servername: uk.jobinvest.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_14|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: fr-gra-ovh-03.fuck-rkn.dev
+  servername: jobinvest.ru
   tls: true
   type: vless
   udp: true
@@ -216,28 +265,14 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_15|4.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: nl-ams-ovh-01.sfproxy.fuck-rkn.dev
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_17|2.3MB/s
+  name: 🇺🇸US_19|3.9MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: '!!str '
   server: youtube.sfproxy.fuck-rkn.dev
-  servername: us.jobinvest.ru
+  servername: de.jobinvest.ru
   tls: true
   type: vless
   udp: true

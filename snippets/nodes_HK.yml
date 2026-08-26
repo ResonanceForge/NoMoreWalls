@@ -8,7 +8,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
+- name: '美国(yudou789.top 玉豆免费节点) #65'
   network: ws
   password: humanity
   port: 443
@@ -50,11 +50,12 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #16'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.152
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
