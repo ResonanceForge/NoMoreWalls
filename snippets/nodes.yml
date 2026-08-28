@@ -89,75 +89,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 卢森堡(mibei77.com 米贝节点分享)
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.42.145.180
-  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 383838-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fs-g%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- alpn:
-  - http/1.1
-  name: 新加坡(yudou789.top 玉豆免费节点)
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.42.145.180
-  skip-cert-verify: true
-  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 383838-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fs-g%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '美国(yudou789.top 玉豆免费节点) #5'
+- name: '美国(yudou789.top 玉豆免费节点) #14'
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #21'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: US - zhuhai.uk 05
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.42.145.180
-  skip-cert-verify: true
-  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fs-g%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '美国(yudou789.top 玉豆免费节点) #68'
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.7
+  server: 104.18.23.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #66'
+- name: 法国(yudou789.top 玉豆免费节点)
   network: ws
   password: humanity
   port: 443
@@ -165,328 +106,58 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '美国(yudou789.top 玉豆免费节点) #52'
+- name: 'US美国(mibei77.com 米贝节点分享) #17'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.23.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国(yudou789.top 玉豆免费节点) #60'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #269'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #46'
-  network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #44'
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #76'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.221.242
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #57'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #44'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #79'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 'GB英国(mibei77.com 米贝节点分享) #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #261'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #70'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  name: '美国(yudou789.top 玉豆免费节点) #56'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #20'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.149.60
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #64'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  name: '美国(yudou789.top 玉豆免费节点) #50'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '加拿大(yudou789.top 玉豆免费节点) #12'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.22.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国(yudou789.top 玉豆免费节点) #59'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.221.242
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #13'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.221.242
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #10'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.22.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #51'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #25'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #210'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.149.60
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #72'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
+  server: 216.24.57.1
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
 - alpn:
-  - h3
-  - h2
   - http/1.1
-  name: 'US美国(mibei77.com 米贝节点分享) #24'
+  name: '美国+加州 #1'
   network: ws
   password: humanity
   port: 443
-  server: 172.67.221.242
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #30'
-  network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  server: 216.24.57.7
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #23'
+- name: '法国(yudou789.top 玉豆免费节点) #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.26.14.137
+  server: 130.250.137.171
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国(yudou789.top 玉豆免费节点) #48'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  server: 104.17.111.3
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国(yudou789.top 玉豆免费节点) #58'
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
-  server: 104.21.46.3
+  server: render.com
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #5'
+- name: '美国(yudou789.top 玉豆免费节点) #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.26.14.137
+  server: 104.17.111.4
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -497,23 +168,32 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.26.15.137
+  server: 104.17.177.143
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #62'
+- name: 'FR法国(mibei77.com 米贝节点分享) #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.26.15.137
+  server: 104.17.111.4
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: CA加拿大(mibei77.com 米贝节点分享)
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #318'
+- name: 'FR法国(mibei77.com 米贝节点分享) #2'
   network: ws
   password: humanity
   port: 443
@@ -522,199 +202,18 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #90'
+- name: '美国(yudou789.top 玉豆免费节点) #13'
   network: ws
   password: humanity
   port: 443
-  server: render.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #297'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.246
+  server: 104.17.111.8
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #190'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #205'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #187'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #315'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #323'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.22
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2F%2Fassignment'
-- name: 'JP日本(mibei77.com 米贝节点分享) #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #19'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #172'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.207
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #41'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #308'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.73.213
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #14'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #311'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.103
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #12'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.34
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #286'
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #202'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.4
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #271'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #309'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #36'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.101
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #165'
+- name: '美国(yudou789.top 玉豆免费节点) #10'
   network: ws
   password: humanity
   port: 443
@@ -725,360 +224,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #132'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.204
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #241'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #171'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #12'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.4
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 立陶宛+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 86.38.214.205
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #295'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #187'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.233
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.37
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #264'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #198'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #124'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #288'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #95'
-  network: ws
-  password: humanity
-  port: 443
-  server: 86.38.214.205
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #15'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.208
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '加拿大(yudou789.top 玉豆免费节点) #13'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #61'
-  network: ws
-  password: humanity
-  port: 443
-  server: ip.myip2.qzz.io
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #148'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.133
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #153'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '美国(yudou789.top 玉豆免费节点) #294'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #29'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #180'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.50
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #283'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #320'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #226'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #127'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.37
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #273'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.50
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #182'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.140
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #107'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '加拿大(yudou789.top 玉豆免费节点) #8'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #305'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.133
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.108
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #220'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.143
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #307'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.246
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #86'
+- name: 'US美国(mibei77.com 米贝节点分享) #15'
   network: ws
   password: humanity
   port: 443
@@ -1089,89 +235,56 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #112'
+- name: 'HK香港(mibei77.com 米贝节点分享) #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.124
+  server: 104.17.177.143
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #280'
+- alpn:
+  - http/1.1
+  name: '美国(yudou789.top 玉豆免费节点) #21'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.121
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #310'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.144
+  server: 104.18.23.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #209'
+- name: '加拿大(yudou789.top 玉豆免费节点) #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.8
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #152'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #156'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.148
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #15'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.46
+  server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #314'
+- name: 'US美国(mibei77.com 米贝节点分享) #14'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.140
+  server: 216.24.57.7
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #42'
+- name: '美国+CloudFlare节点 #12'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '法国(yudou789.top 玉豆免费节点) #4'
   network: ws
   password: humanity
   port: 443
@@ -1180,80 +293,53 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #199'
+- name: '美国(yudou789.top 玉豆免费节点) #20'
   network: ws
   password: humanity
   port: 443
-  server: ip.myip2.qzz.io
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #38'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.233
+  server: 216.24.57.7
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'JP日本(mibei77.com 米贝节点分享) #3'
+- name: '美国(yudou789.top 玉豆免费节点) #18'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.44
+  server: 216.24.57.1
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #312'
+- name: '美国(yudou789.top 玉豆免费节点) #19'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.14
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #275'
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
+  server: 104.18.23.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #16'
+- alpn:
+  - http/1.1
+  name: 'HK香港(mibei77.com 米贝节点分享) #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.152
+  server: 216.24.57.7
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #138'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.161
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #201'
+- name: '美国(yudou789.top 玉豆免费节点) #22'
   network: ws
   password: humanity
   port: 443
@@ -1264,29 +350,235 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #96'
+- name: '美国(yudou789.top 玉豆免费节点) #23'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.149
+  server: 130.250.137.171
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #188'
+- name: 'US美国(mibei77.com 米贝节点分享) #32'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.6
+  server: 172.67.149.60
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #306'
+- name: 'US美国(mibei77.com 米贝节点分享) #34'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #23'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'HK香港(mibei77.com 米贝节点分享) #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #130'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.159
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #113'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #86'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #24'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #82'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #31'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 'US美国(mibei77.com 米贝节点分享) #30'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #92'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '加拿大(yudou789.top 玉豆免费节点) #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '法国(yudou789.top 玉豆免费节点) #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.46.3
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #89'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.233
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #78'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: '美国(yudou789.top 玉豆免费节点) #87'
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #39'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.140
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: NL荷兰(mibei77.com 米贝节点分享)
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #40'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #41'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #134'
   network: ws
   password: humanity
   port: 443
@@ -1294,14 +586,413 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #43'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.233
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #70'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #120'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.121
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #83'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.73.213
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #11'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #47'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.72
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #85'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #76'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '加拿大(yudou789.top 玉豆免费节点) #13'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #200'
+- name: '美国(yudou789.top 玉豆免费节点) #119'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #129'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #128'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #42'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.244
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #131'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #92'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.121
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'FR法国(mibei77.com 米贝节点分享) #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.133
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #109'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #45'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #91'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #51'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #52'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #68'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'FR法国(mibei77.com 米贝节点分享) #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.124
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #78'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.109
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #56'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #75'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '加拿大(yudou789.top 玉豆免费节点) #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.72
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: '美国(yudou789.top 玉豆免费节点) #54'
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 'CA加拿大(mibei77.com 米贝节点分享) #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #50'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.14
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'FR法国(mibei77.com 米贝节点分享) #13'
+  network: ws
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '加拿大(yudou789.top 玉豆免费节点) #14'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.14
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #74'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #103'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #54'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.159
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #82'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.34
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #72'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2F%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #133'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.229
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1315,7 +1006,74 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #266'
+- name: '美国(yudou789.top 玉豆免费节点) #116'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #63'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #90'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'RU俄罗斯(mibei77.com 米贝节点分享) #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #94'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #93'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.140
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #132'
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #72'
   network: ws
   password: humanity
   port: 443
@@ -1326,382 +1084,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #30'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.121
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #139'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.14
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #248'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #285'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.208
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.6
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #197'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.113
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #303'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #298'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.72
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #181'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #242'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.22
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2F%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #193'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #171'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #185'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.46
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #291'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.204
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #183'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.144
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 'FR法国(mibei77.com 米贝节点分享) #28'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #167'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.109
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #208'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.179
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #40'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.207
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #204'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.113
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.34
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #177'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.22
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #324'
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #43'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #129'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.244
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #207'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #257'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.159
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #300'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'GB英国(mibei77.com 米贝节点分享) #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #168'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #316'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #182'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.179
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #262'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #325'
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #13'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.72
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #284'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.108
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
+- name: '美国(yudou789.top 玉豆免费节点) #68'
   network: ws
   password: humanity
   port: 443
@@ -1712,27 +1095,29 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #184'
+- name: '美国(yudou789.top 玉豆免费节点) #104'
   network: ws
   password: humanity
   port: 443
-  server: 104.19.229.21
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: assignment
-- name: 法国巴黎+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
+  server: 104.16.174.109
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #14'
+- name: '美国(yudou789.top 玉豆免费节点) #70'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '加拿大(yudou789.top 玉豆免费节点) #10'
   network: ws
   password: humanity
   port: 443
@@ -1743,16 +1128,199 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #321'
+- name: '美国(yudou789.top 玉豆免费节点) #123'
   network: ws
   password: humanity
   port: 443
-  server: 141.101.90.101
+  server: 104.18.152.144
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #114'
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.133
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #80'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.155
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #326'
+- name: 'US美国(mibei77.com 米贝节点分享) #75'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #127'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.225
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #88'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2F%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #90'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #84'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #93'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国(yudou789.top 玉豆免费节点) #95'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.46.3
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #95'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.179
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #87'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.161
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #79'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #102'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #110'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #106'
   network: ws
   password: humanity
   port: 40443
@@ -1763,30 +1331,204 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: '美国(yudou789.top 玉豆免费节点) #107'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.149
+  server: 104.16.174.6
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
+- name: '美国(yudou789.top 玉豆免费节点) #108'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.244
+  server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- cipher: chacha20-ietf-poly1305
-  name: 挪威+V2CROSS.COM
-  password: cUY9MhAaUIcbwKJS8vPCCRC_F13IBy3v
-  port: 1080
-  server: 138.124.123.127
-  type: ss
+- name: 'US美国(mibei77.com 米贝节点分享) #85'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #111'
+  network: ws
+  password: humanity
+  port: 40443
+  server: 2.144.21.112
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #112'
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国(yudou789.top 玉豆免费节点) #115'
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国(yudou789.top 玉豆免费节点) #117'
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #118'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'FR法国(mibei77.com 米贝节点分享) #12'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #124'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #125'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #126'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'FR法国(mibei77.com 米贝节点分享) #15'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #96'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 'US美国(mibei77.com 米贝节点分享) #97'
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: rush-t2tvv.ceeopp.site
+  servername: rush-t2tvv.ceeopp.site
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-t2tvv.ceeopp.site
+    path: /video/ke716z/7x219hzy.m3u8
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.1
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.148
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1817,24 +1559,22 @@ proxies:
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
+  port: 53001
+  server: 95.40.24.249
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 香港5|@ripaojiedian
+  password: BxceQaOe
   port: 1103
-  server: 95.40.24.109
+  server: 54.168.189
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
+- name: 🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
-  port: 4117
-  server: 54.250.197.209
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 49811
-  server: 54.238.251.95
+  port: 9408
+  server: 18.163.11126
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -1854,7 +1594,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 41421
-  server: 3.115.9.60
+  server: 54.255.201.71
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -1873,8 +1613,8 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
+  port: 1431
+  server: 43.198.210.207
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1894,30 +1634,54 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇺🇦UA_1|2.8MB/s
+- name: 香港5|@ripaojiedian
   network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: '20066'
-  server: hkdcrtc-e.catcat321.com
+  password: BxceQaOe
+  port: 25982
+  server: 52.195.148.119
   skip-cert-verify: true
-  sni: hk.catxstar.com
+  sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 9408
+  server: 18.163.115.126
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - cipher: aes-256-cfb
-  name: 🇬🇧GB_1|4.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 18.171.235.36
+  name: 🇺🇸US_1|1.9MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 🇺🇦UA_2|1.7MB/s
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: '20066'
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
+  name: 🇫🇷FR_1|1.7MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|3.1MB/s
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+  ws-opts:
+    headers:
+      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+    path: /

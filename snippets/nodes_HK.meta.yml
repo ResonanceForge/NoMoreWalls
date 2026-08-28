@@ -1,40 +1,18 @@
 proxies:
-- name: HK - zhuhai.uk
-  port: 1080
-  server: 47.239.116.165
-  tls: false
-  type: socks5
-  username: YWRtaW46YWRtaW4
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #10'
+- name: 'HK香港(mibei77.com 米贝节点分享) #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.22.63
+  server: 104.17.177.143
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.15.137
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'FR法国(mibei77.com 米贝节点分享) #41'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: '美国(yudou789.top 玉豆免费节点) #294'
+  name: 'HK香港(mibei77.com 米贝节点分享) #2'
   network: ws
   password: humanity
   port: 443
@@ -45,7 +23,16 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #180'
+- name: 'US美国(mibei77.com 米贝节点分享) #86'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国(yudou789.top 玉豆免费节点) #41'
   network: ws
   password: humanity
   port: 443
@@ -56,7 +43,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'HK香港(mibei77.com 米贝节点分享) #16'
+- name: '美国(yudou789.top 玉豆免费节点) #74'
   network: ws
   password: humanity
   port: 443
@@ -67,22 +54,20 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #291'
+- name: '美国(yudou789.top 玉豆免费节点) #132'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.204
+  server: 8.6.112.0
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #300'
+- name: '美国(yudou789.top 玉豆免费节点) #104'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.177.143
+  server: 104.16.174.109
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -95,13 +80,6 @@ proxies:
   server: hk2.xiaoliyu.cyou
   skip-cert-verify: true
   sni: hk2.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 🇭🇰HK
-  password: 9q3Mb0IzSVbnwaqK
-  port: 16001
-  server: 18.162.42.61
-  sni: hk-ls-r-1.czzhkractqqakfzdmrgd.cc
   tls: false
   type: hysteria2
 - name: 🇭🇰 HK
@@ -135,16 +113,15 @@ proxies:
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1103
-  server: 95.40.24.109
+  port: 53001
+  server: 95.40.24.249
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
+- name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
-  port: 4117
-  server: 54.250.197.209
+  port: 1103
+  server: 54.168.189
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -158,3 +135,70 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 25982
+  server: 52.195.148.119
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|3.1MB/s
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+  ws-opts:
+    headers:
+      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_2|4.4MB/s
+  network: tcp
+  port: '15003'
+  reality-opts:
+    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
+    short-id: '!!str 4c517b9e'
+  server: 82.38.46.66
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_3|4.7MB/s
+  network: raw
+  port: '15003'
+  reality-opts:
+    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
+    short-id: '!!str 4c517b9e'
+  server: nian.001.url111.kcloud02.top
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_4|4.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
+    short-id: '!!str a2d13d677624197e'
+  server: hk6.miyazono-kaori.com
+  servername: www.hsbc.com.hk
+  tls: true
+  type: vless
+  udp: true
+  uuid: fbef76ca-9bf2-415d-9872-4700c8ca7673
+  xudp: true
