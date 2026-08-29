@@ -1,18 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: 130.185.122.177
-  servername: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '!!str a9c4f17e3b62d8'
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
   tls: false
-  type: vmess
-  uuid: f232d454-b014-4e00-a7ae-430341909db4
-  ws-opts:
-    headers:
-      Host: 130.185.122.177
-    path: /
+  type: vless
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -23,19 +22,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|3.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-    short-id: '!!str '
-  server: de55.tranzit-net.ru
-  servername: d.tranzit-net.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-  xudp: true
