@@ -123,22 +123,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_1|4.6MB/s
-  network: ws
-  port: '443'
-  server: www.shopify.com
-  servername: dimensional-regularly-buildings-keys.trycloudflare.com
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|3.8MB/s
+  network: tcp
+  port: '15003'
+  reality-opts:
+    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
+    short-id: '!!str 4c517b9e'
+  server: nian.001.url111.kcloud02.top
+  servername: www.cloudflare.com
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: d187a23a-76a9-4d55-84e3-ea3b8b222cbf
-  ws-opts:
-    headers:
-      Host: dimensional-regularly-buildings-keys.trycloudflare.com
-    path: /d187a23a-76a9-4d55-84e3-ea3b8b222cbf-vm
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
   xudp: true
