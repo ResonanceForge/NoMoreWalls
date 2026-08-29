@@ -3,15 +3,15 @@ proxies:
   flow: xtls-rprx-vision
   name: '英国+V2CROSS.COM #1'
   network: tcp
-  port: 15007
+  port: 443
   reality-opts:
-    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
-    short-id: '!!str 2c4d005b'
-  server: nian.001.url111.kcloud02.top
-  servername: www.bing.com
+    public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
+    short-id: '!!str e90360ec7cc61b20'
+  server: 85.234.91.30
+  servername: www.mozilla.org
   tls: false
   type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  uuid: b34a52cb-cd52-49a8-9362-b8e97c151d49
 - name: UK
   password: 0bacdaea-099b-462b-b625-d7d44c89aace
   port: 55000
@@ -37,11 +37,19 @@ proxies:
 - name: '英国 #2'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
-  server: 138.124.0.168
+  server: 103.246.248.234
+  skip-cert-verify: true
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
 - name: '英国 #3'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 138.124.0.168
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: '英国 #4'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 222.167.212.81
@@ -49,26 +57,3 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_1|1.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.176.118.152
-  type: ss
-  udp: true
-- auth: d1224950-ffab-4b9a-8696-431b40a6cfbd
-  name: 🇬🇧GB_2|1.7MB/s
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
-  port: 443
-  server: cze-02.node.lumixnet.com
-  skip-cert-verify: true
-  sni: cze-02.node.lumixnet.com
-  type: hysteria2
-- name: 🇬🇧GB_3|2.3MB/s
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
