@@ -1,4 +1,15 @@
 proxies:
+- client-fingerprint: firefox
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 8443
+  server: 5.42.109.42
+  servername: run5.wba-pn.ru
+  tls: true
+  type: vless
+  uuid: 11f3e7b1-5507-46da-a268-1f70a543e40a
+  ws-opts:
+    path: '%2F'
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
