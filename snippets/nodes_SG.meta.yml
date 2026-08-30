@@ -1,4 +1,12 @@
 proxies:
+- name: 新加坡+阿里云
+  password: 436114b5f36b2e704bdfa0927d57b6cd
+  port: 50160
+  server: 47.241.108.227
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 新加坡
   password: 0a344117cfeef3d6602e338c2f1e7957
   port: 50160
@@ -44,14 +52,6 @@ proxies:
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.254.190.23
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 🐲98@oneclickvpnkeys
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.74.81
   skip-cert-verify: true
   sni: vpn-sg-001.fastervpn.world
   tls: false
