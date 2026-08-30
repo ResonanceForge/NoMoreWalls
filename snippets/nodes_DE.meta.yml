@@ -17,8 +17,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  name: 🇩🇪DE_1|1.8MB/s
+- name: '德国 #2'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.178
@@ -109,9 +108,11 @@ proxies:
   sni: social.klipp.su
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_2|1.9MB/s
-  port: 443
-  server: 149.36.50.1
+- auth: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  name: 🇩🇪DE_1|1.8MB/s
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: nlb4.mangshe.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: nlb4.mangshe.xyz
+  type: hysteria2

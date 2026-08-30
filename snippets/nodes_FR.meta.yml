@@ -10,7 +10,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
+- name: '法国(yudou789.top 玉豆免费节点) #2'
   network: ws
   password: humanity
   port: 443
@@ -78,6 +78,19 @@ proxies:
   sni: hopp-transit.1cooldns.com
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|1.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: '!!str 4fa44664f6a566d3'
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
+  tls: true
+  type: vless
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0137
@@ -107,4 +120,16 @@ proxies:
   tls: true
   type: vless
   udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_6|1.1MB/s
+  port: 39395
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
