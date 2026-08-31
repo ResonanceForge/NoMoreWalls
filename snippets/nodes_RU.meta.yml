@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
-    short-id: '!!str a1b2c3d4'
-  server: 46.29.235.9
-  servername: telegraf.lv
-  tls: false
-  type: vless
-  uuid: d67af820-f54c-48ab-862c-19086357f276
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -30,26 +17,3 @@ proxies:
   sni: ru2.h.smartaisupport.ru
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺RU_1|2.8MB/s
-  network: xhttp
-  port: '40000'
-  reality-opts:
-    public-key: vqnE1wKOqp4JXotgCl4SI2CBJ7ys3080cZjL83r9pmE
-    short-id: '!!str 49443d1a'
-  server: rua02.333210.best
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e103b504-eb8c-4ddb-8c60-9921133e77d4
-  xhttp-opts:
-    mode: auto
-  xudp: true
-- name: 🇷🇺RU_2|1.6MB/s
-  password: None
-  port: 8120
-  server: 46.148.234.53
-  type: http
-  username: null

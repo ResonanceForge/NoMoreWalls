@@ -68,13 +68,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪All⁶ | @BigSmoke_Config
-  password: AstroVPN_official
-  port: 36896
-  server: ptserv.accuratenetworkchecker.ir
-  sni: lms22.gelzaro.ir
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -100,44 +93,24 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.2MB/s
-  network: tcp
+  name: 🇩🇪DE_1|1.3MB/s
+  network: xhttp
   port: 443
   reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: '!!str 4da5d1853f04af6d'
-  server: 31.76.71.140
-  servername: rrr.windconnect.pro
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: '!!str 2b5b1ffa8a6a1a68'
+  server: 178.236.254.76
+  servername: ya.ru
   tls: true
   type: vless
   udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- name: 🇩🇪DE_2|4.7MB/s
-  port: 9099
-  server: 213.109.162.200
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    host: ya.ru
+    path: /web/cdn/v2/assets
+- name: 🇩🇪DE_2|1.0MB/s
+  password: udp-relay=true
+  port: 11111
+  server: 103.237.102.191
   type: http
-- name: 🇩🇪DE_3|4.4MB/s
-  port: 80
-  server: 193.37.70.182
-  type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|3.1MB/s
-  network: ws
-  port: '443'
-  server: 140.248.186.45
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /
-  xudp: true
+  username: None
