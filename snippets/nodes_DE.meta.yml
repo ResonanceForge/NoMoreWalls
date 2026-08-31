@@ -68,6 +68,13 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: 🇩🇪All⁶ | @BigSmoke_Config
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -92,25 +99,28 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  name: 🇩🇪DE_1|1.3MB/s
-  network: xhttp
+- name: 🇩🇪157437 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
-    short-id: '!!str 2b5b1ffa8a6a1a68'
-  server: 178.236.254.76
-  servername: ya.ru
+  server: 2.27.59.206
+  skip-cert-verify: true
+  sni: de1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: 🇩🇪All⁷ | @BigSmoke_Config
+  password: jbmuokj7p4kg4h4s
+  port: 52029
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 🇩🇪DE_1|1.1MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: ya.ru
-    path: /web/cdn/v2/assets
-- name: 🇩🇪DE_2|1.0MB/s
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
   type: http
-  username: None
+  username: null

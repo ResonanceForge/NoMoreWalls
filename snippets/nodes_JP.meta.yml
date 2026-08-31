@@ -47,14 +47,11 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- cipher: chacha20-ietf
-  name: 🇯🇵JP_1|3.8MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 37949-LD4JNZAf.download.microsoft.com
-    mode: http
-  port: '8406'
-  server: cn12.somethingstranges.com
-  type: ss
-  udp: true
+- name: 🇯🇵JP_1|3.2MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+  sni: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b

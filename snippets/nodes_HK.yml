@@ -43,7 +43,7 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: 'HK香港(mibei77.com 米贝节点分享) #5'
+  name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
@@ -101,19 +101,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_1|3.6MB/s
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
-  ws-opts:
-    headers:
-      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
-    path: /
-  xudp: true
