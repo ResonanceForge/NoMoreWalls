@@ -1,34 +1,14 @@
 proxies:
-- name: '美国(yudou789.top 玉豆免费节点) #103'
+- name: 'US美国(mibei77.com 米贝节点分享) #20'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.73
+  server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #109'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.244
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #6'
+- name: 'CA加拿大(mibei77.com 米贝节点分享) #2'
   network: ws
   password: humanity
   port: 443
@@ -39,39 +19,31 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '加拿大(yudou789.top 玉豆免费节点) #3'
+- name: 'A - 🇨🇦 CA 01 TG: @nodpai'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 8880
+  server: 50.62.195.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '加拿大(yudou789.top 玉豆免费节点) #2'
+      Host: vms.lifetime38.workers.dev
+    path: /?ed=2560
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇨🇦 CA 02 TG: @nodpai'
   network: ws
-  password: humanity
   port: 443
-  server: 104.16.174.72
-  sni: www.ignitelimit.com
-  type: trojan
+  security: tls
+  server: shopify.com
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #8'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
 - name: 加拿大
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
