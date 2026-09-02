@@ -1,4 +1,32 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '!!str a9c4f17e3b62d8'
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
+  server: 147.45.116.52
+  servername: www.wikihow.com
+  tls: false
+  type: vless
+  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+  ws-opts:
+    headers:
+      Host: --v2rayNplus--v2rayNplus--v2rayNplus--
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y

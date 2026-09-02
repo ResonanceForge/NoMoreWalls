@@ -34,15 +34,19 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 英国+V2CROSS.COM
-  network: ws
-  port: 2087
-  server: 188.220.67.245
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: '!!str ff776ff77be48b88'
+  server: fin4.freeinternat.com
+  servername: fin4.freeinternat.com
   tls: false
   type: vless
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: /8f2690e2d016
+  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
 - name: 英国
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
@@ -59,36 +63,3 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_1|4.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.175.119.181
-  type: ss
-  udp: true
-- name: 🇬🇧GB_2|1.9MB/s
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1.6MB/s
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|1.1MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|2.2MB/s
-  password: None
-  port: 3118
-  server: 154.61.56.215
-  type: http
-  username: null
