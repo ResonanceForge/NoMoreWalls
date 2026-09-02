@@ -36,6 +36,19 @@ proxies:
   tls: false
   type: vless
   uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: '!!str 029a6cc4'
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
+  tls: false
+  type: vless
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - name: 英国
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
@@ -44,13 +57,13 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|2.6MB/s
+- name: 🇬🇧GB_1|2.3MB/s
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|1.7MB/s
+- name: 🇬🇧GB_2|3.7MB/s
   password: None
   port: 443
   server: 185.235.0.2
@@ -58,20 +71,23 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_3|3.3MB/s
+- name: 🇬🇧GB_3|2.2MB/s
   port: 443
   server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|3.5MB/s
-  password: None
-  port: 32766
-  server: 178.62.83.124
-  type: http
-  username: null
-- name: 🇬🇧GB_5|1.0MB/s
-  port: 8443
-  server: 5.101.149.245
+- name: 🇬🇧GB_4|2.2MB/s
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
   tls: true
   type: http
+- name: 🇬🇧GB_5|1.2MB/s
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
