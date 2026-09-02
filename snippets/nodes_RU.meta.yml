@@ -1,32 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
-    short-id: '!!str a9c4f17e3b62d8'
-  server: 176.109.88.216
-  servername: api-maps.yandex.ru
-  tls: false
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
   type: vless
-  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
-  server: 147.45.116.52
-  servername: www.wikihow.com
-  tls: false
-  type: vless
-  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: --v2rayNplus--v2rayNplus--v2rayNplus--
+      Host: vms.lifetime48.workers.dev
+    path: /
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -37,13 +19,17 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: '[🇷🇺]t.me/ConfigV2RayNG'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|3.0MB/s
+  network: tcp
   port: 443
-  server: 144.31.49.138
-  skip-cert-verify: false
-  sni: ru1.sferavpn.pro
-  tls: false
-  type: hysteria2
+  reality-opts:
+    public-key: ZZwdN1Lt-fIR8A4Y1NbYCCEI6th2YXYHHRLHraVXyn0
+    short-id: '!!str 72461ccce5373103'
+  server: 50.7.33.218
+  servername: edge-fr2.mystatic-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 252f7811-d86f-4dc2-97e0-83d3172ef4b8
