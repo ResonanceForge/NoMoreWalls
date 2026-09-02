@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: HK - zhuhai.uk 02
-  network: ws
-  port: '16632'
-  server: m.cnmjin.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 75d8194d-cd07-4690-bb8c-4fdb509eb8ca
-  ws-opts:
-    headers:
-      Host: b1a2e0a36f2740e720c3e722318ea788.mobgslb.tbcache.com
-    path: /
 - alpn:
   - http/1.1
   name: HK香港(mibei77.com 米贝节点分享)
@@ -75,31 +61,17 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|1.3MB/s
+  name: 🇭🇰HK_4|4.3MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
-  ws-opts:
-    headers:
-      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_4|3.3MB/s
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
   ws-opts:
     headers:
-      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
     path: /
   xudp: true
