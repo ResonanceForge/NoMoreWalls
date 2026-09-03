@@ -1,12 +1,11 @@
 proxies:
-- name: 日本东京+Oracle+Cloud
-  password: 4d6d97a82ddf959252e2ada36c3c3053
-  port: 50160
-  server: 138.2.8.249
-  skip-cert-verify: true
-  sni: www.bing.com
+- name: 日本+V2CROSS.COM
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - name: 日本
   password: 184cdec28da5a09450803c8debcd2cc9
   port: 50160
