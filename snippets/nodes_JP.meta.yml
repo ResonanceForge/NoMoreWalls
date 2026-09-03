@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: chrome
+  name: 日本+V2CROSS.COM
+  network: tcp
+  port: 58011
+  server: us22.sofast.live
+  tls: false
+  type: vless
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- name: '日本+V2CROSS.COM #1'
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - name: 日本
   password: 184cdec28da5a09450803c8debcd2cc9
   port: 50160
@@ -55,3 +70,11 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- name: 🇯🇵JP_1|1.2MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 12791
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: jp10.pulsarcore.site
+  type: anytls
+  udp: true
