@@ -1,5 +1,5 @@
 proxies:
-- name: '美国+CloudFlare节点 #14'
+- name: FR法国(mibei77.com 米贝节点分享)
   network: ws
   password: humanity
   port: 443
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #15'
+- name: 巴西圣保罗+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -210,7 +210,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #17'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -257,7 +257,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
+- name: '美国(yudou789.top 玉豆免费节点) #122'
   network: ws
   password: humanity
   port: 443
@@ -394,7 +394,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: '加拿大(yudou789.top 玉豆免费节点) #7'
   network: ws
   password: humanity
   port: 443
@@ -545,7 +545,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
+- name: '美国(yudou789.top 玉豆免费节点) #47'
   network: ws
   password: humanity
   port: 443
@@ -731,7 +731,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #12'
+- name: 'FR法国(mibei77.com 米贝节点分享) #6'
   network: ws
   password: humanity
   port: 443
@@ -749,7 +749,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #13'
+- name: '美国(yudou789.top 玉豆免费节点) #121'
   network: ws
   password: humanity
   port: 443
@@ -984,7 +984,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
+- name: '美国(yudou789.top 玉豆免费节点) #91'
   network: ws
   password: humanity
   port: 443
@@ -1013,7 +1013,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
+- name: 'US美国(mibei77.com 米贝节点分享) #93'
   network: ws
   password: humanity
   port: 443
@@ -1117,7 +1117,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: 'US美国(mibei77.com 米贝节点分享) #64'
   network: ws
   password: humanity
   port: 443
@@ -1227,7 +1227,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 'US美国(mibei77.com 米贝节点分享) #78'
   network: ws
   password: humanity
   port: 443
@@ -1340,23 +1340,26 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.187
+  server: 172.67.149.60
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+    path: /assignment
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.149
+  server: 104.26.15.137
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - cipher: aes-256-gcm
   name: 美国2|@ripaojiedian
@@ -1378,3 +1381,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_1|1.2MB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
