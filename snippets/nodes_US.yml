@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #4'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -101,7 +101,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
+- name: CA加拿大(mibei77.com 米贝节点分享)
   network: ws
   password: humanity
   port: 443
@@ -110,7 +110,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: 法国(yudou789.top 玉豆分享)
   network: ws
   password: humanity
   port: 443
@@ -132,7 +132,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
+- name: '美国(yudou789.top 玉豆分享) #4'
   network: ws
   password: humanity
   port: 443
@@ -141,7 +141,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
+- name: '美国(yudou789.top 玉豆免费节点) #2'
   network: ws
   password: humanity
   port: 443
@@ -206,7 +206,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
+- name: 'US美国(mibei77.com 米贝节点分享) #17'
   network: ws
   password: humanity
   port: 443
@@ -303,7 +303,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #35'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -365,7 +365,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: '美国(yudou789.top 玉豆免费节点) #6'
   network: ws
   password: humanity
   port: 443
@@ -383,7 +383,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #28'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
@@ -392,7 +392,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: 'US美国(mibei77.com 米贝节点分享) #29'
   network: ws
   password: humanity
   port: 443
@@ -655,7 +655,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: 'US美国(mibei77.com 米贝节点分享) #48'
   network: ws
   password: humanity
   port: 443
@@ -677,7 +677,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #12'
+- name: 'US美国(mibei77.com 米贝节点分享) #50'
   network: ws
   password: humanity
   port: 443
@@ -708,44 +708,47 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.140
+  server: 104.16.174.185
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.143
+  server: ip.myip2.qzz.io
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.77
+  server: 104.18.152.210
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.229
+  server: 104.18.152.144
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.46
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -770,9 +773,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸US_1|1.2MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.233
+  type: ss
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_33|3.4MB/s
+  name: 🇺🇸US_3|3.0MB/s
   network: ws
   port: '16648'
   server: planb.mojcn.com
