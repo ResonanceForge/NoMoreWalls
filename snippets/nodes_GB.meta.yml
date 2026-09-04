@@ -23,6 +23,28 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '!!str 4da5d1853f04af6d'
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  tls: false
+  type: vless
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- name: '英国+V2CROSS.COM #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.75.243.102
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 英国
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -47,26 +69,32 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|1.0MB/s
+- name: 🇬🇧GB_1|1.3MB/s
   password: None
   port: 443
-  server: 185.235.0.2
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_2|1.0MB/s
+- name: 🇬🇧GB_2|1.3MB/s
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|1.4MB/s
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 🇬🇧GB_4|1.9MB/s
   password: None
   port: 443
   server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|1.5MB/s
-  password: None
-  port: 443
-  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
