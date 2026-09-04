@@ -1,22 +1,32 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
-    short-id: '!!str a9c4f17e3b62d8'
-  server: 176.109.88.216
-  servername: api-maps.yandex.ru
-  tls: false
-  type: vless
-  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
-- name: '俄罗斯+V2CROSS.COM #1'
+- name: 俄罗斯+V2CROSS.COM
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8080
   server: 139.28.168.58
   sni: grape-honk.yyuyy.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SkBD-xPB4PsipXdtXiuSMF_6OBgQtKc6YiMxD83v6B4
+    short-id: '!!str f3c9d1b1c7d4f718'
+  server: ads-ne.data-media-social.org
+  servername: ads-ne.data-media-social.org
+  tls: false
+  type: vless
+  uuid: ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36
+- name: Telegram 🆔@cnetvpn 🇷🇺
+  obfs: salamander
+  obfs-password: 09p333uviv2qal0y
+  password: 617z9r1mbzbm1t5z
+  port: 52000
+  server: giftcard.gisora.ir
+  skip-cert-verify: false
+  sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
 - name: '[🇷🇺]t.me/ConfigV2RayNG'
@@ -29,61 +39,3 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 🇷🇺161229 | ⚡️Telegram = t.me/S...
-  password: 41edb44c8e
-  port: 11592
-  server: srv-17e124.21freedom.net
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: Telegram 🆔@cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 🇷🇺161328 | ⚡️Telegram = t.me/S...
-  password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
-  port: 24444
-  server: give.internet-card.sbs
-  sni: bel7bel.internet-card.sbs
-  tls: false
-  type: hysteria2
-- client-fingerprint: edge
-  name: 🇷🇺RU_1|1.1MB/s
-  network: ws
-  port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|1.1MB/s
-  network: raw
-  port: '7444'
-  reality-opts:
-    public-key: -P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo
-    short-id: '!!str '
-  server: 78.159.247.123
-  servername: akamai.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
-  xudp: true
