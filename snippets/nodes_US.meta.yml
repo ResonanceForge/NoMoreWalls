@@ -8,7 +8,7 @@ proxies:
   uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
     path: '%2F29c8fed7ca22'
-- name: 英国+V2CROSS.COM
+- name: 'US美国(mibei77.com 米贝节点分享) #1'
   network: ws
   password: humanity
   port: 443
@@ -41,7 +41,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: 'US美国(mibei77.com 米贝节点分享) #4'
   network: ws
   password: humanity
   port: 443
@@ -159,12 +159,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+V2CROSS.COM
+- name: 'US美国(mibei77.com 米贝节点分享) #11'
   network: ws
   password: humanity
   port: 443
   server: 165.215.250.14
-  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -189,7 +188,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #10'
+- name: '美国+CloudFlare节点 #10'
   network: ws
   password: humanity
   port: 443
@@ -216,7 +215,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
+- name: 'US美国(mibei77.com 米贝节点分享) #17'
   network: ws
   password: humanity
   port: 443
@@ -466,7 +465,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: 'US美国(mibei77.com 米贝节点分享) #32'
   network: ws
   password: humanity
   port: 443
@@ -488,7 +487,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
+- name: 'US美国(mibei77.com 米贝节点分享) #34'
   network: ws
   password: humanity
   port: 443
@@ -1254,7 +1253,27 @@ proxies:
   uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
   ws-opts:
     path: /8704a4ad
-- name: 美国+CloudFlare节点
+- name: 美国+加州
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -1263,84 +1282,113 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2052
-  server: 172.64.158.146
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  tls: false
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
 - name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.14
+  server: 104.18.152.113
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 80
+  server: 208.103.161.249
+  tls: false
+  type: vless
+  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
+  ws-opts:
+    headers:
+      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
+    path: /
 - name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.124
+  server: www.speedtest.org
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #6'
   network: ws
-  password: humanity
   port: 443
-  server: 104.17.111.1
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 104.21.8.136
+  servername: 6-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+  tls: true
+  type: vless
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
   ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: 6-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
 - name: '美国+CloudFlare节点 #7'
   network: ws
+  port: 8880
+  server: 104.21.55.229
+  tls: false
+  type: vless
+  uuid: f55a75a7-5aa6-4df7-814a-99da0edb5c86
+  ws-opts:
+    headers:
+      Host: autumn-cloud-ab5e.229-601.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: '美国+CloudFlare节点 #8'
+  network: ws
   password: humanity
   port: 443
-  server: 104.18.152.73
+  server: 104.18.152.230
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #9'
   network: ws
-  port: 8880
-  server: 172.64.158.146
-  tls: false
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  password: humanity
+  port: 443
+  server: 104.17.111.4
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #11'
+  network: ws
+  port: 8880
+  server: 104.21.74.214
+  tls: false
+  type: vless
+  uuid: 8ddedcc7-6c4e-4df3-a190-ac40926f6694
+  ws-opts:
+    headers:
+      Host: late-boat-fbd7.152-de6.workers.dev
+    path: /pyip
+- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
+  network: ws
+  port: 8880
+  server: 50.62.198.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: '%2F'
 - name: '美国+CloudFlare节点 #12'
   network: ws
   password: humanity
   port: 443
-  server: 104.19.229.21
+  server: 104.16.174.117
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: 美国
   password: 3b8c82ed-fe66-472d-915e-034ccb57103f
