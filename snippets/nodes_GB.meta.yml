@@ -24,38 +24,30 @@ proxies:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: 英国+V2CROSS.COM
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: news.gazette.help
-  sni: news.gazette.help
+  network: ws
+  port: 2087
+  server: 188.220.67.245
   tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  type: vless
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    path: /8f2690e2d016
+- alpn:
+  - h3
+  - +h2
+  - +http/1.1
   name: '英国+V2CROSS.COM #1'
-  network: tcp
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: T5Dj3GB5C8gtZ4H8x_eS0aZXik-8Yqzyi3F1AEmM4zE
-    short-id: '!!str f3a9d24f68'
-  server: api-us.upd-media.com
-  servername: api-us.upd-media.com
-  tls: false
-  type: vless
-  uuid: ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #2'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 8qUiIosG5-OQWo0tD29BQCbxb50neUg8BynxdAvDzB4
-    short-id: '!!str 132142'
-  server: 31.77.203.216
-  servername: setbacks.hb-website.ru-msk.vkcloud-storage.ru
-  tls: false
-  type: vless
-  uuid: ecf789a5-edc3-4eef-bdea-837d048afd9a
+  server: 185.75.243.102
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 🩳91@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -80,11 +72,19 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|1.6MB/s
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 🇬🇧GB_1|1.3MB/s
+  password: None
   port: 443
-  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  username: null
+- name: 🇬🇧GB_2|1.2MB/s
+  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+  port: 443
+  server: 14f85ff1-t9zts0-tonrqx-1khwf.uk.oshuawei.com
+  sni: 14f85ff1-t9zts0-tonrqx-1khwf.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 92bd8c68-6434-11ee-b644-f23c91cfbbc9

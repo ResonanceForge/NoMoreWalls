@@ -10,3 +10,19 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
+- alpn:
+  - h3
+  - +h2
+  - +http/1.1
+  name: '英国+V2CROSS.COM #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.75.243.102
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
