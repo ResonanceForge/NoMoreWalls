@@ -23,20 +23,16 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 10101
-  reality-opts:
-    public-key: 7vvMu4dNatgCnLKqnY4-H2KNcSVyKhvN-Cymf9OzBUQ
-    short-id: '!!str 42c0b628ba6a42a9'
-  server: mewmin.esmahdi9.com
-  servername: amp-api-edge.apps.apple.com
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🩳91@oneclickvpnkeys
+- name: 英国+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.75.243.102
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 英国
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-uk-001.fastervpn.world
@@ -60,47 +56,29 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧163214 | ⚡️Telegram = t.me/S...
-  password: AstroVPN_official
-  port: 36896
-  server: ptserv.accuratenetworkchecker.ir
-  sni: lms22.gelzaro.ir
-  tls: false
-  type: hysteria2
-- name: 🇬🇧GB_2|1.7MB/s
-  password: None
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|2.3MB/s
+- name: 🇬🇧GB_1|2.2MB/s
   port: 443
   server: 185.235.0.98
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|1.7MB/s
+- name: 🇬🇧GB_2|2.8MB/s
   port: 443
-  server: 212.102.63.1
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: streaming
-  name: 🇬🇧GB_5|3.7MB/s
-  network: grpc
-  port: '43439'
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: '!!str 39ad36226f3abec8'
-  server: 31.77.111.11
-  servername: cdn.higames.ru
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_3|2.2MB/s
+  password: amazonskr05
+  port: '443'
+  server: 18.130.157.255
+  type: ss
   udp: true
-  uuid: 428e923f-e608-412b-9e51-3b09ffab551f
-  xudp: true
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_4|2.2MB/s
+  password: amazonskr05
+  port: '443'
+  server: 35.178.200.252
+  type: ss
+  udp: true
