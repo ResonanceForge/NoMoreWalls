@@ -7,19 +7,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 日本+东京Amazon数据中心
-  network: tcp
-  port: 25892
-  reality-opts:
-    public-key: 20EMD5w9RCv9W_MtV6PfJAcKwSUpRfdQ_uA_UBHggRE
-    short-id: '!!str 9b0f012413fd'
-  server: 52.68.64.80
-  servername: www.sony.com
-  tls: false
-  type: vless
-  uuid: 31d84170-673e-4653-afaf-0656656be6dc
 - name: '日本 #1'
   password: 4d6d97a82ddf959252e2ada36c3c3053
   port: 50160
@@ -68,9 +55,42 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: 🇯🇵JP_1|2.1MB/s
-  port: 443
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_1|2.0MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.137
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_3|5.6MB/s
+  network: raw
+  port: '28573'
+  reality-opts:
+    public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
+    short-id: '!!str 03653bc03be10c97'
+  server: 18.183.215.124
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+  xudp: true
+- name: 🇯🇵JP_6|2.4MB/s
+  password: ''
+  port: '443'
   server: fan.571589.xyz
+  skip-cert-verify: true
   sni: fan.571589.xyz
   tls: true
   type: http
+  username: ''
+- name: 🇯🇵JP_5|2.7MB/s
+  password: 'null'
+  port: '443'
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'

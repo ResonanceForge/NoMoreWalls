@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '!!str a9c4f17e3b62d8'
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -19,3 +32,36 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|3.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo
+    short-id: '!!str ea1058117be12087'
+  server: 46.173.25.146
+  servername: ru.crunch-crunch.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d1a1b09-12d6-4b76-82f0-893cc805d9c0
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|3.2MB/s
+  network: tcp
+  port: '443'
+  server: 82.148.21.26
+  servername: crypt-obhod-15.mystatic-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29834e2e-729c-491f-af21-d1d9a8bde8c6
+  xudp: true
