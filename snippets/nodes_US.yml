@@ -83,7 +83,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -179,7 +179,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- name: '美国(yudou789.top 玉豆分享) #10'
   network: ws
   password: humanity
   port: 443
@@ -215,7 +215,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #18'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
@@ -365,7 +365,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #6'
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
@@ -434,7 +434,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
+- name: 'US美国(mibei77.com 米贝节点分享) #31'
   network: ws
   password: humanity
   port: 443
@@ -474,7 +474,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #12'
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
@@ -622,7 +622,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #46'
+- name: '美国+CloudFlare节点 #12'
   network: ws
   password: humanity
   port: 443
@@ -655,7 +655,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
+- name: 'US美国(mibei77.com 米贝节点分享) #48'
   network: ws
   password: humanity
   port: 443
@@ -708,16 +708,36 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.101
+  server: 104.18.152.208
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.1
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -728,45 +748,31 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.159
+  server: 104.18.152.73
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
+- name: '美国+CloudFlare节点 #10'
   network: ws
-  password: MiTiVPN
+  password: humanity
   port: 443
-  server: 199.232.78.160
-  skip-cert-verify: false
-  sni: ssl.fastly.com
+  server: 104.18.152.140
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
-      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
+- name: '美国+CloudFlare节点 #13'
   network: ws
   password: humanity
   port: 443
-  server: ip.myip2.qzz.io
+  server: 172.67.188.109
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -791,3 +797,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_1|2.0MB/s
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 21af4a11-cf99-4370-bdd7-8a50cd0c6c49
+  ws-opts:
+    headers:
+      Host: e176d51869ea80390a96391ec8361f3f.mobgslb.tbcache.com
+    path: /
