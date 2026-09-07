@@ -279,7 +279,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '美国+CloudFlare节点 #8'
+  name: '美国(yudou789.top 玉豆分享) #7'
   network: ws
   password: humanity
   port: 443
@@ -405,7 +405,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #28'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -531,7 +531,7 @@ proxies:
   - http/1.1
   - h2
   - h3
-  name: '美国+CloudFlare节点 #9'
+  name: '美国(yudou789.top 玉豆免费节点) #10'
   network: ws
   password: humanity
   port: 443
@@ -560,7 +560,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #39'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
@@ -730,115 +730,36 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
-  network: ws
-  port: 2087
-  server: 172.67.118.45
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-    path: /
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- client-fingerprint: ios
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8443
-  server: 104.21.98.146
-  servername: cgzdynepurqs.mercury061.workers.dev
-  tls: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-48493148ec15
-  ws-opts:
-    headers:
-      Host: cgzdynepurqs.mercury061.workers.dev
-    path: /stream/PANEL_ZEUS/48493148ec15
-- name: 美国+华盛顿Cogent通信公司
-  network: ws
-  port: 443
-  server: 38.107.236.178
-  tls: false
-  type: vless
-  uuid: fda82db3-3c0f-4122-87d9-1ed08059bc92
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 172.67.206.48
-  servername: 1-M16.AyUtTHAYA2030.KdNS.fR
-  tls: true
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 1-M16.AyUtTHAYA2030.KdNS.fR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.221.242
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: 104.21.13.178
-  servername: 9-m16.ChiAN-Mai-6.KdNS.Fr
-  tls: true
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 9-m16.ChIaN-mAI-6.kDnS.fR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - alpn:
   - http/1.1
-  name: 美国+乔治亚洲亚特兰大Fastly节点
+  name: 美国+V2CROSS.COM
   network: ws
   password: MiTiVPN
   port: 443
-  server: 151.101.56.7
+  server: 199.232.78.160
   skip-cert-verify: false
   sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-    path: '@bored_vpn'
-- name: '美国+CloudFlare节点 #6'
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
   network: ws
-  port: 8880
-  server: 104.18.39.218
-  tls: false
+  port: 443
+  server: 172.67.155.189
+  servername: 0-M13.1B9390A5-6209-45bd-ba0e-057EBB2641c3.KdNS.FR
+  tls: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
   ws-opts:
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: '美国+CloudFlare节点 #7'
+      Host: 0-m13.1b9390a5-6209-45Bd-ba0E-057EbB2641C3.kdNS.fr
+    path: /ED3ZQPu7lqyeDGD58KabZ
+- name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 2052
+  port: 2086
   server: 104.18.47.113
   tls: false
   type: vless
@@ -847,6 +768,55 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8080
+  server: 104.18.46.46
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: false
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 443
+  server: 172.67.155.141
+  servername: 6-M23.CHIANG-MAI2030.kdns.FR
+  tls: true
+  type: vless
+  uuid: 8a2ae83c-0327-4703-a847-535a972bc636
+  ws-opts:
+    headers:
+      Host: 6-M23.ChIANg-MAi2030.kDns.fR
+    path: /kXHZ0iPM96r8UDUAsTH2scSHpeWN
+- name: 美国+麻省理工学院
+  network: ws
+  port: 80
+  server: 18.239.134.69
+  tls: false
+  type: vless
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  ws-opts:
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+    path: /
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 443
+  server: 104.21.56.104
+  servername: 4-m19.ALbAniA.KDNs.fR
+  tls: true
+  type: vless
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  ws-opts:
+    headers:
+      Host: 4-M19.aLBanIA.kDNS.fR
+    path: /CjBjB9sn5pCvaSwScc
 - name: 美国
   password: 3b8c82ed-fe66-472d-915e-034ccb57103f
   port: 443
@@ -861,6 +831,16 @@ proxies:
   server: rm-eco-us-01.409648.xyz
   skip-cert-verify: true
   sni: mkm.icu
+  tls: false
+  type: hysteria2
+- name: US
+  obfs: salamander
+  obfs-password: 7a5537b116d923fe572f85f1db7fe501
+  password: cbb5cf13f04b22883390f1a073753123
+  port: 443
+  server: 147.224.12.19
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
@@ -907,16 +887,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇺🇸 @AZARBAYJAB1_
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vz86jgszv4zszchv
-  port: 52076
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - cipher: aes-256-gcm
   name: 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -937,27 +907,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_1|3.5MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
-  type: ss
-  udp: true
-- name: US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
+- auth: 5319f194c3164cd0f0dce502e83d60aa
+  name: 🇺🇸US_1|2.3MB/s
+  obfs: salamander
+  obfs-password: 73221641ddc56c49b02bf110ac85afdb
+  password: 5319f194c3164cd0f0dce502e83d60aa
+  port: 443
+  server: 23.95.28.131
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
+  sni: www.bing.com
+  type: hysteria2
 - client-fingerprint: randomized
-  name: 🇺🇸US_3|2.9MB/s
+  name: 🇺🇸US_2|3.0MB/s
   network: ws
   port: 2095
-  server: cf.090227.xyz
+  server: www.temu.com
   skip-cert-verify: true
   tls: false
   type: vless
@@ -968,10 +932,10 @@ proxies:
       Host: fangbinxingnmsl.fuckingnigga.eu.cc
     path: /
 - client-fingerprint: randomized
-  name: 🇺🇸US_4|2.8MB/s
+  name: 🇺🇸US_3|2.1MB/s
   network: ws
   port: 2095
-  server: cloudflare-dns.com
+  server: www.shopify.com
   skip-cert-verify: true
   tls: false
   type: vless
@@ -982,10 +946,10 @@ proxies:
       Host: fangbinxingnmsl.fuckingnigga.eu.cc
     path: /
 - client-fingerprint: randomized
-  name: 🇺🇸US_5|2.3MB/s
+  name: 🇺🇸US_4|2.1MB/s
   network: ws
   port: 2095
-  server: developers.cloudflare.com
+  server: www.wto.org
   skip-cert-verify: true
   tls: false
   type: vless
@@ -996,7 +960,7 @@ proxies:
       Host: fangbinxingnmsl.fuckingnigga.eu.cc
     path: /
 - client-fingerprint: randomized
-  name: 🇺🇸US_6|2.4MB/s
+  name: 🇺🇸US_5|3.5MB/s
   network: ws
   port: 2095
   server: openai.com
@@ -1009,71 +973,14 @@ proxies:
     headers:
       Host: fangbinxingnmsl.fuckingnigga.eu.cc
     path: /
-- client-fingerprint: randomized
-  name: 🇺🇸US_7|1.8MB/s
-  network: ws
-  port: 2095
-  server: www.whatismyip.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.fuckingnigga.eu.cc
-    path: /
-- client-fingerprint: randomized
-  name: 🇺🇸US_8|1.5MB/s
-  network: ws
-  port: 2095
-  server: www.udemy.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.fuckingnigga.eu.cc
-    path: /
-- client-fingerprint: randomized
-  name: 🇺🇸US_9|2.2MB/s
-  network: ws
-  port: 2095
-  server: www.csgo.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.fuckingnigga.eu.cc
-    path: /
-- name: 🇺🇸US_10|1.3MB/s
-  password: None
+- name: 🇺🇸US_6|1.1MB/s
   port: 443
-  server: purecambogiasl.live
+  server: jewelscollecti.icu
   skip-cert-verify: true
+  sni: jewelscollecti.icu
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_11|2.8MB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-- name: 🇺🇸US_12|4.6MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|3.0MB/s
+- name: 🇺🇸US_7|1.7MB/s
   password: None
   port: 443
   server: goedkoopgeluid.icu
@@ -1081,66 +988,12 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_14|1.3MB/s
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_15|3.3MB/s
-  password: None
-  port: 443
-  server: zebpay.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_16|1.9MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_17|3.5MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_18|1.8MB/s
-  password: None
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_19|1.6MB/s
-  password: None
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_20|2.7MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: random
-  name: 🇺🇸US_21|2.5MB/s
+  encryption: none
+  name: 🇺🇸US_8|4.3MB/s
   network: ws
   port: '443'
-  server: freev2.cloudflare.182682.xyz
+  server: 172.64.229.161
   servername: us-lax.xhs152.shop
   tls: true
   type: vless
@@ -1149,9 +1002,9 @@ proxies:
   ws-opts:
     headers:
       Host: us-lax.xhs152.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /announcement
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /announcement?ed=2048
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -1168,6 +1021,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0132
