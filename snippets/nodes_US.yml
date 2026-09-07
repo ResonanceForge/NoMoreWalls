@@ -141,7 +141,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国(yudou789.top 玉豆免费节点) #2'
   network: ws
   password: humanity
   port: 443
@@ -215,7 +215,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #18'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -327,7 +327,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #25'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
@@ -336,7 +336,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #26'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -569,7 +569,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #42'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
@@ -578,7 +578,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 'US美国(mibei77.com 米贝节点分享) #54'
   network: ws
   password: humanity
   port: 443
@@ -589,7 +589,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #43'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -708,128 +708,58 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 18 TG: @nodpai'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 24 TG: @nodpai'
-  network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  sni: support.zoom.us.blackshadow.dpdns.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-    path: /195.123.218.174-443
-- name: 'B - 🇺🇸 US 32 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 33 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 34 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 35 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 36 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 37 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 42 TG: @nodpai'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18000
-  server: 121.154.96.50
-  sni: vpn.rnmcnm.com
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trojan
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 46 TG: @nodpai'
-  network: ws
-  port: 52620
-  server: 38.60.176.80
-  type: vmess
-  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
-  ws-opts:
-    path: /8704a4ad
 - name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.18.152.244
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.230
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - alpn:
-  - h3
-  - h2
   - http/1.1
-  name: 美国+V2CROSS.COM
+  name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
-  server: 45.130.125.158
+  server: 104.18.152.103
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: '美国+CloudFlare节点 #11'
   network: ws
-  password: humanity
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   port: 443
-  server: 104.18.152.149
-  sni: www.ignitelimit.com
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  sni: _acme-challenge.sb.cloudns.biz
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+    path: '%2F'
+- name: '美国+CloudFlare节点 #12'
   network: ws
   password: humanity
   port: 443
@@ -838,24 +768,37 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #13'
+  network: ws
+  password: Telegram_healer_config
+  port: 443
+  server: 172.67.132.19
+  sni: VRE6R9qRbQI0t25TG.SRTB0M3hdbwr2cJZ8fjUr.WoRKeRS.dev
+  type: trojan
+  ws-opts:
+    path: '%2Ftr%2FbDodLFtTQwCZ6EX3ffMYJ06j9EjLse4d%3Fed%3D2560'
+- name: '美国+CloudFlare节点 #14'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
+  server: ip.myip2.qzz.io
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.113
+  server: render.com
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - cipher: aes-256-gcm
   name: 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -876,9 +819,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_1|1.0MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
