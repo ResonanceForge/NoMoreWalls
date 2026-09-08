@@ -195,7 +195,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- name: 'US美国(mibei77.com 米贝节点分享) #9'
   network: ws
   password: humanity
   port: 443
@@ -253,7 +253,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: HK香港(mibei77.com 米贝节点分享)
+- name: '美国+CloudFlare节点 #13'
   network: ws
   password: humanity
   port: 443
@@ -273,7 +273,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #1'
+- name: 'US美国(mibei77.com 米贝节点分享) #11'
   network: ws
   password: humanity
   port: 443
@@ -282,7 +282,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #53'
+- name: '美国+CloudFlare节点 #11'
   network: ws
   password: humanity
   port: 443
@@ -302,7 +302,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #10'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -340,7 +340,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #17'
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
@@ -367,7 +367,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'CA加拿大(mibei77.com 米贝节点分享) #2'
+- name: '美国+CloudFlare节点 #8'
   network: ws
   password: humanity
   port: 443
@@ -418,7 +418,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '美国+CloudFlare节点 #1'
+  name: '美国(yudou789.top 玉豆分享) #7'
   network: ws
   password: humanity
   port: 443
@@ -562,7 +562,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #28'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
@@ -593,7 +593,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #30'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -604,7 +604,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆免费节点) #8'
+- name: '美国+CloudFlare节点 #12'
   network: ws
   password: humanity
   port: 443
@@ -748,7 +748,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: 'US美国(mibei77.com 米贝节点分享) #38'
   network: ws
   password: humanity
   port: 443
@@ -907,7 +907,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: 'US美国(mibei77.com 米贝节点分享) #50'
   network: ws
   password: humanity
   port: 443
@@ -938,33 +938,43 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: 美国+加州
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.50
+  server: 104.18.152.113
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.4
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.103
+  server: 104.16.174.14
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -973,12 +983,30 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.144
+  server: 172.67.188.109
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: 美国+加利福尼亚州洛杉矶Cloudflare+Warp节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.47.69.0
+  sni: www.pleadcourt.org
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
     path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -1087,42 +1115,53 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇸🇩SD_1|3.5MB/s
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10012
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_1|1.4MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /assignment
 - cipher: aes-256-cfb
-  name: 🇬🇧GB_1|4.0MB/s
+  name: 🇮🇪IE_1|1.3MB/s
   password: amazonskr05
   port: 443
-  server: 3.8.209.170
+  server: 54.247.231.139
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇮🇪IE_1|4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.171.218.140
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_2|1020KB/s
+  name: 🇬🇧GB_5|5.3MB/s
   password: amazonskr05
   port: 443
   server: 35.177.213.229
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇮🇪IE_2|3.9MB/s
+  name: 🇨🇦CA_1|3.9MB/s
   password: amazonskr05
   port: 443
-  server: 54.216.102.222
+  server: 15.223.203.202
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇨🇦CA_1|3.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 16.52.76.17
-  type: ss
-  udp: true
-- name: 🇭🇰HK_1|2.3MB/s
+- name: 🇭🇰HK_1|4.0MB/s
   network: tcp
   password: d742752c-4231-4695-801e-f06d77f0f277
   port: 52224
@@ -1130,18 +1169,10 @@ proxies:
   skip-cert-verify: true
   sni: taobao.com
   type: trojan
-- name: 🇦🇫AF_1|3.3MB/s
+- name: 🇦🇫AF_1|3.5MB/s
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10009
   server: z-jp1.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🇲🇲MM_1|4.7MB/s
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10046
-  server: z-sg2.6send.com
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
