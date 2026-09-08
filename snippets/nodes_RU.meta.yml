@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 193.36.38.17
+  servername: eded-52n.pages.dev
+  tls: true
+  type: vless
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  ws-opts:
+    headers:
+      Host: eded-52n.pages.dev
+    path: '%2F'
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
