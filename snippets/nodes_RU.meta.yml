@@ -1,4 +1,15 @@
 proxies:
+- client-fingerprint: qq
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 14443
+  server: pr-media.pepro.site
+  servername: pr-media.pepro.site
+  tls: true
+  type: vless
+  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
+  ws-opts:
+    path: '%2Fws'
 - name: 俄罗斯
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
@@ -15,13 +26,5 @@ proxies:
   server: giftcard.gisora.ir
   skip-cert-verify: false
   sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
-- name: 📀68@oneclickvpnkeys
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  port: 443
-  server: 144.31.93.126
-  skip-cert-verify: true
-  sni: admin.wwwinternetvideo.click
   tls: false
   type: hysteria2
