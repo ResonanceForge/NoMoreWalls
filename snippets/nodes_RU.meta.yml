@@ -1,17 +1,20 @@
 proxies:
 - client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  network: ws
+  flow: xtls-rprx-vision
+  name: 俄罗斯+莫斯科大学主楼
+  network: tcp
   port: 443
-  server: 193.36.38.17
-  servername: eded-52n.pages.dev
-  tls: true
+  reality-opts:
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: '!!str e7'
+  server: 217.16.31.218
+  servername: max.ru
+  tls: false
   type: vless
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
   ws-opts:
     headers:
-      Host: eded-52n.pages.dev
-    path: '%2F'
+      Host: /?TELEGRAM---TOOTFFARANGI
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
