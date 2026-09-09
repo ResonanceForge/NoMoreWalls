@@ -115,7 +115,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 'US美国(mibei77.com 米贝节点分享) #2'
+  name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -264,7 +264,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
+- name: '美国(yudou789.top 玉豆免费节点) #2'
   network: ws
   password: humanity
   port: 443
@@ -938,65 +938,67 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: 奥地利+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.185
-  sni: www.ignitelimit.com
+  server: 212.183.88.136
+  skip-cert-verify: false
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 Samara State University
   network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.34
-  sni: www.ignitelimit.com
-  type: trojan
+  port: '443'
+  server: renderer-stream-2-62.mirra.now
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: ip.myip2.qzz.io
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.net
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+    headers:
+      Host: ''
+    path: /api/v1/gpu-stream/socket
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.155
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.101
+  server: 104.16.174.143
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    path: /assignment
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  port: 443
+  server: 172.67.217.240
+  sni: id1.nathaya.web.id
+  type: trojan
+  ws-opts:
+    path: '%2Ftrojan'
 - name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.14
+  server: 104.18.152.229
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1005,7 +1007,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.152
+  server: 104.16.174.109
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1014,51 +1016,26 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.33
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #12'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.188.109
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+CloudFlare节点 #14'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #15'
-  network: ws
-  password: humanity
-  port: 443
   server: 104.16.174.71
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #16'
+- cipher: aes-256-gcm
+  name: 印度尼西亚+V2CROSS.COM
+  password: 6089784c-6fa1-4c5f-b678-f2917a70f179
+  port: 22019
+  server: k6p9tz.5tencent.asia
+  type: ss
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.117
-  skip-cert-verify: false
+  server: 8.6.112.0
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1166,26 +1143,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇱🇦LA_1|1.1MB/s
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10045
-  server: z-sg1.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 🇦🇫AF_1|2.7MB/s
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10009
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_5|3.8MB/s
-  password: amazonskr05
-  port: '443'
-  server: 18.170.35.229
-  type: ss
-  udp: true
