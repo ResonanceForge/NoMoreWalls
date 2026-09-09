@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
+    short-id: '!!str a3a578ab'
+  server: 185.95.231.156
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
 - name: 俄罗斯
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
