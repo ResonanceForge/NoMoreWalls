@@ -100,7 +100,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -1165,7 +1165,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
@@ -1185,7 +1185,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '法国(yudou789.top 玉豆分享) #5'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -1530,16 +1530,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 德国+法尔肯施泰因Hetzner
-  network: ws
-  password: humanity
-  port: 443
-  server: 88.198.82.150
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -1548,11 +1539,13 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国+CloudFlare节点 #4'
+- cipher: aes-256-gcm
+  name: 美国+加利福尼亚
+  password: wBYiDjDDyFqcBnNl
+  port: 8388
+  server: 64.177.32.29
+  type: ss
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
@@ -1560,16 +1553,27 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    path: /assignment
 - name: '美国+CloudFlare节点 #6'
   network: ws
   password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   port: 443
-  server: 172.64.152.241
+  server: 104.18.35.15
   sni: _acme-challenge.sb.cloudns.biz
   type: trojan
   ws-opts:
+    headers:
+      Host: _acme-challenge.sb.cloudns.biz
     path: '%2F'
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.136.234
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1677,3 +1681,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇮🇪IE_1|4.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 63.32.92.226
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_1|4.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 16.52.168.26
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇮🇪IE_3|1.8MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.254.74.220
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_2|4.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 35.182.182.58
+  type: ss
+  udp: true
