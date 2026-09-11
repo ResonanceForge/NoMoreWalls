@@ -51,17 +51,15 @@ proxies:
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|3.3MB/s
+  name: GB - zhuhai.uk 02
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: 2.26.178.152
   servername: localhost
-  skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
-  udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - alpn:
   - http/1.1
@@ -118,7 +116,13 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_4|2.6MB/s
+- name: 🇬🇧GB_1|2.7MB/s
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|3.0MB/s
   password: None
   port: 443
   server: 37.120.233.18
@@ -126,15 +130,28 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_6|2.7MB/s
+- name: 🇬🇧GB_3|3.2MB/s
+  password: None
   port: 443
-  server: 212.102.63.1
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_7|2.8MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
+  username: null
+- client-fingerprint: edge
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 🇬🇧GB_4|2.6MB/s
+  network: grpc
+  port: '9844'
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: '!!str aabbccdd'
+  server: 95.143.191.92
+  servername: dl.google.com
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  xudp: true
