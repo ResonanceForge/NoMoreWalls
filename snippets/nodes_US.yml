@@ -1,10 +1,9 @@
 proxies:
-- name: '美国+CloudFlare节点 #8'
+- name: '美国(yudou789.top 玉豆分享) #104'
   network: ws
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -89,7 +88,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #68'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -423,7 +422,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #95'
+- name: '美国+CloudFlare节点 #13'
   network: ws
   password: humanity
   port: 443
@@ -512,7 +511,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: 'US美国(mibei77.com 米贝节点分享) #37'
   network: ws
   password: humanity
   port: 443
@@ -521,7 +520,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国(yudou789.top 玉豆分享) #42'
   network: ws
   password: humanity
   port: 443
@@ -920,7 +919,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #77'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -1207,46 +1206,27 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+V2CROSS.COM
+- alpn:
+  - http/1.1
+  name: 美国+加州
   network: ws
   password: humanity
   port: 443
-  server: 45.130.125.112
+  server: 216.24.57.7
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: /assignment
-- name: '美国+V2CROSS.COM #2'
+- name: '美国+CloudFlare节点 #12'
   network: ws
   password: humanity
   port: 443
-  server: 45.130.125.160
+  server: 104.16.174.124
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: 172.64.152.241
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - cipher: aes-256-gcm
   name: 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -1267,10 +1247,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇺🇸US_2|1.3MB/s
-  password: BWyPPTusFKhGgzKh
-  port: '8388'
-  server: 64.177.90.30
-  type: ss
-  udp: true

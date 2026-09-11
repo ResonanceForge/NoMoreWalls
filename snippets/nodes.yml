@@ -100,12 +100,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: '美国(yudou789.top 玉豆分享) #104'
   network: ws
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -232,7 +231,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #68'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -619,7 +618,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #95'
+- name: '美国+CloudFlare节点 #13'
   network: ws
   password: humanity
   port: 443
@@ -717,7 +716,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: 'US美国(mibei77.com 米贝节点分享) #37'
   network: ws
   password: humanity
   port: 443
@@ -726,7 +725,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国(yudou789.top 玉豆分享) #42'
   network: ws
   password: humanity
   port: 443
@@ -1156,7 +1155,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: 'US美国(mibei77.com 米贝节点分享) #90'
   network: ws
   password: humanity
   port: 443
@@ -1243,7 +1242,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #77'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -1530,55 +1529,27 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 德国+法尔肯施泰因Hetzner
+- alpn:
+  - http/1.1
+  name: 美国+加州
   network: ws
   password: humanity
   port: 443
-  server: 88.198.82.150
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.112
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: 172.64.152.241
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
+  server: 216.24.57.7
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: /assignment
+- name: '美国+CloudFlare节点 #12'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.124
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1686,40 +1657,39 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: 🇺🇸US_2|1.3MB/s
-  password: BWyPPTusFKhGgzKh
-  port: '8388'
-  server: 64.177.90.30
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_1|2.1MB/s
+  name: 🇰🇷KR_1|2.0MB/s
   password: 7eadc6dbe2ae
-  port: '65443'
+  port: 65443
   server: 121.46.230.138
   type: ss
   udp: true
-- name: 🇾🇪YE_1|2.0MB/s
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10010
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_1|1.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 16.52.168.26
+  type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 🇫🇷FR_5|1.3MB/s
+  name: 🇫🇷FR_1|1001KB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.46
+  server: 45.130.125.158
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /assignment
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_2|1.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 16.52.165.74
+  type: ss
+  udp: true
