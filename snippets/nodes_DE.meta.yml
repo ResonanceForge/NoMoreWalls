@@ -138,42 +138,29 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.9MB/s
+  name: 🇩🇪DE_1|1.2MB/s
   network: tcp
-  port: 1932
+  port: '443'
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 195.66.24.169
-  servername: www.vk.com
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 82.39.171.142
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: ea8eb632-7d56-4bfb-8195-dc34268b5844
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
 - name: 🇩🇪DE_2|1.3MB/s
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|1.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|1.3MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|1.7MB/s
+- name: 🇩🇪DE_3|1.3MB/s
   password: ''
   port: 443
   server: 141.17.83.73
@@ -182,7 +169,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 🇩🇪DE_7|1.2MB/s
+- name: 🇩🇪DE_4|1.8MB/s
   password: None
   port: 443
   server: 149.36.50.157
@@ -190,3 +177,17 @@ proxies:
   tls: true
   type: http
   username: null
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.5MB/s
+  network: tcp
+  port: '443'
+  server: nasnet-571299667-direct.mbghalibaf.com
+  servername: nasnet-571299667-direct.mbghalibaf.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
