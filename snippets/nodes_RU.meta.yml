@@ -1,4 +1,30 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
+    short-id: '!!str 52ccb3687fe0b7ec'
+  server: 188.225.45.152
+  servername: api8.eaglors.com
+  tls: false
+  type: vless
+  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
+- client-fingerprint: chrome
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
+    short-id: '!!str 7606'
+  server: aldebaran.yokkastars.com
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -9,19 +35,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: GKuFgxMDHNxodlhM5bVclxDtFSdb1vSadmpD7fYRERo
-    short-id: '!!str c3248f699ea5d8d0'
-  server: 5.35.91.96
-  servername: rus1.baboon.digital
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
-  xudp: true
