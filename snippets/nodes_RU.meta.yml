@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
+    short-id: '!!str 7606'
+  server: aldebaran.yokkastars.com
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
