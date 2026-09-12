@@ -2,16 +2,16 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 瑞士+V2CROSS.COM
-  network: raw
-  port: 443
+  network: tcp
+  port: 8545
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.90
-  servername: yahoo.com
+    public-key: VpalqjubUqVrLmgjSjR6lKVXDierUncli66LeIyIO0M
+    short-id: '!!str e98c63b3c1a5d204'
+  server: 193.222.99.226
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  uuid: 4dc73b6c-ed9e-4d40-8f3f-ebd15d8e702e
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -24,11 +24,3 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇨🇭CH_1|1.3MB/s
-  password: None
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
