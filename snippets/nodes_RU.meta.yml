@@ -1,7 +1,7 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 巴西+圣保罗
+  name: 俄罗斯(yudou789.top 玉豆分享)
   network: tcp
   port: 443
   reality-opts:
@@ -52,3 +52,25 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
+- name: 🇷🇺RU_1|1.7MB/s
+  port: 49156
+  server: 45.132.252.25
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU_2|2.3MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
+    short-id: '!!str '
+  server: 170.168.99.8
+  servername: www.epson.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
