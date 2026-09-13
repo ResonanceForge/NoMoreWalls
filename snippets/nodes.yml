@@ -443,7 +443,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: '美国(yudou789.top 玉豆分享) #248'
   network: ws
   password: humanity
   port: 443
@@ -492,7 +492,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
+- name: 'US美国(mibei77.com 米贝节点分享) #212'
   network: ws
   password: humanity
   port: 443
@@ -521,7 +521,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #227'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -1103,7 +1103,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: 'US美国(mibei77.com 米贝节点分享) #190'
   network: ws
   password: humanity
   port: 443
@@ -1840,7 +1840,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #246'
+- name: 法国巴黎+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -1864,29 +1864,24 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 美国+CloudFlare节点
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
   server: 104.21.8.107
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 德国+法尔肯施泰因Hetzner
-  network: ws
-  password: humanity
-  port: 443
-  server: 88.198.82.150
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.188.109
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1998,18 +1993,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: safari
-  name: 🇦🇲AM_1|2.3MB/s
+- client-fingerprint: chrome
+  name: 🇯🇵JP_1|4.1MB/s
   network: ws
-  password: TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr
-  port: '9433'
-  server: de2.x8lab.org
+  password: d83a390c-33c3-4577-9258-e062f8ebdc16
+  port: '443'
+  server: 172.64.41.251
   skip-cert-verify: false
-  sni: de2.x8lab.org
+  sni: oa1.hyas.space
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /chatbot
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /x7f9k2m4p8
