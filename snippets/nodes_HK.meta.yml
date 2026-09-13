@@ -12,6 +12,19 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港+特别行政区
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+    short-id: '!!str 896f52ba2cfca903'
+  server: 47.251.108.158
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -59,11 +72,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_1|3.2MB/s
-  port: 1080
-  server: 47.76.175.249
-  type: socks5
-- name: 🇭🇰HK_2|5.4MB/s
+- name: 🇭🇰HK_1|5.0MB/s
   password: ''
   port: '1080'
   server: 103.210.161.8
