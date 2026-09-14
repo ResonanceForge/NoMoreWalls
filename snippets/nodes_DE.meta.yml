@@ -88,13 +88,13 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #3'
+- name: • 🇩🇪  @ConfigV2RayNG
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: 2.27.59.206
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
@@ -142,87 +142,93 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_2|3.5MB/s
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|2.4MB/s
+- name: 🇩🇪DE_1|3.1MB/s
   password: None
   port: 443
-  server: 149.36.50.157
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|1.9MB/s
-  port: 443
-  server: 141.17.83.73
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇩🇪DE_5|3.0MB/s
-  network: ws
-  password: 51oeqnj11lq5mljn
-  port: '2087'
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: false
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - encryption: none
-  name: 🇩🇪DE_6|3.0MB/s
+  name: 🇩🇪DE_2|1.1MB/s
   network: ws
   port: '2052'
-  server: hikvision-plus.com
+  server: freesocks.work
   type: vless
   udp: true
   uuid: 49a9813a-a8be-4ce7-9095-e5f37e3c6f92
   ws-opts:
     headers:
       Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /@BlueKnight_net--@BlueKnight_net
   xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|2.0MB/s
+  network: ws
+  port: '2053'
+  server: hikvision-plus.com
+  servername: uwu.blueknightnet.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49a9813a-a8be-4ce7-9095-e5f37e3c6f92
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|1.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: '!!str 8ffa160e608bf539'
+  server: 212.80.7.141
+  servername: de.pinkmoon.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  xudp: true
 - encryption: none
-  name: 🇩🇪DE_7|2.9MB/s
+  name: 🇩🇪DE_5|1.7MB/s
   network: ws
   port: '2052'
-  server: hikvision-plus.com
+  server: cctvhikvision.center
   type: vless
   udp: true
   uuid: f9b05993-49d6-4ef4-b371-e0f7718e4a4b
   ws-opts:
     headers:
       Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
     path: /@BlueKnight_net--@BlueKnight_net
   xudp: true
-- client-fingerprint: qq
+- client-fingerprint: firefox
   encryption: none
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 🇩🇪DE_8|1.7MB/s
-  network: grpc
-  port: '2096'
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|1.3MB/s
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 91.240.85.248
-  servername: id.vk.com
+    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
+    short-id: '!!str 1067b23f928e7618'
+  server: ventio.ferreo.sbs
+  servername: ventio.ferreo.sbs
   tls: true
   type: vless
   udp: true
-  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  uuid: db89d2f0-fda5-40fa-b1e4-3a405624ff28
   xudp: true
