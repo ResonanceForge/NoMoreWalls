@@ -34,13 +34,18 @@ proxies:
     headers:
       Host: fq.jp188.dpdns.org
     path: '%2Fproxyip%3D154.17.22.207%2C69.63.210.157%2C134.195.211.13%2C172.236.245.153%2C209.146.115.209%2C64.186.224.194%2C149.28.94.52%2C107.151.188.57'
-- name: 阿联酋
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: news.gazette.help
-  sni: news.gazette.help
-  tls: false
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 英国+社会保险安全部
+  password: 2YdE4lFOid5a
+  port: 8388
+  server: 51.195.126.38
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 英国+V2CROSS.COM
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
+  type: ss
 - name: 英国
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -69,33 +74,26 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|3.8MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|2.0MB/s
+- cipher: rc4-md5
+  name: 🇬🇧GB_1|2.0MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: '8080'
+  server: 146.70.23.32
+  type: ss
+  udp: true
+- name: 🇬🇧GB_2|3.2MB/s
   port: 443
   server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_3|3.2MB/s
+- name: 🇬🇧GB_3|2.1MB/s
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|2.7MB/s
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_5|3.1MB/s
+- name: 🇬🇧GB_4|2.1MB/s
   password: None
   port: 443
   server: 37.120.233.34
@@ -103,7 +101,23 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_6|4.1MB/s
+- name: 🇬🇧GB_5|2.9MB/s
+  password: ''
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇬🇧GB_6|3.0MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_7|2.9MB/s
   password: None
   port: 443
   server: 37.120.233.50
@@ -111,15 +125,25 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_7|2.9MB/s
+- name: 🇬🇧GB_8|2.9MB/s
   port: 443
-  server: 185.235.0.98
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_8|3.7MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_9|3.2MB/s
+  network: tcp
+  port: '24443'
+  reality-opts:
+    public-key: uUI9qoHBKhlrPy4BRJSQQygc4jstmLKLrhRI6jqhYxw
+    short-id: '!!str 8df4211d612176a5'
+  server: 2.26.101.19
+  servername: se.chick-team.ru
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 15553b23-a621-4dfd-995e-2fe28d124526
+  xudp: true

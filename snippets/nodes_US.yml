@@ -300,7 +300,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国(yudou789.top 玉豆分享) #227'
   network: ws
   password: humanity
   port: 443
@@ -1466,7 +1466,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 法国巴黎+CloudFlare节点
+- name: '美国(yudou789.top 玉豆分享) #246'
   network: ws
   password: humanity
   port: 443
@@ -1490,7 +1490,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '美国+CloudFlare节点 #1'
+  name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
@@ -1500,17 +1500,19 @@ proxies:
   ws-opts:
     path: '%2Fassignment'
 - alpn:
-  - h3
-  - h2
   - http/1.1
-  name: '美国+CloudFlare节点 #2'
+  - h2
+  - h3
+  name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
-  server: 104.21.8.107
+  server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - cipher: aes-256-gcm
   name: 美国|@ripaojiedian
