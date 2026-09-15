@@ -130,39 +130,23 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.5MB/s
-  network: xhttp
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 🇩🇪DE_1|1023KB/s
+  network: ws
   port: '443'
-  server: 199.232.79.166
-  servername: cdn.fastly.com
+  server: 31.58.237.147
+  servername: t1dn.blazenetwork.ir
   tls: true
   type: vless
   udp: true
-  uuid: 2cd9279f-a107-4860-8356-fc994ca4dff7
-  xhttp-opts:
-    host: telegram-uonvpn.global.ssl.fastly.net
-    mode: auto
-    path: /@UonVPN-*-@UonVPN--*-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN
-    x-padding-bytes: 100-1000
+  uuid: 1b5a7a00-2bcf-463e-9f1f-c47756588fb5
+  ws-opts:
+    headers:
+      Host: t1dn.blazenetwork.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /t/assets
   xudp: true
-- name: 🇩🇪DE_2|1.1MB/s
-  port: 11111
-  server: 103.237.102.191
-  type: http
-- name: 🇩🇪DE_3|1001KB/s
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|2.6MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
