@@ -71,7 +71,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: '美国(yudou789.top 玉豆分享) #4'
   network: ws
   password: humanity
   port: 443
@@ -200,7 +200,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 'US美国(mibei77.com 米贝节点分享) #211'
+  name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -258,7 +258,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #134'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -280,7 +280,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: 'US美国(mibei77.com 米贝节点分享) #212'
   network: ws
   password: humanity
   port: 443
@@ -833,7 +833,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: 'US美国(mibei77.com 米贝节点分享) #190'
   network: ws
   password: humanity
   port: 443
@@ -1040,7 +1040,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国(yudou789.top 玉豆分享) #175'
   network: ws
   password: humanity
   port: 443
@@ -1486,24 +1486,6 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.188.109
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
 - cipher: aes-256-gcm
   name: 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -1524,10 +1506,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_16|2.3MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.144.113.215
-  type: ss
-  udp: true

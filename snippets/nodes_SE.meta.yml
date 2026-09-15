@@ -9,36 +9,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇸🇪SE_1|3.8MB/s
-  network: xhttp
-  port: 443
-  server: 188.72.103.4
-  servername: shop.tgcenterapp.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e43829fe-a157-46ff-a416-00cc97f91c64
-  xhttp-opts:
-    host: shop.tgcenterapp.ru
-    mode: packet-up
-    path: /api/cart/sync
-    seq-key: chunk
-    seq-placement: cookie
-    session-key: visitor_id
-    session-placement: path
-    uplink-data-placement: body
-    uplink-http-method: HEAD
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Cache-Status
-    x-padding-key: _ts
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-- name: 🇸🇪SE_3|1.6MB/s
+- name: 🇸🇪SE_1|1.2MB/s
   password: None
   port: 443
   server: 146.70.242.146

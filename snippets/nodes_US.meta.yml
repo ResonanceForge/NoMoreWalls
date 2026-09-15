@@ -71,7 +71,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: '美国(yudou789.top 玉豆分享) #4'
   network: ws
   password: humanity
   port: 443
@@ -247,7 +247,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 'US美国(mibei77.com 米贝节点分享) #211'
+  name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -305,7 +305,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #134'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -327,7 +327,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: 'US美国(mibei77.com 米贝节点分享) #212'
   network: ws
   password: humanity
   port: 443
@@ -880,7 +880,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: 'US美国(mibei77.com 米贝节点分享) #190'
   network: ws
   password: humanity
   port: 443
@@ -1087,7 +1087,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国(yudou789.top 玉豆分享) #175'
   network: ws
   password: humanity
   port: 443
@@ -1558,61 +1558,17 @@ proxies:
       Host: fq.jp188.dpdns.org
     path: '%2Fproxyip%3D154.17.22.207%2C69.63.210.157%2C134.195.211.13%2C172.236.245.153%2C209.146.115.209%2C64.186.224.194%2C149.28.94.52%2C107.151.188.57'
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
+  name: '美国+CloudFlare节点 #3'
   network: ws
   port: 443
-  server: 172.67.136.91
-  servername: 9-m19.alBAnIa.ccwU.cC
+  server: 104.21.92.9
+  servername: 9-M13.35C73e3f-b0AE-4Ae0-b41F-62dFD753A988.KDnS.Fr
   tls: true
   type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
   ws-opts:
     headers:
-      Host: 9-m19.ALbaNia.ccwu.cc
-    path: /CjBjB9sn5pCvaSwScc
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.188.109
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国+Xerox
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: '!!str e336c9a786fae301'
-  server: 13.143.137.164
-  servername: plaincanvas.videoclothing.xyz
-  tls: false
-  type: vless
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 443
-  server: 104.21.86.133
-  servername: 6-M13.ayutThaYa-9.kdNS.FR
-  tls: true
-  type: vless
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  ws-opts:
-    headers:
-      Host: 6-m13.AyUTthaya-9.KDNS.FR
+      Host: 9-M13.35c73E3F-B0aE-4Ae0-b41F-62dfD753a988.kDns.FR
     path: /ED3ZQPu7lqyeDGD58KabZ
 - name: US
   obfs: salamander
@@ -1630,6 +1586,14 @@ proxies:
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 🇺🇸172152 | ⚡️Telegram = t.me/S...
+  password: user1
+  port: 443
+  server: 144.202.99.96
+  skip-cert-verify: true
+  sni: 144.202.99.96
   tls: false
   type: hysteria2
 - cipher: aes-256-gcm
@@ -1652,132 +1616,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|3.7MB/s
+- name: 🇺🇸US_1|1.4MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
   skip-cert-verify: true
   sni: anytls2.864106.xyz
   type: anytls
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 🇺🇸US_2|2.8MB/s
-  network: grpc
-  port: 10238
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: us1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-- name: 🇺🇸US_3|3.6MB/s
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_4|3.0MB/s
-  port: 443
-  server: purposebydesig.club
-  sni: purposebydesig.club
-  tls: true
-  type: http
-- name: 🇺🇸US_5|3.4MB/s
-  password: 'null'
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_6|1.6MB/s
-  password: None
-  port: 443
-  server: kimberlymilano.icu
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|3.7MB/s
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1018KB/s
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.8MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_10|4.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|1.3MB/s
-  password: None
-  port: 443
-  server: crosscards.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|1.1MB/s
-  password: None
-  port: 443
-  server: carolinafreigh.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|1.9MB/s
-  password: ''
-  port: 443
-  server: webdrone.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: Ok5vbmU=
-- name: 🇺🇸US_14|1.5MB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-- name: 🇺🇸US_15|3.0MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- cipher: aes-256-cfb
-  name: 🇺🇸US_16|2.3MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.144.113.215
-  type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
