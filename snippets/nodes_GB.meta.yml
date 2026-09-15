@@ -34,6 +34,19 @@ proxies:
     headers:
       Host: fq.jp188.dpdns.org
     path: '%2Fproxyip%3D154.17.22.207%2C69.63.210.157%2C134.195.211.13%2C172.236.245.153%2C209.146.115.209%2C64.186.224.194%2C149.28.94.52%2C107.151.188.57'
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_5|1.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: '443'
+  server: 31.76.71.252
+  skip-cert-verify: false
+  sni: gta.internet-card.sbs
+  tls: false
+  type: hysteria2
+  up: ''
 - name: 英国
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -50,3 +63,35 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
+- name: 🇬🇧GB_1|2.3MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_2|2.6MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|3.1MB/s
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|2.8MB/s
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
