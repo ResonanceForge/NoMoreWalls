@@ -247,7 +247,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '美国+CloudFlare节点 #1'
+  name: 'US美国(mibei77.com 米贝节点分享) #211'
   network: ws
   password: humanity
   port: 443
@@ -305,7 +305,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: 'US美国(mibei77.com 米贝节点分享) #134'
   network: ws
   password: humanity
   port: 443
@@ -880,7 +880,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #190'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -1558,18 +1558,69 @@ proxies:
       Host: fq.jp188.dpdns.org
     path: '%2Fproxyip%3D154.17.22.207%2C69.63.210.157%2C134.195.211.13%2C172.236.245.153%2C209.146.115.209%2C64.186.224.194%2C149.28.94.52%2C107.151.188.57'
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
+  name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.21.92.9
-  servername: 9-M13.35C73e3f-b0AE-4Ae0-b41F-62dFD753A988.KDnS.Fr
+  server: 104.21.86.133
+  servername: 1-m13.AyutThAya-9.KDNs.fr
   tls: true
   type: vless
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   ws-opts:
     headers:
-      Host: 9-M13.35c73E3F-B0aE-4Ae0-b41F-62dfD753a988.kDns.FR
+      Host: 1-m13.aYuTThaYA-9.kDNS.fR
     path: /ED3ZQPu7lqyeDGD58KabZ
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-55s.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/des---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-22s.global.ssl.fastly.net
+    path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/D-e2@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 2087
+  server: 172.67.118.45
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: tcp
+  port: 443
+  server: 165.140.217.56
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - name: US
   obfs: salamander
   obfs-password: 7a5537b116d923fe572f85f1db7fe501
@@ -1588,12 +1639,12 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🇺🇸172152 | ⚡️Telegram = t.me/S...
-  password: user1
+- name: 🇺🇸172415 | ⚡️Telegram = t.me/S...
+  password: 18bd49994f2eea74ff62798bd75fb7d1
   port: 443
-  server: 144.202.99.96
+  server: 107.175.219.48
   skip-cert-verify: true
-  sni: 144.202.99.96
+  sni: 107.175.219.48
   tls: false
   type: hysteria2
 - cipher: aes-256-gcm
@@ -1616,13 +1667,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.4MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+- name: 🇺🇸US_1|1.0MB/s
+  port: 443
+  server: mmgr.club
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
+  sni: mmgr.club
+  tls: true
+  type: http
+- name: 🇺🇸US_2|1.4MB/s
+  password: 'null'
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|1.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.144.113.215
+  type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
