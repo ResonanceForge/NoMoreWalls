@@ -10,13 +10,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: DE
-  password: dffb4c3d-1e84-4938-8881-cad917e8efb2
-  port: 443
-  server: de1.apexvpn.space
-  sni: de1.apexvpn.space
-  tls: false
-  type: hysteria2
-- name: 'DE #1'
   obfs: salamander
   obfs-password: f832485b7363626ee836f58576aad25f
   password: f0098427ecce06a25089f5c18f4ac666
@@ -36,10 +29,13 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: '[ 🇩🇪 ] | @Cfox_SerVer'
+- name: '@AZARBAYJAB1'
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
   port: 443
   server: 162.249.125.133
+  skip-cert-verify: false
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
@@ -87,13 +83,13 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'Telegram: @proxy_kafee'
+- name: '[ 🇩🇪 ] | @Cfox_SerVer #1'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: 2.27.59.206
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
@@ -109,22 +105,20 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 🏀33@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 64.188.98.171
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
 - name: 🏀34@oneclickvpnkeys
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- name: '✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  port: 443
-  server: 130.49.161.70
-  skip-cert-verify: false
-  sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: 🇩🇪@AZARBAYJAB1
@@ -137,81 +131,17 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 212.16.92.112
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-- name: 🇩🇪DE_2|1021KB/s
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: None
-- name: 🇩🇪DE_3|2.4MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|3.5MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|2.6MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|1.7MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 212.16.92.111
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|3.1MB/s
+  name: 🇩🇪DE_1|2.2MB/s
   network: tcp
-  port: '20443'
+  port: 443
   reality-opts:
-    public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
-    short-id: '!!str 08'
-  server: ee.cdn-update.rutube.info
-  servername: dest1.cdn-update.rutube.info
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: '!!str 5a9ab320'
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
   tls: true
   type: vless
   udp: true
-  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-  xudp: true
-- name: 🇩🇪DE_9|1.3MB/s
-  port: 11111
-  server: 103.237.102.191
-  type: http
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
