@@ -106,7 +106,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '法国(yudou789.top 玉豆分享) #15'
+  name: 美国+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
@@ -156,9 +156,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇫🇷FR_1|1.2MB/s
-  port: 443
-  server: 149.102.245.65
+- alpn:
+  - h3
+  auth: iy0lxplkci7qzk73
+  name: 🇫🇷FR_1|1.8MB/s
+  obfs: salamander
+  obfs-password: jogbnkm2l0c5v0cw
+  password: iy0lxplkci7qzk73
+  port: 29300
+  server: 3x.lbruh.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: 3x.lbruh.xyz
+  type: hysteria2
