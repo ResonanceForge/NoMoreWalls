@@ -941,7 +941,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 巴西圣保罗+CloudFlare节点
+- name: 'US美国(mibei77.com 米贝节点分享) #74'
   network: ws
   password: humanity
   port: 443
@@ -2050,24 +2050,21 @@ proxies:
     headers:
       Host: fq.jp188.dpdns.org
     path: '%2Fproxyip%3D154.17.22.207%2C69.63.210.157%2C134.195.211.13%2C172.236.245.153%2C209.146.115.209%2C64.186.224.194%2C149.28.94.52%2C107.151.188.57'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 保加利亚+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
-    short-id: '9c2378562188c3cb'
-  server: 194.93.63.246
-  servername: pl.bubahero.com
-  tls: false
-  type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
 - name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.8.107
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -2079,31 +2076,51 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: '巴西圣保罗+CloudFlare节点 #1'
+- name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 2082
-  server: 188.114.97.6
+  port: 8880
+  server: 104.21.55.229
   tls: false
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: f769b7ea-9cd1-4d61-b578-7644b7c8eb3d
   ws-opts:
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
+      Host: quiet-waterfall-e914.180-ac4.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  server: 104.21.46.3
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8880
+  server: 104.27.82.154
+  tls: false
+  type: vless
+  uuid: 94ed4a58-dcf4-43cb-afc1-f158e14ec42d
+  ws-opts:
+    headers:
+      Host: gentle-surf-cc74.345-604.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.188.109
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   port: 80
   server: 172.64.158.146
@@ -2123,23 +2140,17 @@ proxies:
   sni: fl2.xiaoliyu.us
   tls: false
   type: hysteria2
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #7'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 乌克兰+V2CROSS.COM
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: 27102
-  server: jp1.xiaoliyu.us
-  skip-cert-verify: true
-  sni: jp1.xiaoliyu.us
+  port: 8880
+  server: www.glassdoor.com
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 3bf2781f-63a2-4c38-ad02-2cc337c2f7fa
+  ws-opts:
+    headers:
+      Host: silent-heart-175f.325-a85.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
 - name: 日本
   obfs: salamander
   obfs-password: d0dd99b2b4da604123ce17b6d17072a2
