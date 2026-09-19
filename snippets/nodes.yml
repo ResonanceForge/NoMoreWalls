@@ -129,7 +129,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #34'
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
@@ -171,7 +171,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+加州
+- name: 'US美国(mibei77.com 米贝节点分享) #34'
   network: ws
   password: humanity
   port: 443
@@ -462,7 +462,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: 'US美国(mibei77.com 米贝节点分享) #52'
   network: ws
   password: humanity
   port: 443
@@ -511,7 +511,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: 'US美国(mibei77.com 米贝节点分享) #124'
   network: ws
   password: humanity
   port: 443
@@ -767,7 +767,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #140'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -1748,7 +1748,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 'US美国(mibei77.com 米贝节点分享) #172'
+  name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -1805,43 +1805,18 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 199.232.78.160
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---ss--s---mitivpn-44e.global.ssl.fastly.net
-    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国+CloudFlare节点 #2'
+- name: 加拿大+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  server: 130.250.137.171
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  port: 443
-  server: 104.21.83.135
-  skip-cert-verify: true
-  sni: id1.nathaya.web.id
-  type: trojan
-  ws-opts:
-    path: '%2Ftrojan'
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1949,3 +1924,31 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|1.2MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.148.195.154
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_2|1.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.70.156.210
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_1|2.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 15.237.196.230
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_2|2.8MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.36.169.164
+  type: ss
+  udp: true
