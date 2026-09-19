@@ -1,16 +1,16 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: '美国(yudou789.top 玉豆分享) #29'
+- name: 英国(yudou789.top 玉豆分享)
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 8880
+  server: 80.93.202.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
-    path: '%2Fassignment'
-- name: 'GB英国(mibei77.com 米贝节点分享) #3'
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: '%2F'
+- name: '英国(yudou789.top 玉豆分享) #1'
   network: ws
   password: humanity
   port: 443
@@ -21,19 +21,28 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 'GB英国(mibei77.com 米贝节点分享) #4'
+- alpn:
+  - http/1.1
+  name: '美国(yudou789.top 玉豆分享) #43'
   network: ws
-  port: 2087
-  server: 104.17.103.118
-  servername: fq.jp188.dpdns.org
-  tls: true
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 'GB英国(mibei77.com 米贝节点分享) #4'
+  network: xhttp
+  port: 2086
+  server: 217.163.76.118
+  tls: false
   type: vless
-  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
   ws-opts:
     headers:
-      Host: fq.jp188.dpdns.org
-    path: '%2Fproxyip%3D154.17.22.207%2C69.63.210.157%2C134.195.211.13%2C172.236.245.153%2C209.146.115.209%2C64.186.224.194%2C149.28.94.52%2C107.151.188.57'
+      Host: xvh.andishehparenting.com
+    path: '%2F'
 - name: 英国
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -42,7 +51,7 @@ proxies:
   sni: vpn-uk-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|2.0MB/s
+- name: 🇬🇧GB_1|2.5MB/s
   password: ''
   port: 443
   server: 185.235.0.2
@@ -50,7 +59,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 🇬🇧GB_8|2.9MB/s
+- name: 🇬🇧GB_2|2.9MB/s
   password: None
   port: 443
   server: 37.120.233.50
@@ -58,7 +67,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_3|3.0MB/s
+- name: 🇬🇧GB_3|2.7MB/s
   password: None
   port: 443
   server: 212.102.63.31
@@ -66,7 +75,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_4|1.6MB/s
+- name: 🇬🇧GB_4|2.8MB/s
   password: None
   port: 443
   server: 185.235.0.66
@@ -74,23 +83,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_9|2.9MB/s
-  password: None
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_6|3.3MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_7|2.7MB/s
+- name: 🇬🇧GB_5|2.0MB/s
   password: None
   port: 9443
   server: 37.120.233.34
@@ -98,16 +91,10 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_10|2.4MB/s
-  password: 'null'
-  port: 1080
-  server: 83.147.216.208
-  type: socks5
-  username: 'null'
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_11|4.4MB/s
+  name: 🇬🇧GB_6|3.9MB/s
   network: tcp
   port: '12884'
   reality-opts:
@@ -120,7 +107,7 @@ proxies:
   udp: true
   uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
   xudp: true
-- name: 🇬🇧GB_12|2.7MB/s
+- name: 🇬🇧GB_7|1.9MB/s
   password: ''
   port: '443'
   server: 212.102.63.61
