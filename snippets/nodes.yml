@@ -100,7 +100,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: '美国(yudou789.top 玉豆分享) #46'
   network: ws
   password: humanity
   port: 443
@@ -120,7 +120,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #21'
+- name: 加拿大+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
@@ -217,7 +217,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国(yudou789.top 玉豆分享) #51'
   network: ws
   password: humanity
   port: 443
@@ -228,7 +228,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: '美国(yudou789.top 玉豆分享) #18'
   network: ws
   password: humanity
   port: 443
@@ -365,7 +365,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 德国+法尔肯施泰因Hetzner
+- name: '德国(yudou789.top 玉豆分享) #1'
   network: ws
   password: humanity
   port: 443
@@ -396,7 +396,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #39'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -1103,7 +1103,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #184'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
@@ -1505,7 +1505,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #126'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -1748,7 +1748,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: 'US美国(mibei77.com 米贝节点分享) #172'
+  name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -1805,51 +1805,15 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 乌克兰+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 2053
-  server: 82.117.245.125
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
-    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
-- name: '美国+CloudFlare节点 #3'
+- name: 巴西圣保罗+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.21.46.3
+  server: 188.114.97.7
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: /assignment
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: bd85f5fe32d9446a8b1f59e4f710455b
-  port: 443
-  server: 104.24.163.206
-  skip-cert-verify: false
-  sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
-  type: trojan
-  ws-opts:
-    path: /eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1957,3 +1921,40 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇺🇸US_1|4.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.148.195.154
+  type: ss
+- client-fingerprint: chrome
+  name: 🇺🇦UA_1|3.4MB/s
+  network: tcp
+  password: 81691dd5-32b9-41ba-b0a9-f32b522d3548
+  port: '58113'
+  server: fj3x.waimaosass.icu
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_9|4.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 35.159.113.215
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_3|4.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.36.169.164
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_20|3.2MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.142.197.111
+  type: ss
+  udp: true
