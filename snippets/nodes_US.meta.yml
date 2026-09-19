@@ -10,7 +10,7 @@ proxies:
     headers:
       Host: vms.lifetime39.workers.dev
     path: '%2F'
-- name: '美国(yudou789.top 玉豆分享) #46'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -41,7 +41,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+加州
+- name: '美国(yudou789.top 玉豆分享) #34'
   network: ws
   password: humanity
   port: 443
@@ -156,7 +156,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #51'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -167,7 +167,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #18'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -727,7 +727,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 'US美国(mibei77.com 米贝节点分享) #140'
   network: ws
   password: humanity
   port: 443
@@ -1628,7 +1628,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '美国+CloudFlare节点 #2'
+  name: 'US美国(mibei77.com 米贝节点分享) #172'
   network: ws
   password: humanity
   port: 443
@@ -1685,17 +1685,41 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+乔治亚洲亚特兰大Fastly节点
   network: ws
-  port: 8880
-  server: skk.moe
-  tls: false
-  type: vless
-  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
+  password: mitivpn
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
   ws-opts:
     headers:
-      Host: late-mountain-6801.355.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+      Host: mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net
+    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.46.3
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: bd85f5fe32d9446a8b1f59e4f710455b
+  port: 443
+  server: 104.24.163.206
+  skip-cert-verify: false
+  sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
+  type: trojan
+  ws-opts:
+    path: /eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -1724,69 +1748,48 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 🇺🇸US_1|3.8MB/s
+  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  tls: true
+  type: http
+  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|1.5MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
-    short-id: '!!str '
-  server: 103.175.79.4
-  servername: download.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|1.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.148.195.154
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|1.1MB/s
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇺🇸US_2|2.3MB/s
   network: ws
-  port: '443'
-  server: 104.21.62.195
-  servername: 3.qq1-0.kdns.fr
+  port: 443
+  server: 172.64.79.241
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: cb53f904-c979-454f-bf43-621990008148
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: 3.qq1-0.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /LNbYtR09FXg1AmmjhdiHvR8v
-  xudp: true
+      Host: cdn8848.776676.xyz
+    path: /pics?ed=2560
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|1.1MB/s
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇺🇸US_3|1.0MB/s
   network: ws
-  port: '443'
-  server: 172.67.223.78
-  servername: 4-m17.JordaN-LiNk.kdnS.fR
+  port: 443
+  server: 162.159.237.80
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: 4-m17.joRDan-linK.KDnS.FR
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-  xudp: true
+      Host: cdn8848.776676.xyz
+    path: /magnet?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
