@@ -1,4 +1,13 @@
 proxies:
+- auth: 1027576c-c4df-4277-b3ef-38d3213b6574
+  name: 🇸🇬SG_1|1.6MB/s
+  password: 1027576c-c4df-4277-b3ef-38d3213b6574
+  port: 443
+  server: 161.118.253.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 日本
   obfs: salamander
   obfs-password: d0dd99b2b4da604123ce17b6d17072a2
@@ -29,20 +38,10 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇯🇵JP_1|5.0MB/s
-  network: ws
-  port: 443
-  server: 172.64.229.31
-  servername: cdn8848.776676.xyz
+- name: 🇯🇵JP_2|3.7MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: msjp1.mangshe.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /events/code/zh-cn?ed=2560
+  sni: www.microsoft.com
+  type: hysteria2
