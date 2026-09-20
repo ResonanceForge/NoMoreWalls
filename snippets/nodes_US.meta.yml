@@ -167,7 +167,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: '美国(yudou789.top 玉豆分享) #18'
   network: ws
   password: humanity
   port: 443
@@ -526,7 +526,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #14'
+- name: '美国(yudou789.top 玉豆分享) #70'
   network: ws
   password: humanity
   port: 443
@@ -535,7 +535,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #160'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
@@ -544,7 +544,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
+- name: 'US美国(mibei77.com 米贝节点分享) #182'
   network: ws
   password: humanity
   port: 443
@@ -564,7 +564,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
+- name: '美国(yudou789.top 玉豆分享) #177'
   network: ws
   password: humanity
   port: 443
@@ -584,7 +584,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #158'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -660,7 +660,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #191'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -700,7 +700,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2F%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #91'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
@@ -785,7 +785,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国(yudou789.top 玉豆分享) #85'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
@@ -838,7 +838,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
+- name: '美国(yudou789.top 玉豆分享) #178'
   network: ws
   password: humanity
   port: 443
@@ -894,7 +894,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国(yudou789.top 玉豆分享) #149'
   network: ws
   password: humanity
   port: 443
@@ -989,7 +989,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: '美国(yudou789.top 玉豆分享) #97'
   network: ws
   password: humanity
   port: 443
@@ -1083,7 +1083,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #15'
+- name: '美国(yudou789.top 玉豆分享) #192'
   network: ws
   password: humanity
   port: 443
@@ -1110,7 +1110,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 'US美国(mibei77.com 米贝节点分享) #155'
   network: ws
   password: humanity
   port: 443
@@ -1148,7 +1148,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+- name: 'US美国(mibei77.com 米贝节点分享) #169'
   network: ws
   password: humanity
   port: 443
@@ -1166,7 +1166,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
@@ -1438,7 +1438,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 'US美国(mibei77.com 米贝节点分享) #161'
+- name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
@@ -1467,12 +1467,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
+- name: 'US美国(mibei77.com 米贝节点分享) #141'
   network: ws
   password: humanity
   port: 443
   server: 104.19.229.21
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1686,46 +1685,61 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.148.22
+  server: 162.159.254.191
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
+- client-fingerprint: unsafe
+  name: '美国+CloudFlare节点 #3'
   network: ws
-  port: 8880
-  server: 104.16.239.191
-  tls: false
+  port: 443
+  server: 104.18.242.3
+  servername: cfvvv-ev1.pages.dev
+  tls: true
   type: vless
-  uuid: 7a2df38b-2d8b-486b-9b43-641c81e11f40
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   ws-opts:
     headers:
-      Host: shiny-mud-d9fa.466.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '美国+CloudFlare节点 #12'
+      Host: cfvvv-ev1.pages.dev
+    path: /
+- name: 美国+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.103
+  server: 165.215.250.14
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: /assignment
-- name: '美国+CloudFlare节点 #13'
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #10'
   network: ws
-  port: 8880
-  server: deepl.com
-  tls: false
+  port: 443
+  server: 104.16.10.2
+  servername: xi.tbv.ccwu.cc
+  tls: true
   type: vless
-  uuid: b1b99d33-8df1-4c74-b140-28941b43a4d2
+  uuid: b2593749-691c-428c-9481-14979cba3446
   ws-opts:
     headers:
-      Host: nameless-poetry-cc33.268-910.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- name: 美国+Amazon数据中心
+  network: tcp
+  port: 22222
+  server: 13.37.141.178
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -1754,22 +1768,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.2MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 🇺🇸US_2|1.9MB/s
+  name: 🇺🇸US_1|1.2MB/s
   network: ws
   port: 443
-  server: 162.159.237.99
+  server: 172.64.79.241
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -1778,14 +1784,7 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /files/doc?ed=2560
-- cipher: aes-256-cfb
-  name: 🇺🇸US_3|1.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.21.98.132
-  type: ss
-  udp: true
+    path: /pics?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
