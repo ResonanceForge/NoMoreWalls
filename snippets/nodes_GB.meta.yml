@@ -10,7 +10,7 @@ proxies:
     headers:
       Host: vms.lifetime02.workers.dev
     path: '%2F'
-- name: '美国+CloudFlare节点 #14'
+- name: '英国(yudou789.top 玉豆分享) #1'
   network: ws
   password: humanity
   port: 443
@@ -43,3 +43,52 @@ proxies:
     headers:
       Host: xvh.andishehparenting.com
     path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nIL5EeUo2XUkCaLJGbzgRm6zhF-96kWvV2VmhEt3CX4
+    short-id: '!!str 4af4102cb26e59'
+  server: 31.76.7.227
+  servername: origin.vpnoodles.ru
+  tls: false
+  type: vless
+  uuid: d0e771c5-024e-4393-bb90-4a3e3c561656
+- name: 🇬🇧GB_1|2.9MB/s
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_2|2.4MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|2.9MB/s
+  password: None
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|2.0MB/s
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|2.9MB/s
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
