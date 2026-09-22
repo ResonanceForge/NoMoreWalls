@@ -49,23 +49,53 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: HhEhP1K1hj4tUSqlBNIroSqc5zfT_xK3DCvzQ5xOsBQ
-    short-id: '!!str 006fd6dfc38adf33'
-  server: 31.76.53.246
-  servername: cdnjs.cloudflare.com
+    public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
+  server: 46.247.108.200
+  servername: modx-au.bachidze.com
   tls: false
   type: vless
-  uuid: 61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
-  network: tcp
+  uuid: 974f2c7e-a292-4207-8315-ef4151bdca41
+- name: 🇬🇧GB_1|2.6MB/s
+  password: None
   port: 443
-  reality-opts:
-    public-key: nIL5EeUo2XUkCaLJGbzgRm6zhF-96kWvV2VmhEt3CX4
-    short-id: '!!str 4af4102cb26e59'
-  server: 31.76.7.227
-  servername: origin.vpnoodles.ru
-  tls: false
-  type: vless
-  uuid: d0e771c5-024e-4393-bb90-4a3e3c561656
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_2|3.0MB/s
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|3.1MB/s
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|3.1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_5|3.2MB/s
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_6|1.7MB/s
+  password: ''
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
