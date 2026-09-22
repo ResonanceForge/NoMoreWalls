@@ -1,12 +1,4 @@
 proxies:
-- name: 日本东京+technological.ro
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20561
-  server: msjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 日本
   obfs: salamander
   obfs-password: d0dd99b2b4da604123ce17b6d17072a2
@@ -37,79 +29,10 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|2.8MB/s
-  network: ws
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_1|5.5MB/s
+  password: amazonskr05
   port: 443
-  server: 35.72.179.15
-  servername: shuma.ccwu.cc
-  tls: true
-  type: vless
+  server: 18.181.165.254
+  type: ss
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 🇯🇵JP_2|4.0MB/s
-  network: ws
-  port: 443
-  server: 161.33.29.51
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 🇯🇵JP_3|2.1MB/s
-  network: ws
-  port: 8443
-  server: 46.250.250.48
-  servername: shuma.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇯🇵JP_4|1.8MB/s
-  network: ws
-  port: 443
-  server: 45.77.180.114
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /intro/mall?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_5|2.8MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
-    short-id: '!!str 6d962e8d8a0dce'
-  server: jumpernode.online
-  servername: amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4cd263b-c5c7-4410-bf61-8893179ec429
-  xudp: true
