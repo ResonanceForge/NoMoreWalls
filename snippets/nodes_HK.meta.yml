@@ -1,4 +1,16 @@
 proxies:
+- client-fingerprint: chrome
+  name: 香港+Cloudie数据中心
+  network: tcp
+  port: 15570
+  reality-opts:
+    public-key: 59-0Y1oblZGcZajVn0IAMba0RNh8yNv-jhvKni1eZDY
+    short-id: '!!str 945974883e'
+  server: 45.64.74.100
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 931220c8-15ac-41f4-ba7b-8736a82a3ba2
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -46,20 +58,9 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇭🇰HK_1|1.1MB/s
-  network: ws
-  port: 40649
-  server: 185.155.235.35
-  servername: cdn8848.776676.xyz
+- name: 🇭🇰HK_1|2.6MB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: hk2.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /clip/tech/vod?ed=2560
+  type: hysteria2
