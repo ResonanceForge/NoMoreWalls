@@ -44,49 +44,41 @@ proxies:
       Host: xvh.andishehparenting.com
     path: '%2F'
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
-  network: ws
+  network: tcp
   port: 443
-  server: cy2.zuoai.cf
-  servername: xi.tbv.ccwu.cc
-  tls: true
+  reality-opts:
+    public-key: kH4F3DM_RIm3PNML7H3mnaWtbX7Aht2zREM8Wo3J2TE
+    short-id: '!!str 173b928b'
+  server: 2.27.63.71
+  servername: vyrex.co
+  tls: false
   type: vless
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-    path: /proxyip=us.xiabibi.cf
-- name: 🇬🇧GB_1|1.2MB/s
+  uuid: 6796f262-ca34-4b8e-b86e-6c175c081f2e
+- name: 🇬🇧GB_1|1.3MB/s
   password: None
   port: 443
-  server: 37.120.233.34
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_2|2.5MB/s
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|2.0MB/s
+- name: 🇬🇧GB_2|2.6MB/s
   port: 443
   server: 185.235.0.98
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|1004KB/s
+- name: 🇬🇧GB_3|1.1MB/s
   password: None
-  port: 9443
-  server: 37.120.233.34
+  port: 443
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_5|1.3MB/s
+- name: 🇬🇧GB_4|3.0MB/s
   password: None
   port: 443
   server: 212.102.63.61
@@ -94,9 +86,17 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_6|1.1MB/s
+- name: 🇬🇧GB_5|1.2MB/s
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇬🇧GB_6|2.4MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
