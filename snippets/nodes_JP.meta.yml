@@ -1,11 +1,4 @@
 proxies:
-- name: 日本东京+Oracle+Cloud
-  password: my_super_password_123
-  port: 5443
-  server: open.2ml.cc.cd
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -26,10 +19,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_1|5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.184.186
-  type: ss
-  udp: true
