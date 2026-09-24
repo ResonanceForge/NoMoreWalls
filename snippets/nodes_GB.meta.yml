@@ -1,73 +1,11 @@
 proxies:
-- name: 英国(yudou789.top 玉豆分享)
-  network: ws
-  port: 8880
-  server: 80.93.202.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-    path: '%2F'
-- name: '英国(yudou789.top 玉豆分享) #1'
-  network: ws
-  password: humanity
+- name: 🇬🇧GB_1|2.3MB/s
   port: 443
-  server: 172.67.221.242
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '美国(yudou789.top 玉豆分享) #43'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 'GB英国(mibei77.com 米贝节点分享) #4'
-  network: xhttp
-  port: 2086
-  server: 217.163.76.118
-  tls: false
-  type: vless
-  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
-  ws-opts:
-    headers:
-      Host: xvh.andishehparenting.com
-    path: '%2F'
-- name: 🇬🇧GB_4|3.1MB/s
-  password: None
-  port: 443
-  server: 37.120.233.50
+  server: 185.235.0.98
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_2|2.9MB/s
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|3.1MB/s
-  password: ''
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇬🇧GB_5|3.0MB/s
+- name: 🇬🇧GB_7|1.7MB/s
   password: None
   port: 9443
   server: 37.120.233.34
@@ -75,11 +13,65 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_6|1.9MB/s
+- name: 🇬🇧GB_3|1.0MB/s
+  password: ''
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇬🇧GB_4|1.9MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|1.5MB/s
   password: None
   port: 443
-  server: 185.235.0.66
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- name: 🇬🇧GB_6|1.6MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_8|2.5MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_9|1.6MB/s
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_10|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
+    short-id: '!!str 4fa44664f6a566d3'
+  server: gb.superbuba.top
+  servername: gb.superbuba.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  xudp: true

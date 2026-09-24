@@ -1,4 +1,43 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: YczbievYAOeZIypa58aRpil6XbfdyifK_0cFJWn8-yg
+    short-id: '!!str d6c172d3'
+  server: 188.225.77.241
+  servername: api.betust.net
+  tls: false
+  type: vless
+  uuid: 7cde4592-4758-415f-8b97-c188faa4d1c9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SxbaWzlvE_HQqqsA4PNX2PFcSYXTVE2nZlgLc7cPOgk
+    short-id: '!!str 8681edc9'
+  server: 188.225.25.142
+  servername: prime.betust.net
+  tls: false
+  type: vless
+  uuid: 7cde4592-4758-415f-8b97-c188faa4d1c9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2ZUQYIhUijdJ1vRL8iR8RxjmJvRVHYp-JoWevQ2LyR4
+    short-id: '!!str 7bb730e3e6616d31'
+  server: 91.240.86.186
+  servername: yandex.ru
+  tls: false
+  type: vless
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
 - name: 俄罗斯
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
@@ -17,10 +56,39 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_1|2.0MB/s
-  password: 81a20429165df87e
-  port: '10081'
-  server: 195.133.23.200
-  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU_1|2.8MB/s
+  network: ws
+  port: '443'
+  server: fbsv6.guardora.pro
+  servername: fbsv6.guardora.pro
+  tls: true
+  type: vless
   udp: true
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  ws-opts:
+    headers:
+      Host: fbsv6.guardora.pro
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: xx2BfSQpmx-UZxEPDmXtvlfq_ppkUpBEQhE5v6Y7GQc
+    short-id: '!!str 4bb9dbdad476124c'
+  server: 147.45.185.106
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
+  xudp: true
