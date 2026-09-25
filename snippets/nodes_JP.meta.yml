@@ -1,11 +1,4 @@
 proxies:
-- name: 日本东京+Oracle+Cloud
-  password: my_super_password_123
-  port: 5443
-  server: open.2ml.cc.cd
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - cipher: aes-128-gcm
   name: 🇯🇵 日本|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
@@ -16,3 +9,11 @@ proxies:
   port: 36609
   server: gd.bjnet2.com
   type: ss
+- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  name: 🇯🇵JP_1|1.4MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: msjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
