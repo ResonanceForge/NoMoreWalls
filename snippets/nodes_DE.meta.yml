@@ -19,43 +19,72 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_1|3.3MB/s
-  network: ws
-  port: '2053'
-  server: cctvhikvision.center
-  servername: uwu.blueknightnet.qzz.io
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|4.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0
+    short-id: '!!str 0c13e8822e7f58aa'
+  server: 87.120.216.144
+  servername: gerwai1488.vvzzkontaktezzvv.garden
   tls: true
   type: vless
   udp: true
-  uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
   xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|1.1MB/s
-  network: ws
-  port: '2053'
-  server: hikvision-plus.com
-  servername: uwu.blueknightnet.qzz.io
+- name: 🇩🇪DE_2|2.4MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
   tls: true
+  type: http
+- name: 🇩🇪DE_3|2.8MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_4|2.8MB/s
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_5|1.8MB/s
+  password: None
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_7|3.2MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- encryption: none
+  name: 🇩🇪DE_9|3.2MB/s
+  network: ws
+  port: '2052'
+  server: cctvhikvision.center
   type: vless
   udp: true
   uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
   ws-opts:
     headers:
       Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net
   xudp: true
