@@ -1,30 +1,11 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  network: ws
-  password: humanity
+- name: 🇬🇧GB_1|1.1MB/s
   port: 443
-  server: 176.97.66.175
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 🇬🇧GB_1|1.7MB/s
-  password: None
-  port: 443
-  server: 37.120.233.50
+  server: 185.235.0.98
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇬🇧GB_3|2.2MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|2.9MB/s
+- name: 🇬🇧GB_2|1.8MB/s
   password: ''
   port: 443
   server: 185.235.0.2
@@ -32,15 +13,15 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 🇬🇧GB_5|3.1MB/s
-  password: ''
+- name: 🇬🇧GB_3|1.0MB/s
+  password: None
   port: 443
-  server: 37.120.233.34
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: 🇬🇧GB_6|3.3MB/s
+  username: null
+- name: 🇬🇧GB_4|2.2MB/s
   password: None
   port: 9443
   server: 37.120.233.34
@@ -48,3 +29,23 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 🇬🇧GB_5|2.1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_6|2.4MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_7|1.1MB/s
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http

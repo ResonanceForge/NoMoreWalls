@@ -19,29 +19,21 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|4.3MB/s
+  name: 🇩🇪DE_1|1.1MB/s
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0
-    short-id: '!!str 0c13e8822e7f58aa'
-  server: 87.120.216.144
-  servername: gerwai1488.vvzzkontaktezzvv.garden
+    public-key: xOJ3INBNzRKOKYGQZmSYczgTjTKwdYQ4BFfc75wVazw
+    short-id: '!!str 73c9e31ccafda20e'
+  server: 185.249.153.108
+  servername: www.nordivablog.ru
   tls: true
   type: vless
   udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  xudp: true
-- name: 🇩🇪DE_2|2.4MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|2.8MB/s
+  uuid: 4cf9c712-11c4-47d8-aa31-a1693a1aa4e5
+- name: 🇩🇪DE_2|1.9MB/s
   password: None
   port: 443
   server: 149.36.50.129
@@ -49,42 +41,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|2.8MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|1.8MB/s
-  password: None
-  port: 443
-  server: 141.17.83.73
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_7|3.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- encryption: none
-  name: 🇩🇪DE_9|3.2MB/s
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 🇩🇪DE_3|2.5MB/s
   network: ws
-  port: '2052'
-  server: cctvhikvision.center
-  type: vless
+  password: 95xjvytiw5l1jln5
+  port: '2087'
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: false
+  sni: uwu.dianaw.cc.cd
+  type: trojan
   udp: true
-  uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
   ws-opts:
     headers:
-      Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
