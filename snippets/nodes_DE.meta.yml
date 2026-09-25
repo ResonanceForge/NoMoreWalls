@@ -19,21 +19,7 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xOJ3INBNzRKOKYGQZmSYczgTjTKwdYQ4BFfc75wVazw
-    short-id: '!!str 73c9e31ccafda20e'
-  server: 185.249.153.108
-  servername: www.nordivablog.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4cf9c712-11c4-47d8-aa31-a1693a1aa4e5
-- name: 🇩🇪DE_2|1.9MB/s
+- name: 🇩🇪DE_1|2.5MB/s
   password: None
   port: 443
   server: 149.36.50.129
@@ -41,20 +27,3 @@ proxies:
   tls: true
   type: http
   username: null
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇩🇪DE_3|2.5MB/s
-  network: ws
-  password: 95xjvytiw5l1jln5
-  port: '2087'
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: false
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
