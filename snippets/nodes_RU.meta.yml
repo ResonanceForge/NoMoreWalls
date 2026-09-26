@@ -1,21 +1,20 @@
 proxies:
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
   network: ws
-  port: 8880
-  server: 45.67.215.30
+  port: 443
+  server: fbsv6.guardora.pro
+  servername: fbsv6.guardora.pro
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   ws-opts:
     headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- name: 俄罗斯+V2CROSS.COM
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
-  sni: hy.quattro-tech.ru
-  tls: false
-  type: hysteria2
+      Host: fbsv6.guardora.pro
+    path: /ws
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
