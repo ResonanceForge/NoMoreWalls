@@ -1,11 +1,18 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
-  sni: hy.quattro-tech.ru
-  tls: false
-  type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: media-se.compressor.work
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  ws-opts:
+    path: /ws
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y

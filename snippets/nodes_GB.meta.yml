@@ -1,1 +1,88 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇵🇱PL_3|1.7MB/s
+  network: tcp
+  port: 2063
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: pl-waw.dontblockmepls.com
+  servername: rusbid.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: '!!str ff776ff77be48b88'
+  server: 31.76.84.174
+  servername: yaruss.stopingiphatered.shop
+  tls: false
+  type: vless
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1.0MB/s
+  network: tcp
+  port: '54865'
+  reality-opts:
+    public-key: frK9LTk4kF7lh4-ZVCuHCQm87Oy6uboRtoS-o6Fb6WE
+    short-id: '!!str 7436'
+  server: 178.79.129.203
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|1.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: UvN2oqI7DGQUEB8VrOZ9c5eXs2EuEQAgAa5IyTuRcCU
+    short-id: '!!str 3436aa2833db50fa'
+  server: 178.79.131.26
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  xudp: true
+- name: 🇬🇧GB_3|3.0MB/s
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|1.0MB/s
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_5|3.6MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_6|3.0MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

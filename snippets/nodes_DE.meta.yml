@@ -9,15 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE-🚀@VPNine1
-  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
-  port: 443
-  server: covers.pantera-radio.ru
-  skip-cert-verify: true
-  sni: covers.pantera-radio.ru
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -26,16 +17,6 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
-  tls: false
-  type: hysteria2
-- name: 🇷🇴RO-🚀@VPNine1
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: hy2-new.aspidnet.xyz
-  skip-cert-verify: true
-  sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: '🇩🇪 V2RayyNGvpn 🇩🇪 #2'
@@ -48,24 +29,82 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🇷🇴RO-🚀@VPNine1 #1'
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|3.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4
+    short-id: '!!str 0123456789abcdef'
+  server: 31.76.111.79
+  servername: hh.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac9a573b-67ff-4953-9e13-4cf43576f8f0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|1.1MB/s
+  network: tcp
+  port: '20410'
+  reality-opts:
+    public-key: BErODvy5h6Cjw5zWfX_CZ5ODH9p1XbZwU-ZEHyVXEGI
+    short-id: '!!str e2ce3e050232978c'
+  server: 109.94.164.85
+  servername: secureconnect-pa.mtls.clients6.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5cfb08f-e42d-4a08-94e1-4f591a2f7a6f
+  xudp: true
+- name: 🇩🇪DE_5|2.8MB/s
+  password: None
   port: 443
-  server: hy2.aspidnet.xyz
+  server: 149.36.50.129
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_1|1.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: '8443'
-  server: 162.249.127.133
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_4|2.5MB/s
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
-  sni: hop-germany-september.dynuddns.com
-  type: hysteria2
-  up: ''
+  tls: true
+  type: http
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_6|2.8MB/s
+  network: xhttp
+  port: '443'
+  server: 162.159.243.105
+  servername: usa1.tolkun-tv.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63be06d6-a169-482e-a047-4101797d0420
+  xhttp-opts:
+    host: usa1.tolkun-tv.ru
+    mode: auto
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: game-grpc
+  name: 🇩🇪DE_8|2.9MB/s
+  network: grpc
+  port: '2087'
+  reality-opts:
+    public-key: 8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4
+    short-id: '!!str 0123456789abcdef'
+  server: secret-test-de1.minetis.net
+  servername: hh.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac9a573b-67ff-4953-9e13-4cf43576f8f0
+  xudp: true
