@@ -19,7 +19,7 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: '🇩🇪 V2RayyNGvpn 🇩🇪 #2'
+- name: '🇩🇪 V2RayyNGvpn 🇩🇪 #1'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
@@ -29,64 +29,71 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.4MB/s
+- client-fingerprint: chrome
+  name: 🇩🇪DE_1|1.3MB/s
   network: ws
-  port: 80
-  server: 136.244.85.41
-  tls: false
+  port: 443
+  server: 172.67.79.81
+  servername: shephe.dpdns.org
+  tls: true
   type: vless
   udp: true
-  uuid: 9be7fcec-5b90-4cf7-828c-ccbd889fd03c
-  ws-opts:
-    path: /
-- name: 🇩🇪DE_2|2.1MB/s
-  network: ws
-  port: 80
-  server: 199.247.7.55
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4c250d79-700a-4968-b50d-bae96983e1d7
-  ws-opts:
-    path: /
-- encryption: none
-  name: 🇩🇪DE_3|1.4MB/s
-  network: ws
-  port: '8880'
-  server: 172.66.200.130
-  type: vless
-  udp: true
-  uuid: a51d8a82-faec-44f4-8882-441a2e7f0ce4
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   ws-opts:
     headers:
-      Host: spring-math-5c8c.434.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
+      Host: shephe.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪DE_2|3.1MB/s
+  network: ws
+  port: 443
+  server: 5.45.111.195
+  servername: shephe.dpdns.org
+  tls: true
+  type: vless
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  ws-opts:
+    headers:
+      Host: shephe.dpdns.org
+    path: /
+- name: 🇩🇪DE_3|3.1MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|1.1MB/s
-  port: 20855
+  name: 🇩🇪DE_4|1.2MB/s
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: c6Pu0_yAYxIrnYjbwIYLsKB_xhcLsk17BgojLeaIvE8
-    short-id: '!!str efe9'
-  server: 172.104.237.173
-  servername: www.cloudflare.com
-  skip-cert-verify: true
+    public-key: 3w1RLb2hE9qftafimJKcoWTRbLcCvAj7-Ub4fY-lTS0
+    short-id: '!!str f3f6de03370d26d3'
+  server: 8.211.15.144
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-- name: 🇩🇪DE_5|1.6MB/s
-  port: 443
-  server: 18.159.186.180
-  skip-cert-verify: true
+  uuid: 808d44f6-faaf-48b6-93b2-47a1a2d497b5
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|1.3MB/s
+  network: ws
+  port: '443'
+  server: 64.188.118.137
+  servername: shephe.dpdns.org
   tls: true
-  type: http
-- name: 🇩🇪DE_6|1.8MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  ws-opts:
+    headers:
+      Host: shephe.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true

@@ -9,17 +9,20 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|1.3MB/s
-  port: 443
-  server: 217.210.129.243
-  skip-cert-verify: true
+- client-fingerprint: safari
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpce5bb9e71
+  name: 🇸🇪SE_1|1.4MB/s
+  network: grpc
+  port: '2053'
+  reality-opts:
+    public-key: ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw
+    short-id: '!!str d0ea1847066af5a6'
+  server: 62.60.159.81
+  servername: www.samsung.com
   tls: true
-  type: http
-- name: 🇸🇪SE_2|1.1MB/s
-  password: None
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: fc00adfb-232a-46ce-8b93-0c70e516aa8a
+  xudp: true

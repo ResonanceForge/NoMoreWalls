@@ -59,32 +59,15 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 法国+巴黎Amazon数据中心
+- down: ''
+  fingerprint: ''
+  name: 🇫🇷FR_1|3.6MB/s
   obfs: ''
   obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
+  port: '443'
   server: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
   sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇫🇷FR_1|1.4MB/s
-  obfs: ''
-  obfs-password: ''
-  password: gf1:gfhysteria2024
-  port: '443'
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
   type: hysteria2
   up: ''
-- name: 🇫🇷FR_2|1.7MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
