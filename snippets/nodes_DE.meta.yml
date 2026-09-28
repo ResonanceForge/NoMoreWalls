@@ -29,131 +29,64 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|4.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4
-    short-id: '!!str 0123456789abcdef'
-  server: 31.76.111.79
-  servername: hh.ru
-  tls: true
+- name: 🇩🇪DE_1|1.4MB/s
+  network: ws
+  port: 80
+  server: 136.244.85.41
+  tls: false
   type: vless
   udp: true
-  uuid: ac9a573b-67ff-4953-9e13-4cf43576f8f0
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: '!!str f7d0420b8ab26060'
-  server: de.global-cdn.org
-  servername: de3.global-cdn.org
-  tls: true
+  uuid: 9be7fcec-5b90-4cf7-828c-ccbd889fd03c
+  ws-opts:
+    path: /
+- name: 🇩🇪DE_2|2.1MB/s
+  network: ws
+  port: 80
+  server: 199.247.7.55
+  tls: false
   type: vless
   udp: true
-  uuid: defc056e-17e5-4700-bd72-289b163fff47
+  uuid: 4c250d79-700a-4968-b50d-bae96983e1d7
+  ws-opts:
+    path: /
+- encryption: none
+  name: 🇩🇪DE_3|1.4MB/s
+  network: ws
+  port: '8880'
+  server: 172.66.200.130
+  type: vless
+  udp: true
+  uuid: a51d8a82-faec-44f4-8882-441a2e7f0ce4
+  ws-opts:
+    headers:
+      Host: spring-math-5c8c.434.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.7MB/s
-  network: tcp
-  port: '20855'
+  name: 🇩🇪DE_4|1.1MB/s
+  port: 20855
   reality-opts:
     public-key: c6Pu0_yAYxIrnYjbwIYLsKB_xhcLsk17BgojLeaIvE8
     short-id: '!!str efe9'
   server: 172.104.237.173
   servername: www.cloudflare.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  xudp: true
-- name: 🇩🇪DE_4|1.9MB/s
-  password: None
+- name: 🇩🇪DE_5|1.6MB/s
   port: 443
-  server: 149.36.50.129
+  server: 18.159.186.180
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_5|1.4MB/s
+- name: 🇩🇪DE_6|1.8MB/s
   port: 443
-  server: 149.36.50.1
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇩🇪DE_6|3.7MB/s
-  network: grpc
-  port: '9891'
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: '!!str aabb'
-  server: 176.108.241.137
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|3.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4
-    short-id: '!!str 0123456789abcdef'
-  server: secret-test-de1.minetis.net
-  servername: hh.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac9a573b-67ff-4953-9e13-4cf43576f8f0
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 🇩🇪DE_8|2.1MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: '!!str a1b2c3d4e5f6a7b8'
-  server: 186.246.6.110
-  servername: upload.hexagonicfield.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|1.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ
-    short-id: '!!str fbbda5'
-  server: 159.195.197.211
-  servername: acde3.astro-wall.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d05a0a-f298-4be9-8fab-3de32e3fb770
-  xudp: true

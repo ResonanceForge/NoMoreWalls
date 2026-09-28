@@ -1,67 +1,34 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇵🇱PL_2|2.9MB/s
+  name: 英国+V2CROSS.COM
   network: tcp
   port: 2063
   reality-opts:
     public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
   server: 31.77.13.19
   servername: rusbid.de
-  skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
-  udp: true
   uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|2.6MB/s
-  network: tcp
-  port: '22117'
-  reality-opts:
-    public-key: Vqwhml0SG253PsBtx9xi3GJY-hhyA6sgGUJ_wVI7Q1g
-    short-id: '!!str c7994be0'
-  server: 178.79.149.80
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇬🇧GB_2|3.0MB/s
-  network: ws
-  port: '443'
-  server: 94.159.97.247
-  servername: vp58.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /Telegram🇨🇳 @VPNine1
-  xudp: true
-- name: 🇬🇧GB_3|2.8MB/s
+- name: 🇬🇧GB_1|1.1MB/s
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|2.9MB/s
+- name: 🇬🇧GB_2|1005KB/s
+  password: None
   port: 443
-  server: 84.17.50.193
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_5|2.4MB/s
+  username: null
+- name: 🇬🇧GB_3|1.3MB/s
   password: None
-  port: 443
-  server: 37.120.233.18
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
