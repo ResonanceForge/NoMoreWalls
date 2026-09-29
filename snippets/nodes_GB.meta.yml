@@ -1,8 +1,33 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
+    short-id: '!!str a1b2c3d4e5f67890'
+  server: 31.76.245.63
+  servername: dzen.ru
+  tls: false
+  type: vless
+  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 2063
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: pl-waw.dontblockmepls.com
+  servername: rusbid.de
+  tls: false
+  type: vless
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
 - name: 🇬🇧GB_1|1.1MB/s
   password: None
-  port: 9443
-  server: 37.120.233.34
+  port: 443
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
@@ -14,3 +39,18 @@ proxies:
   skip-cert-verify: true
   sni: yg.mangshe.xyz
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: '!!str db04ce8bdb8900f1'
+  server: 31.76.39.230
+  servername: nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  xudp: true

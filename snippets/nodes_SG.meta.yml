@@ -3,19 +3,6 @@ proxies:
   flow: xtls-rprx-vision
   name: 新加坡+Amazon数据中心
   network: tcp
-  port: 20975
-  reality-opts:
-    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
-    short-id: '!!str 2bb0dc48'
-  server: 18.136.119.69
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '新加坡+Amazon数据中心 #1'
-  network: tcp
   port: 28243
   reality-opts:
     public-key: IXxfPvq2OkbSuA-ZTBFpMzkDU1uO8dEI1e7s9VfHh1Y
@@ -55,27 +42,27 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG_1|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: f87376e17da040ed04c9665ce8972930
-  port: '50160'
-  server: 138.2.73.238
-  skip-cert-verify: true
-  sni: 138.2.73.238
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_2|2.0MB/s
+- name: 🇸🇬SG_1|2.0MB/s
+  network: ws
+  port: '8880'
+  server: 172.64.144.180
+  type: vless
+  udp: true
+  uuid: 1563ad16-9ac7-4214-8eb7-303f745efb07
+  ws-opts:
+    headers:
+      Host: silent-cake-fb8d.69-a76.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /pyip=proxyip.sg.cmliussss.net
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇸🇬SG_2|2.6MB/s
   network: ws
   port: 2096
-  server: 104.17.70.206
+  server: free-server.techsonic.dev
   servername: free-server.techsonic.dev
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -84,13 +71,23 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: 🇸🇬SG_3|2.7MB/s
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
+- client-fingerprint: randomized
+  name: 🇸🇬SG_3|3.3MB/s
+  network: ws
+  port: '443'
+  server: 172.64.144.240
+  servername: pmpmppm.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  ws-opts:
+    headers:
+      Host: pmpmppm.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /?ed=2048
+  xudp: true
 - name: 🇸🇬SG_4|2.7MB/s
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   port: 2060
