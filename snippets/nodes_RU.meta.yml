@@ -1,4 +1,24 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
+    short-id: '!!str 52ccb3687fe0b7ec'
+  server: 85.193.94.217
+  servername: api8.eaglors.com
+  tls: false
+  type: vless
+  uuid: 3aaa8219-d891-4ab4-b953-f681392cc598
+- name: '俄罗斯+V2CROSS.COM #1'
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: 24443
+  server: 91.240.86.70
+  sni: hy.quattro-tech.ru
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -9,15 +29,9 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|3.2MB/s
+- name: 🇷🇺RU_1|1.7MB/s
   port: 443
   server: 82.147.71.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_2|1.6MB/s
-  port: 1446
-  server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http

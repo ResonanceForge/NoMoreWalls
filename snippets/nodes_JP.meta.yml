@@ -1,4 +1,11 @@
 proxies:
+- name: 日本+东京Choopa数据中心
+  password: 96ab5cd282733fd4c312a61f972f330a
+  port: 443
+  server: vp3.yysyy.online
+  sni: vp3.yysyy.online
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 日本|@ripaojiedian
@@ -44,3 +51,10 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
+- auth: 96ab5cd282733fd4c312a61f972f330a
+  name: 🇯🇵JP_1|2.9MB/s
+  password: 96ab5cd282733fd4c312a61f972f330a
+  port: 443
+  server: vp3.yysyy.online
+  type: hysteria2
+  udp: true
