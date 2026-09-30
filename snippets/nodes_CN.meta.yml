@@ -1,15 +1,15 @@
 proxies:
-- name: 广东省广州市+华为云
-  network: tcp
-  port: 58011
-  server: us22.sofast.live
-  tls: false
-  type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: 🇨🇳CN_1|1.5MB/s
-  password: ''
-  port: 1080
+- name: 🇨🇳CN_1|1018KB/s
+  password: Og==
+  port: '1080'
   server: 103.210.161.8
   skip-cert-verify: true
   type: socks5
-  username: ''
+  username: Og==
+- name: 🇨🇳CN_2|2.3MB/s
+  password: Og
+  port: 1080
+  server: 103.210.161.8
+  type: socks5
+  udp: true
+  username: Og
