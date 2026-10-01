@@ -1752,228 +1752,155 @@ proxies:
   name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.17.150.17
-  servername: edgetunnel-4uw.pages.dev
+  server: ld.235231.xyz
+  servername: ld.235231.xyz
   tls: true
   type: vless
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
   ws-opts:
-    headers:
-      Host: edgetunnel-4uw.pages.dev
     path: /
-- name: '美国+CloudFlare节点 #1'
+- name: 俄罗斯+V2CROSS.COM
   network: ws
-  port: 8080
-  server: 104.21.70.21
-  servername: xstack.mahanfixe.workers.dev
-  tls: false
+  port: 8444
+  server: germany.tofreedom.ru
+  servername: germany.tofreedom.ru
+  tls: true
   type: vless
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
+  uuid: 9cb2520c-148b-4bbc-a149-9d5a43ff0db3
   ws-opts:
     headers:
-      Host: xstack.mahanfixe.workers.dev
-    path: /xiron
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+      Host: germany.tofreedom.ru
+    path: /c7f5317cd04691bc
+- name: 伊朗+V2CROSS.COM
+  password: b0917015b656b3dd2286b5633af0c5c1
+  port: 50160
+  server: 31.57.248.176
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 美国+Akamai科技公司CDN网络节点
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
   port: 443
-  server: 104.25.82.149
-  sni: id1.nathaya.web.id
-  type: trojan
-  ws-opts:
-    path: '%2Ftrojan'
-- client-fingerprint: chrome
-  name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  port: 2083
-  server: 188.114.97.3
-  servername: newwk1.f1w.de5.net
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: newwk1.f1w.de5.net
-    path: /
-- client-fingerprint: chrome
-  name: 吉尔吉斯斯坦+V2CROSS.COM
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: B5-zPBBAI-UATY7rSvoggM1T65h9CfVw7yBluBNd-yI
-    short-id: '4a5f04a5ea205fc3'
-  server: 37.143.129.161
-  servername: fi.aksay.pro
+  server: 496b9e5d-tmeqo0-0-1imi4.sg7.hyhuawei.com
+  skip-cert-verify: true
+  sni: 496b9e5d-tmeqo0-0-1imi4.sg7.hyhuawei.com
   tls: false
-  type: vless
-  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 美国+Xerox
+  name: '伊朗+V2CROSS.COM #1'
   network: tcp
   port: 443
   reality-opts:
-    public-key: qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk
-    short-id: 'f7e66e308136e1a1'
-  server: 13.143.184.226
-  servername: msc1.serverslocal.ru
+    public-key: uLuPk7Ee7W9BcvjgM2FJHYG2NJxEeEkP7QVL8jYudhI
+    short-id: 'aa9bfaebd76d8b95'
+  server: germ2.serverslocal.ru
+  servername: germ2.serverslocal.ru
   tls: false
   type: vless
   uuid: 80f72027-2201-4541-9abb-7070c9b0869e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Bf4bszSa_JTyLOugSidr-0_SNtm6LmssG_aLBJ3yWyw
-    short-id: '1a664ac4f4ea'
-  server: 153.76.122.88
-  servername: www.antagonist.nl
-  tls: false
-  type: vless
-  uuid: c750defe-972e-4203-afe5-d212992e34f0
-- name: 香港+电讯盈科有限公司
-  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  port: 443
-  server: f675b7ac-tmeqo0-0-1imi4.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: f675b7ac-tmeqo0-0-1imi4.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 8880
-  server: 104.16.106.213
-  tls: false
-  type: vless
-  uuid: 7121d0be-40f5-4eda-b3d1-1556e71ea4fa
-  ws-opts:
-    headers:
-      Host: shrill-recipe-0c1d.404-a1d.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: 罗马尼亚+V2CROSS.COM
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: us3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: us3.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XU7da9vkBex4TUPo1d-ctFY_N6zouBiCRnbnUK82i3Q
-    short-id: 'fee1f986a72444db'
-  server: id-nl-01.mintrocket.org
-  servername: id-nl-01.mintrocket.org
-  tls: false
-  type: vless
-  uuid: f0a52dd3-4377-4402-a450-210bc81bcf25
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 芬兰+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
-    short-id: 'f0eb800bd980b00b'
-  server: sof.edgeptr.org
-  servername: www.lovelive-anime.jp
-  tls: false
-  type: vless
-  uuid: 18d817c9-0dfc-4fa9-8214-2df503f0b6eb
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 8880
-  server: deepl.com
-  tls: false
-  type: vless
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
-  ws-opts:
-    headers:
-      Host: super-feather-91c4.267.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+V2CROSS.COM
   password: cf83b611-6cba-4535-adcb-8da06c6a9146
   port: 443
   server: 144.31.212.253
   sni: vps155-edge.kermemehori.ru
   tls: false
   type: hysteria2
-- name: 新加坡+甲骨文机房
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
+- name: 土耳其+V2CROSS.COM
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: rb.mangshe.xyz
   skip-cert-verify: true
-  sni: 138.2.73.238
+  sni: rb.mangshe.xyz
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 荷兰+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 188.164.248.96
-  servername: whitecreeper.pages.dev
-  tls: true
-  type: vless
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  ws-opts:
-    headers:
-      Host: whitecreeper.pages.dev
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #6'
-  network: ws
+  flow: xtls-rprx-vision
+  name: 乌克兰+V2CROSS.COM
+  network: tcp
   port: 443
-  server: liang92.dpdns.org
-  servername: liang92.dpdns.org
-  tls: true
-  type: vless
-  uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
-  ws-opts:
-    headers:
-      Host: liang92.dpdns.org
-    path: /
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 8880
-  server: 104.17.144.29
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: 'ff776ff77be48b88'
+  server: spanish67.kovsh.lol
+  servername: spanish67.kovsh.lol
   tls: false
   type: vless
-  uuid: 4ae1f5c4-6595-4a20-85c0-0deec1e6ecb9
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: 'ff776ff77be48b88'
+  server: 31.76.84.174
+  servername: yaruss.stopingiphatered.shop
+  tls: false
+  type: vless
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- name: 北美地区+V2CROSS.COM
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 104.165.205.219
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - http/1.1
+  name: '美国+V2CROSS.COM #1'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 167.82.76.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
   ws-opts:
     headers:
-      Host: misty-dew-009a.484.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
+      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
+    path: /---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/NLSs---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+Xerox
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: f4ZWSdDLpQQwC4scaTsLbRDmizkYqHjMyn7WceWPEDQ
+  server: fl-05.vacvps.com
+  servername: fl-05.vacvps.com
+  tls: false
+  type: vless
+  uuid: 84a3061b-3573-4a3c-a631-f26c31209268
+- cipher: chacha20-ietf-poly1305
+  name: '英国+V2CROSS.COM #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.66
+  type: ss
 - alpn:
   - http/1.1
   name: '美国+V2CROSS.COM #2'
   network: ws
   password: mitivpn
   port: 443
-  server: 199.232.78.101
+  server: 199.232.78.160
   skip-cert-verify: false
   sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: mitivpn---de--s---mitivpn-11.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '北美地区+V2CROSS.COM #1'
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 104.165.205.46
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
 - name: 咕咕嘎嘎
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
@@ -2083,6 +2010,13 @@ proxies:
   sni: hop-germany-september.dynuddns.com
   tls: false
   type: hysteria2
+- name: 🗳️10@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.137
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
 - name: 🫒72@oneclickvpnkeys
   password: BWAFlp8g53
   port: 443
@@ -2161,14 +2095,6 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 🇩🇪184960 | ⚡️Telegram = t.me/S...
-  password: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-  port: 443
-  server: dehys.superbuba.top
-  skip-cert-verify: false
-  sni: dehys.superbuba.top
-  tls: false
-  type: hysteria2
 - name: 'Telegram 🆔@Cnetvpn 🇺🇲 #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -2207,13 +2133,6 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
-  tls: false
-  type: hysteria2
-- name: 🫒32@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.101
-  sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇳🇱

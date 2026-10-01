@@ -1494,140 +1494,82 @@ proxies:
   name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.17.150.17
-  servername: edgetunnel-4uw.pages.dev
+  server: ld.235231.xyz
+  servername: ld.235231.xyz
   tls: true
   type: vless
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
   ws-opts:
-    headers:
-      Host: edgetunnel-4uw.pages.dev
     path: /
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 8080
-  server: 104.21.70.21
-  servername: xstack.mahanfixe.workers.dev
-  tls: false
-  type: vless
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
-  ws-opts:
-    headers:
-      Host: xstack.mahanfixe.workers.dev
-    path: /xiron
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+- name: 美国+Akamai科技公司CDN网络节点
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
   port: 443
-  server: 104.25.82.149
-  sni: id1.nathaya.web.id
-  type: trojan
-  ws-opts:
-    path: '%2Ftrojan'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+Xerox
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk
-    short-id: '!!str f7e66e308136e1a1'
-  server: 13.143.184.226
-  servername: msc1.serverslocal.ru
+  server: 496b9e5d-tmeqo0-0-1imi4.sg7.hyhuawei.com
+  skip-cert-verify: true
+  sni: 496b9e5d-tmeqo0-0-1imi4.sg7.hyhuawei.com
   tls: false
-  type: vless
-  uuid: 80f72027-2201-4541-9abb-7070c9b0869e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Bf4bszSa_JTyLOugSidr-0_SNtm6LmssG_aLBJ3yWyw
-    short-id: '!!str 1a664ac4f4ea'
-  server: 153.76.122.88
-  servername: www.antagonist.nl
-  tls: false
-  type: vless
-  uuid: c750defe-972e-4203-afe5-d212992e34f0
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 8880
-  server: 104.16.106.213
-  tls: false
-  type: vless
-  uuid: 7121d0be-40f5-4eda-b3d1-1556e71ea4fa
-  ws-opts:
-    headers:
-      Host: shrill-recipe-0c1d.404-a1d.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 8880
-  server: deepl.com
-  tls: false
-  type: vless
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
-  ws-opts:
-    headers:
-      Host: super-feather-91c4.267.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+V2CROSS.COM #1'
+  type: hysteria2
+- name: 美国+V2CROSS.COM
   password: cf83b611-6cba-4535-adcb-8da06c6a9146
   port: 443
   server: 144.31.212.253
   sni: vps155-edge.kermemehori.ru
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #6'
+- name: 北美地区+V2CROSS.COM
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 104.165.205.219
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - http/1.1
+  name: '美国+V2CROSS.COM #1'
   network: ws
+  password: mitivpn
   port: 443
-  server: liang92.dpdns.org
-  servername: liang92.dpdns.org
-  tls: true
-  type: vless
-  uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
+  server: 167.82.76.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
   ws-opts:
     headers:
-      Host: liang92.dpdns.org
-    path: /
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 8880
-  server: 104.17.144.29
+      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
+    path: /---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/NLSs---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+Xerox
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: f4ZWSdDLpQQwC4scaTsLbRDmizkYqHjMyn7WceWPEDQ
+  server: fl-05.vacvps.com
+  servername: fl-05.vacvps.com
   tls: false
   type: vless
-  uuid: 4ae1f5c4-6595-4a20-85c0-0deec1e6ecb9
-  ws-opts:
-    headers:
-      Host: misty-dew-009a.484.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
+  uuid: 84a3061b-3573-4a3c-a631-f26c31209268
 - alpn:
   - http/1.1
   name: '美国+V2CROSS.COM #2'
   network: ws
   password: mitivpn
   port: 443
-  server: 199.232.78.101
+  server: 199.232.78.160
   skip-cert-verify: false
   sni: ssl.fastly.com
   type: trojan
   ws-opts:
     headers:
-      Host: mitivpn---de--s---mitivpn-11.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '北美地区+V2CROSS.COM #1'
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 104.165.205.46
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
