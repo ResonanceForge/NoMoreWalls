@@ -1490,57 +1490,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ClG6fvriBTK8donGsTlKusJ0dwRCgVDDTAGzAtZzJDY
-    short-id: '!!str 82c2b7d5e70ff000'
-  server: 162.35.242.252
-  servername: nl.aksay.pro
-  tls: false
-  type: vless
-  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: 108.162.198.178
-  tls: false
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 199.232.78.160
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---us--s---mitivpn-11.global.ssl.fastly.net
-    path: '@mehrosaboran'
-- name: 🗳️72@oneclickvpnkeys
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 104.165.205.250
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: '北美地区+V2CROSS.COM #1'
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 104.165.205.219
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
