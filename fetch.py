@@ -496,7 +496,7 @@ class Node:
     def name(self):
         def rate(name: str):
             r = 0
-            if name.startswith('@'):
+            if '@' in name:
                 r -= 5
             if any(127462<=ord(c)<=127487 for c in name):
                 r += 6
