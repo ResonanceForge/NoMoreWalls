@@ -1572,31 +1572,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 台湾省彰化县+中华电信
-  network: ws
-  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
-  port: 443
-  server: zhilegelian1.bpca2026.top
-  sni: zhilegelian1.bpca2026.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zhilegelian1.bpca2026.top
-    path: '%2Fimages'
-- alpn:
-  - h2
-  name: 美国+CloudFlare节点
-  network: ws
-  password: 0y7hid61k3k2vuy1
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: true
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uwu.dianaw.cc.cd
-    path: '%2F%40BlueKnight_net--%40BlueKnight_net--%40BlueKnight_net'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05

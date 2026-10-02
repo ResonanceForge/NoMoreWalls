@@ -1748,62 +1748,22 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 北京市+百度电信节点
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 澳大利亚+V2CROSS.COM
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  port: 4433
-  server: de1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 法国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M7fn-U9PikoH_WXu6HbDE5bi9ej5cFN8bgWy8qF14WU
-    short-id: '76f547961a8ca082'
-  server: 185.33.24.85
-  servername: a.wb.ru
-  tls: false
-  type: vless
-  uuid: 933eb45b-0e97-4ed1-bfb9-e34bd0b4342c
-- name: 台湾省彰化县+中华电信
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
   network: ws
-  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
   port: 443
-  server: zhilegelian1.bpca2026.top
-  sni: zhilegelian1.bpca2026.top
-  type: trojan
+  server: fbsv6.guardora.pro
+  servername: fbsv6.guardora.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   ws-opts:
     headers:
-      Host: zhilegelian1.bpca2026.top
-    path: '%2Fimages'
-- client-fingerprint: chrome
-  name: 巴西+V2CROSS.COM
-  network: tcp
-  port: 47000
-  reality-opts:
-    public-key: EJrtmRT2Acb9nNj8Yc-nfPxRprxkF52zpDcnmJ0qNS0
-    short-id: '96bb9775a5'
-  server: 179.198.49.84
-  servername: www.goo.gl
-  tls: false
-  type: vless
-  uuid: d9090ce9-388b-45b9-9e84-64eac5522b8a
-- name: 俄罗斯+V2CROSS.COM
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
-  sni: hy.quattro-tech.ru
-  tls: false
-  type: hysteria2
+      Host: fbsv6.guardora.pro
+    path: /ws
 - flow: ''
   name: 美国+加利福尼亚
   network: ws
@@ -1815,42 +1775,49 @@ proxies:
   ws-opts:
     headers:
       Host: platform108.halalkhor.info
-    path: '%2Fplatform108'
-- alpn:
-  - h2
-  name: 美国+CloudFlare节点
-  network: ws
-  password: 0y7hid61k3k2vuy1
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: true
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uwu.dianaw.cc.cd
-    path: '%2F%40BlueKnight_net--%40BlueKnight_net--%40BlueKnight_net'
-- name: 香港+V2CROSS.COM
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
+    path: /platform108
+- name: 美国+V2CROSS.COM
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.143
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- name: '美国+V2CROSS.COM #1'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.141
+  sni: hop-germany-september.dynuddns.com
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
+  name: 日本+V2CROSS.COM
   network: tcp
-  port: 7443
+  port: 443
   reality-opts:
-    public-key: 0BVxZKOt6wO0jIB1xRkAAtaFUkmyFAbVWfkkKSJBfEI
-    short-id: '570ffeb12f6e4635'
-  server: node.remnagecsp.ru
-  servername: node.remnagecsp.ru
+    public-key: sUDdxp5g9lRHlVEH6meJWXah84yhLDyVI7KuZhW-MTQ
+    short-id: 'b4e44a'
+  server: 103.245.229.32
+  servername: adminvps.ru
   tls: false
   type: vless
-  uuid: 81a227e3-cb97-40fe-b7b6-45a60ed065cf
+  uuid: 8bbe5178-a991-4a56-871c-553e2f8e9e70
+- name: '美国+V2CROSS.COM #2'
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  port: 50160
+  server: 152.69.231.175
+  sni: 152-69-231-175.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: '美国+V2CROSS.COM #3'
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: yg.mangshe.xyz
+  skip-cert-verify: true
+  sni: yg.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: 咕咕嘎嘎
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
@@ -1933,7 +1900,15 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: '@prrofile_purple | FaST 💚 #1'
+- name: 🌟75@oneclickvpnkeys
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 51285
+  server: 108.181.5.106
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 🇸🇬186009 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: 8A9905B7-801B-41AF-BFC9-2034212770F6
@@ -1941,13 +1916,6 @@ proxies:
   server: sg4.dexlos.com
   skip-cert-verify: false
   sni: sg4.dexlos.com
-  tls: false
-  type: hysteria2
-- name: 🇬🇧185812 | ⚡️Telegram = t.me/S...
-  password: 8b60d570-cbce-4791-b3e8-bcb80dd12ac0
-  port: 19443
-  server: uk-002.xiaoxiaobujidao.xyz
-  sni: uk-002.xiaoxiaobujidao.xyz
   tls: false
   type: hysteria2
 - name: Telegram 🆔@Cnetvpn 🇺🇲
