@@ -1493,104 +1493,70 @@ proxies:
 - name: 美国+CloudFlare节点
   network: ws
   port: 8880
-  server: 172.64.151.134
+  server: 172.66.158.115
   tls: false
   type: vless
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
+  uuid: aa7461af-3176-42a3-8974-59930189c521
   ws-opts:
     headers:
-      Host: super-feather-91c4.267.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+      Host: round-block-e864.326.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
 - name: '美国+CloudFlare节点 #1'
   network: ws
   port: 8880
-  server: 162.159.140.78
+  server: 172.66.170.53
   tls: false
   type: vless
-  uuid: 7111212b-6bc3-459a-85b4-3b13038a19f8
+  uuid: 6b6733fb-580b-411b-8bf8-51137c2aa037
   ws-opts:
     headers:
-      Host: shrill-fog-67af.235-e6a.workers.dev
+      Host: restless-sky-eb31.438-aa8.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+Merit网络公司
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: '!!str 21270a66'
+  server: tk1.high-speed-test-56424.me
+  servername: aws.amazon.com
+  tls: false
+  type: vless
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+- name: 美国+V2CROSS.COM
+  password: 06e88dd6-e264-4981-8c26-d7ab17348ab2
+  port: 443
+  server: 144.31.232.216
+  sni: fi01.clgate.network
+  tls: false
+  type: hysteria2
+- name: '美国+V2CROSS.COM #1'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.143
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
 - name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 8880
-  server: 104.26.13.40
-  tls: false
-  type: vless
-  uuid: 875d3876-ab9a-4dd6-8a8d-bf57f03403aa
-  ws-opts:
-    headers:
-      Host: square-sea-01d1.339-be3.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: cf9.466688.xyz
-  tls: false
-  type: vless
-  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
-  ws-opts:
-    headers:
-      Host: nameless-tree-08b8.352.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
   port: 443
-  server: 104.18.9.83
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '美国+CloudFlare节点 #5'
+  server: vl.cocopon.top
+  tls: true
+  type: vless
+  uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
+- name: '美国+CloudFlare节点 #3'
   network: ws
   port: 8880
   server: skk.moe
   tls: false
   type: vless
-  uuid: 0787cfdb-9930-4abb-8419-c1b96c3ef628
+  uuid: dc53f855-5025-45c8-9a85-981036839c5c
   ws-opts:
     headers:
-      Host: red-snowflake-c399.12-ee1.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  port: 8880
-  server: 104.17.144.29
-  tls: false
-  type: vless
-  uuid: 4ae1f5c4-6595-4a20-85c0-0deec1e6ecb9
-  ws-opts:
-    headers:
-      Host: misty-dew-009a.484.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 8080
-  server: 172.67.203.138
-  servername: 172.67.203.138
-  tls: false
-  type: vless
-  uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
-  ws-opts:
-    headers:
-      Host: server17.peekconfig1.workers.dev
-    path: '%2FeyJqdW5rIjoidzY2QTdySkdOeiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19%3Fed%3D2560'
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  port: 8880
-  server: 104.21.12.116
-  tls: false
-  type: vless
-  uuid: e1bd06de-a075-4ad5-b73f-b54587368cc7
-  ws-opts:
-    headers:
-      Host: morning-feather-dc98.136-25b.workers.dev
-    path: /pyip=proxyip.jp.cmliussss.net
+      Host: summer-breeze-0574.279.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
