@@ -1351,6 +1351,20 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- alpn:
+  - h2
+  name: 美国+CloudFlare节点
+  network: ws
+  password: 0y7hid61k3k2vuy1
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: true
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uwu.dianaw.cc.cd
+    path: '%2F%40BlueKnight_net--%40BlueKnight_net--%40BlueKnight_net'
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian

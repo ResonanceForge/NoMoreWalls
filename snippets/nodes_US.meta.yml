@@ -1490,73 +1490,32 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
+- flow: ''
+  name: 美国+加利福尼亚
   network: ws
-  port: 8880
-  server: 172.66.158.115
+  port: 80
+  server: platform108.golnamakcert.top
   tls: false
   type: vless
-  uuid: aa7461af-3176-42a3-8974-59930189c521
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   ws-opts:
     headers:
-      Host: round-block-e864.326.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '美国+CloudFlare节点 #1'
+      Host: platform108.halalkhor.info
+    path: '%2Fplatform108'
+- alpn:
+  - h2
+  name: 美国+CloudFlare节点
   network: ws
-  port: 8880
-  server: 172.66.170.53
-  tls: false
-  type: vless
-  uuid: 6b6733fb-580b-411b-8bf8-51137c2aa037
+  password: 0y7hid61k3k2vuy1
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: true
+  sni: uwu.dianaw.cc.cd
+  type: trojan
   ws-opts:
     headers:
-      Host: restless-sky-eb31.438-aa8.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+Merit网络公司
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: '!!str 21270a66'
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  tls: false
-  type: vless
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-- name: 美国+V2CROSS.COM
-  password: 06e88dd6-e264-4981-8c26-d7ab17348ab2
-  port: 443
-  server: 144.31.232.216
-  sni: fi01.clgate.network
-  tls: false
-  type: hysteria2
-- name: '美国+V2CROSS.COM #1'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.127.143
-  sni: hop-germany-september.dynuddns.com
-  tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: vl.cocopon.top
-  tls: true
-  type: vless
-  uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: skk.moe
-  tls: false
-  type: vless
-  uuid: dc53f855-5025-45c8-9a85-981036839c5c
-  ws-opts:
-    headers:
-      Host: summer-breeze-0574.279.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+      Host: uwu.dianaw.cc.cd
+    path: '%2F%40BlueKnight_net--%40BlueKnight_net--%40BlueKnight_net'
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
