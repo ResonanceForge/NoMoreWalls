@@ -1748,19 +1748,27 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 0BVxZKOt6wO0jIB1xRkAAtaFUkmyFAbVWfkkKSJBfEI
-    short-id: '570ffeb12f6e4635'
-  server: node.remnagecsp.ru
-  servername: node.remnagecsp.ru
+- name: 澳大利亚+V2CROSS.COM
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: de1.xiaoliyu.cyou
+  sni: de1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 北京市+百度电信节点
+  port: 52683
+  server: jp.sofast.live
   tls: false
   type: vless
-  uuid: 81a227e3-cb97-40fe-b7b6-45a60ed065cf
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: 澳大利亚+新南威尔士州悉尼Amazon数据中心
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-au-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-au-001.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: 罗马尼亚+V2CROSS.COM
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 18333
@@ -1769,64 +1777,17 @@ proxies:
   sni: us3.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 美国+加利福尼亚州洛杉矶Cloudflare+Warp节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.47.69.0
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
-- name: 🪙5@oneclickvpnkeys
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.127.146
-  skip-cert-verify: true
-  sni: hop-germany-september.dynuddns.com
-  tls: false
-  type: hysteria2
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 乌克兰+V2CROSS.COM
-  network: tcp
-  port: 443
+  name: 伊拉克+V2CROSS.COM
+  network: grpc
+  port: 705
   reality-opts:
-    public-key: 9rdvkUGJyNbRvsB0Pp06h1URq9AHDPRtH9-wmNB1-j4
-    short-id: 'e4aa362b5f9d07d7'
-  server: 185.147.26.210
-  servername: example.com
+    public-key: nn7zao7trQrkZv5IjiOPmeWPe-Qtj3tFi14Eon9RHC4
+  server: 91.108.249.201
+  servername: www.kayak.com
   tls: false
   type: vless
-  uuid: 1c5ed2e1-56da-41ab-9a78-159d9892ec17
-- name: 土耳其+V2CROSS.COM
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: rb.mangshe.xyz
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: 🪙75@oneclickvpnkeys
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: els.mangshe.xyz
-  skip-cert-verify: true
-  sni: els.mangshe.xyz
-  tls: false
-  type: hysteria2
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
 - name: 咕咕嘎嘎
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
@@ -1924,6 +1885,14 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
+- name: 🪙75@oneclickvpnkeys
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: els.mangshe.xyz
+  skip-cert-verify: true
+  sni: els.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -2001,6 +1970,14 @@ proxies:
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.127.144
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- name: 🪙5@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.146
   skip-cert-verify: true
   sni: hop-germany-september.dynuddns.com
   tls: false
