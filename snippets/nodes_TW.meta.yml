@@ -1,4 +1,16 @@
 proxies:
+- client-fingerprint: chrome
+  name: 台湾省彰化县+Google云计算数据中心
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
+    short-id: '!!str eb97ce837da2f6ad'
+  server: 35.185.179.62
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
 - name: 台湾|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
