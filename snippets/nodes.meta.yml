@@ -1748,168 +1748,84 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: 104.18.185.26
-  servername: autumn-base-0eb9.116-d25.workers.dev
-  tls: false
-  type: vless
-  uuid: 5659b42c-636f-4563-ac41-87d565d0dd1e
-  ws-opts:
-    headers:
-      Host: autumn-base-0eb9.116-d25.workers.dev
-    path: /pyip=ProxyIP.JP.autumniussss.net
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: 104.18.35.15
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: _acme-challenge.sb.cloudns.biz
-    path: '%2F'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8880
-  server: 104.26.13.40
-  servername: ancient-glade-34d6.6-07d.workers.dev
-  tls: false
-  type: vless
-  uuid: 16586b3b-9e26-4fe9-b137-389ea48f088c
-  ws-opts:
-    headers:
-      Host: ancient-glade-34d6.6-07d.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- name: 土耳其+V2CROSS.COM
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: rb.mangshe.xyz
+- name: 俄罗斯+V2CROSS.COM
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: hk2.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: hk2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: 172.64.151.134
+- name: 法国+ONLINE+S.A.S.数据中心
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: t.me
   tls: false
-  type: vless
-  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
-  ws-opts:
-    headers:
-      Host: young-wind-3c58.240-2ce.workers.dev
-    path: /
+  type: hysteria2
+- name: 罗马尼亚+V2CROSS.COM
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: us3.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us3.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 台湾省彰化县+Google云计算数据中心
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
-    short-id: 'eb97ce837da2f6ad'
-  server: 35.185.179.62
-  servername: www.cloudflare.com
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: 'ff776ff77be48b88'
+  server: 31.76.84.174
+  servername: yaruss.stopingiphatered.shop
   tls: false
   type: vless
-  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
-- name: 拉脱维亚+V2CROSS.COM
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: xby.mangshe.xyz
-  skip-cert-verify: true
-  sni: xby.mangshe.xyz
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 乌克兰+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9rdvkUGJyNbRvsB0Pp06h1URq9AHDPRtH9-wmNB1-j4
+    short-id: 'e4aa362b5f9d07d7'
+  server: 185.147.26.210
+  servername: example.com
   tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #4'
+  type: vless
+  uuid: 1c5ed2e1-56da-41ab-9a78-159d9892ec17
+- name: 美国+加利福尼亚
   network: ws
   port: 80
-  server: 104.18.109.147
+  server: platform117.golnamakcert.top
   tls: false
   type: vless
-  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   ws-opts:
     headers:
-      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-    path: /Telegram-XV2ry2?ed=2048
+      Host: platform117.halalkhor.info
+    path: /platform117
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 30007
+  name: 伊拉克+V2CROSS.COM
+  network: grpc
+  port: 705
   reality-opts:
-    public-key: UR-ELTbCCTAAvg_y8vIznWFkGkCKFFaEAVgTtPYNCCk
-    short-id: '54861d36'
-  server: files-d1c1.julsapart.com
-  servername: storage.yandexcloud.net
+    public-key: nn7zao7trQrkZv5IjiOPmeWPe-Qtj3tFi14Eon9RHC4
+  server: 91.108.249.201
+  servername: www.kayak.com
   tls: false
   type: vless
-  uuid: 5bba3558-ad1c-4d97-a360-7d993d503abd
-- name: 伊朗+V2CROSS.COM
-  network: ws
-  port: 1280
-  server: 77.42.28.120
-  tls: false
-  type: vless
-  uuid: c0e8fb58-a60f-4c15-9444-4e7c109797a8
-  ws-opts:
-    headers:
-      Host: is1-ssl.mzstatic.com
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+俄勒冈州波特兰Amazon数据中心
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: '21270a66'
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  tls: false
-  type: vless
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-- name: 巴西+圣保罗
-  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
-  port: 443
-  server: mix.pantera-radio.ru
-  skip-cert-verify: true
-  sni: mix.pantera-radio.ru
-  tls: false
-  type: hysteria2
-- name: 美国+V2CROSS.COM
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+- name: 🪙5@oneclickvpnkeys
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.127.146
+  skip-cert-verify: true
   sni: hop-germany-september.dynuddns.com
-  tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 8880
-  server: 172.66.170.53
-  tls: false
-  type: vless
-  uuid: e4927998-38dd-4bf4-a37d-4cc67a06ee2d
-  ws-opts:
-    headers:
-      Host: cold-shadow-66a0.278.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- name: 新加坡+甲骨文机房
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 巴西+V2CROSS.COM
-  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
-  port: 443
-  server: covers.pantera-radio.ru
-  skip-cert-verify: true
-  sni: covers.pantera-radio.ru
   tls: false
   type: hysteria2
 - name: 咕咕嘎嘎
@@ -1983,6 +1899,14 @@ proxies:
   sni: mhzedir.qzz.io
   tls: false
   type: hysteria2
+- name: 🪙31@oneclickvpnkeys
+  password: 3a92b39a-5f02-415e-a908-783ec320e83f
+  port: 8443
+  server: 153.76.190.41
+  skip-cert-verify: true
+  sni: speedtestmark.com
+  tls: false
+  type: hysteria2
 - name: '@Begoo_VPN ²⁹⁰'
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
@@ -2049,6 +1973,29 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
+  tls: false
+  type: hysteria2
+- name: 🪙14@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.141
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- name: 🪙8@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.143
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- name: 🪙6@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.144
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
   tls: false
   type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
@@ -2191,6 +2138,14 @@ proxies:
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 77.74.123.103
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: 🪙3@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.99
+  skip-cert-verify: true
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2

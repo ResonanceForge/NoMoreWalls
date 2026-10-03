@@ -1490,94 +1490,25 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: 104.18.185.26
-  servername: autumn-base-0eb9.116-d25.workers.dev
-  tls: false
-  type: vless
-  uuid: 5659b42c-636f-4563-ac41-87d565d0dd1e
-  ws-opts:
-    headers:
-      Host: autumn-base-0eb9.116-d25.workers.dev
-    path: /pyip=ProxyIP.JP.autumniussss.net
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: 104.18.35.15
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: _acme-challenge.sb.cloudns.biz
-    path: '%2F'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8880
-  server: 104.26.13.40
-  servername: ancient-glade-34d6.6-07d.workers.dev
-  tls: false
-  type: vless
-  uuid: 16586b3b-9e26-4fe9-b137-389ea48f088c
-  ws-opts:
-    headers:
-      Host: ancient-glade-34d6.6-07d.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: 172.64.151.134
-  tls: false
-  type: vless
-  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
-  ws-opts:
-    headers:
-      Host: young-wind-3c58.240-2ce.workers.dev
-    path: /
-- name: '美国+CloudFlare节点 #4'
+- name: 美国+加利福尼亚
   network: ws
   port: 80
-  server: 104.18.109.147
+  server: platform117.golnamakcert.top
   tls: false
   type: vless
-  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   ws-opts:
     headers:
-      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-    path: /Telegram-XV2ry2?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+俄勒冈州波特兰Amazon数据中心
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: '!!str 21270a66'
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  tls: false
-  type: vless
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-- name: 美国+V2CROSS.COM
+      Host: platform117.halalkhor.info
+    path: /platform117
+- name: 🪙5@oneclickvpnkeys
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.127.146
+  skip-cert-verify: true
   sni: hop-germany-september.dynuddns.com
   tls: false
   type: hysteria2
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 8880
-  server: 172.66.170.53
-  tls: false
-  type: vless
-  uuid: e4927998-38dd-4bf4-a37d-4cc67a06ee2d
-  ws-opts:
-    headers:
-      Host: cold-shadow-66a0.278.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
