@@ -1,23 +1,17 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
-  network: ws
+  network: tcp
   port: 443
-  server: 78.159.246.110
-  servername: fbsv6.guardora.pro
-  tls: true
-  type: vless
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-  ws-opts:
-    path: '%2Fws'
-- name: 🪙96@oneclickvpnkeys
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: ru1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ru1.xiaoliyu.cyou
+  reality-opts:
+    public-key: SxbaWzlvE_HQqqsA4PNX2PFcSYXTVE2nZlgLc7cPOgk
+    short-id: '!!str 8681edc9'
+  server: 188.225.25.142
+  servername: prime.betust.net
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
