@@ -1351,20 +1351,18 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
   network: ws
+  password: mitivpn
   port: 443
-  server: yg1.ygkkk.dpdns.org
-  servername: jmp1.907737.xyz
-  tls: true
-  type: vmess
-  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+  server: 167.82.76.7
+  sni: ssl.fastly.com
+  type: trojan
   ws-opts:
     headers:
-      Host: jmp1.907737.xyz
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -1411,3 +1409,17 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.95.209.183
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_7|2.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.84.97.225
+  type: ss
+  udp: true
