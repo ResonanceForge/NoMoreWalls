@@ -1490,20 +1490,63 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: 美国+Akamai科技公司CDN网络节点
+  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
+  port: 443
+  server: 84a3a2f6-tmm5c0-tvh2gy-1qzi1.sg7.hyhuawei.com
+  skip-cert-verify: true
+  sni: 84a3a2f6-tmm5c0-tvh2gy-1qzi1.sg7.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 美国+加利福尼亚州洛杉矶Sharktech数据中心
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  port: 443
+  server: ed4ccc41-tmm5c0-tpsg94-1jbj0.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: ed4ccc41-tmm5c0-tpsg94-1jbj0.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8880
+  server: 104.21.56.202
+  tls: false
+  type: vless
+  uuid: d6c595c9-bff4-4510-893a-dfa3c87fa0cd
+  ws-opts:
+    headers:
+      Host: lucky-cell-d20c.78-107.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: '美国+Akamai科技公司CDN网络节点 #1'
+  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 756c5a00-tmm5c0-tr9h64-1f1f1.sg7.hyhuawei.com
+  skip-cert-verify: true
+  sni: 756c5a00-tmm5c0-tr9h64-1f1f1.sg7.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '美国+加利福尼亚州洛杉矶Sharktech数据中心 #1'
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  port: 443
+  server: a436bbe7-tmm5c0-tug19l-1go3q.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: a436bbe7-tmm5c0-tug19l-1go3q.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '美国+Akamai科技公司CDN网络节点 #2'
+  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  port: 443
+  server: ca645aca-tmm5c0-tt2yf5-1j61y.sg7.hyhuawei.com
+  skip-cert-verify: true
+  sni: ca645aca-tmm5c0-tt2yf5-1j61y.sg7.hyhuawei.com
+  tls: false
+  type: hysteria2
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
-  tls: false
-  type: hysteria2
-- name: 🪙70@oneclickvpnkeys
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  port: 35013
-  server: 129.213.91.185
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - alterId: 0
