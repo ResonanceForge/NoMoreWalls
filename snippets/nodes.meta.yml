@@ -1748,24 +1748,36 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 167.82.76.7
-  sni: ssl.fastly.com
-  type: trojan
+- name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 8080
+  server: 91.107.151.122
+  tls: false
+  type: vless
+  uuid: 39098241-9c6e-4fe7-abbd-7f6f6ed4512c
   ws-opts:
     headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-- name: 香港+电讯盈科有限公司
-  password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+      Host: play.google.com
+    path: /
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 美国+Xerox
+  network: tcp
   port: 443
-  server: f60ef7cf-tmm5c0-trdynx-1rk9y.hk3.hyhuawei.com
+  reality-opts:
+    public-key: xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM
+    short-id: 'a7c31f92'
+  server: 13.143.166.25
+  servername: ivory875.filebeam.website
+  tls: false
+  type: vless
+  uuid: dcf8e133-09a2-4884-abf9-80356bb334ac
+- name: 美国+加利福尼亚州洛杉矶Sharktech数据中心
+  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  port: 443
+  server: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
   skip-cert-verify: true
-  sni: f60ef7cf-tmm5c0-trdynx-1rk9y.hk3.hyhuawei.com
+  sni: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 法国+ONLINE+S.A.S.数据中心
@@ -1775,39 +1787,28 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 美国+RF+Engineering
+- client-fingerprint: unsafe
+  name: 江苏省南京市+腾讯云
   network: ws
   port: 8443
-  server: 141.193.213.21
-  servername: u.srilankangrill.online
+  server: 129.211.188.184
+  servername: jp3.yohototo.top
   tls: true
   type: vless
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   ws-opts:
     headers:
-      Host: u.srilankangrill.online
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
+      Host: jp3.yohototo.top
+    path: '%2Ftyxyws'
+- flow: xtls-rprx-vision
+  name: 🇸🇬SG_2|1.3MB/s
   network: tcp
-  port: 11515
-  reality-opts:
-    public-key: A826RSu-yeVM_t6v7kwHKasHSdfI9KOzUw3WaIa9SWc
-    short-id: '65149fc5ba'
-  server: assets.halyvanedorogo.ru
-  servername: www.sony.com
-  tls: false
+  port: 33102
+  server: 27.44.143.169
+  servername: sgg.knhqf.com
+  tls: true
   type: vless
-  uuid: cb8fbad5-4f14-55bc-a24a-3510f47f4b1b
-- name: '美国+V2CROSS.COM #1'
-  password: cf83b611-6cba-4535-adcb-8da06c6a9146
-  port: 443
-  server: 144.31.212.253
-  sni: vps155-edge.kermemehori.ru
-  tls: false
-  type: hysteria2
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - name: 🇹🇼TW_1|1.5MB/s
   network: ws
   port: 443
@@ -1822,38 +1823,55 @@ proxies:
     headers:
       Host: argo6.5671234.xyz
     path: /e8e2cecb6188f7fb
-- name: '香港+电讯盈科有限公司 #1'
-  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+- client-fingerprint: chrome
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
   port: 443
-  server: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 英国+V2CROSS.COM
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.104
-  skip-cert-verify: true
-  sni: grape-test-italy.dynuddns.net
-  tls: false
-  type: hysteria2
-- name: '香港+电讯盈科有限公司 #2'
-  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  port: 443
-  server: 20247da3-tmm5c0-u1dz9j-12hj8.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 20247da3-tmm5c0-u1dz9j-12hj8.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
+  server: 78.159.246.110
+  servername: fbsv6.guardora.pro
+  tls: true
+  type: vless
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  ws-opts:
+    path: '%2Fws'
 - name: 澳大利亚+V2CROSS.COM
   password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
   port: 4433
   server: de1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- name: 香港+电讯盈科有限公司
+  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  port: 443
+  server: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '广东省东莞市+联通 #1'
+  port: 14343
+  server: 27.44.143.169
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
+    short-id: '494afdc75f8c2fa8'
+  server: 31.77.109.35
+  servername: d3-de1.cloud-cdn.xyz
+  tls: false
+  type: vless
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -2738,14 +2756,6 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|1.3MB/s
-  port: 33102
-  server: 27.44.143.169
-  servername: sgg.knhqf.com
-  tls: true
-  type: vless
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - cipher: aes-256-cfb
   name: 🇺🇸US_2|3.1MB/s

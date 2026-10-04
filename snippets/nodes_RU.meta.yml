@@ -1,4 +1,26 @@
 proxies:
+- name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 8080
+  server: 91.107.151.122
+  tls: false
+  type: vless
+  uuid: 39098241-9c6e-4fe7-abbd-7f6f6ed4512c
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- client-fingerprint: chrome
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 78.159.246.110
+  servername: fbsv6.guardora.pro
+  tls: true
+  type: vless
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  ws-opts:
+    path: '%2Fws'
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y

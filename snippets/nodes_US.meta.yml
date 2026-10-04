@@ -1490,36 +1490,25 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: mitivpn
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 美国+Xerox
+  network: tcp
   port: 443
-  server: 167.82.76.7
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-- client-fingerprint: chrome
-  name: 美国+RF+Engineering
-  network: ws
-  port: 8443
-  server: 141.193.213.21
-  servername: u.srilankangrill.online
-  tls: true
+  reality-opts:
+    public-key: xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM
+    short-id: '!!str a7c31f92'
+  server: 13.143.166.25
+  servername: ivory875.filebeam.website
+  tls: false
   type: vless
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-    path: /
-- name: '美国+V2CROSS.COM #1'
-  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  uuid: dcf8e133-09a2-4884-abf9-80356bb334ac
+- name: 美国+加利福尼亚州洛杉矶Sharktech数据中心
+  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
   port: 443
-  server: 144.31.212.253
-  sni: vps155-edge.kermemehori.ru
+  server: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 🇹🇼TW_1|1.5MB/s
