@@ -19,77 +19,68 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.0MB/s
-  network: ws
-  port: 443
-  server: 172.67.76.40
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
+- name: 🇩🇪187621 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 6ccfcef2e116b03ce9047333
+  password: migrated-d730e46f5c1b
+  port: 5443
+  server: fastly.vexogf.ir
+  skip-cert-verify: false
+  sni: tun-a-1.bexait.ir
+  tls: false
+  type: hysteria2
+- name: 🛠️15@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.104
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: 🛠️13@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.105
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- encryption: none
+  http-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -YpJ_Xav7sUkd77sEZjg58Pn6dnNpj5himuUS-OFDh4
-    short-id: '!!str fd44fcf1c3afa0af'
-  server: 2.27.211.129
-  servername: www.icloud.com
-  tls: true
+      Host:
+      - speedtest.net
+    path:
+    - /
+  name: 🇩🇪DE_1|2.9MB/s
+  network: http
+  port: '2052'
+  server: k4direct.lynch.ir
   type: vless
   udp: true
-  uuid: 0afdcc75-e449-418d-8eac-c5b657363443
-- client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.8MB/s
-  network: ws
-  port: '8443'
-  server: shop.neexbyte.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
-  ws-opts:
-    headers:
-      Host: shop.neexbyte.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /
+  uuid: d7e99010-e7c3-4978-9d30-2e63882dcfbe
   xudp: true
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🇩🇪DE_4|1.9MB/s
-  network: grpc
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: 443
-  server: 31.77.168.21
-  skip-cert-verify: true
-  sni: d3-de2.cloud-cdn.xyz
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_5|2.8MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
+- client-fingerprint: safari
   encryption: none
-  name: 🇩🇪DE_6|1.8MB/s
+  name: 🇩🇪DE_2|1.3MB/s
   network: xhttp
   port: '443'
-  server: 50.7.29.181
+  server: 31.56.189.89
+  servername: de3s.beautysalon1122.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 372c587c-ca5f-467e-aaf2-07e0fd0ab7bf
+  xhttp-opts:
+    host: de3s.beautysalon1122.online
+    mode: auto
+    path: /standart/
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_3|1.1MB/s
+  network: xhttp
+  port: '443'
+  server: 50.7.28.210
   servername: id-24f9d11d.ferrin.uk
   tls: true
   type: vless
@@ -99,4 +90,39 @@ proxies:
     host: de.vmagnum.win
     reuse-settings:
       max-connections: '1'
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_4|1.5MB/s
+  network: ws
+  port: '32989'
+  server: dl2.armanstore22.ir
+  servername: dl2.armanstore22.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63ad98c8-f8c2-d771-336d-12bc5906aee2
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|1.7MB/s
+  network: tcp
+  port: '4040'
+  reality-opts:
+    public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
+    short-id: '!!str 73693dea6faae051'
+  server: lv1d.lynch.ir
+  servername: www.actionvfx.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7e99010-e7c3-4978-9d30-2e63882dcfbe
   xudp: true
