@@ -1,12 +1,23 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  port: 443
-  server: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
+- flow: xtls-rprx-vision
+  name: HK - zhuhai.uk 04
+  network: tcp
+  port: 14343
+  server: 27.155.117.209
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK - zhuhai.uk 02
+  network: tcp
+  port: 14343
+  server: 36.248.14.90
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian

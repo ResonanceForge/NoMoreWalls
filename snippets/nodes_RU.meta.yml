@@ -9,18 +9,23 @@ proxies:
   ws-opts:
     headers:
       Host: play.google.com
-    path: /
-- client-fingerprint: chrome
+    path: '%2F'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: '俄罗斯+V2CROSS.COM #1'
   network: ws
   port: 443
-  server: 78.159.246.110
+  server: fbsv6.guardora.pro
   servername: fbsv6.guardora.pro
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   ws-opts:
-    path: '%2Fws'
+    headers:
+      Host: fbsv6.guardora.pro
+    path: /ws
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
