@@ -22,18 +22,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷KR_1|2.5MB/s
-  network: grpc
-  port: 10049
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_1|3.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  port: '50160'
+  server: 152-69-231-175.liao.kdns.fr
+  skip-cert-verify: false
+  sni: 152-69-231-175.liao.kdns.fr
+  type: hysteria2
+  up: ''

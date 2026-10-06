@@ -19,102 +19,123 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪187621 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 6ccfcef2e116b03ce9047333
-  password: migrated-d730e46f5c1b
-  port: 5443
-  server: fastly.vexogf.ir
-  skip-cert-verify: false
-  sni: tun-a-1.bexait.ir
-  tls: false
-  type: hysteria2
-- name: 🛠️15@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.104
-  skip-cert-verify: true
-  sni: grape-test-italy.dynuddns.net
-  tls: false
-  type: hysteria2
-- name: 🛠️13@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.105
-  sni: grape-test-italy.dynuddns.net
-  tls: false
-  type: hysteria2
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    path:
-    - /
-  name: 🇩🇪DE_1|2.9MB/s
-  network: http
-  port: '2052'
-  server: k4direct.lynch.ir
-  type: vless
-  udp: true
-  uuid: d7e99010-e7c3-4978-9d30-2e63882dcfbe
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  name: 🇩🇪DE_2|1.3MB/s
-  network: xhttp
-  port: '443'
-  server: 31.56.189.89
-  servername: de3s.beautysalon1122.online
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: 189.74.106.53
+  servername: api.setevoyprostor.cc
   tls: true
   type: vless
   udp: true
-  uuid: 372c587c-ca5f-467e-aaf2-07e0fd0ab7bf
-  xhttp-opts:
-    host: de3s.beautysalon1122.online
-    mode: auto
-    path: /standart/
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_3|1.1MB/s
-  network: xhttp
-  port: '443'
-  server: 50.7.28.210
-  servername: id-24f9d11d.ferrin.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
-  xhttp-opts:
-    host: de.vmagnum.win
-    reuse-settings:
-      max-connections: '1'
-  xudp: true
+  uuid: 684a58f3-e942-4486-a3a1-effd2f277b25
 - alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|1.5MB/s
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪DE_2|1.3MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- client-fingerprint: chrome
+  name: 🇩🇪DE_3|3.2MB/s
   network: ws
-  port: '32989'
-  server: dl2.armanstore22.ir
-  servername: dl2.armanstore22.ir
+  port: 443
+  server: 144.31.192.167
+  servername: s4ws.ragingbull.de5.net
   tls: true
   type: vless
   udp: true
-  uuid: 63ad98c8-f8c2-d771-336d-12bc5906aee2
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /?ed=2048
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|2.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: 189.74.106.116
+  servername: api.setevoyprostor.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 684a58f3-e942-4486-a3a1-effd2f277b25
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: RTG-xTU5UuKTRrkk8_COe04GiUWrqrSdt9mqSak_XEc
+    short-id: '!!str e696e744'
+  server: 2.27.35.55
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_5|1.7MB/s
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|2.8MB/s
   network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: '!!str 1c3e8241a8743df9'
+  server: 195.252.179.1
+  servername: diffoscope.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 596086c9-3167-0004-97a1-c04311039e06
+  xudp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: grpcbeast
+  name: 🇩🇪DE_7|2.3MB/s
+  network: grpc
+  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
+  port: 443
+  server: cz-musicc.moritech.net
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇩🇪DE_8|3.4MB/s
+  network: ws
+  port: 2083
+  server: 172.67.69.86
+  servername: helloapps.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: helloapps.cc.cd
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_9|4.1MB/s
+  network: raw
   port: '4040'
   reality-opts:
     public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
@@ -124,5 +145,47 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: d7e99010-e7c3-4978-9d30-2e63882dcfbe
+  uuid: 59ab9bbf-3f08-4992-bbf3-4faddceb8e49
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_10|1.2MB/s
+  network: xhttp
+  port: '11888'
+  reality-opts:
+    public-key: EIVAlBAmThw5_pZ4Vqim-jaNaSXYcL9x9WwAzj5yyDE
+    short-id: '!!str bd47be887ad09611'
+  server: tun5.radvin1.ir
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6acbfd38-2332-4ef5-a09b-fdd74508ef76
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_11|2.0MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str a8'
+  server: 189.74.106.85
+  servername: api.setevoyprostor.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 684a58f3-e942-4486-a3a1-effd2f277b25
+  xudp: true
+- name: 🇩🇪DE_12|4.1MB/s
+  password: ''
+  port: '443'
+  server: 159.69.94.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''

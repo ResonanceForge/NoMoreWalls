@@ -1,13 +1,17 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: HK - zhuhai.uk 04
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_2|1.2MB/s
   network: tcp
-  port: 14343
+  port: '14343'
   server: 27.155.117.209
   servername: thuk.huaweiyouxuan.com
   tls: true
   type: vless
+  udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: HK - zhuhai.uk 02
@@ -129,3 +133,27 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|1.5MB/s
+  port: 14343
+  server: 27.44.143.169
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_3|1008KB/s
+  network: tcp
+  port: '14343'
+  server: 14.17.78.144
+  servername: thuk.huaweiyouxuan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  xudp: true

@@ -15,7 +15,7 @@ proxies:
     headers:
       Host: germanytest.tulnaro.ir
     path: '%2F'
-- name: GB英国(mibei77.com 米贝节点分享)
+- name: 英国+V2CROSS.COM
   network: ws
   port: 8880
   server: 80.93.202.40
@@ -26,10 +26,32 @@ proxies:
     headers:
       Host: vms.lifetime02.workers.dev
     path: '%2F'
-- name: 🇬🇧GB_1|3.0MB/s
+- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  name: 🇬🇧GB_1|3.8MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: yg.mangshe.xyz
+  skip-cert-verify: true
+  sni: yg.mangshe.xyz
+  type: hysteria2
+- name: 🇬🇧GB_2|3.3MB/s
   password: None
   port: 443
   server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.9MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|2.6MB/s
+  password: None
+  port: 443
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
