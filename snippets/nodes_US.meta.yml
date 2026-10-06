@@ -262,35 +262,6 @@ proxies:
   type: vless
   uuid: 12f491be-2fd4-423f-856c-dda2195d718a
 - alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 167.82.76.27
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+加利福尼亚
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2tjr1gP8eecWi9xlKFB1SmPKOzRgDt40NBQcxhjaKCA
-    short-id: '!!str 270b5417f8ecb723'
-  server: 64.188.115.219
-  servername: www.swift.com
-  tls: false
-  type: vless
-  uuid: 1ef3cfdd-a0b7-4584-87b4-2b217d8a4581
-  ws-opts:
-    headers:
-      Host: /?Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-- alpn:
   - h2
   - http/1.1
   client-fingerprint: firefox
@@ -309,53 +280,38 @@ proxies:
     headers:
       Host: 8fad5a44s552.gogocs.xyz
     path: ''
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8080
-  server: 104.26.2.223
-  tls: false
-  type: vless
-  uuid: 9cc42ee7-1f5f-46f5-a8b0-2da76b6b6641
-  ws-opts:
-    headers:
-      Host: pe2ev-frosty-poetry-3d08.s67y4jl8.workers.dev
-    path: /
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 美国+Xerox
+  grpc-opts:
+    grpc-service-name: ''
+  name: '美国+纽约州纽约BuyVM #1'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: fQvafZ0GP7J-BM4z0Y3zcnu9iNTdbC-eto3XccpK_Ec
-    short-id: '!!str 1ca2119aa517c7'
-  server: 13.143.239.67
-  servername: eeconverter.teddylink.com
-  tls: false
-  type: vless
-  uuid: f622c73a-1532-4832-8e15-754191752209
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 8880
-  server: 172.66.132.196
-  tls: false
-  type: vless
-  uuid: f32b0ea8-5b9f-4ee2-b20c-0bdfd2057e1d
-  ws-opts:
-    headers:
-      Host: throbbing-shape-b190.478-57a.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 104.26.4.2
-  servername: ccc.010304.xyz
+  port: 57233
+  server: 198.98.48.110
+  servername: u695098u8fad5a44s552.gogocs.xyz
   tls: true
   type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
+      Host: 8fad5a44s552.gogocs.xyz
+    path: ''
+- client-fingerprint: unsafe
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.16.10.185
+  servername: v2ray.simspeedup.com
+  tls: true
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  ws-opts:
+    headers:
+      Host: v2ray.simspeedup.com
+    path: /ws
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -410,52 +366,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: '!!str 21270a66'
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  xudp: true
-- name: 🇺🇸US_2|2.8MB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|3.1MB/s
-  port: 8443
-  server: 45.150.164.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_4|3.2MB/s
-  network: none
-  port: 57933
-  server: 72.249.206.49
-  tls: false
-  type: vmess
-  uuid: c2f9731b-4978-4e22-9aab-fa699c4ae2ed
-- name: 🇺🇸US_5|1.9MB/s
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|1.7MB/s
+- name: 🇺🇸US_2|3.0MB/s
   password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
   port: '443'
   server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
@@ -464,30 +375,6 @@ proxies:
   tls: true
   type: http
   username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-- name: 🇺🇸US_7|1.0MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-- name: 🇺🇸US_8|3.6MB/s
-  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-  port: 443
-  server: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  sni: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-- name: 🇺🇸US_9|1.1MB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|3.0MB/s
-  port: 2020
-  server: 154.51.41.113
-  type: socks5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
