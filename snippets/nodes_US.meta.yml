@@ -261,57 +261,41 @@ proxies:
   tls: false
   type: vless
   uuid: 12f491be-2fd4-423f-856c-dda2195d718a
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+纽约州纽约BuyVM
+  name: 美国+肯特州立大学
   network: tcp
-  port: 57233
-  server: s554.csgfw.top
-  servername: u695098u8fad5a44s552.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 8fad5a44s552.gogocs.xyz
-    path: ''
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: '美国+纽约州纽约BuyVM #1'
-  network: tcp
-  port: 57233
-  server: 198.98.48.110
-  servername: u695098u8fad5a44s552.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 8fad5a44s552.gogocs.xyz
-    path: ''
-- client-fingerprint: unsafe
-  name: 美国+CloudFlare节点
-  network: ws
   port: 443
-  server: 104.16.10.185
-  servername: v2ray.simspeedup.com
-  tls: true
+  reality-opts:
+    public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
+    short-id: '!!str 29455a3a790acbd0'
+  server: 131.123.13.93
+  servername: 1mcfn.67resserv67.info
+  tls: false
   type: vless
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
   ws-opts:
     headers:
-      Host: v2ray.simspeedup.com
-    path: /ws
+      Host: /?
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 美国纽约州水牛城+ColoCrossing数据中心
+  network: tcp
+  port: 10829
+  server: 198.12.124.74
+  servername: u695098u5e20ed1cs709.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 5e20ed1cs709.gogocs.xyz
+    path: ''
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -366,15 +350,218 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_2|3.0MB/s
-  password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-  port: '443'
-  server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
+- name: 🇺🇸US_1|1.9MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
   skip-cert-verify: true
-  sni: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
+- name: 🇺🇸US_2|2.2MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+- client-fingerprint: chrome
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  name: 🇺🇸US_3|3.0MB/s
+  password: 776b4834-caaf-4006-ab21-409e958867af
+  port: 33091
+  server: 45.202.240.4
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- name: 🇺🇸US_4|1.8MB/s
+  password: None
+  port: 443
+  server: crosscards.site
+  skip-cert-verify: false
+  tls: true
+  type: http
+- name: 🇺🇸US_5|4.3MB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|3.1MB/s
+  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+  port: 443
+  server: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
+  sni: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+- name: 🇺🇸US_7|2.8MB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|2.8MB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|2.4MB/s
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|1.4MB/s
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_12|1.1MB/s
+  port: 12329
+  reality-opts:
+    public-key: dpG1tE9V93FM9IJeYC5-n_7RJxX7jOwrWLbQJgZpFFo
+    short-id: '!!str '
+  server: 38.150.33.232
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6faa980b-4a0f-4b4d-99f2-03b468da8541
+- name: 🇺🇸US_13|2.6MB/s
+  password: 'null'
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_14|3.9MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_15|3.7MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_16|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_22|2.4MB/s
+  password: None
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_18|2.7MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_19|2.7MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_20|3.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_21|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_23|2.7MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_24|3.9MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_25|3.3MB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_26|3.6MB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_27|1.3MB/s
+  port: 443
+  server: 64.98.50.100
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_28|2.3MB/s
+  password: None
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_29|4.1MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -531,13 +718,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0144
