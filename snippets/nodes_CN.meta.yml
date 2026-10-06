@@ -1,9 +1,21 @@
 proxies:
-- flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 广东省东莞市+联通
+  network: tcp
   port: 33102
   server: 27.44.143.169
   servername: sgg.knhqf.com
   tls: true
   type: vless
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 广东省东莞市+电信IDC机房
+  port: 14343
+  server: 14.17.78.146
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158

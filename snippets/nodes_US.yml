@@ -1,4 +1,17 @@
 proxies:
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 167.82.76.27
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -45,15 +58,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: '2'
+- alterId: 0
   cipher: auto
-  name: 🇺🇸US_1|3.4MB/s
-  network: tcp
-  port: '30829'
-  server: v29.hdacd.com
-  skip-cert-verify: false
+  name: 🇺🇸US_4|3.2MB/s
+  network: none
+  port: 57933
+  server: 72.249.206.49
   tls: false
   type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  uuid: c2f9731b-4978-4e22-9aab-fa699c4ae2ed
