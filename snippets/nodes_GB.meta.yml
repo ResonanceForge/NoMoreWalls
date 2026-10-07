@@ -26,26 +26,16 @@ proxies:
     headers:
       Host: vms.lifetime02.workers.dev
     path: '%2F'
-- name: 🇬🇧GB_1|3.0MB/s
+- name: 🇬🇧GB_1|1.3MB/s
   password: None
   port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.9MB/s
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.6MB/s
-  port: 9333
-  server: 176.58.117.154
-  type: http
-- name: 🇬🇧GB_4|1.9MB/s
-  port: 443
   server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|2.3MB/s
+  port: 443
+  server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
