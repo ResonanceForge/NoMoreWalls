@@ -89,16 +89,39 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+  port: 443
+  server: 188.114.97.3
+  skip-cert-verify: false
+  sni: mfyousheng.nl.eu.org
+  type: trojan
+  ws-opts:
+    path: /tjwsLhx0SFASG4l9FERJ1g
 - alpn:
   - h2
   - http/1.1
-  name: 德国+V2CROSS.COM
+  name: '德国+V2CROSS.COM #1'
   network: tcp
   password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
   port: 443
   server: de.zhabulik.ru
   sni: de.zhabulik.ru
   type: trojan
+- name: 俄罗斯+V2CROSS.COM
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
+  port: 443
+  server: 46.8.100.93
+  skip-cert-verify: true
+  sni: nl.zhabulik.ru
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 美国+惠普HP
+  password: 4c8fced0-8987-4504-b8cf-15aca9cbb82e
+  port: 35601
+  server: gw.lydwan.com
+  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -384,3 +407,35 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|3.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.177.230.112
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_3|5.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.196.88.40
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_4|3.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.221.120.243
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_5|2.5MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true

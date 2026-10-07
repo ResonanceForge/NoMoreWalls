@@ -2,7 +2,26 @@ proxies:
 - alpn:
   - h2
   - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
   name: 德国+V2CROSS.COM
+  network: tcp
+  port: 443
+  server: s249.freessr.bid
+  servername: u695098u47d2e9bes71.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 47d2e9bes71.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  name: '德国+V2CROSS.COM #1'
   network: tcp
   password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
   port: 443
@@ -37,43 +56,61 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1.1MB/s
-  network: ws
-  port: 2052
-  server: 172.64.229.129
-  tls: false
-  type: vless
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|3.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.177.230.112
+  type: ss
   udp: true
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-  ws-opts:
-    headers:
-      Host: eu02.123450908.xyz
-    path: /rain1226
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Obr5RkpXcciyoYhSOWoBu-rPy23XTh96VbZGM95Lpic
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.7MB/s
-  network: tcp
-  port: 59719
-  reality-opts:
-    public-key: cWI4RpOZJqkX1HE9pQIZQ8eNeLWGX8UEzECyRehQnlQ
-    short-id: '!!str 6e6f9fa5decc02'
-  server: 189.24.108.152
-  servername: www.sony.lu
+- name: 🇩🇪DE_2|1.6MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_3|5.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.196.88.40
+  type: ss
   udp: true
-  uuid: cd55b3ae-6833-4eff-be18-55bd92164071
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|1.1MB/s
-  network: tcp
-  port: '443'
-  server: 31.131.251.17
-  servername: quatro.lmstream.org
+- name: 🇩🇪DE_4|2.9MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 9ea8b000-58ce-0050-b108-989dd4f248f1
-  xudp: true
+  type: http
+- name: 🇩🇪DE_5|2.5MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|2.9MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.6MB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.1MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_9|2.6MB/s
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http

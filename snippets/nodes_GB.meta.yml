@@ -30,28 +30,38 @@ proxies:
   flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 2063
   reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: '!!str 494afdc75f8c2fa8'
-  server: 31.77.109.35
-  servername: d3-de1.cloud-cdn.xyz
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: 2.26.231.218
+  servername: rusbid.de
   tls: false
   type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|1.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI
-    short-id: '!!str ee169e93d3c277a1'
-  server: 193.202.113.5
-  servername: edge-uk2.mystatic-cdn.ru
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+- name: 🇬🇧GB_1|2.6MB/s
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 6f756511-7fc3-41ba-874b-8cdc8e1b225f
-  xudp: true
+  type: http
+- name: 🇬🇧GB_2|1.8MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|2.4MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- name: 🇬🇧GB_4|2.3MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
