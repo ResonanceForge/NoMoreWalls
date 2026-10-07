@@ -1,7 +1,7 @@
 proxies:
-- client-fingerprint: safari
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: EE - zhuhai.uk
+  name: 美国+普渡大学中北部分校
   network: tcp
   port: 443
   reality-opts:
@@ -12,3 +12,6 @@ proxies:
   tls: false
   type: vless
   uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  ws-opts:
+    headers:
+      Host: /?telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI

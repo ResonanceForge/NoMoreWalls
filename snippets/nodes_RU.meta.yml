@@ -1,49 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 8448
-  reality-opts:
-    public-key: jOBo4R259-p0H2EcHMPO_R1uPZ8hyM_Yj1K5Nejch2U
-    short-id: '!!str d681ac08'
-  server: 217.19.122.214
-  servername: cdp.x5.ru
-  tls: false
-  type: vless
-  uuid: a2bbb4ba-6d21-4ae0-9682-dacfbea98ae9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: uC4W93YTVI5kbpN5ih2WZfQjikpNBn61-AhljO8ExFg
-    short-id: '!!str fa764ccf'
-  server: 193.233.232.96
-  servername: addons.mozilla.org
-  tls: false
-  type: vless
-  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: '俄罗斯+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  server: s299.kukuss.top
-  servername: u695098u54d73951s298.kukuss.top
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 54d73951s298.kukuss.top
-    path: ''
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -54,10 +9,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|1.8MB/s
-  password: BugFreeNet_BugFreeShell
-  port: '1081'
-  server: 188.127.251.1
-  skip-cert-verify: true
-  type: socks5
-  username: BugFreeNet_BugFreeShell

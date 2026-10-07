@@ -26,16 +26,32 @@ proxies:
     headers:
       Host: vms.lifetime02.workers.dev
     path: '%2F'
-- name: 🇬🇧GB_1|1.3MB/s
-  password: None
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
   port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
+  reality-opts:
+    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
+    short-id: '!!str 494afdc75f8c2fa8'
+  server: 31.77.109.35
+  servername: d3-de1.cloud-cdn.xyz
+  tls: false
+  type: vless
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI
+    short-id: '!!str ee169e93d3c277a1'
+  server: 193.202.113.5
+  servername: edge-uk2.mystatic-cdn.ru
   tls: true
-  type: http
-- name: 🇬🇧GB_2|2.3MB/s
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 6f756511-7fc3-41ba-874b-8cdc8e1b225f
+  xudp: true

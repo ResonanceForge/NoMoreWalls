@@ -1,4 +1,14 @@
 proxies:
+- alpn:
+  - h2
+  - http/1.1
+  name: 德国+V2CROSS.COM
+  network: tcp
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
+  port: 443
+  server: de.zhabulik.ru
+  sni: de.zhabulik.ru
+  type: trojan
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -7,14 +17,6 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 🐞96@oneclickvpnkeys
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  port: 4433
-  server: de1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
@@ -27,103 +29,51 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: 🇩🇪DE_1|2.5MB/s
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.126.37
+- name: 😊14@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
   skip-cert-verify: true
-  sni: hop-germany-september.dynuddns.com
+  sni: germany3.h2corp.local
+  tls: false
   type: hysteria2
-- encryption: mlkem768x25519plus.native.0rtt.bq1M9Mo7StSetydCuYnVBzGMeKNBRamRZfzcZEiulEY
-  http-opts:
-    headers:
-      Host:
-      - testspeed-foreign.tci.ir
-    path:
-    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
-  name: 🇩🇪DE_2|3.2MB/s
-  network: http
-  port: '7070'
-  server: 91.107.240.245
-  type: vless
-  udp: true
-  uuid: 9804f109-f750-4dec-9c3a-091982320501
-  xudp: true
-- name: 🇩🇪DE_3|3.5MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.3MB/s
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: '!!str 4be4110078ebed4a'
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- client-fingerprint: chrome
-  name: 🇩🇪DE_5|2.4MB/s
+- name: 🇩🇪DE_1|1.1MB/s
   network: ws
-  port: 2083
-  server: 172.67.69.86
-  servername: helloapps.cc.cd
-  skip-cert-verify: true
-  tls: true
+  port: 2052
+  server: 172.64.229.129
+  tls: false
   type: vless
   udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
   ws-opts:
     headers:
-      Host: helloapps.cc.cd
-    path: /
-- name: 🇩🇪DE_6|1.9MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
+      Host: eu02.123450908.xyz
+    path: /rain1226
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.Obr5RkpXcciyoYhSOWoBu-rPy23XTh96VbZGM95Lpic
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|3.7MB/s
+  network: tcp
+  port: 59719
+  reality-opts:
+    public-key: cWI4RpOZJqkX1HE9pQIZQ8eNeLWGX8UEzECyRehQnlQ
+    short-id: '!!str 6e6f9fa5decc02'
+  server: 189.24.108.152
+  servername: www.sony.lu
   tls: true
-  type: http
-- name: 🇩🇪DE_7|3.4MB/s
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|2.7MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_9|3.0MB/s
-  port: 443
-  server: 159.69.94.125
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: cd55b3ae-6833-4eff-be18-55bd92164071
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_10|3.3MB/s
+  name: 🇩🇪DE_3|1.1MB/s
   network: tcp
   port: '443'
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: '!!str a8'
-  server: 189.74.106.86
-  servername: api.setevoyprostor.cc
+  server: 31.131.251.17
+  servername: quatro.lmstream.org
   tls: true
   type: vless
   udp: true
-  uuid: b0eed7cb-72e2-4bf5-8668-b803deb5dd47
+  uuid: 9ea8b000-58ce-0050-b108-989dd4f248f1
   xudp: true
