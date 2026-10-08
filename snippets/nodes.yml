@@ -89,24 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: 乌克兰+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 2053
-  server: 91.245.225.79
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -392,14 +374,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_1|2.1MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: feb7fa9:154948
-    mode: tls
-  port: 2377
-  server: 88.210.36.107
-  type: ss
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|2.7MB/s
+  network: ws
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: '443'
+  server: jp3.998998.best
+  skip-cert-verify: false
+  sni: nat11.outsidemyheart.space
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /w4e5yh0p945y3?ed=2560

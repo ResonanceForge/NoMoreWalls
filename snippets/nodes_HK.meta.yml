@@ -129,9 +129,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|1.2MB/s
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1003
-  server: o6uhrzkj.zf-mix.9999231.xyz
-  sni: hkfash.9999231.xyz
-  type: anytls
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|1.9MB/s
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: '!!str 6c6c7c97'
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4

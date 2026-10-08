@@ -261,74 +261,38 @@ proxies:
   tls: false
   type: vless
   uuid: 12f491be-2fd4-423f-856c-dda2195d718a
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: 104.21.55.229
-  tls: false
-  type: vless
-  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
-  ws-opts:
-    headers:
-      Host: tiny-lake-bbf1.369-766.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: nuclear.us.kg
-  servername: nuclear.us.kg
-  tls: true
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  ws-opts:
-    headers:
-      Host: nuclear.us.kg
-    path: /free/1.226.227.169:50001
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 美国+FDC芝加哥机房
+  name: 北美地区+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: 8ENbaQRCWZk-wewSrdHq1_rVjJY4CrxqXUo_5vZNdi4
-    short-id: '!!str b2b44805'
-  server: 50.7.210.69
-  servername: xn--80ahcoj6a9b5d.xn----9sbekcigdcaa6cd7cafr7e.xn--p1ai
+    public-key: cYmfBXsDs1sqQ2ZBW3xsFroB7JHV_ufFT5m7ab7STnU
+    short-id: '!!str 9ab513f082d4c6e1'
+  server: 23.134.76.212
+  servername: us.dark-bit.cc
   tls: false
   type: vless
-  uuid: d2519b5e-495e-462e-9703-bbf68011d2f3
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: 104.17.21.137
-  tls: false
+  uuid: 3cd1770d-f285-4cf4-8979-e9dd8f4be36a
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 美国+纽约州纽约BuyVM
+  network: tcp
+  port: 57233
+  server: s553.sspcccdn.xyz
+  servername: u695098u8fad5a44s552.gogocs.xyz
+  tls: true
   type: vless
-  uuid: 3a38b35b-7b31-452c-954f-99c2f45dda19
-  ws-opts:
-    headers:
-      Host: sweet-truth-0f0c.71-fca.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 2052
-  server: 172.67.134.7
-  tls: false
-  type: vless
-  uuid: f1e5d738-2e83-4e2f-b6d6-a9013b3e7e48
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: a6o58qfpwvgrwmz0crtha0r24uyiu2l.x7-f5jb95s0ocjt-0.workers.dev
-    path: /vl/u3oMYZoYUAozPFEA8UhR?ed=2560
+      Host: 8fad5a44s552.gogocs.xyz
+    path: ''
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -383,39 +347,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_1|2.1MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: feb7fa9:154948
-    mode: tls
-  port: 2377
-  server: 88.210.36.107
-  type: ss
-  udp: true
-- name: 🇺🇸US_2|1.9MB/s
-  port: 443
-  server: 12.202.180.118
+- name: 🇺🇸US_1|1.8MB/s
+  port: 8443
+  server: 45.145.73.240
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_3|1.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-    short-id: '!!str '
-  server: 193.239.179.15
-  servername: worldoftanks.asia
+- name: 🇺🇸US_2|1.1MB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 1d38d2b2-342f-4a01-93df-f24fb0277c70
-  xudp: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
