@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 日本+东京Amazon数据中心
+  password: 4c8fced0-8987-4504-b8cf-15aca9cbb82e
+  port: 35601
+  server: gw.lydwan.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇯🇵 日本|@ripaojiedian

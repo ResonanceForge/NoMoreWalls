@@ -89,35 +89,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 巴西圣保罗+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
-  password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+  password: humanity
   port: 443
-  server: 188.114.97.3
-  skip-cert-verify: false
-  sni: mfyousheng.nl.eu.org
+  server: 104.27.21.22
+  sni: www.volumeroot.com
   type: trojan
   ws-opts:
-    path: /tjwsLhx0SFASG4l9FERJ1g
-- alpn:
-  - h2
-  - http/1.1
-  name: '德国+V2CROSS.COM #1'
-  network: tcp
-  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
-  port: 443
-  server: de.zhabulik.ru
-  sni: de.zhabulik.ru
-  type: trojan
-- name: 俄罗斯+V2CROSS.COM
-  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
-  port: 443
-  server: 46.8.100.93
-  skip-cert-verify: true
-  sni: nl.zhabulik.ru
-  type: trojan
+    path: '%2Fassignment'
 - cipher: chacha20-ietf-poly1305
-  name: 美国+惠普HP
+  name: 日本+东京Amazon数据中心
   password: 4c8fced0-8987-4504-b8cf-15aca9cbb82e
   port: 35601
   server: gw.lydwan.com
@@ -407,29 +391,26 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.177.230.112
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_1|3.4MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_3|5.3MB/s
+  name: 🇺🇸US_2|3.3MB/s
   password: amazonskr05
-  port: 443
-  server: 18.196.88.40
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_4|3.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.221.120.243
+  port: '443'
+  server: 107.21.80.138
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_5|2.5MB/s
+  name: 🇺🇸US_3|3.2MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -437,5 +418,20 @@ proxies:
     mode: tls
   port: 2377
   server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_3|4.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.36.178.160
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_5|2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 98.91.210.43
   type: ss
   udp: true
