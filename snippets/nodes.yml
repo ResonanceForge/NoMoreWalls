@@ -89,23 +89,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.27.21.22
-  sni: www.volumeroot.com
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 乌克兰+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 2053
+  server: 91.245.225.79
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- cipher: chacha20-ietf-poly1305
-  name: 日本+东京Amazon数据中心
-  password: 4c8fced0-8987-4504-b8cf-15aca9cbb82e
-  port: 35601
-  server: gw.lydwan.com
-  type: ss
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -392,46 +393,13 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_1|3.4MB/s
+  name: 🇺🇸US_1|2.1MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    host: feb7fa9:154948
     mode: tls
   port: 2377
-  server: 134.195.101.119
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|3.3MB/s
-  password: amazonskr05
-  port: '443'
-  server: 107.21.80.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_3|3.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_3|4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.36.178.160
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_5|2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 98.91.210.43
+  server: 88.210.36.107
   type: ss
   udp: true

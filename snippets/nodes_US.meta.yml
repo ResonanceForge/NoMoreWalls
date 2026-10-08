@@ -261,36 +261,74 @@ proxies:
   tls: false
   type: vless
   uuid: 12f491be-2fd4-423f-856c-dda2195d718a
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+纽约州纽约BuyVM
-  network: tcp
-  port: 57233
-  server: 198.98.48.110
-  servername: u695098u8fad5a44s552.gogocs.xyz
-  tls: true
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8880
+  server: 104.21.55.229
+  tls: false
   type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
   ws-opts:
     headers:
-      Host: 8fad5a44s552.gogocs.xyz
-    path: ''
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
+      Host: tiny-lake-bbf1.369-766.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: nuclear.us.kg
+  servername: nuclear.us.kg
+  tls: true
+  type: vless
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  ws-opts:
+    headers:
+      Host: nuclear.us.kg
+    path: /free/1.226.227.169:50001
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+FDC芝加哥机房
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8ENbaQRCWZk-wewSrdHq1_rVjJY4CrxqXUo_5vZNdi4
+    short-id: '!!str b2b44805'
+  server: 50.7.210.69
+  servername: xn--80ahcoj6a9b5d.xn----9sbekcigdcaa6cd7cafr7e.xn--p1ai
+  tls: false
+  type: vless
+  uuid: d2519b5e-495e-462e-9703-bbf68011d2f3
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.27.21.22
-  sni: www.volumeroot.com
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    path: /assignment
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: 104.17.21.137
+  tls: false
+  type: vless
+  uuid: 3a38b35b-7b31-452c-954f-99c2f45dda19
+  ws-opts:
+    headers:
+      Host: sweet-truth-0f0c.71-fca.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 2052
+  server: 172.67.134.7
+  tls: false
+  type: vless
+  uuid: f1e5d738-2e83-4e2f-b6d6-a9013b3e7e48
+  ws-opts:
+    headers:
+      Host: a6o58qfpwvgrwmz0crtha0r24uyiu2l.x7-f5jb95s0ocjt-0.workers.dev
+    path: /vl/u3oMYZoYUAozPFEA8UhR?ed=2560
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -346,176 +384,38 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_1|3.4MB/s
+  name: 🇺🇸US_1|2.1MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    host: feb7fa9:154948
     mode: tls
   port: 2377
-  server: 134.195.101.119
+  server: 88.210.36.107
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|3.3MB/s
-  password: amazonskr05
-  port: '443'
-  server: 107.21.80.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_3|3.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- name: 🇺🇸US_4|3.2MB/s
+- name: 🇺🇸US_2|1.9MB/s
   port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: aes-256-cfb
-  name: 🇺🇸US_5|2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 98.91.210.43
-  type: ss
-  udp: true
-- name: 🇺🇸US_6|3.3MB/s
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-- name: 🇺🇸US_7|3.3MB/s|K001-260618
-  password: ''
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: true
-  sni: berniesbodybla.fun
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_8|4.1MB/s
-  password: None
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_9|2.8MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_10|2.8MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_11|1.3MB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|3.7MB/s
-  port: 443
-  server: 44.239.226.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|1.6MB/s
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|1.5MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|1.3MB/s
-  password: None
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_16|1.3MB/s
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|3.3MB/s
-  port: 443
-  server: 44.198.49.169
+  server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_18|2.2MB/s
-  network: ws
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_3|1.2MB/s
+  network: tcp
   port: '443'
-  server: 217.60.6.103
-  servername: x.m-90.xyz
+  reality-opts:
+    public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+    short-id: '!!str '
+  server: 193.239.179.15
+  servername: worldoftanks.asia
   tls: true
   type: vless
   udp: true
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  ws-opts:
-    headers:
-      Host: x.m-90.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: t.me/TEAMNETGRATISCOL
+  uuid: 1d38d2b2-342f-4a01-93df-f24fb0277c70
   xudp: true
-- name: 🇺🇸US_19|2.0MB/s
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  port: '443'
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-- name: 🇺🇸US_20|2.6MB/s
-  password: None
-  port: '443'
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_21|1.8MB/s
-  password: None
-  port: '9002'
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
