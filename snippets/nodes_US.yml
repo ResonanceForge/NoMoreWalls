@@ -1,15 +1,13 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
-  password: humanity
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   port: 443
-  server: 104.27.21.22
-  sni: www.volumeroot.com
+  server: 104.21.70.21
+  sni: id1.nathaya.web.id
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    path: /trojan
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian

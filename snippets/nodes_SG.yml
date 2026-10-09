@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡+Amazon数据中心
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 13.212.141.33
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡|@ripaojiedian
