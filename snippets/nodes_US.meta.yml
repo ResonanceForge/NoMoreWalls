@@ -66,9 +66,9 @@ proxies:
     headers:
       Host: icy-wildflower-2590.lihuifeng595.workers.dev
     path: '%2F%3Fed%3D2048'
-- client-fingerprint: randomized
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '美国(yudou99.com 玉豆分享) #7'
+  name: 英国+桑德兰大学
   network: tcp
   port: 443
   reality-opts:
@@ -87,7 +87,9 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'US美国(mibei77.com 米贝节点分享) #6'
+  grpc-opts:
+    grpc-service-name: ''
+  name: 美国+加利福尼亚州洛杉矶
   network: tcp
   port: 10829
   server: 185.106.96.231
@@ -98,6 +100,7 @@ proxies:
   ws-opts:
     headers:
       Host: 99a93686s848.gogocs.xyz
+    path: ''
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: astracat
@@ -279,7 +282,7 @@ proxies:
     path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 英国+桑德兰大学
+  name: '美国(yudou99.com 玉豆分享) #25'
   network: tcp
   port: 443
   reality-opts:
@@ -294,29 +297,32 @@ proxies:
     headers:
       Host: addons.mozilla.org
     path: '%2F'
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+加利福尼亚州洛杉矶
-  network: tcp
-  port: 10829
-  server: s849.kukuss.top
-  servername: u695098u99a93686s848.gogocs.xyz
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 2083
+  server: cdn.sfacg.uk
+  servername: ''
   tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: 99a93686s848.gogocs.xyz
-    path: ''
+      Host: or3.sfacg.uk
+    path: /or3
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: ccc.010304.xyz
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
 - alpn:
   - h3
   - h2
-  name: 美国+CloudFlare节点
+  client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
   server: 162.159.135.234
@@ -327,47 +333,19 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+纽约州纽约BuyVM
-  network: tcp
-  port: 57233
-  server: s554.csgfw.top
-  servername: u695098u8fad5a44s552.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: 443
+  server: us3-2.998998.best
+  skip-cert-verify: true
+  sni: nat3.xxai.dpdns.org
+  type: trojan
   ws-opts:
     headers:
-      Host: 8fad5a44s552.gogocs.xyz
-    path: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+纽约州纽约BuyVM #1'
-  network: tcp
-  port: 57233
-  server: 198.98.48.110
-  servername: u695098u8fad5a44s552.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  tls: true
-  type: vless
-  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
-  ws-opts:
-    path: '%2Fws%2F0b3c3f4f-843a-5b0a-98fe-132c88fbefc0'
+      Host: nat3.xxai.dpdns.org
+    path: '%2Fanyway'
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -422,25 +400,147 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.3MB/s
+- name: 🇺🇸US_1|2.2MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
+- name: 🇺🇸US_8|2.5MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sni: 138.199.35.219
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_3|1.5MB/s
   port: 443
-  server: 167.88.60.242
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|1.9MB/s
+- name: 🇺🇸US_4|4.1MB/s
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|3.0MB/s
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_6|1.6MB/s
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_25|2.3MB/s
+  password: None
+  port: '9002'
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_9|2.8MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sni: 138.199.35.198
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_10|3.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_11|2.9MB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|1.2MB/s
+  port: 8443
+  server: 44.229.69.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|3.8MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_14|1.2MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_15|3.6MB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_16|4.5MB/s
+  port: 443
+  server: 44.239.226.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|1.2MB/s
   port: 9443
   server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|1.0MB/s
+- name: 🇺🇸US_18|3.5MB/s
+  password: None
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_19|1.0MB/s
   port: 443
   server: 45.63.38.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|1.7MB/s
+- name: 🇺🇸US_20|1.0MB/s|K001-260618
+  password: ''
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇺🇸US_21|2.1MB/s
   password: None
   port: 443
   server: 149.88.21.129
@@ -448,18 +548,26 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_5|1.1MB/s
+- name: 🇺🇸US_22|2.7MB/s
   port: 443
   server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_6|1.3MB/s
-  port: 443
-  server: 68.235.56.51
+- name: 🇺🇸US_23|1.4MB/s
+  port: 8090
+  server: 184.188.139.2
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_24|3.4MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
