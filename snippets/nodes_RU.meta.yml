@@ -13,42 +13,20 @@ proxies:
   tls: false
   type: vless
   uuid: 2b781b4a-5942-48e0-a7f3-5a07b7b488c1
-- client-fingerprint: safari
-  encryption: none
+- client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: astracat
-  name: 🇷🇺RU_2|1.2MB/s
+  name: 'RU俄罗斯(mibei77.com 米贝节点分享) #1'
   network: grpc
-  port: '2088'
+  port: 2088
   reality-opts:
     public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
     short-id: '!!str b1ad165f903c62fe'
   server: 31.59.210.26
   servername: www.yandex.ru
-  tls: true
+  tls: false
   type: vless
-  udp: true
   uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  server: 212.192.15.191
-  servername: u695098u54d73951s298.kukuss.top
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 54d73951s298.kukuss.top
-    path: ''
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -59,9 +37,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|1.0MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
