@@ -89,6 +89,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.27.21.22
+  sni: www.volumeroot.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -374,18 +385,50 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|4.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.196.88.40
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_2|2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.79.59.187
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_2|2.7MB/s
-  network: ws
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  name: 🇩🇪DE_13|1.1MB/s
+  network: tcp
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
   port: '443'
-  server: jp3.998998.best
+  server: ger2.fytpn.com
   skip-cert-verify: false
-  sni: nat11.outsidemyheart.space
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /w4e5yh0p945y3?ed=2560
+- client-fingerprint: chrome
+  name: 🇫🇮FI_1|2.3MB/s
+  network: tcp
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
+  port: '2097'
+  server: ger6.fytpn.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  name: 🇱🇻LV_3|3.0MB/s
+  network: tcp
+  port: '2083'
+  server: 188.130.154.174
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 74c17cae-bf8b-4cda-8cdd-cf7983bf0a49
+  xudp: true
