@@ -27,35 +27,6 @@ proxies:
   tls: false
   type: vless
   uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- name: ✈️39@oneclickvpnkeys
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: 94.198.54.132
-  skip-cert-verify: true
-  sni: msk.frkn.org
-  tls: false
-  type: hysteria2
-- name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 59791
-  server: 91.107.162.52
-  tls: false
-  type: vless
-  uuid: 6562121a-fa15-448d-a880-b127a1095875
-  ws-opts:
-    headers:
-      Host: divar.io
-    path: '%2F'
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -66,15 +37,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|1.8MB/s
-  obfs: ''
-  obfs-password: ''
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: '443'
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
-  type: hysteria2
-  up: ''
