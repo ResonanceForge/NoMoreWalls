@@ -27,6 +27,17 @@ proxies:
   tls: false
   type: vless
   uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+- name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 35696
+  server: 91.107.249.108
+  tls: false
+  type: vless
+  uuid: 89238afb-0166-4ff0-85de-f7bec650a818
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: '%2F'
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y

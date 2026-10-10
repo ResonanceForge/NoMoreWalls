@@ -252,7 +252,7 @@ proxies:
   - h3
   - h2
   client-fingerprint: chrome
-  name: '美国(yudou99.com 玉豆分享) #12'
+  name: '美国+CloudFlare节点 #2'
   network: ws
   port: 443
   server: 162.159.135.234
@@ -277,9 +277,9 @@ proxies:
     headers:
       Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
     path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
-- client-fingerprint: chrome
+- client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 英国+桑德兰大学
+  name: '美国(yudou99.com 玉豆分享) #25'
   network: tcp
   port: 443
   reality-opts:
@@ -294,75 +294,52 @@ proxies:
     headers:
       Host: addons.mozilla.org
     path: '%2F'
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
+  password: humanity
   port: 443
-  server: 172.64.156.111
-  servername: cf.zhahui.de5.net
-  tls: true
-  type: vless
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+  server: 104.18.12.149
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
   ws-opts:
     headers:
-      Host: cf.zhahui.de5.net
-    path: /
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: 美国+V2CROSS.COM
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  port: 50160
+  server: 129.159.156.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 8880
-  server: 172.64.151.134
-  tls: false
+  port: 443
+  server: 172.64.152.241
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: f15a5586-23f6-453f-97f5-c301b949e699
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: mute-sunset-0849.40-aeb.workers.dev
-    path: /
+      Host: ccc.010304.xyz
+    path: /fp=chrome
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 北美地区+V2CROSS.COM
+  name: 美国+加利福尼亚州洛杉矶IT7网络
   network: tcp
   port: 443
   reality-opts:
-    public-key: cYmfBXsDs1sqQ2ZBW3xsFroB7JHV_ufFT5m7ab7STnU
-    short-id: '!!str 9ab513f082d4c6e1'
-  server: 23.134.76.212
-  servername: us.dark-bit.cc
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: '!!str 051f20c2344a2dfd'
+  server: c20s5.portablesubmarines.com
+  servername: portal.citygrainla.com
   tls: false
   type: vless
-  uuid: 3cd1770d-f285-4cf4-8979-e9dd8f4be36a
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
-  network: tcp
-  port: 10829
-  server: s482.wagahaha.xyz
-  servername: u695098u764943ccs478.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 764943ccs478.gogocs.xyz
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -417,56 +394,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|3.3MB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1.1MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|2.2MB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.8MB/s
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|2.0MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|1.3MB/s
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.4MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|3.2MB/s
-  password: ''
-  port: '9002'
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
