@@ -374,14 +374,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_1|4.5MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 211.72.214.20
+- cipher: aes-256-gcm
+  name: 🇯🇵JP_1|3.8MB/s
+  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
+  port: 22073
+  server: ruot.ayucloudservices.nl
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇯🇵JP_2|5.2MB/s
+  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
+  port: '22056'
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇳🇱NL_10|3.2MB/s
+  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
+  port: '35034'
+  server: ruot.ayucloudservices.nl
   type: ss
   udp: true
