@@ -252,7 +252,7 @@ proxies:
   - h3
   - h2
   client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+  name: '美国+CloudFlare节点 #2'
   network: ws
   port: 443
   server: 162.159.135.234
@@ -294,45 +294,126 @@ proxies:
     headers:
       Host: addons.mozilla.org
     path: '%2F'
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 美国+Xerox
+  grpc-opts:
+    grpc-service-name: ''
+  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
   network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: '!!str d2061bb1'
-  server: 13.143.137.206
-  servername: ya.ru
-  tls: false
+  port: 10829
+  server: 192.227.169.125
+  servername: u695098u764943ccs478.gogocs.xyz
+  tls: true
   type: vless
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 764943ccs478.gogocs.xyz
+    path: ''
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+俄勒冈州波特兰Amazon数据中心
-  network: tcp
+  name: 美国+CloudFlare节点
+  network: ws
   port: 443
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: '!!str 21270a66'
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  tls: false
+  server: cf.877774.xyz
+  servername: jjkkll.ccwu.cc
+  tls: true
   type: vless
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+  uuid: 49ef59c5-3491-4cba-824d-0fc76133f67c
+  ws-opts:
+    headers:
+      Host: jjkkll.ccwu.cc
+    path: /anime/travel/settings/proxyip=103.170.233.213,151.241.5.88,45.95.212.117,154.31.113.22,103.53.80.24,45.63.124.130,150.230.212.247?ed=2560
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+Xerox #1'
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: '!!str d2061bb1'
-  server: gw1.edgemedia.lol
-  servername: ya.ru
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: wangcai.cf.877774.xyz
+  servername: ex3r.qzz.io
+  tls: true
+  type: vless
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  ws-opts:
+    headers:
+      Host: ex3r.qzz.io
+    path: /sg-orcl
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: 104.16.8.66
   tls: false
   type: vless
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+  uuid: b92380e2-e03f-4861-856e-7c2373b04728
+  ws-opts:
+    headers:
+      Host: dry-thunder-7f57.57-1a3.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8080
+  server: www.whoer.net
+  tls: false
+  type: vless
+  uuid: 9cc42ee7-1f5f-46f5-a8b0-2da76b6b6641
+  ws-opts:
+    headers:
+      Host: pe2ev-frosty-poetry-3d08.s67y4jl8.workers.dev
+    path: /
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.72.41
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 8880
+  server: 104.18.39.196
+  tls: false
+  type: vless
+  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+  ws-opts:
+    headers:
+      Host: red-disk-58df.153-2ce.workers.dev
+    path: /pyip
+- name: 美国+Host1Plus数据中心
+  network: tcp
+  port: 2053
+  server: test.keoplentuio.xyz
+  tls: false
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  port: 8080
+  server: 172.67.203.138
+  servername: 172.67.203.138
+  tls: false
+  type: vless
+  uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
+  ws-opts:
+    headers:
+      Host: server17.peekconfig1.workers.dev
+    path: /eyJqdW5rIjoidzY2QTdySkdOeiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  port: 8880
+  server: www.glassdoor.com
+  tls: false
+  type: vless
+  uuid: 19f4ec52-5c17-495f-803f-7b2a085b9339
+  ws-opts:
+    headers:
+      Host: still-hill-0fb2.160-42e.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -387,41 +468,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- encryption: mlkem768x25519plus.native.0rtt.3yYZRBUbOREiit9nPAtdnx2rzs0sFb9skBmEh09XfVo
-  http-opts:
-    headers:
-      Host:
-      - connectivitycheck.android.com
-    path:
-    - /
-  name: 🇺🇸US_1|1.6MB/s
-  network: http
-  port: '20018'
-  server: us-store.rovilo.ir
-  type: vless
-  udp: true
-  uuid: 5ea90a32-909e-45d2-8525-7e19c0f9d854
-  xudp: true
-- name: 🇺🇸US_2|1.9MB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.1MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.9MB/s
-  password: 6725d134ee80
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
 - name: US_speednode_0143
   port: 9002
   server: 138.199.35.198
@@ -429,84 +475,67 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_6|1.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
+- name: 🇺🇸US_2|3.5MB/s
+  port: 443
+  server: 129.153.93.183
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+- name: 🇺🇸US_3|1.6MB/s
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|1.3MB/s
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sni: 149.34.248.65
+  tls: true
+  type: http
+- name: 🇺🇸US_5|3.2MB/s
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_6|2.1MB/s
+  port: 443
+  server: 44.239.226.15
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸US_7|1.2MB/s
-  password: ''
   port: 9002
-  server: 138.199.35.203
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: 🇺🇸US_8|1.0MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_9|2.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|1.6MB/s
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|2.7MB/s
+  udp: true
+- name: 🇺🇸US_8|2.9MB/s
   port: 9002
   server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_12|3.7MB/s
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|2.2MB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|2.2MB/s
+- name: 🇺🇸US_9|2.9MB/s
   password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_15|2.7MB/s
+- name: 🇺🇸US_10|2.6MB/s
   port: 443
-  server: 23.133.176.14
+  server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_16|2.3MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|2.9MB/s
+- name: 🇺🇸US_11|1.1MB/s
   password: None
   port: 443
   server: 52.55.81.168
@@ -514,50 +543,80 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_18|1.5MB/s
-  port: 9443
-  server: 149.88.21.140
+- name: 🇺🇸US_12|1009KB/s
+  port: 443
+  server: 216.107.139.82
+  skip-cert-verify: true
+  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
+  tls: true
+  type: http
+- name: 🇺🇸US_13|1.5MB/s
+  password: None
+  port: 443
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_19|2.8MB/s
-  port: 9443
-  server: 198.44.138.27
+  username: null
+- name: 🇺🇸US_14|2.6MB/s
+  port: 443
+  server: 192.227.176.234
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_20|1.4MB/s
+- name: 🇺🇸US_15|2.5MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_16|2.6MB/s
   port: 8443
   server: 44.217.145.28
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_21|2.2MB/s
-  port: 8443
-  server: 129.212.181.253
+- name: 🇺🇸US_17|2.6MB/s
+  port: 443
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_22|1.9MB/s
-  port: 8090
-  server: 50.184.176.222
+- name: 🇺🇸US_18|1023KB/s
+  port: 443
+  server: 170.199.233.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_23|1.2MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 🇺🇸US_24|2.0MB/s
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  port: '443'
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+- encryption: none
+  name: 🇺🇸US_19|2.0MB/s
+  network: ws
+  port: '8880'
+  server: 185.148.107.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime55.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: ''
+  xudp: true
+- alpn:
+  - h3
+  down: ''
+  fingerprint: ''
+  name: 🇺🇸US_20|2.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: '20326'
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130

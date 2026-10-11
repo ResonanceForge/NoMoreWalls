@@ -1,4 +1,15 @@
 proxies:
+- encryption: none
+  name: 🇨🇦CA_5|4.0MB/s
+  network: raw
+  port: '8080'
+  server: milo.rubinaz.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
+  xudp: true
 - name: 🇨🇭191747 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
@@ -17,10 +28,11 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
-- name: 🇨🇭CH_1|1.3MB/s
-  password: None
-  port: 443
-  server: 31.7.62.50
+- name: 🇨🇭CH_1|1.1MB/s
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1024
+  server: sj8aycl6.zf-mix.9999231.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: ch-wy.9999231.xyz
+  type: anytls
+  udp: true
